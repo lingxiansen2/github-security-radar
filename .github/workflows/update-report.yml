@@ -1,0 +1,41 @@
+name: Update Security Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 1 * * *"
+    - cron: "15 13 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate latest radar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node src/index.mjs
+
+      - name: Commit updated report
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html reports/latest.json reports/latest.md
+          git commit -m "chore: update security radar"
+          git push

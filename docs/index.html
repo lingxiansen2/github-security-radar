@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Security Radar</title>
+    <style>
+      :root {
+        --bg: #f6f3eb;
+        --panel: rgba(255, 255, 255, 0.82);
+        --panel-strong: #ffffff;
+        --ink: #101b16;
+        --muted: #55615c;
+        --line: rgba(16, 27, 22, 0.1);
+        --accent: #0b6e4f;
+        --accent-soft: rgba(11, 110, 79, 0.12);
+        --hot: #d97706;
+        --shadow: 0 22px 50px rgba(28, 39, 34, 0.1);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(11, 110, 79, 0.18), transparent 28%),
+          linear-gradient(180deg, #fbfaf6 0%, var(--bg) 100%);
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .shell {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      .hero {
+        padding: 32px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background:
+          linear-gradient(135deg, rgba(11, 110, 79, 0.08), rgba(217, 119, 6, 0.08)),
+          var(--panel);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(14px);
+      }
+
+      .hero p {
+        margin: 0;
+      }
+
+      .kicker {
+        display: inline-block;
+        margin-bottom: 14px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+      }
+
+      h1 {
+        margin: 0;
+        font-family: "IBM Plex Mono", "Consolas", monospace;
+        font-size: clamp(32px, 5vw, 56px);
+        line-height: 1.02;
+      }
+
+      .hero-copy {
+        margin-top: 18px;
+        max-width: 760px;
+        color: var(--muted);
+        font-size: 16px;
+        line-height: 1.7;
+      }
+
+      .stats,
+      .query-list,
+      .summary,
+      .meta,
+      .chips,
+      .links,
+      .grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .stats {
+        margin-top: 24px;
+      }
+
+      .stat {
+        padding: 14px 16px;
+        border-radius: 18px;
+        background: var(--panel-strong);
+        border: 1px solid var(--line);
+        min-width: 160px;
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 13px;
+        color: var(--muted);
+        margin-bottom: 6px;
+      }
+
+      .stat span {
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .query-wrap {
+        margin-top: 22px;
+      }
+
+      .query-list {
+        margin-top: 12px;
+      }
+
+      .query {
+        padding: 10px 12px;
+        border-radius: 16px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.7);
+        font-family: "IBM Plex Mono", "Consolas", monospace;
+        font-size: 12px;
+        color: #204236;
+      }
+
+      .panel {
+        margin-top: 30px;
+        padding: 26px;
+        border-radius: 26px;
+        border: 1px solid var(--line);
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .panel-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: flex-end;
+        margin-bottom: 20px;
+      }
+
+      .eyebrow {
+        margin: 0 0 8px;
+        color: var(--hot);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: clamp(24px, 3vw, 34px);
+      }
+
+      .summary span {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: var(--panel-strong);
+        font-size: 13px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 18px;
+      }
+
+      .card,
+      .empty {
+        padding: 20px;
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid var(--line);
+      }
+
+      .card-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 12px;
+      }
+
+      .rank,
+      .score,
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+      }
+
+      .rank {
+        padding: 7px 11px;
+        background: #101b16;
+        color: white;
+        font-family: "IBM Plex Mono", "Consolas", monospace;
+        font-size: 12px;
+      }
+
+      .score {
+        padding: 7px 11px;
+        background: rgba(217, 119, 6, 0.1);
+        color: var(--hot);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      h3 {
+        margin: 0;
+        font-size: 20px;
+        line-height: 1.3;
+      }
+
+      .desc {
+        min-height: 66px;
+        margin: 14px 0 0;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .meta {
+        margin-top: 16px;
+        color: #29463b;
+        font-size: 13px;
+      }
+
+      .meta span {
+        padding: 8px 10px;
+        border-radius: 12px;
+        background: #f2f7f4;
+      }
+
+      .chips {
+        margin-top: 16px;
+      }
+
+      .chip {
+        padding: 7px 10px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .links {
+        margin-top: 18px;
+      }
+
+      .links a {
+        padding: 10px 14px;
+        border-radius: 14px;
+        border: 1px solid var(--line);
+        background: white;
+        font-weight: 700;
+      }
+
+      footer {
+        margin-top: 28px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      @media (max-width: 720px) {
+        .shell {
+          padding: 24px 14px 52px;
+        }
+
+        .hero,
+        .panel {
+          padding: 20px;
+          border-radius: 22px;
+        }
+
+        .panel-head {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .desc {
+          min-height: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <span class="kicker">SECURITY PROJECT RADAR</span>
+        <h1>GitHub Security Radar</h1>
+        <p class="hero-copy">
+          聚焦最近 3 天和 7 天内出现的网络安全、信息安全、渗透 / 红队、防守 / 蓝队，以及 AI 安全自动化项目。
+          排名基于 GitHub 星标表现，并叠加新鲜度加权，方便快速发现值得跟进的新仓库。
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <strong>更新时间</strong>
+            <span>2026/5/20 23:22:10</span>
+          </div>
+          <div class="stat">
+            <strong>时间窗口</strong>
+            <span>3 天 / 7 天</span>
+          </div>
+          <div class="stat">
+            <strong>数据来源</strong>
+            <span>GitHub Search API</span>
+          </div>
+        </div>
+        <div class="query-wrap">
+          <p>默认查询方向</p>
+          <div class="query-list">
+            <span class="query">通用安全 · topic:security</span><span class="query">网络安全 · topic:cybersecurity</span><span class="query">渗透 / 红队 · topic:penetration-testing</span><span class="query">防守 / 蓝队 · topic:defensive-security</span><span class="query">AI 自动化 / Skill · &quot;security automation&quot; OR &quot;ai security&quot; OR &quot;agent security&quot; OR &quot;mcp security&quot; OR &quot;security skill&quot;</span>
+          </div>
+        </div>
+      </section>
+      
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">3 DAY WINDOW</p>
+          <h2>近 3 天新项目</h2>
+        </div>
+        <div class="summary">
+          <span>候选 22</span>
+          <span>至少 2 Stars</span>
+        </div>
+      </div>
+      <div class="grid">
+        
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#1</span>
+        <span class="score">热度分 100.8</span>
+      </div>
+      <h3><a href="https://github.com/tg12/phantomstars" target="_blank" rel="noreferrer">tg12/phantomstars</a></h3>
+      <p class="desc">Automated detection and tracking of fake engagement on GitHub — daily CI, zero infrastructure</p>
+      <div class="meta">
+        <span>⭐ 36</span>
+        <span>🍴 2</span>
+        <span>Python</span>
+        <span>创建于 2026-05-17</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">AI 自动化 / Skill</span><span class="chip">防守 / 蓝队</span></div>
+      <div class="links">
+        <a href="https://github.com/tg12/phantomstars" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#2</span>
+        <span class="score">热度分 75.89</span>
+      </div>
+      <h3><a href="https://github.com/bb1nfosec/vaathi" target="_blank" rel="noreferrer">bb1nfosec/vaathi</a></h3>
+      <p class="desc">🛡️ Vaathi — India&#39;s Open Source Cybersecurity Learning OS. From zero to ethical hacker — in your language, at your pace, on your machine.</p>
+      <div class="meta">
+        <span>⭐ 9</span>
+        <span>🍴 3</span>
+        <span>Python</span>
+        <span>创建于 2026-05-17</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span></div>
+      <div class="links">
+        <a href="https://github.com/bb1nfosec/vaathi" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://vaathi-five.vercel.app" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#3</span>
+        <span class="score">热度分 72.23</span>
+      </div>
+      <h3><a href="https://github.com/maverick-hackz/Workstation" target="_blank" rel="noreferrer">maverick-hackz/Workstation</a></h3>
+      <p class="desc">Personal AppSec / pentest knowledge base — cheatsheets, payloads, scripts, and bundled tools. Authorized testing only.</p>
+      <div class="meta">
+        <span>⭐ 4</span>
+        <span>🍴 0</span>
+        <span>Shell</span>
+        <span>创建于 2026-05-19</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span><span class="chip">渗透 / 红队</span></div>
+      <div class="links">
+        <a href="https://github.com/maverick-hackz/Workstation" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#4</span>
+        <span class="score">热度分 68.6</span>
+      </div>
+      <h3><a href="https://github.com/Sid00011/zparty" target="_blank" rel="noreferrer">Sid00011/zparty</a></h3>
+      <p class="desc">Automated web penetration testing framework - 30+ vuln modules, local AI exploit engine, Tor anonymity, live browser UI. Built in Python with asyncio.</p>
+      <div class="meta">
+        <span>⭐ 3</span>
+        <span>🍴 1</span>
+        <span>Python</span>
+        <span>创建于 2026-05-19</span>
+      </div>
+      <div class="chips"><span class="chip">渗透 / 红队</span><span class="chip">AI 自动化 / Skill</span></div>
+      <div class="links">
+        <a href="https://github.com/Sid00011/zparty" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#5</span>
+        <span class="score">热度分 58.8</span>
+      </div>
+      <h3><a href="https://github.com/DatanoiseTV/practical-reverse-engineering" target="_blank" rel="noreferrer">DatanoiseTV/practical-reverse-engineering</a></h3>
+      <p class="desc">A practical handbook on reverse engineering. Covers embedded firmware (ARM Cortex-M, Xtensa/ESP32, RISC-V, 8051, MIPS), Linux userland, kernel modules and device trees, plus hardware attacks (fault injection, side-channel analysis). Uses radare2 as the primary tool example. PDF + web book.</p>
+      <div class="meta">
+        <span>⭐ 6</span>
+        <span>🍴 0</span>
+        <span>Shell</span>
+        <span>创建于 2026-05-18</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">逆向 / 恶意代码</span></div>
+      <div class="links">
+        <a href="https://github.com/DatanoiseTV/practical-reverse-engineering" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://datanoisetv.github.io/practical-reverse-engineering/" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#6</span>
+        <span class="score">热度分 57.15</span>
+      </div>
+      <h3><a href="https://github.com/2lba/LogHunter" target="_blank" rel="noreferrer">2lba/LogHunter</a></h3>
+      <p class="desc">Open-source SIEM for real-time log monitoring and threat detection</p>
+      <div class="meta">
+        <span>⭐ 3</span>
+        <span>🍴 0</span>
+        <span>Python</span>
+        <span>创建于 2026-05-18</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span><span class="chip">防守 / 蓝队</span></div>
+      <div class="links">
+        <a href="https://github.com/2lba/LogHunter" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#7</span>
+        <span class="score">热度分 55.58</span>
+      </div>
+      <h3><a href="https://github.com/MElsadany2165/PVS" target="_blank" rel="noreferrer">MElsadany2165/PVS</a></h3>
+      <p class="desc">High-performance, asynchronous network scanner and vulnerability assessment tool featuring automated service detection, NIST NVD CVE correlation, and multi-format reporting (HTML, JSON, CSV).</p>
+      <div class="meta">
+        <span>⭐ 2</span>
+        <span>🍴 0</span>
+        <span>Python</span>
+        <span>创建于 2026-05-19</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span><span class="chip">防守 / 蓝队</span><span class="chip">漏洞研究 / 攻防</span></div>
+      <div class="links">
+        <a href="https://github.com/MElsadany2165/PVS" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#8</span>
+        <span class="score">热度分 54.39</span>
+      </div>
+      <h3><a href="https://github.com/Erlang-Solutions/mix_safe" target="_blank" rel="noreferrer">Erlang-Solutions/mix_safe</a></h3>
+      <p class="desc">SAFE security checks as a mix task</p>
+      <div class="meta">
+        <span>⭐ 4</span>
+        <span>🍴 0</span>
+        <span>Elixir</span>
+        <span>创建于 2026-05-18</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">网络安全</span></div>
+      <div class="links">
+        <a href="https://github.com/Erlang-Solutions/mix_safe" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://safe-docs.erlang-solutions.com/" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#9</span>
+        <span class="score">热度分 53.31</span>
+      </div>
+      <h3><a href="https://github.com/WBChain3/repo-guard" target="_blank" rel="noreferrer">WBChain3/repo-guard</a></h3>
+      <p class="desc">Pre-clone GitHub repo scanner for malicious VS Code tasks, git hooks, and IOCs. Built after surviving a Lazarus Group recruitment scam.</p>
+      <div class="meta">
+        <span>⭐ 5</span>
+        <span>🍴 0</span>
+        <span>Python</span>
+        <span>创建于 2026-05-17</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">AI 自动化 / Skill</span></div>
+      <div class="links">
+        <a href="https://github.com/WBChain3/repo-guard" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#10</span>
+        <span class="score">热度分 51.01</span>
+      </div>
+      <h3><a href="https://github.com/TnYtCoder/SocialSeek" target="_blank" rel="noreferrer">TnYtCoder/SocialSeek</a></h3>
+      <p class="desc">Precision username verification across 100+ platforms ☠️</p>
+      <div class="meta">
+        <span>⭐ 2</span>
+        <span>🍴 0</span>
+        <span>Python</span>
+        <span>创建于 2026-05-18</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span><span class="chip">防守 / 蓝队</span></div>
+      <div class="links">
+        <a href="https://github.com/TnYtCoder/SocialSeek" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#11</span>
+        <span class="score">热度分 50.53</span>
+      </div>
+      <h3><a href="https://github.com/enzox0/pyqualify" target="_blank" rel="noreferrer">enzox0/pyqualify</a></h3>
+      <p class="desc">AI-powered QA &amp; security analysis CLI for any stack — scans web apps, source code, and APIs for vulnerabilities, quality issues, and performance problems. Powered by GPT, Claude, or Gemini.</p>
+      <div class="meta">
+        <span>⭐ 4</span>
+        <span>🍴 1</span>
+        <span>Python</span>
+        <span>创建于 2026-05-17</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">AI 自动化 / Skill</span><span class="chip">网络安全</span></div>
+      <div class="links">
+        <a href="https://github.com/enzox0/pyqualify" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://pypi.org/project/pyqualify" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#12</span>
+        <span class="score">热度分 46.18</span>
+      </div>
+      <h3><a href="https://github.com/Iankulani/vengeance_bot" target="_blank" rel="noreferrer">Iankulani/vengeance_bot</a></h3>
+      <p class="desc">Vengeance Bot is a next-generation, modular command-and-control (C2) framework designed for authorized penetration testing, controlled social engineering exercises, and adversarial simulation across modern communication ecosystems. Built for ethical hackers, red team operators, cybersecurity students, and certified defenders, Vengeance Bot bridges </p>
+      <div class="meta">
+        <span>⭐ 2</span>
+        <span>🍴 0</span>
+        <span>Python</span>
+        <span>创建于 2026-05-18</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span><span class="chip">渗透 / 红队</span><span class="chip">防守 / 蓝队</span></div>
+      <div class="links">
+        <a href="https://github.com/Iankulani/vengeance_bot" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+      </div>
+    </section>
+  
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">7 DAY WINDOW</p>
+          <h2>近 7 天新项目</h2>
+        </div>
+        <div class="summary">
+          <span>候选 21</span>
+          <span>至少 5 Stars</span>
+        </div>
+      </div>
+      <div class="grid">
+        
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#1</span>
+        <span class="score">热度分 125.04</span>
+      </div>
+      <h3><a href="https://github.com/miladrezanezhad/web-security-scanner-pro" target="_blank" rel="noreferrer">miladrezanezhad/web-security-scanner-pro</a></h3>
+      <p class="desc">Advanced web security scanner with 49 modules, evasion engine, and CVE database.</p>
+      <div class="meta">
+        <span>⭐ 47</span>
+        <span>🍴 1</span>
+        <span>Python</span>
+        <span>创建于 2026-05-13</span>
+      </div>
+      <div class="chips"><span class="chip">渗透 / 红队</span><span class="chip">漏洞研究 / 攻防</span><span class="chip">网络安全</span></div>
+      <div class="links">
+        <a href="https://github.com/miladrezanezhad/web-security-scanner-pro" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://github.com/miladrezanezhad/web-security-scanner-pro/wiki" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#2</span>
+        <span class="score">热度分 123.4</span>
+      </div>
+      <h3><a href="https://github.com/nodiuus/nocturne" target="_blank" rel="noreferrer">nodiuus/nocturne</a></h3>
+      <p class="desc">A bin2bin code virtualizer for x86-64</p>
+      <div class="meta">
+        <span>⭐ 65</span>
+        <span>🍴 7</span>
+        <span>C++</span>
+        <span>创建于 2026-05-14</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">逆向 / 恶意代码</span></div>
+      <div class="links">
+        <a href="https://github.com/nodiuus/nocturne" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#3</span>
+        <span class="score">热度分 114.98</span>
+      </div>
+      <h3><a href="https://github.com/tg12/phantomstars" target="_blank" rel="noreferrer">tg12/phantomstars</a></h3>
+      <p class="desc">Automated detection and tracking of fake engagement on GitHub — daily CI, zero infrastructure</p>
+      <div class="meta">
+        <span>⭐ 36</span>
+        <span>🍴 2</span>
+        <span>Python</span>
+        <span>创建于 2026-05-17</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">AI 自动化 / Skill</span><span class="chip">防守 / 蓝队</span></div>
+      <div class="links">
+        <a href="https://github.com/tg12/phantomstars" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#4</span>
+        <span class="score">热度分 104</span>
+      </div>
+      <h3><a href="https://github.com/strikoder/Strikoder-OSCP-Prep" target="_blank" rel="noreferrer">strikoder/Strikoder-OSCP-Prep</a></h3>
+      <p class="desc">The only OSCP preparation repository you need: notes, tooling, reporting, prep-list, methodology, and security resources.</p>
+      <div class="meta">
+        <span>⭐ 18</span>
+        <span>🍴 5</span>
+        <span>Shell</span>
+        <span>创建于 2026-05-13</span>
+      </div>
+      <div class="chips"><span class="chip">渗透 / 红队</span><span class="chip">网络安全</span></div>
+      <div class="links">
+        <a href="https://github.com/strikoder/Strikoder-OSCP-Prep" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://strikoder.com/oscp" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#5</span>
+        <span class="score">热度分 102.44</span>
+      </div>
+      <h3><a href="https://github.com/synlace/ferret" target="_blank" rel="noreferrer">synlace/ferret</a></h3>
+      <p class="desc">A modern HTTP proxy test suite.</p>
+      <div class="meta">
+        <span>⭐ 36</span>
+        <span>🍴 1</span>
+        <span>TypeScript</span>
+        <span>创建于 2026-05-14</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span></div>
+      <div class="links">
+        <a href="https://github.com/synlace/ferret" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://synlace.ai" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#6</span>
+        <span class="score">热度分 102.11</span>
+      </div>
+      <h3><a href="https://github.com/Whitehat987/apkshield-pt" target="_blank" rel="noreferrer">Whitehat987/apkshield-pt</a></h3>
+      <p class="desc">Android Penetration Testing Tool — Auto Root Detection &amp; SSL Pinning Bypass with Frida Script Generation</p>
+      <div class="meta">
+        <span>⭐ 26</span>
+        <span>🍴 0</span>
+        <span>Python</span>
+        <span>创建于 2026-05-13</span>
+      </div>
+      <div class="chips"><span class="chip">渗透 / 红队</span><span class="chip">防守 / 蓝队</span><span class="chip">逆向 / 恶意代码</span></div>
+      <div class="links">
+        <a href="https://github.com/Whitehat987/apkshield-pt" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#7</span>
+        <span class="score">热度分 97.29</span>
+      </div>
+      <h3><a href="https://github.com/h4ckologic/bughunter-ai" target="_blank" rel="noreferrer">h4ckologic/bughunter-ai</a></h3>
+      <p class="desc">Autonomous Bug Bounty Hunting Framework powered by Claude Code. 20 AI agents, state-machine orchestration, Burp Suite MCP, credential vault, LLM security track. Type &#39;hunt target.com&#39; and let AI find the bugs.</p>
+      <div class="meta">
+        <span>⭐ 20</span>
+        <span>🍴 4</span>
+        <span>TypeScript</span>
+        <span>创建于 2026-05-13</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">网络安全</span><span class="chip">AI 自动化 / Skill</span></div>
+      <div class="links">
+        <a href="https://github.com/h4ckologic/bughunter-ai" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#8</span>
+        <span class="score">热度分 91.26</span>
+      </div>
+      <h3><a href="https://github.com/bb1nfosec/vaathi" target="_blank" rel="noreferrer">bb1nfosec/vaathi</a></h3>
+      <p class="desc">🛡️ Vaathi — India&#39;s Open Source Cybersecurity Learning OS. From zero to ethical hacker — in your language, at your pace, on your machine.</p>
+      <div class="meta">
+        <span>⭐ 9</span>
+        <span>🍴 3</span>
+        <span>Python</span>
+        <span>创建于 2026-05-17</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span></div>
+      <div class="links">
+        <a href="https://github.com/bb1nfosec/vaathi" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://vaathi-five.vercel.app" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#9</span>
+        <span class="score">热度分 80.85</span>
+      </div>
+      <h3><a href="https://github.com/zencefilefendi/Operation-Molasses" target="_blank" rel="noreferrer">zencefilefendi/Operation-Molasses</a></h3>
+      <p class="desc">🍯 Operation Molasses: Zencefil Efendi&#39;s Cyber Dowry Chest. A state-actor level tactical framework featuring automated kill-chains, stealth C2, zero-day fuzzing, SCADA exploitation, Web3 smart contract draining, and Adversarial AI Poisoning.</p>
+      <div class="meta">
+        <span>⭐ 8</span>
+        <span>🍴 1</span>
+        <span>Python</span>
+        <span>创建于 2026-05-16</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span><span class="chip">AI 自动化 / Skill</span><span class="chip">渗透 / 红队</span><span class="chip">漏洞研究 / 攻防</span></div>
+      <div class="links">
+        <a href="https://github.com/zencefilefendi/Operation-Molasses" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://zencefilefendi.github.io/Operation-Molasses/" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#10</span>
+        <span class="score">热度分 79.47</span>
+      </div>
+      <h3><a href="https://github.com/NaitikSoni1417/NSphotoX" target="_blank" rel="noreferrer">NaitikSoni1417/NSphotoX</a></h3>
+      <p class="desc">NSphotoX is an advanced image OSINT &amp; metadata forensics toolkit built for ethical cybersecurity research and digital investigations. Features include EXIF analysis, GPS intelligence, OCR, hashing, AI risk analysis, HTML/PDF reports, reverse image search links, and cyberpunk-style forensic dashboards.</p>
+      <div class="meta">
+        <span>⭐ 9</span>
+        <span>🍴 0</span>
+        <span>Python</span>
+        <span>创建于 2026-05-16</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span><span class="chip">AI 自动化 / Skill</span><span class="chip">防守 / 蓝队</span></div>
+      <div class="links">
+        <a href="https://github.com/NaitikSoni1417/NSphotoX" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#11</span>
+        <span class="score">热度分 78.03</span>
+      </div>
+      <h3><a href="https://github.com/BZDaniel/RDPuzzle" target="_blank" rel="noreferrer">BZDaniel/RDPuzzle</a></h3>
+      <p class="desc">Neural network RDP cache reconstruction tool</p>
+      <div class="meta">
+        <span>⭐ 12</span>
+        <span>🍴 0</span>
+        <span>HTML</span>
+        <span>创建于 2026-05-14</span>
+      </div>
+      <div class="chips"><span class="chip">网络安全</span><span class="chip">渗透 / 红队</span></div>
+      <div class="links">
+        <a href="https://github.com/BZDaniel/RDPuzzle" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#12</span>
+        <span class="score">热度分 74.6</span>
+      </div>
+      <h3><a href="https://github.com/Coff0xc/coffee-skill" target="_blank" rel="noreferrer">Coff0xc/coffee-skill</a></h3>
+      <p class="desc">Installable Codex/AgentSkills workflow pack for dev, Agent/RAG, API/data, Office artifacts, research diagrams, and authorized security review.</p>
+      <div class="meta">
+        <span>⭐ 11</span>
+        <span>🍴 0</span>
+        <span>Python</span>
+        <span>创建于 2026-05-13</span>
+      </div>
+      <div class="chips"><span class="chip">防守 / 蓝队</span><span class="chip">AI 自动化 / Skill</span><span class="chip">网络安全</span></div>
+      <div class="links">
+        <a href="https://github.com/Coff0xc/coffee-skill" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#13</span>
+        <span class="score">热度分 70.91</span>
+      </div>
+      <h3><a href="https://github.com/DatanoiseTV/practical-reverse-engineering" target="_blank" rel="noreferrer">DatanoiseTV/practical-reverse-engineering</a></h3>
+      <p class="desc">A practical handbook on reverse engineering. Covers embedded firmware (ARM Cortex-M, Xtensa/ESP32, RISC-V, 8051, MIPS), Linux userland, kernel modules and device trees, plus hardware attacks (fault injection, side-channel analysis). Uses radare2 as the primary tool example. PDF + web book.</p>
+      <div class="meta">
+        <span>⭐ 6</span>
+        <span>🍴 0</span>
+        <span>Shell</span>
+        <span>创建于 2026-05-18</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">逆向 / 恶意代码</span></div>
+      <div class="links">
+        <a href="https://github.com/DatanoiseTV/practical-reverse-engineering" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://datanoisetv.github.io/practical-reverse-engineering/" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#14</span>
+        <span class="score">热度分 66.58</span>
+      </div>
+      <h3><a href="https://github.com/WBChain3/repo-guard" target="_blank" rel="noreferrer">WBChain3/repo-guard</a></h3>
+      <p class="desc">Pre-clone GitHub repo scanner for malicious VS Code tasks, git hooks, and IOCs. Built after surviving a Lazarus Group recruitment scam.</p>
+      <div class="meta">
+        <span>⭐ 5</span>
+        <span>🍴 0</span>
+        <span>Python</span>
+        <span>创建于 2026-05-17</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">AI 自动化 / Skill</span></div>
+      <div class="links">
+        <a href="https://github.com/WBChain3/repo-guard" target="_blank" rel="noreferrer">GitHub</a>
+        
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-top">
+        <span class="rank">#15</span>
+        <span class="score">热度分 56.8</span>
+      </div>
+      <h3><a href="https://github.com/glsec/glsec" target="_blank" rel="noreferrer">glsec/glsec</a></h3>
+      <p class="desc">GitLab CI security linter — find misconfigurations and vulnerabilities in .gitlab-ci.yml files</p>
+      <div class="meta">
+        <span>⭐ 6</span>
+        <span>🍴 0</span>
+        <span>Go</span>
+        <span>创建于 2026-05-14</span>
+      </div>
+      <div class="chips"><span class="chip">通用安全</span><span class="chip">网络安全</span></div>
+      <div class="links">
+        <a href="https://github.com/glsec/glsec" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://github.com/glsec/glsec" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </article>
+  
+      </div>
+    </section>
+  
+      <footer>
+        建议在运行时配置 <code>GITHUB_TOKEN</code>，以获得更稳定的 GitHub API 速率限制。
+      </footer>
+    </main>
+  </body>
+</html>

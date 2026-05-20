@@ -1,0 +1,13 @@
+{
+  "name": "github-security-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Periodic GitHub radar for infosec, cybersecurity, offensive/defensive security, and AI security automation projects.",
+  "scripts": {
+    "update": "node src/index.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
