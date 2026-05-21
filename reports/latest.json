@@ -1,7 +1,7 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-20T15:22:10.050Z",
-  "tokenConfigured": false,
+  "generatedAt": "2026-05-21T05:19:34.264Z",
+  "tokenConfigured": true,
   "profiles": [
     {
       "label": "通用安全",
@@ -33,59 +33,59 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-05-17",
-      "totalCandidates": 22,
+      "createdSince": "2026-05-18",
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
-          "rateLimitRemaining": "9",
-          "rateLimitReset": "1779290580"
+          "rateLimitRemaining": "29",
+          "rateLimitReset": "1779340826"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
-          "rateLimitRemaining": "8",
-          "rateLimitReset": "1779290580"
+          "fetched": 12,
+          "rateLimitRemaining": "28",
+          "rateLimitReset": "1779340826"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
-          "rateLimitRemaining": "7",
-          "rateLimitReset": "1779290580"
+          "rateLimitRemaining": "27",
+          "rateLimitReset": "1779340826"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
-          "rateLimitRemaining": "6",
-          "rateLimitReset": "1779290580"
+          "rateLimitRemaining": "26",
+          "rateLimitReset": "1779340826"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
-          "rateLimitRemaining": "5",
-          "rateLimitReset": "1779290580"
+          "rateLimitRemaining": "25",
+          "rateLimitReset": "1779340826"
         }
       ],
       "repositories": [
         {
-          "id": 1241407916,
-          "name": "phantomstars",
-          "fullName": "tg12/phantomstars",
-          "url": "https://github.com/tg12/phantomstars",
-          "homepage": "",
-          "description": "Automated detection and tracking of fake engagement on GitHub — daily CI, zero infrastructure",
-          "stars": 36,
-          "forks": 2,
+          "id": 1245135721,
+          "name": "supply-chain-guard",
+          "fullName": "pc-style/supply-chain-guard",
+          "url": "https://github.com/pc-style/supply-chain-guard",
+          "homepage": "https://github.com/pc-style/supply-chain-guard#readme",
+          "description": "Local supply-chain install gate for npm packages and VS Code extensions with Socket, Codex, and PI review support.",
+          "stars": 5,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-17T10:57:50Z",
-          "updatedAt": "2026-05-20T13:47:22Z",
+          "language": "TypeScript",
+          "createdAt": "2026-05-21T00:20:33Z",
+          "updatedAt": "2026-05-21T04:56:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,31 +97,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 100.8
+          "score": 74.73
         },
         {
-          "id": 1241420026,
-          "name": "vaathi",
-          "fullName": "bb1nfosec/vaathi",
-          "url": "https://github.com/bb1nfosec/vaathi",
-          "homepage": "https://vaathi-five.vercel.app",
-          "description": "🛡️ Vaathi — India's Open Source Cybersecurity Learning OS. From zero to ethical hacker — in your language, at your pace, on your machine.",
-          "stars": 9,
-          "forks": 3,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-05-17T11:17:25Z",
-          "updatedAt": "2026-05-20T09:39:01Z",
+          "id": 1243783050,
+          "name": "signal-scoop",
+          "fullName": "Lucastil2212/signal-scoop",
+          "url": "https://github.com/Lucastil2212/signal-scoop",
+          "homepage": "https://manticore.technology/",
+          "description": "Privacy-first Android defensive sentinel: survey nearby BLE, Wi-Fi & Bluetooth locally, save scan history, explore a knowledge graph map, and get risk guidance — no accounts, no cloud upload.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Kotlin",
+          "createdAt": "2026-05-19T16:56:23Z",
+          "updatedAt": "2026-05-21T01:19:49Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全"
+            "通用安全",
+            "逆向 / 恶意代码"
           ],
-          "score": 75.89
+          "score": 69.92
         },
         {
           "id": 1243294245,
@@ -148,7 +149,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 72.23
+          "score": 66.28
         },
         {
           "id": 1243023643,
@@ -173,7 +174,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 68.6
+          "score": 62.65
+        },
+        {
+          "id": 1244665294,
+          "name": "poc-lab",
+          "fullName": "Unclecheng-li/poc-lab",
+          "url": "https://github.com/Unclecheng-li/poc-lab",
+          "homepage": "",
+          "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-05-20T13:31:52Z",
+          "updatedAt": "2026-05-21T05:14:08Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 60.8
         },
         {
           "id": 1242042254,
@@ -198,7 +224,32 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 58.8
+          "score": 54
+        },
+        {
+          "id": 1243757425,
+          "name": "Phishing_Simulator",
+          "fullName": "4reeb-5yed/Phishing_Simulator",
+          "url": "https://github.com/4reeb-5yed/Phishing_Simulator",
+          "homepage": "https://fish-sail.onrender.com",
+          "description": "AI-powered phishing simulation and cybersecurity awareness platform built with React, Express, MongoDB, and Gemini API integration.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-05-19T16:27:50Z",
+          "updatedAt": "2026-05-21T02:50:14Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 52.58
         },
         {
           "id": 1242919966,
@@ -214,6 +265,34 @@
           "createdAt": "2026-05-18T22:10:30Z",
           "updatedAt": "2026-05-19T05:21:32Z",
           "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 51.71
+        },
+        {
+          "id": 1243551400,
+          "name": "security-headers",
+          "fullName": "HailBytes/security-headers",
+          "url": "https://github.com/HailBytes/security-headers",
+          "homepage": "",
+          "description": "Analyze HTTP security headers for your web application. A-F grading, per-header findings, and remediation — as a library or CLI.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-05-19T12:53:47Z",
+          "updatedAt": "2026-05-20T17:50:24Z",
+          "matchedProfiles": [
             "网络安全"
           ],
           "profileWeights": [
@@ -221,9 +300,9 @@
           ],
           "tags": [
             "网络安全",
-            "防守 / 蓝队"
+            "AI 自动化 / Skill"
           ],
-          "score": 57.15
+          "score": 51.19
         },
         {
           "id": 1243410806,
@@ -249,7 +328,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 55.58
+          "score": 50.14
         },
         {
           "id": 1242472674,
@@ -274,32 +353,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 54.39
-        },
-        {
-          "id": 1241868439,
-          "name": "repo-guard",
-          "fullName": "WBChain3/repo-guard",
-          "url": "https://github.com/WBChain3/repo-guard",
-          "homepage": "",
-          "description": "Pre-clone GitHub repo scanner for malicious VS Code tasks, git hooks, and IOCs. Built after surviving a Lazarus Group recruitment scam.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-17T23:03:50Z",
-          "updatedAt": "2026-05-19T19:47:28Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 53.31
+          "score": 49.35
         },
         {
           "id": 1242929574,
@@ -324,59 +378,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 51.01
-        },
-        {
-          "id": 1241300667,
-          "name": "pyqualify",
-          "fullName": "enzox0/pyqualify",
-          "url": "https://github.com/enzox0/pyqualify",
-          "homepage": "https://pypi.org/project/pyqualify",
-          "description": "AI-powered QA & security analysis CLI for any stack — scans web apps, source code, and APIs for vulnerabilities, quality issues, and performance problems. Powered by GPT, Claude, or Gemini.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-17T07:52:38Z",
-          "updatedAt": "2026-05-19T11:10:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 50.53
-        },
-        {
-          "id": 1242310132,
-          "name": "vengeance_bot",
-          "fullName": "Iankulani/vengeance_bot",
-          "url": "https://github.com/Iankulani/vengeance_bot",
-          "homepage": "",
-          "description": "Vengeance Bot is a next-generation, modular command-and-control (C2) framework designed for authorized penetration testing, controlled social engineering exercises, and adversarial simulation across modern communication ecosystems. Built for ethical hackers, red team operators, cybersecurity students, and certified defenders, Vengeance Bot bridges ",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-18T10:04:39Z",
-          "updatedAt": "2026-05-19T21:23:35Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 46.18
+          "score": 45.57
         }
       ]
     },
@@ -388,72 +390,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-05-13",
-      "totalCandidates": 21,
+      "createdSince": "2026-05-14",
+      "totalCandidates": 17,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
-          "rateLimitRemaining": "4",
-          "rateLimitReset": "1779290580"
+          "rateLimitRemaining": "24",
+          "rateLimitReset": "1779340826"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
-          "rateLimitRemaining": "3",
-          "rateLimitReset": "1779290580"
+          "fetched": 5,
+          "rateLimitRemaining": "23",
+          "rateLimitReset": "1779340826"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
-          "rateLimitRemaining": "2",
-          "rateLimitReset": "1779290580"
+          "fetched": 0,
+          "rateLimitRemaining": "22",
+          "rateLimitReset": "1779340826"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
-          "rateLimitRemaining": "1",
-          "rateLimitReset": "1779290580"
+          "fetched": 0,
+          "rateLimitRemaining": "21",
+          "rateLimitReset": "1779340826"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
-          "rateLimitRemaining": "0",
-          "rateLimitReset": "1779290580"
+          "rateLimitRemaining": "20",
+          "rateLimitReset": "1779340826"
         }
       ],
       "repositories": [
-        {
-          "id": 1238139023,
-          "name": "web-security-scanner-pro",
-          "fullName": "miladrezanezhad/web-security-scanner-pro",
-          "url": "https://github.com/miladrezanezhad/web-security-scanner-pro",
-          "homepage": "https://github.com/miladrezanezhad/web-security-scanner-pro/wiki",
-          "description": "Advanced web security scanner with 49 modules, evasion engine, and CVE database.",
-          "stars": 47,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-13T21:11:17Z",
-          "updatedAt": "2026-05-20T09:09:34Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 125.04
-        },
         {
           "id": 1238426733,
           "name": "nocturne",
@@ -461,12 +437,12 @@
           "url": "https://github.com/nodiuus/nocturne",
           "homepage": "",
           "description": "A bin2bin code virtualizer for x86-64",
-          "stars": 65,
+          "stars": 68,
           "forks": 7,
           "openIssues": 0,
           "language": "C++",
           "createdAt": "2026-05-14T05:38:29Z",
-          "updatedAt": "2026-05-20T14:32:08Z",
+          "updatedAt": "2026-05-20T23:30:53Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -477,7 +453,7 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 123.4
+          "score": 122.38
         },
         {
           "id": 1241407916,
@@ -486,12 +462,12 @@
           "url": "https://github.com/tg12/phantomstars",
           "homepage": "",
           "description": "Automated detection and tracking of fake engagement on GitHub — daily CI, zero infrastructure",
-          "stars": 36,
+          "stars": 38,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-17T10:57:50Z",
-          "updatedAt": "2026-05-20T13:47:22Z",
+          "updatedAt": "2026-05-20T23:15:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -503,32 +479,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 114.98
-        },
-        {
-          "id": 1237661197,
-          "name": "Strikoder-OSCP-Prep",
-          "fullName": "strikoder/Strikoder-OSCP-Prep",
-          "url": "https://github.com/strikoder/Strikoder-OSCP-Prep",
-          "homepage": "https://strikoder.com/oscp",
-          "description": "The only OSCP preparation repository you need: notes, tooling, reporting, prep-list, methodology, and security resources.",
-          "stars": 18,
-          "forks": 5,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-13T11:43:30Z",
-          "updatedAt": "2026-05-20T04:21:26Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 104
+          "score": 114.15
         },
         {
           "id": 1239006464,
@@ -537,12 +488,12 @@
           "url": "https://github.com/synlace/ferret",
           "homepage": "https://synlace.ai",
           "description": "A modern HTTP proxy test suite.",
-          "stars": 36,
-          "forks": 1,
+          "stars": 37,
+          "forks": 2,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-05-14T17:05:20Z",
-          "updatedAt": "2026-05-20T09:47:23Z",
+          "updatedAt": "2026-05-20T18:40:49Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -552,61 +503,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 102.44
-        },
-        {
-          "id": 1237379764,
-          "name": "apkshield-pt",
-          "fullName": "Whitehat987/apkshield-pt",
-          "url": "https://github.com/Whitehat987/apkshield-pt",
-          "homepage": "",
-          "description": "Android Penetration Testing Tool — Auto Root Detection & SSL Pinning Bypass with Frida Script Generation",
-          "stars": 26,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-13T06:08:06Z",
-          "updatedAt": "2026-05-18T18:59:57Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 102.11
-        },
-        {
-          "id": 1238033134,
-          "name": "bughunter-ai",
-          "fullName": "h4ckologic/bughunter-ai",
-          "url": "https://github.com/h4ckologic/bughunter-ai",
-          "homepage": "",
-          "description": "Autonomous Bug Bounty Hunting Framework powered by Claude Code. 20 AI agents, state-machine orchestration, Burp Suite MCP, credential vault, LLM security track. Type 'hunt target.com' and let AI find the bugs.",
-          "stars": 20,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-05-13T18:44:20Z",
-          "updatedAt": "2026-05-19T20:45:49Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 97.29
+          "score": 103.3
         },
         {
           "id": 1241420026,
@@ -615,12 +512,12 @@
           "url": "https://github.com/bb1nfosec/vaathi",
           "homepage": "https://vaathi-five.vercel.app",
           "description": "🛡️ Vaathi — India's Open Source Cybersecurity Learning OS. From zero to ethical hacker — in your language, at your pace, on your machine.",
-          "stars": 9,
-          "forks": 3,
+          "stars": 11,
+          "forks": 4,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-05-17T11:17:25Z",
-          "updatedAt": "2026-05-20T09:39:01Z",
+          "updatedAt": "2026-05-21T01:41:48Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -630,7 +527,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 91.26
+          "score": 95
         },
         {
           "id": 1240773752,
@@ -657,7 +554,32 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 80.85
+          "score": 78.52
+        },
+        {
+          "id": 1243783050,
+          "name": "signal-scoop",
+          "fullName": "Lucastil2212/signal-scoop",
+          "url": "https://github.com/Lucastil2212/signal-scoop",
+          "homepage": "https://manticore.technology/",
+          "description": "Privacy-first Android defensive sentinel: survey nearby BLE, Wi-Fi & Bluetooth locally, save scan history, explore a knowledge graph map, and get risk guidance — no accounts, no cloud upload.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Kotlin",
+          "createdAt": "2026-05-19T16:56:23Z",
+          "updatedAt": "2026-05-21T01:19:49Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 77.43
         },
         {
           "id": 1240839835,
@@ -683,7 +605,33 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 79.47
+          "score": 77.13
+        },
+        {
+          "id": 1245135721,
+          "name": "supply-chain-guard",
+          "fullName": "pc-style/supply-chain-guard",
+          "url": "https://github.com/pc-style/supply-chain-guard",
+          "homepage": "https://github.com/pc-style/supply-chain-guard#readme",
+          "description": "Local supply-chain install gate for npm packages and VS Code extensions with Socket, Codex, and PI review support.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-05-21T00:20:33Z",
+          "updatedAt": "2026-05-21T04:56:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 75.76
         },
         {
           "id": 1238917013,
@@ -697,7 +645,7 @@
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-05-14T15:22:00Z",
-          "updatedAt": "2026-05-20T13:14:44Z",
+          "updatedAt": "2026-05-21T00:20:49Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -708,33 +656,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 78.03
-        },
-        {
-          "id": 1237418222,
-          "name": "coffee-skill",
-          "fullName": "Coff0xc/coffee-skill",
-          "url": "https://github.com/Coff0xc/coffee-skill",
-          "homepage": "",
-          "description": "Installable Codex/AgentSkills workflow pack for dev, Agent/RAG, API/data, Office artifacts, research diagrams, and authorized security review.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-13T06:58:59Z",
-          "updatedAt": "2026-05-18T19:26:54Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 74.6
+          "score": 75.69
         },
         {
           "id": 1242042254,
@@ -759,21 +681,21 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 70.91
+          "score": 68.75
         },
         {
-          "id": 1241868439,
-          "name": "repo-guard",
-          "fullName": "WBChain3/repo-guard",
-          "url": "https://github.com/WBChain3/repo-guard",
-          "homepage": "",
-          "description": "Pre-clone GitHub repo scanner for malicious VS Code tasks, git hooks, and IOCs. Built after surviving a Lazarus Group recruitment scam.",
-          "stars": 5,
+          "id": 1239817146,
+          "name": "ALNUR",
+          "fullName": "Threads-Beams/ALNUR",
+          "url": "https://github.com/Threads-Beams/ALNUR",
+          "homepage": "https://www.alnur.net",
+          "description": "ALNUR — Open-source end-to-end security vulnerability scanner. Detects CVEs, hardcoded secrets, architecture flaws, and port risks across Node.js, Python, PHP, Go, Rust, Java, .NET, Ruby and    more",
+          "stars": 6,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-05-17T23:03:50Z",
-          "updatedAt": "2026-05-19T19:47:28Z",
+          "createdAt": "2026-05-15T13:24:01Z",
+          "updatedAt": "2026-05-21T05:00:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -782,9 +704,10 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "漏洞研究 / 攻防",
+            "网络安全"
           ],
-          "score": 66.58
+          "score": 58.96
         },
         {
           "id": 1238611883,
@@ -795,10 +718,10 @@
           "description": "GitLab CI security linter — find misconfigurations and vulnerabilities in .gitlab-ci.yml files",
           "stars": 6,
           "forks": 0,
-          "openIssues": 25,
+          "openIssues": 28,
           "language": "Go",
           "createdAt": "2026-05-14T09:28:35Z",
-          "updatedAt": "2026-05-20T13:00:34Z",
+          "updatedAt": "2026-05-20T22:09:57Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -809,7 +732,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 56.8
+          "score": 54.64
         }
       ]
     }
