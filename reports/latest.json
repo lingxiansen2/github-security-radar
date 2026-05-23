@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-22T15:58:03.168Z",
+  "generatedAt": "2026-05-23T04:52:12.110Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-05-19",
-      "totalCandidates": 27,
+      "createdSince": "2026-05-20",
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 11,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 8,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Unclecheng-li/poc-lab",
           "homepage": "",
           "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
-          "stars": 198,
-          "forks": 30,
+          "stars": 236,
+          "forks": 43,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-05-20T13:31:52Z",
-          "updatedAt": "2026-05-22T15:56:19Z",
+          "updatedAt": "2026-05-23T04:46:01Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -96,7 +96,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 178.41
+          "score": 180.44
         },
         {
           "id": 1245295066,
@@ -105,12 +105,12 @@
           "url": "https://github.com/InMyMine7/Mephisto",
           "homepage": "",
           "description": "A comprehensive WordPress vulnerability scanner and exploitation framework for authorized penetration testing. This tool automatically detects and exploits multiple WordPress security vulnerabilities (CVEs) to help security professionals identify and patch weaknesses.",
-          "stars": 25,
-          "forks": 2,
+          "stars": 31,
+          "forks": 4,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-21T05:06:16Z",
-          "updatedAt": "2026-05-22T15:56:12Z",
+          "updatedAt": "2026-05-23T02:56:22Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -122,7 +122,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 124.3
+          "score": 128.43
         },
         {
           "id": 1245135721,
@@ -136,7 +136,7 @@
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-05-21T00:20:33Z",
-          "updatedAt": "2026-05-21T19:52:26Z",
+          "updatedAt": "2026-05-23T04:18:35Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -148,87 +148,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 99.28
-        },
-        {
-          "id": 1246551032,
-          "name": "layer7-bypass-methods",
-          "fullName": "DevAlexPro/layer7-bypass-methods",
-          "url": "https://github.com/DevAlexPro/layer7-bypass-methods",
-          "homepage": "https://mrstresser.com",
-          "description": "Comprehensive research on Layer 7 HTTP HTTPS DDoS bypass methods - Cloudflare bypass, OVH bypass, TLS fingerprint spoofing JA3 JA4, HTTP2 AKAMAI fingerprint, WAF evasion for security researchers and penetration testers.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-22T09:57:28Z",
-          "updatedAt": "2026-05-22T10:12:12Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 70.6
-        },
-        {
-          "id": 1246550890,
-          "name": "free-ip-stresser",
-          "fullName": "DevAlexPro/free-ip-stresser",
-          "url": "https://github.com/DevAlexPro/free-ip-stresser",
-          "homepage": "https://mrstresser.com",
-          "description": "Free IP stresser and network stress testing tools - UDP flood, HTTP flood, TCP stress, Slowloris simulators in Python. For enterprise-grade testing with Cloudflare and OVH bypass visit mrstresser.com",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-22T09:57:16Z",
-          "updatedAt": "2026-05-22T10:12:04Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 70.6
-        },
-        {
-          "id": 1246551176,
-          "name": "ddos-protection-checker",
-          "fullName": "DevAlexPro/ddos-protection-checker",
-          "url": "https://github.com/DevAlexPro/ddos-protection-checker",
-          "homepage": "https://mrstresser.com",
-          "description": "Scan and analyze your server DDoS protection setup - detects Cloudflare Akamai AWS CDN, checks TLS config, HTTP security headers, rate limiting and bot protection. Outputs 0-100 protection score. Test with real attacks at mrstresser.com",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-22T09:57:40Z",
-          "updatedAt": "2026-05-22T10:11:58Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 70.6
+          "score": 94.62
         },
         {
           "id": 1246551477,
@@ -256,35 +176,141 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 70.6
+          "score": 65.11
         },
         {
-          "id": 1243023643,
-          "name": "zparty",
-          "fullName": "Sid00011/zparty",
-          "url": "https://github.com/Sid00011/zparty",
-          "homepage": "",
-          "description": "Automated web penetration testing framework - 30+ vuln modules, local AI exploit engine, Tor anonymity, live browser UI. Built in Python with asyncio.",
-          "stars": 4,
-          "forks": 2,
+          "id": 1246551032,
+          "name": "layer7-bypass-methods",
+          "fullName": "DevAlexPro/layer7-bypass-methods",
+          "url": "https://github.com/DevAlexPro/layer7-bypass-methods",
+          "homepage": "https://mrstresser.com",
+          "description": "Comprehensive research on Layer 7 HTTP HTTPS DDoS bypass methods - Cloudflare bypass, OVH bypass, TLS fingerprint spoofing JA3 JA4, HTTP2 AKAMAI fingerprint, WAF evasion for security researchers and penetration testers.",
+          "stars": 2,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-05-19T01:32:34Z",
-          "updatedAt": "2026-05-22T13:05:10Z",
+          "createdAt": "2026-05-22T09:57:28Z",
+          "updatedAt": "2026-05-22T10:12:12Z",
           "matchedProfiles": [
-            "通用安全",
+            "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
+            1.08,
             1.18
           ],
           "tags": [
-            "通用安全",
+            "网络安全",
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 62.39
+          "score": 65.1
+        },
+        {
+          "id": 1246550890,
+          "name": "free-ip-stresser",
+          "fullName": "DevAlexPro/free-ip-stresser",
+          "url": "https://github.com/DevAlexPro/free-ip-stresser",
+          "homepage": "https://mrstresser.com",
+          "description": "Free IP stresser and network stress testing tools - UDP flood, HTTP flood, TCP stress, Slowloris simulators in Python. For enterprise-grade testing with Cloudflare and OVH bypass visit mrstresser.com",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-22T09:57:16Z",
+          "updatedAt": "2026-05-22T10:12:04Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 65.1
+        },
+        {
+          "id": 1246551176,
+          "name": "ddos-protection-checker",
+          "fullName": "DevAlexPro/ddos-protection-checker",
+          "url": "https://github.com/DevAlexPro/ddos-protection-checker",
+          "homepage": "https://mrstresser.com",
+          "description": "Scan and analyze your server DDoS protection setup - detects Cloudflare Akamai AWS CDN, checks TLS config, HTTP security headers, rate limiting and bot protection. Outputs 0-100 protection score. Test with real attacks at mrstresser.com",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-22T09:57:40Z",
+          "updatedAt": "2026-05-22T10:11:58Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 65.1
+        },
+        {
+          "id": 1246150807,
+          "name": "L07_WIRED",
+          "fullName": "pdro-h/L07_WIRED",
+          "url": "https://github.com/pdro-h/L07_WIRED",
+          "homepage": "",
+          "description": "A home lab simulating a small corporate infrastructure (L07_CORP) for pentesting practice, featuring vulnerable services, a CTF challenge, and real-time monitoring with Wazuh SIEM.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-21T23:29:46Z",
+          "updatedAt": "2026-05-23T03:43:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 61.76
+        },
+        {
+          "id": 1245938648,
+          "name": "envexa",
+          "fullName": "KurutoDenzeru/envexa",
+          "url": "https://github.com/KurutoDenzeru/envexa",
+          "homepage": "",
+          "description": "🚧 Envexa scans local developer tooling health from one terminal dashboard. It focuses on Project Tooling signals like dependencies, security, audit, and cleanup so you can spot drift fast.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Rust",
+          "createdAt": "2026-05-21T17:56:07Z",
+          "updatedAt": "2026-05-22T23:50:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 55.18
         },
         {
           "id": 1245551879,
@@ -308,21 +334,21 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 60.57
+          "score": 55.08
         },
         {
-          "id": 1243485834,
-          "name": "cataam",
-          "fullName": "cataam-security/cataam",
-          "url": "https://github.com/cataam-security/cataam",
+          "id": 1244651774,
+          "name": "api-key-leak-checker-leop",
+          "fullName": "leo-cheung-itlger/api-key-leak-checker-leop",
+          "url": "https://github.com/leo-cheung-itlger/api-key-leak-checker-leop",
           "homepage": "",
-          "description": "Open-source GRC tooling — CIS hardening scripts, CVE scanners, ISO 27001 templates, and compliance knowledge. Maintained by Cataam.",
-          "stars": 8,
+          "description": "A Codex skill and pre-publish gate for checking API key leaks before open-sourcing projects.",
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-19T11:40:10Z",
-          "updatedAt": "2026-05-22T09:13:49Z",
+          "language": "PowerShell",
+          "createdAt": "2026-05-20T13:17:22Z",
+          "updatedAt": "2026-05-23T04:20:29Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -331,25 +357,23 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防",
-            "网络安全"
+            "AI 自动化 / Skill"
           ],
-          "score": 59.79
+          "score": 44.84
         },
         {
-          "id": 1243783050,
-          "name": "signal-scoop",
-          "fullName": "Lucastil2212/signal-scoop",
-          "url": "https://github.com/Lucastil2212/signal-scoop",
-          "homepage": "https://manticore.technology/",
-          "description": "Privacy-first Android defensive sentinel: survey nearby BLE, Wi-Fi & Bluetooth locally, save scan history, explore a knowledge graph map, and get risk guidance — no accounts, no cloud upload.",
-          "stars": 7,
+          "id": 1244379015,
+          "name": "agent-policykit",
+          "fullName": "sidrat2612/agent-policykit",
+          "url": "https://github.com/sidrat2612/agent-policykit",
+          "homepage": "https://pypi.org/project/agent-policykit/",
+          "description": "For teams using multiple AI coding agents: detect the repo stack, generate Copilot, Claude, Cursor, Codex, Aider, and Gemini instruction files from one policy, and update them safely.",
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
-          "language": "Kotlin",
-          "createdAt": "2026-05-19T16:56:23Z",
-          "updatedAt": "2026-05-21T11:25:37Z",
+          "language": "HTML",
+          "createdAt": "2026-05-20T07:59:22Z",
+          "updatedAt": "2026-05-22T11:47:20Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -358,36 +382,9 @@
           ],
           "tags": [
             "通用安全",
-            "逆向 / 恶意代码"
+            "AI 自动化 / Skill"
           ],
-          "score": 57.41
-        },
-        {
-          "id": 1243294245,
-          "name": "Workstation",
-          "fullName": "maverick-hackz/Workstation",
-          "url": "https://github.com/maverick-hackz/Workstation",
-          "homepage": "",
-          "description": "Personal AppSec / pentest knowledge base — cheatsheets, payloads, scripts, and bundled tools. Authorized testing only.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-19T08:01:14Z",
-          "updatedAt": "2026-05-19T14:54:42Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 54.9
+          "score": 42.92
         }
       ]
     },
@@ -399,43 +396,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-05-15",
-      "totalCandidates": 19,
+      "createdSince": "2026-05-16",
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
+          "fetched": 5,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1779465536"
+          "rateLimitReset": "1779511984"
         }
       ],
       "repositories": [
@@ -446,12 +443,12 @@
           "url": "https://github.com/Unclecheng-li/poc-lab",
           "homepage": "",
           "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
-          "stars": 198,
-          "forks": 30,
+          "stars": 236,
+          "forks": 43,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-05-20T13:31:52Z",
-          "updatedAt": "2026-05-22T15:56:19Z",
+          "updatedAt": "2026-05-23T04:46:01Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -462,7 +459,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 189.65
+          "score": 194.55
         },
         {
           "id": 1242884363,
@@ -471,12 +468,12 @@
           "url": "https://github.com/KatrielMoses/MailAccess",
           "homepage": "",
           "description": "Free email OSINT tool, 800+ platforms, identity clustering, breach detection. No API keys required. pip install mailaccess",
-          "stars": 44,
-          "forks": 1,
+          "stars": 55,
+          "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-18T21:08:45Z",
-          "updatedAt": "2026-05-22T14:39:16Z",
+          "updatedAt": "2026-05-23T01:22:53Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -491,7 +488,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 136.13
+          "score": 145.07
         },
         {
           "id": 1245295066,
@@ -500,12 +497,12 @@
           "url": "https://github.com/InMyMine7/Mephisto",
           "homepage": "",
           "description": "A comprehensive WordPress vulnerability scanner and exploitation framework for authorized penetration testing. This tool automatically detects and exploits multiple WordPress security vulnerabilities (CVEs) to help security professionals identify and patch weaknesses.",
-          "stars": 25,
-          "forks": 2,
+          "stars": 31,
+          "forks": 4,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-21T05:06:16Z",
-          "updatedAt": "2026-05-22T15:56:12Z",
+          "updatedAt": "2026-05-23T02:56:22Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -517,7 +514,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 132.79
+          "score": 140.06
         },
         {
           "id": 1241407916,
@@ -543,7 +540,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 110.06
+          "score": 108.06
         },
         {
           "id": 1245135721,
@@ -557,7 +554,7 @@
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-05-21T00:20:33Z",
-          "updatedAt": "2026-05-21T19:52:26Z",
+          "updatedAt": "2026-05-23T04:18:35Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -569,7 +566,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 107.46
+          "score": 105.46
         },
         {
           "id": 1241420026,
@@ -579,8 +576,8 @@
           "homepage": "https://vaathi-five.vercel.app",
           "description": "🛡️ Vaathi — India's Open Source Cybersecurity Learning OS. From zero to ethical hacker — in your language, at your pace, on your machine.",
           "stars": 17,
-          "forks": 4,
-          "openIssues": 1,
+          "forks": 5,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-05-17T11:17:25Z",
           "updatedAt": "2026-05-22T14:27:17Z",
@@ -593,7 +590,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 99.85
+          "score": 98.83
         },
         {
           "id": 1243485834,
@@ -620,7 +617,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 73.99
+          "score": 71.99
         },
         {
           "id": 1240773752,
@@ -647,7 +644,32 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 72.73
+          "score": 70.57
+        },
+        {
+          "id": 1243783050,
+          "name": "signal-scoop",
+          "fullName": "Lucastil2212/signal-scoop",
+          "url": "https://github.com/Lucastil2212/signal-scoop",
+          "homepage": "https://manticore.technology/",
+          "description": "Privacy-first Android defensive sentinel: survey nearby BLE, Wi-Fi & Bluetooth locally, save scan history, explore a knowledge graph map, and get risk guidance — no accounts, no cloud upload.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Kotlin",
+          "createdAt": "2026-05-19T16:56:23Z",
+          "updatedAt": "2026-05-21T11:25:37Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 70.07
         },
         {
           "id": 1240839835,
@@ -673,7 +695,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 71.34
+          "score": 69.19
         },
         {
           "id": 1242042254,
@@ -698,33 +720,7 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 69.19
-        },
-        {
-          "id": 1239817146,
-          "name": "ALNUR",
-          "fullName": "Threads-Beams/ALNUR",
-          "url": "https://github.com/Threads-Beams/ALNUR",
-          "homepage": "https://www.alnur.net",
-          "description": "ALNUR — Open-source end-to-end security vulnerability scanner. Detects CVEs, hardcoded secrets, architecture flaws, and port risks across Node.js, Python, PHP, Go, Rust, Java, .NET, Ruby and    more",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-15T13:24:01Z",
-          "updatedAt": "2026-05-22T15:23:40Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 64.53
+          "score": 67.19
         }
       ]
     }
