@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-23T04:52:12.110Z",
+  "generatedAt": "2026-05-23T14:44:15.056Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-05-20",
-      "totalCandidates": 24,
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Unclecheng-li/poc-lab",
           "homepage": "",
           "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
-          "stars": 236,
-          "forks": 43,
+          "stars": 281,
+          "forks": 53,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-05-20T13:31:52Z",
-          "updatedAt": "2026-05-23T04:46:01Z",
+          "updatedAt": "2026-05-23T14:30:57Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -96,7 +96,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 180.44
+          "score": 183.19
         },
         {
           "id": 1245295066,
@@ -105,12 +105,12 @@
           "url": "https://github.com/InMyMine7/Mephisto",
           "homepage": "",
           "description": "A comprehensive WordPress vulnerability scanner and exploitation framework for authorized penetration testing. This tool automatically detects and exploits multiple WordPress security vulnerabilities (CVEs) to help security professionals identify and patch weaknesses.",
-          "stars": 31,
-          "forks": 4,
+          "stars": 38,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-21T05:06:16Z",
-          "updatedAt": "2026-05-23T02:56:22Z",
+          "updatedAt": "2026-05-23T12:59:30Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -122,7 +122,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 128.43
+          "score": 132.41
         },
         {
           "id": 1245135721,
@@ -136,7 +136,7 @@
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-05-21T00:20:33Z",
-          "updatedAt": "2026-05-23T04:18:35Z",
+          "updatedAt": "2026-05-23T05:07:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -148,35 +148,86 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 94.62
+          "score": 91.06
         },
         {
-          "id": 1246551477,
-          "name": "cloudflare-bypass",
-          "fullName": "DevAlexPro/cloudflare-bypass",
-          "url": "https://github.com/DevAlexPro/cloudflare-bypass",
-          "homepage": "https://mrstresser.com",
-          "description": "Cloudflare WAF and Turnstile bypass research - TLS fingerprint spoofing JA3 JA4, HTTP2 AKAMAI fingerprint, puppeteer-real-browser Turnstile auto-solver and curl-cffi browser impersonation for security researchers. Production bypass at mrstresser.com",
-          "stars": 2,
+          "id": 1247415528,
+          "name": "Bug-Bounty-Arsenal-v.3",
+          "fullName": "FoxVR-sudo/Bug-Bounty-Arsenal-v.3",
+          "url": "https://github.com/FoxVR-sudo/Bug-Bounty-Arsenal-v.3",
+          "homepage": "https://bugbounty-arsenal.net",
+          "description": "Authorized web application security testing platform built with Django, React, Celery, and Redis.",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-05-22T09:58:05Z",
-          "updatedAt": "2026-05-22T10:11:50Z",
+          "createdAt": "2026-05-23T09:32:03Z",
+          "updatedAt": "2026-05-23T13:25:00Z",
           "matchedProfiles": [
-            "网络安全",
+            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08,
+            1,
             1.18
           ],
           "tags": [
-            "网络安全",
+            "通用安全",
             "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 83.37
+        },
+        {
+          "id": 1247497895,
+          "name": "fail2ban-telegram",
+          "fullName": "Oni-Wan-Shinobi/fail2ban-telegram",
+          "url": "https://github.com/Oni-Wan-Shinobi/fail2ban-telegram",
+          "homepage": "",
+          "description": "Automatic brute-force protection with Telegram alerts. ",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-05-23T11:54:04Z",
+          "updatedAt": "2026-05-23T13:39:27Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.11
+          "score": 66.77
+        },
+        {
+          "id": 1247045210,
+          "name": "email-osint-pattern",
+          "fullName": "hellstation/email-osint-pattern",
+          "url": "https://github.com/hellstation/email-osint-pattern",
+          "homepage": "",
+          "description": "Structured methodology for email-based OSINT investigations. Covers SMTP validation, breach analysis, Google Dorking, account enumeration & OPSEC workflows.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-22T20:57:12Z",
+          "updatedAt": "2026-05-23T08:32:26Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 66.28
         },
         {
           "id": 1246551032,
@@ -204,7 +255,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 65.1
+          "score": 60.9
         },
         {
           "id": 1246550890,
@@ -231,7 +282,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 65.1
+          "score": 60.9
         },
         {
           "id": 1246551176,
@@ -259,7 +310,35 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 65.1
+          "score": 60.9
+        },
+        {
+          "id": 1246551477,
+          "name": "cloudflare-bypass",
+          "fullName": "DevAlexPro/cloudflare-bypass",
+          "url": "https://github.com/DevAlexPro/cloudflare-bypass",
+          "homepage": "https://mrstresser.com",
+          "description": "Cloudflare WAF and Turnstile bypass research - TLS fingerprint spoofing JA3 JA4, HTTP2 AKAMAI fingerprint, puppeteer-real-browser Turnstile auto-solver and curl-cffi browser impersonation for security researchers. Production bypass at mrstresser.com",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-22T09:58:05Z",
+          "updatedAt": "2026-05-22T10:11:50Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 60.9
         },
         {
           "id": 1246150807,
@@ -285,7 +364,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 61.76
+          "score": 57.91
         },
         {
           "id": 1245938648,
@@ -310,81 +389,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 55.18
-        },
-        {
-          "id": 1245551879,
-          "name": "BBPTS",
-          "fullName": "Developer-Army/BBPTS",
-          "url": "https://github.com/Developer-Army/BBPTS",
-          "homepage": "",
-          "description": "This is a bug bounty tool",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-21T10:25:55Z",
-          "updatedAt": "2026-05-22T11:53:25Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 55.08
-        },
-        {
-          "id": 1244651774,
-          "name": "api-key-leak-checker-leop",
-          "fullName": "leo-cheung-itlger/api-key-leak-checker-leop",
-          "url": "https://github.com/leo-cheung-itlger/api-key-leak-checker-leop",
-          "homepage": "",
-          "description": "A Codex skill and pre-publish gate for checking API key leaks before open-sourcing projects.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-05-20T13:17:22Z",
-          "updatedAt": "2026-05-23T04:20:29Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 44.84
-        },
-        {
-          "id": 1244379015,
-          "name": "agent-policykit",
-          "fullName": "sidrat2612/agent-policykit",
-          "url": "https://github.com/sidrat2612/agent-policykit",
-          "homepage": "https://pypi.org/project/agent-policykit/",
-          "description": "For teams using multiple AI coding agents: detect the repo stack, generate Copilot, Claude, Cursor, Codex, Aider, and Gemini instruction files from one policy, and update them safely.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-05-20T07:59:22Z",
-          "updatedAt": "2026-05-22T11:47:20Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 42.92
+          "score": 51.62
         }
       ]
     },
@@ -397,42 +402,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-05-16",
-      "totalCandidates": 18,
+      "totalCandidates": 19,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 5,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1779511984"
+          "rateLimitReset": "1779547508"
         }
       ],
       "repositories": [
@@ -443,12 +448,12 @@
           "url": "https://github.com/Unclecheng-li/poc-lab",
           "homepage": "",
           "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
-          "stars": 236,
-          "forks": 43,
+          "stars": 281,
+          "forks": 53,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-05-20T13:31:52Z",
-          "updatedAt": "2026-05-23T04:46:01Z",
+          "updatedAt": "2026-05-23T14:30:57Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -459,7 +464,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 194.55
+          "score": 199.04
         },
         {
           "id": 1242884363,
@@ -468,12 +473,12 @@
           "url": "https://github.com/KatrielMoses/MailAccess",
           "homepage": "",
           "description": "Free email OSINT tool, 800+ platforms, identity clustering, breach detection. No API keys required. pip install mailaccess",
-          "stars": 55,
+          "stars": 64,
           "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-18T21:08:45Z",
-          "updatedAt": "2026-05-23T01:22:53Z",
+          "updatedAt": "2026-05-23T12:38:01Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -488,7 +493,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 145.07
+          "score": 147.76
         },
         {
           "id": 1245295066,
@@ -497,12 +502,12 @@
           "url": "https://github.com/InMyMine7/Mephisto",
           "homepage": "",
           "description": "A comprehensive WordPress vulnerability scanner and exploitation framework for authorized penetration testing. This tool automatically detects and exploits multiple WordPress security vulnerabilities (CVEs) to help security professionals identify and patch weaknesses.",
-          "stars": 31,
-          "forks": 4,
+          "stars": 38,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-21T05:06:16Z",
-          "updatedAt": "2026-05-23T02:56:22Z",
+          "updatedAt": "2026-05-23T12:59:30Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -514,7 +519,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 140.06
+          "score": 146.44
         },
         {
           "id": 1241407916,
@@ -523,12 +528,12 @@
           "url": "https://github.com/tg12/phantomstars",
           "homepage": "",
           "description": "Automated detection and tracking of fake engagement on GitHub — daily CI, zero infrastructure",
-          "stars": 40,
+          "stars": 41,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-17T10:57:50Z",
-          "updatedAt": "2026-05-22T09:42:56Z",
+          "updatedAt": "2026-05-23T12:03:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -540,7 +545,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 108.06
+          "score": 107.14
         },
         {
           "id": 1245135721,
@@ -554,7 +559,7 @@
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-05-21T00:20:33Z",
-          "updatedAt": "2026-05-23T04:18:35Z",
+          "updatedAt": "2026-05-23T05:07:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -566,7 +571,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 105.46
+          "score": 103.93
         },
         {
           "id": 1241420026,
@@ -590,7 +595,33 @@
           "tags": [
             "网络安全"
           ],
-          "score": 98.83
+          "score": 97.18
+        },
+        {
+          "id": 1241809444,
+          "name": "CHAI",
+          "fullName": "NIHAR-SARKAR/CHAI",
+          "url": "https://github.com/NIHAR-SARKAR/CHAI",
+          "homepage": "https://mcpservers.org/servers/nihar-sarkar/chai",
+          "description": "Cyber Host Artificial Intelligence (C.H.A.I) - mcp server",
+          "stars": 6,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-17T20:58:17Z",
+          "updatedAt": "2026-05-23T14:30:30Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 78.68
         },
         {
           "id": 1243485834,
@@ -617,7 +648,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 71.99
+          "score": 70.46
         },
         {
           "id": 1240773752,
@@ -644,7 +675,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 70.57
+          "score": 68.93
         },
         {
           "id": 1243783050,
@@ -669,7 +700,7 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 70.07
+          "score": 68.54
         },
         {
           "id": 1240839835,
@@ -695,7 +726,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 69.19
+          "score": 67.54
         },
         {
           "id": 1242042254,
@@ -720,7 +751,7 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 67.19
+          "score": 65.66
         }
       ]
     }
