@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-24T14:44:30.372Z",
+  "generatedAt": "2026-05-25T05:49:06.692Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,71 +33,73 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-05-21",
-      "totalCandidates": 25,
+      "createdSince": "2026-05-22",
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 8,
+          "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         }
       ],
       "repositories": [
         {
-          "id": 1245295066,
-          "name": "Mephisto",
-          "fullName": "InMyMine7/Mephisto",
-          "url": "https://github.com/InMyMine7/Mephisto",
-          "homepage": "",
-          "description": "A comprehensive WordPress vulnerability scanner and exploitation framework for authorized penetration testing. This tool automatically detects and exploits multiple WordPress security vulnerabilities (CVEs) to help security professionals identify and patch weaknesses.",
-          "stars": 44,
-          "forks": 6,
+          "id": 1248078573,
+          "name": "xss-labs",
+          "fullName": "yogsec/xss-labs",
+          "url": "https://github.com/yogsec/xss-labs",
+          "homepage": "https://yogsec.github.io/xss-labs/",
+          "description": "xss-labs for learning web application security. Each lab demonstrates a different XSS vulnerability with interactive examples and solutions. Frontend-only, no server required. ",
+          "stars": 6,
+          "forks": 2,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-21T05:06:16Z",
-          "updatedAt": "2026-05-24T14:05:43Z",
+          "language": "HTML",
+          "createdAt": "2026-05-24T06:49:13Z",
+          "updatedAt": "2026-05-25T05:05:26Z",
           "matchedProfiles": [
+            "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1.08,
             1.18
           ],
           "tags": [
+            "网络安全",
             "渗透 / 红队",
-            "漏洞研究 / 攻防",
-            "网络安全"
+            "漏洞研究 / 攻防"
           ],
-          "score": 130.57
+          "score": 92.08
         },
         {
           "id": 1247415528,
@@ -111,7 +113,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-23T09:32:03Z",
-          "updatedAt": "2026-05-24T06:45:23Z",
+          "updatedAt": "2026-05-24T15:51:15Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -125,21 +127,21 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 94.38
+          "score": 87.95
         },
         {
-          "id": 1245135721,
-          "name": "supply-chain-guard",
-          "fullName": "pc-style/supply-chain-guard",
-          "url": "https://github.com/pc-style/supply-chain-guard",
-          "homepage": "https://supply-chain-guard-five.vercel.app",
-          "description": "Local supply-chain install gate for npm packages and VS Code extensions with Socket, Codex, and PI review support.",
-          "stars": 26,
-          "forks": 1,
+          "id": 1248045931,
+          "name": "hermes-bumblebee-bridge",
+          "fullName": "Deconstruct2021/hermes-bumblebee-bridge",
+          "url": "https://github.com/Deconstruct2021/hermes-bumblebee-bridge",
+          "homepage": "",
+          "description": "Read-only supply-chain scanning for Hermes Agent, powered by Perplexity's Bumblebee. Daily scans, Telegram alerts, JARVIS narration.",
+          "stars": 11,
+          "forks": 0,
           "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-05-21T00:20:33Z",
-          "updatedAt": "2026-05-24T08:41:25Z",
+          "language": "Shell",
+          "createdAt": "2026-05-24T05:41:23Z",
+          "updatedAt": "2026-05-25T05:40:06Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -148,10 +150,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
+            "AI 自动化 / Skill"
           ],
-          "score": 90.53
+          "score": 83.9
         },
         {
           "id": 1247758656,
@@ -160,12 +161,12 @@
           "url": "https://github.com/jsmonhq/apiffuf",
           "homepage": "https://jsmon.sh",
           "description": "API URL fuzzer that cross-joins hosts and paths into normalized URLs, probes them over HTTP, and reports responding endpoints.",
-          "stars": 3,
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-05-23T18:35:07Z",
-          "updatedAt": "2026-05-24T11:19:48Z",
+          "updatedAt": "2026-05-25T05:40:00Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -176,7 +177,113 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 65.36
+          "score": 75.96
+        },
+        {
+          "id": 1248427621,
+          "name": "secureai-guard",
+          "fullName": "yasir-naveed-riaz/secureai-guard",
+          "url": "https://github.com/yasir-naveed-riaz/secureai-guard",
+          "homepage": "",
+          "description": "Lightweight AI security framework for prompt validation, output scanning, risk scoring, sensitive data detection, and Zero Trust policy enforcement.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-24T16:20:14Z",
+          "updatedAt": "2026-05-24T18:53:41Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 67.96
+        },
+        {
+          "id": 1248408266,
+          "name": "osint-patterns",
+          "fullName": "hellstation/osint-patterns",
+          "url": "https://github.com/hellstation/osint-patterns",
+          "homepage": "",
+          "description": "A practical OSINT knowledge base focused on analytical methodology and real workflows across Email OSINT, GEOINT, HUMINT, and Sock Puppet operations.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-24T15:51:35Z",
+          "updatedAt": "2026-05-24T19:55:29Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 67.77
+        },
+        {
+          "id": 1248476654,
+          "name": "Counter-Strike-AI",
+          "fullName": "NORTHFORGESYSTEMSNEW/Counter-Strike-AI",
+          "url": "https://github.com/NORTHFORGESYSTEMSNEW/Counter-Strike-AI",
+          "homepage": "",
+          "description": "Yapay zeka destekli otonom ofensif iletişim ve taktiksel savunma motoru. Analiz eder, mantıksal safsataları parse eder ve LLM tabanlı karşı-argüman (payload) üretir. Geliştirici: NorthForge Systems.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Kotlin",
+          "createdAt": "2026-05-24T17:35:20Z",
+          "updatedAt": "2026-05-24T23:31:42Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 62.19
+        },
+        {
+          "id": 1247673044,
+          "name": "malsnitch",
+          "fullName": "grepstrength/malsnitch",
+          "url": "https://github.com/grepstrength/malsnitch",
+          "homepage": "https://grepstrength.com",
+          "description": "Secrets scanner with a twist... this is for getting threat actor credentials from analyzed malware samples. Acquire threat actor credentials from Binary Ninja exports, etc. to get C2 credentials, embedded API keys, crypto material, or hardcoded passwords.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-23T16:19:56Z",
+          "updatedAt": "2026-05-25T03:24:35Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 58.6
         },
         {
           "id": 1247497895,
@@ -201,7 +308,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.84
+          "score": 57.39
         },
         {
           "id": 1247581000,
@@ -226,21 +333,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 62.64
+          "score": 56.22
         },
         {
-          "id": 1247623627,
-          "name": "BotBlocker-Add-on-Developer-Kit",
-          "fullName": "MADEVAL/BotBlocker-Add-on-Developer-Kit",
-          "url": "https://github.com/MADEVAL/BotBlocker-Add-on-Developer-Kit",
-          "homepage": "https://wordpress.org/plugins/botblocker-security/",
-          "description": "BotBlocker Add-on Developer Kit for BotBlocker Security, an advanced proactive WordPress protection plugin, anti-bot firewall, and WAF. It includes the Add-on manual, manifest reference, secure ZIP packaging rules, a working sample add-on, public WordPress.org assets, and an AI skill for generating and reviewing production-ready BotBlocker add-ons",
+          "id": 1247690443,
+          "name": "mcp-audit",
+          "fullName": "P4ST4S/mcp-audit",
+          "url": "https://github.com/P4ST4S/mcp-audit",
+          "homepage": "",
+          "description": "A transparent Go proxy that intercepts, signs, and audits all MCP tool calls between any client and server — without modifying either.",
           "stars": 3,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-23T15:06:05Z",
-          "updatedAt": "2026-05-24T12:13:38Z",
+          "openIssues": 5,
+          "language": "Go",
+          "createdAt": "2026-05-23T16:43:32Z",
+          "updatedAt": "2026-05-24T14:31:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -249,135 +356,23 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 59.26
-        },
-        {
-          "id": 1246551032,
-          "name": "layer7-bypass-methods",
-          "fullName": "DevAlexPro/layer7-bypass-methods",
-          "url": "https://github.com/DevAlexPro/layer7-bypass-methods",
-          "homepage": "https://mrstresser.com",
-          "description": "Comprehensive research on Layer 7 HTTP HTTPS DDoS bypass methods - Cloudflare bypass, OVH bypass, TLS fingerprint spoofing JA3 JA4, HTTP2 AKAMAI fingerprint, WAF evasion for security researchers and penetration testers.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-22T09:57:28Z",
-          "updatedAt": "2026-05-22T10:12:12Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 50.67
+          "score": 54.4
         },
         {
-          "id": 1246550890,
-          "name": "free-ip-stresser",
-          "fullName": "DevAlexPro/free-ip-stresser",
-          "url": "https://github.com/DevAlexPro/free-ip-stresser",
-          "homepage": "https://mrstresser.com",
-          "description": "Free IP stresser and network stress testing tools - UDP flood, HTTP flood, TCP stress, Slowloris simulators in Python. For enterprise-grade testing with Cloudflare and OVH bypass visit mrstresser.com",
+          "id": 1247849616,
+          "name": "AeroSniffer",
+          "fullName": "aryancodesit/AeroSniffer",
+          "url": "https://github.com/aryancodesit/AeroSniffer",
+          "homepage": "https://aero-sniffer.vercel.app",
+          "description": "A multi-boot ESP32-S3 desk gadget. Features an interactive desktop pet, an 802.11 security/packet monitor with a Web Serial API companion app, and a live ADS-B flight radar. Built on FreeRTOS.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-22T09:57:16Z",
-          "updatedAt": "2026-05-22T10:12:04Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 50.67
-        },
-        {
-          "id": 1246551176,
-          "name": "ddos-protection-checker",
-          "fullName": "DevAlexPro/ddos-protection-checker",
-          "url": "https://github.com/DevAlexPro/ddos-protection-checker",
-          "homepage": "https://mrstresser.com",
-          "description": "Scan and analyze your server DDoS protection setup - detects Cloudflare Akamai AWS CDN, checks TLS config, HTTP security headers, rate limiting and bot protection. Outputs 0-100 protection score. Test with real attacks at mrstresser.com",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-22T09:57:40Z",
-          "updatedAt": "2026-05-22T10:11:58Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 50.67
-        },
-        {
-          "id": 1246551477,
-          "name": "cloudflare-bypass",
-          "fullName": "DevAlexPro/cloudflare-bypass",
-          "url": "https://github.com/DevAlexPro/cloudflare-bypass",
-          "homepage": "https://mrstresser.com",
-          "description": "Cloudflare WAF and Turnstile bypass research - TLS fingerprint spoofing JA3 JA4, HTTP2 AKAMAI fingerprint, puppeteer-real-browser Turnstile auto-solver and curl-cffi browser impersonation for security researchers. Production bypass at mrstresser.com",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-22T09:58:05Z",
-          "updatedAt": "2026-05-22T10:11:50Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 50.67
-        },
-        {
-          "id": 1246991588,
-          "name": "crow-ecosystem-platform",
-          "fullName": "MuhanadGhurab/crow-ecosystem-platform",
-          "url": "https://github.com/MuhanadGhurab/crow-ecosystem-platform",
-          "homepage": "",
-          "description": "SecDevOps · governed AI · multi-tenant platform (Crow Ecosystem). Next.js 15, Prisma, PostgreSQL, Microsoft Entra.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-05-22T19:29:00Z",
-          "updatedAt": "2026-05-24T12:32:49Z",
+          "language": "C",
+          "createdAt": "2026-05-23T21:36:26Z",
+          "updatedAt": "2026-05-24T20:04:52Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -385,10 +380,9 @@
             1.08
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
+            "网络安全"
           ],
-          "score": 50.09
+          "score": 54.4
         }
       ]
     },
@@ -400,43 +394,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-05-17",
-      "totalCandidates": 17,
+      "createdSince": "2026-05-18",
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 3,
+          "fetched": 5,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1779633923"
+          "rateLimitReset": "1779688198"
         }
       ],
       "repositories": [
@@ -447,12 +441,12 @@
           "url": "https://github.com/Unclecheng-li/poc-lab",
           "homepage": "",
           "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
-          "stars": 326,
-          "forks": 62,
+          "stars": 344,
+          "forks": 64,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-05-20T13:31:52Z",
-          "updatedAt": "2026-05-24T14:32:16Z",
+          "updatedAt": "2026-05-25T05:12:18Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -463,7 +457,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 200.12
+          "score": 199.3
         },
         {
           "id": 1242884363,
@@ -472,12 +466,12 @@
           "url": "https://github.com/KatrielMoses/MailAccess",
           "homepage": "",
           "description": "Free email OSINT tool, 800+ platforms, identity clustering, breach detection. No API keys required. pip install mailaccess",
-          "stars": 78,
-          "forks": 5,
+          "stars": 86,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-18T21:08:45Z",
-          "updatedAt": "2026-05-24T13:31:29Z",
+          "updatedAt": "2026-05-25T05:03:49Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -492,7 +486,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 152.03
+          "score": 153.25
         },
         {
           "id": 1245295066,
@@ -501,12 +495,12 @@
           "url": "https://github.com/InMyMine7/Mephisto",
           "homepage": "",
           "description": "A comprehensive WordPress vulnerability scanner and exploitation framework for authorized penetration testing. This tool automatically detects and exploits multiple WordPress security vulnerabilities (CVEs) to help security professionals identify and patch weaknesses.",
-          "stars": 44,
-          "forks": 6,
+          "stars": 46,
+          "forks": 7,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-21T05:06:16Z",
-          "updatedAt": "2026-05-24T14:05:43Z",
+          "updatedAt": "2026-05-24T16:12:50Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -518,33 +512,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 146.34
-        },
-        {
-          "id": 1241407916,
-          "name": "phantomstars",
-          "fullName": "tg12/phantomstars",
-          "url": "https://github.com/tg12/phantomstars",
-          "homepage": "",
-          "description": "Automated detection and tracking of fake engagement on GitHub — daily CI, zero infrastructure",
-          "stars": 44,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-17T10:57:50Z",
-          "updatedAt": "2026-05-24T14:08:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 105.76
+          "score": 145.8
         },
         {
           "id": 1245135721,
@@ -553,12 +521,12 @@
           "url": "https://github.com/pc-style/supply-chain-guard",
           "homepage": "https://supply-chain-guard-five.vercel.app",
           "description": "Local supply-chain install gate for npm packages and VS Code extensions with Socket, Codex, and PI review support.",
-          "stars": 26,
+          "stars": 27,
           "forks": 1,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-05-21T00:20:33Z",
-          "updatedAt": "2026-05-24T08:41:25Z",
+          "updatedAt": "2026-05-24T21:26:15Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -570,7 +538,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 103.16
+          "score": 101.74
         },
         {
           "id": 1247415528,
@@ -584,7 +552,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-23T09:32:03Z",
-          "updatedAt": "2026-05-24T06:45:23Z",
+          "updatedAt": "2026-05-24T15:51:15Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -598,21 +566,74 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 101.49
+          "score": 98.74
         },
         {
-          "id": 1241420026,
-          "name": "vaathi",
-          "fullName": "bb1nfosec/vaathi",
-          "url": "https://github.com/bb1nfosec/vaathi",
-          "homepage": "https://vaathi-five.vercel.app",
-          "description": "🛡️ Vaathi — India's Open Source Cybersecurity Learning OS. From zero to ethical hacker — in your language, at your pace, on your machine.",
-          "stars": 18,
-          "forks": 5,
-          "openIssues": 2,
-          "language": "Python",
-          "createdAt": "2026-05-17T11:17:25Z",
-          "updatedAt": "2026-05-24T05:52:33Z",
+          "id": 1248078573,
+          "name": "xss-labs",
+          "fullName": "yogsec/xss-labs",
+          "url": "https://github.com/yogsec/xss-labs",
+          "homepage": "https://yogsec.github.io/xss-labs/",
+          "description": "xss-labs for learning web application security. Each lab demonstrates a different XSS vulnerability with interactive examples and solutions. Frontend-only, no server required. ",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-05-24T06:49:13Z",
+          "updatedAt": "2026-05-25T05:05:26Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 97.68
+        },
+        {
+          "id": 1248045931,
+          "name": "hermes-bumblebee-bridge",
+          "fullName": "Deconstruct2021/hermes-bumblebee-bridge",
+          "url": "https://github.com/Deconstruct2021/hermes-bumblebee-bridge",
+          "homepage": "",
+          "description": "Read-only supply-chain scanning for Hermes Agent, powered by Perplexity's Bumblebee. Daily scans, Telegram alerts, JARVIS narration.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-05-24T05:41:23Z",
+          "updatedAt": "2026-05-25T05:40:06Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 88.87
+        },
+        {
+          "id": 1247758656,
+          "name": "apiffuf",
+          "fullName": "jsmonhq/apiffuf",
+          "url": "https://github.com/jsmonhq/apiffuf",
+          "homepage": "https://jsmon.sh",
+          "description": "API URL fuzzer that cross-joins hosts and paths into normalized URLs, probes them over HTTP, and reports responding endpoints.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-23T18:35:07Z",
+          "updatedAt": "2026-05-25T05:40:00Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -620,35 +641,37 @@
             1.08
           ],
           "tags": [
-            "网络安全"
+            "网络安全",
+            "漏洞研究 / 攻防"
           ],
-          "score": 95.19
+          "score": 83.81
         },
         {
-          "id": 1241809444,
-          "name": "CHAI",
-          "fullName": "NIHAR-SARKAR/CHAI",
-          "url": "https://github.com/NIHAR-SARKAR/CHAI",
-          "homepage": "https://mcpservers.org/servers/nihar-sarkar/chai",
-          "description": "Cyber Host Artificial Intelligence (C.H.A.I) - mcp server",
+          "id": 1245445623,
+          "name": "Damn-Vulnerable-Active-Directory",
+          "fullName": "sanchitsahni/Damn-Vulnerable-Active-Directory",
+          "url": "https://github.com/sanchitsahni/Damn-Vulnerable-Active-Directory",
+          "homepage": "https://profile.sanchitsahni.me ",
+          "description": "A reproducible, multi-forest Windows Active Directory lab intentionally misconfigured for offensive security training and red teaming. Features 382 vulnerabilities across Kerberos, ADCS, Trusts, and more. The DVWA of Active Directory. ",
           "stars": 6,
-          "forks": 3,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-05-17T20:58:17Z",
-          "updatedAt": "2026-05-23T14:30:30Z",
+          "createdAt": "2026-05-21T08:21:33Z",
+          "updatedAt": "2026-05-25T05:46:58Z",
           "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 74.3
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 70.78
         },
         {
           "id": 1243546453,
@@ -674,21 +697,21 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 69.4
+          "score": 67.07
         },
         {
-          "id": 1242042254,
-          "name": "practical-reverse-engineering",
-          "fullName": "DatanoiseTV/practical-reverse-engineering",
-          "url": "https://github.com/DatanoiseTV/practical-reverse-engineering",
-          "homepage": "https://datanoisetv.github.io/practical-reverse-engineering/",
-          "description": "A practical handbook on reverse engineering. Covers embedded firmware (ARM Cortex-M, Xtensa/ESP32, RISC-V, 8051, MIPS), Linux userland, kernel modules and device trees, plus hardware attacks (fault injection, side-channel analysis). Uses radare2 as the primary tool example. PDF + web book.",
-          "stars": 8,
+          "id": 1243485834,
+          "name": "cataam",
+          "fullName": "cataam-security/cataam",
+          "url": "https://github.com/cataam-security/cataam",
+          "homepage": "",
+          "description": "Open-source GRC tooling — CIS hardening scripts, CVE scanners, ISO 27001 templates, and compliance knowledge. Maintained by Cataam.",
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-18T04:39:48Z",
-          "updatedAt": "2026-05-22T09:55:55Z",
+          "language": "Python",
+          "createdAt": "2026-05-19T11:40:10Z",
+          "updatedAt": "2026-05-24T18:59:22Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -697,9 +720,11 @@
           ],
           "tags": [
             "通用安全",
-            "逆向 / 恶意代码"
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防",
+            "网络安全"
           ],
-          "score": 61.95
+          "score": 66.89
         }
       ]
     }
