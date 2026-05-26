@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-25T16:04:06.998Z",
+  "generatedAt": "2026-05-26T05:13:16.093Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-05-22",
-      "totalCandidates": 27,
+      "createdSince": "2026-05-23",
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 7,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         }
       ],
       "repositories": [
@@ -99,7 +99,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 87.71
+          "score": 82.11
         },
         {
           "id": 1248045931,
@@ -124,7 +124,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 86.12
+          "score": 81.37
         },
         {
           "id": 1247758656,
@@ -133,12 +133,12 @@
           "url": "https://github.com/jsmonhq/apiffuf",
           "homepage": "https://jsmon.sh",
           "description": "API URL fuzzer that cross-joins hosts and paths into normalized URLs, probes them over HTTP, and reports responding endpoints.",
-          "stars": 12,
+          "stars": 13,
           "forks": 0,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-05-23T18:35:07Z",
-          "updatedAt": "2026-05-25T15:10:39Z",
+          "updatedAt": "2026-05-25T16:08:03Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -149,7 +149,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 84.36
+          "score": 81.16
         },
         {
           "id": 1247415528,
@@ -177,7 +177,114 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 83.59
+          "score": 77.98
+        },
+        {
+          "id": 1248565991,
+          "name": "awesome-ros-security",
+          "fullName": "iotsrg/awesome-ros-security",
+          "url": "https://github.com/iotsrg/awesome-ros-security",
+          "homepage": "https://iotsrg.org/",
+          "description": "Awesome curated list of ROS / ROS 2 & robotics security - pentest tools, checklists, CVEs, SROS2, DDS, research. Maintained by IOTSRG.",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-24T20:08:32Z",
+          "updatedAt": "2026-05-26T03:00:58Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 76.6
+        },
+        {
+          "id": 1247760877,
+          "name": "SQL-Easy",
+          "fullName": "syed-sameer-ul-hassan/SQL-Easy",
+          "url": "https://github.com/syed-sameer-ul-hassan/SQL-Easy",
+          "homepage": "https://sqleasy.orildo.sbs/",
+          "description": "SQL Easy is an automated SQL injection and reconnaissance pipeline that chains Subfinder, Httpx, Katana, and SQLMap into a single intelligent workflow for security researchers and penetration testers",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-23T18:39:01Z",
+          "updatedAt": "2026-05-25T21:24:09Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 69.82
+        },
+        {
+          "id": 1248637220,
+          "name": "jwt-toolkit",
+          "fullName": "KhaledSaeed18/jwt-toolkit",
+          "url": "https://github.com/KhaledSaeed18/jwt-toolkit",
+          "homepage": "https://pypi.org/project/jwt-toolkit/",
+          "description": "A command-line toolkit for inspecting, verifying, cracking, and securing JSON Web Tokens. built to expose how JWT signing works and where it breaks.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-24T22:35:01Z",
+          "updatedAt": "2026-05-25T21:10:36Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 66.94
+        },
+        {
+          "id": 1249498498,
+          "name": "nopeek-android",
+          "fullName": "getnopeek/nopeek-android",
+          "url": "https://github.com/getnopeek/nopeek-android",
+          "homepage": "",
+          "description": "Real-time Bluetooth scanner that detects nearby smart glasses and VR headsets — know before you're recorded",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Kotlin",
+          "createdAt": "2026-05-25T19:07:57Z",
+          "updatedAt": "2026-05-26T04:29:30Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 64.15
         },
         {
           "id": 1248408266,
@@ -203,7 +310,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 68.89
+          "score": 63.76
         },
         {
           "id": 1248427621,
@@ -230,7 +337,32 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 63.96
+          "score": 58.83
+        },
+        {
+          "id": 1247497895,
+          "name": "fail2ban-telegram",
+          "fullName": "Oni-Wan-Shinobi/fail2ban-telegram",
+          "url": "https://github.com/Oni-Wan-Shinobi/fail2ban-telegram",
+          "homepage": "",
+          "description": "Automatic brute-force protection with Telegram alerts. ",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-05-23T11:54:04Z",
+          "updatedAt": "2026-05-25T18:29:57Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 56.41
         },
         {
           "id": 1247673044,
@@ -257,133 +389,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 59.71
-        },
-        {
-          "id": 1248476654,
-          "name": "Counter-Strike-AI",
-          "fullName": "NORTHFORGESYSTEMSNEW/Counter-Strike-AI",
-          "url": "https://github.com/NORTHFORGESYSTEMSNEW/Counter-Strike-AI",
-          "homepage": "",
-          "description": "Yapay zeka destekli otonom ofensif iletişim ve taktiksel savunma motoru. Analiz eder, mantıksal safsataları parse eder ve LLM tabanlı karşı-argüman (payload) üretir. Geliştirici: NorthForge Systems.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Kotlin",
-          "createdAt": "2026-05-24T17:35:20Z",
-          "updatedAt": "2026-05-25T09:04:23Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 58.19
-        },
-        {
-          "id": 1247497895,
-          "name": "fail2ban-telegram",
-          "fullName": "Oni-Wan-Shinobi/fail2ban-telegram",
-          "url": "https://github.com/Oni-Wan-Shinobi/fail2ban-telegram",
-          "homepage": "",
-          "description": "Automatic brute-force protection with Telegram alerts. ",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-23T11:54:04Z",
-          "updatedAt": "2026-05-23T17:20:49Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 53.69
-        },
-        {
-          "id": 1247581000,
-          "name": "price-manipulation-guide",
-          "fullName": "Rishurana2867/price-manipulation-guide",
-          "url": "https://github.com/Rishurana2867/price-manipulation-guide",
-          "homepage": "https://linkedin.com/in/rishurana2867",
-          "description": "A complete bug bounty guide on Price Manipulation & Business Logic vulnerabilities — Basic to Ninja level, Attack Chaining, Mobile Testing, Bypasses, Report Templates & Checklist.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-23T14:03:05Z",
-          "updatedAt": "2026-05-24T09:00:56Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 51.85
-        },
-        {
-          "id": 1247849616,
-          "name": "AeroSniffer",
-          "fullName": "aryancodesit/AeroSniffer",
-          "url": "https://github.com/aryancodesit/AeroSniffer",
-          "homepage": "https://aero-sniffer.vercel.app",
-          "description": "A multi-boot ESP32-S3 desk gadget. Features an interactive desktop pet, an 802.11 security/packet monitor with a Web Serial API companion app, and a live ADS-B flight radar. Built on FreeRTOS.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-05-23T21:36:26Z",
-          "updatedAt": "2026-05-25T09:44:40Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 50.4
-        },
-        {
-          "id": 1247623627,
-          "name": "BotBlocker-Add-on-Developer-Kit",
-          "fullName": "MADEVAL/BotBlocker-Add-on-Developer-Kit",
-          "url": "https://github.com/MADEVAL/BotBlocker-Add-on-Developer-Kit",
-          "homepage": "https://wordpress.org/plugins/botblocker-security/",
-          "description": "BotBlocker Add-on Developer Kit for BotBlocker Security, an advanced proactive WordPress protection plugin, anti-bot firewall, and WAF. It includes the Add-on manual, manifest reference, secure ZIP packaging rules, a working sample add-on, public WordPress.org assets, and an AI skill for generating and reviewing production-ready BotBlocker add-ons",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-05-23T15:06:05Z",
-          "updatedAt": "2026-05-24T20:33:25Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 50.11
+          "score": 54.59
         }
       ]
     },
@@ -395,7 +401,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-05-18",
+      "createdSince": "2026-05-19",
       "totalCandidates": 19,
       "queryStats": [
         {
@@ -403,35 +409,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
+          "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1779725099"
+          "rateLimitReset": "1779772449"
         }
       ],
       "repositories": [
@@ -442,12 +448,12 @@
           "url": "https://github.com/Unclecheng-li/poc-lab",
           "homepage": "",
           "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
-          "stars": 358,
-          "forks": 66,
+          "stars": 367,
+          "forks": 67,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-05-20T13:31:52Z",
-          "updatedAt": "2026-05-25T14:46:35Z",
+          "updatedAt": "2026-05-26T03:54:09Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -458,36 +464,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 198.89
-        },
-        {
-          "id": 1242884363,
-          "name": "MailAccess",
-          "fullName": "KatrielMoses/MailAccess",
-          "url": "https://github.com/KatrielMoses/MailAccess",
-          "homepage": "",
-          "description": "Free email OSINT tool, 800+ platforms, identity clustering, breach detection. No API keys required. pip install mailaccess",
-          "stars": 92,
-          "forks": 7,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-18T21:08:45Z",
-          "updatedAt": "2026-05-25T14:33:50Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 154.31
+          "score": 197.47
         },
         {
           "id": 1245295066,
@@ -513,21 +490,21 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 143.93
+          "score": 141.53
         },
         {
           "id": 1245135721,
           "name": "supply-chain-guard",
           "fullName": "pc-style/supply-chain-guard",
           "url": "https://github.com/pc-style/supply-chain-guard",
-          "homepage": "https://supply-chain-guard-five.vercel.app",
+          "homepage": "https://scguard.pcstyle.dev",
           "description": "Local supply-chain install gate for npm packages and VS Code extensions with Socket, Codex, and PI review support.",
-          "stars": 27,
+          "stars": 29,
           "forks": 1,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-05-21T00:20:33Z",
-          "updatedAt": "2026-05-25T16:03:15Z",
+          "updatedAt": "2026-05-26T02:59:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -539,7 +516,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 100.15
+          "score": 99.85
         },
         {
           "id": 1247415528,
@@ -567,7 +544,32 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 96.87
+          "score": 94.46
+        },
+        {
+          "id": 1247758656,
+          "name": "apiffuf",
+          "fullName": "jsmonhq/apiffuf",
+          "url": "https://github.com/jsmonhq/apiffuf",
+          "homepage": "https://jsmon.sh",
+          "description": "API URL fuzzer that cross-joins hosts and paths into normalized URLs, probes them over HTTP, and reports responding endpoints.",
+          "stars": 13,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-23T18:35:07Z",
+          "updatedAt": "2026-05-25T16:08:03Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 94.23
         },
         {
           "id": 1248078573,
@@ -595,32 +597,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 95.81
-        },
-        {
-          "id": 1247758656,
-          "name": "apiffuf",
-          "fullName": "jsmonhq/apiffuf",
-          "url": "https://github.com/jsmonhq/apiffuf",
-          "homepage": "https://jsmon.sh",
-          "description": "API URL fuzzer that cross-joins hosts and paths into normalized URLs, probes them over HTTP, and reports responding endpoints.",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-23T18:35:07Z",
-          "updatedAt": "2026-05-25T15:10:39Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 94.49
+          "score": 93.41
         },
         {
           "id": 1248045931,
@@ -645,7 +622,63 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 93.21
+          "score": 91.18
+        },
+        {
+          "id": 1248565991,
+          "name": "awesome-ros-security",
+          "fullName": "iotsrg/awesome-ros-security",
+          "url": "https://github.com/iotsrg/awesome-ros-security",
+          "homepage": "https://iotsrg.org/",
+          "description": "Awesome curated list of ROS / ROS 2 & robotics security - pentest tools, checklists, CVEs, SROS2, DDS, research. Maintained by IOTSRG.",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-24T20:08:32Z",
+          "updatedAt": "2026-05-26T03:00:58Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 83.97
+        },
+        {
+          "id": 1247760877,
+          "name": "SQL-Easy",
+          "fullName": "syed-sameer-ul-hassan/SQL-Easy",
+          "url": "https://github.com/syed-sameer-ul-hassan/SQL-Easy",
+          "homepage": "https://sqleasy.orildo.sbs/",
+          "description": "SQL Easy is an automated SQL injection and reconnaissance pipeline that chains Subfinder, Httpx, Katana, and SQLMap into a single intelligent workflow for security researchers and penetration testers",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-23T18:39:01Z",
+          "updatedAt": "2026-05-25T21:24:09Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 82.87
         },
         {
           "id": 1245445623,
@@ -672,7 +705,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 69.07
+          "score": 66.87
         },
         {
           "id": 1243546453,
@@ -698,7 +731,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 65.48
+          "score": 63.44
         },
         {
           "id": 1243485834,
@@ -725,32 +758,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 65.3
-        },
-        {
-          "id": 1242042254,
-          "name": "practical-reverse-engineering",
-          "fullName": "DatanoiseTV/practical-reverse-engineering",
-          "url": "https://github.com/DatanoiseTV/practical-reverse-engineering",
-          "homepage": "https://datanoisetv.github.io/practical-reverse-engineering/",
-          "description": "A practical handbook on reverse engineering. Covers embedded firmware (ARM Cortex-M, Xtensa/ESP32, RISC-V, 8051, MIPS), Linux userland, kernel modules and device trees, plus hardware attacks (fault injection, side-channel analysis). Uses radare2 as the primary tool example. PDF + web book.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-18T04:39:48Z",
-          "updatedAt": "2026-05-22T09:55:55Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 59.79
+          "score": 63.27
         },
         {
           "id": 1243988975,
@@ -776,7 +784,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 59.49
+          "score": 57.29
         }
       ]
     }
