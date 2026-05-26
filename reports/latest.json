@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-26T05:13:16.093Z",
+  "generatedAt": "2026-05-26T16:53:30.209Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,174 @@
         "maxItems": 12
       },
       "createdSince": "2026-05-23",
-      "totalCandidates": 22,
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         }
       ],
       "repositories": [
+        {
+          "id": 1247758656,
+          "name": "apiffuf",
+          "fullName": "jsmonhq/apiffuf",
+          "url": "https://github.com/jsmonhq/apiffuf",
+          "homepage": "https://jsmon.sh",
+          "description": "API URL fuzzer that cross-joins hosts and paths into normalized URLs, probes them over HTTP, and reports responding endpoints.",
+          "stars": 18,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-23T18:35:07Z",
+          "updatedAt": "2026-05-26T13:13:44Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 93.32
+        },
+        {
+          "id": 1249498498,
+          "name": "nopeek-android",
+          "fullName": "getnopeek/nopeek-android",
+          "url": "https://github.com/getnopeek/nopeek-android",
+          "homepage": "",
+          "description": "Real-time Bluetooth scanner that detects nearby smart glasses and VR headsets — know before you're recorded",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Kotlin",
+          "createdAt": "2026-05-25T19:07:57Z",
+          "updatedAt": "2026-05-26T16:39:23Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 80.41
+        },
+        {
+          "id": 1247415528,
+          "name": "Bug-Bounty-Arsenal-v.3",
+          "fullName": "FoxVR-sudo/Bug-Bounty-Arsenal-v.3",
+          "url": "https://github.com/FoxVR-sudo/Bug-Bounty-Arsenal-v.3",
+          "homepage": "https://bugbounty-arsenal.net",
+          "description": "Authorized web application security testing platform built with Django, React, Celery, and Redis.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-23T09:32:03Z",
+          "updatedAt": "2026-05-26T12:24:20Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 78.6
+        },
+        {
+          "id": 1248565991,
+          "name": "awesome-ros-security",
+          "fullName": "iotsrg/awesome-ros-security",
+          "url": "https://github.com/iotsrg/awesome-ros-security",
+          "homepage": "https://iotsrg.org/",
+          "description": "Awesome curated list of ROS / ROS 2 & robotics security - pentest tools, checklists, CVEs, SROS2, DDS, research. Maintained by IOTSRG.",
+          "stars": 6,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-24T20:08:32Z",
+          "updatedAt": "2026-05-26T16:33:57Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 77.59
+        },
+        {
+          "id": 1248045931,
+          "name": "hermes-bumblebee-bridge",
+          "fullName": "Deconstruct2021/hermes-bumblebee-bridge",
+          "url": "https://github.com/Deconstruct2021/hermes-bumblebee-bridge",
+          "homepage": "",
+          "description": "Read-only supply-chain scanning for Hermes Agent, powered by Perplexity's Bumblebee. Daily scans, Telegram alerts, JARVIS narration.",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-05-24T05:41:23Z",
+          "updatedAt": "2026-05-25T06:48:26Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.15
+        },
         {
           "id": 1248078573,
           "name": "xss-labs",
@@ -99,46 +228,21 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 82.11
+          "score": 77.14
         },
         {
-          "id": 1248045931,
-          "name": "hermes-bumblebee-bridge",
-          "fullName": "Deconstruct2021/hermes-bumblebee-bridge",
-          "url": "https://github.com/Deconstruct2021/hermes-bumblebee-bridge",
-          "homepage": "",
-          "description": "Read-only supply-chain scanning for Hermes Agent, powered by Perplexity's Bumblebee. Daily scans, Telegram alerts, JARVIS narration.",
-          "stars": 12,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-24T05:41:23Z",
-          "updatedAt": "2026-05-25T06:48:26Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 81.37
-        },
-        {
-          "id": 1247758656,
-          "name": "apiffuf",
-          "fullName": "jsmonhq/apiffuf",
-          "url": "https://github.com/jsmonhq/apiffuf",
-          "homepage": "https://jsmon.sh",
-          "description": "API URL fuzzer that cross-joins hosts and paths into normalized URLs, probes them over HTTP, and reports responding endpoints.",
-          "stars": 13,
+          "id": 1249300381,
+          "name": "ArgusMind",
+          "fullName": "pulseio76/ArgusMind",
+          "url": "https://github.com/pulseio76/ArgusMind",
+          "homepage": "https://argusmind.vercel.app/",
+          "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
+          "stars": 6,
           "forks": 0,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-23T18:35:07Z",
-          "updatedAt": "2026-05-25T16:08:03Z",
+          "language": "Unknown",
+          "createdAt": "2026-05-25T14:57:48Z",
+          "updatedAt": "2026-05-26T14:35:15Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -147,64 +251,34 @@
           ],
           "tags": [
             "网络安全",
-            "漏洞研究 / 攻防"
+            "AI 自动化 / Skill"
           ],
-          "score": 81.16
+          "score": 76.29
         },
         {
-          "id": 1247415528,
-          "name": "Bug-Bounty-Arsenal-v.3",
-          "fullName": "FoxVR-sudo/Bug-Bounty-Arsenal-v.3",
-          "url": "https://github.com/FoxVR-sudo/Bug-Bounty-Arsenal-v.3",
-          "homepage": "https://bugbounty-arsenal.net",
-          "description": "Authorized web application security testing platform built with Django, React, Celery, and Redis.",
-          "stars": 10,
-          "forks": 0,
+          "id": 1249876629,
+          "name": "strixpro",
+          "fullName": "han705-web/strixpro",
+          "url": "https://github.com/han705-web/strixpro",
+          "homepage": "https://occurred-hear-cycling-craps.trycloudflare.com",
+          "description": "AI驱动的自动化Web安全测试平台 - 浏览器指纹模拟/WAF绕过/JS资产分析/API安全扫描/智能报告",
+          "stars": 2,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-05-23T09:32:03Z",
-          "updatedAt": "2026-05-24T15:51:15Z",
+          "createdAt": "2026-05-26T05:39:27Z",
+          "updatedAt": "2026-05-26T08:32:08Z",
           "matchedProfiles": [
-            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
             1.18
           ],
           "tags": [
-            "通用安全",
             "渗透 / 红队",
-            "网络安全"
+            "AI 自动化 / Skill"
           ],
-          "score": 77.98
-        },
-        {
-          "id": 1248565991,
-          "name": "awesome-ros-security",
-          "fullName": "iotsrg/awesome-ros-security",
-          "url": "https://github.com/iotsrg/awesome-ros-security",
-          "homepage": "https://iotsrg.org/",
-          "description": "Awesome curated list of ROS / ROS 2 & robotics security - pentest tools, checklists, CVEs, SROS2, DDS, research. Maintained by IOTSRG.",
-          "stars": 5,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-24T20:08:32Z",
-          "updatedAt": "2026-05-26T03:00:58Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 76.6
+          "score": 73.09
         },
         {
           "id": 1247760877,
@@ -233,7 +307,32 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 69.82
+          "score": 65.26
+        },
+        {
+          "id": 1249903140,
+          "name": "intrusion-detection-system",
+          "fullName": "Supreet37/intrusion-detection-system",
+          "url": "https://github.com/Supreet37/intrusion-detection-system",
+          "homepage": "https://intrusion-detector.streamlit.app/",
+          "description": "Cybersecurity Intrusion Detection System using LightGBM",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-26T06:16:53Z",
+          "updatedAt": "2026-05-26T16:51:43Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 62.82
         },
         {
           "id": 1248637220,
@@ -249,42 +348,15 @@
           "createdAt": "2026-05-24T22:35:01Z",
           "updatedAt": "2026-05-25T21:10:36Z",
           "matchedProfiles": [
-            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
             1.18
           ],
           "tags": [
-            "通用安全",
             "渗透 / 红队"
           ],
-          "score": 66.94
-        },
-        {
-          "id": 1249498498,
-          "name": "nopeek-android",
-          "fullName": "getnopeek/nopeek-android",
-          "url": "https://github.com/getnopeek/nopeek-android",
-          "homepage": "",
-          "description": "Real-time Bluetooth scanner that detects nearby smart glasses and VR headsets — know before you're recorded",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Kotlin",
-          "createdAt": "2026-05-25T19:07:57Z",
-          "updatedAt": "2026-05-26T04:29:30Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 64.15
+          "score": 61.97
         },
         {
           "id": 1248408266,
@@ -310,86 +382,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 63.76
-        },
-        {
-          "id": 1248427621,
-          "name": "secureai-guard",
-          "fullName": "yasir-naveed-riaz/secureai-guard",
-          "url": "https://github.com/yasir-naveed-riaz/secureai-guard",
-          "homepage": "",
-          "description": "Lightweight AI security framework for prompt validation, output scanning, risk scoring, sensitive data detection, and Zero Trust policy enforcement.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-24T16:20:14Z",
-          "updatedAt": "2026-05-24T18:53:41Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 58.83
-        },
-        {
-          "id": 1247497895,
-          "name": "fail2ban-telegram",
-          "fullName": "Oni-Wan-Shinobi/fail2ban-telegram",
-          "url": "https://github.com/Oni-Wan-Shinobi/fail2ban-telegram",
-          "homepage": "",
-          "description": "Automatic brute-force protection with Telegram alerts. ",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-23T11:54:04Z",
-          "updatedAt": "2026-05-25T18:29:57Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 56.41
-        },
-        {
-          "id": 1247673044,
-          "name": "malsnitch",
-          "fullName": "grepstrength/malsnitch",
-          "url": "https://github.com/grepstrength/malsnitch",
-          "homepage": "https://grepstrength.com",
-          "description": "Secrets scanner with a twist... this is for getting threat actor credentials from analyzed malware samples. Acquire threat actor credentials from Binary Ninja exports, etc. to get C2 credentials, embedded API keys, crypto material, or hardcoded passwords.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-23T16:19:56Z",
-          "updatedAt": "2026-05-25T11:27:54Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 54.59
+          "score": 59.21
         }
       ]
     },
@@ -402,42 +395,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-05-19",
-      "totalCandidates": 19,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1779772449"
+          "rateLimitReset": "1779814461"
         }
       ],
       "repositories": [
@@ -448,12 +441,12 @@
           "url": "https://github.com/Unclecheng-li/poc-lab",
           "homepage": "",
           "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
-          "stars": 367,
-          "forks": 67,
+          "stars": 374,
+          "forks": 71,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-05-20T13:31:52Z",
-          "updatedAt": "2026-05-26T03:54:09Z",
+          "updatedAt": "2026-05-26T14:11:19Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -464,7 +457,32 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 197.47
+          "score": 196.41
+        },
+        {
+          "id": 1246936890,
+          "name": "WinZip-VS26-LastVers",
+          "fullName": "kaitlinfazzino506914/WinZip-VS26-LastVers",
+          "url": "https://github.com/kaitlinfazzino506914/WinZip-VS26-LastVers",
+          "homepage": "",
+          "description": "A professional-grade WinZip cracking utility designed for developers and IT professionals. This tool automates the process of creating and managing WinZip password cracks with support for multiple formats, custom configurations, and integration into CI/CD pipelines.",
+          "stars": 141,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-22T18:09:36Z",
+          "updatedAt": "2026-05-26T14:08:08Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 140.22
         },
         {
           "id": 1245295066,
@@ -473,12 +491,12 @@
           "url": "https://github.com/InMyMine7/Mephisto",
           "homepage": "",
           "description": "A comprehensive WordPress vulnerability scanner and exploitation framework for authorized penetration testing. This tool automatically detects and exploits multiple WordPress security vulnerabilities (CVEs) to help security professionals identify and patch weaknesses.",
-          "stars": 46,
+          "stars": 47,
           "forks": 7,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-21T05:06:16Z",
-          "updatedAt": "2026-05-24T16:12:50Z",
+          "updatedAt": "2026-05-26T09:53:28Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -490,7 +508,32 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 141.53
+          "score": 140.03
+        },
+        {
+          "id": 1247758656,
+          "name": "apiffuf",
+          "fullName": "jsmonhq/apiffuf",
+          "url": "https://github.com/jsmonhq/apiffuf",
+          "homepage": "https://jsmon.sh",
+          "description": "API URL fuzzer that cross-joins hosts and paths into normalized URLs, probes them over HTTP, and reports responding endpoints.",
+          "stars": 18,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-23T18:35:07Z",
+          "updatedAt": "2026-05-26T13:13:44Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 108.99
         },
         {
           "id": 1245135721,
@@ -504,7 +547,7 @@
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-05-21T00:20:33Z",
-          "updatedAt": "2026-05-26T02:59:45Z",
+          "updatedAt": "2026-05-26T14:42:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -516,7 +559,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 99.85
+          "score": 98.04
         },
         {
           "id": 1247415528,
@@ -525,12 +568,12 @@
           "url": "https://github.com/FoxVR-sudo/Bug-Bounty-Arsenal-v.3",
           "homepage": "https://bugbounty-arsenal.net",
           "description": "Authorized web application security testing platform built with Django, React, Celery, and Redis.",
-          "stars": 10,
+          "stars": 11,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-23T09:32:03Z",
-          "updatedAt": "2026-05-24T15:51:15Z",
+          "updatedAt": "2026-05-26T12:24:20Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -544,32 +587,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 94.46
-        },
-        {
-          "id": 1247758656,
-          "name": "apiffuf",
-          "fullName": "jsmonhq/apiffuf",
-          "url": "https://github.com/jsmonhq/apiffuf",
-          "homepage": "https://jsmon.sh",
-          "description": "API URL fuzzer that cross-joins hosts and paths into normalized URLs, probes them over HTTP, and reports responding endpoints.",
-          "stars": 13,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-23T18:35:07Z",
-          "updatedAt": "2026-05-25T16:08:03Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 94.23
+          "score": 94.79
         },
         {
           "id": 1248078573,
@@ -597,7 +615,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 93.41
+          "score": 91.28
         },
         {
           "id": 1248045931,
@@ -622,7 +640,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 91.18
+          "score": 89.37
         },
         {
           "id": 1248565991,
@@ -631,12 +649,12 @@
           "url": "https://github.com/iotsrg/awesome-ros-security",
           "homepage": "https://iotsrg.org/",
           "description": "Awesome curated list of ROS / ROS 2 & robotics security - pentest tools, checklists, CVEs, SROS2, DDS, research. Maintained by IOTSRG.",
-          "stars": 5,
-          "forks": 2,
+          "stars": 6,
+          "forks": 3,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-05-24T20:08:32Z",
-          "updatedAt": "2026-05-26T03:00:58Z",
+          "updatedAt": "2026-05-26T16:33:57Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -649,7 +667,80 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 83.97
+          "score": 87.56
+        },
+        {
+          "id": 1246560349,
+          "name": "Credential-Hunting",
+          "fullName": "NeCr00/Credential-Hunting",
+          "url": "https://github.com/NeCr00/Credential-Hunting",
+          "homepage": "",
+          "description": "Windows and Linux Scripts for Credential Hunting",
+          "stars": 8,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-05-22T10:09:12Z",
+          "updatedAt": "2026-05-26T16:52:38Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 87.2
+        },
+        {
+          "id": 1249498498,
+          "name": "nopeek-android",
+          "fullName": "getnopeek/nopeek-android",
+          "url": "https://github.com/getnopeek/nopeek-android",
+          "homepage": "",
+          "description": "Real-time Bluetooth scanner that detects nearby smart glasses and VR headsets — know before you're recorded",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Kotlin",
+          "createdAt": "2026-05-25T19:07:57Z",
+          "updatedAt": "2026-05-26T16:39:23Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 84.9
+        },
+        {
+          "id": 1249300381,
+          "name": "ArgusMind",
+          "fullName": "pulseio76/ArgusMind",
+          "url": "https://github.com/pulseio76/ArgusMind",
+          "homepage": "https://argusmind.vercel.app/",
+          "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-25T14:57:48Z",
+          "updatedAt": "2026-05-26T14:35:15Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 82.07
         },
         {
           "id": 1247760877,
@@ -678,7 +769,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 82.87
+          "score": 80.92
         },
         {
           "id": 1245445623,
@@ -692,7 +783,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-21T08:21:33Z",
-          "updatedAt": "2026-05-25T12:05:25Z",
+          "updatedAt": "2026-05-26T11:19:46Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -705,33 +796,31 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 66.87
+          "score": 64.92
         },
         {
-          "id": 1243546453,
-          "name": "logatory",
-          "fullName": "T0nd3/logatory",
-          "url": "https://github.com/T0nd3/logatory",
-          "homepage": "https://pypi.org/project/logatory/",
-          "description": "Local-first log analysis with PII redaction, threat detection, anomaly detection and LLM insights — CLI, web dashboard and REST API",
-          "stars": 9,
+          "id": 1245360790,
+          "name": "log-analyser",
+          "fullName": "thisisdhruvchopra/log-analyser",
+          "url": "https://github.com/thisisdhruvchopra/log-analyser",
+          "homepage": "",
+          "description": "Python toolkit for HTTP honeypot log analysis - classifies attack events by severity, geolocates threat actors, extracts credential attempts, and generates weekly threat intelligence reports for critical infrastructure deployments.",
+          "stars": 6,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-05-19T12:48:29Z",
-          "updatedAt": "2026-05-24T08:00:44Z",
+          "createdAt": "2026-05-21T06:39:01Z",
+          "updatedAt": "2026-05-26T07:35:51Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
+            "网络安全"
           ],
-          "score": 63.44
+          "score": 64.63
         },
         {
           "id": 1243485834,
@@ -758,7 +847,33 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 63.27
+          "score": 62.27
+        },
+        {
+          "id": 1243546453,
+          "name": "logatory",
+          "fullName": "T0nd3/logatory",
+          "url": "https://github.com/T0nd3/logatory",
+          "homepage": "https://pypi.org/project/logatory/",
+          "description": "Local-first log analysis with PII redaction, threat detection, anomaly detection and LLM insights — CLI, web dashboard and REST API",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-19T12:48:29Z",
+          "updatedAt": "2026-05-24T08:00:44Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 62.27
         },
         {
           "id": 1243988975,
@@ -772,7 +887,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-19T21:29:40Z",
-          "updatedAt": "2026-05-25T15:51:33Z",
+          "updatedAt": "2026-05-26T10:03:15Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -784,7 +899,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 57.29
+          "score": 55.34
         }
       ]
     }
