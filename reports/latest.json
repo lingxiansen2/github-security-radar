@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-28T17:03:30.692Z",
+  "generatedAt": "2026-05-29T05:22:06.851Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-05-25",
+      "createdSince": "2026-05-26",
       "totalCandidates": 19,
       "queryStats": [
         {
@@ -41,63 +41,38 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
+          "fetched": 4,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         }
       ],
       "repositories": [
-        {
-          "id": 1249300381,
-          "name": "ArgusMind",
-          "fullName": "pulseio76/ArgusMind",
-          "url": "https://github.com/pulseio76/ArgusMind",
-          "homepage": "https://argusmind.vercel.app/",
-          "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
-          "stars": 25,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-25T14:57:48Z",
-          "updatedAt": "2026-05-28T15:25:02Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 99.28
-        },
         {
           "id": 1251467696,
           "name": "CVE-2026-27771",
@@ -105,12 +80,12 @@
           "url": "https://github.com/portbuster1337/CVE-2026-27771",
           "homepage": "",
           "description": "CVE-2026-27771 - Gitea/Forgejo Container Registry Auth Bypass Exploit PoC - Pull private container images without authentication",
-          "stars": 5,
-          "forks": 2,
+          "stars": 9,
+          "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-27T15:54:41Z",
-          "updatedAt": "2026-05-28T15:23:30Z",
+          "updatedAt": "2026-05-29T02:00:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -123,7 +98,32 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 73.79
+          "score": 82.74
+        },
+        {
+          "id": 1252934138,
+          "name": "jwt-cracker-rust",
+          "fullName": "acidzang/jwt-cracker-rust",
+          "url": "https://github.com/acidzang/jwt-cracker-rust",
+          "homepage": "",
+          "description": "A lightweight Rust CLI for authorized JWT security testing and lab use.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-05-29T02:34:42Z",
+          "updatedAt": "2026-05-29T03:10:29Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 71.97
         },
         {
           "id": 1250538314,
@@ -132,12 +132,12 @@
           "url": "https://github.com/deepru/xpam-script",
           "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
           "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
-          "stars": 10,
+          "stars": 11,
           "forks": 0,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-05-26T18:23:01Z",
-          "updatedAt": "2026-05-28T12:37:24Z",
+          "updatedAt": "2026-05-29T03:23:12Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -147,57 +147,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 73.67
-        },
-        {
-          "id": 1249498498,
-          "name": "nopeek-android",
-          "fullName": "getnopeek/nopeek-android",
-          "url": "https://github.com/getnopeek/nopeek-android",
-          "homepage": "",
-          "description": "Real-time Bluetooth scanner that detects nearby smart glasses and VR headsets — know before you're recorded",
-          "stars": 14,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Kotlin",
-          "createdAt": "2026-05-25T19:07:57Z",
-          "updatedAt": "2026-05-27T20:32:44Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 72.75
-        },
-        {
-          "id": 1249342052,
-          "name": "SharpADIDNS",
-          "fullName": "RedteamNotes/SharpADIDNS",
-          "url": "https://github.com/RedteamNotes/SharpADIDNS",
-          "homepage": "https://github.com/RedteamNotes/SharpADIDNS",
-          "description": "A C# CLI tool for reading and modifying AD-Integrated DNS records over LDAP, built for serious red teaming and packed with tradecraft features tailored for Sliver C2 execute-assembly.",
-          "stars": 5,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-05-25T15:45:38Z",
-          "updatedAt": "2026-05-28T13:06:32Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 63.21
+          "score": 71.31
         },
         {
           "id": 1251888293,
@@ -206,12 +156,12 @@
           "url": "https://github.com/MoMhaidat05/Spectra",
           "homepage": "",
           "description": "A state-aware, collaborative Attack Surface Management (ASM) and continuous reconnaissance platform.",
-          "stars": 2,
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-05-28T02:06:33Z",
-          "updatedAt": "2026-05-28T04:11:28Z",
+          "updatedAt": "2026-05-28T21:11:59Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -224,7 +174,135 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 61.13
+          "score": 62.59
+        },
+        {
+          "id": 1252549700,
+          "name": "WireDown",
+          "fullName": "boubli/WireDown",
+          "url": "https://github.com/boubli/WireDown",
+          "homepage": "https://github.com/boubli/WireDown",
+          "description": "WireDown: An autonomous, AI-driven Wi-Fi honeypot with a zero-gravity physics dashboard. Detects ARP spoofing, deauth floods, and XZ backdoor exploits.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-28T16:24:13Z",
+          "updatedAt": "2026-05-28T21:19:21Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 61.9
+        },
+        {
+          "id": 1251778861,
+          "name": "puck-scout",
+          "fullName": "puck-security/puck-scout",
+          "url": "https://github.com/puck-security/puck-scout",
+          "homepage": "https://puck.security",
+          "description": "Autonomous, read-only endpoint investigation via MCP. Ask a question about your fleet, get a narrative answer with containment recommendations.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-27T22:53:42Z",
+          "updatedAt": "2026-05-28T21:02:33Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 60.79
+        },
+        {
+          "id": 1251697354,
+          "name": "ailinter",
+          "fullName": "ailinter/ailinter",
+          "url": "https://github.com/ailinter/ailinter",
+          "homepage": "https://ailinter.dev",
+          "description": "Open-source AI linter and safety visor for AI-assisted development",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-27T20:39:44Z",
+          "updatedAt": "2026-05-28T18:54:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 60.72
+        },
+        {
+          "id": 1251069477,
+          "name": "Security-Awareness-Calculator",
+          "fullName": "0xsyr0/Security-Awareness-Calculator",
+          "url": "https://github.com/0xsyr0/Security-Awareness-Calculator",
+          "homepage": "",
+          "description": "Security awareness tooling demonstrating VSCode extension abuse, reverse shell delivery, and Firefox session cookie theft — for authorised penetration testing and internal security awareness demonstrations only.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-27T08:06:09Z",
+          "updatedAt": "2026-05-29T05:07:21Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 53.87
+        },
+        {
+          "id": 1250994859,
+          "name": "CamShield-AI",
+          "fullName": "msf899/CamShield-AI",
+          "url": "https://github.com/msf899/CamShield-AI",
+          "homepage": "",
+          "description": "🛡️ AI-powered IoT camera security audit tool — SOC dashboard",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-27T06:35:28Z",
+          "updatedAt": "2026-05-29T04:08:51Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 48.72
         },
         {
           "id": 1249876629,
@@ -249,7 +327,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 52.57
+          "score": 47.32
+        },
+        {
+          "id": 1250214300,
+          "name": "ssh-labs",
+          "fullName": "CompassSecurity/ssh-labs",
+          "url": "https://github.com/CompassSecurity/ssh-labs",
+          "homepage": "https://sshlabs.compass-security.training/",
+          "description": "Resource to learn more about SSH (Secure Shell) attacks and best bractices with a hands-on lab environment.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-05-26T12:15:06Z",
+          "updatedAt": "2026-05-28T17:15:55Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 44.28
         },
         {
           "id": 1249903140,
@@ -274,58 +377,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 44.04
-        },
-        {
-          "id": 1249298224,
-          "name": "aegisfluxx",
-          "fullName": "manucian-official/aegisfluxx",
-          "url": "https://github.com/manucian-official/aegisfluxx",
-          "homepage": "https://github.com/manucian-official/aegisfluxx",
-          "description": "AegisFluxx is a next-generation AI-first cybersecurity platform built for adaptive, high-performance network defense. Engineered from scratch with a cloud-native architecture, AegisFlux combines a Rust-powered dataplane, intelligent threat analysis, and real-time orchestration into a unified security ecosystem.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-05-25T14:55:07Z",
-          "updatedAt": "2026-05-28T05:31:12Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 38.88
-        },
-        {
-          "id": 1249188448,
-          "name": "secureflow",
-          "fullName": "C0R3DMP/secureflow",
-          "url": "https://github.com/C0R3DMP/secureflow",
-          "homepage": "",
-          "description": "security pentest ai crewai llm nmap cybersecurity python multi-agent",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-25T12:47:57Z",
-          "updatedAt": "2026-05-27T06:04:44Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 38.88
+          "score": 39.24
         }
       ]
     },
@@ -337,72 +389,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-05-21",
-      "totalCandidates": 24,
+      "createdSince": "2026-05-22",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1779987862"
+          "rateLimitReset": "1780032179"
         }
       ],
       "repositories": [
-        {
-          "id": 1245295066,
-          "name": "Mephisto",
-          "fullName": "InMyMine7/Mephisto",
-          "url": "https://github.com/InMyMine7/Mephisto",
-          "homepage": "",
-          "description": "A comprehensive WordPress vulnerability scanner and exploitation framework for authorized penetration testing. This tool automatically detects and exploits multiple WordPress security vulnerabilities (CVEs) to help security professionals identify and patch weaknesses.",
-          "stars": 49,
-          "forks": 9,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-21T05:06:16Z",
-          "updatedAt": "2026-05-28T01:32:54Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 136.16
-        },
         {
           "id": 1246936890,
           "name": "WinZip-VS26-LastVers",
@@ -426,32 +452,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 132.76
-        },
-        {
-          "id": 1249300381,
-          "name": "ArgusMind",
-          "fullName": "pulseio76/ArgusMind",
-          "url": "https://github.com/pulseio76/ArgusMind",
-          "homepage": "https://argusmind.vercel.app/",
-          "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
-          "stars": 25,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-25T14:57:48Z",
-          "updatedAt": "2026-05-28T15:25:02Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 114.98
+          "score": 130.86
         },
         {
           "id": 1246839757,
@@ -460,12 +461,12 @@
           "url": "https://github.com/anthropics/defending-code-reference-harness",
           "homepage": "https://claude.com/blog/using-llms-to-secure-source-code",
           "description": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
-          "stars": 43,
-          "forks": 4,
+          "stars": 63,
+          "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-22T16:00:56Z",
-          "updatedAt": "2026-05-28T16:55:22Z",
+          "updatedAt": "2026-05-29T04:55:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -476,7 +477,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 111.69
+          "score": 120.39
+        },
+        {
+          "id": 1249300381,
+          "name": "ArgusMind",
+          "fullName": "pulseio76/ArgusMind",
+          "url": "https://github.com/pulseio76/ArgusMind",
+          "homepage": "https://argusmind.vercel.app/",
+          "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
+          "stars": 26,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-25T14:57:48Z",
+          "updatedAt": "2026-05-29T00:42:56Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 113.94
         },
         {
           "id": 1247758656,
@@ -501,33 +527,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 104.86
-        },
-        {
-          "id": 1245135721,
-          "name": "supply-chain-guard",
-          "fullName": "pc-style/supply-chain-guard",
-          "url": "https://github.com/pc-style/supply-chain-guard",
-          "homepage": "https://scguard.pcstyle.dev",
-          "description": "Local supply-chain install gate for npm packages and VS Code extensions with Socket, Codex, and PI review support.",
-          "stars": 30,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-05-21T00:20:33Z",
-          "updatedAt": "2026-05-28T10:54:10Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 94
+          "score": 102.8
         },
         {
           "id": 1246560349,
@@ -551,7 +551,34 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 93.59
+          "score": 91.34
+        },
+        {
+          "id": 1251467696,
+          "name": "CVE-2026-27771",
+          "fullName": "portbuster1337/CVE-2026-27771",
+          "url": "https://github.com/portbuster1337/CVE-2026-27771",
+          "homepage": "",
+          "description": "CVE-2026-27771 - Gitea/Forgejo Container Registry Auth Bypass Exploit PoC - Pull private container images without authentication",
+          "stars": 9,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-27T15:54:41Z",
+          "updatedAt": "2026-05-29T02:00:13Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 90.47
         },
         {
           "id": 1249498498,
@@ -575,7 +602,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 87.18
+          "score": 85.27
         },
         {
           "id": 1247415528,
@@ -603,7 +630,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 85.99
+          "score": 83.74
         },
         {
           "id": 1250538314,
@@ -612,12 +639,12 @@
           "url": "https://github.com/deepru/xpam-script",
           "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
           "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
-          "stars": 10,
+          "stars": 11,
           "forks": 0,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-05-26T18:23:01Z",
-          "updatedAt": "2026-05-28T12:37:24Z",
+          "updatedAt": "2026-05-29T03:23:12Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -627,7 +654,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 83.31
+          "score": 83.48
         },
         {
           "id": 1248078573,
@@ -655,7 +682,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 82.48
+          "score": 80.23
         },
         {
           "id": 1248045931,
@@ -680,7 +707,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 81.92
+          "score": 80.01
         },
         {
           "id": 1248565991,
@@ -707,7 +734,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 79.51
+          "score": 77.45
         },
         {
           "id": 1249342052,
@@ -733,7 +760,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 79.04
+          "score": 76.99
         },
         {
           "id": 1247760877,
@@ -759,7 +786,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 72.87
+          "score": 70.81
         },
         {
           "id": 1247673044,
@@ -768,12 +795,12 @@
           "url": "https://github.com/grepstrength/malsnitch",
           "homepage": "https://grepstrength.com",
           "description": "Secrets scanner with a twist... this is for getting threat actor credentials from analyzed malware samples. Acquire threat actor credentials from Binary Ninja exports, etc. to get C2 credentials, embedded API keys, crypto material, or hardcoded passwords.",
-          "stars": 7,
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-05-23T16:19:56Z",
-          "updatedAt": "2026-05-27T14:24:51Z",
+          "updatedAt": "2026-05-28T22:20:51Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -786,61 +813,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 69.52
-        },
-        {
-          "id": 1245445623,
-          "name": "Damn-Vulnerable-Active-Directory",
-          "fullName": "sanchitsahni/Damn-Vulnerable-Active-Directory",
-          "url": "https://github.com/sanchitsahni/Damn-Vulnerable-Active-Directory",
-          "homepage": "https://profile.sanchitsahni.me ",
-          "description": "A reproducible, multi-forest Windows Active Directory lab intentionally misconfigured for offensive security training and red teaming. Features 382 vulnerabilities across Kerberos, ADCS, Trusts, and more. The DVWA of Active Directory. ",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-21T08:21:33Z",
-          "updatedAt": "2026-05-27T06:45:15Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 61.62
-        },
-        {
-          "id": 1245682506,
-          "name": "ScanZ",
-          "fullName": "CyBaiSecurity/ScanZ",
-          "url": "https://github.com/CyBaiSecurity/ScanZ",
-          "homepage": "",
-          "description": "An advanced Android network reconnaissance tool leveraging Shizuku to bypass OS sandboxing for deep Layer-2/3 discovery without root.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Kotlin",
-          "createdAt": "2026-05-21T13:03:03Z",
-          "updatedAt": "2026-05-27T00:28:34Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 59.63
+          "score": 70.42
         }
       ]
     }
