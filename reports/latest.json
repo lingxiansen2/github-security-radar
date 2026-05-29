@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-29T05:22:06.851Z",
+  "generatedAt": "2026-05-29T16:54:38.211Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-05-26",
-      "totalCandidates": 19,
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 4,
+          "fetched": 6,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/portbuster1337/CVE-2026-27771",
           "homepage": "",
           "description": "CVE-2026-27771 - Gitea/Forgejo Container Registry Auth Bypass Exploit PoC - Pull private container images without authentication",
-          "stars": 9,
+          "stars": 10,
           "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-27T15:54:41Z",
-          "updatedAt": "2026-05-29T02:00:13Z",
+          "updatedAt": "2026-05-29T06:54:35Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -98,7 +98,57 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 82.74
+          "score": 80.84
+        },
+        {
+          "id": 1250538314,
+          "name": "xpam-script",
+          "fullName": "deepru/xpam-script",
+          "url": "https://github.com/deepru/xpam-script",
+          "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
+          "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-05-26T18:23:01Z",
+          "updatedAt": "2026-05-29T11:50:28Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 69.06
+        },
+        {
+          "id": 1251778861,
+          "name": "puck-scout",
+          "fullName": "puck-security/puck-scout",
+          "url": "https://github.com/puck-security/puck-scout",
+          "homepage": "https://puck.security",
+          "description": "Autonomous, read-only endpoint investigation via MCP. Ask a question about your fleet, get a narrative answer with containment recommendations.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-27T22:53:42Z",
+          "updatedAt": "2026-05-29T14:13:31Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 68.83
         },
         {
           "id": 1252934138,
@@ -123,21 +173,21 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 71.97
+          "score": 67.05
         },
         {
-          "id": 1250538314,
-          "name": "xpam-script",
-          "fullName": "deepru/xpam-script",
-          "url": "https://github.com/deepru/xpam-script",
-          "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
-          "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
-          "stars": 11,
+          "id": 1252559618,
+          "name": "gogs-rce",
+          "fullName": "portbuster1337/gogs-rce",
+          "url": "https://github.com/portbuster1337/gogs-rce",
+          "homepage": "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed/",
+          "description": "Gogs RCE via argument injection in git rebase (CWE-88) — Python PoC. No CVE yet.",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-26T18:23:01Z",
-          "updatedAt": "2026-05-29T03:23:12Z",
+          "language": "Python",
+          "createdAt": "2026-05-28T16:35:45Z",
+          "updatedAt": "2026-05-29T06:20:01Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -145,9 +195,86 @@
             1
           ],
           "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 63.75
+        },
+        {
+          "id": 1253199643,
+          "name": "should-i-care",
+          "fullName": "moltenbit/should-i-care",
+          "url": "https://github.com/moltenbit/should-i-care",
+          "homepage": "https://moltenbit.net",
+          "description": "Should you care about this CVE? An agent skill that triages whether a CVE applies to your environment, with sourced, verifiable reasoning.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-29T08:32:52Z",
+          "updatedAt": "2026-05-29T11:08:48Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 63.7
+        },
+        {
+          "id": 1251697354,
+          "name": "ailinter",
+          "fullName": "ailinter/ailinter",
+          "url": "https://github.com/ailinter/ailinter",
+          "homepage": "https://ailinter.dev",
+          "description": "Open-source AI linter and safety visor for AI-assisted development",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-27T20:39:44Z",
+          "updatedAt": "2026-05-29T08:40:29Z",
+          "matchedProfiles": [
             "通用安全"
           ],
-          "score": 71.31
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 60.55
+        },
+        {
+          "id": 1251959134,
+          "name": "open-investigator",
+          "fullName": "SEc-123/open-investigator",
+          "url": "https://github.com/SEc-123/open-investigator",
+          "homepage": "https://www.arvantacyber.com/open-investigator/",
+          "description": "Open-source local read-only AI server incident investigation for Linux and Windows hosts.",
+          "stars": 2,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-05-28T04:06:32Z",
+          "updatedAt": "2026-05-29T08:37:01Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 59.45
         },
         {
           "id": 1251888293,
@@ -174,7 +301,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 62.59
+          "score": 58.09
         },
         {
           "id": 1252549700,
@@ -188,7 +315,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-28T16:24:13Z",
-          "updatedAt": "2026-05-28T21:19:21Z",
+          "updatedAt": "2026-05-29T14:50:31Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -200,21 +327,21 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 61.9
+          "score": 57.4
         },
         {
-          "id": 1251778861,
-          "name": "puck-scout",
-          "fullName": "puck-security/puck-scout",
-          "url": "https://github.com/puck-security/puck-scout",
-          "homepage": "https://puck.security",
-          "description": "Autonomous, read-only endpoint investigation via MCP. Ask a question about your fleet, get a narrative answer with containment recommendations.",
-          "stars": 3,
+          "id": 1250221095,
+          "name": "piptastic",
+          "fullName": "boredchilada/piptastic",
+          "url": "https://github.com/boredchilada/piptastic",
+          "homepage": "",
+          "description": "Its not fantastic, its piptastic - Dependency auditor for Python projects: drift vs PyPI, known CVEs via pip-audit, minimum safe versions, and CVE-aware update rewriting. Walks one project or a whole tree. JSON, SARIF for GitHub Code Scanning, and CI exit-code gates.",
+          "stars": 5,
           "forks": 1,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-27T22:53:42Z",
-          "updatedAt": "2026-05-28T21:02:33Z",
+          "language": "Python",
+          "createdAt": "2026-05-26T12:23:16Z",
+          "updatedAt": "2026-05-29T16:42:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -223,35 +350,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
+            "漏洞研究 / 攻防"
           ],
-          "score": 60.79
-        },
-        {
-          "id": 1251697354,
-          "name": "ailinter",
-          "fullName": "ailinter/ailinter",
-          "url": "https://github.com/ailinter/ailinter",
-          "homepage": "https://ailinter.dev",
-          "description": "Open-source AI linter and safety visor for AI-assisted development",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-27T20:39:44Z",
-          "updatedAt": "2026-05-28T18:54:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 60.72
+          "score": 54.53
         },
         {
           "id": 1251069477,
@@ -276,108 +377,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 53.87
-        },
-        {
-          "id": 1250994859,
-          "name": "CamShield-AI",
-          "fullName": "msf899/CamShield-AI",
-          "url": "https://github.com/msf899/CamShield-AI",
-          "homepage": "",
-          "description": "🛡️ AI-powered IoT camera security audit tool — SOC dashboard",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-27T06:35:28Z",
-          "updatedAt": "2026-05-29T04:08:51Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 48.72
-        },
-        {
-          "id": 1249876629,
-          "name": "strixpro",
-          "fullName": "han705-web/strixpro",
-          "url": "https://github.com/han705-web/strixpro",
-          "homepage": "https://occurred-hear-cycling-craps.trycloudflare.com",
-          "description": "AI驱动的自动化Web安全测试平台 - 浏览器指纹模拟/WAF绕过/JS资产分析/API安全扫描/智能报告",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-26T05:39:27Z",
-          "updatedAt": "2026-05-26T08:32:08Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 47.32
-        },
-        {
-          "id": 1250214300,
-          "name": "ssh-labs",
-          "fullName": "CompassSecurity/ssh-labs",
-          "url": "https://github.com/CompassSecurity/ssh-labs",
-          "homepage": "https://sshlabs.compass-security.training/",
-          "description": "Resource to learn more about SSH (Secure Shell) attacks and best bractices with a hands-on lab environment.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-26T12:15:06Z",
-          "updatedAt": "2026-05-28T17:15:55Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 44.28
-        },
-        {
-          "id": 1249903140,
-          "name": "intrusion-detection-system",
-          "fullName": "Supreet37/intrusion-detection-system",
-          "url": "https://github.com/Supreet37/intrusion-detection-system",
-          "homepage": "https://intrusion-detector.streamlit.app/",
-          "description": "Cybersecurity Intrusion Detection System using LightGBM",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-26T06:16:53Z",
-          "updatedAt": "2026-05-26T16:51:43Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 39.24
+          "score": 48.95
         }
       ]
     },
@@ -397,35 +397,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1780032179"
+          "rateLimitReset": "1780073730"
         }
       ],
       "repositories": [
@@ -452,7 +452,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 130.86
+          "score": 129.07
         },
         {
           "id": 1246839757,
@@ -461,12 +461,12 @@
           "url": "https://github.com/anthropics/defending-code-reference-harness",
           "homepage": "https://claude.com/blog/using-llms-to-secure-source-code",
           "description": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
-          "stars": 63,
-          "forks": 5,
+          "stars": 80,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-22T16:00:56Z",
-          "updatedAt": "2026-05-29T04:55:07Z",
+          "updatedAt": "2026-05-29T16:19:12Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -477,7 +477,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 120.39
+          "score": 125.67
         },
         {
           "id": 1249300381,
@@ -486,12 +486,12 @@
           "url": "https://github.com/pulseio76/ArgusMind",
           "homepage": "https://argusmind.vercel.app/",
           "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
-          "stars": 26,
+          "stars": 29,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-25T14:57:48Z",
-          "updatedAt": "2026-05-29T00:42:56Z",
+          "updatedAt": "2026-05-29T16:24:41Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -502,7 +502,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 113.94
+          "score": 114.87
         },
         {
           "id": 1247758656,
@@ -527,7 +527,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 102.8
+          "score": 100.87
         },
         {
           "id": 1246560349,
@@ -536,12 +536,12 @@
           "url": "https://github.com/NeCr00/Credential-Hunting",
           "homepage": "",
           "description": "Windows and Linux Scripts for Credential Hunting",
-          "stars": 13,
+          "stars": 14,
           "forks": 2,
           "openIssues": 0,
           "language": "PowerShell",
           "createdAt": "2026-05-22T10:09:12Z",
-          "updatedAt": "2026-05-28T13:18:25Z",
+          "updatedAt": "2026-05-29T16:28:49Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -551,7 +551,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 91.34
+          "score": 92.44
         },
         {
           "id": 1251467696,
@@ -560,12 +560,12 @@
           "url": "https://github.com/portbuster1337/CVE-2026-27771",
           "homepage": "",
           "description": "CVE-2026-27771 - Gitea/Forgejo Container Registry Auth Bypass Exploit PoC - Pull private container images without authentication",
-          "stars": 9,
+          "stars": 10,
           "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-27T15:54:41Z",
-          "updatedAt": "2026-05-29T02:00:13Z",
+          "updatedAt": "2026-05-29T06:54:35Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -578,7 +578,31 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 90.47
+          "score": 90.95
+        },
+        {
+          "id": 1250538314,
+          "name": "xpam-script",
+          "fullName": "deepru/xpam-script",
+          "url": "https://github.com/deepru/xpam-script",
+          "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
+          "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-05-26T18:23:01Z",
+          "updatedAt": "2026-05-29T11:50:28Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 83.62
         },
         {
           "id": 1249498498,
@@ -602,7 +626,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 85.27
+          "score": 83.49
         },
         {
           "id": 1247415528,
@@ -630,21 +654,21 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 83.74
+          "score": 81.63
         },
         {
-          "id": 1250538314,
-          "name": "xpam-script",
-          "fullName": "deepru/xpam-script",
-          "url": "https://github.com/deepru/xpam-script",
-          "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
-          "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
-          "stars": 11,
-          "forks": 0,
+          "id": 1248045931,
+          "name": "hermes-bumblebee-bridge",
+          "fullName": "Deconstruct2021/hermes-bumblebee-bridge",
+          "url": "https://github.com/Deconstruct2021/hermes-bumblebee-bridge",
+          "homepage": "",
+          "description": "Read-only supply-chain scanning for Hermes Agent, powered by Perplexity's Bumblebee. Daily scans, Telegram alerts, JARVIS narration.",
+          "stars": 12,
+          "forks": 1,
           "openIssues": 0,
           "language": "Shell",
-          "createdAt": "2026-05-26T18:23:01Z",
-          "updatedAt": "2026-05-29T03:23:12Z",
+          "createdAt": "2026-05-24T05:41:23Z",
+          "updatedAt": "2026-05-25T06:48:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -652,9 +676,10 @@
             1
           ],
           "tags": [
-            "通用安全"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 83.48
+          "score": 78.22
         },
         {
           "id": 1248078573,
@@ -682,32 +707,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 80.23
-        },
-        {
-          "id": 1248045931,
-          "name": "hermes-bumblebee-bridge",
-          "fullName": "Deconstruct2021/hermes-bumblebee-bridge",
-          "url": "https://github.com/Deconstruct2021/hermes-bumblebee-bridge",
-          "homepage": "",
-          "description": "Read-only supply-chain scanning for Hermes Agent, powered by Perplexity's Bumblebee. Daily scans, Telegram alerts, JARVIS narration.",
-          "stars": 12,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-24T05:41:23Z",
-          "updatedAt": "2026-05-25T06:48:26Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 80.01
+          "score": 78.12
         },
         {
           "id": 1248565991,
@@ -734,7 +734,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.45
+          "score": 75.52
         },
         {
           "id": 1249342052,
@@ -760,7 +760,34 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 76.99
+          "score": 75.06
+        },
+        {
+          "id": 1247673044,
+          "name": "malsnitch",
+          "fullName": "grepstrength/malsnitch",
+          "url": "https://github.com/grepstrength/malsnitch",
+          "homepage": "https://grepstrength.com",
+          "description": "Secrets scanner with a twist... this is for getting threat actor credentials from analyzed malware samples. Acquire threat actor credentials from Binary Ninja exports, etc. to get C2 credentials, embedded API keys, crypto material, or hardcoded passwords.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-23T16:19:56Z",
+          "updatedAt": "2026-05-29T12:12:48Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 71.17
         },
         {
           "id": 1247760877,
@@ -776,31 +803,34 @@
           "createdAt": "2026-05-23T18:39:01Z",
           "updatedAt": "2026-05-27T18:39:39Z",
           "matchedProfiles": [
+            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
+            1,
             1.08
           ],
           "tags": [
+            "通用安全",
             "网络安全",
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 70.81
+          "score": 68.88
         },
         {
-          "id": 1247673044,
-          "name": "malsnitch",
-          "fullName": "grepstrength/malsnitch",
-          "url": "https://github.com/grepstrength/malsnitch",
-          "homepage": "https://grepstrength.com",
-          "description": "Secrets scanner with a twist... this is for getting threat actor credentials from analyzed malware samples. Acquire threat actor credentials from Binary Ninja exports, etc. to get C2 credentials, embedded API keys, crypto material, or hardcoded passwords.",
-          "stars": 8,
+          "id": 1248848153,
+          "name": "darwin-agentic-cloud",
+          "fullName": "vje013/darwin-agentic-cloud",
+          "url": "https://github.com/vje013/darwin-agentic-cloud",
+          "homepage": "https://darwin-agentic-cloud.fly.dev",
+          "description": "Verifiable and free compute for AI agents. Cryptographically signed execution attestations. MCP-native.",
+          "stars": 6,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-23T16:19:56Z",
-          "updatedAt": "2026-05-28T22:20:51Z",
+          "openIssues": 6,
+          "language": "Python",
+          "createdAt": "2026-05-25T05:32:00Z",
+          "updatedAt": "2026-05-29T15:59:05Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -809,11 +839,9 @@
           ],
           "tags": [
             "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
+            "AI 自动化 / Skill"
           ],
-          "score": 70.42
+          "score": 68.45
         }
       ]
     }
