@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-30T05:00:15.750Z",
+  "generatedAt": "2026-05-30T14:48:29.336Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-05-27",
-      "totalCandidates": 20,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         }
       ],
       "repositories": [
@@ -98,7 +98,35 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.76
+          "score": 74.22
+        },
+        {
+          "id": 1254048338,
+          "name": "HDN-ToolKit",
+          "fullName": "HasnainDarkNet/HDN-ToolKit",
+          "url": "https://github.com/HasnainDarkNet/HDN-ToolKit",
+          "homepage": "",
+          "description": "HDN Phish is a professional cybersecurity awareness tool featuring realistic login pages for Instagram, Facebook, Google, Twitter, LinkedIn, Snapchat, GitHub, Netflix, and TikTok. Designed for authorized security testing and phishing simulation training.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-30T04:48:26Z",
+          "updatedAt": "2026-05-30T13:26:47Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.9
         },
         {
           "id": 1251778861,
@@ -124,7 +152,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 70.26
+          "score": 66.72
+        },
+        {
+          "id": 1252559618,
+          "name": "gogs-rce",
+          "fullName": "portbuster1337/gogs-rce",
+          "url": "https://github.com/portbuster1337/gogs-rce",
+          "homepage": "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed/",
+          "description": "Gogs RCE via argument injection in git rebase (CWE-88) — Python PoC. No CVE yet.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-28T16:35:45Z",
+          "updatedAt": "2026-05-30T14:33:49Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 59.84
         },
         {
           "id": 1252934138,
@@ -149,32 +202,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 61.9
-        },
-        {
-          "id": 1252559618,
-          "name": "gogs-rce",
-          "fullName": "portbuster1337/gogs-rce",
-          "url": "https://github.com/portbuster1337/gogs-rce",
-          "homepage": "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed/",
-          "description": "Gogs RCE via argument injection in git rebase (CWE-88) — Python PoC. No CVE yet.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-28T16:35:45Z",
-          "updatedAt": "2026-05-29T06:20:01Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 59.38
+          "score": 57.72
         },
         {
           "id": 1253199643,
@@ -200,7 +228,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 58.98
+          "score": 55.16
         },
         {
           "id": 1251697354,
@@ -225,7 +253,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 56.19
+          "score": 52.65
         },
         {
           "id": 1251959134,
@@ -250,34 +278,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 54.74
-        },
-        {
-          "id": 1251888293,
-          "name": "Spectra",
-          "fullName": "MoMhaidat05/Spectra",
-          "url": "https://github.com/MoMhaidat05/Spectra",
-          "homepage": "",
-          "description": "A state-aware, collaborative Attack Surface Management (ASM) and continuous reconnaissance platform.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-05-28T02:06:33Z",
-          "updatedAt": "2026-05-28T21:11:59Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 53.37
+          "score": 50.91
         },
         {
           "id": 1252549700,
@@ -303,21 +304,21 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 52.69
+          "score": 48.86
         },
         {
-          "id": 1251631572,
-          "name": "ArtifactScope",
-          "fullName": "at0m-b0mb/ArtifactScope",
-          "url": "https://github.com/at0m-b0mb/ArtifactScope",
+          "id": 1252249437,
+          "name": "wazuh-sysmon-setup-guide",
+          "fullName": "Shrikishan12/wazuh-sysmon-setup-guide",
+          "url": "https://github.com/Shrikishan12/wazuh-sysmon-setup-guide",
           "homepage": "",
-          "description": "Cross-platform digital forensics toolkit built with Electron, React, and TypeScript. Watchlists, artifact analysis, case management, and file comparison for cybersecurity investigations.",
+          "description": "Complete step-by-step guide to install Wazuh SIEM and Sysmon on Ubuntu — beginner friendly",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-05-27T19:11:57Z",
-          "updatedAt": "2026-05-29T22:53:44Z",
+          "language": "Unknown",
+          "createdAt": "2026-05-28T10:34:47Z",
+          "updatedAt": "2026-05-30T12:56:13Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -328,7 +329,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 44.42
+          "score": 46.59
         },
         {
           "id": 1251069477,
@@ -353,7 +354,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 43.8
+          "score": 42.48
         },
         {
           "id": 1251034612,
@@ -378,7 +379,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 42.67
+          "score": 41.79
         }
       ]
     },
@@ -398,35 +399,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1780117268"
+          "rateLimitReset": "1780152562"
         }
       ],
       "repositories": [
@@ -437,12 +438,12 @@
           "url": "https://github.com/pulseio76/ArgusMind",
           "homepage": "https://argusmind.vercel.app/",
           "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
-          "stars": 29,
+          "stars": 30,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-25T14:57:48Z",
-          "updatedAt": "2026-05-29T16:56:10Z",
+          "updatedAt": "2026-05-30T10:12:17Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -453,7 +454,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 112.84
+          "score": 112.1
         },
         {
           "id": 1247758656,
@@ -478,7 +479,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 98.85
+          "score": 97.21
         },
         {
           "id": 1251467696,
@@ -505,7 +506,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 90.36
+          "score": 88.84
         },
         {
           "id": 1248848153,
@@ -531,7 +532,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 84.06
+          "score": 82.42
         },
         {
           "id": 1250538314,
@@ -545,7 +546,7 @@
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-05-26T18:23:01Z",
-          "updatedAt": "2026-05-29T11:50:28Z",
+          "updatedAt": "2026-05-30T13:51:47Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -555,7 +556,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 81.75
+          "score": 80.23
         },
         {
           "id": 1249498498,
@@ -579,33 +580,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 81.62
-        },
-        {
-          "id": 1251778861,
-          "name": "puck-scout",
-          "fullName": "puck-security/puck-scout",
-          "url": "https://github.com/puck-security/puck-scout",
-          "homepage": "https://puck.security",
-          "description": "Autonomous, read-only endpoint investigation via MCP. Ask a question about your fleet, get a narrative answer with containment recommendations.",
-          "stars": 8,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-27T22:53:42Z",
-          "updatedAt": "2026-05-29T20:17:10Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 81.42
+          "score": 80.1
         },
         {
           "id": 1247415528,
@@ -633,7 +608,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 79.42
+          "score": 78.6
         },
         {
           "id": 1248045931,
@@ -658,7 +633,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 76.35
+          "score": 74.84
         },
         {
           "id": 1248078573,
@@ -686,7 +661,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 75.92
+          "score": 74.13
         },
         {
           "id": 1248565991,
@@ -713,7 +688,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 73.5
+          "score": 71.86
         },
         {
           "id": 1249342052,
@@ -739,7 +714,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 73.04
+          "score": 71.4
         },
         {
           "id": 1247673044,
@@ -747,13 +722,13 @@
           "fullName": "grepstrength/malsnitch",
           "url": "https://github.com/grepstrength/malsnitch",
           "homepage": "https://grepstrength.com",
-          "description": "Secrets scanner with a twist... this is for getting threat actor credentials from analyzed malware samples. Acquire threat actor credentials from Binary Ninja exports, etc. to get C2 credentials, embedded API keys, crypto material, or hardcoded passwords.",
-          "stars": 9,
+          "description": "Secrets scanner with a twist... this is for getting threat actor credentials from MALWARE. Acquire threat actor credentials from FLOSS exports, memdumps, Binja exports, etc. to get C2 credentials, embedded API keys, crypto material, or hardcoded passwords.",
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-05-23T16:19:56Z",
-          "updatedAt": "2026-05-29T12:12:48Z",
+          "updatedAt": "2026-05-30T11:52:01Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -763,10 +738,9 @@
           "tags": [
             "网络安全",
             "渗透 / 红队",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
+            "防守 / 蓝队"
           ],
-          "score": 69.14
+          "score": 69.95
         },
         {
           "id": 1247760877,
@@ -777,10 +751,10 @@
           "description": "SQL Easy is an automated SQL injection and reconnaissance pipeline that chains Subfinder, Httpx, Katana, and SQLMap into a single intelligent workflow for security researchers and penetration testers",
           "stars": 8,
           "forks": 0,
-          "openIssues": 1,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-05-23T18:39:01Z",
-          "updatedAt": "2026-05-27T18:39:39Z",
+          "updatedAt": "2026-05-30T06:53:03Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -795,7 +769,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 66.86
+          "score": 65.22
         }
       ]
     }
