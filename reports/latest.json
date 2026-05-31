@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-31T05:45:24.296Z",
+  "generatedAt": "2026-05-31T14:56:54.262Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,97 @@
         "maxItems": 12
       },
       "createdSince": "2026-05-28",
-      "totalCandidates": 20,
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         }
       ],
       "repositories": [
+        {
+          "id": 1255173526,
+          "name": "WinUtilities-Pro-cracked",
+          "fullName": "knotcouriercastle/WinUtilities-Pro-cracked",
+          "url": "https://github.com/knotcouriercastle/WinUtilities-Pro-cracked",
+          "homepage": "",
+          "description": "WinUtilities Pro - Windows maintenance toolkit with cleanup, optimization, and security. Includes setup guide, feature overview, and download instructions.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-31T13:55:26Z",
+          "updatedAt": "2026-05-31T14:05:19Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 76.16
+        },
+        {
+          "id": 1253649611,
+          "name": "Ultimate-ssrf-Framework",
+          "fullName": "KauanCosta2000/Ultimate-ssrf-Framework",
+          "url": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
+          "homepage": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
+          "description": "Advanced SSRF discovery, validation and analysis framework for bug bounty, pentesting and security research.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-29T17:18:40Z",
+          "updatedAt": "2026-05-31T14:23:12Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 71.91
+        },
         {
           "id": 1254048338,
           "name": "HDN-ToolKit",
@@ -99,7 +151,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 74.95
+          "score": 71.04
+        },
+        {
+          "id": 1255092775,
+          "name": "SpamShield-AI",
+          "fullName": "Ardhendu-dot/SpamShield-AI",
+          "url": "https://github.com/Ardhendu-dot/SpamShield-AI",
+          "homepage": "",
+          "description": "AI-Powered Digital Threat Intelligence and Communication Risk Assessment Platform built using Machine Learning, NLP, Streamlit and Scikit-learn.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-31T11:53:17Z",
+          "updatedAt": "2026-05-31T14:46:12Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 65.77
         },
         {
           "id": 1253968676,
@@ -124,7 +201,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 61.31
+          "score": 57.4
         },
         {
           "id": 1252559618,
@@ -149,7 +226,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 54.45
+          "score": 51.13
         },
         {
           "id": 1253396929,
@@ -176,7 +253,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 52.7
+          "score": 48.98
         },
         {
           "id": 1252934138,
@@ -201,32 +278,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 51.35
-        },
-        {
-          "id": 1253909688,
-          "name": "sovereign-mac",
-          "fullName": "chrisvrakas/sovereign-mac",
-          "url": "https://github.com/chrisvrakas/sovereign-mac",
-          "homepage": "https://chrisvrakas.com",
-          "description": "macOS privacy & security toolkit — Don't trust Apple. Verify. YOUR machine, YOUR rules.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-29T23:54:07Z",
-          "updatedAt": "2026-05-30T00:19:05Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 51.22
+          "score": 47.44
         },
         {
           "id": 1253199643,
@@ -252,7 +304,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 49.33
+          "score": 45.74
         },
         {
           "id": 1251959134,
@@ -280,32 +332,6 @@
           "score": 45.73
         },
         {
-          "id": 1252549700,
-          "name": "WireDown",
-          "fullName": "boubli/WireDown",
-          "url": "https://github.com/boubli/WireDown",
-          "homepage": "https://github.com/boubli/WireDown",
-          "description": "WireDown: An autonomous, AI-driven Wi-Fi honeypot with a zero-gravity physics dashboard. Detects ARP spoofing, deauth floods, and XZ backdoor exploits.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-28T16:24:13Z",
-          "updatedAt": "2026-05-30T23:34:45Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 43.03
-        },
-        {
           "id": 1252249437,
           "name": "wazuh-sysmon-setup-guide",
           "fullName": "Shrikishan12/wazuh-sysmon-setup-guide",
@@ -328,7 +354,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 40.76
+          "score": 38.88
         },
         {
           "id": 1252595849,
@@ -355,7 +381,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 40.17
+          "score": 36.85
         }
       ]
     },
@@ -368,42 +394,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-05-24",
-      "totalCandidates": 17,
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 5,
+          "fetched": 6,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1780206377"
+          "rateLimitReset": "1780239467"
         }
       ],
       "repositories": [
@@ -414,12 +440,12 @@
           "url": "https://github.com/pulseio76/ArgusMind",
           "homepage": "https://argusmind.vercel.app/",
           "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
-          "stars": 30,
+          "stars": 31,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-25T14:57:48Z",
-          "updatedAt": "2026-05-30T15:03:12Z",
+          "updatedAt": "2026-05-31T07:30:37Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -430,7 +456,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 109.6
+          "score": 108.92
         },
         {
           "id": 1248848153,
@@ -456,7 +482,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 92.07
+          "score": 90.54
         },
         {
           "id": 1251467696,
@@ -483,7 +509,33 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 91.59
+          "score": 90.16
+        },
+        {
+          "id": 1253649611,
+          "name": "Ultimate-ssrf-Framework",
+          "fullName": "KauanCosta2000/Ultimate-ssrf-Framework",
+          "url": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
+          "homepage": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
+          "description": "Advanced SSRF discovery, validation and analysis framework for bug bounty, pentesting and security research.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-29T17:18:40Z",
+          "updatedAt": "2026-05-31T14:23:12Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 82.08
         },
         {
           "id": 1251778861,
@@ -509,7 +561,31 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 82.32
+          "score": 80.9
+        },
+        {
+          "id": 1250538314,
+          "name": "xpam-script",
+          "fullName": "deepru/xpam-script",
+          "url": "https://github.com/deepru/xpam-script",
+          "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
+          "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
+          "stars": 13,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-05-26T18:23:01Z",
+          "updatedAt": "2026-05-31T08:57:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 78.28
         },
         {
           "id": 1249498498,
@@ -533,31 +609,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 79.36
-        },
-        {
-          "id": 1250538314,
-          "name": "xpam-script",
-          "fullName": "deepru/xpam-script",
-          "url": "https://github.com/deepru/xpam-script",
-          "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
-          "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-26T18:23:01Z",
-          "updatedAt": "2026-05-30T16:27:34Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 77.92
+          "score": 77.94
         },
         {
           "id": 1248045931,
@@ -610,7 +662,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 71.4
+          "score": 71.2
         },
         {
           "id": 1248565991,
@@ -637,7 +689,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 69.36
+          "score": 67.83
         },
         {
           "id": 1249342052,
@@ -663,7 +715,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 68.9
+          "score": 67.36
         }
       ]
     }
