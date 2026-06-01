@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-01T06:18:26.884Z",
+  "generatedAt": "2026-06-01T19:00:24.107Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 12,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Barricadefleleap/Milestone-XProtect-cracked",
           "homepage": "",
           "description": "Milestone XProtect - Enterprise video management system for security surveillance. Includes setup guide, feature overview, and download instructions.",
-          "stars": 50,
+          "stars": 49,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-05-31T13:31:38Z",
-          "updatedAt": "2026-05-31T17:34:17Z",
+          "updatedAt": "2026-06-01T17:49:00Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 122.55
+          "score": 117.46
         },
         {
           "id": 1255173526,
@@ -105,12 +105,12 @@
           "url": "https://github.com/knotcouriercastle/WinUtilities-Pro-cracked",
           "homepage": "",
           "description": "WinUtilities Pro - Windows maintenance toolkit with cleanup, optimization, and security. Includes setup guide, feature overview, and download instructions.",
-          "stars": 48,
+          "stars": 45,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-05-31T13:55:26Z",
-          "updatedAt": "2026-06-01T04:16:32Z",
+          "updatedAt": "2026-06-01T17:50:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,7 +122,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 121.67
+          "score": 115.48
         },
         {
           "id": 1253649611,
@@ -131,12 +131,12 @@
           "url": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "homepage": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "description": "Advanced SSRF discovery, validation and analysis framework for bug bounty, pentesting and security research.",
-          "stars": 14,
-          "forks": 2,
-          "openIssues": 1,
+          "stars": 18,
+          "forks": 5,
+          "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-29T17:18:40Z",
-          "updatedAt": "2026-06-01T04:04:09Z",
+          "updatedAt": "2026-06-01T16:44:27Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -148,7 +148,33 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 88.9
+          "score": 95.19
+        },
+        {
+          "id": 1255470666,
+          "name": "pcloud-mcp",
+          "fullName": "terraincognita07/pcloud-mcp",
+          "url": "https://github.com/terraincognita07/pcloud-mcp",
+          "homepage": "https://pkg.go.dev/github.com/terraincognita07/pcloud-mcp",
+          "description": "Hardened Model Context Protocol (MCP) server for pCloud, in Go. Path-traversal-proof downloads, OAuth-only auth, single static binary.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-31T21:38:19Z",
+          "updatedAt": "2026-06-01T08:08:31Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 64.81
         },
         {
           "id": 1255391172,
@@ -174,7 +200,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 68.45
+          "score": 63.04
         },
         {
           "id": 1255390819,
@@ -200,7 +226,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 68.45
+          "score": 63.03
         },
         {
           "id": 1255390605,
@@ -228,7 +254,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 68.44
+          "score": 63.03
         },
         {
           "id": 1255390302,
@@ -256,7 +282,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 68.44
+          "score": 63.03
         },
         {
           "id": 1255389892,
@@ -284,7 +310,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 68.44
+          "score": 63.02
         },
         {
           "id": 1255389748,
@@ -300,34 +326,6 @@
           "createdAt": "2026-05-31T19:12:59Z",
           "updatedAt": "2026-05-31T19:13:32Z",
           "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 68.43
-        },
-        {
-          "id": 1255389361,
-          "name": "Anthropic-Cybersecurity-Skills-847",
-          "fullName": "System32manager/Anthropic-Cybersecurity-Skills-847",
-          "url": "https://github.com/System32manager/Anthropic-Cybersecurity-Skills-847",
-          "homepage": "",
-          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-31T19:12:22Z",
-          "updatedAt": "2026-05-31T19:12:52Z",
-          "matchedProfiles": [
             "渗透 / 红队"
           ],
           "profileWeights": [
@@ -338,7 +336,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 68.43
+          "score": 63.02
         },
         {
           "id": 1255389324,
@@ -366,7 +364,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 68.43
+          "score": 63.02
         },
         {
           "id": 1255389192,
@@ -394,7 +392,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 68.43
+          "score": 63.02
         }
       ]
     },
@@ -414,76 +412,51 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 0,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1780294759"
+          "rateLimitReset": "1780340476"
         }
       ],
       "repositories": [
         {
-          "id": 1255156373,
-          "name": "Milestone-XProtect-cracked",
-          "fullName": "Barricadefleleap/Milestone-XProtect-cracked",
-          "url": "https://github.com/Barricadefleleap/Milestone-XProtect-cracked",
+          "id": 1252801819,
+          "name": "nullsec-s1",
+          "fullName": "trynullsec/nullsec-s1",
+          "url": "https://github.com/trynullsec/nullsec-s1",
           "homepage": "",
-          "description": "Milestone XProtect - Enterprise video management system for security surveillance. Includes setup guide, feature overview, and download instructions.",
-          "stars": 50,
-          "forks": 0,
+          "description": "Security-native LLM system for AI-generated application security.",
+          "stars": 81,
+          "forks": 21,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-31T13:31:38Z",
-          "updatedAt": "2026-05-31T17:34:17Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 126.01
-        },
-        {
-          "id": 1255173526,
-          "name": "WinUtilities-Pro-cracked",
-          "fullName": "knotcouriercastle/WinUtilities-Pro-cracked",
-          "url": "https://github.com/knotcouriercastle/WinUtilities-Pro-cracked",
-          "homepage": "",
-          "description": "WinUtilities Pro - Windows maintenance toolkit with cleanup, optimization, and security. Includes setup guide, feature overview, and download instructions.",
-          "stars": 48,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-31T13:55:26Z",
-          "updatedAt": "2026-06-01T04:16:32Z",
+          "language": "Python",
+          "createdAt": "2026-05-28T22:13:50Z",
+          "updatedAt": "2026-06-01T18:25:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -495,21 +468,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 125.05
+          "score": 144.23
         },
         {
-          "id": 1251395809,
-          "name": "System-Mechanic-Ultimate-cracked",
-          "fullName": "stormbowinertia71/System-Mechanic-Ultimate-cracked",
-          "url": "https://github.com/stormbowinertia71/System-Mechanic-Ultimate-cracked",
+          "id": 1255156373,
+          "name": "Milestone-XProtect-cracked",
+          "fullName": "Barricadefleleap/Milestone-XProtect-cracked",
+          "url": "https://github.com/Barricadefleleap/Milestone-XProtect-cracked",
           "homepage": "",
-          "description": "System Mechanic Ultimate - PC optimization suite with speed, security, and recovery tools. Includes setup guide, feature overview, and download instructions.",
-          "stars": 48,
+          "description": "Milestone XProtect - Enterprise video management system for security surveillance. Includes setup guide, feature overview, and download instructions.",
+          "stars": 49,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-05-27T14:34:28Z",
-          "updatedAt": "2026-05-31T20:26:33Z",
+          "createdAt": "2026-05-31T13:31:38Z",
+          "updatedAt": "2026-06-01T17:49:00Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -520,32 +493,33 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 110.3
+          "score": 123.54
         },
         {
-          "id": 1249300381,
-          "name": "ArgusMind",
-          "fullName": "pulseio76/ArgusMind",
-          "url": "https://github.com/pulseio76/ArgusMind",
-          "homepage": "https://argusmind.vercel.app/",
-          "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
-          "stars": 35,
-          "forks": 2,
+          "id": 1255173526,
+          "name": "WinUtilities-Pro-cracked",
+          "fullName": "knotcouriercastle/WinUtilities-Pro-cracked",
+          "url": "https://github.com/knotcouriercastle/WinUtilities-Pro-cracked",
+          "homepage": "",
+          "description": "WinUtilities Pro - Windows maintenance toolkit with cleanup, optimization, and security. Includes setup guide, feature overview, and download instructions.",
+          "stars": 45,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-25T14:57:48Z",
-          "updatedAt": "2026-06-01T05:01:15Z",
+          "language": "Unknown",
+          "createdAt": "2026-05-31T13:55:26Z",
+          "updatedAt": "2026-06-01T17:50:42Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 109.57
+          "score": 121.48
         },
         {
           "id": 1253649611,
@@ -554,12 +528,12 @@
           "url": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "homepage": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "description": "Advanced SSRF discovery, validation and analysis framework for bug bounty, pentesting and security research.",
-          "stars": 14,
-          "forks": 2,
-          "openIssues": 1,
+          "stars": 18,
+          "forks": 5,
+          "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-29T17:18:40Z",
-          "updatedAt": "2026-06-01T04:04:09Z",
+          "updatedAt": "2026-06-01T16:44:27Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -571,21 +545,46 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 102.49
+          "score": 110.95
         },
         {
-          "id": 1252801819,
-          "name": "nullsec-s1",
-          "fullName": "trynullsec/nullsec-s1",
-          "url": "https://github.com/trynullsec/nullsec-s1",
-          "homepage": "",
-          "description": "Security-native LLM system for AI-generated application security.",
-          "stars": 12,
-          "forks": 11,
-          "openIssues": 0,
+          "id": 1249300381,
+          "name": "ArgusMind",
+          "fullName": "pulseio76/ArgusMind",
+          "url": "https://github.com/pulseio76/ArgusMind",
+          "homepage": "https://argusmind.vercel.app/",
+          "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
+          "stars": 37,
+          "forks": 2,
+          "openIssues": 1,
           "language": "Python",
-          "createdAt": "2026-05-28T22:13:50Z",
-          "updatedAt": "2026-06-01T04:33:45Z",
+          "createdAt": "2026-05-25T14:57:48Z",
+          "updatedAt": "2026-06-01T10:20:55Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 109.6
+        },
+        {
+          "id": 1251395809,
+          "name": "System-Mechanic-Ultimate-cracked",
+          "fullName": "stormbowinertia71/System-Mechanic-Ultimate-cracked",
+          "url": "https://github.com/stormbowinertia71/System-Mechanic-Ultimate-cracked",
+          "homepage": "",
+          "description": "System Mechanic Ultimate - PC optimization suite with speed, security, and recovery tools. Includes setup guide, feature overview, and download instructions.",
+          "stars": 46,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-27T14:34:28Z",
+          "updatedAt": "2026-06-01T18:19:22Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -594,10 +593,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 96.48
+          "score": 107.27
         },
         {
           "id": 1248848153,
@@ -606,12 +604,12 @@
           "url": "https://github.com/vje013/darwin-agentic-cloud",
           "homepage": "https://darwin-agentic-cloud.fly.dev",
           "description": "Verifiable and free cloud compute for AI agents. webMCP + MCP. Sandboxed Beta + Research: 6/1/2026",
-          "stars": 16,
-          "forks": 4,
+          "stars": 18,
+          "forks": 6,
           "openIssues": 6,
           "language": "Python",
           "createdAt": "2026-05-25T05:32:00Z",
-          "updatedAt": "2026-06-01T03:36:27Z",
+          "updatedAt": "2026-06-01T17:13:02Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -623,7 +621,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 91.09
+          "score": 96.15
         },
         {
           "id": 1251467696,
@@ -632,12 +630,12 @@
           "url": "https://github.com/portbuster1337/CVE-2026-27771",
           "homepage": "",
           "description": "CVE-2026-27771 - Gitea/Forgejo Container Registry Auth Bypass Exploit PoC - Pull private container images without authentication",
-          "stars": 13,
+          "stars": 14,
           "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-27T15:54:41Z",
-          "updatedAt": "2026-06-01T03:32:33Z",
+          "updatedAt": "2026-06-01T13:43:47Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -650,7 +648,33 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 89.58
+          "score": 89.29
+        },
+        {
+          "id": 1251509001,
+          "name": "Malwarebytes-Premium-Security-Suite",
+          "fullName": "GrayAttorneyGrasp/Malwarebytes-Premium-Security-Suite",
+          "url": "https://github.com/GrayAttorneyGrasp/Malwarebytes-Premium-Security-Suite",
+          "homepage": "",
+          "description": "Malwarebytes Premium Security Suite — full premium build for Windows with pro features unlocked. Pre-Activated",
+          "stars": 16,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-27T16:43:16Z",
+          "updatedAt": "2026-06-01T18:19:25Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队",
+            "网络安全"
+          ],
+          "score": 82.13
         },
         {
           "id": 1251778861,
@@ -661,7 +685,7 @@
           "description": "Autonomous, read-only endpoint investigation via MCP. Ask a question about your fleet, get a narrative answer with containment recommendations.",
           "stars": 11,
           "forks": 1,
-          "openIssues": 0,
+          "openIssues": 3,
           "language": "Go",
           "createdAt": "2026-05-27T22:53:42Z",
           "updatedAt": "2026-06-01T00:39:15Z",
@@ -676,7 +700,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 80.6
+          "score": 78.64
         },
         {
           "id": 1249498498,
@@ -700,7 +724,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 75.56
+          "score": 73.59
         },
         {
           "id": 1250538314,
@@ -714,7 +738,7 @@
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-05-26T18:23:01Z",
-          "updatedAt": "2026-05-31T18:37:32Z",
+          "updatedAt": "2026-06-01T18:41:22Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -724,7 +748,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 74.12
+          "score": 72.15
         },
         {
           "id": 1249342052,
@@ -733,12 +757,12 @@
           "url": "https://github.com/RedteamNotes/SharpADIDNS",
           "homepage": "https://github.com/RedteamNotes/SharpADIDNS",
           "description": "A C# CLI tool for reading and modifying AD-Integrated DNS records over LDAP, built for serious red teaming and packed with tradecraft features tailored for Sliver C2 execute-assembly.",
-          "stars": 5,
+          "stars": 6,
           "forks": 3,
           "openIssues": 0,
           "language": "C#",
           "createdAt": "2026-05-25T15:45:38Z",
-          "updatedAt": "2026-05-28T13:06:32Z",
+          "updatedAt": "2026-06-01T06:57:20Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -750,7 +774,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 64.79
+          "score": 66.96
         }
       ]
     }
