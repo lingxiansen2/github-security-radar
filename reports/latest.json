@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-05-31T14:56:54.262Z",
+  "generatedAt": "2026-06-01T06:18:26.884Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,46 +33,71 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-05-28",
-      "totalCandidates": 24,
+      "createdSince": "2026-05-29",
+      "totalCandidates": 30,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 12,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         }
       ],
       "repositories": [
+        {
+          "id": 1255156373,
+          "name": "Milestone-XProtect-cracked",
+          "fullName": "Barricadefleleap/Milestone-XProtect-cracked",
+          "url": "https://github.com/Barricadefleleap/Milestone-XProtect-cracked",
+          "homepage": "",
+          "description": "Milestone XProtect - Enterprise video management system for security surveillance. Includes setup guide, feature overview, and download instructions.",
+          "stars": 50,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-31T13:31:38Z",
+          "updatedAt": "2026-05-31T17:34:17Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 122.55
+        },
         {
           "id": 1255173526,
           "name": "WinUtilities-Pro-cracked",
@@ -80,12 +105,12 @@
           "url": "https://github.com/knotcouriercastle/WinUtilities-Pro-cracked",
           "homepage": "",
           "description": "WinUtilities Pro - Windows maintenance toolkit with cleanup, optimization, and security. Includes setup guide, feature overview, and download instructions.",
-          "stars": 5,
+          "stars": 48,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-05-31T13:55:26Z",
-          "updatedAt": "2026-05-31T14:05:19Z",
+          "updatedAt": "2026-06-01T04:16:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,7 +122,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 76.16
+          "score": 121.67
         },
         {
           "id": 1253649611,
@@ -106,12 +131,12 @@
           "url": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "homepage": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "description": "Advanced SSRF discovery, validation and analysis framework for bug bounty, pentesting and security research.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
+          "stars": 14,
+          "forks": 2,
+          "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-05-29T17:18:40Z",
-          "updatedAt": "2026-05-31T14:23:12Z",
+          "updatedAt": "2026-06-01T04:04:09Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -123,21 +148,73 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 71.91
+          "score": 88.9
         },
         {
-          "id": 1254048338,
-          "name": "HDN-ToolKit",
-          "fullName": "HasnainDarkNet/HDN-ToolKit",
-          "url": "https://github.com/HasnainDarkNet/HDN-ToolKit",
+          "id": 1255391172,
+          "name": "Anthropic-Cybersecurity-Skills-448",
+          "fullName": "Zzzgamingo/Anthropic-Cybersecurity-Skills-448",
+          "url": "https://github.com/Zzzgamingo/Anthropic-Cybersecurity-Skills-448",
           "homepage": "",
-          "description": "HDN Phish is a professional cybersecurity awareness tool featuring realistic login pages for Instagram, Facebook, Google, Twitter, LinkedIn, Snapchat, GitHub, Netflix, and TikTok. Designed for authorized security testing and phishing simulation training.",
-          "stars": 4,
+          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-05-30T04:48:26Z",
-          "updatedAt": "2026-05-30T18:03:05Z",
+          "createdAt": "2026-05-31T19:15:11Z",
+          "updatedAt": "2026-05-31T19:15:43Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 68.45
+        },
+        {
+          "id": 1255390819,
+          "name": "Anthropic-Cybersecurity-Skills-480",
+          "fullName": "Zzzgamingo/Anthropic-Cybersecurity-Skills-480",
+          "url": "https://github.com/Zzzgamingo/Anthropic-Cybersecurity-Skills-480",
+          "homepage": "",
+          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-31T19:14:39Z",
+          "updatedAt": "2026-05-31T19:15:11Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 68.45
+        },
+        {
+          "id": 1255390605,
+          "name": "Anthropic-Cybersecurity-Skills-973",
+          "fullName": "Zzzgamingo/Anthropic-Cybersecurity-Skills-973",
+          "url": "https://github.com/Zzzgamingo/Anthropic-Cybersecurity-Skills-973",
+          "homepage": "",
+          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-31T19:14:19Z",
+          "updatedAt": "2026-05-31T19:14:52Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -151,123 +228,105 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 71.04
+          "score": 68.44
         },
         {
-          "id": 1255092775,
-          "name": "SpamShield-AI",
-          "fullName": "Ardhendu-dot/SpamShield-AI",
-          "url": "https://github.com/Ardhendu-dot/SpamShield-AI",
+          "id": 1255390302,
+          "name": "Anthropic-Cybersecurity-Skills-612",
+          "fullName": "superpeperzk2842-dotcom/Anthropic-Cybersecurity-Skills-612",
+          "url": "https://github.com/superpeperzk2842-dotcom/Anthropic-Cybersecurity-Skills-612",
           "homepage": "",
-          "description": "AI-Powered Digital Threat Intelligence and Communication Risk Assessment Platform built using Machine Learning, NLP, Streamlit and Scikit-learn.",
+          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-05-31T11:53:17Z",
-          "updatedAt": "2026-05-31T14:46:12Z",
+          "createdAt": "2026-05-31T19:13:50Z",
+          "updatedAt": "2026-05-31T19:14:20Z",
           "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
             "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 65.77
-        },
-        {
-          "id": 1253968676,
-          "name": "api-security-auditor-pro",
-          "fullName": "miladrezanezhad/api-security-auditor-pro",
-          "url": "https://github.com/miladrezanezhad/api-security-auditor-pro",
-          "homepage": "https://pypi.org/project/api-security-auditor-pro/",
-          "description": "Professional API security auditing tool that detects rate limiting vulnerabilities and misconfigurations in REST APIs",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-30T01:57:07Z",
-          "updatedAt": "2026-05-30T17:23:51Z",
-          "matchedProfiles": [
             "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 57.4
-        },
-        {
-          "id": 1252559618,
-          "name": "gogs-rce",
-          "fullName": "portbuster1337/gogs-rce",
-          "url": "https://github.com/portbuster1337/gogs-rce",
-          "homepage": "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed/",
-          "description": "Gogs RCE via argument injection in git rebase (CWE-88) — Python PoC. No CVE yet.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-28T16:35:45Z",
-          "updatedAt": "2026-05-30T14:33:49Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 51.13
-        },
-        {
-          "id": 1253396929,
-          "name": "PERE",
-          "fullName": "n00bDebugger-git/PERE",
-          "url": "https://github.com/n00bDebugger-git/PERE",
-          "homepage": "https://vojtechhron.dev/en/my-security-toolkit/pere",
-          "description": "PERE – PE Risk Engine",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-29T12:21:29Z",
-          "updatedAt": "2026-05-30T22:34:18Z",
-          "matchedProfiles": [
-            "网络安全",
-            "防守 / 蓝队"
           ],
           "profileWeights": [
             1.08,
-            1.12
+            1.18
           ],
           "tags": [
             "网络安全",
-            "防守 / 蓝队"
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
           ],
-          "score": 48.98
+          "score": 68.44
         },
         {
-          "id": 1252934138,
-          "name": "jwt-cracker-rust",
-          "fullName": "acidzang/jwt-cracker-rust",
-          "url": "https://github.com/acidzang/jwt-cracker-rust",
+          "id": 1255389892,
+          "name": "Anthropic-Cybersecurity-Skills-915",
+          "fullName": "superpeperzk2842-dotcom/Anthropic-Cybersecurity-Skills-915",
+          "url": "https://github.com/superpeperzk2842-dotcom/Anthropic-Cybersecurity-Skills-915",
           "homepage": "",
-          "description": "A lightweight Rust CLI for authorized JWT security testing and lab use.",
+          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-05-29T02:34:42Z",
-          "updatedAt": "2026-05-29T03:10:29Z",
+          "language": "Python",
+          "createdAt": "2026-05-31T19:13:12Z",
+          "updatedAt": "2026-05-31T19:13:44Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.44
+        },
+        {
+          "id": 1255389748,
+          "name": "Anthropic-Cybersecurity-Skills-120",
+          "fullName": "superpeperzk2842-dotcom/Anthropic-Cybersecurity-Skills-120",
+          "url": "https://github.com/superpeperzk2842-dotcom/Anthropic-Cybersecurity-Skills-120",
+          "homepage": "",
+          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-31T19:12:59Z",
+          "updatedAt": "2026-05-31T19:13:32Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.43
+        },
+        {
+          "id": 1255389361,
+          "name": "Anthropic-Cybersecurity-Skills-847",
+          "fullName": "System32manager/Anthropic-Cybersecurity-Skills-847",
+          "url": "https://github.com/System32manager/Anthropic-Cybersecurity-Skills-847",
+          "homepage": "",
+          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-31T19:12:22Z",
+          "updatedAt": "2026-05-31T19:12:52Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -276,112 +335,66 @@
           ],
           "tags": [
             "渗透 / 红队",
+            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 47.44
+          "score": 68.43
         },
         {
-          "id": 1253199643,
-          "name": "should-i-care",
-          "fullName": "moltenbit/should-i-care",
-          "url": "https://github.com/moltenbit/should-i-care",
-          "homepage": "https://moltenbit.net",
-          "description": "Should you care about this CVE? An agent skill that triages whether a CVE applies to your environment, with sourced, verifiable reasoning.",
+          "id": 1255389324,
+          "name": "Anthropic-Cybersecurity-Skills-101",
+          "fullName": "FloatingFlowGod/Anthropic-Cybersecurity-Skills-101",
+          "url": "https://github.com/FloatingFlowGod/Anthropic-Cybersecurity-Skills-101",
+          "homepage": "",
+          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-29T08:32:52Z",
-          "updatedAt": "2026-05-29T11:08:48Z",
+          "language": "Python",
+          "createdAt": "2026-05-31T19:12:19Z",
+          "updatedAt": "2026-05-31T19:12:51Z",
           "matchedProfiles": [
-            "网络安全"
+            "网络安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
+            1.08,
+            1.18
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 45.74
-        },
-        {
-          "id": 1251959134,
-          "name": "open-investigator",
-          "fullName": "SEc-123/open-investigator",
-          "url": "https://github.com/SEc-123/open-investigator",
-          "homepage": "https://www.arvantacyber.com/open-investigator/",
-          "description": "Open-source local read-only AI server incident investigation for Linux and Windows hosts.",
-          "stars": 2,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-05-28T04:06:32Z",
-          "updatedAt": "2026-05-29T08:37:01Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
+            "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 45.73
+          "score": 68.43
         },
         {
-          "id": 1252249437,
-          "name": "wazuh-sysmon-setup-guide",
-          "fullName": "Shrikishan12/wazuh-sysmon-setup-guide",
-          "url": "https://github.com/Shrikishan12/wazuh-sysmon-setup-guide",
+          "id": 1255389192,
+          "name": "Anthropic-Cybersecurity-Skills-708",
+          "fullName": "System32manager/Anthropic-Cybersecurity-Skills-708",
+          "url": "https://github.com/System32manager/Anthropic-Cybersecurity-Skills-708",
           "homepage": "",
-          "description": "Complete step-by-step guide to install Wazuh SIEM and Sysmon on Ubuntu — beginner friendly",
+          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-28T10:34:47Z",
-          "updatedAt": "2026-05-30T12:56:13Z",
+          "language": "Python",
+          "createdAt": "2026-05-31T19:12:08Z",
+          "updatedAt": "2026-05-31T19:12:38Z",
           "matchedProfiles": [
-            "网络安全"
+            "网络安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
+            1.08,
+            1.18
           ],
           "tags": [
             "网络安全",
-            "防守 / 蓝队"
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
           ],
-          "score": 38.88
-        },
-        {
-          "id": 1252595849,
-          "name": "agentguard",
-          "fullName": "NikeGunn/agentguard",
-          "url": "https://github.com/NikeGunn/agentguard",
-          "homepage": "https://agentguard.space",
-          "description": "Zero-trust security sidecar for AI agents - MIT, single Go binary, <5ms p99 overhead, protects Claude Code/Cursor/Codex/Gemini CLI/Windsurf",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 13,
-          "language": "Go",
-          "createdAt": "2026-05-28T17:18:03Z",
-          "updatedAt": "2026-05-30T11:27:52Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "网络安全"
-          ],
-          "score": 36.85
+          "score": 68.43
         }
       ]
     },
@@ -393,46 +406,122 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-05-24",
-      "totalCandidates": 18,
+      "createdSince": "2026-05-25",
+      "totalCandidates": 16,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
+          "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1780239467"
+          "rateLimitReset": "1780294759"
         }
       ],
       "repositories": [
+        {
+          "id": 1255156373,
+          "name": "Milestone-XProtect-cracked",
+          "fullName": "Barricadefleleap/Milestone-XProtect-cracked",
+          "url": "https://github.com/Barricadefleleap/Milestone-XProtect-cracked",
+          "homepage": "",
+          "description": "Milestone XProtect - Enterprise video management system for security surveillance. Includes setup guide, feature overview, and download instructions.",
+          "stars": 50,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-31T13:31:38Z",
+          "updatedAt": "2026-05-31T17:34:17Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 126.01
+        },
+        {
+          "id": 1255173526,
+          "name": "WinUtilities-Pro-cracked",
+          "fullName": "knotcouriercastle/WinUtilities-Pro-cracked",
+          "url": "https://github.com/knotcouriercastle/WinUtilities-Pro-cracked",
+          "homepage": "",
+          "description": "WinUtilities Pro - Windows maintenance toolkit with cleanup, optimization, and security. Includes setup guide, feature overview, and download instructions.",
+          "stars": 48,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-31T13:55:26Z",
+          "updatedAt": "2026-06-01T04:16:32Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 125.05
+        },
+        {
+          "id": 1251395809,
+          "name": "System-Mechanic-Ultimate-cracked",
+          "fullName": "stormbowinertia71/System-Mechanic-Ultimate-cracked",
+          "url": "https://github.com/stormbowinertia71/System-Mechanic-Ultimate-cracked",
+          "homepage": "",
+          "description": "System Mechanic Ultimate - PC optimization suite with speed, security, and recovery tools. Includes setup guide, feature overview, and download instructions.",
+          "stars": 48,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-27T14:34:28Z",
+          "updatedAt": "2026-05-31T20:26:33Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 110.3
+        },
         {
           "id": 1249300381,
           "name": "ArgusMind",
@@ -440,12 +529,12 @@
           "url": "https://github.com/pulseio76/ArgusMind",
           "homepage": "https://argusmind.vercel.app/",
           "description": "AI 驱动的多 Agent 自主代码安全审计：审计计划、危险 Sink 发现与调用链分析；AI-driven multi-agent autonomous code security auditor — audit planning, sink discovery & call-chain analysis; ",
-          "stars": 31,
+          "stars": 35,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-25T14:57:48Z",
-          "updatedAt": "2026-05-31T07:30:37Z",
+          "updatedAt": "2026-06-01T05:01:15Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -456,60 +545,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 108.92
-        },
-        {
-          "id": 1248848153,
-          "name": "darwin-agentic-cloud",
-          "fullName": "vje013/darwin-agentic-cloud",
-          "url": "https://github.com/vje013/darwin-agentic-cloud",
-          "homepage": "https://darwin-agentic-cloud.fly.dev",
-          "description": "Verifiable and free cloud compute for AI agents. webMCP + MCP. Sandboxed Beta + Research: 6/1/2026",
-          "stars": 15,
-          "forks": 3,
-          "openIssues": 6,
-          "language": "Python",
-          "createdAt": "2026-05-25T05:32:00Z",
-          "updatedAt": "2026-05-30T20:16:12Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 90.54
-        },
-        {
-          "id": 1251467696,
-          "name": "CVE-2026-27771",
-          "fullName": "portbuster1337/CVE-2026-27771",
-          "url": "https://github.com/portbuster1337/CVE-2026-27771",
-          "homepage": "",
-          "description": "CVE-2026-27771 - Gitea/Forgejo Container Registry Auth Bypass Exploit PoC - Pull private container images without authentication",
-          "stars": 12,
-          "forks": 5,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-27T15:54:41Z",
-          "updatedAt": "2026-05-30T15:38:34Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 90.16
+          "score": 109.57
         },
         {
           "id": 1253649611,
@@ -518,12 +554,12 @@
           "url": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "homepage": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "description": "Advanced SSRF discovery, validation and analysis framework for bug bounty, pentesting and security research.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
+          "stars": 14,
+          "forks": 2,
+          "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-05-29T17:18:40Z",
-          "updatedAt": "2026-05-31T14:23:12Z",
+          "updatedAt": "2026-06-01T04:04:09Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -535,21 +571,21 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 82.08
+          "score": 102.49
         },
         {
-          "id": 1251778861,
-          "name": "puck-scout",
-          "fullName": "puck-security/puck-scout",
-          "url": "https://github.com/puck-security/puck-scout",
-          "homepage": "https://puck.security",
-          "description": "Autonomous, read-only endpoint investigation via MCP. Ask a question about your fleet, get a narrative answer with containment recommendations.",
-          "stars": 10,
-          "forks": 1,
+          "id": 1252801819,
+          "name": "nullsec-s1",
+          "fullName": "trynullsec/nullsec-s1",
+          "url": "https://github.com/trynullsec/nullsec-s1",
+          "homepage": "",
+          "description": "Security-native LLM system for AI-generated application security.",
+          "stars": 12,
+          "forks": 11,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-27T22:53:42Z",
-          "updatedAt": "2026-05-30T17:18:00Z",
+          "language": "Python",
+          "createdAt": "2026-05-28T22:13:50Z",
+          "updatedAt": "2026-06-01T04:33:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -561,21 +597,47 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 80.9
+          "score": 96.48
         },
         {
-          "id": 1250538314,
-          "name": "xpam-script",
-          "fullName": "deepru/xpam-script",
-          "url": "https://github.com/deepru/xpam-script",
-          "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
-          "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
+          "id": 1248848153,
+          "name": "darwin-agentic-cloud",
+          "fullName": "vje013/darwin-agentic-cloud",
+          "url": "https://github.com/vje013/darwin-agentic-cloud",
+          "homepage": "https://darwin-agentic-cloud.fly.dev",
+          "description": "Verifiable and free cloud compute for AI agents. webMCP + MCP. Sandboxed Beta + Research: 6/1/2026",
+          "stars": 16,
+          "forks": 4,
+          "openIssues": 6,
+          "language": "Python",
+          "createdAt": "2026-05-25T05:32:00Z",
+          "updatedAt": "2026-06-01T03:36:27Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 91.09
+        },
+        {
+          "id": 1251467696,
+          "name": "CVE-2026-27771",
+          "fullName": "portbuster1337/CVE-2026-27771",
+          "url": "https://github.com/portbuster1337/CVE-2026-27771",
+          "homepage": "",
+          "description": "CVE-2026-27771 - Gitea/Forgejo Container Registry Auth Bypass Exploit PoC - Pull private container images without authentication",
           "stars": 13,
-          "forks": 0,
+          "forks": 5,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-26T18:23:01Z",
-          "updatedAt": "2026-05-31T08:57:36Z",
+          "language": "Python",
+          "createdAt": "2026-05-27T15:54:41Z",
+          "updatedAt": "2026-06-01T03:32:33Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -583,9 +645,38 @@
             1
           ],
           "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 89.58
+        },
+        {
+          "id": 1251778861,
+          "name": "puck-scout",
+          "fullName": "puck-security/puck-scout",
+          "url": "https://github.com/puck-security/puck-scout",
+          "homepage": "https://puck.security",
+          "description": "Autonomous, read-only endpoint investigation via MCP. Ask a question about your fleet, get a narrative answer with containment recommendations.",
+          "stars": 11,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-05-27T22:53:42Z",
+          "updatedAt": "2026-06-01T00:39:15Z",
+          "matchedProfiles": [
             "通用安全"
           ],
-          "score": 78.28
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 80.6
         },
         {
           "id": 1249498498,
@@ -609,21 +700,21 @@
           "tags": [
             "通用安全"
           ],
-          "score": 77.94
+          "score": 75.56
         },
         {
-          "id": 1248045931,
-          "name": "hermes-bumblebee-bridge",
-          "fullName": "Deconstruct2021/hermes-bumblebee-bridge",
-          "url": "https://github.com/Deconstruct2021/hermes-bumblebee-bridge",
-          "homepage": "",
-          "description": "Read-only supply-chain scanning for Hermes Agent, powered by Perplexity's Bumblebee. Daily scans, Telegram alerts, JARVIS narration.",
+          "id": 1250538314,
+          "name": "xpam-script",
+          "fullName": "deepru/xpam-script",
+          "url": "https://github.com/deepru/xpam-script",
+          "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
+          "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
           "stars": 12,
-          "forks": 1,
+          "forks": 0,
           "openIssues": 0,
           "language": "Shell",
-          "createdAt": "2026-05-24T05:41:23Z",
-          "updatedAt": "2026-05-25T06:48:26Z",
+          "createdAt": "2026-05-26T18:23:01Z",
+          "updatedAt": "2026-05-31T18:37:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -631,65 +722,9 @@
             1
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
+            "通用安全"
           ],
-          "score": 72.53
-        },
-        {
-          "id": 1248078573,
-          "name": "xss-labs",
-          "fullName": "yogsec/xss-labs",
-          "url": "https://github.com/yogsec/xss-labs",
-          "homepage": "https://yogsec.github.io/xss-labs/",
-          "description": "xss-labs for learning web application security. Each lab demonstrates a different XSS vulnerability with interactive examples and solutions. Frontend-only, no server required. ",
-          "stars": 6,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-05-24T06:49:13Z",
-          "updatedAt": "2026-05-25T05:05:26Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 71.2
-        },
-        {
-          "id": 1248565991,
-          "name": "awesome-ros-security",
-          "fullName": "iotsrg/awesome-ros-security",
-          "url": "https://github.com/iotsrg/awesome-ros-security",
-          "homepage": "https://iotsrg.org/",
-          "description": "Awesome curated list of ROS / ROS 2 & robotics security - pentest tools, checklists, CVEs, SROS2, DDS, research. Maintained by IOTSRG.",
-          "stars": 6,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-24T20:08:32Z",
-          "updatedAt": "2026-05-26T16:33:57Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 67.83
+          "score": 74.12
         },
         {
           "id": 1249342052,
@@ -715,7 +750,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 67.36
+          "score": 64.79
         }
       ]
     }
