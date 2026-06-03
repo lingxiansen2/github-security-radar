@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-03T06:16:25.962Z",
+  "generatedAt": "2026-06-03T18:04:49.205Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,72 @@
         "maxItems": 12
       },
       "createdSince": "2026-05-31",
-      "totalCandidates": 20,
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
+          "fetched": 11,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         }
       ],
       "repositories": [
+        {
+          "id": 1255069527,
+          "name": "agent",
+          "fullName": "PentesterFlow/agent",
+          "url": "https://github.com/PentesterFlow/agent",
+          "homepage": "https://pentesterflow.com",
+          "description": "Agentic offensive-security in your terminal",
+          "stars": 193,
+          "forks": 12,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-05-31T11:14:35Z",
+          "updatedAt": "2026-06-03T17:50:24Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 179.05
+        },
         {
           "id": 1255854163,
           "name": "kimiko",
@@ -80,12 +107,12 @@
           "url": "https://github.com/spearchucker667/kimiko",
           "homepage": "https://www.moonshot.ai",
           "description": "Bypass all api restraints within Kimi-CLI",
-          "stars": 26,
-          "forks": 1,
+          "stars": 34,
+          "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-01T08:27:16Z",
-          "updatedAt": "2026-06-03T05:52:53Z",
+          "updatedAt": "2026-06-03T17:56:17Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -96,7 +123,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 117.98
+          "score": 125.37
         },
         {
           "id": 1254973380,
@@ -105,12 +132,12 @@
           "url": "https://github.com/phanen/nvim-suspicious-plugin-scanner",
           "homepage": "",
           "description": "Scan and flag suspicious neovim plugins",
-          "stars": 57,
+          "stars": 58,
           "forks": 1,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-05-31T08:28:21Z",
-          "updatedAt": "2026-06-03T04:21:40Z",
+          "updatedAt": "2026-06-03T13:59:47Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -120,7 +147,31 @@
           "tags": [
             "通用安全"
           ],
-          "score": 110.68
+          "score": 110.32
+        },
+        {
+          "id": 1257557448,
+          "name": "exs-cyberjob-scraper",
+          "fullName": "CarterPerez-dev/exs-cyberjob-scraper",
+          "url": "https://github.com/CarterPerez-dev/exs-cyberjob-scraper",
+          "homepage": "https://www.instagram.com/certsgamified/",
+          "description": "Web scraper, written in Elixir, that pulls cybersecurity job postings from public hiring APIs, isolates the genuine cybersecurity roles, and reports which certifications employers ask for most. 💜",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Elixir",
+          "createdAt": "2026-06-02T19:45:42Z",
+          "updatedAt": "2026-06-03T17:30:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 97.71
         },
         {
           "id": 1257287847,
@@ -129,12 +180,12 @@
           "url": "https://github.com/0xGhostCAT/claude-ai-cyber-security-skills",
           "homepage": "",
           "description": "30 Claude Code Skills + 60+ integrated tools for HackerOne/Bugcrowd bug bounty hunters",
-          "stars": 7,
+          "stars": 11,
           "forks": 0,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-06-02T14:35:38Z",
-          "updatedAt": "2026-06-02T21:51:36Z",
+          "updatedAt": "2026-06-03T17:14:30Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -146,7 +197,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 91.33
+          "score": 97.57
         },
         {
           "id": 1257201309,
@@ -155,12 +206,12 @@
           "url": "https://github.com/UnderDefense/managed-siem-knowledge-base",
           "homepage": "https://underdefense.com",
           "description": "Open knowledge base on Managed SIEM — costs, data ownership, vendor evaluation, EDR/MDR/MSSP/SOCaaS comparisons, compliance, and deployment. 17 in-depth articles, maintained by UnderDefense.",
-          "stars": 7,
+          "stars": 9,
           "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-06-02T13:07:38Z",
-          "updatedAt": "2026-06-02T16:43:02Z",
+          "updatedAt": "2026-06-03T12:55:22Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -172,21 +223,21 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 87.34
+          "score": 88.36
         },
         {
-          "id": 1257557448,
-          "name": "exs-cyberjob-scraper",
-          "fullName": "CarterPerez-dev/exs-cyberjob-scraper",
-          "url": "https://github.com/CarterPerez-dev/exs-cyberjob-scraper",
-          "homepage": "https://www.instagram.com/certsgamified/",
-          "description": "Web scraper, written in Elixir, that pulls cybersecurity job postings from public hiring APIs, isolates the genuine cybersecurity roles, and reports which certifications employers ask for most. 💜",
-          "stars": 7,
+          "id": 1258442086,
+          "name": "AI-Powered-Cyber-Fraud-Detection",
+          "fullName": "Jaiharshan/AI-Powered-Cyber-Fraud-Detection",
+          "url": "https://github.com/Jaiharshan/AI-Powered-Cyber-Fraud-Detection",
+          "homepage": "",
+          "description": "AI-powered cyber fraud detection platform with phishing analysis, URL screening, automated incident escalation, and SOC-style incident response built using Python, Streamlit, and Scikit-learn.",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
-          "language": "Elixir",
-          "createdAt": "2026-06-02T19:45:42Z",
-          "updatedAt": "2026-06-03T06:11:00Z",
+          "language": "Python",
+          "createdAt": "2026-06-03T15:25:53Z",
+          "updatedAt": "2026-06-03T16:43:19Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -194,9 +245,11 @@
             1.08
           ],
           "tags": [
-            "网络安全"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
           ],
-          "score": 85.6
+          "score": 77.3
         },
         {
           "id": 1256953279,
@@ -206,11 +259,11 @@
           "homepage": "",
           "description": "🔎 Fast, local search across the security & privacy literature, with an expressive query language, an interactive TUI, and scriptable output.",
           "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
+          "forks": 3,
+          "openIssues": 1,
           "language": "Rust",
           "createdAt": "2026-06-02T08:22:55Z",
-          "updatedAt": "2026-06-02T16:25:12Z",
+          "updatedAt": "2026-06-03T12:46:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -221,21 +274,21 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 72.09
+          "score": 75.83
         },
         {
-          "id": 1255982808,
-          "name": "cve-watch",
-          "fullName": "wardsvelds2l/cve-watch",
-          "url": "https://github.com/wardsvelds2l/cve-watch",
-          "homepage": "https://github.com/wardsvelds2l/cve-watch#readme",
-          "description": "Fast, no-auth CVE scanner for Node.js. Free OSV.dev integration, single binary, CI gate.",
+          "id": 1257827137,
+          "name": "burp-cc-bridge",
+          "fullName": "larrypeseckis/burp-cc-bridge",
+          "url": "https://github.com/larrypeseckis/burp-cc-bridge",
+          "homepage": "",
+          "description": "REST API automation for Burp Suite Community Edition. Drop-in Java extension exposing send/repeat/history endpoints over a local HTTP API.",
           "stars": 5,
           "forks": 0,
           "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-01T10:57:23Z",
-          "updatedAt": "2026-06-02T00:04:01Z",
+          "language": "Java",
+          "createdAt": "2026-06-03T03:31:44Z",
+          "updatedAt": "2026-06-03T13:00:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -244,10 +297,59 @@
           ],
           "tags": [
             "通用安全",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
+            "AI 自动化 / Skill"
           ],
-          "score": 60.89
+          "score": 71.28
+        },
+        {
+          "id": 1257719053,
+          "name": "os-sentinel",
+          "fullName": "YasminHtml1/os-sentinel",
+          "url": "https://github.com/YasminHtml1/os-sentinel",
+          "homepage": "https://github.com/YasminHtml1/os-sentinel",
+          "description": "🛡️ Honeypot & Intrusion Detection plugin for OPNsense",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Volt",
+          "createdAt": "2026-06-03T00:21:30Z",
+          "updatedAt": "2026-06-03T13:04:08Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 66.13
+        },
+        {
+          "id": 1258296997,
+          "name": "swordphish",
+          "fullName": "Iankulani/swordphish",
+          "url": "https://github.com/Iankulani/swordphish",
+          "homepage": "",
+          "description": "Swordfish is a powerful cybersecurity tool designed to support security awareness training, authorized security assessments, and cyber defense exercises. The tool enables security professionals, trainers, and organizations to manage and coordinate cybersecurity activities through multiple communication channels, including Telegram, Slack, Discord, ",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-03T12:56:38Z",
+          "updatedAt": "2026-06-03T14:00:12Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 64.96
         },
         {
           "id": 1255419642,
@@ -256,12 +358,12 @@
           "url": "https://github.com/decionis/govern",
           "homepage": "https://decionis.com/marketplace/github",
           "description": "Govern any GitHub workflow step on a signed Decionis Decision Dossier — gate deploys, releases, and infra changes; shadow or enforce.",
-          "stars": 6,
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-05-31T20:03:15Z",
-          "updatedAt": "2026-06-02T20:33:19Z",
+          "updatedAt": "2026-06-03T17:30:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -272,110 +374,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 58.98
-        },
-        {
-          "id": 1255470666,
-          "name": "pcloud-mcp",
-          "fullName": "terraincognita07/pcloud-mcp",
-          "url": "https://github.com/terraincognita07/pcloud-mcp",
-          "homepage": "https://pkg.go.dev/github.com/terraincognita07/pcloud-mcp",
-          "description": "Hardened Model Context Protocol (MCP) server for pCloud, in Go. Path-traversal-proof downloads, OAuth-only auth, single static binary.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-05-31T21:38:19Z",
-          "updatedAt": "2026-06-01T21:38:44Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 52.08
-        },
-        {
-          "id": 1255716393,
-          "name": "csreview",
-          "fullName": "decksoftware/csreview",
-          "url": "https://github.com/decksoftware/csreview",
-          "homepage": "",
-          "description": "Development-time local workspace security alignment for AI coding agents",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 2,
-          "language": "JavaScript",
-          "createdAt": "2026-06-01T05:33:44Z",
-          "updatedAt": "2026-06-03T05:20:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 50.2
-        },
-        {
-          "id": 1255225235,
-          "name": "vmette",
-          "fullName": "chamuka-inc/vmette",
-          "url": "https://github.com/chamuka-inc/vmette",
-          "homepage": "",
-          "description": "A hardware-isolated microVM sandbox for running untrusted local AI agents on macOS.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-05-31T15:08:46Z",
-          "updatedAt": "2026-06-02T20:14:44Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 49.73
-        },
-        {
-          "id": 1255642434,
-          "name": "-skills",
-          "fullName": "shangdi-w/-skills",
-          "url": "https://github.com/shangdi-w/-skills",
-          "homepage": "",
-          "description": "Hermes Agent 红队技能库 | 全平台反编译(18类) + 免杀对抗(18章入门到专家) | 仅供授权安全测试使用",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-01T03:28:40Z",
-          "updatedAt": "2026-06-01T08:59:51Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 49.45
+          "score": 57.77
         }
       ]
     },
@@ -388,45 +387,72 @@
         "maxItems": 18
       },
       "createdSince": "2026-05-27",
-      "totalCandidates": 21,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1780467437"
+          "rateLimitReset": "1780509941"
         }
       ],
       "repositories": [
+        {
+          "id": 1255069527,
+          "name": "agent",
+          "fullName": "PentesterFlow/agent",
+          "url": "https://github.com/PentesterFlow/agent",
+          "homepage": "https://pentesterflow.com",
+          "description": "Agentic offensive-security in your terminal",
+          "stars": 193,
+          "forks": 12,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-05-31T11:14:35Z",
+          "updatedAt": "2026-06-03T17:50:24Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 195.33
+        },
         {
           "id": 1252801819,
           "name": "nullsec-s1",
@@ -434,12 +460,12 @@
           "url": "https://github.com/trynullsec/nullsec-s1",
           "homepage": "",
           "description": "Security-native LLM system for AI-generated application security.",
-          "stars": 151,
+          "stars": 152,
           "forks": 40,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-28T22:13:50Z",
-          "updatedAt": "2026-06-02T14:58:50Z",
+          "updatedAt": "2026-06-03T12:40:14Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -451,7 +477,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 158.25
+          "score": 156.59
         },
         {
           "id": 1255854163,
@@ -460,12 +486,12 @@
           "url": "https://github.com/spearchucker667/kimiko",
           "homepage": "https://www.moonshot.ai",
           "description": "Bypass all api restraints within Kimi-CLI",
-          "stars": 26,
-          "forks": 1,
+          "stars": 34,
+          "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-01T08:27:16Z",
-          "updatedAt": "2026-06-03T05:52:53Z",
+          "updatedAt": "2026-06-03T17:56:17Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -476,7 +502,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 129.14
+          "score": 139.41
         },
         {
           "id": 1254973380,
@@ -485,12 +511,12 @@
           "url": "https://github.com/phanen/nvim-suspicious-plugin-scanner",
           "homepage": "",
           "description": "Scan and flag suspicious neovim plugins",
-          "stars": 57,
+          "stars": 58,
           "forks": 1,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-05-31T08:28:21Z",
-          "updatedAt": "2026-06-03T04:21:40Z",
+          "updatedAt": "2026-06-03T13:59:47Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -500,7 +526,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 125.08
+          "score": 123.69
         },
         {
           "id": 1253649611,
@@ -509,12 +535,12 @@
           "url": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "homepage": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "description": "Advanced SSRF discovery, validation and analysis framework for bug bounty, pentesting and security research.",
-          "stars": 21,
+          "stars": 22,
           "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-29T17:18:40Z",
-          "updatedAt": "2026-06-03T05:54:04Z",
+          "updatedAt": "2026-06-03T14:50:12Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -526,7 +552,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 108.97
+          "score": 108.19
         },
         {
           "id": 1257287847,
@@ -535,12 +561,12 @@
           "url": "https://github.com/0xGhostCAT/claude-ai-cyber-security-skills",
           "homepage": "",
           "description": "30 Claude Code Skills + 60+ integrated tools for HackerOne/Bugcrowd bug bounty hunters",
-          "stars": 7,
+          "stars": 11,
           "forks": 0,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-06-02T14:35:38Z",
-          "updatedAt": "2026-06-02T21:51:36Z",
+          "updatedAt": "2026-06-03T17:14:30Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -552,7 +578,31 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 95.15
+          "score": 104.26
+        },
+        {
+          "id": 1257557448,
+          "name": "exs-cyberjob-scraper",
+          "fullName": "CarterPerez-dev/exs-cyberjob-scraper",
+          "url": "https://github.com/CarterPerez-dev/exs-cyberjob-scraper",
+          "homepage": "https://www.instagram.com/certsgamified/",
+          "description": "Web scraper, written in Elixir, that pulls cybersecurity job postings from public hiring APIs, isolates the genuine cybersecurity roles, and reports which certifications employers ask for most. 💜",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Elixir",
+          "createdAt": "2026-06-02T19:45:42Z",
+          "updatedAt": "2026-06-03T17:30:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 102.68
         },
         {
           "id": 1257201309,
@@ -561,12 +611,12 @@
           "url": "https://github.com/UnderDefense/managed-siem-knowledge-base",
           "homepage": "https://underdefense.com",
           "description": "Open knowledge base on Managed SIEM — costs, data ownership, vendor evaluation, EDR/MDR/MSSP/SOCaaS comparisons, compliance, and deployment. 17 in-depth articles, maintained by UnderDefense.",
-          "stars": 7,
+          "stars": 9,
           "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-06-02T13:07:38Z",
-          "updatedAt": "2026-06-02T16:43:02Z",
+          "updatedAt": "2026-06-03T12:55:22Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -578,31 +628,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 91.16
-        },
-        {
-          "id": 1257557448,
-          "name": "exs-cyberjob-scraper",
-          "fullName": "CarterPerez-dev/exs-cyberjob-scraper",
-          "url": "https://github.com/CarterPerez-dev/exs-cyberjob-scraper",
-          "homepage": "https://www.instagram.com/certsgamified/",
-          "description": "Web scraper, written in Elixir, that pulls cybersecurity job postings from public hiring APIs, isolates the genuine cybersecurity roles, and reports which certifications employers ask for most. 💜",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Elixir",
-          "createdAt": "2026-06-02T19:45:42Z",
-          "updatedAt": "2026-06-03T06:11:00Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 87.95
+          "score": 94.81
         },
         {
           "id": 1251467696,
@@ -611,12 +637,12 @@
           "url": "https://github.com/portbuster1337/CVE-2026-27771",
           "homepage": "",
           "description": "CVE-2026-27771 - Gitea/Forgejo Container Registry Auth Bypass Exploit PoC - Pull private container images without authentication",
-          "stars": 14,
+          "stars": 15,
           "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-27T15:54:41Z",
-          "updatedAt": "2026-06-01T13:43:47Z",
+          "updatedAt": "2026-06-03T15:01:22Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -629,7 +655,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 83.83
+          "score": 83.91
         },
         {
           "id": 1254222792,
@@ -656,33 +682,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 82.31
-        },
-        {
-          "id": 1253516864,
-          "name": "agentic-ai-soc-knowledge-base",
-          "fullName": "UnderDefense/agentic-ai-soc-knowledge-base",
-          "url": "https://github.com/UnderDefense/agentic-ai-soc-knowledge-base",
-          "homepage": "https://underdefense.com",
-          "description": "Open knowledge base on Agentic AI SOC — what it is, how it compares to traditional SOC/MDR/MSSP/SIEM, vendor evaluation, pricing, and implementation. 35 in-depth articles, maintained by UnderDefense",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-29T14:44:43Z",
-          "updatedAt": "2026-06-02T16:43:32Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 75.38
+          "score": 80.33
         },
         {
           "id": 1251301903,
@@ -691,12 +691,12 @@
           "url": "https://github.com/scadastrangelove/awesome-ai-security-tools",
           "homepage": "",
           "description": "A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.",
-          "stars": 13,
+          "stars": 16,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-27T12:52:20Z",
-          "updatedAt": "2026-06-03T05:31:36Z",
+          "updatedAt": "2026-06-03T17:16:40Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -712,7 +712,58 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 75.35
+          "score": 79.06
+        },
+        {
+          "id": 1253516864,
+          "name": "agentic-ai-soc-knowledge-base",
+          "fullName": "UnderDefense/agentic-ai-soc-knowledge-base",
+          "url": "https://github.com/UnderDefense/agentic-ai-soc-knowledge-base",
+          "homepage": "https://underdefense.com",
+          "description": "Open knowledge base on Agentic AI SOC — what it is, how it compares to traditional SOC/MDR/MSSP/SIEM, vendor evaluation, pricing, and implementation. 35 in-depth articles, maintained by UnderDefense",
+          "stars": 8,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-05-29T14:44:43Z",
+          "updatedAt": "2026-06-03T09:32:51Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 76.36
+        },
+        {
+          "id": 1251131640,
+          "name": "open-malicious-code-benchmark",
+          "fullName": "False-Positive-Community/open-malicious-code-benchmark",
+          "url": "https://github.com/False-Positive-Community/open-malicious-code-benchmark",
+          "homepage": "",
+          "description": "OMCBench is a benchmark suite for evaluating malicious-code detection capabilities. The benchmark consists of a labeled set of 800 Python and JavaScript packages: 400 benign and 400 malicious packages for each language.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-27T09:17:57Z",
+          "updatedAt": "2026-06-03T13:19:32Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 71.94
         },
         {
           "id": 1251778861,
@@ -738,7 +789,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 73.18
+          "score": 71.35
         },
         {
           "id": 1254625372,
@@ -763,7 +814,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.66
+          "score": 70.69
         },
         {
           "id": 1251509001,
@@ -789,32 +840,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 71.94
-        },
-        {
-          "id": 1251131640,
-          "name": "open-malicious-code-benchmark",
-          "fullName": "False-Positive-Community/open-malicious-code-benchmark",
-          "url": "https://github.com/False-Positive-Community/open-malicious-code-benchmark",
-          "homepage": "",
-          "description": "OMCBench is a benchmark suite for evaluating malicious-code detection capabilities. The benchmark consists of a labeled set of 800 Python and JavaScript packages: 400 benign and 400 malicious packages for each language.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-27T09:17:57Z",
-          "updatedAt": "2026-06-02T21:18:19Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 65.08
+          "score": 70.32
         }
       ]
     }
