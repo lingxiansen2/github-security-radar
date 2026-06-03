@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-02T17:50:31.708Z",
+  "generatedAt": "2026-06-03T06:16:25.962Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,46 +33,71 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-05-30",
-      "totalCandidates": 30,
+      "createdSince": "2026-05-31",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 6,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 12,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         }
       ],
       "repositories": [
+        {
+          "id": 1255854163,
+          "name": "kimiko",
+          "fullName": "spearchucker667/kimiko",
+          "url": "https://github.com/spearchucker667/kimiko",
+          "homepage": "https://www.moonshot.ai",
+          "description": "Bypass all api restraints within Kimi-CLI",
+          "stars": 26,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-01T08:27:16Z",
+          "updatedAt": "2026-06-03T05:52:53Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 117.98
+        },
         {
           "id": 1254973380,
           "name": "nvim-suspicious-plugin-scanner",
@@ -80,12 +105,12 @@
           "url": "https://github.com/phanen/nvim-suspicious-plugin-scanner",
           "homepage": "",
           "description": "Scan and flag suspicious neovim plugins",
-          "stars": 54,
+          "stars": 57,
           "forks": 1,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-05-31T08:28:21Z",
-          "updatedAt": "2026-06-02T16:59:30Z",
+          "updatedAt": "2026-06-03T04:21:40Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -95,7 +120,33 @@
           "tags": [
             "通用安全"
           ],
-          "score": 113.82
+          "score": 110.68
+        },
+        {
+          "id": 1257287847,
+          "name": "claude-ai-cyber-security-skills",
+          "fullName": "0xGhostCAT/claude-ai-cyber-security-skills",
+          "url": "https://github.com/0xGhostCAT/claude-ai-cyber-security-skills",
+          "homepage": "",
+          "description": "30 Claude Code Skills + 60+ integrated tools for HackerOne/Bugcrowd bug bounty hunters",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-06-02T14:35:38Z",
+          "updatedAt": "2026-06-02T21:51:36Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 91.33
         },
         {
           "id": 1257201309,
@@ -121,33 +172,31 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 92.18
+          "score": 87.34
         },
         {
-          "id": 1257287847,
-          "name": "claude-ai-cyber-security-skills",
-          "fullName": "0xGhostCAT/claude-ai-cyber-security-skills",
-          "url": "https://github.com/0xGhostCAT/claude-ai-cyber-security-skills",
-          "homepage": "",
-          "description": "30 Claude Code Skills + 60+ integrated tools for HackerOne/Bugcrowd bug bounty hunters",
-          "stars": 3,
+          "id": 1257557448,
+          "name": "exs-cyberjob-scraper",
+          "fullName": "CarterPerez-dev/exs-cyberjob-scraper",
+          "url": "https://github.com/CarterPerez-dev/exs-cyberjob-scraper",
+          "homepage": "https://www.instagram.com/certsgamified/",
+          "description": "Web scraper, written in Elixir, that pulls cybersecurity job postings from public hiring APIs, isolates the genuine cybersecurity roles, and reports which certifications employers ask for most. 💜",
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-06-02T14:35:38Z",
-          "updatedAt": "2026-06-02T16:37:28Z",
+          "language": "Elixir",
+          "createdAt": "2026-06-02T19:45:42Z",
+          "updatedAt": "2026-06-03T06:11:00Z",
           "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 78.61
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 85.6
         },
         {
           "id": 1256953279,
@@ -172,7 +221,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 76.58
+          "score": 72.09
         },
         {
           "id": 1255982808,
@@ -198,7 +247,32 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 65.38
+          "score": 60.89
+        },
+        {
+          "id": 1255419642,
+          "name": "govern",
+          "fullName": "decionis/govern",
+          "url": "https://github.com/decionis/govern",
+          "homepage": "https://decionis.com/marketplace/github",
+          "description": "Govern any GitHub workflow step on a signed Decionis Decision Dossier — gate deploys, releases, and infra changes; shadow or enforce.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-05-31T20:03:15Z",
+          "updatedAt": "2026-06-02T20:33:19Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 58.98
         },
         {
           "id": 1255470666,
@@ -224,35 +298,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 56.57
-        },
-        {
-          "id": 1254048338,
-          "name": "HDN-ToolKit",
-          "fullName": "HasnainDarkNet/HDN-ToolKit",
-          "url": "https://github.com/HasnainDarkNet/HDN-ToolKit",
-          "homepage": "",
-          "description": "HDN Phish is a professional cybersecurity awareness tool featuring realistic login pages for Instagram, Facebook, Google, Twitter, LinkedIn, Snapchat, GitHub, Netflix, and TikTok. Designed for authorized security testing and phishing simulation training.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-30T04:48:26Z",
-          "updatedAt": "2026-05-30T18:03:05Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54.9
+          "score": 52.08
         },
         {
           "id": 1255716393,
@@ -266,7 +312,7 @@
           "openIssues": 2,
           "language": "JavaScript",
           "createdAt": "2026-06-01T05:33:44Z",
-          "updatedAt": "2026-06-02T03:41:05Z",
+          "updatedAt": "2026-06-03T05:20:27Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -278,7 +324,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 54.69
+          "score": 50.2
         },
         {
           "id": 1255225235,
@@ -292,7 +338,7 @@
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-05-31T15:08:46Z",
-          "updatedAt": "2026-06-02T15:55:43Z",
+          "updatedAt": "2026-06-02T20:14:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -304,7 +350,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 54.22
+          "score": 49.73
         },
         {
           "id": 1255642434,
@@ -329,59 +375,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 53.94
-        },
-        {
-          "id": 1255391172,
-          "name": "Anthropic-Cybersecurity-Skills-448",
-          "fullName": "Zzzgamingo/Anthropic-Cybersecurity-Skills-448",
-          "url": "https://github.com/Zzzgamingo/Anthropic-Cybersecurity-Skills-448",
-          "homepage": "",
-          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-31T19:15:11Z",
-          "updatedAt": "2026-05-31T19:15:43Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 53.31
-        },
-        {
-          "id": 1255390819,
-          "name": "Anthropic-Cybersecurity-Skills-480",
-          "fullName": "Zzzgamingo/Anthropic-Cybersecurity-Skills-480",
-          "url": "https://github.com/Zzzgamingo/Anthropic-Cybersecurity-Skills-480",
-          "homepage": "",
-          "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-31T19:14:39Z",
-          "updatedAt": "2026-05-31T19:15:11Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 53.3
+          "score": 49.45
         }
       ]
     },
@@ -393,43 +387,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-05-26",
-      "totalCandidates": 17,
+      "createdSince": "2026-05-27",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 5,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 0,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1780422684"
+          "rateLimitReset": "1780467437"
         }
       ],
       "repositories": [
@@ -457,7 +451,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 160.17
+          "score": 158.25
+        },
+        {
+          "id": 1255854163,
+          "name": "kimiko",
+          "fullName": "spearchucker667/kimiko",
+          "url": "https://github.com/spearchucker667/kimiko",
+          "homepage": "https://www.moonshot.ai",
+          "description": "Bypass all api restraints within Kimi-CLI",
+          "stars": 26,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-01T08:27:16Z",
+          "updatedAt": "2026-06-03T05:52:53Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 129.14
         },
         {
           "id": 1254973380,
@@ -466,12 +485,12 @@
           "url": "https://github.com/phanen/nvim-suspicious-plugin-scanner",
           "homepage": "",
           "description": "Scan and flag suspicious neovim plugins",
-          "stars": 54,
+          "stars": 57,
           "forks": 1,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-05-31T08:28:21Z",
-          "updatedAt": "2026-06-02T16:59:30Z",
+          "updatedAt": "2026-06-03T04:21:40Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -481,7 +500,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 125.65
+          "score": 125.08
         },
         {
           "id": 1253649611,
@@ -490,12 +509,12 @@
           "url": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "homepage": "https://github.com/KauanCosta2000/Ultimate-ssrf-Framework",
           "description": "Advanced SSRF discovery, validation and analysis framework for bug bounty, pentesting and security research.",
-          "stars": 20,
+          "stars": 21,
           "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-29T17:18:40Z",
-          "updatedAt": "2026-06-02T16:29:04Z",
+          "updatedAt": "2026-06-03T05:54:04Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -507,7 +526,33 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 109.8
+          "score": 108.97
+        },
+        {
+          "id": 1257287847,
+          "name": "claude-ai-cyber-security-skills",
+          "fullName": "0xGhostCAT/claude-ai-cyber-security-skills",
+          "url": "https://github.com/0xGhostCAT/claude-ai-cyber-security-skills",
+          "homepage": "",
+          "description": "30 Claude Code Skills + 60+ integrated tools for HackerOne/Bugcrowd bug bounty hunters",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-06-02T14:35:38Z",
+          "updatedAt": "2026-06-02T21:51:36Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 95.15
         },
         {
           "id": 1257201309,
@@ -533,7 +578,31 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 93.24
+          "score": 91.16
+        },
+        {
+          "id": 1257557448,
+          "name": "exs-cyberjob-scraper",
+          "fullName": "CarterPerez-dev/exs-cyberjob-scraper",
+          "url": "https://github.com/CarterPerez-dev/exs-cyberjob-scraper",
+          "homepage": "https://www.instagram.com/certsgamified/",
+          "description": "Web scraper, written in Elixir, that pulls cybersecurity job postings from public hiring APIs, isolates the genuine cybersecurity roles, and reports which certifications employers ask for most. 💜",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Elixir",
+          "createdAt": "2026-06-02T19:45:42Z",
+          "updatedAt": "2026-06-03T06:11:00Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 87.95
         },
         {
           "id": 1251467696,
@@ -560,7 +629,34 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 85.76
+          "score": 83.83
+        },
+        {
+          "id": 1254222792,
+          "name": "netwatch-sec",
+          "fullName": "Mattmorris-dev/netwatch-sec",
+          "url": "https://github.com/Mattmorris-dev/netwatch-sec",
+          "homepage": "",
+          "description": "All-In-One Network Security Dashboard",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-05-30T09:44:46Z",
+          "updatedAt": "2026-06-03T00:07:05Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 82.31
         },
         {
           "id": 1253516864,
@@ -586,21 +682,21 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 77.46
+          "score": 75.38
         },
         {
-          "id": 1251509001,
-          "name": "Malwarebytes-Premium-Security-Suite",
-          "fullName": "GrayAttorneyGrasp/Malwarebytes-Premium-Security-Suite",
-          "url": "https://github.com/GrayAttorneyGrasp/Malwarebytes-Premium-Security-Suite",
+          "id": 1251301903,
+          "name": "awesome-ai-security-tools",
+          "fullName": "scadastrangelove/awesome-ai-security-tools",
+          "url": "https://github.com/scadastrangelove/awesome-ai-security-tools",
           "homepage": "",
-          "description": "Malwarebytes Premium Security Suite — full premium build for Windows with pro features unlocked. Pre-Activated",
-          "stars": 14,
-          "forks": 0,
+          "description": "A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.",
+          "stars": 13,
+          "forks": 1,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-05-27T16:43:16Z",
-          "updatedAt": "2026-06-01T21:37:22Z",
+          "language": "Python",
+          "createdAt": "2026-05-27T12:52:20Z",
+          "updatedAt": "2026-06-03T05:31:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -609,10 +705,14 @@
           ],
           "tags": [
             "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
             "防守 / 蓝队",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 75.54
+          "score": 75.35
         },
         {
           "id": 1251778861,
@@ -638,21 +738,46 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 75.1
+          "score": 73.18
         },
         {
-          "id": 1250538314,
-          "name": "xpam-script",
-          "fullName": "deepru/xpam-script",
-          "url": "https://github.com/deepru/xpam-script",
-          "homepage": "https://github.com/deepru/xpam-script/blob/main/docs/USER_GUIDE_RU.pdf",
-          "description": "Автоматизация VPS для Ubuntu 24.04 и Debian 12: HTTPS-маскировка VLESS и MTProto, 3x-ui/Xray, nginx, HAProxy, TLS, firewall, health-checks и обслуживание.",
+          "id": 1254625372,
+          "name": "llm-honeypot",
+          "fullName": "romiisromie/llm-honeypot",
+          "url": "https://github.com/romiisromie/llm-honeypot",
+          "homepage": "https://llm-honeypot-xmac.onrender.com",
+          "description": "Honeypot for LLM attacks — detects and traps Prompt Injection & Jailbreak attempts.  Built with FastAPI + DistilBERT classifier.  Part of proactive AI security research.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-30T20:04:36Z",
+          "updatedAt": "2026-06-02T18:23:01Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 72.66
+        },
+        {
+          "id": 1251509001,
+          "name": "Malwarebytes-Premium-Security-Suite",
+          "fullName": "GrayAttorneyGrasp/Malwarebytes-Premium-Security-Suite",
+          "url": "https://github.com/GrayAttorneyGrasp/Malwarebytes-Premium-Security-Suite",
+          "homepage": "",
+          "description": "Malwarebytes Premium Security Suite — full premium build for Windows with pro features unlocked. Pre-Activated",
           "stars": 13,
           "forks": 0,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-05-26T18:23:01Z",
-          "updatedAt": "2026-06-01T19:58:45Z",
+          "language": "Unknown",
+          "createdAt": "2026-05-27T16:43:16Z",
+          "updatedAt": "2026-06-02T21:28:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -660,9 +785,11 @@
             1
           ],
           "tags": [
-            "通用安全"
+            "通用安全",
+            "防守 / 蓝队",
+            "网络安全"
           ],
-          "score": 70.41
+          "score": 71.94
         },
         {
           "id": 1251131640,
@@ -671,12 +798,12 @@
           "url": "https://github.com/False-Positive-Community/open-malicious-code-benchmark",
           "homepage": "",
           "description": "OMCBench is a benchmark suite for evaluating malicious-code detection capabilities. The benchmark consists of a labeled set of 800 Python and JavaScript packages: 400 benign and 400 malicious packages for each language.",
-          "stars": 5,
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-27T09:17:57Z",
-          "updatedAt": "2026-06-02T17:09:50Z",
+          "updatedAt": "2026-06-02T21:18:19Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -687,7 +814,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 57.16
+          "score": 65.08
         }
       ]
     }
