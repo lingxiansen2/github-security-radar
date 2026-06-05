@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-04T16:29:38.903Z",
+  "generatedAt": "2026-06-05T05:48:06.244Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-01",
-      "totalCandidates": 25,
+      "createdSince": "2026-06-02",
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Albert-Weasker/niubi_guard",
           "homepage": "https://www.niubistar.com/guard",
           "description": "Open-source GitHub repository abuse detection and response system.",
-          "stars": 152,
-          "forks": 110,
+          "stars": 162,
+          "forks": 111,
           "openIssues": 3,
           "language": "TypeScript",
           "createdAt": "2026-06-03T14:32:02Z",
-          "updatedAt": "2026-06-04T15:19:47Z",
+          "updatedAt": "2026-06-05T05:35:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,82 +96,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 174.61
-        },
-        {
-          "id": 1259561628,
-          "name": "niubi_guard-509",
-          "fullName": "PercentProduction/niubi_guard-509",
-          "url": "https://github.com/PercentProduction/niubi_guard-509",
-          "homepage": "",
-          "description": "Open-source GitHub repository abuse detection and response system.",
-          "stars": 82,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "TypeScript",
-          "createdAt": "2026-06-04T16:20:51Z",
-          "updatedAt": "2026-06-04T16:24:10Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 141.01
-        },
-        {
-          "id": 1259517468,
-          "name": "niubi_guard-804",
-          "fullName": "Vanquishermacdetach/niubi_guard-804",
-          "url": "https://github.com/Vanquishermacdetach/niubi_guard-804",
-          "homepage": "",
-          "description": "Open-source GitHub repository abuse detection and response system.",
-          "stars": 82,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "TypeScript",
-          "createdAt": "2026-06-04T15:31:05Z",
-          "updatedAt": "2026-06-04T16:20:58Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 140.71
-        },
-        {
-          "id": 1255854163,
-          "name": "kimiko",
-          "fullName": "spearchucker667/kimiko",
-          "url": "https://github.com/spearchucker667/kimiko",
-          "homepage": "https://www.moonshot.ai",
-          "description": "Bypass all api restraints within Kimi-CLI",
-          "stars": 43,
-          "forks": 5,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-01T08:27:16Z",
-          "updatedAt": "2026-06-04T14:37:10Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 128.85
+          "score": 171.49
         },
         {
           "id": 1258651839,
@@ -180,12 +105,12 @@
           "url": "https://github.com/ChrisHuber1/KustoForge",
           "homepage": "",
           "description": "Desktop KQL query builder for Microsoft security and Azure services - 52 tables across Defender, Sentinel, Entra ID, Azure Monitor, App Insights, and more",
-          "stars": 20,
+          "stars": 25,
           "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-03T19:35:33Z",
-          "updatedAt": "2026-06-04T15:21:37Z",
+          "updatedAt": "2026-06-05T04:46:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -196,7 +121,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 106.72
+          "score": 107.23
         },
         {
           "id": 1257557448,
@@ -205,12 +130,12 @@
           "url": "https://github.com/CarterPerez-dev/exs-cyberjob-scraper",
           "homepage": "https://www.instagram.com/certsgamified/",
           "description": "Web scraper, written in Elixir, that pulls cybersecurity job postings from public hiring APIs, isolates the genuine cybersecurity roles, and reports which certifications employers ask for most. 💜",
-          "stars": 17,
+          "stars": 18,
           "forks": 1,
           "openIssues": 0,
           "language": "Elixir",
           "createdAt": "2026-06-02T19:45:42Z",
-          "updatedAt": "2026-06-04T14:21:19Z",
+          "updatedAt": "2026-06-04T23:54:17Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -220,7 +145,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 97.53
+          "score": 93.78
         },
         {
           "id": 1257287847,
@@ -229,12 +154,12 @@
           "url": "https://github.com/0xGhostCAT/claude-ai-cyber-security-skills",
           "homepage": "",
           "description": "30 Claude Code Skills + 60+ integrated tools for HackerOne/Bugcrowd bug bounty hunters",
-          "stars": 14,
+          "stars": 15,
           "forks": 0,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-06-02T14:35:38Z",
-          "updatedAt": "2026-06-04T15:07:34Z",
+          "updatedAt": "2026-06-04T21:41:01Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -246,7 +171,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 94.38
+          "score": 90.56
+        },
+        {
+          "id": 1259720711,
+          "name": "rustinel-rules",
+          "fullName": "Karib0u/rustinel-rules",
+          "url": "https://github.com/Karib0u/rustinel-rules",
+          "homepage": "https://docs.rustinel.io/",
+          "description": "Official, curated detection content (Sigma, YARA, IOC packs) for the Rustinel endpoint detection engine.",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-04T19:41:51Z",
+          "updatedAt": "2026-06-05T03:20:56Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 82.69
         },
         {
           "id": 1258730323,
@@ -273,7 +223,58 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 82.25
+          "score": 76.58
+        },
+        {
+          "id": 1257634564,
+          "name": "Z-Jail",
+          "fullName": "Division-36/Z-Jail",
+          "url": "https://github.com/Division-36/Z-Jail",
+          "homepage": "",
+          "description": "A lightweight, multi-layer Linux sandbox combining namespaces, pivot_root, seccomp-bpf, capability dropping, and an evidence-based verdict engine (Truthimatics Public Version) for secure, auditable code execution.",
+          "stars": 9,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-06-02T21:38:08Z",
+          "updatedAt": "2026-06-05T05:16:03Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 74.33
+        },
+        {
+          "id": 1259736440,
+          "name": "niubi_guard-494",
+          "fullName": "HopeKeeperEmpty/niubi_guard-494",
+          "url": "https://github.com/HopeKeeperEmpty/niubi_guard-494",
+          "homepage": "",
+          "description": "Open-source GitHub repository abuse detection and response system.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "TypeScript",
+          "createdAt": "2026-06-04T20:05:07Z",
+          "updatedAt": "2026-06-04T20:10:24Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 73.02
         },
         {
           "id": 1258613313,
@@ -298,7 +299,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.14
+          "score": 67.34
         },
         {
           "id": 1256953279,
@@ -323,7 +324,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 70.8
+          "score": 65.99
         },
         {
           "id": 1258442086,
@@ -349,32 +350,35 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 68.56
+          "score": 63.37
         },
         {
-          "id": 1257827137,
-          "name": "burp-cc-bridge",
-          "fullName": "larrypeseckis/burp-cc-bridge",
-          "url": "https://github.com/larrypeseckis/burp-cc-bridge",
+          "id": 1259208550,
+          "name": "cybersecurity-daily",
+          "fullName": "Unclecheng-li/cybersecurity-daily",
+          "url": "https://github.com/Unclecheng-li/cybersecurity-daily",
           "homepage": "",
-          "description": "REST API automation for Burp Suite Community Edition. Drop-in Java extension exposing send/repeat/history endpoints over a local HTTP API.",
-          "stars": 5,
+          "description": "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Java",
-          "createdAt": "2026-06-03T03:31:44Z",
-          "updatedAt": "2026-06-03T13:00:42Z",
+          "language": "HTML",
+          "createdAt": "2026-06-04T09:38:37Z",
+          "updatedAt": "2026-06-05T05:22:23Z",
           "matchedProfiles": [
-            "通用安全"
+            "通用安全",
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1,
+            1.08
           ],
           "tags": [
             "通用安全",
+            "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.18
+          "score": 59.1
         }
       ]
     },
@@ -386,7 +390,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-05-28",
+      "createdSince": "2026-05-29",
       "totalCandidates": 21,
       "queryStats": [
         {
@@ -394,35 +398,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1780590630"
+          "rateLimitReset": "1780638539"
         }
       ],
       "repositories": [
@@ -433,12 +437,12 @@
           "url": "https://github.com/PentesterFlow/agent",
           "homepage": "https://pentesterflow.com",
           "description": "Agentic offensive-security in your terminal",
-          "stars": 252,
-          "forks": 26,
+          "stars": 274,
+          "forks": 31,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-05-31T11:14:35Z",
-          "updatedAt": "2026-06-04T16:07:45Z",
+          "updatedAt": "2026-06-05T01:50:31Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -451,7 +455,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 204.31
+          "score": 205.58
         },
         {
           "id": 1258389924,
@@ -460,12 +464,12 @@
           "url": "https://github.com/Albert-Weasker/niubi_guard",
           "homepage": "https://www.niubistar.com/guard",
           "description": "Open-source GitHub repository abuse detection and response system.",
-          "stars": 152,
-          "forks": 110,
+          "stars": 162,
+          "forks": 111,
           "openIssues": 3,
           "language": "TypeScript",
           "createdAt": "2026-06-03T14:32:02Z",
-          "updatedAt": "2026-06-04T15:19:47Z",
+          "updatedAt": "2026-06-05T05:35:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -476,33 +480,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 179.96
-        },
-        {
-          "id": 1252801819,
-          "name": "nullsec-s1",
-          "fullName": "trynullsec/nullsec-s1",
-          "url": "https://github.com/trynullsec/nullsec-s1",
-          "homepage": "",
-          "description": "Security-native LLM system for AI-generated application security.",
-          "stars": 169,
-          "forks": 52,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-28T22:13:50Z",
-          "updatedAt": "2026-06-04T15:00:14Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 157.32
+          "score": 179.59
         },
         {
           "id": 1255854163,
@@ -511,12 +489,12 @@
           "url": "https://github.com/spearchucker667/kimiko",
           "homepage": "https://www.moonshot.ai",
           "description": "Bypass all api restraints within Kimi-CLI",
-          "stars": 43,
-          "forks": 5,
+          "stars": 48,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-01T08:27:16Z",
-          "updatedAt": "2026-06-04T14:37:10Z",
+          "updatedAt": "2026-06-05T04:55:12Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -527,57 +505,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 144.91
-        },
-        {
-          "id": 1259561628,
-          "name": "niubi_guard-509",
-          "fullName": "PercentProduction/niubi_guard-509",
-          "url": "https://github.com/PercentProduction/niubi_guard-509",
-          "homepage": "",
-          "description": "Open-source GitHub repository abuse detection and response system.",
-          "stars": 82,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "TypeScript",
-          "createdAt": "2026-06-04T16:20:51Z",
-          "updatedAt": "2026-06-04T16:24:10Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 141.04
-        },
-        {
-          "id": 1259517468,
-          "name": "niubi_guard-804",
-          "fullName": "Vanquishermacdetach/niubi_guard-804",
-          "url": "https://github.com/Vanquishermacdetach/niubi_guard-804",
-          "homepage": "",
-          "description": "Open-source GitHub repository abuse detection and response system.",
-          "stars": 82,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "TypeScript",
-          "createdAt": "2026-06-04T15:31:05Z",
-          "updatedAt": "2026-06-04T16:20:58Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 140.91
+          "score": 146.76
         },
         {
           "id": 1254973380,
@@ -601,7 +529,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 120.65
+          "score": 118.6
         },
         {
           "id": 1258651839,
@@ -610,12 +538,12 @@
           "url": "https://github.com/ChrisHuber1/KustoForge",
           "homepage": "",
           "description": "Desktop KQL query builder for Microsoft security and Azure services - 52 tables across Defender, Sentinel, Entra ID, Azure Monitor, App Insights, and more",
-          "stars": 20,
+          "stars": 25,
           "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-03T19:35:33Z",
-          "updatedAt": "2026-06-04T15:21:37Z",
+          "updatedAt": "2026-06-05T04:46:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -626,7 +554,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 111.03
+          "score": 114.29
         },
         {
           "id": 1257557448,
@@ -635,12 +563,12 @@
           "url": "https://github.com/CarterPerez-dev/exs-cyberjob-scraper",
           "homepage": "https://www.instagram.com/certsgamified/",
           "description": "Web scraper, written in Elixir, that pulls cybersecurity job postings from public hiring APIs, isolates the genuine cybersecurity roles, and reports which certifications employers ask for most. 💜",
-          "stars": 17,
+          "stars": 18,
           "forks": 1,
           "openIssues": 0,
           "language": "Elixir",
           "createdAt": "2026-06-02T19:45:42Z",
-          "updatedAt": "2026-06-04T14:21:19Z",
+          "updatedAt": "2026-06-04T23:54:17Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -650,7 +578,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 107.5
+          "score": 106.72
         },
         {
           "id": 1257287847,
@@ -659,12 +587,12 @@
           "url": "https://github.com/0xGhostCAT/claude-ai-cyber-security-skills",
           "homepage": "",
           "description": "30 Claude Code Skills + 60+ integrated tools for HackerOne/Bugcrowd bug bounty hunters",
-          "stars": 14,
+          "stars": 15,
           "forks": 0,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-06-02T14:35:38Z",
-          "updatedAt": "2026-06-04T15:07:34Z",
+          "updatedAt": "2026-06-04T21:41:01Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -676,7 +604,58 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 106.53
+          "score": 105.95
+        },
+        {
+          "id": 1257634564,
+          "name": "Z-Jail",
+          "fullName": "Division-36/Z-Jail",
+          "url": "https://github.com/Division-36/Z-Jail",
+          "homepage": "",
+          "description": "A lightweight, multi-layer Linux sandbox combining namespaces, pivot_root, seccomp-bpf, capability dropping, and an evidence-based verdict engine (Truthimatics Public Version) for secure, auditable code execution.",
+          "stars": 9,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-06-02T21:38:08Z",
+          "updatedAt": "2026-06-05T05:16:03Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 85.92
+        },
+        {
+          "id": 1259720711,
+          "name": "rustinel-rules",
+          "fullName": "Karib0u/rustinel-rules",
+          "url": "https://github.com/Karib0u/rustinel-rules",
+          "homepage": "https://docs.rustinel.io/",
+          "description": "Official, curated detection content (Sigma, YARA, IOC packs) for the Rustinel endpoint detection engine.",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-04T19:41:51Z",
+          "updatedAt": "2026-06-05T03:20:56Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 84.78
         },
         {
           "id": 1258730323,
@@ -703,7 +682,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 86.85
+          "score": 84.42
         },
         {
           "id": 1256953279,
@@ -728,7 +707,34 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 82.37
+          "score": 80.32
+        },
+        {
+          "id": 1254222792,
+          "name": "netwatch-sec",
+          "fullName": "Mattmorris-dev/netwatch-sec",
+          "url": "https://github.com/Mattmorris-dev/netwatch-sec",
+          "homepage": "",
+          "description": "All-In-One Network Security Dashboard",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-05-30T09:44:46Z",
+          "updatedAt": "2026-06-04T21:42:57Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 76.61
         },
         {
           "id": 1256276768,
@@ -755,34 +761,57 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 77.12
+          "score": 74.68
         },
         {
-          "id": 1254222792,
-          "name": "netwatch-sec",
-          "fullName": "Mattmorris-dev/netwatch-sec",
-          "url": "https://github.com/Mattmorris-dev/netwatch-sec",
+          "id": 1258613313,
+          "name": "delego",
+          "fullName": "Delego-Dev/delego",
+          "url": "https://github.com/Delego-Dev/delego",
           "homepage": "",
-          "description": "All-In-One Network Security Dashboard",
-          "stars": 10,
+          "description": "A policy & audit firewall for agent actions — deterministic authorization, action-bound human approval, and a signed, tamper-evident audit trail.",
+          "stars": 6,
           "forks": 0,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-05-30T09:44:46Z",
-          "updatedAt": "2026-06-03T00:07:05Z",
+          "createdAt": "2026-06-03T18:44:21Z",
+          "updatedAt": "2026-06-04T11:19:24Z",
           "matchedProfiles": [
-            "通用安全",
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1,
-            1.08
+            1
           ],
           "tags": [
             "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 74.57
+        },
+        {
+          "id": 1254625372,
+          "name": "llm-honeypot",
+          "fullName": "romiisromie/llm-honeypot",
+          "url": "https://github.com/romiisromie/llm-honeypot",
+          "homepage": "https://llm-honeypot-xmac.onrender.com",
+          "description": "Honeypot for LLM attacks — detects and traps Prompt Injection & Jailbreak attempts.  Built with FastAPI + DistilBERT classifier.  Part of proactive AI security research.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-05-30T20:04:36Z",
+          "updatedAt": "2026-06-04T18:57:38Z",
+          "matchedProfiles": [
             "网络安全"
           ],
-          "score": 76.59
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.02
         },
         {
           "id": 1255419642,
@@ -807,7 +836,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 68.75
+          "score": 66.69
         },
         {
           "id": 1253999202,
@@ -818,10 +847,10 @@
           "description": "Browser extension with 30+ rules for keeping your AI agent safe while browsing",
           "stars": 9,
           "forks": 0,
-          "openIssues": 6,
+          "openIssues": 8,
           "language": "TypeScript",
           "createdAt": "2026-05-30T03:02:10Z",
-          "updatedAt": "2026-06-04T15:24:22Z",
+          "updatedAt": "2026-06-05T04:31:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -832,32 +861,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.62
-        },
-        {
-          "id": 1254625372,
-          "name": "llm-honeypot",
-          "fullName": "romiisromie/llm-honeypot",
-          "url": "https://github.com/romiisromie/llm-honeypot",
-          "homepage": "https://llm-honeypot-xmac.onrender.com",
-          "description": "Honeypot for LLM attacks — detects and traps Prompt Injection & Jailbreak attempts.  Built with FastAPI + DistilBERT classifier.  Part of proactive AI security research.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-05-30T20:04:36Z",
-          "updatedAt": "2026-06-02T18:23:01Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.94
+          "score": 65.56
         }
       ]
     }
