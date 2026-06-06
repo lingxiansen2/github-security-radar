@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-06T05:04:39.476Z",
+  "generatedAt": "2026-06-06T14:53:56.155Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-06-03",
-      "totalCandidates": 24,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Albert-Weasker/niubi_guard",
           "homepage": "https://www.niubistar.com/guard",
           "description": "Open-source GitHub repository abuse detection and response system.",
-          "stars": 188,
-          "forks": 112,
+          "stars": 193,
+          "forks": 113,
           "openIssues": 3,
           "language": "TypeScript",
           "createdAt": "2026-06-03T14:32:02Z",
-          "updatedAt": "2026-06-06T03:11:42Z",
+          "updatedAt": "2026-06-06T14:53:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 166.95
+          "score": 164.26
         },
         {
           "id": 1258651839,
@@ -105,12 +105,12 @@
           "url": "https://github.com/ChrisHuber1/KustoForge",
           "homepage": "",
           "description": "Desktop KQL query builder for Microsoft security and Azure services - 52 tables across Defender, Sentinel, Entra ID, Azure Monitor, App Insights, and more",
-          "stars": 31,
+          "stars": 32,
           "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-03T19:35:33Z",
-          "updatedAt": "2026-06-06T04:26:41Z",
+          "updatedAt": "2026-06-06T10:25:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -121,7 +121,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 104.04
+          "score": 101.27
         },
         {
           "id": 1259208550,
@@ -130,12 +130,12 @@
           "url": "https://github.com/Unclecheng-li/cybersecurity-daily",
           "homepage": "",
           "description": "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots",
-          "stars": 17,
+          "stars": 19,
           "forks": 0,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-06-04T09:38:37Z",
-          "updatedAt": "2026-06-06T05:01:05Z",
+          "updatedAt": "2026-06-06T14:27:49Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -149,7 +149,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 93.72
+          "score": 92.7
         },
         {
           "id": 1259720711,
@@ -160,7 +160,7 @@
           "description": "Official, curated detection content (Sigma, YARA, IOC packs) for the Rustinel endpoint detection engine.",
           "stars": 12,
           "forks": 3,
-          "openIssues": 0,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-06-04T19:41:51Z",
           "updatedAt": "2026-06-05T22:32:07Z",
@@ -174,7 +174,33 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 90.48
+          "score": 86.93
+        },
+        {
+          "id": 1261239100,
+          "name": "SmartCode-Guard",
+          "fullName": "Wadan3/SmartCode-Guard",
+          "url": "https://github.com/Wadan3/SmartCode-Guard",
+          "homepage": "",
+          "description": "An AI-driven tool designed to automate the detection of security vulnerabilities in Java source code.",
+          "stars": 3,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Java",
+          "createdAt": "2026-06-06T12:26:33Z",
+          "updatedAt": "2026-06-06T13:49:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 79.11
         },
         {
           "id": 1258730323,
@@ -183,12 +209,12 @@
           "url": "https://github.com/darkdisaster08/darkbuster",
           "homepage": "",
           "description": "Advanced Web Directory & File Bruteforcer with Updated Wordlists (May 2026)",
-          "stars": 8,
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-03T21:34:33Z",
-          "updatedAt": "2026-06-05T23:23:07Z",
+          "updatedAt": "2026-06-06T11:41:19Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -201,7 +227,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 77.59
+          "score": 78.99
         },
         {
           "id": 1259985548,
@@ -226,7 +252,35 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.78
+          "score": 68.95
+        },
+        {
+          "id": 1260922834,
+          "name": "ZeroDay.jl",
+          "fullName": "JuliaSec/ZeroDay.jl",
+          "url": "https://github.com/JuliaSec/ZeroDay.jl",
+          "homepage": "",
+          "description": "A high-performance security auditing and vulnerability scanning tool written in Julia.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Julia",
+          "createdAt": "2026-06-06T03:05:53Z",
+          "updatedAt": "2026-06-06T14:11:48Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 68.13
         },
         {
           "id": 1260473604,
@@ -251,7 +305,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.26
+          "score": 63.72
         },
         {
           "id": 1259736440,
@@ -276,7 +330,32 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 64.62
+          "score": 61.07
+        },
+        {
+          "id": 1258687572,
+          "name": "skillguard",
+          "fullName": "mannanj/skillguard",
+          "url": "https://github.com/mannanj/skillguard",
+          "homepage": "https://skillguard.sh",
+          "description": "Scan Claude Code skills for malicious code — before Claude runs them. Multi-engine scanner + PreToolUse hook that blocks unscanned skills.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-03T20:25:59Z",
+          "updatedAt": "2026-06-06T10:15:55Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 56
         },
         {
           "id": 1258613313,
@@ -301,86 +380,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 58.93
-        },
-        {
-          "id": 1259434046,
-          "name": "sqlmap-xbibz",
-          "fullName": "XbibzOfficial777/sqlmap-xbibz",
-          "url": "https://github.com/XbibzOfficial777/sqlmap-xbibz",
-          "homepage": "",
-          "description": "🗡️ sqlmap - Automatic SQL Injection & Database Takeover Tool | Recoded By Xbibz Official | Termux Support | One-line Install",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-04T14:00:12Z",
-          "updatedAt": "2026-06-05T14:18:03Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 56.51
-        },
-        {
-          "id": 1259791419,
-          "name": "Anthropic-Cybersecurity-Skills-Download-2026",
-          "fullName": "RiverHeroCrimp/Anthropic-Cybersecurity-Skills-Download-2026",
-          "url": "https://github.com/RiverHeroCrimp/Anthropic-Cybersecurity-Skills-Download-2026",
-          "homepage": "",
-          "description": "⭐️ Anthropic Cybersecurity Skills — powerful cybersecurity training software and skills development platform with setup installer v1.0. Includes full version key, latest build Pro 2026, activation key pre-activated, license serial. Get desktop version for Windows 10/11. Enhance cyber skills, improve threat detection. ⭐️",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-04T21:32:52Z",
-          "updatedAt": "2026-06-06T02:38:30Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 54.66
-        },
-        {
-          "id": 1258442086,
-          "name": "AI-Powered-Cyber-Fraud-Detection",
-          "fullName": "Jaiharshan/AI-Powered-Cyber-Fraud-Detection",
-          "url": "https://github.com/Jaiharshan/AI-Powered-Cyber-Fraud-Detection",
-          "homepage": "",
-          "description": "AI-powered cyber fraud detection platform with phishing analysis, URL screening, automated incident escalation, and SOC-style incident response built using Python, Streamlit, and Scikit-learn.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-03T15:25:53Z",
-          "updatedAt": "2026-06-03T16:43:19Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 54.29
+          "score": 55.39
         }
       ]
     },
@@ -393,42 +393,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-05-30",
-      "totalCandidates": 21,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 10,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1780722332"
+          "rateLimitReset": "1780757688"
         }
       ],
       "repositories": [
@@ -439,12 +439,12 @@
           "url": "https://github.com/PentesterFlow/agent",
           "homepage": "https://pentesterflow.com",
           "description": "Agentic offensive-security in your terminal",
-          "stars": 296,
+          "stars": 301,
           "forks": 33,
           "openIssues": 2,
           "language": "TypeScript",
           "createdAt": "2026-05-31T11:14:35Z",
-          "updatedAt": "2026-06-06T04:12:43Z",
+          "updatedAt": "2026-06-06T14:53:21Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -457,7 +457,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 204.1
+          "score": 202.81
         },
         {
           "id": 1258389924,
@@ -466,12 +466,12 @@
           "url": "https://github.com/Albert-Weasker/niubi_guard",
           "homepage": "https://www.niubistar.com/guard",
           "description": "Open-source GitHub repository abuse detection and response system.",
-          "stars": 188,
-          "forks": 112,
+          "stars": 193,
+          "forks": 113,
           "openIssues": 3,
           "language": "TypeScript",
           "createdAt": "2026-06-03T14:32:02Z",
-          "updatedAt": "2026-06-06T03:11:42Z",
+          "updatedAt": "2026-06-06T14:53:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -482,7 +482,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 179.86
+          "score": 179.06
         },
         {
           "id": 1255854163,
@@ -491,12 +491,12 @@
           "url": "https://github.com/spearchucker667/kimiko",
           "homepage": "https://www.moonshot.ai",
           "description": "Bypass all api restraints within Kimi-CLI",
-          "stars": 57,
-          "forks": 6,
+          "stars": 62,
+          "forks": 7,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-01T08:27:16Z",
-          "updatedAt": "2026-06-06T03:31:32Z",
+          "updatedAt": "2026-06-06T14:31:48Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -507,7 +507,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 147.58
+          "score": 149.19
         },
         {
           "id": 1258651839,
@@ -516,12 +516,12 @@
           "url": "https://github.com/ChrisHuber1/KustoForge",
           "homepage": "",
           "description": "Desktop KQL query builder for Microsoft security and Azure services - 52 tables across Defender, Sentinel, Entra ID, Azure Monitor, App Insights, and more",
-          "stars": 31,
+          "stars": 32,
           "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-03T19:35:33Z",
-          "updatedAt": "2026-06-06T04:26:41Z",
+          "updatedAt": "2026-06-06T10:25:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -532,7 +532,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 115.9
+          "score": 115.16
         },
         {
           "id": 1254973380,
@@ -541,12 +541,12 @@
           "url": "https://github.com/phanen/nvim-suspicious-plugin-scanner",
           "homepage": "",
           "description": "Scan and flag suspicious neovim plugins",
-          "stars": 60,
+          "stars": 61,
           "forks": 1,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-05-31T08:28:21Z",
-          "updatedAt": "2026-06-05T14:24:41Z",
+          "updatedAt": "2026-06-06T10:46:34Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -556,7 +556,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 115.42
+          "score": 114.31
         },
         {
           "id": 1257557448,
@@ -580,33 +580,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 106.75
-        },
-        {
-          "id": 1257287847,
-          "name": "claude-ai-cyber-security-skills",
-          "fullName": "0xGhostCAT/claude-ai-cyber-security-skills",
-          "url": "https://github.com/0xGhostCAT/claude-ai-cyber-security-skills",
-          "homepage": "",
-          "description": "30 Claude Code Skills + 60+ integrated tools for HackerOne/Bugcrowd bug bounty hunters",
-          "stars": 16,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-06-02T14:35:38Z",
-          "updatedAt": "2026-06-06T04:15:52Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 103.46
+          "score": 105.11
         },
         {
           "id": 1259208550,
@@ -615,12 +589,12 @@
           "url": "https://github.com/Unclecheng-li/cybersecurity-daily",
           "homepage": "",
           "description": "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots",
-          "stars": 17,
+          "stars": 19,
           "forks": 0,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-06-04T09:38:37Z",
-          "updatedAt": "2026-06-06T05:01:05Z",
+          "updatedAt": "2026-06-06T14:27:49Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -634,7 +608,59 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 103.4
+          "score": 104.57
+        },
+        {
+          "id": 1257287847,
+          "name": "claude-ai-cyber-security-skills",
+          "fullName": "0xGhostCAT/claude-ai-cyber-security-skills",
+          "url": "https://github.com/0xGhostCAT/claude-ai-cyber-security-skills",
+          "homepage": "",
+          "description": "30 Claude Code Skills + 60+ integrated tools for HackerOne/Bugcrowd bug bounty hunters",
+          "stars": 17,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-06-02T14:35:38Z",
+          "updatedAt": "2026-06-06T14:33:33Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 103.32
+        },
+        {
+          "id": 1257634564,
+          "name": "Z-Jail",
+          "fullName": "Division-36/Z-Jail",
+          "url": "https://github.com/Division-36/Z-Jail",
+          "homepage": "",
+          "description": "A lightweight, multi-layer Linux sandbox combining namespaces, pivot_root, seccomp-bpf, capability dropping, and an evidence-based verdict engine (Truthimatics Public Version) for secure, auditable code execution.",
+          "stars": 19,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-06-02T21:38:08Z",
+          "updatedAt": "2026-06-06T13:15:07Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 101.59
         },
         {
           "id": 1259720711,
@@ -645,7 +671,7 @@
           "description": "Official, curated detection content (Sigma, YARA, IOC packs) for the Rustinel endpoint detection engine.",
           "stars": 12,
           "forks": 3,
-          "openIssues": 0,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-06-04T19:41:51Z",
           "updatedAt": "2026-06-05T22:32:07Z",
@@ -659,33 +685,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 97.37
-        },
-        {
-          "id": 1257634564,
-          "name": "Z-Jail",
-          "fullName": "Division-36/Z-Jail",
-          "url": "https://github.com/Division-36/Z-Jail",
-          "homepage": "",
-          "description": "A lightweight, multi-layer Linux sandbox combining namespaces, pivot_root, seccomp-bpf, capability dropping, and an evidence-based verdict engine (Truthimatics Public Version) for secure, auditable code execution.",
-          "stars": 13,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-06-02T21:38:08Z",
-          "updatedAt": "2026-06-06T04:31:17Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 93.32
+          "score": 95.85
         },
         {
           "id": 1258730323,
@@ -694,12 +694,12 @@
           "url": "https://github.com/darkdisaster08/darkbuster",
           "homepage": "",
           "description": "Advanced Web Directory & File Bruteforcer with Updated Wordlists (May 2026)",
-          "stars": 8,
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-03T21:34:33Z",
-          "updatedAt": "2026-06-05T23:23:07Z",
+          "updatedAt": "2026-06-06T11:41:19Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -712,7 +712,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 91.1
+          "score": 94.9
         },
         {
           "id": 1254222792,
@@ -721,12 +721,12 @@
           "url": "https://github.com/Mattmorris-dev/netwatch-sec",
           "homepage": "",
           "description": "All-In-One Network Security Dashboard",
-          "stars": 16,
+          "stars": 19,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-05-30T09:44:46Z",
-          "updatedAt": "2026-06-06T04:55:39Z",
+          "updatedAt": "2026-06-06T13:52:20Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -739,7 +739,57 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 86.16
+          "score": 89.71
+        },
+        {
+          "id": 1256173711,
+          "name": "SENTINEL-X-X-Domain-Threat-Fusion-Platform",
+          "fullName": "wi5nuu/SENTINEL-X-X-Domain-Threat-Fusion-Platform",
+          "url": "https://github.com/wi5nuu/SENTINEL-X-X-Domain-Threat-Fusion-Platform",
+          "homepage": "https://github.com/wi5nuu/SENTINEL-X-X-Domain-Threat-Fusion-Platform",
+          "description": "Platform fusi ancaman multi-domain buatan anak bangsa. Mengintegrasikan 9 domain deteksi (Udara, Maritim, Seismik, RF/SIGINT, Siber) dengan AI-powered correlation engine, blockchain evidence chain, & automated incident response. Dibangun untuk ketahanan infrastruktur kritis Indonesia. Real-time, 100K event/detik.  Configuration untuk GitHub:",
+          "stars": 8,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-01T14:28:22Z",
+          "updatedAt": "2026-06-06T14:39:56Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.38
+        },
+        {
+          "id": 1253999202,
+          "name": "agent-browser-shield",
+          "fullName": "pixiebrix/agent-browser-shield",
+          "url": "https://github.com/pixiebrix/agent-browser-shield",
+          "homepage": "https://pixiebrix.github.io/agent-browser-shield/",
+          "description": "Browser extension with 35+ rules for keeping your AI agent safe while browsing",
+          "stars": 14,
+          "forks": 2,
+          "openIssues": 7,
+          "language": "TypeScript",
+          "createdAt": "2026-05-30T03:02:10Z",
+          "updatedAt": "2026-06-06T14:49:55Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 78.34
         },
         {
           "id": 1256276768,
@@ -766,7 +816,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 79.25
+          "score": 77.45
         },
         {
           "id": 1256953279,
@@ -791,46 +841,21 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 76.71
+          "score": 75.19
         },
         {
-          "id": 1253999202,
-          "name": "agent-browser-shield",
-          "fullName": "pixiebrix/agent-browser-shield",
-          "url": "https://github.com/pixiebrix/agent-browser-shield",
-          "homepage": "https://pixiebrix.github.io/agent-browser-shield/",
-          "description": "Browser extension with 35+ rules for keeping your AI agent safe while browsing",
-          "stars": 13,
-          "forks": 2,
-          "openIssues": 7,
-          "language": "TypeScript",
-          "createdAt": "2026-05-30T03:02:10Z",
-          "updatedAt": "2026-06-06T00:08:55Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 76.66
-        },
-        {
-          "id": 1256173711,
-          "name": "SENTINEL-X-X-Domain-Threat-Fusion-Platform",
-          "fullName": "wi5nuu/SENTINEL-X-X-Domain-Threat-Fusion-Platform",
-          "url": "https://github.com/wi5nuu/SENTINEL-X-X-Domain-Threat-Fusion-Platform",
-          "homepage": "https://github.com/wi5nuu/SENTINEL-X-X-Domain-Threat-Fusion-Platform",
-          "description": "Platform fusi ancaman multi-domain buatan anak bangsa. Mengintegrasikan 9 domain deteksi (Udara, Maritim, Seismik, RF/SIGINT, Siber) dengan AI-powered correlation engine, blockchain evidence chain, & automated incident response. Dibangun untuk ketahanan infrastruktur kritis Indonesia. Real-time, 100K event/detik.  Configuration untuk GitHub:",
+          "id": 1258442086,
+          "name": "AI-Powered-Cyber-Fraud-Detection",
+          "fullName": "Jaiharshan/AI-Powered-Cyber-Fraud-Detection",
+          "url": "https://github.com/Jaiharshan/AI-Powered-Cyber-Fraud-Detection",
+          "homepage": "",
+          "description": "AI-powered cyber fraud detection platform with phishing analysis, URL screening, automated incident escalation, and SOC-style incident response built using Python, Streamlit, and Scikit-learn.",
           "stars": 5,
-          "forks": 1,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-06-01T14:28:22Z",
-          "updatedAt": "2026-06-05T11:42:48Z",
+          "createdAt": "2026-06-03T15:25:53Z",
+          "updatedAt": "2026-06-06T09:53:31Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -839,9 +864,10 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
           ],
-          "score": 68.49
+          "score": 70.71
         },
         {
           "id": 1254625372,
@@ -866,32 +892,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 64.13
-        },
-        {
-          "id": 1255419642,
-          "name": "govern",
-          "fullName": "decionis/govern",
-          "url": "https://github.com/decionis/govern",
-          "homepage": "https://decionis.com/marketplace/github",
-          "description": "Govern any GitHub workflow step on a signed Decionis Decision Dossier — gate deploys, releases, and infra changes; shadow or enforce.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-05-31T20:03:15Z",
-          "updatedAt": "2026-06-03T17:30:50Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 63.09
+          "score": 62.49
         }
       ]
     }
