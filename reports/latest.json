@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-10T05:47:57.214Z",
+  "generatedAt": "2026-06-10T16:45:31.308Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-06-07",
-      "totalCandidates": 23,
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Tools2U/AI-Website-Audit-CLI",
           "homepage": "",
           "description": "Open-source AI-powered website audit CLI using the OpenAI API for SEO, UX, accessibility, performance, trust, and content analysis.",
-          "stars": 55,
+          "stars": 56,
           "forks": 49,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-07T21:32:29Z",
-          "updatedAt": "2026-06-07T23:37:59Z",
+          "updatedAt": "2026-06-10T16:21:19Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 133.25
+          "score": 129.75
         },
         {
           "id": 1261935564,
@@ -121,7 +121,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 76.64
+          "score": 74.61
         },
         {
           "id": 1264622336,
@@ -149,33 +149,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 72.2
-        },
-        {
-          "id": 1263448068,
-          "name": "gmail-threat-analyzer",
-          "fullName": "nimosocute/gmail-threat-analyzer",
-          "url": "https://github.com/nimosocute/gmail-threat-analyzer",
-          "homepage": "",
-          "description": "FastAPI and Chrome Extension for Gmail phishing risk analysis",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-09T01:02:59Z",
-          "updatedAt": "2026-06-09T12:30:07Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 67.12
+          "score": 67.53
         },
         {
           "id": 1261729403,
@@ -203,6 +177,84 @@
           "score": 65.17
         },
         {
+          "id": 1264295409,
+          "name": "ctf-codex-toolkit",
+          "fullName": "nimosocute/ctf-codex-toolkit",
+          "url": "https://github.com/nimosocute/ctf-codex-toolkit",
+          "homepage": "https://www.npmjs.com/package/ctf-codex-toolkit",
+          "description": "Professional CTF workflow toolkit design for Codex Kali Linux and Kali WSL: skills, guard hooks, health checks, tool bootstrap, and per-challenge launchers.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-09T18:48:36Z",
+          "updatedAt": "2026-06-10T15:10:43Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 64.6
+        },
+        {
+          "id": 1263448068,
+          "name": "gmail-threat-analyzer",
+          "fullName": "nimosocute/gmail-threat-analyzer",
+          "url": "https://github.com/nimosocute/gmail-threat-analyzer",
+          "homepage": "",
+          "description": "FastAPI and Chrome Extension for Gmail phishing risk analysis",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-09T01:02:59Z",
+          "updatedAt": "2026-06-09T12:30:07Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 62.85
+        },
+        {
+          "id": 1265200954,
+          "name": "chainforge",
+          "fullName": "codegraphtheory/chainforge",
+          "url": "https://github.com/codegraphtheory/chainforge",
+          "homepage": "",
+          "description": "ChainForge SOUL.md — immutable identity document for a blockchain architect AI agent.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-10T14:56:53Z",
+          "updatedAt": "2026-06-10T15:04:27Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 61.35
+        },
+        {
           "id": 1263229219,
           "name": "repo-health-cli",
           "fullName": "TurkiAls/repo-health-cli",
@@ -225,61 +277,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.89
-        },
-        {
-          "id": 1262900159,
-          "name": "sqli-striker",
-          "fullName": "admmoises/sqli-striker",
-          "url": "https://github.com/admmoises/sqli-striker",
-          "homepage": "",
-          "description": "Tactical web interface for sqlmap — SQL injection strike platform. Terminal aesthetic, real-time SSE streaming, dual modes.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-08T12:32:56Z",
-          "updatedAt": "2026-06-08T18:22:23Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 55.58
-        },
-        {
-          "id": 1263249827,
-          "name": "ddos-defense-research",
-          "fullName": "Amir-Ali-Dev/ddos-defense-research",
-          "url": "https://github.com/Amir-Ali-Dev/ddos-defense-research",
-          "homepage": "",
-          "description": "Defensive research and practical examples for DDoS detection, mitigation, and resilient web architecture.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-08T19:13:44Z",
-          "updatedAt": "2026-06-08T22:34:54Z",
-          "matchedProfiles": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.12
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 55.46
+          "score": 59.93
         },
         {
           "id": 1261706872,
@@ -319,7 +317,7 @@
           "homepage": "",
           "description": "Docker-based web penetration testing lab with 7 intentionally vulnerable targets — for beginners learning ethical hacking",
           "stars": 3,
-          "forks": 0,
+          "forks": 1,
           "openIssues": 0,
           "language": "PHP",
           "createdAt": "2026-06-08T00:11:55Z",
@@ -334,62 +332,61 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 52.31
+          "score": 52.36
         },
         {
-          "id": 1262128732,
-          "name": "pi-agentic-system",
-          "fullName": "epappas/pi-agentic-system",
-          "url": "https://github.com/epappas/pi-agentic-system",
-          "homepage": "https://hyperautomation.substack.com/p/building-a-secure-agentic-system",
-          "description": "How to build a secure harness with sub-agents; Real Pi sub-agents, Cedar authorization on every spawn, tool call, and routing",
-          "stars": 3,
+          "id": 1263249827,
+          "name": "ddos-defense-research",
+          "fullName": "Amir-Ali-Dev/ddos-defense-research",
+          "url": "https://github.com/Amir-Ali-Dev/ddos-defense-research",
+          "homepage": "",
+          "description": "Defensive research and practical examples for DDoS detection, mitigation, and resilient web architecture.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-07T15:59:39Z",
-          "updatedAt": "2026-06-09T22:31:59Z",
+          "language": "Unknown",
+          "createdAt": "2026-06-08T19:13:44Z",
+          "updatedAt": "2026-06-08T22:34:54Z",
           "matchedProfiles": [
-            "通用安全",
-            "网络安全"
+            "网络安全",
+            "防守 / 蓝队"
           ],
           "profileWeights": [
-            1,
-            1.08
+            1.08,
+            1.12
           ],
           "tags": [
-            "通用安全",
             "网络安全",
-            "AI 自动化 / Skill"
+            "防守 / 蓝队"
           ],
-          "score": 49.11
+          "score": 51.03
         },
         {
-          "id": 1262896010,
-          "name": "sallyport",
-          "fullName": "ginkida/sallyport",
-          "url": "https://github.com/ginkida/sallyport",
+          "id": 1262900159,
+          "name": "sqli-striker",
+          "fullName": "admmoises/sqli-striker",
+          "url": "https://github.com/admmoises/sqli-striker",
           "homepage": "",
-          "description": "A security-first bridge between Claude Code (MCP) and Chrome — HMAC pairing, domain allowlist, per-domain evaluate opt-in.",
+          "description": "Tactical web interface for sqlmap — SQL injection strike platform. Terminal aesthetic, real-time SSE streaming, dual modes.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
-          "createdAt": "2026-06-08T12:28:02Z",
-          "updatedAt": "2026-06-09T09:42:21Z",
+          "createdAt": "2026-06-08T12:32:56Z",
+          "updatedAt": "2026-06-08T18:22:23Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1
+            1.08,
+            1.18
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "网络安全"
+            "网络安全",
+            "渗透 / 红队"
           ],
-          "score": 47.07
+          "score": 50.91
         }
       ]
     },
@@ -409,35 +406,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 10,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1781070530"
+          "rateLimitReset": "1781109982"
         }
       ],
       "repositories": [
@@ -448,12 +445,12 @@
           "url": "https://github.com/Albert-Weasker/niubi_guard",
           "homepage": "https://www.niubistar.com/guard",
           "description": "Open-source GitHub repository abuse detection and response system.",
-          "stars": 250,
+          "stars": 256,
           "forks": 113,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-06-03T14:32:02Z",
-          "updatedAt": "2026-06-10T03:55:23Z",
+          "updatedAt": "2026-06-10T14:41:54Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -464,7 +461,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 172.27
+          "score": 171.53
         },
         {
           "id": 1262328297,
@@ -473,12 +470,12 @@
           "url": "https://github.com/Tools2U/AI-Website-Audit-CLI",
           "homepage": "",
           "description": "Open-source AI-powered website audit CLI using the OpenAI API for SEO, UX, accessibility, performance, trust, and content analysis.",
-          "stars": 55,
+          "stars": 56,
           "forks": 49,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-07T21:32:29Z",
-          "updatedAt": "2026-06-07T23:37:59Z",
+          "updatedAt": "2026-06-10T16:21:19Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -489,7 +486,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 144.86
+          "score": 143.62
         },
         {
           "id": 1258730323,
@@ -498,12 +495,12 @@
           "url": "https://github.com/darkdisaster08/darkbuster",
           "homepage": "",
           "description": "Advanced Web Directory & File Bruteforcer with Updated Wordlists (May 2026)",
-          "stars": 34,
+          "stars": 35,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-03T21:34:33Z",
-          "updatedAt": "2026-06-10T00:20:40Z",
+          "updatedAt": "2026-06-10T10:34:57Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -516,7 +513,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 112.69
+          "score": 111.53
         },
         {
           "id": 1259208550,
@@ -525,12 +522,12 @@
           "url": "https://github.com/Unclecheng-li/cybersecurity-daily",
           "homepage": "",
           "description": "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots",
-          "stars": 35,
+          "stars": 37,
           "forks": 0,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-06-04T09:38:37Z",
-          "updatedAt": "2026-06-10T04:15:45Z",
+          "updatedAt": "2026-06-10T14:22:47Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -544,7 +541,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 105.93
+          "score": 105.57
         },
         {
           "id": 1258651839,
@@ -553,12 +550,12 @@
           "url": "https://github.com/ChrisHuber1/KustoForge",
           "homepage": "",
           "description": "Desktop KQL query builder for Microsoft security and Azure services - 52 tables across Defender, Sentinel, Entra ID, Azure Monitor, App Insights, and more",
-          "stars": 37,
-          "forks": 3,
+          "stars": 38,
+          "forks": 4,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-03T19:35:33Z",
-          "updatedAt": "2026-06-09T01:59:33Z",
+          "updatedAt": "2026-06-10T06:29:19Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -569,7 +566,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 105.27
+          "score": 105.52
         },
         {
           "id": 1261582178,
@@ -594,7 +591,57 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 95.48
+          "score": 93.78
+        },
+        {
+          "id": 1258613313,
+          "name": "delego",
+          "fullName": "Delego-Dev/delego",
+          "url": "https://github.com/Delego-Dev/delego",
+          "homepage": "https://delegohq.com",
+          "description": "Intent-bound action authorization for AI agents — deterministic, per-action approval a prompt injection can't re-point, with a signed, tamper-evident audit trail.",
+          "stars": 25,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-03T18:44:21Z",
+          "updatedAt": "2026-06-10T16:33:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 89.89
+        },
+        {
+          "id": 1259728164,
+          "name": "DVAP",
+          "fullName": "sonuoffsec/DVAP",
+          "url": "https://github.com/sonuoffsec/DVAP",
+          "homepage": "",
+          "description": "An OWASP-aligned intentionally vulnerable platform for learning and testing AI, LLM, RAG, MCP, and Agentic AI security.",
+          "stars": 12,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-06-04T19:53:09Z",
+          "updatedAt": "2026-06-10T15:57:16Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 89.72
         },
         {
           "id": 1261935564,
@@ -619,21 +666,21 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 91.53
+          "score": 89.7
         },
         {
-          "id": 1258613313,
-          "name": "delego",
-          "fullName": "Delego-Dev/delego",
-          "url": "https://github.com/Delego-Dev/delego",
+          "id": 1258228307,
+          "name": "MCTS",
+          "fullName": "MCP-Audit/MCTS",
+          "url": "https://github.com/MCP-Audit/MCTS",
           "homepage": "",
-          "description": "Intent-bound action authorization for AI agents — deterministic, per-action approval a prompt injection can't re-point, with a signed, tamper-evident audit trail.",
-          "stars": 24,
-          "forks": 1,
-          "openIssues": 0,
+          "description": "MCTS (Model Context Threat Scanner) is a local-first security scanner for MCP servers -- static and live tool discovery, multiple analyzers, auditable risk scores, and JSON, SARIF, and HTML output. For authors and platform teams; CI-ready, no cloud API.",
+          "stars": 20,
+          "forks": 4,
+          "openIssues": 34,
           "language": "Python",
-          "createdAt": "2026-06-03T18:44:21Z",
-          "updatedAt": "2026-06-10T01:30:28Z",
+          "createdAt": "2026-06-03T11:41:32Z",
+          "updatedAt": "2026-06-10T14:53:11Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -642,9 +689,10 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 90.61
+          "score": 89.56
         },
         {
           "id": 1259720711,
@@ -669,58 +717,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 87.44
-        },
-        {
-          "id": 1259728164,
-          "name": "DVAP",
-          "fullName": "sonuoffsec/DVAP",
-          "url": "https://github.com/sonuoffsec/DVAP",
-          "homepage": "",
-          "description": "An OWASP-aligned intentionally vulnerable platform for learning and testing AI, LLM, RAG, MCP, and Agentic AI security.",
-          "stars": 10,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-04T19:53:09Z",
-          "updatedAt": "2026-06-09T18:52:07Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 84.7
-        },
-        {
-          "id": 1258228307,
-          "name": "MCTS",
-          "fullName": "MCP-Audit/MCTS",
-          "url": "https://github.com/MCP-Audit/MCTS",
-          "homepage": "",
-          "description": "MCTS (Model Context Threat Scanner) is a local-first security scanner for MCP servers -- static and live tool discovery, multiple analyzers, auditable risk scores, and JSON, SARIF, and HTML output. For authors and platform teams; CI-ready, no cloud API.",
-          "stars": 17,
-          "forks": 2,
-          "openIssues": 41,
-          "language": "Python",
-          "createdAt": "2026-06-03T11:41:32Z",
-          "updatedAt": "2026-06-09T20:59:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 83.71
+          "score": 85.74
         },
         {
           "id": 1261729403,
@@ -745,7 +742,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 81.01
+          "score": 79.17
+        },
+        {
+          "id": 1261079984,
+          "name": "wp-taint-scan",
+          "fullName": "dimasma0305/wp-taint-scan",
+          "url": "https://github.com/dimasma0305/wp-taint-scan",
+          "homepage": "",
+          "description": "Go static taint-analysis engine that finds vulnerabilities in WordPress plugins — WordPress-aware (capability tiers, nonce≠authz, REST/AJAX entrypoints). Detects SQLi, XSS, IDOR, privesc, RCE. Built on php-parser-go.",
+          "stars": 10,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-06-06T07:56:42Z",
+          "updatedAt": "2026-06-08T10:08:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 78.31
         },
         {
           "id": 1261239100,
@@ -771,32 +793,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 80.1
-        },
-        {
-          "id": 1261079984,
-          "name": "wp-taint-scan",
-          "fullName": "dimasma0305/wp-taint-scan",
-          "url": "https://github.com/dimasma0305/wp-taint-scan",
-          "homepage": "",
-          "description": "Go static taint-analysis engine that finds vulnerabilities in WordPress plugins — WordPress-aware (capability tiers, nonce≠authz, REST/AJAX entrypoints). Detects SQLi, XSS, IDOR, privesc, RCE. Built on php-parser-go.",
-          "stars": 10,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-06-06T07:56:42Z",
-          "updatedAt": "2026-06-08T10:08:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 80
+          "score": 78.27
         },
         {
           "id": 1258457725,
@@ -825,7 +822,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 73.59
+          "score": 71.94
         },
         {
           "id": 1258442086,
@@ -851,7 +848,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 56.18
+          "score": 54.57
         }
       ]
     }
