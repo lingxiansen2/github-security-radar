@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-12T16:28:21.585Z",
+  "generatedAt": "2026-06-13T05:46:02.396Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-09",
-      "totalCandidates": 20,
+      "createdSince": "2026-06-10",
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
           "homepage": "",
           "description": "Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
-          "stars": 73,
-          "forks": 19,
+          "stars": 81,
+          "forks": 20,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-06-10T11:39:11Z",
-          "updatedAt": "2026-06-12T16:02:55Z",
+          "updatedAt": "2026-06-12T21:54:47Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,7 +97,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 136.33
+          "score": 134.45
         },
         {
           "id": 1265865407,
@@ -106,12 +106,12 @@
           "url": "https://github.com/Ishannaik/agent-sweep",
           "homepage": "",
           "description": "Find and redact secrets in AI coding agent histories (Claude Code, and more).",
-          "stars": 22,
+          "stars": 24,
           "forks": 4,
-          "openIssues": 3,
+          "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-11T06:27:24Z",
-          "updatedAt": "2026-06-12T16:26:05Z",
+          "updatedAt": "2026-06-13T04:57:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,7 +122,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 105.53
+          "score": 102.81
         },
         {
           "id": 1265629109,
@@ -131,12 +131,12 @@
           "url": "https://github.com/nuke-on-rails/nuke-on-rails",
           "homepage": "",
           "description": "The Rails audit skill for AI coding agents, ranked by blast radius. 🚂☢️",
-          "stars": 17,
+          "stars": 18,
           "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-06-11T00:21:29Z",
-          "updatedAt": "2026-06-12T13:24:48Z",
+          "updatedAt": "2026-06-12T18:29:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -147,7 +147,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 91.98
+          "score": 88.51
         },
         {
           "id": 1267361179,
@@ -173,7 +173,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 85.19
+          "score": 80
         },
         {
           "id": 1265165485,
@@ -201,21 +201,21 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.63
+          "score": 77.45
         },
         {
-          "id": 1263767274,
-          "name": "HoneyGPT",
-          "fullName": "zyw-286/HoneyGPT",
-          "url": "https://github.com/zyw-286/HoneyGPT",
-          "homepage": "https://doi.org/10.1016/j.comnet.2026.112223",
-          "description": "LLM-powered SSH/Telnet honeypot (on Cowrie) that analyzes attacker intent in real time, generates intent-tailored responses to prolong engagement, and logs everything - breaking the honeypot trilemma at low cost. Computer Networks 2026.",
-          "stars": 8,
-          "forks": 0,
+          "id": 1267223777,
+          "name": "jailbreak-fable",
+          "fullName": "keirsalterego/jailbreak-fable",
+          "url": "https://github.com/keirsalterego/jailbreak-fable",
+          "homepage": "",
+          "description": "High-fidelity Claude Fable 5 (Mythos) environment emulation and automated multi-agent jailbreak (Pack Hunt) research laboratory.",
+          "stars": 3,
+          "forks": 1,
           "openIssues": 0,
           "language": "JavaScript",
-          "createdAt": "2026-06-09T08:48:39Z",
-          "updatedAt": "2026-06-12T01:33:55Z",
+          "createdAt": "2026-06-12T10:39:43Z",
+          "updatedAt": "2026-06-13T04:04:16Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -226,7 +226,60 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 64.58
+          "score": 70.09
+        },
+        {
+          "id": 1267114203,
+          "name": "cms-vuln-scanner",
+          "fullName": "pandey-saket/cms-vuln-scanner",
+          "url": "https://github.com/pandey-saket/cms-vuln-scanner",
+          "homepage": "",
+          "description": "Professional CMS security assessment tool for authorized penetration testing. Supports WordPress, Joomla, and Drupal with passive/active/full scan modes. CMS Recon & Vulnerability Scanner by Saket Pandey",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-12T08:28:21Z",
+          "updatedAt": "2026-06-13T04:39:10Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 68.81
+        },
+        {
+          "id": 1265382099,
+          "name": "kipi",
+          "fullName": "assafkip/kipi",
+          "url": "https://github.com/assafkip/kipi",
+          "homepage": "",
+          "description": "Open-source, self-hosted OSINT investigation platform: turn documents into a live, investigated entity graph. Autonomous agent, graph analytics (centrality, communities, pathfinding), keyless-first tool belt.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-10T18:13:04Z",
+          "updatedAt": "2026-06-12T23:12:49Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 63.75
         },
         {
           "id": 1265491204,
@@ -235,12 +288,12 @@
           "url": "https://github.com/LxveAce/cyber-controller",
           "homepage": "",
           "description": "The all-in-one security hardware controller for cyberdecks & field deployments — flash, control & coordinate ESP32 (Marauder/Bruce/GhostESP), Flipper Zero, and Raspberry Pi security hardware from one dashboard.",
-          "stars": 3,
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-10T20:29:22Z",
-          "updatedAt": "2026-06-12T15:58:38Z",
+          "updatedAt": "2026-06-13T02:42:05Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -253,21 +306,21 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 61.26
+          "score": 61.18
         },
         {
-          "id": 1264295409,
-          "name": "ctf-codex-toolkit",
-          "fullName": "nimosocute/ctf-codex-toolkit",
-          "url": "https://github.com/nimosocute/ctf-codex-toolkit",
-          "homepage": "https://www.npmjs.com/package/ctf-codex-toolkit",
-          "description": "Professional CTF workflow toolkit design for Codex Kali Linux and Kali WSL: skills, guard hooks, health checks, tool bootstrap, and per-challenge launchers.",
-          "stars": 8,
+          "id": 1267972630,
+          "name": "aurscan",
+          "fullName": "manticore-projects/aurscan",
+          "url": "https://github.com/manticore-projects/aurscan",
+          "homepage": "https://manticore-projects.com",
+          "description": "Scan AUR packages for malware using Claude LLM",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-09T18:48:36Z",
-          "updatedAt": "2026-06-12T11:07:08Z",
+          "language": "Go",
+          "createdAt": "2026-06-13T02:59:22Z",
+          "updatedAt": "2026-06-13T05:41:30Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -277,10 +330,9 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 60.64
+          "score": 61
         },
         {
           "id": 1267055093,
@@ -290,11 +342,11 @@
           "homepage": "",
           "description": "Blazing-fast static analysis CLI for security, dependency, and performance audits.",
           "stars": 2,
-          "forks": 0,
-          "openIssues": 4,
+          "forks": 1,
+          "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-06-12T07:17:12Z",
-          "updatedAt": "2026-06-12T08:16:56Z",
+          "updatedAt": "2026-06-13T05:45:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -305,46 +357,21 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 58.68
+          "score": 57.88
         },
         {
-          "id": 1265200954,
-          "name": "chainforge",
-          "fullName": "codegraphtheory/chainforge",
-          "url": "https://github.com/codegraphtheory/chainforge",
-          "homepage": "",
-          "description": "ChainForge SOUL.md — immutable identity document for a blockchain architect AI agent.",
-          "stars": 5,
+          "id": 1266863931,
+          "name": "cyber-interview-prep",
+          "fullName": "JagdeepSinghCeh/cyber-interview-prep",
+          "url": "https://github.com/JagdeepSinghCeh/cyber-interview-prep",
+          "homepage": "https://www.encrypticle.com",
+          "description": "8000+ cybersecurity interview questions and answers covering Application Security, Penetration Testing, Bug Bounty, Active Directory, Red Teaming, API Security, Burp Suite, Nmap, SQLMap, and OWASP Top 10.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-06-10T14:56:53Z",
-          "updatedAt": "2026-06-11T03:43:46Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 58.65
-        },
-        {
-          "id": 1266559836,
-          "name": "Malware-Sandbox-mcp",
-          "fullName": "mukul975/Malware-Sandbox-mcp",
-          "url": "https://github.com/mukul975/Malware-Sandbox-mcp",
-          "homepage": "https://github.com/mukul975/Malware-Sandbox-mcp#readme",
-          "description": "Detonate files & URLs in cloud malware sandboxes (Hybrid Analysis, tria.ge, ANY.RUN) and enrich IOCs across MalwareBazaar, ThreatFox, URLhaus, Feodo, URLScan & VirusTotal — straight from Claude. BYOK, async, MITRE ATT&CK.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-11T18:26:57Z",
-          "updatedAt": "2026-06-11T21:41:49Z",
+          "createdAt": "2026-06-12T02:48:21Z",
+          "updatedAt": "2026-06-12T19:19:38Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -353,37 +380,9 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "漏洞研究 / 攻防"
+            "渗透 / 红队"
           ],
-          "score": 58.37
-        },
-        {
-          "id": 1265626623,
-          "name": "SOC-Lab-Launcher",
-          "fullName": "HellishFelix/SOC-Lab-Launcher",
-          "url": "https://github.com/HellishFelix/SOC-Lab-Launcher",
-          "homepage": "",
-          "description": "SOC lab automation tool for launching VirtualBox VMs, applications, and Splunk",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-11T00:16:36Z",
-          "updatedAt": "2026-06-12T08:44:02Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 51.28
+          "score": 56.45
         }
       ]
     },
@@ -395,43 +394,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-05",
-      "totalCandidates": 19,
+      "createdSince": "2026-06-06",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1781281754"
+          "rateLimitReset": "1781329615"
         }
       ],
       "repositories": [
@@ -442,12 +441,12 @@
           "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
           "homepage": "",
           "description": "Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
-          "stars": 73,
-          "forks": 19,
+          "stars": 81,
+          "forks": 20,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-06-10T11:39:11Z",
-          "updatedAt": "2026-06-12T16:02:55Z",
+          "updatedAt": "2026-06-12T21:54:47Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -459,7 +458,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 147.23
+          "score": 148.09
         },
         {
           "id": 1262328297,
@@ -484,7 +483,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 137.66
+          "score": 135.6
         },
         {
           "id": 1265865407,
@@ -493,12 +492,12 @@
           "url": "https://github.com/Ishannaik/agent-sweep",
           "homepage": "",
           "description": "Find and redact secrets in AI coding agent histories (Claude Code, and more).",
-          "stars": 22,
+          "stars": 24,
           "forks": 4,
-          "openIssues": 3,
+          "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-11T06:27:24Z",
-          "updatedAt": "2026-06-12T16:26:05Z",
+          "updatedAt": "2026-06-13T04:57:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -509,7 +508,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 112.55
+          "score": 112.57
         },
         {
           "id": 1265629109,
@@ -518,12 +517,12 @@
           "url": "https://github.com/nuke-on-rails/nuke-on-rails",
           "homepage": "",
           "description": "The Rails audit skill for AI coding agents, ranked by blast radius. 🚂☢️",
-          "stars": 17,
+          "stars": 18,
           "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-06-11T00:21:29Z",
-          "updatedAt": "2026-06-12T13:24:48Z",
+          "updatedAt": "2026-06-12T18:29:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -534,7 +533,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 100.25
+          "score": 99.53
         },
         {
           "id": 1265165485,
@@ -562,7 +561,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 93.8
+          "score": 91.58
         },
         {
           "id": 1261582178,
@@ -587,7 +586,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 86.4
+          "score": 84.34
         },
         {
           "id": 1267361179,
@@ -613,7 +612,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 85.88
+          "score": 83.66
         },
         {
           "id": 1261935564,
@@ -638,7 +637,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.86
+          "score": 80.63
         },
         {
           "id": 1263767274,
@@ -663,7 +662,59 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.34
+          "score": 77.12
+        },
+        {
+          "id": 1265382099,
+          "name": "kipi",
+          "fullName": "assafkip/kipi",
+          "url": "https://github.com/assafkip/kipi",
+          "homepage": "",
+          "description": "Open-source, self-hosted OSINT investigation platform: turn documents into a live, investigated entity graph. Autonomous agent, graph analytics (centrality, communities, pathfinding), keyless-first tool belt.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-10T18:13:04Z",
+          "updatedAt": "2026-06-12T23:12:49Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.02
+        },
+        {
+          "id": 1264295409,
+          "name": "ctf-codex-toolkit",
+          "fullName": "nimosocute/ctf-codex-toolkit",
+          "url": "https://github.com/nimosocute/ctf-codex-toolkit",
+          "homepage": "https://www.npmjs.com/package/ctf-codex-toolkit",
+          "description": "Professional CTF workflow toolkit design for Codex Kali Linux and Kali WSL: skills, guard hooks, health checks, tool bootstrap, and per-challenge launchers.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-09T18:48:36Z",
+          "updatedAt": "2026-06-13T04:33:33Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 75.43
         },
         {
           "id": 1262947546,
@@ -691,34 +742,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 76.94
-        },
-        {
-          "id": 1264295409,
-          "name": "ctf-codex-toolkit",
-          "fullName": "nimosocute/ctf-codex-toolkit",
-          "url": "https://github.com/nimosocute/ctf-codex-toolkit",
-          "homepage": "https://www.npmjs.com/package/ctf-codex-toolkit",
-          "description": "Professional CTF workflow toolkit design for Codex Kali Linux and Kali WSL: skills, guard hooks, health checks, tool bootstrap, and per-challenge launchers.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-09T18:48:36Z",
-          "updatedAt": "2026-06-12T11:07:08Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 75.01
+          "score": 74.51
         },
         {
           "id": 1261079984,
@@ -743,7 +767,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73
+          "score": 70.94
         },
         {
           "id": 1261729403,
@@ -768,7 +792,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.2
+          "score": 68.98
         },
         {
           "id": 1261239100,
@@ -797,7 +821,34 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 70.3
+          "score": 68.08
+        },
+        {
+          "id": 1261706872,
+          "name": "frameseven",
+          "fullName": "sayseven7/frameseven",
+          "url": "https://github.com/sayseven7/frameseven",
+          "homepage": "",
+          "description": "Offensive web security scanner — OWASP Top 10 · MCP server · CLI · Go",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-06-07T03:41:59Z",
+          "updatedAt": "2026-06-13T00:24:01Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 63.63
         }
       ]
     }
