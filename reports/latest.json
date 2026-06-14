@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-14T06:04:22.352Z",
+  "generatedAt": "2026-06-14T15:18:45.872Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,121 @@
         "maxItems": 12
       },
       "createdSince": "2026-06-11",
-      "totalCandidates": 23,
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         }
       ],
       "repositories": [
+        {
+          "id": 1269200194,
+          "name": "thumper",
+          "fullName": "jestasecurity/thumper",
+          "url": "https://github.com/jestasecurity/thumper",
+          "homepage": "https://jesta.ai/thumper",
+          "description": "Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the worm scans - the instant one is read, you know the box might be breached. Free and built in the open by Jesta.",
+          "stars": 17,
+          "forks": 0,
+          "openIssues": 32,
+          "language": "Python",
+          "createdAt": "2026-06-14T12:28:02Z",
+          "updatedAt": "2026-06-14T15:14:10Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 101.44
+        },
+        {
+          "id": 1265865407,
+          "name": "agent-sweep",
+          "fullName": "Ishannaik/agent-sweep",
+          "url": "https://github.com/Ishannaik/agent-sweep",
+          "homepage": "",
+          "description": "Find and redact secrets in AI coding agent histories (Claude Code, and more).",
+          "stars": 31,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-11T06:27:24Z",
+          "updatedAt": "2026-06-14T13:09:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 100.09
+        },
+        {
+          "id": 1267767489,
+          "name": "ressrf",
+          "fullName": "R0X4R/ressrf",
+          "url": "https://github.com/R0X4R/ressrf",
+          "homepage": "",
+          "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
+          "stars": 10,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-06-12T21:00:34Z",
+          "updatedAt": "2026-06-14T13:42:39Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 96.28
+        },
         {
           "id": 1266926301,
           "name": "treetrace",
@@ -97,57 +173,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 98.9
-        },
-        {
-          "id": 1265865407,
-          "name": "agent-sweep",
-          "fullName": "Ishannaik/agent-sweep",
-          "url": "https://github.com/Ishannaik/agent-sweep",
-          "homepage": "",
-          "description": "Find and redact secrets in AI coding agent histories (Claude Code, and more).",
-          "stars": 28,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-11T06:27:24Z",
-          "updatedAt": "2026-06-14T05:50:31Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 97.75
-        },
-        {
-          "id": 1267767489,
-          "name": "ressrf",
-          "fullName": "R0X4R/ressrf",
-          "url": "https://github.com/R0X4R/ressrf",
-          "homepage": "",
-          "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
-          "stars": 7,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-06-12T21:00:34Z",
-          "updatedAt": "2026-06-14T01:47:36Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 91.4
+          "score": 95.56
         },
         {
           "id": 1267972630,
@@ -156,12 +182,12 @@
           "url": "https://github.com/manticore-projects/aurscan",
           "homepage": "https://manticore-projects.com",
           "description": "Scan AUR packages for malware using Claude LLM",
-          "stars": 14,
+          "stars": 22,
           "forks": 0,
-          "openIssues": 3,
+          "openIssues": 2,
           "language": "Go",
           "createdAt": "2026-06-13T02:59:22Z",
-          "updatedAt": "2026-06-14T04:41:42Z",
+          "updatedAt": "2026-06-14T14:10:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -173,7 +199,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 88.22
+          "score": 95.41
         },
         {
           "id": 1265629109,
@@ -223,7 +249,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.58
+          "score": 78.97
         },
         {
           "id": 1267761185,
@@ -247,7 +273,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 71.44
+          "score": 67.5
         },
         {
           "id": 1267361179,
@@ -273,111 +299,84 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 70.52
+          "score": 66.92
         },
         {
-          "id": 1266819906,
-          "name": "SentinelMCP",
-          "fullName": "technosiveuk-ui/SentinelMCP",
-          "url": "https://github.com/technosiveuk-ui/SentinelMCP",
-          "homepage": "https://technosive.co.uk/sentinelmcp",
-          "description": "The Open-Source MCP Firewall & Security Gateway for AI Agents. Inspect, redact, and control tool calls. Proxy mode (universal) and Inline SDK mode (Go).",
-          "stars": 8,
+          "id": 1269140890,
+          "name": "Web-Vulnerabilities",
+          "fullName": "AnukarOP/Web-Vulnerabilities",
+          "url": "https://github.com/AnukarOP/Web-Vulnerabilities",
+          "homepage": "",
+          "description": "27 hands-on web vulnerability playbooks for bug bounty hunters, pentesters, and red teamers. Covers IDOR, SSRF, XSS, RCE, ATO, 2FA bypass, OAuth, JWT, file upload, business logic, rate limit, CSRF, SQLi, and more-  with payloads and bypass tables.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-06-12T01:32:39Z",
-          "updatedAt": "2026-06-14T03:43:36Z",
+          "language": "Unknown",
+          "createdAt": "2026-06-14T10:59:19Z",
+          "updatedAt": "2026-06-14T14:47:54Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 66.83
-        },
-        {
-          "id": 1267933746,
-          "name": "pwsafe-passwords",
-          "fullName": "Streampluviaduct/pwsafe-passwords",
-          "url": "https://github.com/Streampluviaduct/pwsafe-passwords",
-          "homepage": "",
-          "description": "Password Safe is a secure and convenient password manager. This repository includes CodeLite workspace and project files for browsing, building, and debugging Password Safe, including wxWidgets-related build configuration guidance.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-06-13T01:44:41Z",
-          "updatedAt": "2026-06-13T10:19:38Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
           "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 66.3
-        },
-        {
-          "id": 1268360819,
-          "name": "ghostlink",
-          "fullName": "byjanke/ghostlink",
-          "url": "https://github.com/byjanke/ghostlink",
-          "homepage": "",
-          "description": "Multi-channel OOB data exfiltration framework with optional C2 capabilities.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-06-13T12:46:06Z",
-          "updatedAt": "2026-06-13T23:02:17Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 66.28
-        },
-        {
-          "id": 1267114203,
-          "name": "cms-vuln-scanner",
-          "fullName": "pandey-saket/cms-vuln-scanner",
-          "url": "https://github.com/pandey-saket/cms-vuln-scanner",
-          "homepage": "",
-          "description": "Professional CMS security assessment tool for authorized penetration testing. Supports WordPress, Joomla, and Drupal with passive/active/full scan modes. CMS Recon & Vulnerability Scanner by Saket Pandey",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-12T08:28:21Z",
-          "updatedAt": "2026-06-13T09:09:18Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
+            1.08
           ],
           "tags": [
             "网络安全",
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 65.29
+          "score": 65.27
+        },
+        {
+          "id": 1268652645,
+          "name": "mcp-zero-trust-layer",
+          "fullName": "686f6c61/mcp-zero-trust-layer",
+          "url": "https://github.com/686f6c61/mcp-zero-trust-layer",
+          "homepage": "",
+          "description": "Open-source, self-hosted Zero Trust policy enforcement layer for MCP servers.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-13T19:29:52Z",
+          "updatedAt": "2026-06-14T14:56:22Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 64.64
+        },
+        {
+          "id": 1267681020,
+          "name": "hippocrates",
+          "fullName": "achmdfzn/hippocrates",
+          "url": "https://github.com/achmdfzn/hippocrates",
+          "homepage": "https://www.npmjs.com/package/hippocrates-middleware",
+          "description": "Next.js security middleware with Redis-backed threat scoring, honeypot decoy routing, and Python ML engine for advanced detection.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-06-12T19:08:26Z",
+          "updatedAt": "2026-06-14T13:17:14Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队",
+            "网络安全"
+          ],
+          "score": 64.05
         }
       ]
     },
@@ -390,42 +389,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-06-07",
-      "totalCandidates": 23,
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1781417115"
+          "rateLimitReset": "1781450378"
         }
       ],
       "repositories": [
@@ -436,12 +435,12 @@
           "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
           "homepage": "",
           "description": "Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
-          "stars": 88,
-          "forks": 23,
+          "stars": 90,
+          "forks": 24,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-06-10T11:39:11Z",
-          "updatedAt": "2026-06-14T05:26:37Z",
+          "updatedAt": "2026-06-14T13:41:55Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -453,7 +452,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 147.2
+          "score": 146.58
         },
         {
           "id": 1262328297,
@@ -478,7 +477,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 131.84
+          "score": 130.41
         },
         {
           "id": 1265865407,
@@ -487,12 +486,12 @@
           "url": "https://github.com/Ishannaik/agent-sweep",
           "homepage": "",
           "description": "Find and redact secrets in AI coding agent histories (Claude Code, and more).",
-          "stars": 28,
+          "stars": 31,
           "forks": 4,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-11T06:27:24Z",
-          "updatedAt": "2026-06-14T05:50:31Z",
+          "updatedAt": "2026-06-14T13:09:00Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -503,7 +502,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 112.53
+          "score": 113.57
         },
         {
           "id": 1266926301,
@@ -529,7 +528,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 109.13
+          "score": 107.7
+        },
+        {
+          "id": 1267767489,
+          "name": "ressrf",
+          "fullName": "R0X4R/ressrf",
+          "url": "https://github.com/R0X4R/ressrf",
+          "homepage": "",
+          "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
+          "stars": 10,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-06-12T21:00:34Z",
+          "updatedAt": "2026-06-14T13:42:39Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 106.58
         },
         {
           "id": 1262568393,
@@ -557,32 +581,59 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 107.17
+          "score": 105.63
         },
         {
-          "id": 1267767489,
-          "name": "ressrf",
-          "fullName": "R0X4R/ressrf",
-          "url": "https://github.com/R0X4R/ressrf",
-          "homepage": "",
-          "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
-          "stars": 7,
-          "forks": 2,
-          "openIssues": 0,
+          "id": 1267972630,
+          "name": "aurscan",
+          "fullName": "manticore-projects/aurscan",
+          "url": "https://github.com/manticore-projects/aurscan",
+          "homepage": "https://manticore-projects.com",
+          "description": "Scan AUR packages for malware using Claude LLM",
+          "stars": 22,
+          "forks": 0,
+          "openIssues": 2,
           "language": "Go",
-          "createdAt": "2026-06-12T21:00:34Z",
-          "updatedAt": "2026-06-14T01:47:36Z",
+          "createdAt": "2026-06-13T02:59:22Z",
+          "updatedAt": "2026-06-14T14:10:23Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
+            "通用安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
           ],
-          "score": 99.45
+          "score": 102.91
+        },
+        {
+          "id": 1269200194,
+          "name": "thumper",
+          "fullName": "jestasecurity/thumper",
+          "url": "https://github.com/jestasecurity/thumper",
+          "homepage": "https://jesta.ai/thumper",
+          "description": "Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the worm scans - the instant one is read, you know the box might be breached. Free and built in the open by Jesta.",
+          "stars": 17,
+          "forks": 0,
+          "openIssues": 32,
+          "language": "Python",
+          "createdAt": "2026-06-14T12:28:02Z",
+          "updatedAt": "2026-06-14T15:14:10Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 102.02
         },
         {
           "id": 1265629109,
@@ -607,33 +658,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 97.03
-        },
-        {
-          "id": 1267972630,
-          "name": "aurscan",
-          "fullName": "manticore-projects/aurscan",
-          "url": "https://github.com/manticore-projects/aurscan",
-          "homepage": "https://manticore-projects.com",
-          "description": "Scan AUR packages for malware using Claude LLM",
-          "stars": 14,
-          "forks": 0,
-          "openIssues": 3,
-          "language": "Go",
-          "createdAt": "2026-06-13T02:59:22Z",
-          "updatedAt": "2026-06-14T04:41:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 93.81
+          "score": 95.6
         },
         {
           "id": 1267223777,
@@ -658,7 +683,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.25
+          "score": 90.71
         },
         {
           "id": 1265165485,
@@ -686,7 +711,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.2
+          "score": 90.66
         },
         {
           "id": 1265382099,
@@ -695,12 +720,12 @@
           "url": "https://github.com/assafkip/kipi",
           "homepage": "",
           "description": "Open-source, self-hosted OSINT investigation platform: turn documents into a live, investigated entity graph. Autonomous agent, graph analytics (centrality, communities, pathfinding), keyless-first tool belt.",
-          "stars": 8,
+          "stars": 9,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-10T18:13:04Z",
-          "updatedAt": "2026-06-13T23:46:56Z",
+          "updatedAt": "2026-06-14T10:12:06Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -711,7 +736,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 85.49
+          "score": 86.62
         },
         {
           "id": 1267361179,
@@ -737,7 +762,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 79.59
+          "score": 78.05
         },
         {
           "id": 1266819906,
@@ -763,7 +788,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 77.67
+          "score": 76.24
         },
         {
           "id": 1261935564,
@@ -788,7 +813,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 76.57
+          "score": 75.75
         },
         {
           "id": 1263767274,
@@ -813,7 +838,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.06
+          "score": 71.51
         },
         {
           "id": 1264295409,
@@ -840,7 +865,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 71.67
+          "score": 70.24
         },
         {
           "id": 1262947546,
@@ -868,33 +893,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 70.07
-        },
-        {
-          "id": 1265391759,
-          "name": "yammi-audit-log",
-          "fullName": "RomaLytar/yammi-audit-log",
-          "url": "https://github.com/RomaLytar/yammi-audit-log",
-          "homepage": "",
-          "description": "Laravel audit log & change history with real actor attribution (user / job / command / scheduler), cross-model change traces, time machine, tamper-evident hash chain, GDPR reports, anomaly detection, Slack/webhook alerts, multi-tenancy and an optional dashboard.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-06-10T18:24:16Z",
-          "updatedAt": "2026-06-13T22:12:08Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 67.05
+          "score": 68.39
         }
       ]
     }
