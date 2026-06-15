@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-14T15:18:45.872Z",
+  "generatedAt": "2026-06-15T06:37:41.213Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-11",
+      "createdSince": "2026-06-12",
       "totalCandidates": 25,
       "queryStats": [
         {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/jestasecurity/thumper",
           "homepage": "https://jesta.ai/thumper",
           "description": "Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the worm scans - the instant one is read, you know the box might be breached. Free and built in the open by Jesta.",
-          "stars": 17,
+          "stars": 33,
           "forks": 0,
-          "openIssues": 32,
+          "openIssues": 34,
           "language": "Python",
           "createdAt": "2026-06-14T12:28:02Z",
-          "updatedAt": "2026-06-14T15:14:10Z",
+          "updatedAt": "2026-06-15T06:22:57Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,21 +97,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 101.44
+          "score": 111.77
         },
         {
-          "id": 1265865407,
-          "name": "agent-sweep",
-          "fullName": "Ishannaik/agent-sweep",
-          "url": "https://github.com/Ishannaik/agent-sweep",
-          "homepage": "",
-          "description": "Find and redact secrets in AI coding agent histories (Claude Code, and more).",
-          "stars": 31,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-11T06:27:24Z",
-          "updatedAt": "2026-06-14T13:09:00Z",
+          "id": 1267972630,
+          "name": "aurscan",
+          "fullName": "manticore-projects/aurscan",
+          "url": "https://github.com/manticore-projects/aurscan",
+          "homepage": "https://manticore-projects.com",
+          "description": "Scan AUR packages for malware using Claude LLM",
+          "stars": 32,
+          "forks": 2,
+          "openIssues": 6,
+          "language": "Go",
+          "createdAt": "2026-06-13T02:59:22Z",
+          "updatedAt": "2026-06-15T05:38:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -120,9 +120,10 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
           ],
-          "score": 100.09
+          "score": 105.27
         },
         {
           "id": 1267767489,
@@ -131,12 +132,12 @@
           "url": "https://github.com/R0X4R/ressrf",
           "homepage": "",
           "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
-          "stars": 10,
+          "stars": 15,
           "forks": 2,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-06-12T21:00:34Z",
-          "updatedAt": "2026-06-14T13:42:39Z",
+          "updatedAt": "2026-06-15T04:19:13Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -147,7 +148,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 96.28
+          "score": 100.43
         },
         {
           "id": 1266926301,
@@ -173,58 +174,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 95.56
-        },
-        {
-          "id": 1267972630,
-          "name": "aurscan",
-          "fullName": "manticore-projects/aurscan",
-          "url": "https://github.com/manticore-projects/aurscan",
-          "homepage": "https://manticore-projects.com",
-          "description": "Scan AUR packages for malware using Claude LLM",
-          "stars": 22,
-          "forks": 0,
-          "openIssues": 2,
-          "language": "Go",
-          "createdAt": "2026-06-13T02:59:22Z",
-          "updatedAt": "2026-06-14T14:10:23Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 95.41
-        },
-        {
-          "id": 1265629109,
-          "name": "nuke-on-rails",
-          "fullName": "nuke-on-rails/nuke-on-rails",
-          "url": "https://github.com/nuke-on-rails/nuke-on-rails",
-          "homepage": "",
-          "description": "The Rails audit skill for AI coding agents, ranked by blast radius. 🚂☢️",
-          "stars": 19,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-11T00:21:29Z",
-          "updatedAt": "2026-06-13T17:20:21Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 83.06
+          "score": 90.8
         },
         {
           "id": 1267223777,
@@ -233,12 +183,12 @@
           "url": "https://github.com/keirsalterego/jailbreak-fable",
           "homepage": "",
           "description": "High-fidelity Claude Fable 5 (Mythos) environment emulation and automated multi-agent jailbreak (Pack Hunt) research laboratory.",
-          "stars": 8,
-          "forks": 2,
+          "stars": 10,
+          "forks": 3,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-06-12T10:39:43Z",
-          "updatedAt": "2026-06-13T16:46:11Z",
+          "updatedAt": "2026-06-14T22:17:03Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -249,7 +199,133 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 78.97
+          "score": 79.91
+        },
+        {
+          "id": 1269395970,
+          "name": "trilane",
+          "fullName": "xyun92/trilane",
+          "url": "https://github.com/xyun92/trilane",
+          "homepage": "https://github.com/xyun92/trilane",
+          "description": "TriLane: lane-orchestrated multi-agent security auditor for authorized gray-box vulnerability hunting. Built with Rust and Tauri.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-06-14T16:58:22Z",
+          "updatedAt": "2026-06-15T04:43:49Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 77.33
+        },
+        {
+          "id": 1269294252,
+          "name": "pbscan",
+          "fullName": "pingback-sh/pbscan",
+          "url": "https://github.com/pingback-sh/pbscan",
+          "homepage": "https://pingback.sh",
+          "description": "Automated blind SSRF scanner with native PingBack.sh OAST correlation, persistent callbacks and exact injection tracking.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 7,
+          "language": "Go",
+          "createdAt": "2026-06-14T14:36:05Z",
+          "updatedAt": "2026-06-15T05:52:23Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 76.4
+        },
+        {
+          "id": 1268958229,
+          "name": "OpenSecurity",
+          "fullName": "zylc369/OpenSecurity",
+          "url": "https://github.com/zylc369/OpenSecurity",
+          "homepage": "",
+          "description": "AI 驱动的多领域安全分析 Agent 平台 —— 让 LLM 端到端完成安全分析",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 6,
+          "language": "Python",
+          "createdAt": "2026-06-14T06:09:27Z",
+          "updatedAt": "2026-06-15T06:33:40Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 71.7
+        },
+        {
+          "id": 1269350729,
+          "name": "template_relatorio_dcpt",
+          "fullName": "MateusRomao/template_relatorio_dcpt",
+          "url": "https://github.com/MateusRomao/template_relatorio_dcpt",
+          "homepage": "",
+          "description": "Repositório com o template de relatório para a certificação DCPT (DESEC Security) pronto para importação no Sysreptor. Facilite a documentação do seu exame!",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-14T15:53:42Z",
+          "updatedAt": "2026-06-15T01:56:42Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 67.47
+        },
+        {
+          "id": 1266819906,
+          "name": "SentinelMCP",
+          "fullName": "technosiveuk-ui/SentinelMCP",
+          "url": "https://github.com/technosiveuk-ui/SentinelMCP",
+          "homepage": "https://technosive.co.uk/sentinelmcp",
+          "description": "The Open-Source MCP Firewall & Security Gateway for AI Agents. Inspect, redact, and control tool calls. Proxy mode (universal) and Inline SDK mode (Go).",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-06-12T01:32:39Z",
+          "updatedAt": "2026-06-14T19:54:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 66.61
         },
         {
           "id": 1267761185,
@@ -263,7 +339,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-12T20:52:07Z",
-          "updatedAt": "2026-06-13T22:38:46Z",
+          "updatedAt": "2026-06-14T18:51:05Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -273,7 +349,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 67.5
+          "score": 60.97
         },
         {
           "id": 1267361179,
@@ -299,84 +375,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 66.92
-        },
-        {
-          "id": 1269140890,
-          "name": "Web-Vulnerabilities",
-          "fullName": "AnukarOP/Web-Vulnerabilities",
-          "url": "https://github.com/AnukarOP/Web-Vulnerabilities",
-          "homepage": "",
-          "description": "27 hands-on web vulnerability playbooks for bug bounty hunters, pentesters, and red teamers. Covers IDOR, SSRF, XSS, RCE, ATO, 2FA bypass, OAuth, JWT, file upload, business logic, rate limit, CSRF, SQLi, and more-  with payloads and bypass tables.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-14T10:59:19Z",
-          "updatedAt": "2026-06-14T14:47:54Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 65.27
-        },
-        {
-          "id": 1268652645,
-          "name": "mcp-zero-trust-layer",
-          "fullName": "686f6c61/mcp-zero-trust-layer",
-          "url": "https://github.com/686f6c61/mcp-zero-trust-layer",
-          "homepage": "",
-          "description": "Open-source, self-hosted Zero Trust policy enforcement layer for MCP servers.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-13T19:29:52Z",
-          "updatedAt": "2026-06-14T14:56:22Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 64.64
-        },
-        {
-          "id": 1267681020,
-          "name": "hippocrates",
-          "fullName": "achmdfzn/hippocrates",
-          "url": "https://github.com/achmdfzn/hippocrates",
-          "homepage": "https://www.npmjs.com/package/hippocrates-middleware",
-          "description": "Next.js security middleware with Redis-backed threat scoring, honeypot decoy routing, and Python ML engine for advanced detection.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-12T19:08:26Z",
-          "updatedAt": "2026-06-14T13:17:14Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队",
-            "网络安全"
-          ],
-          "score": 64.05
+          "score": 60.95
         }
       ]
     },
@@ -388,43 +387,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-07",
-      "totalCandidates": 24,
+      "createdSince": "2026-06-08",
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 11,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1781450378"
+          "rateLimitReset": "1781505514"
         }
       ],
       "repositories": [
@@ -435,12 +434,12 @@
           "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
           "homepage": "",
           "description": "Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
-          "stars": 90,
+          "stars": 98,
           "forks": 24,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-06-10T11:39:11Z",
-          "updatedAt": "2026-06-14T13:41:55Z",
+          "updatedAt": "2026-06-15T04:56:19Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -452,21 +451,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 146.58
+          "score": 146.37
         },
         {
-          "id": 1262328297,
-          "name": "AI-Website-Audit-CLI",
-          "fullName": "Tools2U/AI-Website-Audit-CLI",
-          "url": "https://github.com/Tools2U/AI-Website-Audit-CLI",
-          "homepage": "",
-          "description": "Open-source AI-powered website audit CLI using the OpenAI API for SEO, UX, accessibility, performance, trust, and content analysis.",
-          "stars": 59,
-          "forks": 50,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-07T21:32:29Z",
-          "updatedAt": "2026-06-12T16:24:06Z",
+          "id": 1267972630,
+          "name": "aurscan",
+          "fullName": "manticore-projects/aurscan",
+          "url": "https://github.com/manticore-projects/aurscan",
+          "homepage": "https://manticore-projects.com",
+          "description": "Scan AUR packages for malware using Claude LLM",
+          "stars": 32,
+          "forks": 2,
+          "openIssues": 6,
+          "language": "Go",
+          "createdAt": "2026-06-13T02:59:22Z",
+          "updatedAt": "2026-06-15T05:38:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -475,9 +474,61 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
           ],
-          "score": 130.41
+          "score": 115.92
+        },
+        {
+          "id": 1269200194,
+          "name": "thumper",
+          "fullName": "jestasecurity/thumper",
+          "url": "https://github.com/jestasecurity/thumper",
+          "homepage": "https://jesta.ai/thumper",
+          "description": "Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the worm scans - the instant one is read, you know the box might be breached. Free and built in the open by Jesta.",
+          "stars": 33,
+          "forks": 0,
+          "openIssues": 34,
+          "language": "Python",
+          "createdAt": "2026-06-14T12:28:02Z",
+          "updatedAt": "2026-06-15T06:22:57Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 115.52
+        },
+        {
+          "id": 1267767489,
+          "name": "ressrf",
+          "fullName": "R0X4R/ressrf",
+          "url": "https://github.com/R0X4R/ressrf",
+          "homepage": "",
+          "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
+          "stars": 15,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-06-12T21:00:34Z",
+          "updatedAt": "2026-06-15T04:19:13Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 114.46
         },
         {
           "id": 1265865407,
@@ -486,12 +537,12 @@
           "url": "https://github.com/Ishannaik/agent-sweep",
           "homepage": "",
           "description": "Find and redact secrets in AI coding agent histories (Claude Code, and more).",
-          "stars": 31,
+          "stars": 34,
           "forks": 4,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-11T06:27:24Z",
-          "updatedAt": "2026-06-14T13:09:00Z",
+          "updatedAt": "2026-06-15T03:05:33Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -502,7 +553,35 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 113.57
+          "score": 113.46
+        },
+        {
+          "id": 1262568393,
+          "name": "c2detect",
+          "fullName": "cognis-digital/c2detect",
+          "url": "https://github.com/cognis-digital/c2detect",
+          "homepage": "https://cognis.digital",
+          "description": "C2 server fingerprinter — Cobalt Strike, Sliver, Mythic, Havoc, Brute Ratel",
+          "stars": 25,
+          "forks": 7,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-06-08T05:37:01Z",
+          "updatedAt": "2026-06-15T02:33:08Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 105.4
         },
         {
           "id": 1266926301,
@@ -528,112 +607,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 107.7
+          "score": 105.33
         },
         {
-          "id": 1267767489,
-          "name": "ressrf",
-          "fullName": "R0X4R/ressrf",
-          "url": "https://github.com/R0X4R/ressrf",
+          "id": 1267223777,
+          "name": "jailbreak-fable",
+          "fullName": "keirsalterego/jailbreak-fable",
+          "url": "https://github.com/keirsalterego/jailbreak-fable",
           "homepage": "",
-          "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
+          "description": "High-fidelity Claude Fable 5 (Mythos) environment emulation and automated multi-agent jailbreak (Pack Hunt) research laboratory.",
           "stars": 10,
-          "forks": 2,
+          "forks": 3,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-06-12T21:00:34Z",
-          "updatedAt": "2026-06-14T13:42:39Z",
+          "language": "JavaScript",
+          "createdAt": "2026-06-12T10:39:43Z",
+          "updatedAt": "2026-06-14T22:17:03Z",
           "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 106.58
-        },
-        {
-          "id": 1262568393,
-          "name": "c2detect",
-          "fullName": "cognis-digital/c2detect",
-          "url": "https://github.com/cognis-digital/c2detect",
-          "homepage": "https://cognis.digital",
-          "description": "C2 server fingerprinter — Cobalt Strike, Sliver, Mythic, Havoc, Brute Ratel",
-          "stars": 23,
-          "forks": 7,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-06-08T05:37:01Z",
-          "updatedAt": "2026-06-14T05:52:52Z",
-          "matchedProfiles": [
-            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
-            1,
             1.08
           ],
           "tags": [
-            "通用安全",
             "网络安全",
-            "渗透 / 红队"
+            "AI 自动化 / Skill"
           ],
-          "score": 105.63
-        },
-        {
-          "id": 1267972630,
-          "name": "aurscan",
-          "fullName": "manticore-projects/aurscan",
-          "url": "https://github.com/manticore-projects/aurscan",
-          "homepage": "https://manticore-projects.com",
-          "description": "Scan AUR packages for malware using Claude LLM",
-          "stars": 22,
-          "forks": 0,
-          "openIssues": 2,
-          "language": "Go",
-          "createdAt": "2026-06-13T02:59:22Z",
-          "updatedAt": "2026-06-14T14:10:23Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 102.91
-        },
-        {
-          "id": 1269200194,
-          "name": "thumper",
-          "fullName": "jestasecurity/thumper",
-          "url": "https://github.com/jestasecurity/thumper",
-          "homepage": "https://jesta.ai/thumper",
-          "description": "Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the worm scans - the instant one is read, you know the box might be breached. Free and built in the open by Jesta.",
-          "stars": 17,
-          "forks": 0,
-          "openIssues": 32,
-          "language": "Python",
-          "createdAt": "2026-06-14T12:28:02Z",
-          "updatedAt": "2026-06-14T15:14:10Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 102.02
+          "score": 95.05
         },
         {
           "id": 1265629109,
@@ -658,32 +657,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 95.6
-        },
-        {
-          "id": 1267223777,
-          "name": "jailbreak-fable",
-          "fullName": "keirsalterego/jailbreak-fable",
-          "url": "https://github.com/keirsalterego/jailbreak-fable",
-          "homepage": "",
-          "description": "High-fidelity Claude Fable 5 (Mythos) environment emulation and automated multi-agent jailbreak (Pack Hunt) research laboratory.",
-          "stars": 8,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-06-12T10:39:43Z",
-          "updatedAt": "2026-06-13T16:46:11Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 90.71
+          "score": 93.23
         },
         {
           "id": 1265165485,
@@ -692,12 +666,12 @@
           "url": "https://github.com/martidu4/honey-ai",
           "homepage": "",
           "description": "🍯 All-in-one AI honeypot powered by local LLMs. SSH, HTTP, FTP, Telnet, SMTP, MySQL, Redis, Git, VNC, RDP — with canary tokens, tarpits, GZIP bombs, and threat intel reporting.",
-          "stars": 11,
+          "stars": 12,
           "forks": 2,
           "openIssues": 7,
           "language": "JavaScript",
           "createdAt": "2026-06-10T14:21:36Z",
-          "updatedAt": "2026-06-13T13:37:26Z",
+          "updatedAt": "2026-06-15T05:57:59Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -711,7 +685,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 90.66
+          "score": 90.18
         },
         {
           "id": 1265382099,
@@ -736,7 +710,83 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 86.62
+          "score": 84.06
+        },
+        {
+          "id": 1266819906,
+          "name": "SentinelMCP",
+          "fullName": "technosiveuk-ui/SentinelMCP",
+          "url": "https://github.com/technosiveuk-ui/SentinelMCP",
+          "homepage": "https://technosive.co.uk/sentinelmcp",
+          "description": "The Open-Source MCP Firewall & Security Gateway for AI Agents. Inspect, redact, and control tool calls. Proxy mode (universal) and Inline SDK mode (Go).",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-06-12T01:32:39Z",
+          "updatedAt": "2026-06-14T19:54:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 80.68
+        },
+        {
+          "id": 1269395970,
+          "name": "trilane",
+          "fullName": "xyun92/trilane",
+          "url": "https://github.com/xyun92/trilane",
+          "homepage": "https://github.com/xyun92/trilane",
+          "description": "TriLane: lane-orchestrated multi-agent security auditor for authorized gray-box vulnerability hunting. Built with Rust and Tauri.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-06-14T16:58:22Z",
+          "updatedAt": "2026-06-15T04:43:49Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 80.37
+        },
+        {
+          "id": 1269294252,
+          "name": "pbscan",
+          "fullName": "pingback-sh/pbscan",
+          "url": "https://github.com/pingback-sh/pbscan",
+          "homepage": "https://pingback.sh",
+          "description": "Automated blind SSRF scanner with native PingBack.sh OAST correlation, persistent callbacks and exact injection tracking.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 7,
+          "language": "Go",
+          "createdAt": "2026-06-14T14:36:05Z",
+          "updatedAt": "2026-06-15T05:52:23Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 79.98
         },
         {
           "id": 1267361179,
@@ -762,21 +812,21 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 78.05
+          "score": 75.49
         },
         {
-          "id": 1266819906,
-          "name": "SentinelMCP",
-          "fullName": "technosiveuk-ui/SentinelMCP",
-          "url": "https://github.com/technosiveuk-ui/SentinelMCP",
-          "homepage": "https://technosive.co.uk/sentinelmcp",
-          "description": "The Open-Source MCP Firewall & Security Gateway for AI Agents. Inspect, redact, and control tool calls. Proxy mode (universal) and Inline SDK mode (Go).",
-          "stars": 8,
+          "id": 1267931785,
+          "name": "Agent-Gate",
+          "fullName": "sjh9714/Agent-Gate",
+          "url": "https://github.com/sjh9714/Agent-Gate",
+          "homepage": "",
+          "description": "Deterministic CI firewall for AI-generated pull requests",
+          "stars": 6,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-06-12T01:32:39Z",
-          "updatedAt": "2026-06-14T03:43:36Z",
+          "openIssues": 2,
+          "language": "TypeScript",
+          "createdAt": "2026-06-13T01:41:10Z",
+          "updatedAt": "2026-06-14T23:00:30Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -785,35 +835,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 76.24
-        },
-        {
-          "id": 1261935564,
-          "name": "claude-security-skills",
-          "fullName": "NovaCode37/claude-security-skills",
-          "url": "https://github.com/NovaCode37/claude-security-skills",
-          "homepage": "",
-          "description": "Production-ready Claude Code skills for cybersecurity — secret scanning, SAST, prompt-injection testing, HTTP/JWT/dependency auditing. Zero dependencies.",
-          "stars": 8,
-          "forks": 5,
-          "openIssues": 13,
-          "language": "Python",
-          "createdAt": "2026-06-07T11:01:01Z",
-          "updatedAt": "2026-06-08T14:26:17Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.75
+          "score": 71.81
         },
         {
           "id": 1263767274,
@@ -838,7 +862,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.51
+          "score": 68.95
         },
         {
           "id": 1264295409,
@@ -865,35 +889,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 70.24
-        },
-        {
-          "id": 1262947546,
-          "name": "0xrefs.github.io",
-          "fullName": "0xrefs/0xrefs.github.io",
-          "url": "https://github.com/0xrefs/0xrefs.github.io",
-          "homepage": "https://0xrefs.github.io/",
-          "description": "Searchable offensive-security command cheatsheet for OSCP, CPTS, red teaming, enumeration, and privilege escalation.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "JavaScript",
-          "createdAt": "2026-06-08T13:25:42Z",
-          "updatedAt": "2026-06-11T13:40:04Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 68.39
+          "score": 67.87
         }
       ]
     }
