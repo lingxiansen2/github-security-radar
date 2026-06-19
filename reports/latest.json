@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-18T16:43:47.621Z",
+  "generatedAt": "2026-06-19T06:30:00.200Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-15",
+      "createdSince": "2026-06-16",
       "totalCandidates": 24,
       "queryStats": [
         {
@@ -41,64 +41,38 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         }
       ],
       "repositories": [
-        {
-          "id": 1270272670,
-          "name": "AutoCVE",
-          "fullName": "larlarua/AutoCVE",
-          "url": "https://github.com/larlarua/AutoCVE",
-          "homepage": "",
-          "description": "Agent-driven automated CVE discovery platform for source code auditing, vulnerability verification, and report generation.",
-          "stars": 57,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-15T14:50:47Z",
-          "updatedAt": "2026-06-18T16:07:09Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 129.67
-        },
         {
           "id": 1272696562,
           "name": "blue-spec",
@@ -106,12 +80,12 @@
           "url": "https://github.com/wellwelwel/blue-spec",
           "homepage": "https://bluespec.weslley.io",
           "description": "🌊 Blue Spec is a toolkit for Security-Driven Hardening (SDH), a defensive workflow to help AI agents detect what a system does and harden the defenses that matter.",
-          "stars": 42,
+          "stars": 50,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-06-17T21:19:02Z",
-          "updatedAt": "2026-06-18T16:18:43Z",
+          "updatedAt": "2026-06-19T01:36:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -123,7 +97,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 117.26
+          "score": 116.63
         },
         {
           "id": 1271770751,
@@ -132,12 +106,12 @@
           "url": "https://github.com/HankLEE-1/AI-Guardian",
           "homepage": "",
           "description": "基于Agent驱动的网络安全流量监控与分析平台，下一代AI驱动的安全运营协作平台 — 智能告警研判、资产关联、协同处置与自动化报告生成，为护网行动增添一把利器。",
-          "stars": 29,
+          "stars": 30,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-17T02:04:59Z",
-          "updatedAt": "2026-06-18T09:45:55Z",
+          "updatedAt": "2026-06-19T04:10:51Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -148,7 +122,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 116.16
+          "score": 111.68
         },
         {
           "id": 1272565581,
@@ -157,12 +131,12 @@
           "url": "https://github.com/m14r41/PentestingChecklist",
           "homepage": "https://checklist.m14r41.in/",
           "description": "Comprehensive, data-driven security assessment checklists across 23 platforms web, API, mobile, cloud, Active Directory, Kubernetes, LLM, and more. Expandable hierarchy, global search, progress tracking, export.",
-          "stars": 7,
-          "forks": 3,
+          "stars": 8,
+          "forks": 4,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-06-17T18:25:49Z",
-          "updatedAt": "2026-06-18T15:51:44Z",
+          "updatedAt": "2026-06-19T04:58:34Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -174,7 +148,56 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 89.65
+          "score": 88.62
+        },
+        {
+          "id": 1271405350,
+          "name": "vigil365",
+          "fullName": "sameerk27/vigil365",
+          "url": "https://github.com/sameerk27/vigil365",
+          "homepage": "",
+          "description": "Self-hosted Microsoft 365 security operations dashboard — aggregates Defender XDR, Entra ID Protection, Intune, Compliance and more into one place.",
+          "stars": 9,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-06-16T16:20:50Z",
+          "updatedAt": "2026-06-19T04:27:18Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 75.41
+        },
+        {
+          "id": 1271366233,
+          "name": "CVE-Mapper",
+          "fullName": "NeCr00/CVE-Mapper",
+          "url": "https://github.com/NeCr00/CVE-Mapper",
+          "homepage": "",
+          "description": "CVE Finder and Mapper",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-16T15:36:34Z",
+          "updatedAt": "2026-06-18T18:02:45Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 71.21
         },
         {
           "id": 1272080449,
@@ -201,56 +224,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 76.89
-        },
-        {
-          "id": 1271405350,
-          "name": "vigil365",
-          "fullName": "sameerk27/vigil365",
-          "url": "https://github.com/sameerk27/vigil365",
-          "homepage": "",
-          "description": "Self-hosted Microsoft 365 security operations dashboard — aggregates Defender XDR, Entra ID Protection, Intune, Compliance and more into one place.",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-16T16:20:50Z",
-          "updatedAt": "2026-06-18T11:37:51Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 75.15
-        },
-        {
-          "id": 1271366233,
-          "name": "CVE-Mapper",
-          "fullName": "NeCr00/CVE-Mapper",
-          "url": "https://github.com/NeCr00/CVE-Mapper",
-          "homepage": "",
-          "description": "CVE Finder and Mapper",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-16T15:36:34Z",
-          "updatedAt": "2026-06-17T10:33:39Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 73.47
+          "score": 71.03
         },
         {
           "id": 1273181294,
@@ -259,12 +233,12 @@
           "url": "https://github.com/okankurtuluss/llm-sonda",
           "homepage": "",
           "description": "LLM Güvenlik Tarama Aracı",
-          "stars": 3,
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-18T09:26:56Z",
-          "updatedAt": "2026-06-18T13:44:41Z",
+          "updatedAt": "2026-06-18T17:40:45Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -275,7 +249,33 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.38
+          "score": 70.12
+        },
+        {
+          "id": 1271615588,
+          "name": "Kickama",
+          "fullName": "lobster-trap/Kickama",
+          "url": "https://github.com/lobster-trap/Kickama",
+          "homepage": "",
+          "description": "Trade risk monitor, paid bounties for diagnostics, testing, and security hardening.",
+          "stars": 2,
+          "forks": 97,
+          "openIssues": 251,
+          "language": "TypeScript",
+          "createdAt": "2026-06-16T21:01:49Z",
+          "updatedAt": "2026-06-19T04:14:33Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 67.71
         },
         {
           "id": 1272627871,
@@ -284,12 +284,12 @@
           "url": "https://github.com/gigioneggiando/argo",
           "homepage": "",
           "description": "👁️ LLM-native static vulnerability detection. An LLM reads your source like a human auditor, point it at any local folder or repo and get a reviewable vuln report. Auto-enriched prompts, adversarial validation, opt-in fix-verify. Runs on Claude Code / Codex / local OSS. Bug-bounty triage is one mode. Detection-only, read-only.",
-          "stars": 3,
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-17T19:46:11Z",
-          "updatedAt": "2026-06-18T14:45:30Z",
+          "updatedAt": "2026-06-19T05:41:43Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -306,7 +306,59 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 65.04
+          "score": 64.79
+        },
+        {
+          "id": 1271506256,
+          "name": "certificate-of-compromise",
+          "fullName": "thehackersbrain/certificate-of-compromise",
+          "url": "https://github.com/thehackersbrain/certificate-of-compromise",
+          "homepage": "",
+          "description": "SoK/Whitepaper on Offensive Operations against Active Directory Certificate Service",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-16T18:23:03Z",
+          "updatedAt": "2026-06-19T00:54:08Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 64.69
+        },
+        {
+          "id": 1273628819,
+          "name": "cybersynth-ids",
+          "fullName": "b1nd03/cybersynth-ids",
+          "url": "https://github.com/b1nd03/cybersynth-ids",
+          "homepage": "",
+          "description": "AI-based intrusion detection research platform with FastAPI, LightGBM, synthetic network-flow generation, SHAP explainability, and drift monitoring.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-18T17:58:20Z",
+          "updatedAt": "2026-06-18T18:40:17Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 62.07
         },
         {
           "id": 1271677016,
@@ -332,57 +384,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.43
-        },
-        {
-          "id": 1271000393,
-          "name": "AI-ZER0-2-HER0",
-          "fullName": "000x15/AI-ZER0-2-HER0",
-          "url": "https://github.com/000x15/AI-ZER0-2-HER0",
-          "homepage": "",
-          "description": "From zero to hero in two weeks. A structured AI textbook spanning foundations, modern architectures, local inference, and AI red-teaming 2026 edition.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-16T08:37:42Z",
-          "updatedAt": "2026-06-16T12:52:28Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 60.78
-        },
-        {
-          "id": 1272626781,
-          "name": "NimbusPWN-CVE-2022-29799-29800",
-          "fullName": "joshuavanderpoll/NimbusPWN-CVE-2022-29799-29800",
-          "url": "https://github.com/joshuavanderpoll/NimbusPWN-CVE-2022-29799-29800",
-          "homepage": "",
-          "description": "NimbusPwn (CVE-2022-29799/29800) local privilege escalation PoC in C.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-17T19:44:47Z",
-          "updatedAt": "2026-06-18T08:45:49Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 60.22
+          "score": 56.45
         }
       ]
     },
@@ -394,43 +396,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-11",
-      "totalCandidates": 28,
+      "createdSince": "2026-06-12",
+      "totalCandidates": 30,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 7,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1781801079"
+          "rateLimitReset": "1781850653"
         }
       ],
       "repositories": [
@@ -441,12 +443,12 @@
           "url": "https://github.com/larlarua/AutoCVE",
           "homepage": "",
           "description": "Agent-driven automated CVE discovery platform for source code auditing, vulnerability verification, and report generation.",
-          "stars": 57,
-          "forks": 1,
-          "openIssues": 0,
+          "stars": 75,
+          "forks": 4,
+          "openIssues": 3,
           "language": "Python",
           "createdAt": "2026-06-15T14:50:47Z",
-          "updatedAt": "2026-06-18T16:07:09Z",
+          "updatedAt": "2026-06-19T05:16:38Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -458,7 +460,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 146.85
+          "score": 158.74
         },
         {
           "id": 1267972630,
@@ -467,12 +469,12 @@
           "url": "https://github.com/manticore-projects/aurscan",
           "homepage": "https://manticore-projects.com",
           "description": "Automatically scan AUR packages for malware before installing using Claude LLM",
-          "stars": 75,
+          "stars": 79,
           "forks": 7,
-          "openIssues": 6,
+          "openIssues": 7,
           "language": "Go",
           "createdAt": "2026-06-13T02:59:22Z",
-          "updatedAt": "2026-06-18T16:31:57Z",
+          "updatedAt": "2026-06-19T00:10:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -484,32 +486,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 130.1
-        },
-        {
-          "id": 1271770751,
-          "name": "AI-Guardian",
-          "fullName": "HankLEE-1/AI-Guardian",
-          "url": "https://github.com/HankLEE-1/AI-Guardian",
-          "homepage": "",
-          "description": "基于Agent驱动的网络安全流量监控与分析平台，下一代AI驱动的安全运营协作平台 — 智能告警研判、资产关联、协同处置与自动化报告生成，为护网行动增添一把利器。",
-          "stars": 29,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-17T02:04:59Z",
-          "updatedAt": "2026-06-18T09:45:55Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 124.78
+          "score": 129.29
         },
         {
           "id": 1272696562,
@@ -518,12 +495,12 @@
           "url": "https://github.com/wellwelwel/blue-spec",
           "homepage": "https://bluespec.weslley.io",
           "description": "🌊 Blue Spec is a toolkit for Security-Driven Hardening (SDH), a defensive workflow to help AI agents detect what a system does and harden the defenses that matter.",
-          "stars": 42,
+          "stars": 50,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-06-17T21:19:02Z",
-          "updatedAt": "2026-06-18T16:18:43Z",
+          "updatedAt": "2026-06-19T01:36:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -535,7 +512,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 121.27
+          "score": 123.47
+        },
+        {
+          "id": 1271770751,
+          "name": "AI-Guardian",
+          "fullName": "HankLEE-1/AI-Guardian",
+          "url": "https://github.com/HankLEE-1/AI-Guardian",
+          "homepage": "",
+          "description": "基于Agent驱动的网络安全流量监控与分析平台，下一代AI驱动的安全运营协作平台 — 智能告警研判、资产关联、协同处置与自动化报告生成，为护网行动增添一把利器。",
+          "stars": 30,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-17T02:04:59Z",
+          "updatedAt": "2026-06-19T04:10:51Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 123.37
         },
         {
           "id": 1269200194,
@@ -561,7 +563,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 119.02
+          "score": 116.88
+        },
+        {
+          "id": 1267767489,
+          "name": "ressrf",
+          "fullName": "R0X4R/ressrf",
+          "url": "https://github.com/R0X4R/ressrf",
+          "homepage": "",
+          "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
+          "stars": 25,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-06-12T21:00:34Z",
+          "updatedAt": "2026-06-19T05:31:08Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 114.6
         },
         {
           "id": 1267761185,
@@ -585,57 +612,33 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 111.96
+          "score": 109.45
         },
         {
-          "id": 1267767489,
-          "name": "ressrf",
-          "fullName": "R0X4R/ressrf",
-          "url": "https://github.com/R0X4R/ressrf",
-          "homepage": "",
-          "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
-          "stars": 21,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-06-12T21:00:34Z",
-          "updatedAt": "2026-06-18T14:56:19Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 110.68
-        },
-        {
-          "id": 1265865407,
-          "name": "agent-sweep",
-          "fullName": "Ishannaik/agent-sweep",
-          "url": "https://github.com/Ishannaik/agent-sweep",
-          "homepage": "",
-          "description": "Find and redact secrets in AI coding agent histories (Claude Code, and more).",
-          "stars": 38,
+          "id": 1272565581,
+          "name": "PentestingChecklist",
+          "fullName": "m14r41/PentestingChecklist",
+          "url": "https://github.com/m14r41/PentestingChecklist",
+          "homepage": "https://checklist.m14r41.in/",
+          "description": "Comprehensive, data-driven security assessment checklists across 23 platforms web, API, mobile, cloud, Active Directory, Kubernetes, LLM, and more. Expandable hierarchy, global search, progress tracking, export.",
+          "stars": 8,
           "forks": 4,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-11T06:27:24Z",
-          "updatedAt": "2026-06-16T21:21:44Z",
+          "language": "TypeScript",
+          "createdAt": "2026-06-17T18:25:49Z",
+          "updatedAt": "2026-06-19T04:58:34Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 105.08
+          "score": 96.66
         },
         {
           "id": 1267223777,
@@ -660,21 +663,21 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 96.74
+          "score": 94.44
         },
         {
-          "id": 1272565581,
-          "name": "PentestingChecklist",
-          "fullName": "m14r41/PentestingChecklist",
-          "url": "https://github.com/m14r41/PentestingChecklist",
-          "homepage": "https://checklist.m14r41.in/",
-          "description": "Comprehensive, data-driven security assessment checklists across 23 platforms web, API, mobile, cloud, Active Directory, Kubernetes, LLM, and more. Expandable hierarchy, global search, progress tracking, export.",
-          "stars": 7,
-          "forks": 3,
+          "id": 1271405350,
+          "name": "vigil365",
+          "fullName": "sameerk27/vigil365",
+          "url": "https://github.com/sameerk27/vigil365",
+          "homepage": "",
+          "description": "Self-hosted Microsoft 365 security operations dashboard — aggregates Defender XDR, Entra ID Protection, Intune, Compliance and more into one place.",
+          "stars": 9,
+          "forks": 1,
           "openIssues": 0,
           "language": "TypeScript",
-          "createdAt": "2026-06-17T18:25:49Z",
-          "updatedAt": "2026-06-18T15:51:44Z",
+          "createdAt": "2026-06-16T16:20:50Z",
+          "updatedAt": "2026-06-19T04:27:18Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -682,51 +685,23 @@
             1.08
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 94.62
-        },
-        {
-          "id": 1268958229,
-          "name": "OpenSecurity",
-          "fullName": "zylc369/OpenSecurity",
-          "url": "https://github.com/zylc369/OpenSecurity",
-          "homepage": "",
-          "description": "AI 驱动的多领域安全分析 Agent 平台 —— 让 LLM 端到端完成安全分析",
-          "stars": 13,
-          "forks": 4,
-          "openIssues": 6,
-          "language": "Python",
-          "createdAt": "2026-06-14T06:09:27Z",
-          "updatedAt": "2026-06-18T07:25:34Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 89.12
+          "score": 89.26
         },
         {
-          "id": 1265629109,
-          "name": "nuke-on-rails",
-          "fullName": "nuke-on-rails/nuke-on-rails",
-          "url": "https://github.com/nuke-on-rails/nuke-on-rails",
-          "homepage": "",
-          "description": "The Rails audit skill for AI coding agents, ranked by blast radius. 🚂☢️",
-          "stars": 27,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-11T00:21:29Z",
-          "updatedAt": "2026-06-18T10:22:17Z",
+          "id": 1270177900,
+          "name": "autoguardrails",
+          "fullName": "SantanderAI/autoguardrails",
+          "url": "https://github.com/SantanderAI/autoguardrails",
+          "homepage": "https://github.com/SantanderAI",
+          "description": "Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
+          "stars": 12,
+          "forks": 3,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-06-15T13:10:50Z",
+          "updatedAt": "2026-06-19T02:35:48Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -737,31 +712,33 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 87.44
+          "score": 88.71
         },
         {
-          "id": 1271405350,
-          "name": "vigil365",
-          "fullName": "sameerk27/vigil365",
-          "url": "https://github.com/sameerk27/vigil365",
+          "id": 1268958229,
+          "name": "OpenSecurity",
+          "fullName": "zylc369/OpenSecurity",
+          "url": "https://github.com/zylc369/OpenSecurity",
           "homepage": "",
-          "description": "Self-hosted Microsoft 365 security operations dashboard — aggregates Defender XDR, Entra ID Protection, Intune, Compliance and more into one place.",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-16T16:20:50Z",
-          "updatedAt": "2026-06-18T11:37:51Z",
+          "description": "AI 驱动的多领域安全分析 Agent 平台 —— 让 LLM 端到端完成安全分析",
+          "stars": 14,
+          "forks": 4,
+          "openIssues": 6,
+          "language": "Python",
+          "createdAt": "2026-06-14T06:09:27Z",
+          "updatedAt": "2026-06-19T01:38:14Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 85.94
+          "score": 88.66
         },
         {
           "id": 1271366233,
@@ -770,12 +747,12 @@
           "url": "https://github.com/NeCr00/CVE-Mapper",
           "homepage": "",
           "description": "CVE Finder and Mapper",
-          "stars": 6,
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-16T15:36:34Z",
-          "updatedAt": "2026-06-17T10:33:39Z",
+          "updatedAt": "2026-06-18T18:02:45Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -786,7 +763,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 85.43
+          "score": 86.52
         },
         {
           "id": 1272080449,
@@ -813,7 +790,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 84.56
+          "score": 82.04
         },
         {
           "id": 1269350729,
@@ -837,7 +814,33 @@
           "tags": [
             "网络安全"
           ],
-          "score": 83.47
+          "score": 81.16
+        },
+        {
+          "id": 1271506256,
+          "name": "certificate-of-compromise",
+          "fullName": "thehackersbrain/certificate-of-compromise",
+          "url": "https://github.com/thehackersbrain/certificate-of-compromise",
+          "homepage": "",
+          "description": "SoK/Whitepaper on Offensive Operations against Active Directory Certificate Service",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-16T18:23:03Z",
+          "updatedAt": "2026-06-19T00:54:08Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 79.33
         },
         {
           "id": 1271000393,
@@ -862,7 +865,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.28
+          "score": 70.98
         },
         {
           "id": 1269395970,
@@ -888,7 +891,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 72.82
+          "score": 70.31
         }
       ]
     }
