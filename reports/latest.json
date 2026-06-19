@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-19T06:30:00.200Z",
+  "generatedAt": "2026-06-19T16:15:32.304Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -41,38 +41,64 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         }
       ],
       "repositories": [
+        {
+          "id": 1272565581,
+          "name": "PentestingChecklist",
+          "fullName": "m14r41/PentestingChecklist",
+          "url": "https://github.com/m14r41/PentestingChecklist",
+          "homepage": "https://checklist.m14r41.in/",
+          "description": "Comprehensive, data-driven security assessment checklists across 23 platforms web, API, mobile, cloud, Active Directory, Kubernetes, LLM, and more. Expandable hierarchy, global search, progress tracking, export.",
+          "stars": 24,
+          "forks": 8,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-06-17T18:25:49Z",
+          "updatedAt": "2026-06-19T15:14:17Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 115.28
+        },
         {
           "id": 1272696562,
           "name": "blue-spec",
@@ -80,12 +106,12 @@
           "url": "https://github.com/wellwelwel/blue-spec",
           "homepage": "https://bluespec.weslley.io",
           "description": "🌊 Blue Spec is a toolkit for Security-Driven Hardening (SDH), a defensive workflow to help AI agents detect what a system does and harden the defenses that matter.",
-          "stars": 50,
+          "stars": 54,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-06-17T21:19:02Z",
-          "updatedAt": "2026-06-19T01:36:59Z",
+          "updatedAt": "2026-06-19T16:11:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,7 +123,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 116.63
+          "score": 115.03
         },
         {
           "id": 1271770751,
@@ -122,33 +148,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 111.68
-        },
-        {
-          "id": 1272565581,
-          "name": "PentestingChecklist",
-          "fullName": "m14r41/PentestingChecklist",
-          "url": "https://github.com/m14r41/PentestingChecklist",
-          "homepage": "https://checklist.m14r41.in/",
-          "description": "Comprehensive, data-driven security assessment checklists across 23 platforms web, API, mobile, cloud, Active Directory, Kubernetes, LLM, and more. Expandable hierarchy, global search, progress tracking, export.",
-          "stars": 8,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-17T18:25:49Z",
-          "updatedAt": "2026-06-19T04:58:34Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 88.62
+          "score": 107.88
         },
         {
           "id": 1271405350,
@@ -172,7 +172,33 @@
           "tags": [
             "网络安全"
           ],
-          "score": 75.41
+          "score": 71.61
+        },
+        {
+          "id": 1271506256,
+          "name": "certificate-of-compromise",
+          "fullName": "thehackersbrain/certificate-of-compromise",
+          "url": "https://github.com/thehackersbrain/certificate-of-compromise",
+          "homepage": "",
+          "description": "SoK/Whitepaper on Offensive Operations against Active Directory Certificate Service",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-16T18:23:03Z",
+          "updatedAt": "2026-06-19T15:48:58Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 71.46
         },
         {
           "id": 1271366233,
@@ -197,7 +223,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 71.21
+          "score": 67.33
         },
         {
           "id": 1272080449,
@@ -224,7 +250,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 71.03
+          "score": 66.87
         },
         {
           "id": 1273181294,
@@ -249,33 +275,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.12
-        },
-        {
-          "id": 1271615588,
-          "name": "Kickama",
-          "fullName": "lobster-trap/Kickama",
-          "url": "https://github.com/lobster-trap/Kickama",
-          "homepage": "",
-          "description": "Trade risk monitor, paid bounties for diagnostics, testing, and security hardening.",
-          "stars": 2,
-          "forks": 97,
-          "openIssues": 251,
-          "language": "TypeScript",
-          "createdAt": "2026-06-16T21:01:49Z",
-          "updatedAt": "2026-06-19T04:14:33Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 67.71
+          "score": 66.32
         },
         {
           "id": 1272627871,
@@ -284,12 +284,12 @@
           "url": "https://github.com/gigioneggiando/argo",
           "homepage": "",
           "description": "👁️ LLM-native static vulnerability detection. An LLM reads your source like a human auditor, point it at any local folder or repo and get a reviewable vuln report. Auto-enriched prompts, adversarial validation, opt-in fix-verify. Runs on Claude Code / Codex / local OSS. Bug-bounty triage is one mode. Detection-only, read-only.",
-          "stars": 4,
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-17T19:46:11Z",
-          "updatedAt": "2026-06-19T05:41:43Z",
+          "updatedAt": "2026-06-19T09:04:25Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -306,47 +306,21 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 64.79
+          "score": 65.3
         },
         {
-          "id": 1271506256,
-          "name": "certificate-of-compromise",
-          "fullName": "thehackersbrain/certificate-of-compromise",
-          "url": "https://github.com/thehackersbrain/certificate-of-compromise",
+          "id": 1274228257,
+          "name": "Alice-AI-Prompt-Jailbreak",
+          "fullName": "1nn0k3sh4/Alice-AI-Prompt-Jailbreak",
+          "url": "https://github.com/1nn0k3sh4/Alice-AI-Prompt-Jailbreak",
           "homepage": "",
-          "description": "SoK/Whitepaper on Offensive Operations against Active Directory Certificate Service",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-16T18:23:03Z",
-          "updatedAt": "2026-06-19T00:54:08Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 64.69
-        },
-        {
-          "id": 1273628819,
-          "name": "cybersynth-ids",
-          "fullName": "b1nd03/cybersynth-ids",
-          "url": "https://github.com/b1nd03/cybersynth-ids",
-          "homepage": "",
-          "description": "AI-based intrusion detection research platform with FastAPI, LightGBM, synthetic network-flow generation, SHAP explainability, and drift monitoring.",
+          "description": "Cross-Vendor AI Safety Validation Report GigaChat Prompt Jailbreak — Transferred to Yandex Alice AI",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-18T17:58:20Z",
-          "updatedAt": "2026-06-18T18:40:17Z",
+          "language": "Unknown",
+          "createdAt": "2026-06-19T09:54:08Z",
+          "updatedAt": "2026-06-19T16:03:05Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -356,35 +330,65 @@
           "tags": [
             "网络安全",
             "AI 自动化 / Skill",
-            "防守 / 蓝队"
+            "逆向 / 恶意代码"
           ],
-          "score": 62.07
+          "score": 64.48
         },
         {
-          "id": 1271677016,
-          "name": "tutor-buddy",
-          "fullName": "acm-rgb/tutor-buddy",
-          "url": "https://github.com/acm-rgb/tutor-buddy",
-          "homepage": "",
-          "description": "A Claude Code skill that guides vibecoders and beginners from raw idea to a secured, GitHub-ready project,  with real security checks, no false confidence, and no silent scope creep.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 4,
-          "language": "Unknown",
-          "createdAt": "2026-06-16T22:54:31Z",
-          "updatedAt": "2026-06-18T12:23:16Z",
+          "id": 1273534224,
+          "name": "voltmart-pentest-lab",
+          "fullName": "Baymax-armed/voltmart-pentest-lab",
+          "url": "https://github.com/Baymax-armed/voltmart-pentest-lab",
+          "homepage": "https://github.com/Baymax-armed/voltmart-pentest-lab",
+          "description": "Self-hosted Dockerized pentest lab: four intentionally-vulnerable web apps (store, bank, finance, SaaS) with 270+ vulnerabilities across the OWASP Top 10 + LLM - SQLi, JWT, GraphQL, SSRF, SAML/XXE, OAuth, object injection, request smuggling, weak TLS, business logic. A modern DVWA / Juice Shop alternative.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PHP",
+          "createdAt": "2026-06-18T16:05:59Z",
+          "updatedAt": "2026-06-19T15:58:26Z",
           "matchedProfiles": [
-            "通用安全"
+            "通用安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1
+            1,
+            1.18
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
           ],
-          "score": 56.45
+          "score": 62.87
+        },
+        {
+          "id": 1271088416,
+          "name": "L7-Resilience-Scanner",
+          "fullName": "mr-coder20/L7-Resilience-Scanner",
+          "url": "https://github.com/mr-coder20/L7-Resilience-Scanner",
+          "homepage": "",
+          "description": "Real-time Layer 7 DDoS detection and HTTP traffic analysis tool designed to identify bot activity, anomalous requests, and application-layer attacks with high accuracy.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-16T10:19:45Z",
+          "updatedAt": "2026-06-19T13:45:59Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 54.9
         }
       ]
     },
@@ -404,35 +408,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 7,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1781850653"
+          "rateLimitReset": "1781885785"
         }
       ],
       "repositories": [
@@ -443,12 +447,12 @@
           "url": "https://github.com/larlarua/AutoCVE",
           "homepage": "",
           "description": "Agent-driven automated CVE discovery platform for source code auditing, vulnerability verification, and report generation.",
-          "stars": 75,
+          "stars": 109,
           "forks": 4,
           "openIssues": 3,
           "language": "Python",
           "createdAt": "2026-06-15T14:50:47Z",
-          "updatedAt": "2026-06-19T05:16:38Z",
+          "updatedAt": "2026-06-19T12:59:49Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -460,7 +464,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 158.74
+          "score": 168.16
         },
         {
           "id": 1267972630,
@@ -469,12 +473,12 @@
           "url": "https://github.com/manticore-projects/aurscan",
           "homepage": "https://manticore-projects.com",
           "description": "Automatically scan AUR packages for malware before installing using Claude LLM",
-          "stars": 79,
+          "stars": 81,
           "forks": 7,
           "openIssues": 7,
           "language": "Go",
           "createdAt": "2026-06-13T02:59:22Z",
-          "updatedAt": "2026-06-19T00:10:38Z",
+          "updatedAt": "2026-06-19T13:51:12Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -486,7 +490,33 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 129.29
+          "score": 128.41
+        },
+        {
+          "id": 1272565581,
+          "name": "PentestingChecklist",
+          "fullName": "m14r41/PentestingChecklist",
+          "url": "https://github.com/m14r41/PentestingChecklist",
+          "homepage": "https://checklist.m14r41.in/",
+          "description": "Comprehensive, data-driven security assessment checklists across 23 platforms web, API, mobile, cloud, Active Directory, Kubernetes, LLM, and more. Expandable hierarchy, global search, progress tracking, export.",
+          "stars": 24,
+          "forks": 8,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-06-17T18:25:49Z",
+          "updatedAt": "2026-06-19T15:14:17Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 125.49
         },
         {
           "id": 1272696562,
@@ -495,12 +525,12 @@
           "url": "https://github.com/wellwelwel/blue-spec",
           "homepage": "https://bluespec.weslley.io",
           "description": "🌊 Blue Spec is a toolkit for Security-Driven Hardening (SDH), a defensive workflow to help AI agents detect what a system does and harden the defenses that matter.",
-          "stars": 50,
+          "stars": 54,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-06-17T21:19:02Z",
-          "updatedAt": "2026-06-19T01:36:59Z",
+          "updatedAt": "2026-06-19T16:15:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -512,7 +542,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 123.47
+          "score": 123.89
         },
         {
           "id": 1271770751,
@@ -537,7 +567,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 123.37
+          "score": 121.73
         },
         {
           "id": 1269200194,
@@ -548,10 +578,10 @@
           "description": "Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the worm scans - the instant one is read, you know the box might be breached. Free and built in the open by Jesta.",
           "stars": 54,
           "forks": 1,
-          "openIssues": 50,
+          "openIssues": 42,
           "language": "Python",
           "createdAt": "2026-06-14T12:28:02Z",
-          "updatedAt": "2026-06-18T16:00:46Z",
+          "updatedAt": "2026-06-19T15:22:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -563,7 +593,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 116.88
+          "score": 115.37
         },
         {
           "id": 1267767489,
@@ -572,12 +602,12 @@
           "url": "https://github.com/R0X4R/ressrf",
           "homepage": "",
           "description": "An advanced Out-of-Band and In-Band SSRF fuzzing scanner with dynamic request tracking.",
-          "stars": 25,
+          "stars": 26,
           "forks": 4,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-06-12T21:00:34Z",
-          "updatedAt": "2026-06-19T05:31:08Z",
+          "updatedAt": "2026-06-19T06:44:31Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -588,7 +618,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 114.6
+          "score": 113.94
         },
         {
           "id": 1267761185,
@@ -612,33 +642,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 109.45
-        },
-        {
-          "id": 1272565581,
-          "name": "PentestingChecklist",
-          "fullName": "m14r41/PentestingChecklist",
-          "url": "https://github.com/m14r41/PentestingChecklist",
-          "homepage": "https://checklist.m14r41.in/",
-          "description": "Comprehensive, data-driven security assessment checklists across 23 platforms web, API, mobile, cloud, Active Directory, Kubernetes, LLM, and more. Expandable hierarchy, global search, progress tracking, export.",
-          "stars": 8,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-17T18:25:49Z",
-          "updatedAt": "2026-06-19T04:58:34Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 96.66
+          "score": 107.67
         },
         {
           "id": 1267223777,
@@ -663,7 +667,59 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.44
+          "score": 93.75
+        },
+        {
+          "id": 1268958229,
+          "name": "OpenSecurity",
+          "fullName": "zylc369/OpenSecurity",
+          "url": "https://github.com/zylc369/OpenSecurity",
+          "homepage": "",
+          "description": "AI 驱动的多领域安全分析 Agent 平台 —— 让 LLM 端到端完成安全分析",
+          "stars": 15,
+          "forks": 4,
+          "openIssues": 6,
+          "language": "Python",
+          "createdAt": "2026-06-14T06:09:27Z",
+          "updatedAt": "2026-06-19T10:00:51Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 88.73
+        },
+        {
+          "id": 1271506256,
+          "name": "certificate-of-compromise",
+          "fullName": "thehackersbrain/certificate-of-compromise",
+          "url": "https://github.com/thehackersbrain/certificate-of-compromise",
+          "homepage": "",
+          "description": "SoK/Whitepaper on Offensive Operations against Active Directory Certificate Service",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-16T18:23:03Z",
+          "updatedAt": "2026-06-19T15:48:58Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 88.48
         },
         {
           "id": 1271405350,
@@ -687,7 +743,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 89.26
+          "score": 87.63
         },
         {
           "id": 1270177900,
@@ -712,33 +768,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 88.71
-        },
-        {
-          "id": 1268958229,
-          "name": "OpenSecurity",
-          "fullName": "zylc369/OpenSecurity",
-          "url": "https://github.com/zylc369/OpenSecurity",
-          "homepage": "",
-          "description": "AI 驱动的多领域安全分析 Agent 平台 —— 让 LLM 端到端完成安全分析",
-          "stars": 14,
-          "forks": 4,
-          "openIssues": 6,
-          "language": "Python",
-          "createdAt": "2026-06-14T06:09:27Z",
-          "updatedAt": "2026-06-19T01:38:14Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 88.66
+          "score": 87.2
         },
         {
           "id": 1271366233,
@@ -763,7 +793,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 86.52
+          "score": 84.74
         },
         {
           "id": 1272080449,
@@ -790,7 +820,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 82.04
+          "score": 80.26
         },
         {
           "id": 1269350729,
@@ -814,33 +844,35 @@
           "tags": [
             "网络安全"
           ],
-          "score": 81.16
+          "score": 79.53
         },
         {
-          "id": 1271506256,
-          "name": "certificate-of-compromise",
-          "fullName": "thehackersbrain/certificate-of-compromise",
-          "url": "https://github.com/thehackersbrain/certificate-of-compromise",
+          "id": 1272627871,
+          "name": "argo",
+          "fullName": "gigioneggiando/argo",
+          "url": "https://github.com/gigioneggiando/argo",
           "homepage": "",
-          "description": "SoK/Whitepaper on Offensive Operations against Active Directory Certificate Service",
+          "description": "👁️ LLM-native static vulnerability detection. An LLM reads your source like a human auditor, point it at any local folder or repo and get a reviewable vuln report. Auto-enriched prompts, adversarial validation, opt-in fix-verify. Runs on Claude Code / Codex / local OSS. Bug-bounty triage is one mode. Detection-only, read-only.",
           "stars": 5,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-16T18:23:03Z",
-          "updatedAt": "2026-06-19T00:54:08Z",
+          "language": "Python",
+          "createdAt": "2026-06-17T19:46:11Z",
+          "updatedAt": "2026-06-19T09:04:25Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1.18
+            1.08
           ],
           "tags": [
-            "渗透 / 红队",
+            "网络安全",
             "AI 自动化 / Skill",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 79.33
+          "score": 75.22
         },
         {
           "id": 1271000393,
@@ -865,33 +897,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.98
-        },
-        {
-          "id": 1269395970,
-          "name": "trilane",
-          "fullName": "xyun92/trilane",
-          "url": "https://github.com/xyun92/trilane",
-          "homepage": "https://github.com/xyun92/trilane",
-          "description": "TriLane: autonomous AI pentester and multi-agent security auditor for authorized gray-box testing of web apps and APIs. Built with Rust and Tauri.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-06-14T16:58:22Z",
-          "updatedAt": "2026-06-16T03:13:23Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 70.31
+          "score": 69.35
         }
       ]
     }
