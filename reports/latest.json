@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-22T17:52:55.198Z",
+  "generatedAt": "2026-06-23T05:13:51.565Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,46 +33,146 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-19",
-      "totalCandidates": 22,
+      "createdSince": "2026-06-20",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 0,
+          "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         }
       ],
       "repositories": [
+        {
+          "id": 1277555553,
+          "name": "Vipre-Advanced-Security-2026",
+          "fullName": "talonsorcererneedle/Vipre-Advanced-Security-2026",
+          "url": "https://github.com/talonsorcererneedle/Vipre-Advanced-Security-2026",
+          "homepage": "",
+          "description": "vipre advanced security download — VIPRE Advanced Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T02:01:05Z",
+          "updatedAt": "2026-06-23T03:24:42Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 91.45
+        },
+        {
+          "id": 1277536251,
+          "name": "G-Data-Total-Security-2026",
+          "fullName": "VirtualVerse64/G-Data-Total-Security-2026",
+          "url": "https://github.com/VirtualVerse64/G-Data-Total-Security-2026",
+          "homepage": "",
+          "description": "g data total security download — G Data Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T01:31:35Z",
+          "updatedAt": "2026-06-23T03:30:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 86.93
+        },
+        {
+          "id": 1277535043,
+          "name": "Emsisoft-Anti-Malware-2026",
+          "fullName": "Codeoeoutfit/Emsisoft-Anti-Malware-2026",
+          "url": "https://github.com/Codeoeoutfit/Emsisoft-Anti-Malware-2026",
+          "homepage": "",
+          "description": "emsisoft anti malware download — Emsisoft Anti-Malware for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T01:29:37Z",
+          "updatedAt": "2026-06-23T03:22:32Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 86.92
+        },
+        {
+          "id": 1276779222,
+          "name": "CVE-2026-48908-PoC",
+          "fullName": "papageo75/CVE-2026-48908-PoC",
+          "url": "https://github.com/papageo75/CVE-2026-48908-PoC",
+          "homepage": "",
+          "description": "Unauthenticated RCE PoC for CVE-2026-48908 — SP Page Builder for Joomla (≤ 6.6.1): arbitrary file upload via asset.uploadCustomIcon. Self-cleaning, token-guarded. Authorized testing only.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-22T09:31:27Z",
+          "updatedAt": "2026-06-23T04:09:46Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 86
+        },
         {
           "id": 1276886015,
           "name": "SindriKit",
@@ -80,12 +180,12 @@
           "url": "https://github.com/youssefnoob003/SindriKit",
           "homepage": "",
           "description": "A foundational C library for building operationally credible offensive capabilities",
-          "stars": 4,
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-06-22T11:37:24Z",
-          "updatedAt": "2026-06-22T17:14:34Z",
+          "updatedAt": "2026-06-23T01:54:39Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -96,7 +196,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 75.89
+          "score": 85.79
         },
         {
           "id": 1274990328,
@@ -121,7 +221,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 69.21
+          "score": 64.78
         },
         {
           "id": 1276031457,
@@ -146,58 +246,35 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 68.47
+          "score": 64.37
         },
         {
-          "id": 1274713100,
-          "name": "PortX",
-          "fullName": "mr-coder20/PortX",
-          "url": "https://github.com/mr-coder20/PortX",
-          "homepage": "",
-          "description": "\"A modern, high-performance, and multi-platform network security toolkit built with Kotlin Multiplatform and Compose.\"",
-          "stars": 7,
+          "id": 1276724114,
+          "name": "net_sentinel_shield",
+          "fullName": "AkhrorKhasanov/net_sentinel_shield",
+          "url": "https://github.com/AkhrorKhasanov/net_sentinel_shield",
+          "homepage": "https://softwares.uz/",
+          "description": "NetSentinel Shield: A high-performance, Rust-based security tool for system hardening. It automates domain blocking at the system level using the hosts file to prevent access to malicious websites. Features include easy configuration, real-time protection, and quick restoration. Ideal for developers and system admins focused on proactive defense.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Kotlin",
-          "createdAt": "2026-06-19T20:10:31Z",
-          "updatedAt": "2026-06-22T11:36:08Z",
+          "language": "Rust",
+          "createdAt": "2026-06-22T08:31:11Z",
+          "updatedAt": "2026-06-22T18:54:48Z",
           "matchedProfiles": [
             "网络安全",
-            "渗透 / 红队"
+            "防守 / 蓝队"
           ],
           "profileWeights": [
             1.08,
-            1.18
+            1.12
           ],
           "tags": [
             "网络安全",
-            "渗透 / 红队"
+            "防守 / 蓝队",
+            "AI 自动化 / Skill"
           ],
-          "score": 68.31
-        },
-        {
-          "id": 1274717094,
-          "name": "port_scanner",
-          "fullName": "AkhrorKhasanov/port_scanner",
-          "url": "https://github.com/AkhrorKhasanov/port_scanner",
-          "homepage": "",
-          "description": "A high-performance, multi-threaded CLI port scanner built in Rust. It features fast TCP scanning, banner grabbing, configurable timeouts, and rate limiting. Designed for network security auditing and system administration, it provides an efficient and lightweight tool for rapid infrastructure discovery.",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Rust",
-          "createdAt": "2026-06-19T20:17:03Z",
-          "updatedAt": "2026-06-22T15:56:38Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 66.88
+          "score": 61.06
         },
         {
           "id": 1276436069,
@@ -223,7 +300,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.81
+          "score": 57.71
         },
         {
           "id": 1275497298,
@@ -231,13 +308,13 @@
           "fullName": "douglasmun/aws-cdr-gateway",
           "url": "https://github.com/douglasmun/aws-cdr-gateway",
           "homepage": "",
-          "description": "Serverless AWS Content Disarmament and Reconstruction (CDR) pipeline for S3 — strips active/executable content from Office, PDF, and image uploads",
+          "description": "Serverless AWS Content Disarmament and Reconstruction (CDR) pipeline for S3 — plus a local FastAPI service over the same engine. Strips active/executable content from Office, PDF, and image uploads.",
           "stars": 3,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-20T19:10:41Z",
-          "updatedAt": "2026-06-22T17:46:33Z",
+          "updatedAt": "2026-06-22T21:56:29Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -251,58 +328,31 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 59.32
+          "score": 54.9
         },
         {
-          "id": 1276049109,
-          "name": "securevibe",
-          "fullName": "ShieldNet-360/securevibe",
-          "url": "https://github.com/ShieldNet-360/securevibe",
-          "homepage": "https://shieldnet-360.github.io/securevibe/",
-          "description": "SecureVibe — prevention-first security for AI-written code. Signed SKILL.md knowledge that makes AI coding assistants write secure code at generation time, plus a deterministic CI gate. Offline · keyless · Ed25519-signed. By ShieldNet360.",
+          "id": 1275722919,
+          "name": "scopex",
+          "fullName": "ganeshkumar-2005/scopex",
+          "url": "https://github.com/ganeshkumar-2005/scopex",
+          "homepage": "",
+          "description": "Python-native VAPT toolkit — 14 scanners, Nessus-style plugins, OWASP/PCI-DSS compliance, PDF reports",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-06-21T13:31:41Z",
-          "updatedAt": "2026-06-22T16:14:41Z",
+          "language": "Python",
+          "createdAt": "2026-06-21T04:00:30Z",
+          "updatedAt": "2026-06-23T04:59:37Z",
           "matchedProfiles": [
-            "通用安全"
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1
+            1.18
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
+            "渗透 / 红队"
           ],
-          "score": 51.76
-        },
-        {
-          "id": 1274746027,
-          "name": "PIN-Not-Working-Windows-11-Fix",
-          "fullName": "mortarmasonfury10/PIN-Not-Working-Windows-11-Fix",
-          "url": "https://github.com/mortarmasonfury10/PIN-Not-Working-Windows-11-Fix",
-          "homepage": "",
-          "description": "pin not working windows 11 fix — PIN Not Working Fix for Windows 11 & 10. Direct repair download and step-by-step fix guide.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-19T21:06:57Z",
-          "updatedAt": "2026-06-19T23:16:39Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 51.7
+          "score": 52.19
         },
         {
           "id": 1275501203,
@@ -311,12 +361,12 @@
           "url": "https://github.com/SyedShaheerHussain/File-Type-Identifier_V1_GUI_Python",
           "homepage": "",
           "description": " Identifies real file types via binary signatures (Magic Numbers) to uncover hidden extensions, detect masqueraded malware, and mitigate phishing vectors.",
-          "stars": 2,
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-20T19:18:11Z",
-          "updatedAt": "2026-06-21T18:42:36Z",
+          "updatedAt": "2026-06-22T23:24:58Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -329,57 +379,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 48.79
-        },
-        {
-          "id": 1275644440,
-          "name": "addkey",
-          "fullName": "GYact/addkey",
-          "url": "https://github.com/GYact/addkey",
-          "homepage": "",
-          "description": "Hand API keys to your AI coding assistant without pasting them into the chat. Hidden-input dialog -> .env + encrypted .env.enc (SOPS + age). Apache-2.0.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-06-21T01:00:44Z",
-          "updatedAt": "2026-06-22T02:34:10Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 47.24
-        },
-        {
-          "id": 1275003422,
-          "name": "jwt-base64-decoder-mcp",
-          "fullName": "vinkius-labs/jwt-base64-decoder-mcp",
-          "url": "https://github.com/vinkius-labs/jwt-base64-decoder-mcp",
-          "homepage": "https://vinkius.com/mcp/jwt-base64-decoder",
-          "description": "Vinkius Edge high-performance Model Context Protocol (MCP) server for decoding JWT tokens and Base64 strings.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-20T06:10:08Z",
-          "updatedAt": "2026-06-20T07:09:41Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 46.23
+          "score": 50.63
         }
       ]
     },
@@ -391,72 +391,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-15",
-      "totalCandidates": 27,
+      "createdSince": "2026-06-16",
+      "totalCandidates": 29,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 9,
+          "fetched": 10,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1782150827"
+          "rateLimitReset": "1782191684"
         }
       ],
       "repositories": [
-        {
-          "id": 1270272670,
-          "name": "AutoCVE",
-          "fullName": "larlarua/AutoCVE",
-          "url": "https://github.com/larlarua/AutoCVE",
-          "homepage": "",
-          "description": "Agent-driven automated CVE discovery platform for source code auditing, vulnerability verification, and report generation.",
-          "stars": 221,
-          "forks": 7,
-          "openIssues": 4,
-          "language": "Python",
-          "createdAt": "2026-06-15T14:50:47Z",
-          "updatedAt": "2026-06-22T16:20:29Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 179.85
-        },
         {
           "id": 1271405350,
           "name": "vigil365",
@@ -464,12 +438,12 @@
           "url": "https://github.com/sameerk27/vigil365",
           "homepage": "",
           "description": "Self-hosted Microsoft 365 security operations dashboard — aggregates Defender XDR, Entra ID Protection, Intune, Compliance and more into one place.",
-          "stars": 111,
-          "forks": 27,
+          "stars": 126,
+          "forks": 31,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-06-16T16:20:50Z",
-          "updatedAt": "2026-06-22T16:28:28Z",
+          "updatedAt": "2026-06-23T05:05:29Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -479,7 +453,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 157.11
+          "score": 159.54
         },
         {
           "id": 1273580359,
@@ -488,12 +462,12 @@
           "url": "https://github.com/tianchong-zerotemp/dianxing",
           "homepage": "",
           "description": "DianXing - AI-Driven End-to-End Code Security Auditing",
-          "stars": 45,
-          "forks": 4,
+          "stars": 70,
+          "forks": 10,
           "openIssues": 2,
           "language": "Unknown",
           "createdAt": "2026-06-18T17:00:17Z",
-          "updatedAt": "2026-06-22T17:30:00Z",
+          "updatedAt": "2026-06-23T04:13:24Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -508,7 +482,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 141.93
+          "score": 158.29
         },
         {
           "id": 1272565581,
@@ -517,12 +491,12 @@
           "url": "https://github.com/m14r41/PentestingChecklist",
           "homepage": "https://checklist.m14r41.in/",
           "description": "Comprehensive, data-driven security assessment checklists across 23 platforms web, API, mobile, cloud, Active Directory, Kubernetes, LLM, and more. Expandable hierarchy, global search, progress tracking, export.",
-          "stars": 59,
+          "stars": 60,
           "forks": 12,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-06-17T18:25:49Z",
-          "updatedAt": "2026-06-22T15:18:25Z",
+          "updatedAt": "2026-06-23T00:25:33Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -534,32 +508,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 139.39
-        },
-        {
-          "id": 1270177900,
-          "name": "autoguardrails",
-          "fullName": "SantanderAI/autoguardrails",
-          "url": "https://github.com/SantanderAI/autoguardrails",
-          "homepage": "https://github.com/SantanderAI",
-          "description": "Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
-          "stars": 54,
-          "forks": 10,
-          "openIssues": 3,
-          "language": "Python",
-          "createdAt": "2026-06-15T13:10:50Z",
-          "updatedAt": "2026-06-22T17:37:11Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 118.37
+          "score": 137.95
         },
         {
           "id": 1272696562,
@@ -568,12 +517,12 @@
           "url": "https://github.com/wellwelwel/blue-spec",
           "homepage": "https://bluespec.weslley.io",
           "description": "🌊 Blue Spec is a toolkit for Security-Driven Hardening, a defensive workflow to help AI agents detect what a system does and harden the defenses that matter.",
-          "stars": 57,
+          "stars": 58,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-06-17T21:19:02Z",
-          "updatedAt": "2026-06-22T03:53:13Z",
+          "updatedAt": "2026-06-22T21:25:48Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -585,7 +534,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 113.85
+          "score": 112.53
         },
         {
           "id": 1271770751,
@@ -610,7 +559,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 111.13
+          "score": 109.23
         },
         {
           "id": 1271506256,
@@ -619,12 +568,12 @@
           "url": "https://github.com/thehackersbrain/certificate-of-compromise",
           "homepage": "",
           "description": "SoK/Whitepaper on Offensive Operations against Active Directory Certificate Service",
-          "stars": 15,
-          "forks": 1,
+          "stars": 16,
+          "forks": 2,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-06-16T18:23:03Z",
-          "updatedAt": "2026-06-21T07:37:29Z",
+          "updatedAt": "2026-06-23T02:31:39Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -636,7 +585,109 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 96.01
+          "score": 98.45
+        },
+        {
+          "id": 1277555553,
+          "name": "Vipre-Advanced-Security-2026",
+          "fullName": "talonsorcererneedle/Vipre-Advanced-Security-2026",
+          "url": "https://github.com/talonsorcererneedle/Vipre-Advanced-Security-2026",
+          "homepage": "",
+          "description": "vipre advanced security download — VIPRE Advanced Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T02:01:05Z",
+          "updatedAt": "2026-06-23T03:24:42Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 92.11
+        },
+        {
+          "id": 1276779222,
+          "name": "CVE-2026-48908-PoC",
+          "fullName": "papageo75/CVE-2026-48908-PoC",
+          "url": "https://github.com/papageo75/CVE-2026-48908-PoC",
+          "homepage": "",
+          "description": "Unauthenticated RCE PoC for CVE-2026-48908 — SP Page Builder for Joomla (≤ 6.6.1): arbitrary file upload via asset.uploadCustomIcon. Self-cleaning, token-guarded. Authorized testing only.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-22T09:31:27Z",
+          "updatedAt": "2026-06-23T04:09:46Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 90.8
+        },
+        {
+          "id": 1276886015,
+          "name": "SindriKit",
+          "fullName": "youssefnoob003/SindriKit",
+          "url": "https://github.com/youssefnoob003/SindriKit",
+          "homepage": "",
+          "description": "A foundational C library for building operationally credible offensive capabilities",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-06-22T11:37:24Z",
+          "updatedAt": "2026-06-23T01:54:39Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 89.72
+        },
+        {
+          "id": 1274713100,
+          "name": "PortX",
+          "fullName": "mr-coder20/PortX",
+          "url": "https://github.com/mr-coder20/PortX",
+          "homepage": "",
+          "description": "\"A modern, high-performance, and multi-platform network security toolkit built with Kotlin Multiplatform and Compose.\"",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Kotlin",
+          "createdAt": "2026-06-19T20:10:31Z",
+          "updatedAt": "2026-06-22T22:15:58Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 89.36
         },
         {
           "id": 1273641903,
@@ -661,7 +712,57 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 90.43
+          "score": 88.53
+        },
+        {
+          "id": 1277536251,
+          "name": "G-Data-Total-Security-2026",
+          "fullName": "VirtualVerse64/G-Data-Total-Security-2026",
+          "url": "https://github.com/VirtualVerse64/G-Data-Total-Security-2026",
+          "homepage": "",
+          "description": "g data total security download — G Data Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T01:31:35Z",
+          "updatedAt": "2026-06-23T03:30:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 87.7
+        },
+        {
+          "id": 1277535043,
+          "name": "Emsisoft-Anti-Malware-2026",
+          "fullName": "Codeoeoutfit/Emsisoft-Anti-Malware-2026",
+          "url": "https://github.com/Codeoeoutfit/Emsisoft-Anti-Malware-2026",
+          "homepage": "",
+          "description": "emsisoft anti malware download — Emsisoft Anti-Malware for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T01:29:37Z",
+          "updatedAt": "2026-06-23T03:22:32Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 87.69
         },
         {
           "id": 1273092150,
@@ -685,34 +786,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 89.5
-        },
-        {
-          "id": 1274713100,
-          "name": "PortX",
-          "fullName": "mr-coder20/PortX",
-          "url": "https://github.com/mr-coder20/PortX",
-          "homepage": "",
-          "description": "\"A modern, high-performance, and multi-platform network security toolkit built with Kotlin Multiplatform and Compose.\"",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Kotlin",
-          "createdAt": "2026-06-19T20:10:31Z",
-          "updatedAt": "2026-06-22T11:36:08Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 85.28
+          "score": 87.43
         },
         {
           "id": 1274990328,
@@ -737,7 +811,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.61
+          "score": 80.71
         },
         {
           "id": 1274717094,
@@ -761,7 +835,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 82.39
+          "score": 80.49
         },
         {
           "id": 1273534224,
@@ -789,48 +863,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 72.45
+          "score": 70.38
         },
         {
-          "id": 1272080449,
-          "name": "Phishlets-Build",
-          "fullName": "MomenAbuAssi/Phishlets-Build",
-          "url": "https://github.com/MomenAbuAssi/Phishlets-Build",
+          "id": 1271526407,
+          "name": "WildWebApps",
+          "fullName": "ErSilh0x/WildWebApps",
+          "url": "https://github.com/ErSilh0x/WildWebApps",
           "homepage": "",
-          "description": "Build Phishlets profiles automatically and efficiently by logging into any website, registering cookies, and approving all the necessary data to create an excellent and ideal Phishlets profile.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-17T09:14:50Z",
-          "updatedAt": "2026-06-18T07:28:00Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 71.54
-        },
-        {
-          "id": 1271366233,
-          "name": "CVE-Mapper",
-          "fullName": "NeCr00/CVE-Mapper",
-          "url": "https://github.com/NeCr00/CVE-Mapper",
-          "homepage": "",
-          "description": "CVE Finder and Mapper",
+          "description": "Learn web vulnerabilities — writeups, multi-language vulnerable/fixed code, OWASP Top 10 mapping, attack-path diagrams, and a runnable offline lab for each (SQLi, XSS, and more). For cybersecurity, AppSec, SOC, pentesters.",
           "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-06-16T15:36:34Z",
-          "updatedAt": "2026-06-18T18:02:45Z",
+          "createdAt": "2026-06-16T18:48:51Z",
+          "updatedAt": "2026-06-22T21:39:11Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -839,66 +886,10 @@
           ],
           "tags": [
             "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 71.3
-        },
-        {
-          "id": 1272403279,
-          "name": "local-security-pass-vault",
-          "fullName": "RakinSV/local-security-pass-vault",
-          "url": "https://github.com/RakinSV/local-security-pass-vault",
-          "homepage": "",
-          "description": "Local-first password manager — zero cloud, zero telemetry. Rust+Tauri 2+XChaCha20-Poly1305+Argon2id+SQLCipher. 6 item types incl. Servers, BIP-39 backup, browser extension, OS Keychain.",
-          "stars": 8,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-06-17T15:18:40Z",
-          "updatedAt": "2026-06-22T08:23:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 70.83
-        },
-        {
-          "id": 1272627871,
-          "name": "argo",
-          "fullName": "gigioneggiando/argo",
-          "url": "https://github.com/gigioneggiando/argo",
-          "homepage": "",
-          "description": "👁️ LLM-native static vulnerability detection. An LLM reads your source like a human auditor, point it at any local folder or repo and get a reviewable vuln report. Auto-enriched prompts, adversarial validation, opt-in fix-verify. Runs on Claude Code / Codex / local OSS. Bug-bounty triage is one mode. Detection-only, read-only.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-17T19:46:11Z",
-          "updatedAt": "2026-06-22T00:06:52Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill",
             "防守 / 蓝队",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
+            "网络安全"
           ],
-          "score": 69.96
+          "score": 69.81
         }
       ]
     }
