@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-24T15:38:55.060Z",
+  "generatedAt": "2026-06-25T05:14:58.337Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-21",
-      "totalCandidates": 26,
+      "createdSince": "2026-06-22",
+      "totalCandidates": 31,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/badchars/darknet-mcp-server",
           "homepage": "https://www.npmjs.com/package/darknet-mcp-server",
           "description": "66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware analysis, blockchain intel, exploit search, stealer logs",
-          "stars": 25,
-          "forks": 3,
+          "stars": 46,
+          "forks": 6,
           "openIssues": 4,
           "language": "TypeScript",
           "createdAt": "2026-06-23T18:45:38Z",
-          "updatedAt": "2026-06-24T14:11:39Z",
+          "updatedAt": "2026-06-25T03:46:33Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -101,7 +101,83 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 121.01
+          "score": 135.33
+        },
+        {
+          "id": 1279480946,
+          "name": "recon-skills",
+          "fullName": "uphiago/recon-skills",
+          "url": "https://github.com/uphiago/recon-skills",
+          "homepage": "https://github.com/uphiago/recon-skills",
+          "description": "212 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 28 sectors. Updated with web enum, email sec, google dorks, cloud IAM.",
+          "stars": 21,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-24T18:19:06Z",
+          "updatedAt": "2026-06-25T00:20:35Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 131.54
+        },
+        {
+          "id": 1279666161,
+          "name": "Burp-Suite-2026",
+          "fullName": "PegasusJourneyman/Burp-Suite-2026",
+          "url": "https://github.com/PegasusJourneyman/Burp-Suite-2026",
+          "homepage": "",
+          "description": "burp suite download — Burp Suite Professional for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-24T22:54:08Z",
+          "updatedAt": "2026-06-25T01:06:23Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 98.53
+        },
+        {
+          "id": 1279663174,
+          "name": "Acunetix-2026",
+          "fullName": "AlphaPotterFlash/Acunetix-2026",
+          "url": "https://github.com/AlphaPotterFlash/Acunetix-2026",
+          "homepage": "",
+          "description": "acunetix download — Acunetix for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-24T22:48:13Z",
+          "updatedAt": "2026-06-25T01:43:43Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 98.49
         },
         {
           "id": 1276886015,
@@ -110,12 +186,12 @@
           "url": "https://github.com/youssefnoob003/SindriKit",
           "homepage": "",
           "description": "A foundational C library for building operationally credible offensive capabilities",
-          "stars": 19,
+          "stars": 25,
           "forks": 0,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-06-22T11:37:24Z",
-          "updatedAt": "2026-06-24T14:21:11Z",
+          "updatedAt": "2026-06-25T04:32:38Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -126,7 +202,57 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 93.18
+          "score": 94.92
+        },
+        {
+          "id": 1279672773,
+          "name": "Kaspersky-Total-Security-2026",
+          "fullName": "heightsherifftrowel/Kaspersky-Total-Security-2026",
+          "url": "https://github.com/heightsherifftrowel/Kaspersky-Total-Security-2026",
+          "homepage": "",
+          "description": "kaspersky total security download — Kaspersky Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-24T23:07:40Z",
+          "updatedAt": "2026-06-25T01:16:27Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 88.32
+        },
+        {
+          "id": 1279721352,
+          "name": "ESET-Smart-Security-2026",
+          "fullName": "portaltaxiovercome/ESET-Smart-Security-2026",
+          "url": "https://github.com/portaltaxiovercome/ESET-Smart-Security-2026",
+          "homepage": "",
+          "description": "eset smart security download — ESET Smart Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-25T00:49:35Z",
+          "updatedAt": "2026-06-25T02:24:05Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 86.67
         },
         {
           "id": 1278584017,
@@ -151,7 +277,32 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 84.84
+          "score": 79.93
+        },
+        {
+          "id": 1276779222,
+          "name": "CVE-2026-48908-PoC",
+          "fullName": "papageo75/CVE-2026-48908-PoC",
+          "url": "https://github.com/papageo75/CVE-2026-48908-PoC",
+          "homepage": "",
+          "description": "Unauthenticated RCE PoC for CVE-2026-48908 — SP Page Builder for Joomla (≤ 6.6.1): arbitrary file upload via asset.uploadCustomIcon. Self-cleaning, token-guarded. Authorized testing only.",
+          "stars": 8,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-22T09:31:27Z",
+          "updatedAt": "2026-06-24T03:13:03Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 79.86
         },
         {
           "id": 1277555553,
@@ -176,7 +327,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 79.02
+          "score": 74.11
         },
         {
           "id": 1278536908,
@@ -192,34 +343,6 @@
           "createdAt": "2026-06-23T22:23:55Z",
           "updatedAt": "2026-06-24T08:19:16Z",
           "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 78.23
-        },
-        {
-          "id": 1276779222,
-          "name": "CVE-2026-48908-PoC",
-          "fullName": "papageo75/CVE-2026-48908-PoC",
-          "url": "https://github.com/papageo75/CVE-2026-48908-PoC",
-          "homepage": "",
-          "description": "Unauthenticated RCE PoC for CVE-2026-48908 — SP Page Builder for Joomla (≤ 6.6.1): arbitrary file upload via asset.uploadCustomIcon. Self-cleaning, token-guarded. Authorized testing only.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-22T09:31:27Z",
-          "updatedAt": "2026-06-24T03:13:03Z",
-          "matchedProfiles": [
             "渗透 / 红队"
           ],
           "profileWeights": [
@@ -227,34 +350,10 @@
           ],
           "tags": [
             "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 78.18
-        },
-        {
-          "id": 1278568117,
-          "name": "Comodo-Internet-Security-2026",
-          "fullName": "Vortexdrothaw/Comodo-Internet-Security-2026",
-          "url": "https://github.com/Vortexdrothaw/Comodo-Internet-Security-2026",
-          "homepage": "",
-          "description": "comodo internet security download — Comodo Internet Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-23T23:23:46Z",
-          "updatedAt": "2026-06-24T00:52:41Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
+            "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 77.19
+          "score": 72.44
         },
         {
           "id": 1277536251,
@@ -279,108 +378,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 74.5
-        },
-        {
-          "id": 1277535043,
-          "name": "Emsisoft-Anti-Malware-2026",
-          "fullName": "Codeoeoutfit/Emsisoft-Anti-Malware-2026",
-          "url": "https://github.com/Codeoeoutfit/Emsisoft-Anti-Malware-2026",
-          "homepage": "",
-          "description": "emsisoft anti malware download — Emsisoft Anti-Malware for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-23T01:29:37Z",
-          "updatedAt": "2026-06-23T03:22:32Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 74.49
-        },
-        {
-          "id": 1278571246,
-          "name": "GridinSoft-Anti-Malware-2026",
-          "fullName": "Inertiapurectifier/GridinSoft-Anti-Malware-2026",
-          "url": "https://github.com/Inertiapurectifier/GridinSoft-Anti-Malware-2026",
-          "homepage": "",
-          "description": "gridinsoft anti malware download — GridinSoft Anti-Malware for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-23T23:29:50Z",
-          "updatedAt": "2026-06-24T00:57:55Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 74.17
-        },
-        {
-          "id": 1277814238,
-          "name": "CTI-Automation-Platform",
-          "fullName": "ibu-cyx0/CTI-Automation-Platform",
-          "url": "https://github.com/ibu-cyx0/CTI-Automation-Platform",
-          "homepage": "https://ibu-cyx0.github.io/CTI-Automation-Platform/",
-          "description": "Automated Cyber Threat Intelligence pipeline that collects IOCs from AlienVault OTX, AbuseIPDB & URLhaus, correlates them against Splunk logs, and visualizes active threats on a real-time dark-themed dashboard.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-23T07:59:57Z",
-          "updatedAt": "2026-06-23T14:14:23Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 60.88
-        },
-        {
-          "id": 1278428867,
-          "name": "AI-Powered-Threat-Detection-Engine",
-          "fullName": "ibu-cyx0/AI-Powered-Threat-Detection-Engine",
-          "url": "https://github.com/ibu-cyx0/AI-Powered-Threat-Detection-Engine",
-          "homepage": "https://ibu-cyx0.github.io/AI-Powered-Threat-Detection-Engine/",
-          "description": "ML-based SOC alert triage system using Random Forest to auto-classify alerts as True/False Positive — reducing analyst workload with real-time confidence scoring and live dashboard.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-06-23T19:29:27Z",
-          "updatedAt": "2026-06-24T08:03:47Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 59.1
+          "score": 69.59
         }
       ]
     },
@@ -392,43 +390,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-17",
-      "totalCandidates": 25,
+      "createdSince": "2026-06-18",
+      "totalCandidates": 28,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 8,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1782315587"
+          "rateLimitReset": "1782364550"
         }
       ],
       "repositories": [
@@ -439,12 +437,12 @@
           "url": "https://github.com/tianchong-zerotemp/dianxing",
           "homepage": "",
           "description": "DianXing - AI-Driven End-to-End Code Security Auditing",
-          "stars": 112,
+          "stars": 128,
           "forks": 16,
           "openIssues": 4,
           "language": "Unknown",
           "createdAt": "2026-06-18T17:00:17Z",
-          "updatedAt": "2026-06-24T15:38:22Z",
+          "updatedAt": "2026-06-25T04:16:06Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -459,33 +457,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 169.05
-        },
-        {
-          "id": 1272565581,
-          "name": "PentestingChecklist",
-          "fullName": "m14r41/PentestingChecklist",
-          "url": "https://github.com/m14r41/PentestingChecklist",
-          "homepage": "https://checklist.m14r41.in/",
-          "description": "Comprehensive, data-driven security assessment checklists across 23 platforms web, API, mobile, cloud, Active Directory, Kubernetes, LLM, and more. Expandable hierarchy, global search, progress tracking, export.",
-          "stars": 62,
-          "forks": 12,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-17T18:25:49Z",
-          "updatedAt": "2026-06-23T16:13:50Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 133.09
+          "score": 170.59
         },
         {
           "id": 1278394334,
@@ -494,12 +466,12 @@
           "url": "https://github.com/badchars/darknet-mcp-server",
           "homepage": "https://www.npmjs.com/package/darknet-mcp-server",
           "description": "66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware analysis, blockchain intel, exploit search, stealer logs",
-          "stars": 25,
-          "forks": 3,
+          "stars": 46,
+          "forks": 6,
           "openIssues": 4,
           "language": "TypeScript",
           "createdAt": "2026-06-23T18:45:38Z",
-          "updatedAt": "2026-06-24T14:11:39Z",
+          "updatedAt": "2026-06-25T03:46:33Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -515,58 +487,35 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 125.66
+          "score": 143.01
         },
         {
-          "id": 1272696562,
-          "name": "blue-spec",
-          "fullName": "wellwelwel/blue-spec",
-          "url": "https://github.com/wellwelwel/blue-spec",
-          "homepage": "https://bluespec.weslley.io",
-          "description": "🌊 Blue Spec is a toolkit for Security-Driven Hardening, a defensive workflow to help AI agents detect what a system does and harden the defenses that matter.",
-          "stars": 60,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-17T21:19:02Z",
-          "updatedAt": "2026-06-24T10:09:19Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 108.05
-        },
-        {
-          "id": 1271770751,
-          "name": "AI-Guardian",
-          "fullName": "HankLEE-1/AI-Guardian",
-          "url": "https://github.com/HankLEE-1/AI-Guardian",
-          "homepage": "",
-          "description": "基于Agent驱动的网络安全流量监控与分析平台，下一代AI驱动的安全运营协作平台 — 智能告警研判、资产关联、协同处置与自动化报告生成，为护网行动增添一把利器。",
-          "stars": 32,
-          "forks": 2,
+          "id": 1279480946,
+          "name": "recon-skills",
+          "fullName": "uphiago/recon-skills",
+          "url": "https://github.com/uphiago/recon-skills",
+          "homepage": "https://github.com/uphiago/recon-skills",
+          "description": "212 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 28 sectors. Updated with web enum, email sec, google dorks, cloud IAM.",
+          "stars": 21,
+          "forks": 3,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-06-17T02:04:59Z",
-          "updatedAt": "2026-06-22T05:09:22Z",
+          "createdAt": "2026-06-24T18:19:06Z",
+          "updatedAt": "2026-06-25T00:20:35Z",
           "matchedProfiles": [
-            "网络安全"
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
+            1.18
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防",
+            "网络安全"
           ],
-          "score": 105.75
+          "score": 134.2
         },
         {
           "id": 1276886015,
@@ -575,12 +524,12 @@
           "url": "https://github.com/youssefnoob003/SindriKit",
           "homepage": "",
           "description": "A foundational C library for building operationally credible offensive capabilities",
-          "stars": 19,
+          "stars": 25,
           "forks": 0,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-06-22T11:37:24Z",
-          "updatedAt": "2026-06-24T14:21:11Z",
+          "updatedAt": "2026-06-25T04:32:38Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -591,7 +540,55 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 104.77
+          "score": 109.55
+        },
+        {
+          "id": 1279666161,
+          "name": "Burp-Suite-2026",
+          "fullName": "PegasusJourneyman/Burp-Suite-2026",
+          "url": "https://github.com/PegasusJourneyman/Burp-Suite-2026",
+          "homepage": "",
+          "description": "burp suite download — Burp Suite Professional for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-24T22:54:08Z",
+          "updatedAt": "2026-06-25T01:06:23Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 100.08
+        },
+        {
+          "id": 1279663174,
+          "name": "Acunetix-2026",
+          "fullName": "AlphaPotterFlash/Acunetix-2026",
+          "url": "https://github.com/AlphaPotterFlash/Acunetix-2026",
+          "homepage": "",
+          "description": "acunetix download — Acunetix for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-24T22:48:13Z",
+          "updatedAt": "2026-06-25T01:43:43Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 100.06
         },
         {
           "id": 1276779222,
@@ -601,7 +598,7 @@
           "homepage": "",
           "description": "Unauthenticated RCE PoC for CVE-2026-48908 — SP Page Builder for Joomla (≤ 6.6.1): arbitrary file upload via asset.uploadCustomIcon. Self-cleaning, token-guarded. Authorized testing only.",
           "stars": 8,
-          "forks": 0,
+          "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-22T09:31:27Z",
@@ -616,7 +613,57 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 91.35
+          "score": 96.35
+        },
+        {
+          "id": 1279672773,
+          "name": "Kaspersky-Total-Security-2026",
+          "fullName": "heightsherifftrowel/Kaspersky-Total-Security-2026",
+          "url": "https://github.com/heightsherifftrowel/Kaspersky-Total-Security-2026",
+          "homepage": "",
+          "description": "kaspersky total security download — Kaspersky Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-24T23:07:40Z",
+          "updatedAt": "2026-06-25T01:16:27Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 89.58
+        },
+        {
+          "id": 1279721352,
+          "name": "ESET-Smart-Security-2026",
+          "fullName": "portaltaxiovercome/ESET-Smart-Security-2026",
+          "url": "https://github.com/portaltaxiovercome/ESET-Smart-Security-2026",
+          "homepage": "",
+          "description": "eset smart security download — ESET Smart Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-25T00:49:35Z",
+          "updatedAt": "2026-06-25T02:24:05Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 87.59
         },
         {
           "id": 1278584017,
@@ -641,7 +688,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 88.09
+          "score": 85.99
         },
         {
           "id": 1277555553,
@@ -666,7 +713,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 86.78
+          "score": 84.68
         },
         {
           "id": 1273641903,
@@ -691,7 +738,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 84.72
+          "score": 82.44
         },
         {
           "id": 1273092150,
@@ -715,7 +762,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 83.81
+          "score": 81.33
         },
         {
           "id": 1274713100,
@@ -742,7 +789,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 83.07
+          "score": 80.59
         },
         {
           "id": 1277536251,
@@ -767,7 +814,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 82.37
+          "score": 80.26
         },
         {
           "id": 1277535043,
@@ -792,7 +839,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 82.36
+          "score": 80.26
         },
         {
           "id": 1273201901,
@@ -820,7 +867,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 80.8
+          "score": 78.52
         },
         {
           "id": 1274717094,
@@ -844,59 +891,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 74.74
-        },
-        {
-          "id": 1272540755,
-          "name": "ai-disclosure-handbook",
-          "fullName": "cnaebadi/ai-disclosure-handbook",
-          "url": "https://github.com/cnaebadi/ai-disclosure-handbook",
-          "homepage": "",
-          "description": "A practical guide to AI privacy, profiling, shadow profiling, local AI, cloud AI, and the future of human autonomy.",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-06-17T17:55:16Z",
-          "updatedAt": "2026-06-24T14:39:30Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.32
-        },
-        {
-          "id": 1272080449,
-          "name": "Phishlets-Build",
-          "fullName": "MomenAbuAssi/Phishlets-Build",
-          "url": "https://github.com/MomenAbuAssi/Phishlets-Build",
-          "homepage": "",
-          "description": "Build Phishlets profiles automatically and efficiently by logging into any website, registering cookies, and approving all the necessary data to create an excellent and ideal Phishlets profile.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-17T09:14:50Z",
-          "updatedAt": "2026-06-18T07:28:00Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 64.35
+          "score": 72.47
         }
       ]
     }
