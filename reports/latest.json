@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-25T15:46:13.789Z",
+  "generatedAt": "2026-06-26T05:21:12.862Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-22",
-      "totalCandidates": 30,
+      "createdSince": "2026-06-23",
+      "totalCandidates": 28,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 3,
+          "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/uphiago/recon-skills",
           "homepage": "https://github.com/uphiago/recon-skills",
           "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
-          "stars": 33,
-          "forks": 7,
+          "stars": 61,
+          "forks": 12,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-24T18:19:06Z",
-          "updatedAt": "2026-06-25T14:50:48Z",
+          "updatedAt": "2026-06-26T04:13:36Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -99,7 +99,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 144.65
+          "score": 160.18
         },
         {
           "id": 1278394334,
@@ -113,7 +113,7 @@
           "openIssues": 4,
           "language": "TypeScript",
           "createdAt": "2026-06-23T18:45:38Z",
-          "updatedAt": "2026-06-25T15:30:33Z",
+          "updatedAt": "2026-06-25T19:37:34Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -129,7 +129,32 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 143.4
+          "score": 138.1
+        },
+        {
+          "id": 1279604034,
+          "name": "SentinelDeck",
+          "fullName": "sanmaxdev/SentinelDeck",
+          "url": "https://github.com/sanmaxdev/SentinelDeck",
+          "homepage": "https://pypi.org/project/sentineldeck/",
+          "description": "Passive attack-surface scanner: turn a domain into a risk grade, copy-paste fixes, and a client-ready report. Safe DNS, HTTP, TLS, email, and certificate-transparency checks.",
+          "stars": 13,
+          "forks": 2,
+          "openIssues": 4,
+          "language": "Python",
+          "createdAt": "2026-06-24T21:03:02Z",
+          "updatedAt": "2026-06-26T05:19:48Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 91
         },
         {
           "id": 1279666161,
@@ -153,7 +178,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 94.05
+          "score": 88.26
         },
         {
           "id": 1279663174,
@@ -177,132 +202,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 94.01
-        },
-        {
-          "id": 1276886015,
-          "name": "SindriKit",
-          "fullName": "youssefnoob003/SindriKit",
-          "url": "https://github.com/youssefnoob003/SindriKit",
-          "homepage": "",
-          "description": "A foundational C library for building operationally credible offensive capabilities",
-          "stars": 25,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-06-22T11:37:24Z",
-          "updatedAt": "2026-06-25T04:32:38Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 92.44
-        },
-        {
-          "id": 1279973074,
-          "name": "port-scanner-lite",
-          "fullName": "arisatiti/port-scanner-lite",
-          "url": "https://github.com/arisatiti/port-scanner-lite",
-          "homepage": "",
-          "description": "Lightweight async port scanner with service detection and JSON/CSV output",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-25T06:54:06Z",
-          "updatedAt": "2026-06-25T07:03:17Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 91.33
-        },
-        {
-          "id": 1279972032,
-          "name": "port-scanner-lite",
-          "fullName": "yudihadi/port-scanner-lite",
-          "url": "https://github.com/yudihadi/port-scanner-lite",
-          "homepage": "",
-          "description": "Lightweight async port scanner with service detection and JSON/CSV output",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-25T06:52:56Z",
-          "updatedAt": "2026-06-25T07:03:11Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 91.32
-        },
-        {
-          "id": 1279969955,
-          "name": "port-scanner-lite",
-          "fullName": "nhit4m/port-scanner-lite",
-          "url": "https://github.com/nhit4m/port-scanner-lite",
-          "homepage": "",
-          "description": "Lightweight async port scanner with service detection and JSON/CSV output",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-25T06:50:38Z",
-          "updatedAt": "2026-06-25T07:03:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 91.31
-        },
-        {
-          "id": 1279969436,
-          "name": "port-scanner-lite",
-          "fullName": "Elin4R/port-scanner-lite",
-          "url": "https://github.com/Elin4R/port-scanner-lite",
-          "homepage": "",
-          "description": "Lightweight async port scanner with service detection and JSON/CSV output",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-25T06:50:04Z",
-          "updatedAt": "2026-06-25T07:02:58Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 91.31
+          "score": 88.22
         },
         {
           "id": 1279672773,
@@ -327,21 +227,21 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 84.52
+          "score": 79.61
         },
         {
-          "id": 1276779222,
-          "name": "CVE-2026-48908-PoC",
-          "fullName": "papageo75/CVE-2026-48908-PoC",
-          "url": "https://github.com/papageo75/CVE-2026-48908-PoC",
+          "id": 1280418805,
+          "name": "pentest-agent-vs-llm-benchmark-effectiveness",
+          "fullName": "ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
+          "url": "https://github.com/ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
           "homepage": "",
-          "description": "Unauthenticated RCE PoC for CVE-2026-48908 — SP Page Builder for Joomla (≤ 6.6.1): arbitrary file upload via asset.uploadCustomIcon. Self-cleaning, token-guarded. Authorized testing only.",
-          "stars": 10,
-          "forks": 2,
+          "description": "A reproducible study of LLM penetration-testing agents measuring how model backbone, agent scaffold, backend substrate, and scoring integrity affect exploit success.",
+          "stars": 4,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-22T09:31:27Z",
-          "updatedAt": "2026-06-25T08:06:14Z",
+          "language": "PHP",
+          "createdAt": "2026-06-25T15:04:29Z",
+          "updatedAt": "2026-06-25T23:19:34Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -350,9 +250,59 @@
           ],
           "tags": [
             "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.5
+        },
+        {
+          "id": 1279721352,
+          "name": "ESET-Smart-Security-2026",
+          "fullName": "portaltaxiovercome/ESET-Smart-Security-2026",
+          "url": "https://github.com/portaltaxiovercome/ESET-Smart-Security-2026",
+          "homepage": "",
+          "description": "eset smart security download — ESET Smart Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-25T00:49:35Z",
+          "updatedAt": "2026-06-25T02:24:05Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 77.97
+        },
+        {
+          "id": 1278584017,
+          "name": "Sandboxie-Plus-2026",
+          "fullName": "AmpJourneyman/Sandboxie-Plus-2026",
+          "url": "https://github.com/AmpJourneyman/Sandboxie-Plus-2026",
+          "homepage": "",
+          "description": "sandboxie plus download — Sandboxie Plus for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T23:53:37Z",
+          "updatedAt": "2026-06-24T01:06:50Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 83.63
+          "score": 71.22
         },
         {
           "id": 1278536908,
@@ -380,7 +330,57 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 72.68
+          "score": 66.89
+        },
+        {
+          "id": 1277555553,
+          "name": "Vipre-Advanced-Security-2026",
+          "fullName": "talonsorcererneedle/Vipre-Advanced-Security-2026",
+          "url": "https://github.com/talonsorcererneedle/Vipre-Advanced-Security-2026",
+          "homepage": "",
+          "description": "vipre advanced security download — VIPRE Advanced Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T02:01:05Z",
+          "updatedAt": "2026-06-23T03:24:42Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 66.61
+        },
+        {
+          "id": 1277536251,
+          "name": "G-Data-Total-Security-2026",
+          "fullName": "VirtualVerse64/G-Data-Total-Security-2026",
+          "url": "https://github.com/VirtualVerse64/G-Data-Total-Security-2026",
+          "homepage": "",
+          "description": "g data total security download — G Data Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T01:31:35Z",
+          "updatedAt": "2026-06-23T03:30:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 62.27
         }
       ]
     },
@@ -392,74 +392,73 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-18",
-      "totalCandidates": 28,
+      "createdSince": "2026-06-19",
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 9,
+          "fetched": 6,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1782402425"
+          "rateLimitReset": "1782451325"
         }
       ],
       "repositories": [
         {
-          "id": 1273580359,
-          "name": "dianxing",
-          "fullName": "tianchong-zerotemp/dianxing",
-          "url": "https://github.com/tianchong-zerotemp/dianxing",
-          "homepage": "",
-          "description": "DianXing - AI-Driven End-to-End Code Security Auditing",
-          "stars": 138,
-          "forks": 18,
-          "openIssues": 4,
-          "language": "Unknown",
-          "createdAt": "2026-06-18T17:00:17Z",
-          "updatedAt": "2026-06-25T15:34:21Z",
+          "id": 1279480946,
+          "name": "recon-skills",
+          "fullName": "uphiago/recon-skills",
+          "url": "https://github.com/uphiago/recon-skills",
+          "homepage": "https://github.com/uphiago/recon-skills",
+          "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
+          "stars": 61,
+          "forks": 12,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-24T18:19:06Z",
+          "updatedAt": "2026-06-26T04:13:36Z",
           "matchedProfiles": [
-            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
             1.18
           ],
           "tags": [
-            "通用安全",
             "渗透 / 红队",
             "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 171.7
+          "score": 168.71
         },
         {
           "id": 1278394334,
@@ -473,7 +472,7 @@
           "openIssues": 4,
           "language": "TypeScript",
           "createdAt": "2026-06-23T18:45:38Z",
-          "updatedAt": "2026-06-25T15:30:33Z",
+          "updatedAt": "2026-06-25T19:37:34Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -489,35 +488,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 153.43
-        },
-        {
-          "id": 1279480946,
-          "name": "recon-skills",
-          "fullName": "uphiago/recon-skills",
-          "url": "https://github.com/uphiago/recon-skills",
-          "homepage": "https://github.com/uphiago/recon-skills",
-          "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
-          "stars": 33,
-          "forks": 7,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-24T18:19:06Z",
-          "updatedAt": "2026-06-25T14:50:48Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 149.87
+          "score": 151.16
         },
         {
           "id": 1276886015,
@@ -526,12 +497,12 @@
           "url": "https://github.com/youssefnoob003/SindriKit",
           "homepage": "",
           "description": "A foundational C library for building operationally credible offensive capabilities",
-          "stars": 25,
-          "forks": 0,
+          "stars": 27,
+          "forks": 2,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-06-22T11:37:24Z",
-          "updatedAt": "2026-06-25T04:32:38Z",
+          "updatedAt": "2026-06-26T02:33:24Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -542,7 +513,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 107.79
+          "score": 114.37
         },
         {
           "id": 1276779222,
@@ -551,12 +522,12 @@
           "url": "https://github.com/papageo75/CVE-2026-48908-PoC",
           "homepage": "",
           "description": "Unauthenticated RCE PoC for CVE-2026-48908 — SP Page Builder for Joomla (≤ 6.6.1): arbitrary file upload via asset.uploadCustomIcon. Self-cleaning, token-guarded. Authorized testing only.",
-          "stars": 10,
+          "stars": 11,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-22T09:31:27Z",
-          "updatedAt": "2026-06-25T08:06:14Z",
+          "updatedAt": "2026-06-26T05:00:23Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -567,7 +538,32 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 100.02
+          "score": 99.99
+        },
+        {
+          "id": 1279604034,
+          "name": "SentinelDeck",
+          "fullName": "sanmaxdev/SentinelDeck",
+          "url": "https://github.com/sanmaxdev/SentinelDeck",
+          "homepage": "https://pypi.org/project/sentineldeck/",
+          "description": "Passive attack-surface scanner: turn a domain into a risk grade, copy-paste fixes, and a client-ready report. Safe DNS, HTTP, TLS, email, and certificate-transparency checks.",
+          "stars": 13,
+          "forks": 2,
+          "openIssues": 4,
+          "language": "Python",
+          "createdAt": "2026-06-24T21:03:02Z",
+          "updatedAt": "2026-06-26T05:19:48Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 97.66
         },
         {
           "id": 1279666161,
@@ -591,7 +587,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 98.16
+          "score": 95.68
         },
         {
           "id": 1279663174,
@@ -615,46 +611,21 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 98.14
+          "score": 95.66
         },
         {
-          "id": 1273568638,
-          "name": "autoship-cli",
-          "fullName": "MS33834/autoship-cli",
-          "url": "https://github.com/MS33834/autoship-cli",
-          "homepage": "https://ms33834.github.io/autoship-cli/",
-          "description": "Local-first intelligent delivery assistant — automated clean, verify, commit, and upload workflows powered by AI",
-          "stars": 40,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-18T16:46:37Z",
-          "updatedAt": "2026-06-25T14:03:09Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 97.22
-        },
-        {
-          "id": 1279973074,
-          "name": "port-scanner-lite",
-          "fullName": "arisatiti/port-scanner-lite",
-          "url": "https://github.com/arisatiti/port-scanner-lite",
+          "id": 1279672773,
+          "name": "Kaspersky-Total-Security-2026",
+          "fullName": "heightsherifftrowel/Kaspersky-Total-Security-2026",
+          "url": "https://github.com/heightsherifftrowel/Kaspersky-Total-Security-2026",
           "homepage": "",
-          "description": "Lightweight async port scanner with service detection and JSON/CSV output",
-          "stars": 12,
+          "description": "kaspersky total security download — Kaspersky Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-25T06:54:06Z",
-          "updatedAt": "2026-06-25T07:03:17Z",
+          "language": "Unknown",
+          "createdAt": "2026-06-24T23:07:40Z",
+          "updatedAt": "2026-06-25T01:16:27Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -663,23 +634,23 @@
           ],
           "tags": [
             "通用安全",
-            "防守 / 蓝队"
+            "网络安全"
           ],
-          "score": 93.16
+          "score": 85.85
         },
         {
-          "id": 1279972032,
-          "name": "port-scanner-lite",
-          "fullName": "yudihadi/port-scanner-lite",
-          "url": "https://github.com/yudihadi/port-scanner-lite",
+          "id": 1279721352,
+          "name": "ESET-Smart-Security-2026",
+          "fullName": "portaltaxiovercome/ESET-Smart-Security-2026",
+          "url": "https://github.com/portaltaxiovercome/ESET-Smart-Security-2026",
           "homepage": "",
-          "description": "Lightweight async port scanner with service detection and JSON/CSV output",
-          "stars": 12,
+          "description": "eset smart security download — ESET Smart Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-25T06:52:56Z",
-          "updatedAt": "2026-06-25T07:03:11Z",
+          "language": "Unknown",
+          "createdAt": "2026-06-25T00:49:35Z",
+          "updatedAt": "2026-06-25T02:24:05Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -688,23 +659,23 @@
           ],
           "tags": [
             "通用安全",
-            "防守 / 蓝队"
+            "网络安全"
           ],
-          "score": 93.16
+          "score": 83.85
         },
         {
-          "id": 1279969955,
-          "name": "port-scanner-lite",
-          "fullName": "nhit4m/port-scanner-lite",
-          "url": "https://github.com/nhit4m/port-scanner-lite",
+          "id": 1278584017,
+          "name": "Sandboxie-Plus-2026",
+          "fullName": "AmpJourneyman/Sandboxie-Plus-2026",
+          "url": "https://github.com/AmpJourneyman/Sandboxie-Plus-2026",
           "homepage": "",
-          "description": "Lightweight async port scanner with service detection and JSON/CSV output",
-          "stars": 12,
+          "description": "sandboxie plus download — Sandboxie Plus for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-25T06:50:38Z",
-          "updatedAt": "2026-06-25T07:03:00Z",
+          "language": "Unknown",
+          "createdAt": "2026-06-23T23:53:37Z",
+          "updatedAt": "2026-06-24T01:06:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -713,23 +684,23 @@
           ],
           "tags": [
             "通用安全",
-            "防守 / 蓝队"
+            "漏洞研究 / 攻防"
           ],
-          "score": 93.15
+          "score": 82.26
         },
         {
-          "id": 1279969436,
-          "name": "port-scanner-lite",
-          "fullName": "Elin4R/port-scanner-lite",
-          "url": "https://github.com/Elin4R/port-scanner-lite",
+          "id": 1277555553,
+          "name": "Vipre-Advanced-Security-2026",
+          "fullName": "talonsorcererneedle/Vipre-Advanced-Security-2026",
+          "url": "https://github.com/talonsorcererneedle/Vipre-Advanced-Security-2026",
           "homepage": "",
-          "description": "Lightweight async port scanner with service detection and JSON/CSV output",
-          "stars": 12,
+          "description": "vipre advanced security download — VIPRE Advanced Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 11,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-25T06:50:04Z",
-          "updatedAt": "2026-06-25T07:02:58Z",
+          "language": "Unknown",
+          "createdAt": "2026-06-23T02:01:05Z",
+          "updatedAt": "2026-06-23T03:24:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -738,9 +709,9 @@
           ],
           "tags": [
             "通用安全",
-            "防守 / 蓝队"
+            "网络安全"
           ],
-          "score": 93.15
+          "score": 80.95
         },
         {
           "id": 1278536908,
@@ -768,56 +739,57 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 82.75
+          "score": 80.27
         },
         {
-          "id": 1273092150,
-          "name": "mudos",
-          "fullName": "cumakurt/mudos",
-          "url": "https://github.com/cumakurt/mudos",
+          "id": 1277536251,
+          "name": "G-Data-Total-Security-2026",
+          "fullName": "VirtualVerse64/G-Data-Total-Security-2026",
+          "url": "https://github.com/VirtualVerse64/G-Data-Total-Security-2026",
           "homepage": "",
-          "description": "Multi-Vector DDoS Test Tool",
-          "stars": 10,
-          "forks": 1,
+          "description": "g data total security download — G Data Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-18T07:46:43Z",
-          "updatedAt": "2026-06-24T05:51:17Z",
+          "language": "Unknown",
+          "createdAt": "2026-06-23T01:31:35Z",
+          "updatedAt": "2026-06-23T03:30:00Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 80.86
-        },
-        {
-          "id": 1273641903,
-          "name": "SkillsGuard",
-          "fullName": "Teycir/SkillsGuard",
-          "url": "https://github.com/Teycir/SkillsGuard",
-          "homepage": "https://skillsguard.apiskillsguard.workers.dev",
-          "description": "Static security scanner for AI agent skill packages. Detects malicious SKILL.md files and bundled scripts before they run.",
-          "stars": 13,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-18T18:15:01Z",
-          "updatedAt": "2026-06-23T16:30:45Z",
-          "matchedProfiles": [
+            "通用安全",
             "网络安全"
           ],
+          "score": 76.53
+        },
+        {
+          "id": 1277535043,
+          "name": "Emsisoft-Anti-Malware-2026",
+          "fullName": "Codeoeoutfit/Emsisoft-Anti-Malware-2026",
+          "url": "https://github.com/Codeoeoutfit/Emsisoft-Anti-Malware-2026",
+          "homepage": "",
+          "description": "emsisoft anti malware download — Emsisoft Anti-Malware for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-23T01:29:37Z",
+          "updatedAt": "2026-06-23T03:22:32Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
+            "通用安全",
+            "防守 / 蓝队"
           ],
-          "score": 80.68
+          "score": 76.53
         },
         {
           "id": 1274713100,
@@ -844,35 +816,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 78.67
-        },
-        {
-          "id": 1273201901,
-          "name": "detect-bot-client",
-          "fullName": "okasi/detect-bot-client",
-          "url": "https://github.com/okasi/detect-bot-client",
-          "homepage": "https://okasi.github.io/detect-bot-client/",
-          "description": "TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datacenter IPs, JA3 TLS mismatch & timezone spoofing — browser + Node.",
-          "stars": 14,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-18T09:49:24Z",
-          "updatedAt": "2026-06-23T22:20:16Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 77.76
+          "score": 76.19
         },
         {
           "id": 1274717094,
@@ -896,7 +840,57 @@
           "tags": [
             "网络安全"
           ],
-          "score": 70.71
+          "score": 68.44
+        },
+        {
+          "id": 1276770241,
+          "name": "vaultlock",
+          "fullName": "gvbytes/vaultlock",
+          "url": "https://github.com/gvbytes/vaultlock",
+          "homepage": "",
+          "description": "A small local file vault using Fernet encryption, PBKDF2-derived keys, and a cautious plaintext cleanup step.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-22T09:21:58Z",
+          "updatedAt": "2026-06-25T04:35:24Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 67.28
+        },
+        {
+          "id": 1276770383,
+          "name": "logtrail",
+          "fullName": "gvbytes/logtrail",
+          "url": "https://github.com/gvbytes/logtrail",
+          "homepage": "",
+          "description": "Access-log parser that pulls out suspicious request patterns and noisy client behavior from web server logs.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-22T09:22:07Z",
+          "updatedAt": "2026-06-25T04:35:04Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 67.28
         }
       ]
     }
