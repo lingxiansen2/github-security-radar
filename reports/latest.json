@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-26T15:30:54.051Z",
+  "generatedAt": "2026-06-27T05:03:07.628Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-23",
-      "totalCandidates": 29,
+      "createdSince": "2026-06-24",
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 7,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/uphiago/recon-skills",
           "homepage": "https://github.com/uphiago/recon-skills",
           "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
-          "stars": 72,
-          "forks": 13,
+          "stars": 142,
+          "forks": 24,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-24T18:19:06Z",
-          "updatedAt": "2026-06-26T15:01:30Z",
+          "updatedAt": "2026-06-27T04:42:46Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -99,37 +99,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 161.28
-        },
-        {
-          "id": 1278394334,
-          "name": "darknet-mcp-server",
-          "fullName": "badchars/darknet-mcp-server",
-          "url": "https://github.com/badchars/darknet-mcp-server",
-          "homepage": "https://www.npmjs.com/package/darknet-mcp-server",
-          "description": "66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware analysis, blockchain intel, exploit search, stealer logs",
-          "stars": 66,
-          "forks": 10,
-          "openIssues": 4,
-          "language": "TypeScript",
-          "createdAt": "2026-06-23T18:45:38Z",
-          "updatedAt": "2026-06-26T07:52:37Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 134.55
+          "score": 179.86
         },
         {
           "id": 1279604034,
@@ -139,7 +109,7 @@
           "homepage": "https://pypi.org/project/sentineldeck/",
           "description": "Passive attack-surface scanner: turn a domain into a risk grade, copy-paste fixes, and a client-ready report. Safe DNS, HTTP, TLS, email, and certificate-transparency checks.",
           "stars": 27,
-          "forks": 12,
+          "forks": 13,
           "openIssues": 4,
           "language": "Python",
           "createdAt": "2026-06-24T21:03:02Z",
@@ -154,7 +124,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 112.91
+          "score": 108.45
+        },
+        {
+          "id": 1280962636,
+          "name": "vault-engine",
+          "fullName": "fishonbike/vault-engine",
+          "url": "https://github.com/fishonbike/vault-engine",
+          "homepage": "",
+          "description": "A local-LLM privacy layer for anything you paste into a cloud model — detect, tokenize, restore. Zero deps, reversible, strong on Chinese.",
+          "stars": 8,
+          "forks": 1,
+          "openIssues": 8,
+          "language": "Python",
+          "createdAt": "2026-06-26T05:18:51Z",
+          "updatedAt": "2026-06-27T04:59:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 81.22
         },
         {
           "id": 1279666161,
@@ -170,15 +165,18 @@
           "createdAt": "2026-06-24T22:54:08Z",
           "updatedAt": "2026-06-25T01:06:23Z",
           "matchedProfiles": [
+            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1,
             1.18
           ],
           "tags": [
+            "通用安全",
             "渗透 / 红队"
           ],
-          "score": 83.93
+          "score": 78.16
         },
         {
           "id": 1279663174,
@@ -202,7 +200,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 83.89
+          "score": 78.12
         },
         {
           "id": 1279672773,
@@ -227,7 +225,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 75.95
+          "score": 71.06
+        },
+        {
+          "id": 1279721352,
+          "name": "ESET-Smart-Security-2026",
+          "fullName": "portaltaxiovercome/ESET-Smart-Security-2026",
+          "url": "https://github.com/portaltaxiovercome/ESET-Smart-Security-2026",
+          "homepage": "",
+          "description": "eset smart security download — ESET Smart Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-25T00:49:35Z",
+          "updatedAt": "2026-06-25T02:24:05Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 69.41
         },
         {
           "id": 1280418805,
@@ -252,21 +275,47 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 75.17
+          "score": 69.4
         },
         {
-          "id": 1279721352,
-          "name": "ESET-Smart-Security-2026",
-          "fullName": "portaltaxiovercome/ESET-Smart-Security-2026",
-          "url": "https://github.com/portaltaxiovercome/ESET-Smart-Security-2026",
+          "id": 1279804571,
+          "name": "Baixar-Quick-Heal",
+          "fullName": "ElementInspection/Baixar-Quick-Heal",
+          "url": "https://github.com/ElementInspection/Baixar-Quick-Heal",
           "homepage": "",
-          "description": "eset smart security download — ESET Smart Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 9,
+          "description": "baixar quick heal total security premium windows — Quick Heal Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-06-25T00:49:35Z",
-          "updatedAt": "2026-06-25T02:24:05Z",
+          "createdAt": "2026-06-25T03:05:37Z",
+          "updatedAt": "2026-06-25T04:47:55Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 67.75
+        },
+        {
+          "id": 1279662513,
+          "name": "AVG-Internet-Security-2026",
+          "fullName": "Convergeueforce/AVG-Internet-Security-2026",
+          "url": "https://github.com/Convergeueforce/AVG-Internet-Security-2026",
+          "homepage": "",
+          "description": "avg internet security download — AVG Internet Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-24T22:46:54Z",
+          "updatedAt": "2026-06-25T01:16:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -277,57 +326,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 74.3
-        },
-        {
-          "id": 1278584017,
-          "name": "Sandboxie-Plus-2026",
-          "fullName": "AmpJourneyman/Sandboxie-Plus-2026",
-          "url": "https://github.com/AmpJourneyman/Sandboxie-Plus-2026",
-          "homepage": "",
-          "description": "sandboxie plus download — Sandboxie Plus for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-23T23:53:37Z",
-          "updatedAt": "2026-06-24T01:06:50Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 67.56
-        },
-        {
-          "id": 1277555553,
-          "name": "Vipre-Advanced-Security-2026",
-          "fullName": "talonsorcererneedle/Vipre-Advanced-Security-2026",
-          "url": "https://github.com/talonsorcererneedle/Vipre-Advanced-Security-2026",
-          "homepage": "",
-          "description": "vipre advanced security download — VIPRE Advanced Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-23T02:01:05Z",
-          "updatedAt": "2026-06-23T03:24:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 66.61
+          "score": 66.2
         },
         {
           "id": 1280520902,
@@ -336,12 +335,12 @@
           "url": "https://github.com/bb1nfosec/MLASTG",
           "homepage": "https://mlastg.vercel.app",
           "description": "Enterprise & Defense-Grade Security Testing for Machine Learning Systems — MLASVS Standard, MLASTG Testing Guide, MLASWE Weakness Enumeration with MITRE ATLAS, NIST AI RMF, OWASP alignment",
-          "stars": 2,
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-25T17:04:40Z",
-          "updatedAt": "2026-06-26T12:51:56Z",
+          "updatedAt": "2026-06-26T21:17:19Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -353,35 +352,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 63.6
+          "score": 64.67
         },
         {
-          "id": 1278536908,
-          "name": ".github",
-          "fullName": "ShahinNexus/.github",
-          "url": "https://github.com/ShahinNexus/.github",
+          "id": 1280098766,
+          "name": "sbt-osv",
+          "fullName": "nMoncho/sbt-osv",
+          "url": "https://github.com/nMoncho/sbt-osv",
           "homepage": "",
-          "description": "🦅 Team Shahin - Cybersecurity CTF | Hardware Security, Reverse Engineering & Exploit Development | Technology Olympics 1405",
-          "stars": 5,
+          "description": "SBT Plugin for OSV API. Monitor your dependencies and report if there are any publicly known vulnerabilities (e.g. CVEs).",
+          "stars": 6,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-23T22:23:55Z",
-          "updatedAt": "2026-06-25T10:20:59Z",
+          "openIssues": 1,
+          "language": "Scala",
+          "createdAt": "2026-06-25T09:11:09Z",
+          "updatedAt": "2026-06-26T18:16:58Z",
           "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08,
-            1.18
+            1
           ],
           "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
+            "通用安全",
+            "漏洞研究 / 攻防"
           ],
-          "score": 62.56
+          "score": 64.16
         }
       ]
     },
@@ -393,7 +389,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-19",
+      "createdSince": "2026-06-20",
       "totalCandidates": 27,
       "queryStats": [
         {
@@ -401,35 +397,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1782487906"
+          "rateLimitReset": "1782536640"
         }
       ],
       "repositories": [
@@ -440,12 +436,12 @@
           "url": "https://github.com/uphiago/recon-skills",
           "homepage": "https://github.com/uphiago/recon-skills",
           "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
-          "stars": 72,
-          "forks": 13,
+          "stars": 142,
+          "forks": 24,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-24T18:19:06Z",
-          "updatedAt": "2026-06-26T15:01:30Z",
+          "updatedAt": "2026-06-27T04:42:46Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -459,7 +455,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 172.29
+          "score": 194.16
         },
         {
           "id": 1278394334,
@@ -468,12 +464,12 @@
           "url": "https://github.com/badchars/darknet-mcp-server",
           "homepage": "https://www.npmjs.com/package/darknet-mcp-server",
           "description": "66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware analysis, blockchain intel, exploit search, stealer logs",
-          "stars": 66,
+          "stars": 67,
           "forks": 10,
           "openIssues": 4,
           "language": "TypeScript",
           "createdAt": "2026-06-23T18:45:38Z",
-          "updatedAt": "2026-06-26T07:52:37Z",
+          "updatedAt": "2026-06-26T18:09:22Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -489,7 +485,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 149.87
+          "score": 148.02
         },
         {
           "id": 1279604034,
@@ -499,7 +495,7 @@
           "homepage": "https://pypi.org/project/sentineldeck/",
           "description": "Passive attack-surface scanner: turn a domain into a risk grade, copy-paste fixes, and a client-ready report. Safe DNS, HTTP, TLS, email, and certificate-transparency checks.",
           "stars": 27,
-          "forks": 12,
+          "forks": 13,
           "openIssues": 4,
           "language": "Python",
           "createdAt": "2026-06-24T21:03:02Z",
@@ -514,7 +510,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 121.67
+          "score": 120.01
         },
         {
           "id": 1276886015,
@@ -539,7 +535,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 113.62
+          "score": 111.36
         },
         {
           "id": 1276779222,
@@ -564,7 +560,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 98.13
+          "score": 95.66
         },
         {
           "id": 1279666161,
@@ -588,7 +584,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 93.82
+          "score": 91.35
         },
         {
           "id": 1279663174,
@@ -612,7 +608,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 93.8
+          "score": 91.33
         },
         {
           "id": 1279672773,
@@ -637,7 +633,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 84.28
+          "score": 82.18
         },
         {
           "id": 1279721352,
@@ -662,7 +658,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 82.28
+          "score": 80.19
         },
         {
           "id": 1278584017,
@@ -687,7 +683,33 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 80.68
+          "score": 78.59
+        },
+        {
+          "id": 1279804571,
+          "name": "Baixar-Quick-Heal",
+          "fullName": "ElementInspection/Baixar-Quick-Heal",
+          "url": "https://github.com/ElementInspection/Baixar-Quick-Heal",
+          "homepage": "",
+          "description": "baixar quick heal total security premium windows — Quick Heal Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-25T03:05:37Z",
+          "updatedAt": "2026-06-25T04:47:55Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 78.06
         },
         {
           "id": 1277555553,
@@ -712,7 +734,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 79.38
+          "score": 77.28
         },
         {
           "id": 1278536908,
@@ -740,98 +762,21 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 78.42
+          "score": 75.94
         },
         {
-          "id": 1277536251,
-          "name": "G-Data-Total-Security-2026",
-          "fullName": "VirtualVerse64/G-Data-Total-Security-2026",
-          "url": "https://github.com/VirtualVerse64/G-Data-Total-Security-2026",
+          "id": 1278422001,
+          "name": "flipper-badge-audit",
+          "fullName": "ViperDroid/flipper-badge-audit",
+          "url": "https://github.com/ViperDroid/flipper-badge-audit",
           "homepage": "",
-          "description": "g data total security download — G Data Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 9,
+          "description": "Defensive NFC access-badge security auditor for Flipper Zero — identifies the chip, reads UID, tests MIFARE Classic default keys, and rates clone-resistance.",
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-23T01:31:35Z",
-          "updatedAt": "2026-06-23T03:30:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 74.96
-        },
-        {
-          "id": 1277535043,
-          "name": "Emsisoft-Anti-Malware-2026",
-          "fullName": "Codeoeoutfit/Emsisoft-Anti-Malware-2026",
-          "url": "https://github.com/Codeoeoutfit/Emsisoft-Anti-Malware-2026",
-          "homepage": "",
-          "description": "emsisoft anti malware download — Emsisoft Anti-Malware for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-23T01:29:37Z",
-          "updatedAt": "2026-06-23T03:22:32Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 74.96
-        },
-        {
-          "id": 1274713100,
-          "name": "PortX",
-          "fullName": "mr-coder20/PortX",
-          "url": "https://github.com/mr-coder20/PortX",
-          "homepage": "",
-          "description": "\"A modern, high-performance, and multi-platform network security toolkit built with Kotlin Multiplatform and Compose.\"",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Kotlin",
-          "createdAt": "2026-06-19T20:10:31Z",
-          "updatedAt": "2026-06-22T22:15:58Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 74.33
-        },
-        {
-          "id": 1274717094,
-          "name": "port_scanner",
-          "fullName": "AkhrorKhasanov/port_scanner",
-          "url": "https://github.com/AkhrorKhasanov/port_scanner",
-          "homepage": "",
-          "description": "A high-performance, multi-threaded CLI port scanner built in Rust. It features fast TCP scanning, banner grabbing, configurable timeouts, and rate limiting. Designed for network security auditing and system administration, it provides an efficient and lightweight tool for rapid infrastructure discovery.",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Rust",
-          "createdAt": "2026-06-19T20:17:03Z",
-          "updatedAt": "2026-06-22T15:56:38Z",
+          "language": "C",
+          "createdAt": "2026-06-23T19:20:27Z",
+          "updatedAt": "2026-06-26T22:38:42Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -841,7 +786,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 66.74
+          "score": 69
         },
         {
           "id": 1276770241,
@@ -866,7 +811,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.58
+          "score": 63.32
         },
         {
           "id": 1276770383,
@@ -891,7 +836,31 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.58
+          "score": 63.32
+        },
+        {
+          "id": 1276768617,
+          "name": "local-port-scout",
+          "fullName": "gvbytes/local-port-scout",
+          "url": "https://github.com/gvbytes/local-port-scout",
+          "homepage": "",
+          "description": "Local/private-network TCP port scanner for checking listening services in a lab-safe way.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-22T09:20:34Z",
+          "updatedAt": "2026-06-25T04:34:59Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 63.31
         }
       ]
     }
