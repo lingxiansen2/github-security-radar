@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-27T14:56:10.116Z",
+  "generatedAt": "2026-06-28T05:44:03.006Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,99 +33,46 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-24",
-      "totalCandidates": 27,
+      "createdSince": "2026-06-25",
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 7,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         }
       ],
       "repositories": [
-        {
-          "id": 1279480946,
-          "name": "recon-skills",
-          "fullName": "uphiago/recon-skills",
-          "url": "https://github.com/uphiago/recon-skills",
-          "homepage": "https://github.com/uphiago/recon-skills",
-          "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
-          "stars": 184,
-          "forks": 28,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-24T18:19:06Z",
-          "updatedAt": "2026-06-27T14:41:05Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 184.5
-        },
-        {
-          "id": 1279604034,
-          "name": "SentinelDeck",
-          "fullName": "sanmaxdev/SentinelDeck",
-          "url": "https://github.com/sanmaxdev/SentinelDeck",
-          "homepage": "https://pypi.org/project/sentineldeck/",
-          "description": "Passive attack-surface scanner: turn a domain into a risk grade, copy-paste fixes, and a client-ready report. Safe DNS, HTTP, TLS, email, and certificate-transparency checks.",
-          "stars": 27,
-          "forks": 13,
-          "openIssues": 4,
-          "language": "Python",
-          "createdAt": "2026-06-24T21:03:02Z",
-          "updatedAt": "2026-06-27T11:32:40Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 104.88
-        },
         {
           "id": 1280962636,
           "name": "vault-engine",
@@ -133,12 +80,12 @@
           "url": "https://github.com/fishonbike/vault-engine",
           "homepage": "",
           "description": "A local-LLM privacy layer for anything you paste into a cloud model — detect, tokenize, restore. Zero deps, reversible, strong on Chinese.",
-          "stars": 14,
+          "stars": 17,
           "forks": 1,
           "openIssues": 8,
           "language": "Python",
           "createdAt": "2026-06-26T05:18:51Z",
-          "updatedAt": "2026-06-27T13:13:03Z",
+          "updatedAt": "2026-06-28T03:22:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -149,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 89.86
+          "score": 88.98
         },
         {
           "id": 1281436921,
@@ -158,12 +105,12 @@
           "url": "https://github.com/kasumiki/adjudge",
           "homepage": "",
           "description": "Adjudge ingests the noisy output of multiple security scanners (nuclei, semgrep/CodeQL SARIF, Trivy, gitleaks, httpx), then dedupes, correlates across tools, kills false positives, and labels every surviving finding with an honest verification verdict - traceable back to the exact source line.",
-          "stars": 8,
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-26T14:55:16Z",
-          "updatedAt": "2026-06-27T13:04:03Z",
+          "updatedAt": "2026-06-27T19:49:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -174,7 +121,39 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 77.12
+          "score": 76.51
+        },
+        {
+          "id": 1282411801,
+          "name": "breachproof",
+          "fullName": "Mikaru0Mystic/breachproof",
+          "url": "https://github.com/Mikaru0Mystic/breachproof",
+          "homepage": "",
+          "description": "Autonomous AI security agent that audits, pentests, and hardens your whole codebase: SAST, secrets, SCA, IaC, containers, CI/CD, OWASP, and AI/LLM red-teaming. Auto-fixes vulnerabilities and maps findings to compliance frameworks like SOC 2. Works with Claude Code, Cursor, Codex, and opencode.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-06-27T18:28:12Z",
+          "updatedAt": "2026-06-27T22:07:30Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 75.2
         },
         {
           "id": 1282019200,
@@ -202,21 +181,46 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 77.04
+          "score": 70.73
         },
         {
-          "id": 1279666161,
-          "name": "Burp-Suite-2026",
-          "fullName": "PegasusJourneyman/Burp-Suite-2026",
-          "url": "https://github.com/PegasusJourneyman/Burp-Suite-2026",
-          "homepage": "",
-          "description": "burp suite download — Burp Suite Professional for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 8,
+          "id": 1282455329,
+          "name": "sectinel",
+          "fullName": "Mikaru0Mystic/sectinel",
+          "url": "https://github.com/Mikaru0Mystic/sectinel",
+          "homepage": "https://agentskills.io",
+          "description": "The open security arsenal for AI agents. 784 cybersecurity skills, scanner integrations, and a security MCP in one installable suite. Mapped to MITRE ATT&CK, NIST CSF, D3FEND & ATLAS. agentskills.io-native.",
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-24T22:54:08Z",
-          "updatedAt": "2026-06-25T01:06:23Z",
+          "language": "Python",
+          "createdAt": "2026-06-27T19:46:06Z",
+          "updatedAt": "2026-06-27T22:12:32Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 69.33
+        },
+        {
+          "id": 1280418805,
+          "name": "pentest-agent-vs-llm-benchmark-effectiveness",
+          "fullName": "ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
+          "url": "https://github.com/ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
+          "homepage": "",
+          "description": "A reproducible study of LLM penetration-testing agents measuring how model backbone, agent scaffold, backend substrate, and scoring integrity affect exploit success.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PHP",
+          "createdAt": "2026-06-25T15:04:29Z",
+          "updatedAt": "2026-06-27T16:44:59Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -227,58 +231,38 @@
           ],
           "tags": [
             "通用安全",
-            "渗透 / 红队"
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
           ],
-          "score": 73.95
+          "score": 63.61
         },
         {
-          "id": 1279663174,
-          "name": "Acunetix-2026",
-          "fullName": "AlphaPotterFlash/Acunetix-2026",
-          "url": "https://github.com/AlphaPotterFlash/Acunetix-2026",
+          "id": 1282251577,
+          "name": "pagecache-lpe-containment-kit",
+          "fullName": "douglasmun/pagecache-lpe-containment-kit",
+          "url": "https://github.com/douglasmun/pagecache-lpe-containment-kit",
           "homepage": "",
-          "description": "acunetix download — Acunetix for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 8,
+          "description": "Educational, defensive kit for two Linux page-cache-corruption LPEs (DirtyClone CVE-2026-43503, pedit COW CVE-2026-46331): hardening, detection, verification, seccomp + validation harness. Detection and prevention only — no exploit code. TLP:CLEAR.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-24T22:48:13Z",
-          "updatedAt": "2026-06-25T01:43:43Z",
+          "language": "Shell",
+          "createdAt": "2026-06-27T14:23:15Z",
+          "updatedAt": "2026-06-28T01:00:50Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "防守 / 蓝队"
           ],
           "profileWeights": [
-            1.18
+            1.12
           ],
           "tags": [
-            "渗透 / 红队"
+            "防守 / 蓝队",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
           ],
-          "score": 73.91
-        },
-        {
-          "id": 1279672773,
-          "name": "Kaspersky-Total-Security-2026",
-          "fullName": "heightsherifftrowel/Kaspersky-Total-Security-2026",
-          "url": "https://github.com/heightsherifftrowel/Kaspersky-Total-Security-2026",
-          "homepage": "",
-          "description": "kaspersky total security download — Kaspersky Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-24T23:07:40Z",
-          "updatedAt": "2026-06-25T01:16:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 67.49
+          "score": 63.23
         },
         {
           "id": 1279721352,
@@ -303,57 +287,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 65.84
+          "score": 62.27
         },
         {
-          "id": 1280418805,
-          "name": "pentest-agent-vs-llm-benchmark-effectiveness",
-          "fullName": "ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
-          "url": "https://github.com/ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
-          "homepage": "",
-          "description": "A reproducible study of LLM penetration-testing agents measuring how model backbone, agent scaffold, backend substrate, and scoring integrity affect exploit success.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-06-25T15:04:29Z",
-          "updatedAt": "2026-06-25T23:19:34Z",
+          "id": 1280376975,
+          "name": "vocalype-open",
+          "fullName": "akremziani/vocalype-open",
+          "url": "https://github.com/akremziani/vocalype-open",
+          "homepage": "https://vocalype.com",
+          "description": "Public community docs, issue tracker, roadmap, and security policy for Vocalype",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 3,
+          "language": "Unknown",
+          "createdAt": "2026-06-25T14:20:08Z",
+          "updatedAt": "2026-06-25T15:13:38Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 65.19
-        },
-        {
-          "id": 1282034289,
-          "name": "wazuh-soc-lab",
-          "fullName": "delbinjoseph/wazuh-soc-lab",
-          "url": "https://github.com/delbinjoseph/wazuh-soc-lab",
-          "homepage": "",
-          "description": "Multi-OS Wazuh SIEM lab with custom detection rules, MITRE ATT&CK mapping, and automated response",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-27T08:26:18Z",
-          "updatedAt": "2026-06-27T14:12:52Z",
-          "matchedProfiles": [
+            "通用安全",
             "网络安全"
           ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 64.43
+          "score": 61.11
         },
         {
           "id": 1279804571,
@@ -379,7 +338,57 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 64.19
+          "score": 59.79
+        },
+        {
+          "id": 1282034289,
+          "name": "wazuh-soc-lab",
+          "fullName": "delbinjoseph/wazuh-soc-lab",
+          "url": "https://github.com/delbinjoseph/wazuh-soc-lab",
+          "homepage": "",
+          "description": "Multi-OS Wazuh SIEM lab with custom detection rules, FIM, MITRE ATT&CK mapping, and automated response",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-27T08:26:18Z",
+          "updatedAt": "2026-06-27T15:26:15Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 58.66
+        },
+        {
+          "id": 1280098766,
+          "name": "sbt-osv",
+          "fullName": "nMoncho/sbt-osv",
+          "url": "https://github.com/nMoncho/sbt-osv",
+          "homepage": "",
+          "description": "SBT Plugin for OSV API. Monitor your dependencies and report if there are any publicly known vulnerabilities (e.g. CVEs).",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Scala",
+          "createdAt": "2026-06-25T09:11:09Z",
+          "updatedAt": "2026-06-27T20:51:42Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 58.31
         }
       ]
     },
@@ -391,43 +400,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-20",
-      "totalCandidates": 26,
+      "createdSince": "2026-06-21",
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 11,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 6,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1782572223"
+          "rateLimitReset": "1782625495"
         }
       ],
       "repositories": [
@@ -438,12 +447,12 @@
           "url": "https://github.com/uphiago/recon-skills",
           "homepage": "https://github.com/uphiago/recon-skills",
           "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
-          "stars": 184,
-          "forks": 28,
+          "stars": 216,
+          "forks": 41,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-24T18:19:06Z",
-          "updatedAt": "2026-06-27T14:41:05Z",
+          "updatedAt": "2026-06-28T04:19:42Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -457,7 +466,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 201.21
+          "score": 205.89
         },
         {
           "id": 1278394334,
@@ -487,7 +496,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 146.91
+          "score": 144.44
         },
         {
           "id": 1279604034,
@@ -512,7 +521,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 118.48
+          "score": 116.19
         },
         {
           "id": 1276886015,
@@ -537,7 +546,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 109.71
+          "score": 107.23
         },
         {
           "id": 1280962636,
@@ -546,12 +555,12 @@
           "url": "https://github.com/fishonbike/vault-engine",
           "homepage": "",
           "description": "A local-LLM privacy layer for anything you paste into a cloud model — detect, tokenize, restore. Zero deps, reversible, strong on Chinese.",
-          "stars": 14,
+          "stars": 17,
           "forks": 1,
           "openIssues": 8,
           "language": "Python",
           "createdAt": "2026-06-26T05:18:51Z",
-          "updatedAt": "2026-06-27T13:13:03Z",
+          "updatedAt": "2026-06-28T03:22:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -562,7 +571,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 96.8
+          "score": 98.97
         },
         {
           "id": 1276779222,
@@ -587,7 +596,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 93.86
+          "score": 91.15
         },
         {
           "id": 1279666161,
@@ -611,7 +620,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 89.54
+          "score": 86.84
         },
         {
           "id": 1279663174,
@@ -635,7 +644,57 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 89.53
+          "score": 86.82
+        },
+        {
+          "id": 1281436921,
+          "name": "adjudge",
+          "fullName": "kasumiki/adjudge",
+          "url": "https://github.com/kasumiki/adjudge",
+          "homepage": "",
+          "description": "Adjudge ingests the noisy output of multiple security scanners (nuclei, semgrep/CodeQL SARIF, Trivy, gitleaks, httpx), then dedupes, correlates across tools, kills false positives, and labels every surviving finding with an honest verification verdict - traceable back to the exact source line.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-26T14:55:16Z",
+          "updatedAt": "2026-06-27T19:49:04Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 84.52
+        },
+        {
+          "id": 1280418805,
+          "name": "pentest-agent-vs-llm-benchmark-effectiveness",
+          "fullName": "ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
+          "url": "https://github.com/ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
+          "homepage": "",
+          "description": "A reproducible study of LLM penetration-testing agents measuring how model backbone, agent scaffold, backend substrate, and scoring integrity affect exploit success.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PHP",
+          "createdAt": "2026-06-25T15:04:29Z",
+          "updatedAt": "2026-06-27T16:44:59Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 78.87
         },
         {
           "id": 1279672773,
@@ -660,7 +719,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 80.65
+          "score": 78.36
         },
         {
           "id": 1279721352,
@@ -685,7 +744,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 78.66
+          "score": 76.37
         },
         {
           "id": 1278584017,
@@ -710,7 +769,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.06
+          "score": 74.77
         },
         {
           "id": 1277555553,
@@ -735,7 +794,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 75.75
+          "score": 73.46
         },
         {
           "id": 1278536908,
@@ -763,7 +822,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 74.14
+          "score": 71.44
         },
         {
           "id": 1278422001,
@@ -787,7 +846,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 67.35
+          "score": 64.87
         },
         {
           "id": 1276770241,
@@ -798,10 +857,10 @@
           "description": "A small local file vault using Fernet encryption, PBKDF2-derived keys, and a cautious plaintext cleanup step.",
           "stars": 5,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-06-22T09:21:58Z",
-          "updatedAt": "2026-06-25T04:35:24Z",
+          "updatedAt": "2026-06-28T04:34:41Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -812,7 +871,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.67
+          "score": 59.19
         },
         {
           "id": 1276770383,
@@ -823,10 +882,10 @@
           "description": "Access-log parser that pulls out suspicious request patterns and noisy client behavior from web server logs.",
           "stars": 5,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-06-22T09:22:07Z",
-          "updatedAt": "2026-06-25T04:35:04Z",
+          "updatedAt": "2026-06-28T04:34:00Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -837,31 +896,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.67
-        },
-        {
-          "id": 1276768617,
-          "name": "local-port-scout",
-          "fullName": "gvbytes/local-port-scout",
-          "url": "https://github.com/gvbytes/local-port-scout",
-          "homepage": "",
-          "description": "Local/private-network TCP port scanner for checking listening services in a lab-safe way.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-22T09:20:34Z",
-          "updatedAt": "2026-06-25T04:34:59Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 61.66
+          "score": 59.19
         }
       ]
     }
