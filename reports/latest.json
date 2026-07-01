@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-01T05:53:37.697Z",
+  "generatedAt": "2026-07-01T15:49:25.719Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,120 @@
         "maxItems": 12
       },
       "createdSince": "2026-06-28",
-      "totalCandidates": 24,
+      "totalCandidates": 29,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         }
       ],
       "repositories": [
+        {
+          "id": 1285981184,
+          "name": "blackout",
+          "fullName": "bariskececi/blackout",
+          "url": "https://github.com/bariskececi/blackout",
+          "homepage": "https://gnsac.com.tr",
+          "description": "Watch a cyberattack take down a water plant — in your browser. Live ICS attack simulator with real MITRE ATT&CK for ICS techniques. Zero install, opens in one click.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-07-01T10:26:06Z",
+          "updatedAt": "2026-07-01T12:41:34Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 76.23
+        },
+        {
+          "id": 1285947575,
+          "name": "TRIAGE",
+          "fullName": "bariskececi/TRIAGE",
+          "url": "https://github.com/bariskececi/TRIAGE",
+          "homepage": "https://gnsac.com.tr",
+          "description": "Answers \"what do I patch first?\" — scores an OT/ICS asset inventory against CVE + CISA KEV + EPSS and ranks remediation by real risk, not just CVSS. Runs offline.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-01T09:44:04Z",
+          "updatedAt": "2026-07-01T12:41:38Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 75.96
+        },
+        {
+          "id": 1285531548,
+          "name": "aether",
+          "fullName": "bariskececi/aether",
+          "url": "https://github.com/bariskececi/aether",
+          "homepage": "https://gnsac.com.tr",
+          "description": "Passive RF rogue-emitter detector — finds hidden cellular modems, rogue APs and wireless bridges in air-gapped OT sites from a spectrum sweep, transmit-free.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-30T22:46:00Z",
+          "updatedAt": "2026-07-01T12:41:40Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 71.68
+        },
         {
           "id": 1284295319,
           "name": "Harness",
@@ -80,12 +155,12 @@
           "url": "https://github.com/X0CBAN/Harness",
           "homepage": "",
           "description": "A fast, open-source HTTP proxy and web security testing platform",
-          "stars": 4,
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-06-29T18:07:16Z",
-          "updatedAt": "2026-07-01T02:56:48Z",
+          "updatedAt": "2026-07-01T08:39:21Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -96,7 +171,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 70.34
+          "score": 70.83
         },
         {
           "id": 1283675985,
@@ -105,12 +180,12 @@
           "url": "https://github.com/zerometa-hq/OSINT-Tools-Nigeria",
           "homepage": "",
           "description": "A specialized OSINT framework for high-signal investigations focused exclusively on the Nigerian landscape.",
-          "stars": 4,
+          "stars": 6,
           "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-06-29T06:20:17Z",
-          "updatedAt": "2026-06-30T20:07:21Z",
+          "updatedAt": "2026-07-01T13:43:14Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -120,7 +195,59 @@
           "tags": [
             "网络安全"
           ],
-          "score": 64.11
+          "score": 68.3
+        },
+        {
+          "id": 1285699592,
+          "name": "fota-secure",
+          "fullName": "siddusuhaas/fota-secure",
+          "url": "https://github.com/siddusuhaas/fota-secure",
+          "homepage": "",
+          "description": "Secure OTA firmware updater for embedded Linux - envelope encryption, signature verification, threat-modeled defenses against tampering and path traversal",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-07-01T04:17:42Z",
+          "updatedAt": "2026-07-01T13:55:29Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 63.63
+        },
+        {
+          "id": 1285519662,
+          "name": "SecureScore",
+          "fullName": "Adventuric/SecureScore",
+          "url": "https://github.com/Adventuric/SecureScore",
+          "homepage": "https://securescore.vercel.app/",
+          "description": "Check if your email/username was exposed in data breaches. Get a personalized security score & recommendations.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-06-30T22:21:47Z",
+          "updatedAt": "2026-07-01T06:06:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 61.49
         },
         {
           "id": 1285203380,
@@ -146,7 +273,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 62.53
+          "score": 58.94
         },
         {
           "id": 1284585203,
@@ -172,21 +299,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.49
+          "score": 57.26
         },
         {
-          "id": 1283490002,
-          "name": "DarkHunter",
-          "fullName": "jdnbwz6fzg-cloud/DarkHunter",
-          "url": "https://github.com/jdnbwz6fzg-cloud/DarkHunter",
-          "homepage": "",
-          "description": "Python pentest toolkit — 11 CLI subtools for recon + brute + CVE matching",
-          "stars": 5,
+          "id": 1284378743,
+          "name": "heading-os",
+          "fullName": "mishahanin/heading-os",
+          "url": "https://github.com/mishahanin/heading-os",
+          "homepage": "https://mishahanin.github.io/heading-os/",
+          "description": "The operating system an executive runs their company from — research, communications, CRM, content, and operations. Claude Code is the foundation; HEADING OS is the value built on top: sovereign, security-first, your data kept private.",
+          "stars": 4,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 11,
           "language": "Python",
-          "createdAt": "2026-06-29T01:22:12Z",
-          "updatedAt": "2026-07-01T01:20:18Z",
+          "createdAt": "2026-06-29T20:03:05Z",
+          "updatedAt": "2026-07-01T15:42:35Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -195,10 +322,9 @@
           ],
           "tags": [
             "通用安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
+            "网络安全"
           ],
-          "score": 57.57
+          "score": 56.72
         },
         {
           "id": 1282612671,
@@ -228,45 +354,18 @@
           "score": 56.6
         },
         {
-          "id": 1284127930,
-          "name": "alfa-arsenal",
-          "fullName": "ardittirana/alfa-arsenal",
-          "url": "https://github.com/ardittirana/alfa-arsenal",
+          "id": 1283490002,
+          "name": "DarkHunter",
+          "fullName": "jdnbwz6fzg-cloud/DarkHunter",
+          "url": "https://github.com/jdnbwz6fzg-cloud/DarkHunter",
           "homepage": "",
-          "description": "Wireless network security auditor and resiliency tool for authorized testing (Alfa AWUS036ACH / RTL8812AU and Other ...).",
-          "stars": 2,
+          "description": "Python pentest toolkit — 11 CLI subtools for recon + brute + CVE matching",
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-06-29T14:50:47Z",
-          "updatedAt": "2026-06-29T16:47:23Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 56.52
-        },
-        {
-          "id": 1284378743,
-          "name": "heading-os",
-          "fullName": "mishahanin/heading-os",
-          "url": "https://github.com/mishahanin/heading-os",
-          "homepage": "https://mishahanin.github.io/heading-os/",
-          "description": "The operating system an executive runs their company from — research, communications, CRM, content, and operations. Claude Code is the foundation; HEADING OS is the value built on top: sovereign, security-first, your data kept private.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 7,
-          "language": "Python",
-          "createdAt": "2026-06-29T20:03:05Z",
-          "updatedAt": "2026-06-30T22:31:56Z",
+          "createdAt": "2026-06-29T01:22:12Z",
+          "updatedAt": "2026-07-01T08:18:08Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -275,114 +374,10 @@
           ],
           "tags": [
             "通用安全",
-            "网络安全"
-          ],
-          "score": 55.57
-        },
-        {
-          "id": 1284513974,
-          "name": "mangekyo-cli",
-          "fullName": "Marckevf/mangekyo-cli",
-          "url": "https://github.com/Marckevf/mangekyo-cli",
-          "homepage": "",
-          "description": "Attack surface reconnaissance and ML risk scoring CLI",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-30T00:13:48Z",
-          "updatedAt": "2026-06-30T02:42:19Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 55.39
-        },
-        {
-          "id": 1283925586,
-          "name": "RaccShells",
-          "fullName": "BenjiTrapp/RaccShells",
-          "url": "https://github.com/BenjiTrapp/RaccShells",
-          "homepage": "https://benjitrapp.github.io/RaccShells/",
-          "description": "🦝 Self-contained reverse shell generator — zero dependencies, single HTML file. Syntax highlighting, animated diagrams, shell obfuscation, LotL techniques & more.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-06-29T11:10:11Z",
-          "updatedAt": "2026-07-01T01:28:10Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
             "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 54.96
-        },
-        {
-          "id": 1283803223,
-          "name": "nerd",
-          "fullName": "mba-official/nerd",
-          "url": "https://github.com/mba-official/nerd",
-          "homepage": "",
-          "description": "Password generator and wordlist tool. An efficient CUPP alternative that prioritizes realistic password candidates",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-29T08:52:35Z",
-          "updatedAt": "2026-06-29T13:31:16Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
+            "漏洞研究 / 攻防"
           ],
           "score": 53.98
-        },
-        {
-          "id": 1284629328,
-          "name": "jspect",
-          "fullName": "roy0x01/jspect",
-          "url": "https://github.com/roy0x01/jspect",
-          "homepage": "",
-          "description": "Beautify and recon JS from the terminal",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-06-30T03:50:37Z",
-          "updatedAt": "2026-06-30T18:01:59Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 52.59
         }
       ]
     },
@@ -395,42 +390,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-06-24",
-      "totalCandidates": 20,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 7,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1782885270"
+          "rateLimitReset": "1782921018"
         }
       ],
       "repositories": [
@@ -446,7 +441,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-24T18:19:06Z",
-          "updatedAt": "2026-06-30T21:54:55Z",
+          "updatedAt": "2026-07-01T15:16:44Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -460,7 +455,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 202.96
+          "score": 201.15
         },
         {
           "id": 1279604034,
@@ -474,7 +469,7 @@
           "openIssues": 4,
           "language": "Python",
           "createdAt": "2026-06-24T21:03:02Z",
-          "updatedAt": "2026-06-29T15:55:48Z",
+          "updatedAt": "2026-07-01T12:06:37Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -485,7 +480,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 105.02
+          "score": 103.48
         },
         {
           "id": 1280962636,
@@ -510,7 +505,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.93
+          "score": 93.39
         },
         {
           "id": 1281436921,
@@ -535,7 +530,56 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 87.88
+          "score": 86.35
+        },
+        {
+          "id": 1284295319,
+          "name": "Harness",
+          "fullName": "X0CBAN/Harness",
+          "url": "https://github.com/X0CBAN/Harness",
+          "homepage": "",
+          "description": "A fast, open-source HTTP proxy and web security testing platform",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-06-29T18:07:16Z",
+          "updatedAt": "2026-07-01T08:39:21Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 81.96
+        },
+        {
+          "id": 1283675985,
+          "name": "OSINT-Tools-Nigeria",
+          "fullName": "zerometa-hq/OSINT-Tools-Nigeria",
+          "url": "https://github.com/zerometa-hq/OSINT-Tools-Nigeria",
+          "homepage": "",
+          "description": "A specialized OSINT framework for high-signal investigations focused exclusively on the Nigerian landscape.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-29T06:20:17Z",
+          "updatedAt": "2026-07-01T13:43:14Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 81.11
         },
         {
           "id": 1281714645,
@@ -546,7 +590,7 @@
           "description": "eBPF egress firewall for Kubernetes — see and enforce what every pod talks to (domains, HTTP paths, headers, IPs), attributed per pod, enforced in the kernel. No sidecar, no proxy, no TLS MITM.",
           "stars": 14,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 1,
           "language": "Go",
           "createdAt": "2026-06-26T21:04:42Z",
           "updatedAt": "2026-06-30T15:31:19Z",
@@ -560,7 +604,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 81.78
+          "score": 80.24
         },
         {
           "id": 1281675211,
@@ -584,7 +628,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 78.67
+          "score": 76.86
         },
         {
           "id": 1279666161,
@@ -600,18 +644,15 @@
           "createdAt": "2026-06-24T22:54:08Z",
           "updatedAt": "2026-06-25T01:06:23Z",
           "matchedProfiles": [
-            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
             1.18
           ],
           "tags": [
-            "通用安全",
             "渗透 / 红队"
           ],
-          "score": 73.66
+          "score": 71.85
         },
         {
           "id": 1279663174,
@@ -635,7 +676,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 73.65
+          "score": 71.83
         },
         {
           "id": 1282612671,
@@ -662,7 +703,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 72.59
+          "score": 70.87
         },
         {
           "id": 1281576465,
@@ -690,7 +731,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 70.54
+          "score": 68.73
         },
         {
           "id": 1279672773,
@@ -715,7 +756,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 67.2
+          "score": 65.66
         },
         {
           "id": 1280418805,
@@ -740,7 +781,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 65.69
+          "score": 63.87
         },
         {
           "id": 1279721352,
@@ -765,7 +806,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 65.2
+          "score": 63.66
         },
         {
           "id": 1279804571,
@@ -791,7 +832,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 63.08
+          "score": 61.54
         },
         {
           "id": 1278974449,
@@ -817,7 +858,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 55.09
+          "score": 54.57
         }
       ]
     }
