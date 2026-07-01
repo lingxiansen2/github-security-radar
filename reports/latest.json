@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-06-30T15:42:04.683Z",
+  "generatedAt": "2026-07-01T05:53:37.697Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,46 +33,147 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-27",
-      "totalCandidates": 27,
+      "createdSince": "2026-06-28",
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 8,
+          "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         }
       ],
       "repositories": [
+        {
+          "id": 1284295319,
+          "name": "Harness",
+          "fullName": "X0CBAN/Harness",
+          "url": "https://github.com/X0CBAN/Harness",
+          "homepage": "",
+          "description": "A fast, open-source HTTP proxy and web security testing platform",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-06-29T18:07:16Z",
+          "updatedAt": "2026-07-01T02:56:48Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 70.34
+        },
+        {
+          "id": 1283675985,
+          "name": "OSINT-Tools-Nigeria",
+          "fullName": "zerometa-hq/OSINT-Tools-Nigeria",
+          "url": "https://github.com/zerometa-hq/OSINT-Tools-Nigeria",
+          "homepage": "",
+          "description": "A specialized OSINT framework for high-signal investigations focused exclusively on the Nigerian landscape.",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-29T06:20:17Z",
+          "updatedAt": "2026-06-30T20:07:21Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 64.11
+        },
+        {
+          "id": 1285203380,
+          "name": "awesome-agent-sandbox",
+          "fullName": "fishman/awesome-agent-sandbox",
+          "url": "https://github.com/fishman/awesome-agent-sandbox",
+          "homepage": "",
+          "description": "Portable, self-contained sandboxes for AI coding agents - microVMs, containers, isolation harnesses.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-30T15:18:40Z",
+          "updatedAt": "2026-07-01T01:02:48Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 62.53
+        },
+        {
+          "id": 1284585203,
+          "name": "vigilar",
+          "fullName": "7nihil/vigilar",
+          "url": "https://github.com/7nihil/vigilar",
+          "homepage": "",
+          "description": "LLM Security & OWASP LLM Auditing Framework",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-30T02:30:48Z",
+          "updatedAt": "2026-07-01T05:01:22Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 61.49
+        },
         {
           "id": 1283490002,
           "name": "DarkHunter",
@@ -85,7 +186,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-29T01:22:12Z",
-          "updatedAt": "2026-06-30T15:15:05Z",
+          "updatedAt": "2026-07-01T01:20:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,60 +198,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 62.69
-        },
-        {
-          "id": 1284127930,
-          "name": "alfa-arsenal",
-          "fullName": "ardittirana/alfa-arsenal",
-          "url": "https://github.com/ardittirana/alfa-arsenal",
-          "homepage": "",
-          "description": "Wireless network security auditor and resiliency tool for authorized testing (Alfa AWUS036ACH / RTL8812AU and Other ...).",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-29T14:50:47Z",
-          "updatedAt": "2026-06-29T16:47:23Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 62.57
-        },
-        {
-          "id": 1284513974,
-          "name": "mangekyo-cli",
-          "fullName": "Marckevf/mangekyo-cli",
-          "url": "https://github.com/Marckevf/mangekyo-cli",
-          "homepage": "",
-          "description": "Attack surface reconnaissance and ML risk scoring CLI",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-30T00:13:48Z",
-          "updatedAt": "2026-06-30T02:42:19Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 60.93
+          "score": 57.57
         },
         {
           "id": 1282612671,
@@ -177,7 +225,34 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 60.84
+          "score": 56.6
+        },
+        {
+          "id": 1284127930,
+          "name": "alfa-arsenal",
+          "fullName": "ardittirana/alfa-arsenal",
+          "url": "https://github.com/ardittirana/alfa-arsenal",
+          "homepage": "",
+          "description": "Wireless network security auditor and resiliency tool for authorized testing (Alfa AWUS036ACH / RTL8812AU and Other ...).",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-29T14:50:47Z",
+          "updatedAt": "2026-06-29T16:47:23Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 56.52
         },
         {
           "id": 1284378743,
@@ -191,7 +266,7 @@
           "openIssues": 7,
           "language": "Python",
           "createdAt": "2026-06-29T20:03:05Z",
-          "updatedAt": "2026-06-30T07:19:00Z",
+          "updatedAt": "2026-06-30T22:31:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -202,7 +277,59 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 60.7
+          "score": 55.57
+        },
+        {
+          "id": 1284513974,
+          "name": "mangekyo-cli",
+          "fullName": "Marckevf/mangekyo-cli",
+          "url": "https://github.com/Marckevf/mangekyo-cli",
+          "homepage": "",
+          "description": "Attack surface reconnaissance and ML risk scoring CLI",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-30T00:13:48Z",
+          "updatedAt": "2026-06-30T02:42:19Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 55.39
+        },
+        {
+          "id": 1283925586,
+          "name": "RaccShells",
+          "fullName": "BenjiTrapp/RaccShells",
+          "url": "https://github.com/BenjiTrapp/RaccShells",
+          "homepage": "https://benjitrapp.github.io/RaccShells/",
+          "description": "🦝 Self-contained reverse shell generator — zero dependencies, single HTML file. Syntax highlighting, animated diagrams, shell obfuscation, LotL techniques & more.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-06-29T11:10:11Z",
+          "updatedAt": "2026-07-01T01:28:10Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 54.96
         },
         {
           "id": 1283803223,
@@ -230,47 +357,21 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 60.03
+          "score": 53.98
         },
         {
-          "id": 1284137282,
-          "name": "SentriX",
-          "fullName": "alive-xd/SentriX",
-          "url": "https://github.com/alive-xd/SentriX",
+          "id": 1284629328,
+          "name": "jspect",
+          "fullName": "roy0x01/jspect",
+          "url": "https://github.com/roy0x01/jspect",
           "homepage": "",
-          "description": "AI-powered SOC platform — Alert management, Threat Intel & SOAR automation. Built with FastAPI + Next.js 14.",
+          "description": "Beautify and recon JS from the terminal",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-29T15:00:33Z",
-          "updatedAt": "2026-06-29T19:18:28Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 57.33
-        },
-        {
-          "id": 1283888406,
-          "name": "blindvault",
-          "fullName": "psypilot/blindvault",
-          "url": "https://github.com/psypilot/blindvault",
-          "homepage": "",
-          "description": "Secrets manager for AI agents: let LLM agents use API keys & DB passwords without ever seeing the plaintext. Master-password vault, OS-isolated credential-injecting broker/proxy, per-secret usage policies, PostgreSQL connector. Stops prompt-injection key leaks.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-29T10:28:07Z",
-          "updatedAt": "2026-06-29T12:54:57Z",
+          "language": "Go",
+          "createdAt": "2026-06-30T03:50:37Z",
+          "updatedAt": "2026-06-30T18:01:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -279,107 +380,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 57.24
-        },
-        {
-          "id": 1282380163,
-          "name": "LoRaT",
-          "fullName": "umutcamliyurt/LoRaT",
-          "url": "https://github.com/umutcamliyurt/LoRaT",
-          "homepage": "",
-          "description": "A stealthy RAT that uses encrypted long-range radio signals for C&C operations",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-06-27T17:36:11Z",
-          "updatedAt": "2026-06-29T18:28:41Z",
-          "matchedProfiles": [
             "渗透 / 红队"
           ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 55.72
-        },
-        {
-          "id": 1283344591,
-          "name": "arch-to-blackarch",
-          "fullName": "Ch4120N/arch-to-blackarch",
-          "url": "https://github.com/Ch4120N/arch-to-blackarch",
-          "homepage": "https://ch4120n.github.io/arch-to-blackarch",
-          "description": "🐧 The Ultimate Guide: Transform a minimal Arch Linux install into a BlackArch penetration testing powerhouse. From Noob to Pro!",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-06-28T20:31:41Z",
-          "updatedAt": "2026-06-29T14:05:46Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 54.76
-        },
-        {
-          "id": 1282048232,
-          "name": "arhus",
-          "fullName": "sudoeren/arhus",
-          "url": "https://github.com/sudoeren/arhus",
-          "homepage": "https://www.npmjs.com/package/arhus-cli",
-          "description": "local-first security analysis for TypeScript & JavaScript",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-06-27T08:51:04Z",
-          "updatedAt": "2026-06-29T09:10:25Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 54
-        },
-        {
-          "id": 1283149251,
-          "name": "cybersec-knowledge-books",
-          "fullName": "izrafilcst/cybersec-knowledge-books",
-          "url": "https://github.com/izrafilcst/cybersec-knowledge-books",
-          "homepage": "",
-          "description": "57 cybersecurity books organized by category (foundations, red-team, blue-team, career) with a 5-year Blue->Red Team roadmap (2026-2030)",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-28T15:47:55Z",
-          "updatedAt": "2026-06-29T01:27:56Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 52.75
+          "score": 52.59
         }
       ]
     },
@@ -391,43 +394,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-23",
-      "totalCandidates": 23,
+      "createdSince": "2026-06-24",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
+          "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 6,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1782834176"
+          "rateLimitReset": "1782885270"
         }
       ],
       "repositories": [
@@ -438,12 +441,12 @@
           "url": "https://github.com/uphiago/recon-skills",
           "homepage": "https://github.com/uphiago/recon-skills",
           "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
-          "stars": 281,
-          "forks": 51,
+          "stars": 286,
+          "forks": 53,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-24T18:19:06Z",
-          "updatedAt": "2026-06-30T12:46:00Z",
+          "updatedAt": "2026-06-30T21:54:55Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -457,37 +460,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 204.76
-        },
-        {
-          "id": 1278394334,
-          "name": "darknet-mcp-server",
-          "fullName": "badchars/darknet-mcp-server",
-          "url": "https://github.com/badchars/darknet-mcp-server",
-          "homepage": "https://www.npmjs.com/package/darknet-mcp-server",
-          "description": "66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware analysis, blockchain intel, exploit search, stealer logs",
-          "stars": 76,
-          "forks": 15,
-          "openIssues": 4,
-          "language": "TypeScript",
-          "createdAt": "2026-06-23T18:45:38Z",
-          "updatedAt": "2026-06-30T15:09:16Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 139.98
+          "score": 202.96
         },
         {
           "id": 1279604034,
@@ -512,7 +485,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 107.22
+          "score": 105.02
         },
         {
           "id": 1280962636,
@@ -521,12 +494,12 @@
           "url": "https://github.com/fishonbike/vault-engine",
           "homepage": "",
           "description": "A local-LLM privacy layer for anything you paste into a cloud model — detect, tokenize, restore. Zero deps, reversible, strong on Chinese.",
-          "stars": 25,
+          "stars": 23,
           "forks": 1,
           "openIssues": 8,
           "language": "Python",
           "createdAt": "2026-06-26T05:18:51Z",
-          "updatedAt": "2026-06-30T05:52:54Z",
+          "updatedAt": "2026-06-30T20:07:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -537,7 +510,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 99.12
+          "score": 94.93
         },
         {
           "id": 1281436921,
@@ -546,12 +519,12 @@
           "url": "https://github.com/takrenn/adjudge",
           "homepage": "",
           "description": "Adjudge ingests the noisy output of multiple security scanners (nuclei, semgrep/CodeQL SARIF, Trivy, gitleaks, httpx), then dedupes, correlates across tools, kills false positives, and labels every surviving finding with an honest verification verdict - traceable back to the exact source line.",
-          "stars": 14,
+          "stars": 16,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-06-26T14:55:16Z",
-          "updatedAt": "2026-06-30T13:12:56Z",
+          "updatedAt": "2026-07-01T00:29:53Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -562,7 +535,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 87.02
+          "score": 87.88
         },
         {
           "id": 1281714645,
@@ -587,7 +560,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 83.98
+          "score": 81.78
         },
         {
           "id": 1281675211,
@@ -596,12 +569,12 @@
           "url": "https://github.com/Liangqingkui8/VoidHawk",
           "homepage": "",
           "description": "Web资产信息收集与鉴权检测工具",
-          "stars": 6,
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-06-26T19:59:22Z",
-          "updatedAt": "2026-06-30T00:52:05Z",
+          "updatedAt": "2026-07-01T00:53:53Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -611,7 +584,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 77.65
+          "score": 78.67
         },
         {
           "id": 1279666161,
@@ -627,15 +600,18 @@
           "createdAt": "2026-06-24T22:54:08Z",
           "updatedAt": "2026-06-25T01:06:23Z",
           "matchedProfiles": [
+            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1,
             1.18
           ],
           "tags": [
+            "通用安全",
             "渗透 / 红队"
           ],
-          "score": 76.26
+          "score": 73.66
         },
         {
           "id": 1279663174,
@@ -659,7 +635,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 76.24
+          "score": 73.65
         },
         {
           "id": 1282612671,
@@ -686,7 +662,35 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 75.05
+          "score": 72.59
+        },
+        {
+          "id": 1281576465,
+          "name": "GEMMA-by-GOOGLE",
+          "fullName": "XenoCoreGiger31/GEMMA-by-GOOGLE",
+          "url": "https://github.com/XenoCoreGiger31/GEMMA-by-GOOGLE",
+          "homepage": "",
+          "description": "GEMMA-POWERED-BY-GOOGLE-CYBERSECURITY-AUTONOMOUS-AI An autonomous AI agent using a Linux Environment using a GEMMA4-12b model. HIGHLY ABLITERATED. Fully Local-Fully FREE -WITH PERSISTENT NEG-EXPERIENCE-CACHE -LEARNING-AND GETTING SMARTER WITH EACH ENGAGEMENT. AUTONOMOUS RECON-ATTACK-LOOPS AND AUTOMATIC- PROFESSIONAL REPORT GENERATION-ON FINDINGS.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-06-26T17:39:59Z",
+          "updatedAt": "2026-06-30T18:26:09Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 70.54
         },
         {
           "id": 1279672773,
@@ -711,7 +715,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 69.39
+          "score": 67.2
         },
         {
           "id": 1280418805,
@@ -736,21 +740,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 68.28
+          "score": 65.69
         },
         {
-          "id": 1277555553,
-          "name": "Vipre-Advanced-Security-2026",
-          "fullName": "talonsorcererneedle/Vipre-Advanced-Security-2026",
-          "url": "https://github.com/talonsorcererneedle/Vipre-Advanced-Security-2026",
+          "id": 1279721352,
+          "name": "ESET-Smart-Security-2026",
+          "fullName": "portaltaxiovercome/ESET-Smart-Security-2026",
+          "url": "https://github.com/portaltaxiovercome/ESET-Smart-Security-2026",
           "homepage": "",
-          "description": "vipre advanced security download — VIPRE Advanced Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 11,
+          "description": "eset smart security download — ESET Smart Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-06-23T02:01:05Z",
-          "updatedAt": "2026-06-23T03:24:42Z",
+          "createdAt": "2026-06-25T00:49:35Z",
+          "updatedAt": "2026-06-25T02:24:05Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -761,35 +765,33 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 66.61
+          "score": 65.2
         },
         {
-          "id": 1278536908,
-          "name": ".github",
-          "fullName": "ShahinNexus/.github",
-          "url": "https://github.com/ShahinNexus/.github",
+          "id": 1279804571,
+          "name": "Baixar-Quick-Heal",
+          "fullName": "ElementInspection/Baixar-Quick-Heal",
+          "url": "https://github.com/ElementInspection/Baixar-Quick-Heal",
           "homepage": "",
-          "description": "🦅 Team Shahin - Cybersecurity CTF | Hardware Security, Reverse Engineering & Exploit Development | Technology Olympics 1405",
-          "stars": 5,
+          "description": "baixar quick heal total security premium windows — Quick Heal Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-06-23T22:23:55Z",
-          "updatedAt": "2026-06-25T10:20:59Z",
+          "createdAt": "2026-06-25T03:05:37Z",
+          "updatedAt": "2026-06-25T04:47:55Z",
           "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08,
-            1.18
+            1
           ],
           "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 60.85
+          "score": 63.08
         },
         {
           "id": 1278974449,
@@ -815,31 +817,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 57.47
-        },
-        {
-          "id": 1278422001,
-          "name": "flipper-badge-audit",
-          "fullName": "ViperDroid/flipper-badge-audit",
-          "url": "https://github.com/ViperDroid/flipper-badge-audit",
-          "homepage": "",
-          "description": "Defensive NFC access-badge security auditor for Flipper Zero — identifies the chip, reads UID, tests MIFARE Classic default keys, and rates clone-resistance.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-06-23T19:20:27Z",
-          "updatedAt": "2026-06-29T00:18:30Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 55.18
+          "score": 55.09
         }
       ]
     }
