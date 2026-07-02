@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-01T15:49:25.719Z",
+  "generatedAt": "2026-07-02T05:09:05.935Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,46 +33,95 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-06-28",
-      "totalCandidates": 29,
+      "createdSince": "2026-06-29",
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 7,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         }
       ],
       "repositories": [
+        {
+          "id": 1284295319,
+          "name": "Harness",
+          "fullName": "X0CBAN/Harness",
+          "url": "https://github.com/X0CBAN/Harness",
+          "homepage": "",
+          "description": "A fast, open-source HTTP proxy and web security testing Framework",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-06-29T18:07:16Z",
+          "updatedAt": "2026-07-01T21:31:43Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 81.67
+        },
+        {
+          "id": 1283675985,
+          "name": "OSINT-Tools-Nigeria",
+          "fullName": "zerometa-hq/OSINT-Tools-Nigeria",
+          "url": "https://github.com/zerometa-hq/OSINT-Tools-Nigeria",
+          "homepage": "",
+          "description": "A specialized OSINT framework for high-signal investigations focused exclusively on the Nigerian landscape.",
+          "stars": 8,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-29T06:20:17Z",
+          "updatedAt": "2026-07-02T00:05:26Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 71.89
+        },
         {
           "id": 1285981184,
           "name": "blackout",
@@ -95,7 +144,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 76.23
+          "score": 71.03
         },
         {
           "id": 1285947575,
@@ -121,7 +170,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 75.96
+          "score": 70.76
         },
         {
           "id": 1285531548,
@@ -146,46 +195,21 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.68
+          "score": 66.48
         },
         {
-          "id": 1284295319,
-          "name": "Harness",
-          "fullName": "X0CBAN/Harness",
-          "url": "https://github.com/X0CBAN/Harness",
+          "id": 1286563028,
+          "name": "Port-Scanner",
+          "fullName": "KapganxKhan681/Port-Scanner",
+          "url": "https://github.com/KapganxKhan681/Port-Scanner",
           "homepage": "",
-          "description": "A fast, open-source HTTP proxy and web security testing platform",
-          "stars": 5,
+          "description": "A fast, multi-threaded network port scanner and banner grabbing tool I built with Python for reconnaissance.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-06-29T18:07:16Z",
-          "updatedAt": "2026-07-01T08:39:21Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 70.83
-        },
-        {
-          "id": 1283675985,
-          "name": "OSINT-Tools-Nigeria",
-          "fullName": "zerometa-hq/OSINT-Tools-Nigeria",
-          "url": "https://github.com/zerometa-hq/OSINT-Tools-Nigeria",
-          "homepage": "",
-          "description": "A specialized OSINT framework for high-signal investigations focused exclusively on the Nigerian landscape.",
-          "stars": 6,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-29T06:20:17Z",
-          "updatedAt": "2026-07-01T13:43:14Z",
+          "language": "Python",
+          "createdAt": "2026-07-01T22:54:56Z",
+          "updatedAt": "2026-07-01T23:38:26Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -193,23 +217,25 @@
             1.08
           ],
           "tags": [
-            "网络安全"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 68.3
+          "score": 64.53
         },
         {
-          "id": 1285699592,
-          "name": "fota-secure",
-          "fullName": "siddusuhaas/fota-secure",
-          "url": "https://github.com/siddusuhaas/fota-secure",
-          "homepage": "",
-          "description": "Secure OTA firmware updater for embedded Linux - envelope encryption, signature verification, threat-modeled defenses against tampering and path traversal",
-          "stars": 3,
+          "id": 1284378743,
+          "name": "heading-os",
+          "fullName": "mishahanin/heading-os",
+          "url": "https://github.com/mishahanin/heading-os",
+          "homepage": "https://mishahanin.github.io/heading-os/",
+          "description": "The operating system an executive runs their company from — research, communications, CRM, content, and operations. Claude Code is the foundation; HEADING OS is the value built on top: sovereign, security-first, your data kept private.",
+          "stars": 7,
           "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-07-01T04:17:42Z",
-          "updatedAt": "2026-07-01T13:55:29Z",
+          "openIssues": 11,
+          "language": "Python",
+          "createdAt": "2026-06-29T20:03:05Z",
+          "updatedAt": "2026-07-01T21:43:41Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -218,10 +244,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "网络安全"
           ],
-          "score": 63.63
+          "score": 62.44
         },
         {
           "id": 1285519662,
@@ -247,7 +272,60 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.49
+          "score": 56.68
+        },
+        {
+          "id": 1285862871,
+          "name": "ai-bwrap",
+          "fullName": "didvc/ai-bwrap",
+          "url": "https://github.com/didvc/ai-bwrap",
+          "homepage": "",
+          "description": "Run AI coding agents (Claude Code, opencode, Grok, ...) inside a bubblewrap sandbox — one wrapper, any agent.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-07-01T08:03:36Z",
+          "updatedAt": "2026-07-01T21:51:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 54.38
+        },
+        {
+          "id": 1285210064,
+          "name": "vibegate",
+          "fullName": "theMiddleBlue/vibegate",
+          "url": "https://github.com/theMiddleBlue/vibegate",
+          "homepage": "",
+          "description": "Host-agnostic pre-write security hook for coding agent: detects user-input patterns via Semgrep and emits deterministic, no-LLM security guidance.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-06-30T15:26:02Z",
+          "updatedAt": "2026-07-01T19:51:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "网络安全"
+          ],
+          "score": 54.17
         },
         {
           "id": 1285203380,
@@ -273,111 +351,32 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 58.94
+          "score": 54.13
         },
         {
-          "id": 1284585203,
-          "name": "vigilar",
-          "fullName": "7nihil/vigilar",
-          "url": "https://github.com/7nihil/vigilar",
+          "id": 1285202963,
+          "name": "vulnerability-scanner",
+          "fullName": "charmipatel12/vulnerability-scanner",
+          "url": "https://github.com/charmipatel12/vulnerability-scanner",
           "homepage": "",
-          "description": "LLM Security & OWASP LLM Auditing Framework",
+          "description": "A Python-based vulnerability scanner that detects open ports, identifies running services, and generates security reports for authorized security assessments.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-06-30T02:30:48Z",
-          "updatedAt": "2026-07-01T05:01:22Z",
+          "createdAt": "2026-06-30T15:18:12Z",
+          "updatedAt": "2026-07-01T17:24:17Z",
           "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 57.26
-        },
-        {
-          "id": 1284378743,
-          "name": "heading-os",
-          "fullName": "mishahanin/heading-os",
-          "url": "https://github.com/mishahanin/heading-os",
-          "homepage": "https://mishahanin.github.io/heading-os/",
-          "description": "The operating system an executive runs their company from — research, communications, CRM, content, and operations. Claude Code is the foundation; HEADING OS is the value built on top: sovereign, security-first, your data kept private.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 11,
-          "language": "Python",
-          "createdAt": "2026-06-29T20:03:05Z",
-          "updatedAt": "2026-07-01T15:42:35Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 56.72
-        },
-        {
-          "id": 1282612671,
-          "name": "BlindSpot",
-          "fullName": "diabloidyobane/BlindSpot",
-          "url": "https://github.com/diabloidyobane/BlindSpot",
-          "homepage": "",
-          "description": "Reverse engineering a manually-mapped commercial cheat DLL in The Division 2. Documents the pe-sieve enumeration Blindspot (MEM_PRIVATE + header wiping). Anti-cheat safe — read-only Windows APIs only, no debugger, no injection. Pure Python. Includes the reconstructed PE, IDA database, scripts, and an academic paper of the workflow.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-28T02:11:12Z",
-          "updatedAt": "2026-06-29T11:45:15Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 56.6
-        },
-        {
-          "id": 1283490002,
-          "name": "DarkHunter",
-          "fullName": "jdnbwz6fzg-cloud/DarkHunter",
-          "url": "https://github.com/jdnbwz6fzg-cloud/DarkHunter",
-          "homepage": "",
-          "description": "Python pentest toolkit — 11 CLI subtools for recon + brute + CVE matching",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-29T01:22:12Z",
-          "updatedAt": "2026-07-01T08:18:08Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
+            "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 53.98
+          "score": 52.2
         }
       ]
     },
@@ -389,59 +388,59 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-24",
-      "totalCandidates": 23,
+      "createdSince": "2026-06-25",
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 7,
+          "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1782921018"
+          "rateLimitReset": "1782968999"
         }
       ],
       "repositories": [
         {
-          "id": 1279480946,
-          "name": "recon-skills",
-          "fullName": "uphiago/recon-skills",
-          "url": "https://github.com/uphiago/recon-skills",
-          "homepage": "https://github.com/uphiago/recon-skills",
-          "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
-          "stars": 286,
-          "forks": 53,
+          "id": 1284295319,
+          "name": "Harness",
+          "fullName": "X0CBAN/Harness",
+          "url": "https://github.com/X0CBAN/Harness",
+          "homepage": "",
+          "description": "A fast, open-source HTTP proxy and web security testing Framework",
+          "stars": 10,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-24T18:19:06Z",
-          "updatedAt": "2026-07-01T15:16:44Z",
+          "language": "JavaScript",
+          "createdAt": "2026-06-29T18:07:16Z",
+          "updatedAt": "2026-07-01T21:31:43Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -450,37 +449,9 @@
           ],
           "tags": [
             "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 201.15
-        },
-        {
-          "id": 1279604034,
-          "name": "SentinelDeck",
-          "fullName": "sanmaxdev/SentinelDeck",
-          "url": "https://github.com/sanmaxdev/SentinelDeck",
-          "homepage": "https://pypi.org/project/sentineldeck/",
-          "description": "Passive attack-surface scanner: turn a domain into a risk grade, copy-paste fixes, and a client-ready report. Safe DNS, HTTP, TLS, email, and certificate-transparency checks.",
-          "stars": 27,
-          "forks": 13,
-          "openIssues": 4,
-          "language": "Python",
-          "createdAt": "2026-06-24T21:03:02Z",
-          "updatedAt": "2026-07-01T12:06:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 103.48
+          "score": 96.04
         },
         {
           "id": 1280962636,
@@ -505,7 +476,31 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 93.39
+          "score": 91.33
+        },
+        {
+          "id": 1283675985,
+          "name": "OSINT-Tools-Nigeria",
+          "fullName": "zerometa-hq/OSINT-Tools-Nigeria",
+          "url": "https://github.com/zerometa-hq/OSINT-Tools-Nigeria",
+          "homepage": "",
+          "description": "A specialized OSINT framework for high-signal investigations focused exclusively on the Nigerian landscape.",
+          "stars": 8,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-29T06:20:17Z",
+          "updatedAt": "2026-07-02T00:05:26Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 87.67
         },
         {
           "id": 1281436921,
@@ -530,56 +525,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 86.35
-        },
-        {
-          "id": 1284295319,
-          "name": "Harness",
-          "fullName": "X0CBAN/Harness",
-          "url": "https://github.com/X0CBAN/Harness",
-          "homepage": "",
-          "description": "A fast, open-source HTTP proxy and web security testing platform",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-06-29T18:07:16Z",
-          "updatedAt": "2026-07-01T08:39:21Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 81.96
-        },
-        {
-          "id": 1283675985,
-          "name": "OSINT-Tools-Nigeria",
-          "fullName": "zerometa-hq/OSINT-Tools-Nigeria",
-          "url": "https://github.com/zerometa-hq/OSINT-Tools-Nigeria",
-          "homepage": "",
-          "description": "A specialized OSINT framework for high-signal investigations focused exclusively on the Nigerian landscape.",
-          "stars": 6,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-29T06:20:17Z",
-          "updatedAt": "2026-07-01T13:43:14Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 81.11
+          "score": 84.28
         },
         {
           "id": 1281714645,
@@ -588,12 +534,12 @@
           "url": "https://github.com/dvrkn/ebfw",
           "homepage": "https://dvrkn.github.io/ebfw/",
           "description": "eBPF egress firewall for Kubernetes — see and enforce what every pod talks to (domains, HTTP paths, headers, IPs), attributed per pod, enforced in the kernel. No sidecar, no proxy, no TLS MITM.",
-          "stars": 14,
+          "stars": 15,
           "forks": 0,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-06-26T21:04:42Z",
-          "updatedAt": "2026-06-30T15:31:19Z",
+          "updatedAt": "2026-07-01T20:06:08Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -604,7 +550,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.24
+          "score": 79.75
         },
         {
           "id": 1281675211,
@@ -620,63 +566,43 @@
           "createdAt": "2026-06-26T19:59:22Z",
           "updatedAt": "2026-07-01T00:53:53Z",
           "matchedProfiles": [
+            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1,
             1.18
           ],
           "tags": [
+            "通用安全",
             "渗透 / 红队"
           ],
-          "score": 76.86
+          "score": 74.42
         },
         {
-          "id": 1279666161,
-          "name": "Burp-Suite-2026",
-          "fullName": "PegasusJourneyman/Burp-Suite-2026",
-          "url": "https://github.com/PegasusJourneyman/Burp-Suite-2026",
-          "homepage": "",
-          "description": "burp suite download — Burp Suite Professional for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 8,
+          "id": 1284378743,
+          "name": "heading-os",
+          "fullName": "mishahanin/heading-os",
+          "url": "https://github.com/mishahanin/heading-os",
+          "homepage": "https://mishahanin.github.io/heading-os/",
+          "description": "The operating system an executive runs their company from — research, communications, CRM, content, and operations. Claude Code is the foundation; HEADING OS is the value built on top: sovereign, security-first, your data kept private.",
+          "stars": 7,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-24T22:54:08Z",
-          "updatedAt": "2026-06-25T01:06:23Z",
+          "openIssues": 11,
+          "language": "Python",
+          "createdAt": "2026-06-29T20:03:05Z",
+          "updatedAt": "2026-07-01T21:43:41Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队"
+            "通用安全",
+            "网络安全"
           ],
-          "score": 71.85
-        },
-        {
-          "id": 1279663174,
-          "name": "Acunetix-2026",
-          "fullName": "AlphaPotterFlash/Acunetix-2026",
-          "url": "https://github.com/AlphaPotterFlash/Acunetix-2026",
-          "homepage": "",
-          "description": "acunetix download — Acunetix for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-24T22:48:13Z",
-          "updatedAt": "2026-06-25T01:43:43Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 71.83
+          "score": 74.22
         },
         {
           "id": 1282612671,
@@ -703,7 +629,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 70.87
+          "score": 68.56
         },
         {
           "id": 1281576465,
@@ -717,7 +643,7 @@
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-06-26T17:39:59Z",
-          "updatedAt": "2026-06-30T18:26:09Z",
+          "updatedAt": "2026-07-01T22:55:18Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -731,57 +657,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 68.73
-        },
-        {
-          "id": 1279672773,
-          "name": "Kaspersky-Total-Security-2026",
-          "fullName": "heightsherifftrowel/Kaspersky-Total-Security-2026",
-          "url": "https://github.com/heightsherifftrowel/Kaspersky-Total-Security-2026",
-          "homepage": "",
-          "description": "kaspersky total security download — Kaspersky Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-24T23:07:40Z",
-          "updatedAt": "2026-06-25T01:16:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 65.66
-        },
-        {
-          "id": 1280418805,
-          "name": "pentest-agent-vs-llm-benchmark-effectiveness",
-          "fullName": "ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
-          "url": "https://github.com/ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
-          "homepage": "",
-          "description": "A reproducible study of LLM penetration-testing agents measuring how model backbone, agent scaffold, backend substrate, and scoring integrity affect exploit success.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-06-25T15:04:29Z",
-          "updatedAt": "2026-06-27T16:44:59Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 63.87
+          "score": 66.3
         },
         {
           "id": 1279721352,
@@ -806,7 +682,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 63.66
+          "score": 62.27
+        },
+        {
+          "id": 1280418805,
+          "name": "pentest-agent-vs-llm-benchmark-effectiveness",
+          "fullName": "ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
+          "url": "https://github.com/ZeeshanSultan/pentest-agent-vs-llm-benchmark-effectiveness",
+          "homepage": "",
+          "description": "A reproducible study of LLM penetration-testing agents measuring how model backbone, agent scaffold, backend substrate, and scoring integrity affect exploit success.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PHP",
+          "createdAt": "2026-06-25T15:04:29Z",
+          "updatedAt": "2026-06-27T16:44:59Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 61.44
         },
         {
           "id": 1279804571,
@@ -832,33 +733,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.54
+          "score": 59.79
         },
         {
-          "id": 1278974449,
-          "name": "Sentora",
-          "fullName": "d3vhex/Sentora",
-          "url": "https://github.com/d3vhex/Sentora",
+          "id": 1280098766,
+          "name": "sbt-osv",
+          "fullName": "nMoncho/sbt-osv",
+          "url": "https://github.com/nMoncho/sbt-osv",
           "homepage": "",
-          "description": "An open-source, self-hosted AI-powered SIEM, EDR and SOAR platform for modern security operations.",
-          "stars": 5,
+          "description": "SBT Plugin for OSV API. Monitor your dependencies and report if there are any publicly known vulnerabilities (e.g. CVEs).",
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-06-24T08:59:51Z",
-          "updatedAt": "2026-06-28T08:29:28Z",
+          "language": "Scala",
+          "createdAt": "2026-06-25T09:11:09Z",
+          "updatedAt": "2026-06-30T09:34:16Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
+            "通用安全",
+            "漏洞研究 / 攻防"
           ],
-          "score": 54.57
+          "score": 57.68
         }
       ]
     }
