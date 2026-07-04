@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-04T04:49:19.088Z",
+  "generatedAt": "2026-07-04T14:45:56.164Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -41,38 +41,63 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         }
       ],
       "repositories": [
+        {
+          "id": 1287441624,
+          "name": "hacksguard",
+          "fullName": "Rhacknarok/hacksguard",
+          "url": "https://github.com/Rhacknarok/hacksguard",
+          "homepage": "",
+          "description": " A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
+          "stars": 24,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "YARA",
+          "createdAt": "2026-07-02T17:32:50Z",
+          "updatedAt": "2026-07-04T13:42:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 111.85
+        },
         {
           "id": 1287290983,
           "name": "osint-terminal",
@@ -80,12 +105,12 @@
           "url": "https://github.com/RojanSapkota/osint-terminal",
           "homepage": "",
           "description": "Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case   investigation workflows, no API keys required.",
-          "stars": 22,
+          "stars": 25,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-02T14:52:02Z",
-          "updatedAt": "2026-07-03T23:41:16Z",
+          "updatedAt": "2026-07-04T10:27:07Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -97,7 +122,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 109.26
+          "score": 108.68
         },
         {
           "id": 1287125429,
@@ -123,32 +148,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 108.6
-        },
-        {
-          "id": 1287441624,
-          "name": "hacksguard",
-          "fullName": "Rhacknarok/hacksguard",
-          "url": "https://github.com/Rhacknarok/hacksguard",
-          "homepage": "",
-          "description": " A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
-          "stars": 18,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "YARA",
-          "createdAt": "2026-07-02T17:32:50Z",
-          "updatedAt": "2026-07-04T03:43:07Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 108.37
+          "score": 105.01
         },
         {
           "id": 1288051655,
@@ -173,7 +173,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 83.16
+          "score": 79.57
         },
         {
           "id": 1286220918,
@@ -200,7 +200,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 81.74
+          "score": 77.86
+        },
+        {
+          "id": 1288087535,
+          "name": "job-verify",
+          "fullName": "yessGlory17/job-verify",
+          "url": "https://github.com/yessGlory17/job-verify",
+          "homepage": "",
+          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-03T09:05:51Z",
+          "updatedAt": "2026-07-04T08:58:05Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 75.4
         },
         {
           "id": 1287292263,
@@ -225,32 +250,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 78.24
-        },
-        {
-          "id": 1288087535,
-          "name": "job-verify",
-          "fullName": "yessGlory17/job-verify",
-          "url": "https://github.com/yessGlory17/job-verify",
-          "homepage": "",
-          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-03T09:05:51Z",
-          "updatedAt": "2026-07-03T19:37:20Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 74.96
+          "score": 74
         },
         {
           "id": 1287459723,
@@ -278,7 +278,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 69.83
+          "score": 65.59
         },
         {
           "id": 1287804253,
@@ -307,7 +307,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 62.09
+          "score": 57.85
         },
         {
           "id": 1287599125,
@@ -316,12 +316,12 @@
           "url": "https://github.com/zakhar-git/Pamp",
           "homepage": "https://t.me/solvnox_project",
           "description": "Pamp is an attack surface intelligence platform for security researchers and penetration testers. It automates infrastructure reconnaissance, domain profiling, route discovery, JavaScript intelligence, network analysis, and generates interactive offline HTML reports for efficient security assessments.",
-          "stars": 2,
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-02T20:53:40Z",
-          "updatedAt": "2026-07-03T03:33:11Z",
+          "updatedAt": "2026-07-04T12:49:31Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -333,7 +333,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 54.51
+          "score": 56.89
         },
         {
           "id": 1287566576,
@@ -358,7 +358,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 54.21
+          "score": 50.33
         },
         {
           "id": 1285981184,
@@ -382,7 +382,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 52.44
+          "score": 50.25
         }
       ]
     },
@@ -395,45 +395,70 @@
         "maxItems": 18
       },
       "createdSince": "2026-06-27",
-      "totalCandidates": 20,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 5,
+          "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1783140612"
+          "rateLimitReset": "1783176409"
         }
       ],
       "repositories": [
+        {
+          "id": 1287441624,
+          "name": "hacksguard",
+          "fullName": "Rhacknarok/hacksguard",
+          "url": "https://github.com/Rhacknarok/hacksguard",
+          "homepage": "",
+          "description": " A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
+          "stars": 24,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "YARA",
+          "createdAt": "2026-07-02T17:32:50Z",
+          "updatedAt": "2026-07-04T13:42:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 121.93
+        },
         {
           "id": 1287290983,
           "name": "osint-terminal",
@@ -441,12 +466,12 @@
           "url": "https://github.com/RojanSapkota/osint-terminal",
           "homepage": "",
           "description": "Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case   investigation workflows, no API keys required.",
-          "stars": 22,
+          "stars": 25,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-02T14:52:02Z",
-          "updatedAt": "2026-07-03T23:41:16Z",
+          "updatedAt": "2026-07-04T10:27:07Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -458,7 +483,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 117.71
+          "score": 119.36
         },
         {
           "id": 1287125429,
@@ -484,32 +509,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 117.02
-        },
-        {
-          "id": 1287441624,
-          "name": "hacksguard",
-          "fullName": "Rhacknarok/hacksguard",
-          "url": "https://github.com/Rhacknarok/hacksguard",
-          "homepage": "",
-          "description": " A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
-          "stars": 18,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "YARA",
-          "createdAt": "2026-07-02T17:32:50Z",
-          "updatedAt": "2026-07-04T03:43:07Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 116.23
+          "score": 115.48
         },
         {
           "id": 1284392092,
@@ -518,12 +518,12 @@
           "url": "https://github.com/yeet-src/agent-lock",
           "homepage": "",
           "description": "Confine an AI agent (Claude Code, Codex, oh-my-pi, ...) to one directory with a BPF-LSM program, and watch it live over eBPF.",
-          "stars": 24,
+          "stars": 25,
           "forks": 5,
           "openIssues": 1,
           "language": "JavaScript",
           "createdAt": "2026-06-29T20:23:06Z",
-          "updatedAt": "2026-07-03T23:25:44Z",
+          "updatedAt": "2026-07-04T08:43:52Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -534,7 +534,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 104.78
+          "score": 104.23
         },
         {
           "id": 1286220918,
@@ -561,7 +561,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 95.51
+          "score": 93.85
         },
         {
           "id": 1283675985,
@@ -585,32 +585,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 90.24
-        },
-        {
-          "id": 1287292263,
-          "name": "Browser-Based-Ransomware",
-          "fullName": "danieloz147/Browser-Based-Ransomware",
-          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
-          "homepage": "",
-          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation required - runs entirely within the browser sandbox. Built for authorized red-team assessments.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-07-02T14:53:14Z",
-          "updatedAt": "2026-07-03T22:03:14Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 87.47
+          "score": 88.58
         },
         {
           "id": 1288051655,
@@ -635,7 +610,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 87.37
+          "score": 85.83
+        },
+        {
+          "id": 1287292263,
+          "name": "Browser-Based-Ransomware",
+          "fullName": "danieloz147/Browser-Based-Ransomware",
+          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
+          "homepage": "",
+          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation required - runs entirely within the browser sandbox. Built for authorized red-team assessments.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-07-02T14:53:14Z",
+          "updatedAt": "2026-07-03T22:03:14Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 85.66
         },
         {
           "id": 1284295319,
@@ -660,7 +660,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 87.34
+          "score": 85.52
         },
         {
           "id": 1285299512,
@@ -685,7 +685,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 85.04
+          "score": 83.5
+        },
+        {
+          "id": 1288087535,
+          "name": "job-verify",
+          "fullName": "yessGlory17/job-verify",
+          "url": "https://github.com/yessGlory17/job-verify",
+          "homepage": "",
+          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-03T09:05:51Z",
+          "updatedAt": "2026-07-04T08:58:05Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 82.02
         },
         {
           "id": 1282612671,
@@ -712,7 +737,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 64.18
+          "score": 62.46
         },
         {
           "id": 1282208995,
@@ -726,7 +751,7 @@
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-06-27T13:17:30Z",
-          "updatedAt": "2026-07-04T02:40:57Z",
+          "updatedAt": "2026-07-04T13:37:39Z",
           "matchedProfiles": [
             "防守 / 蓝队"
           ],
@@ -736,7 +761,32 @@
           "tags": [
             "防守 / 蓝队"
           ],
-          "score": 58.06
+          "score": 56.6
+        },
+        {
+          "id": 1282112393,
+          "name": "aegis-guard",
+          "fullName": "SepJs/aegis-guard",
+          "url": "https://github.com/SepJs/aegis-guard",
+          "homepage": "https://github.com/SepJs/aegis-guard",
+          "description": "A personal Linux security and process monitoring tool for real-time threat detection and network observation.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-06-27T10:40:25Z",
+          "updatedAt": "2026-07-04T12:54:15Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 54.57
         }
       ]
     }
