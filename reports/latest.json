@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-04T14:45:56.164Z",
+  "generatedAt": "2026-07-05T05:07:32.173Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-01",
-      "totalCandidates": 24,
+      "createdSince": "2026-07-02",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Rhacknarok/hacksguard",
           "homepage": "",
           "description": " A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
-          "stars": 24,
-          "forks": 4,
+          "stars": 44,
+          "forks": 6,
           "openIssues": 0,
           "language": "YARA",
           "createdAt": "2026-07-02T17:32:50Z",
-          "updatedAt": "2026-07-04T13:42:33Z",
+          "updatedAt": "2026-07-05T04:47:03Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -96,7 +96,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 111.85
+          "score": 124.35
         },
         {
           "id": 1287290983,
@@ -105,12 +105,12 @@
           "url": "https://github.com/RojanSapkota/osint-terminal",
           "homepage": "",
           "description": "Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case   investigation workflows, no API keys required.",
-          "stars": 25,
+          "stars": 26,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-02T14:52:02Z",
-          "updatedAt": "2026-07-04T10:27:07Z",
+          "updatedAt": "2026-07-04T20:48:47Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -122,7 +122,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 108.68
+          "score": 104.1
         },
         {
           "id": 1287125429,
@@ -130,13 +130,13 @@
           "fullName": "Brain0-ai/brain0",
           "url": "https://github.com/Brain0-ai/brain0",
           "homepage": "",
-          "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it — drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
+          "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it: drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
           "stars": 22,
           "forks": 12,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-07-02T12:02:08Z",
-          "updatedAt": "2026-07-03T18:10:38Z",
+          "updatedAt": "2026-07-04T20:52:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -148,7 +148,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 105.01
+          "score": 99.83
+        },
+        {
+          "id": 1289216873,
+          "name": "awesome-code-review-prompts",
+          "fullName": "dcarrero/awesome-code-review-prompts",
+          "url": "https://github.com/dcarrero/awesome-code-review-prompts",
+          "homepage": "",
+          "description": "Master prompts to make Claude (and other AI models) review code for security, performance, accessibility, usability and quality — language-agnostic, with add-ons for 18+ stacks. Bilingual EN/ES.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-07-04T13:17:57Z",
+          "updatedAt": "2026-07-05T04:07:56Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 76.48
         },
         {
           "id": 1288051655,
@@ -173,34 +198,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 79.57
-        },
-        {
-          "id": 1286220918,
-          "name": "lockstep",
-          "fullName": "caglaryalcin/lockstep",
-          "url": "https://github.com/caglaryalcin/lockstep",
-          "homepage": "",
-          "description": "Lockstep is a personal security checklist platform. It helps users track security habits, checklist progress, priorities, and profile-based progress from a clean web interface.",
-          "stars": 14,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-01T15:00:54Z",
-          "updatedAt": "2026-07-03T23:33:14Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 77.86
+          "score": 74.39
         },
         {
           "id": 1288087535,
@@ -225,7 +223,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.4
+          "score": 69.8
         },
         {
           "id": 1287292263,
@@ -250,7 +248,89 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 74
+          "score": 67.88
+        },
+        {
+          "id": 1287804253,
+          "name": "CVE-2026-34835-Black-box-Analysis",
+          "fullName": "Cyber-note/CVE-2026-34835-Black-box-Analysis",
+          "url": "https://github.com/Cyber-note/CVE-2026-34835-Black-box-Analysis",
+          "homepage": "",
+          "description": "A black-box (DAST) security analysis of CVE-2026-34835 focusing on external validation methodology, observable behavior, security impact, and defensive recommendations.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-03T02:50:25Z",
+          "updatedAt": "2026-07-04T19:53:05Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 64.16
+        },
+        {
+          "id": 1288645191,
+          "name": "Cyber_agent",
+          "fullName": "juanjoloq/Cyber_agent",
+          "url": "https://github.com/juanjoloq/Cyber_agent",
+          "homepage": "",
+          "description": "Sistema multi-agente de ciberseguridad ofensiva/defensiva construido con LLMs. Orquesta 6 subagentes especializados (OSINT, pentesting, hardening, forense) sobre un laboratorio Docker aislado, integrando herramientas reales (nmap, Hydra, nikto) para generar reportes estructurados de hallazgos y remediación. Proyecto de aprendizaje.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-03T20:15:36Z",
+          "updatedAt": "2026-07-04T17:21:20Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 60.4
+        },
+        {
+          "id": 1286709310,
+          "name": "awesome-agentic-devops",
+          "fullName": "DevOpsAIguru123/awesome-agentic-devops",
+          "url": "https://github.com/DevOpsAIguru123/awesome-agentic-devops",
+          "homepage": "",
+          "description": "Curated official DevOps, Cloud, SRE, Platform, Security, IaC, MCP server, and agent-skill catalog.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-02T03:09:58Z",
+          "updatedAt": "2026-07-05T02:11:59Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 59.79
         },
         {
           "id": 1287459723,
@@ -278,76 +358,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 65.59
+          "score": 59.47
         },
         {
-          "id": 1287804253,
-          "name": "CVE-2026-34835-Black-box-Analysis",
-          "fullName": "Cyber-note/CVE-2026-34835-Black-box-Analysis",
-          "url": "https://github.com/Cyber-note/CVE-2026-34835-Black-box-Analysis",
-          "homepage": "",
-          "description": "A black-box (DAST) security analysis of CVE-2026-34835 focusing on external validation methodology, observable behavior, security impact, and defensive recommendations.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-03T02:50:25Z",
-          "updatedAt": "2026-07-03T13:41:21Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 57.85
-        },
-        {
-          "id": 1287599125,
-          "name": "Pamp",
-          "fullName": "zakhar-git/Pamp",
-          "url": "https://github.com/zakhar-git/Pamp",
-          "homepage": "https://t.me/solvnox_project",
-          "description": "Pamp is an attack surface intelligence platform for security researchers and penetration testers. It automates infrastructure reconnaissance, domain profiling, route discovery, JavaScript intelligence, network analysis, and generates interactive offline HTML reports for efficient security assessments.",
-          "stars": 3,
+          "id": 1287490679,
+          "name": "DidILeak",
+          "fullName": "frangelbarrera/DidILeak",
+          "url": "https://github.com/frangelbarrera/DidILeak",
+          "homepage": "https://frangelbarrera.github.io/DidILeak/",
+          "description": "Local-first LLM secret scanner — scan ChatGPT, Claude & Cursor chat history for leaked API keys, PII & credentials. HTML dashboard + rotation guides.",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-02T20:53:40Z",
-          "updatedAt": "2026-07-04T12:49:31Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 56.89
-        },
-        {
-          "id": 1287566576,
-          "name": "Secure-File-Shredder-and-Data-Sanitization-Framework-Rust-CLI",
-          "fullName": "SyedShaheerHussain/Secure-File-Shredder-and-Data-Sanitization-Framework-Rust-CLI",
-          "url": "https://github.com/SyedShaheerHussain/Secure-File-Shredder-and-Data-Sanitization-Framework-Rust-CLI",
-          "homepage": "",
-          "description": "Overwrite files multiple times, Delete securely & Verify removal",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-07-02T20:07:35Z",
-          "updatedAt": "2026-07-02T22:53:20Z",
+          "createdAt": "2026-07-02T18:29:07Z",
+          "updatedAt": "2026-07-04T20:20:44Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -358,31 +383,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 50.33
-        },
-        {
-          "id": 1285981184,
-          "name": "blackout",
-          "fullName": "bariskececi/blackout",
-          "url": "https://github.com/bariskececi/blackout",
-          "homepage": "https://bariskececi.github.io/blackout/",
-          "description": "Watch a cyberattack take down a water plant — in your browser. Live ICS attack simulator with real MITRE ATT&CK for ICS techniques. Zero install, opens in one click.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-07-01T10:26:06Z",
-          "updatedAt": "2026-07-02T08:51:48Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 50.25
+          "score": 55.46
         }
       ]
     },
@@ -394,43 +395,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-27",
-      "totalCandidates": 22,
+      "createdSince": "2026-06-28",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1783176409"
+          "rateLimitReset": "1783228105"
         }
       ],
       "repositories": [
@@ -441,12 +442,12 @@
           "url": "https://github.com/Rhacknarok/hacksguard",
           "homepage": "",
           "description": " A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
-          "stars": 24,
-          "forks": 4,
+          "stars": 44,
+          "forks": 6,
           "openIssues": 0,
           "language": "YARA",
           "createdAt": "2026-07-02T17:32:50Z",
-          "updatedAt": "2026-07-04T13:42:33Z",
+          "updatedAt": "2026-07-05T04:47:03Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -457,7 +458,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 121.93
+          "score": 137.63
         },
         {
           "id": 1287290983,
@@ -466,12 +467,12 @@
           "url": "https://github.com/RojanSapkota/osint-terminal",
           "homepage": "",
           "description": "Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case   investigation workflows, no API keys required.",
-          "stars": 25,
+          "stars": 26,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-02T14:52:02Z",
-          "updatedAt": "2026-07-04T10:27:07Z",
+          "updatedAt": "2026-07-04T20:48:47Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -483,7 +484,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 119.36
+          "score": 117.98
         },
         {
           "id": 1287125429,
@@ -491,13 +492,13 @@
           "fullName": "Brain0-ai/brain0",
           "url": "https://github.com/Brain0-ai/brain0",
           "homepage": "",
-          "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it — drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
+          "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it: drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
           "stars": 22,
           "forks": 12,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-07-02T12:02:08Z",
-          "updatedAt": "2026-07-03T18:10:38Z",
+          "updatedAt": "2026-07-04T20:52:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -509,7 +510,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 115.48
+          "score": 113.26
         },
         {
           "id": 1284392092,
@@ -518,12 +519,12 @@
           "url": "https://github.com/yeet-src/agent-lock",
           "homepage": "",
           "description": "Confine an AI agent (Claude Code, Codex, oh-my-pi, ...) to one directory with a BPF-LSM program, and watch it live over eBPF.",
-          "stars": 25,
+          "stars": 27,
           "forks": 5,
           "openIssues": 1,
           "language": "JavaScript",
           "createdAt": "2026-06-29T20:23:06Z",
-          "updatedAt": "2026-07-04T08:43:52Z",
+          "updatedAt": "2026-07-04T16:25:29Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -534,7 +535,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 104.23
+          "score": 103.86
         },
         {
           "id": 1286220918,
@@ -561,7 +562,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 93.85
+          "score": 91.45
+        },
+        {
+          "id": 1284295319,
+          "name": "Harness",
+          "fullName": "X0CBAN/Harness",
+          "url": "https://github.com/X0CBAN/Harness",
+          "homepage": "",
+          "description": "A fast, open-source HTTP proxy and web security testing Framework",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-06-29T18:07:16Z",
+          "updatedAt": "2026-07-05T00:36:23Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 87.62
         },
         {
           "id": 1283675985,
@@ -585,7 +611,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 88.58
+          "score": 86.18
         },
         {
           "id": 1288051655,
@@ -610,7 +636,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 85.83
+          "score": 83.61
         },
         {
           "id": 1287292263,
@@ -635,32 +661,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 85.66
-        },
-        {
-          "id": 1284295319,
-          "name": "Harness",
-          "fullName": "X0CBAN/Harness",
-          "url": "https://github.com/X0CBAN/Harness",
-          "homepage": "",
-          "description": "A fast, open-source HTTP proxy and web security testing Framework",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-06-29T18:07:16Z",
-          "updatedAt": "2026-07-01T21:31:43Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 85.52
+          "score": 83.03
         },
         {
           "id": 1285299512,
@@ -685,7 +686,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 83.5
+          "score": 81.28
+        },
+        {
+          "id": 1289216873,
+          "name": "awesome-code-review-prompts",
+          "fullName": "dcarrero/awesome-code-review-prompts",
+          "url": "https://github.com/dcarrero/awesome-code-review-prompts",
+          "homepage": "",
+          "description": "Master prompts to make Claude (and other AI models) review code for security, performance, accessibility, usability and quality — language-agnostic, with add-ons for 18+ stacks. Bilingual EN/ES.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-07-04T13:17:57Z",
+          "updatedAt": "2026-07-05T04:07:56Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 80.01
         },
         {
           "id": 1288087535,
@@ -710,7 +736,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.02
+          "score": 79.62
         },
         {
           "id": 1282612671,
@@ -737,56 +763,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 62.46
-        },
-        {
-          "id": 1282208995,
-          "name": "flipper-cerberus",
-          "fullName": "Kendo3639/flipper-cerberus",
-          "url": "https://github.com/Kendo3639/flipper-cerberus",
-          "homepage": "https://kendo3639.github.io",
-          "description": "Monitor 433, 868, and 915 MHz ISM bands with this Flipper Zero RF watchdog to detect signal interference, flooding, and unauthorized replays.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-06-27T13:17:30Z",
-          "updatedAt": "2026-07-04T13:37:39Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队"
-          ],
-          "score": 56.6
-        },
-        {
-          "id": 1282112393,
-          "name": "aegis-guard",
-          "fullName": "SepJs/aegis-guard",
-          "url": "https://github.com/SepJs/aegis-guard",
-          "homepage": "https://github.com/SepJs/aegis-guard",
-          "description": "A personal Linux security and process monitoring tool for real-time threat detection and network observation.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-06-27T10:40:25Z",
-          "updatedAt": "2026-07-04T12:54:15Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 54.57
+          "score": 60.48
         }
       ]
     }
