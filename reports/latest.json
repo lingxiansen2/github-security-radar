@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-05T14:53:35.049Z",
+  "generatedAt": "2026-07-06T05:35:30.778Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,122 +33,73 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-02",
-      "totalCandidates": 25,
+      "createdSince": "2026-07-03",
+      "totalCandidates": 19,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 9,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         }
       ],
       "repositories": [
         {
-          "id": 1287441624,
-          "name": "hacksguard",
-          "fullName": "Rhacknarok/hacksguard",
-          "url": "https://github.com/Rhacknarok/hacksguard",
+          "id": 1289216873,
+          "name": "awesome-code-review-prompts",
+          "fullName": "dcarrero/awesome-code-review-prompts",
+          "url": "https://github.com/dcarrero/awesome-code-review-prompts",
           "homepage": "",
-          "description": " A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
-          "stars": 55,
-          "forks": 8,
+          "description": "Master prompts to make Claude (and other AI models) review code for security, performance, accessibility, usability and quality — language-agnostic, with add-ons for 18+ stacks. Bilingual EN/ES.",
+          "stars": 6,
+          "forks": 0,
           "openIssues": 0,
-          "language": "YARA",
-          "createdAt": "2026-07-02T17:32:50Z",
-          "updatedAt": "2026-07-05T14:07:42Z",
+          "language": "Shell",
+          "createdAt": "2026-07-04T13:17:57Z",
+          "updatedAt": "2026-07-05T15:35:40Z",
           "matchedProfiles": [
+            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
+            1,
             1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 128.12
-        },
-        {
-          "id": 1287125429,
-          "name": "brain0",
-          "fullName": "Brain0-ai/brain0",
-          "url": "https://github.com/Brain0-ai/brain0",
-          "homepage": "",
-          "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it: drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
-          "stars": 25,
-          "forks": 12,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-07-02T12:02:08Z",
-          "updatedAt": "2026-07-05T13:50:26Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 100.39
-        },
-        {
-          "id": 1287290983,
-          "name": "osint-terminal",
-          "fullName": "RojanSapkota/osint-terminal",
-          "url": "https://github.com/RojanSapkota/osint-terminal",
-          "homepage": "",
-          "description": "Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case   investigation workflows, no API keys required.",
-          "stars": 26,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-02T14:52:02Z",
-          "updatedAt": "2026-07-04T20:48:47Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
             "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
+            "AI 自动化 / Skill"
           ],
-          "score": 100.3
+          "score": 70.69
         },
         {
           "id": 1289684562,
@@ -162,7 +113,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-05T04:22:58Z",
-          "updatedAt": "2026-07-05T14:49:18Z",
+          "updatedAt": "2026-07-05T14:54:18Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -174,32 +125,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 74.23
-        },
-        {
-          "id": 1289216873,
-          "name": "awesome-code-review-prompts",
-          "fullName": "dcarrero/awesome-code-review-prompts",
-          "url": "https://github.com/dcarrero/awesome-code-review-prompts",
-          "homepage": "",
-          "description": "Master prompts to make Claude (and other AI models) review code for security, performance, accessibility, usability and quality — language-agnostic, with add-ons for 18+ stacks. Bilingual EN/ES.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-07-04T13:17:57Z",
-          "updatedAt": "2026-07-05T04:07:56Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 72.67
+          "score": 68.5
         },
         {
           "id": 1289709950,
@@ -228,7 +154,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 72.07
+          "score": 66.13
         },
         {
           "id": 1288051655,
@@ -253,7 +179,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 70.86
+          "score": 65.55
         },
         {
           "id": 1288087535,
@@ -262,12 +188,12 @@
           "url": "https://github.com/yessGlory17/job-verify",
           "homepage": "",
           "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
-          "stars": 5,
+          "stars": 6,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-03T09:05:51Z",
-          "updatedAt": "2026-07-04T08:58:05Z",
+          "updatedAt": "2026-07-06T02:36:11Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -278,32 +204,60 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66
+          "score": 64.01
         },
         {
-          "id": 1287292263,
-          "name": "Browser-Based-Ransomware",
-          "fullName": "danieloz147/Browser-Based-Ransomware",
-          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
+          "id": 1289818292,
+          "name": "Memory-scanner-for-injected-DLLs-and-shellcode-detection-C",
+          "fullName": "SyedShaheerHussain/Memory-scanner-for-injected-DLLs-and-shellcode-detection-C",
+          "url": "https://github.com/SyedShaheerHussain/Memory-scanner-for-injected-DLLs-and-shellcode-detection-C",
           "homepage": "",
-          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation required - runs entirely within the browser sandbox. Built for authorized red-team assessments.",
-          "stars": 6,
+          "description": "Memory Scanner Scan running processes for: Injected DLLs RWX memory pages Shellcode signatures Hidden processes",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-07-02T14:53:14Z",
-          "updatedAt": "2026-07-03T22:03:14Z",
+          "language": "C",
+          "createdAt": "2026-07-05T08:37:39Z",
+          "updatedAt": "2026-07-06T00:17:26Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "网络安全",
+            "防守 / 蓝队"
           ],
           "profileWeights": [
-            1.18
+            1.08,
+            1.12
           ],
           "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
+            "网络安全",
+            "防守 / 蓝队",
+            "AI 自动化 / Skill"
           ],
-          "score": 63.72
+          "score": 60.96
+        },
+        {
+          "id": 1289788267,
+          "name": "Flipper-Zero-Audit-Kit-",
+          "fullName": "K3lgy/Flipper-Zero-Audit-Kit-",
+          "url": "https://github.com/K3lgy/Flipper-Zero-Audit-Kit-",
+          "homepage": "",
+          "description": "Kit d'audit de sécurité physique pour Flipper Zero. Parse automatiquement les exports de la carte SD (RFID/NFC, Sub-GHz, WiFi, Bad USB) et génère un rapport PDF professionnel avec scoring de criticité, vecteurs d'attaque et recommandations priorisées. Idéal pour les missions de pentest physique.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-05T07:49:40Z",
+          "updatedAt": "2026-07-05T21:02:04Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 58.47
         },
         {
           "id": 1287804253,
@@ -319,46 +273,23 @@
           "createdAt": "2026-07-03T02:50:25Z",
           "updatedAt": "2026-07-04T19:53:05Z",
           "matchedProfiles": [
+            "通用安全",
             "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1,
             1.08,
             1.18
           ],
           "tags": [
+            "通用安全",
             "网络安全",
             "渗透 / 红队",
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 60
-        },
-        {
-          "id": 1286709310,
-          "name": "awesome-agentic-devops",
-          "fullName": "DevOpsAIguru123/awesome-agentic-devops",
-          "url": "https://github.com/DevOpsAIguru123/awesome-agentic-devops",
-          "homepage": "",
-          "description": "Curated official DevOps, Cloud, SRE, Platform, Security, IaC, MCP server, and agent-skill catalog.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-02T03:09:58Z",
-          "updatedAt": "2026-07-05T02:11:59Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 59.79
+          "score": 54.9
         },
         {
           "id": 1288645191,
@@ -385,7 +316,32 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 56.59
+          "score": 50.86
+        },
+        {
+          "id": 1288302962,
+          "name": "beekkon-bridge",
+          "fullName": "erabytse/beekkon-bridge",
+          "url": "https://github.com/erabytse/beekkon-bridge",
+          "homepage": "https://pypi.org/project/beekkon-bridge/",
+          "description": "A peer-to-peer protocol for secure AI agent communication with zero-knowledge authentication, E2E encryption, and automatic discovery. Open source.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-03T13:18:21Z",
+          "updatedAt": "2026-07-05T14:56:49Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 48.15
         }
       ]
     },
@@ -397,43 +353,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-06-28",
-      "totalCandidates": 21,
+      "createdSince": "2026-06-29",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1783263268"
+          "rateLimitReset": "1783316184"
         }
       ],
       "repositories": [
@@ -444,12 +400,12 @@
           "url": "https://github.com/Rhacknarok/hacksguard",
           "homepage": "",
           "description": " A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
-          "stars": 55,
+          "stars": 64,
           "forks": 8,
           "openIssues": 0,
           "language": "YARA",
           "createdAt": "2026-07-02T17:32:50Z",
-          "updatedAt": "2026-07-05T14:07:42Z",
+          "updatedAt": "2026-07-06T03:16:15Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -460,7 +416,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 143.57
+          "score": 145.23
         },
         {
           "id": 1287290983,
@@ -486,7 +442,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 116.34
+          "score": 113.89
         },
         {
           "id": 1287125429,
@@ -495,12 +451,12 @@
           "url": "https://github.com/Brain0-ai/brain0",
           "homepage": "",
           "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it: drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
-          "stars": 25,
+          "stars": 26,
           "forks": 12,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-07-02T12:02:08Z",
-          "updatedAt": "2026-07-05T13:50:26Z",
+          "updatedAt": "2026-07-05T19:12:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -512,7 +468,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 114.8
+          "score": 113.47
         },
         {
           "id": 1284392092,
@@ -521,12 +477,12 @@
           "url": "https://github.com/yeet-src/agent-lock",
           "homepage": "",
           "description": "Confine an AI agent (Claude Code, Codex, oh-my-pi, ...) to one directory with a BPF-LSM program, and watch it live over eBPF.",
-          "stars": 29,
+          "stars": 30,
           "forks": 5,
           "openIssues": 1,
           "language": "JavaScript",
           "createdAt": "2026-06-29T20:23:06Z",
-          "updatedAt": "2026-07-05T06:54:15Z",
+          "updatedAt": "2026-07-05T21:40:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -537,7 +493,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 104.08
+          "score": 102.63
         },
         {
           "id": 1286220918,
@@ -564,7 +520,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 91.51
+          "score": 89.06
+        },
+        {
+          "id": 1287292263,
+          "name": "Browser-Based-Ransomware",
+          "fullName": "danieloz147/Browser-Based-Ransomware",
+          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
+          "homepage": "",
+          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation required - runs entirely within the browser sandbox. Built for authorized red-team assessments.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-07-02T14:53:14Z",
+          "updatedAt": "2026-07-06T05:20:15Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 88.32
         },
         {
           "id": 1284295319,
@@ -578,7 +559,7 @@
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-06-29T18:07:16Z",
-          "updatedAt": "2026-07-05T13:56:51Z",
+          "updatedAt": "2026-07-06T00:38:46Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -589,7 +570,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 89.93
+          "score": 87.25
         },
         {
           "id": 1284348601,
@@ -617,7 +598,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 85.82
+          "score": 83.36
         },
         {
           "id": 1283675985,
@@ -641,7 +622,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 84.55
+          "score": 82.09
         },
         {
           "id": 1288051655,
@@ -666,32 +647,57 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 82.1
+          "score": 79.82
         },
         {
-          "id": 1287292263,
-          "name": "Browser-Based-Ransomware",
-          "fullName": "danieloz147/Browser-Based-Ransomware",
-          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
+          "id": 1289216873,
+          "name": "awesome-code-review-prompts",
+          "fullName": "dcarrero/awesome-code-review-prompts",
+          "url": "https://github.com/dcarrero/awesome-code-review-prompts",
           "homepage": "",
-          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation required - runs entirely within the browser sandbox. Built for authorized red-team assessments.",
+          "description": "Master prompts to make Claude (and other AI models) review code for security, performance, accessibility, usability and quality — language-agnostic, with add-ons for 18+ stacks. Bilingual EN/ES.",
           "stars": 6,
           "forks": 0,
           "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-07-02T14:53:14Z",
-          "updatedAt": "2026-07-03T22:03:14Z",
+          "language": "Shell",
+          "createdAt": "2026-07-04T13:17:57Z",
+          "updatedAt": "2026-07-05T15:35:40Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1.18
+            1.08
           ],
           "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
+            "网络安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 81.25
+          "score": 79.67
+        },
+        {
+          "id": 1288087535,
+          "name": "job-verify",
+          "fullName": "yessGlory17/job-verify",
+          "url": "https://github.com/yessGlory17/job-verify",
+          "homepage": "",
+          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-03T09:05:51Z",
+          "updatedAt": "2026-07-06T02:36:11Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.27
         },
         {
           "id": 1285299512,
@@ -716,84 +722,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.77
+          "score": 77.49
         },
         {
-          "id": 1289216873,
-          "name": "awesome-code-review-prompts",
-          "fullName": "dcarrero/awesome-code-review-prompts",
-          "url": "https://github.com/dcarrero/awesome-code-review-prompts",
+          "id": 1286709310,
+          "name": "awesome-agentic-devops",
+          "fullName": "DevOpsAIguru123/awesome-agentic-devops",
+          "url": "https://github.com/DevOpsAIguru123/awesome-agentic-devops",
           "homepage": "",
-          "description": "Master prompts to make Claude (and other AI models) review code for security, performance, accessibility, usability and quality — language-agnostic, with add-ons for 18+ stacks. Bilingual EN/ES.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-07-04T13:17:57Z",
-          "updatedAt": "2026-07-05T04:07:56Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 78.38
-        },
-        {
-          "id": 1288087535,
-          "name": "job-verify",
-          "fullName": "yessGlory17/job-verify",
-          "url": "https://github.com/yessGlory17/job-verify",
-          "homepage": "",
-          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-03T09:05:51Z",
-          "updatedAt": "2026-07-04T08:58:05Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 77.98
-        },
-        {
-          "id": 1282612671,
-          "name": "BlindSpot",
-          "fullName": "diabloidyobane/BlindSpot",
-          "url": "https://github.com/diabloidyobane/BlindSpot",
-          "homepage": "",
-          "description": "Reverse engineering a manually-mapped commercial cheat DLL in The Division 2. Documents the pe-sieve enumeration Blindspot (MEM_PRIVATE + header wiping). Anti-cheat safe — read-only Windows APIs only, no debugger, no injection. Pure Python. Includes the reconstructed PE, IDA database, scripts, and an academic paper of the workflow.",
-          "stars": 6,
+          "description": "Curated + scored map of official MCP servers and agents for DevOps, Cloud, SRE, and Platform Engineering — every entry rated on production access, approval gates, and audit evidence.",
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-06-28T02:11:12Z",
-          "updatedAt": "2026-07-03T21:51:52Z",
+          "createdAt": "2026-07-02T03:09:58Z",
+          "updatedAt": "2026-07-06T04:07:58Z",
           "matchedProfiles": [
-            "防守 / 蓝队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.12
+            1
           ],
           "tags": [
-            "防守 / 蓝队",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 60.48
+          "score": 75.3
         }
       ]
     }
