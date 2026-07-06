@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-06T05:35:30.778Z",
+  "generatedAt": "2026-07-06T16:30:42.676Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,71 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-03",
-      "totalCandidates": 19,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         }
       ],
       "repositories": [
+        {
+          "id": 1289684562,
+          "name": "expendable_orca",
+          "fullName": "Iankulani/expendable_orca",
+          "url": "https://github.com/Iankulani/expendable_orca",
+          "homepage": "",
+          "description": "Expendable Orca is a modern cyber security operations platform engineered to help security professionals, organizations, ethical hackers, red teams, blue teams, managed security service providers (MSSPs), security researchers, and IT administrators manage cyber security operations from virtually anywhere. The platform combines centralized managemen",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-05T04:22:58Z",
+          "updatedAt": "2026-07-06T15:33:24Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 72.89
+        },
         {
           "id": 1289216873,
           "name": "awesome-code-review-prompts",
@@ -99,21 +125,21 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.69
+          "score": 66.43
         },
         {
-          "id": 1289684562,
-          "name": "expendable_orca",
-          "fullName": "Iankulani/expendable_orca",
-          "url": "https://github.com/Iankulani/expendable_orca",
+          "id": 1288087535,
+          "name": "job-verify",
+          "fullName": "yessGlory17/job-verify",
+          "url": "https://github.com/yessGlory17/job-verify",
           "homepage": "",
-          "description": "Expendable Orca is a modern cyber security operations platform engineered to help security professionals, organizations, ethical hackers, red teams, blue teams, managed security service providers (MSSPs), security researchers, and IT administrators manage cyber security operations from virtually anywhere. The platform combines centralized managemen",
-          "stars": 4,
-          "forks": 0,
+          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
+          "stars": 7,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-05T04:22:58Z",
-          "updatedAt": "2026-07-05T14:54:18Z",
+          "createdAt": "2026-07-03T09:05:51Z",
+          "updatedAt": "2026-07-06T15:52:49Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -122,10 +148,59 @@
           ],
           "tags": [
             "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队"
+            "AI 自动化 / Skill"
           ],
-          "score": 68.5
+          "score": 65.94
+        },
+        {
+          "id": 1291014040,
+          "name": "shortdot-evidence",
+          "fullName": "phishdestroy/shortdot-evidence",
+          "url": "https://github.com/phishdestroy/shortdot-evidence",
+          "homepage": "https://phishdestroy.github.io/shortdot-evidence/",
+          "description": "ShortDot SA zone abuse evidence (6.2M domains). Automated Threat Intelligence & daily updated IOCs for .icu, .bond, .cyou, .sbs, .cfd, .buzz, .qpon.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-06T12:28:46Z",
+          "updatedAt": "2026-07-06T16:26:58Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 65.39
+        },
+        {
+          "id": 1288051655,
+          "name": "Trend-Micro-Maximum-Security-2026",
+          "fullName": "DownloadGrade/Trend-Micro-Maximum-Security-2026",
+          "url": "https://github.com/DownloadGrade/Trend-Micro-Maximum-Security-2026",
+          "homepage": "",
+          "description": "trend micro maximum security download — Trend Micro Maximum Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-03T08:25:06Z",
+          "updatedAt": "2026-07-03T09:27:48Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 64.53
         },
         {
           "id": 1289709950,
@@ -154,57 +229,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 66.13
-        },
-        {
-          "id": 1288051655,
-          "name": "Trend-Micro-Maximum-Security-2026",
-          "fullName": "DownloadGrade/Trend-Micro-Maximum-Security-2026",
-          "url": "https://github.com/DownloadGrade/Trend-Micro-Maximum-Security-2026",
-          "homepage": "",
-          "description": "trend micro maximum security download — Trend Micro Maximum Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-03T08:25:06Z",
-          "updatedAt": "2026-07-03T09:27:48Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 65.55
-        },
-        {
-          "id": 1288087535,
-          "name": "job-verify",
-          "fullName": "yessGlory17/job-verify",
-          "url": "https://github.com/yessGlory17/job-verify",
-          "homepage": "",
-          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
-          "stars": 6,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-03T09:05:51Z",
-          "updatedAt": "2026-07-06T02:36:11Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 64.01
+          "score": 61.71
         },
         {
           "id": 1289818292,
@@ -232,7 +257,36 @@
             "防守 / 蓝队",
             "AI 自动化 / Skill"
           ],
-          "score": 60.96
+          "score": 56.54
+        },
+        {
+          "id": 1287804253,
+          "name": "CVE-2026-34835-Black-box-Analysis",
+          "fullName": "Cyber-note/CVE-2026-34835-Black-box-Analysis",
+          "url": "https://github.com/Cyber-note/CVE-2026-34835-Black-box-Analysis",
+          "homepage": "",
+          "description": "A black-box (DAST) security analysis of CVE-2026-34835 focusing on external validation methodology, observable behavior, security impact, and defensive recommendations.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-03T02:50:25Z",
+          "updatedAt": "2026-07-04T19:53:05Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 54.9
         },
         {
           "id": 1289788267,
@@ -257,39 +311,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 58.47
-        },
-        {
-          "id": 1287804253,
-          "name": "CVE-2026-34835-Black-box-Analysis",
-          "fullName": "Cyber-note/CVE-2026-34835-Black-box-Analysis",
-          "url": "https://github.com/Cyber-note/CVE-2026-34835-Black-box-Analysis",
-          "homepage": "",
-          "description": "A black-box (DAST) security analysis of CVE-2026-34835 focusing on external validation methodology, observable behavior, security impact, and defensive recommendations.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-03T02:50:25Z",
-          "updatedAt": "2026-07-04T19:53:05Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "渗透 / 红队",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 54.9
+          "score": 54.21
         },
         {
           "id": 1288645191,
@@ -316,7 +338,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 50.86
+          "score": 46.6
         },
         {
           "id": 1288302962,
@@ -341,7 +363,31 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 48.15
+          "score": 45.14
+        },
+        {
+          "id": 1288889627,
+          "name": "KittyNet",
+          "fullName": "Qumaqwe/KittyNet",
+          "url": "https://github.com/Qumaqwe/KittyNet",
+          "homepage": "",
+          "description": "Python CLI multitool for web and network security testing.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-04T04:52:31Z",
+          "updatedAt": "2026-07-06T15:27:01Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 43.7
         }
       ]
     },
@@ -354,42 +400,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-06-29",
-      "totalCandidates": 20,
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1783316184"
+          "rateLimitReset": "1783355494"
         }
       ],
       "repositories": [
@@ -400,12 +446,12 @@
           "url": "https://github.com/Rhacknarok/hacksguard",
           "homepage": "",
           "description": " A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
-          "stars": 64,
+          "stars": 68,
           "forks": 8,
           "openIssues": 0,
           "language": "YARA",
           "createdAt": "2026-07-02T17:32:50Z",
-          "updatedAt": "2026-07-06T03:16:15Z",
+          "updatedAt": "2026-07-06T16:20:56Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -416,33 +462,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 145.23
-        },
-        {
-          "id": 1287290983,
-          "name": "osint-terminal",
-          "fullName": "RojanSapkota/osint-terminal",
-          "url": "https://github.com/RojanSapkota/osint-terminal",
-          "homepage": "",
-          "description": "Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case   investigation workflows, no API keys required.",
-          "stars": 26,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-02T14:52:02Z",
-          "updatedAt": "2026-07-04T20:48:47Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 113.89
+          "score": 145.05
         },
         {
           "id": 1287125429,
@@ -451,12 +471,12 @@
           "url": "https://github.com/Brain0-ai/brain0",
           "homepage": "",
           "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it: drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
-          "stars": 26,
+          "stars": 28,
           "forks": 12,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-07-02T12:02:08Z",
-          "updatedAt": "2026-07-05T19:12:23Z",
+          "updatedAt": "2026-07-06T07:41:20Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -468,7 +488,33 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 113.47
+          "score": 113.58
+        },
+        {
+          "id": 1287290983,
+          "name": "osint-terminal",
+          "fullName": "RojanSapkota/osint-terminal",
+          "url": "https://github.com/RojanSapkota/osint-terminal",
+          "homepage": "",
+          "description": "Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case   investigation workflows, no API keys required.",
+          "stars": 27,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-02T14:52:02Z",
+          "updatedAt": "2026-07-06T07:25:51Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 113.05
         },
         {
           "id": 1284392092,
@@ -493,7 +539,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 102.63
+          "score": 100.94
+        },
+        {
+          "id": 1287292263,
+          "name": "Browser-Based-Ransomware",
+          "fullName": "danieloz147/Browser-Based-Ransomware",
+          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
+          "homepage": "",
+          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation required - runs entirely within the browser sandbox. Built for authorized red-team assessments.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-07-02T14:53:14Z",
+          "updatedAt": "2026-07-06T11:38:04Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 89
         },
         {
           "id": 1286220918,
@@ -502,12 +573,12 @@
           "url": "https://github.com/caglaryalcin/lockstep",
           "homepage": "",
           "description": "Lockstep is a personal security checklist platform. It helps users track security habits, checklist progress, priorities, and profile-based progress from a clean web interface.",
-          "stars": 15,
+          "stars": 16,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-07-01T15:00:54Z",
-          "updatedAt": "2026-07-05T06:42:31Z",
+          "updatedAt": "2026-07-06T06:12:29Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -520,32 +591,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 89.06
-        },
-        {
-          "id": 1287292263,
-          "name": "Browser-Based-Ransomware",
-          "fullName": "danieloz147/Browser-Based-Ransomware",
-          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
-          "homepage": "",
-          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation required - runs entirely within the browser sandbox. Built for authorized red-team assessments.",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-07-02T14:53:14Z",
-          "updatedAt": "2026-07-06T05:20:15Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 88.32
+          "score": 88.84
         },
         {
           "id": 1284295319,
@@ -554,12 +600,12 @@
           "url": "https://github.com/X0CBAN/Harness",
           "homepage": "",
           "description": "A fast, open-source HTTP proxy and web security testing Framework",
-          "stars": 14,
+          "stars": 15,
           "forks": 0,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-06-29T18:07:16Z",
-          "updatedAt": "2026-07-06T00:38:46Z",
+          "updatedAt": "2026-07-06T13:49:53Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -570,7 +616,31 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 87.25
+          "score": 87.11
+        },
+        {
+          "id": 1283675985,
+          "name": "OSINT-Tools-Nigeria",
+          "fullName": "zerometa-hq/OSINT-Tools-Nigeria",
+          "url": "https://github.com/zerometa-hq/OSINT-Tools-Nigeria",
+          "homepage": "",
+          "description": "A specialized OSINT framework for high-signal investigations focused exclusively on the Nigerian landscape.",
+          "stars": 11,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-06-29T06:20:17Z",
+          "updatedAt": "2026-07-03T08:00:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 81.97
         },
         {
           "id": 1284348601,
@@ -598,21 +668,21 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 83.36
+          "score": 81.54
         },
         {
-          "id": 1283675985,
-          "name": "OSINT-Tools-Nigeria",
-          "fullName": "zerometa-hq/OSINT-Tools-Nigeria",
-          "url": "https://github.com/zerometa-hq/OSINT-Tools-Nigeria",
+          "id": 1289684562,
+          "name": "expendable_orca",
+          "fullName": "Iankulani/expendable_orca",
+          "url": "https://github.com/Iankulani/expendable_orca",
           "homepage": "",
-          "description": "A specialized OSINT framework for high-signal investigations focused exclusively on the Nigerian landscape.",
-          "stars": 11,
-          "forks": 4,
+          "description": "Expendable Orca is a modern cyber security operations platform engineered to help security professionals, organizations, ethical hackers, red teams, blue teams, managed security service providers (MSSPs), security researchers, and IT administrators manage cyber security operations from virtually anywhere. The platform combines centralized managemen",
+          "stars": 5,
+          "forks": 1,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-06-29T06:20:17Z",
-          "updatedAt": "2026-07-03T08:00:33Z",
+          "language": "Python",
+          "createdAt": "2026-07-05T04:22:58Z",
+          "updatedAt": "2026-07-06T15:33:24Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -620,9 +690,36 @@
             1.08
           ],
           "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 80.94
+        },
+        {
+          "id": 1288087535,
+          "name": "job-verify",
+          "fullName": "yessGlory17/job-verify",
+          "url": "https://github.com/yessGlory17/job-verify",
+          "homepage": "",
+          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-03T09:05:51Z",
+          "updatedAt": "2026-07-06T15:52:49Z",
+          "matchedProfiles": [
             "网络安全"
           ],
-          "score": 82.09
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 80.75
         },
         {
           "id": 1288051655,
@@ -647,7 +744,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 79.82
+          "score": 78.13
         },
         {
           "id": 1289216873,
@@ -672,32 +769,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.67
-        },
-        {
-          "id": 1288087535,
-          "name": "job-verify",
-          "fullName": "yessGlory17/job-verify",
-          "url": "https://github.com/yessGlory17/job-verify",
-          "homepage": "",
-          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
-          "stars": 6,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-03T09:05:51Z",
-          "updatedAt": "2026-07-06T02:36:11Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 79.27
+          "score": 77.84
         },
         {
           "id": 1285299512,
@@ -708,10 +780,10 @@
           "description": "Guardrails for AI coding agents — block catastrophic tool calls before they run. Semantic, agent-neutral, near-zero false positives.",
           "stars": 14,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 1,
           "language": "Go",
           "createdAt": "2026-06-30T17:04:19Z",
-          "updatedAt": "2026-07-03T19:36:47Z",
+          "updatedAt": "2026-07-06T14:56:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -722,7 +794,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 77.49
+          "score": 75.8
         },
         {
           "id": 1286709310,
@@ -731,12 +803,12 @@
           "url": "https://github.com/DevOpsAIguru123/awesome-agentic-devops",
           "homepage": "",
           "description": "Curated + scored map of official MCP servers and agents for DevOps, Cloud, SRE, and Platform Engineering — every entry rated on production access, approval gates, and audit evidence.",
-          "stars": 10,
+          "stars": 11,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-07-02T03:09:58Z",
-          "updatedAt": "2026-07-06T04:07:58Z",
+          "updatedAt": "2026-07-06T10:25:10Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -747,7 +819,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.3
+          "score": 75.69
         }
       ]
     }
