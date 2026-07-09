@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-09T05:04:41.008Z",
+  "generatedAt": "2026-07-09T16:09:49.225Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-06",
-      "totalCandidates": 19,
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 11,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         }
       ],
       "repositories": [
@@ -85,7 +85,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-06T12:28:46Z",
-          "updatedAt": "2026-07-08T08:58:37Z",
+          "updatedAt": "2026-07-09T07:22:56Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -96,7 +96,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 120.7
+          "score": 117.81
         },
         {
           "id": 1291296530,
@@ -121,7 +121,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 94.32
+          "score": 90.32
         },
         {
           "id": 1293032908,
@@ -149,7 +149,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 79.62
+          "score": 74.89
         },
         {
           "id": 1291466723,
@@ -158,12 +158,12 @@
           "url": "https://github.com/Strategic-Automation/violin",
           "homepage": "",
           "description": "Violin — a supervised, agentic Hermes Agent pentest profile (31 playbooks, 8 references, guard plugin) for authorised recon, exploit validation, and reporting. Hermes-native, no extra keys.",
-          "stars": 6,
-          "forks": 0,
+          "stars": 7,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-06T20:37:28Z",
-          "updatedAt": "2026-07-08T23:40:19Z",
+          "updatedAt": "2026-07-09T10:32:50Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -181,7 +181,106 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 70.34
+          "score": 73.95
+        },
+        {
+          "id": 1295261727,
+          "name": "compose-harden",
+          "fullName": "joshua-michael/compose-harden",
+          "url": "https://github.com/joshua-michael/compose-harden",
+          "homepage": "",
+          "description": "Automatically audit and harden Docker Compose files using security best practices.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-09T13:04:15Z",
+          "updatedAt": "2026-07-09T13:22:41Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 66.68
+        },
+        {
+          "id": 1295089147,
+          "name": "CyberTool",
+          "fullName": "TahaAkgl27/CyberTool",
+          "url": "https://github.com/TahaAkgl27/CyberTool",
+          "homepage": "",
+          "description": "Open-source Windows security diagnostics and IT administration toolkit.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 5,
+          "language": "C#",
+          "createdAt": "2026-07-09T10:45:22Z",
+          "updatedAt": "2026-07-09T12:38:57Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 64.85
+        },
+        {
+          "id": 1294022777,
+          "name": "android-mod-apk-security-guide",
+          "fullName": "efxtv/android-mod-apk-security-guide",
+          "url": "https://github.com/efxtv/android-mod-apk-security-guide",
+          "homepage": "",
+          "description": "Complete guide on how hackers inject Trojans into Mod APKs and how to protect your Android device from RATs, malware, and malicious apps. Includes threat analysis, Indicators of Compromise (IOCs), and cybersecurity best practices for mobile security.  #android #cybersecurity #malware-analysis #ethicalhacking #mobile-security",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-08T18:09:16Z",
+          "updatedAt": "2026-07-09T08:08:00Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 64.64
+        },
+        {
+          "id": 1292604660,
+          "name": "RAVEN",
+          "fullName": "emperor-sec/RAVEN",
+          "url": "https://github.com/emperor-sec/RAVEN",
+          "homepage": "https://emperror-sec.github.io/RAVEN/",
+          "description": "Adversary emulation framework build for red teaming and security research",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Java",
+          "createdAt": "2026-07-07T17:07:42Z",
+          "updatedAt": "2026-07-09T13:16:04Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 64.31
         },
         {
           "id": 1293698128,
@@ -207,46 +306,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 67.17
+          "score": 63.16
         },
         {
-          "id": 1292604660,
-          "name": "RAVEN",
-          "fullName": "emperor-sec/RAVEN",
-          "url": "https://github.com/emperor-sec/RAVEN",
-          "homepage": "https://emperror-sec.github.io/RAVEN/",
-          "description": "Adversary emulation framework build for red teaming and security research",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Java",
-          "createdAt": "2026-07-07T17:07:42Z",
-          "updatedAt": "2026-07-08T08:30:47Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 63.52
-        },
-        {
-          "id": 1294022777,
-          "name": "android-mod-apk-security-guide",
-          "fullName": "efxtv/android-mod-apk-security-guide",
-          "url": "https://github.com/efxtv/android-mod-apk-security-guide",
+          "id": 1294252062,
+          "name": "FEBRABAN-Cyber-Academy-2026",
+          "fullName": "heyraqueell/FEBRABAN-Cyber-Academy-2026",
+          "url": "https://github.com/heyraqueell/FEBRABAN-Cyber-Academy-2026",
           "homepage": "",
-          "description": "Complete guide on how hackers inject Trojans into Mod APKs and how to protect your Android device from RATs, malware, and malicious apps. Includes threat analysis, Indicators of Compromise (IOCs), and cybersecurity best practices for mobile security.  #android #cybersecurity #malware-analysis #ethicalhacking #mobile-security",
+          "description": "Repositório destinado a resumos e estudo do curso Cyber Academy (FEBRABAN)",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-07-08T18:09:16Z",
-          "updatedAt": "2026-07-08T19:32:44Z",
+          "createdAt": "2026-07-08T21:16:58Z",
+          "updatedAt": "2026-07-09T10:25:51Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -254,10 +328,9 @@
             1.08
           ],
           "tags": [
-            "网络安全",
-            "防守 / 蓝队"
+            "网络安全"
           ],
-          "score": 62.7
+          "score": 59.6
         },
         {
           "id": 1293132228,
@@ -282,7 +355,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 59.53
+          "score": 55.52
         },
         {
           "id": 1292072614,
@@ -308,85 +381,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 56.17
-        },
-        {
-          "id": 1291844782,
-          "name": "Hawk.Sol",
-          "fullName": "suffering/Hawk.Sol",
-          "url": "https://github.com/suffering/Hawk.Sol",
-          "homepage": "",
-          "description": "A rate-limiting vault protection primitive for Solana DeFi protocols, built with Anchor. Caps fund outflow to a configurable percentage per rolling time window and automatically trips when thresholds are exceeded, giving protocols a non-bypassable defense against rapid drain attacks (e.g. the Drift-style governance-key-compromise exploit class).",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-07-07T06:07:19Z",
-          "updatedAt": "2026-07-08T20:32:17Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 50.84
-        },
-        {
-          "id": 1292076785,
-          "name": "PatrowlIntelMCP",
-          "fullName": "Patrowl/PatrowlIntelMCP",
-          "url": "https://github.com/Patrowl/PatrowlIntelMCP",
-          "homepage": "https://intel.patrowl.io",
-          "description": "A thin, read-only MCP server that brings PatrowlIntel CVE, EPSS, CISA KEV, exploit, and trending-attack data into Claude and any MCP client.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-07T09:25:53Z",
-          "updatedAt": "2026-07-08T08:19:05Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 49.94
-        },
-        {
-          "id": 1290535280,
-          "name": "server-hardening-playbook",
-          "fullName": "Sanexxxx777/server-hardening-playbook",
-          "url": "https://github.com/Sanexxxx777/server-hardening-playbook",
-          "homepage": "https://shulgin.is-a.dev",
-          "description": "Practical Linux server hardening — every item is failure → fix → verify. SSH, firewall, service binding, secrets, DB auth, and more.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-07-06T03:04:08Z",
-          "updatedAt": "2026-07-07T20:33:30Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 46.53
+          "score": 51.85
         }
       ]
     },
@@ -399,70 +394,45 @@
         "maxItems": 18
       },
       "createdSince": "2026-07-02",
-      "totalCandidates": 20,
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 10,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1783573533"
+          "rateLimitReset": "1783613441"
         }
       ],
       "repositories": [
-        {
-          "id": 1287441624,
-          "name": "hacksguard",
-          "fullName": "Rhacknarok/hacksguard",
-          "url": "https://github.com/Rhacknarok/hacksguard",
-          "homepage": "",
-          "description": "A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
-          "stars": 87,
-          "forks": 10,
-          "openIssues": 0,
-          "language": "YARA",
-          "createdAt": "2026-07-02T17:32:50Z",
-          "updatedAt": "2026-07-08T14:36:18Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 142.92
-        },
         {
           "id": 1287125429,
           "name": "brain0",
@@ -470,12 +440,12 @@
           "url": "https://github.com/Brain0-ai/brain0",
           "homepage": "",
           "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it: drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
-          "stars": 131,
+          "stars": 132,
           "forks": 12,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-07-02T12:02:08Z",
-          "updatedAt": "2026-07-08T15:38:20Z",
+          "updatedAt": "2026-07-09T06:21:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -487,7 +457,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 142.87
+          "score": 141.99
+        },
+        {
+          "id": 1287441624,
+          "name": "hacksguard",
+          "fullName": "Rhacknarok/hacksguard",
+          "url": "https://github.com/Rhacknarok/hacksguard",
+          "homepage": "",
+          "description": "A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
+          "stars": 89,
+          "forks": 10,
+          "openIssues": 0,
+          "language": "YARA",
+          "createdAt": "2026-07-02T17:32:50Z",
+          "updatedAt": "2026-07-09T07:30:14Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 141.69
         },
         {
           "id": 1291014040,
@@ -501,7 +496,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-06T12:28:46Z",
-          "updatedAt": "2026-07-08T08:58:37Z",
+          "updatedAt": "2026-07-09T07:22:56Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -512,7 +507,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 135.09
+          "score": 133.24
         },
         {
           "id": 1290409103,
@@ -521,12 +516,12 @@
           "url": "https://github.com/ITSDevelopmentCore/hypervault-crypto",
           "homepage": "",
           "description": "Offline cryptographic core of Hypervault: Argon2id, HKDF, AES-256-GCM, HV1 vault format, BIP-32/39, SLIP-10, air-gapped signing. Pure Kotlin, single dependency (Bouncy Castle).",
-          "stars": 49,
+          "stars": 50,
           "forks": 1,
           "openIssues": 7,
           "language": "Kotlin",
           "createdAt": "2026-07-05T23:22:33Z",
-          "updatedAt": "2026-07-09T03:13:49Z",
+          "updatedAt": "2026-07-09T05:20:55Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -537,7 +532,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 120.08
+          "score": 118.87
         },
         {
           "id": 1291296530,
@@ -562,7 +557,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 106.67
+          "score": 104.95
         },
         {
           "id": 1287290983,
@@ -588,7 +583,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 102.92
+          "score": 101.29
         },
         {
           "id": 1291466723,
@@ -597,12 +592,12 @@
           "url": "https://github.com/Strategic-Automation/violin",
           "homepage": "",
           "description": "Violin — a supervised, agentic Hermes Agent pentest profile (31 playbooks, 8 references, guard plugin) for authorised recon, exploit validation, and reporting. Hermes-native, no extra keys.",
-          "stars": 6,
-          "forks": 0,
+          "stars": 7,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-06T20:37:28Z",
-          "updatedAt": "2026-07-08T23:40:19Z",
+          "updatedAt": "2026-07-09T10:32:50Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -620,7 +615,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 84.09
+          "score": 90.4
         },
         {
           "id": 1287292263,
@@ -629,12 +624,12 @@
           "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
           "homepage": "",
           "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation required - runs entirely within the browser sandbox. Built for authorized red-team assessments.",
-          "stars": 10,
+          "stars": 11,
           "forks": 0,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-07-02T14:53:14Z",
-          "updatedAt": "2026-07-06T11:38:04Z",
+          "updatedAt": "2026-07-09T11:09:40Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -648,7 +643,32 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.94
+          "score": 78.6
+        },
+        {
+          "id": 1286709310,
+          "name": "awesome-agentic-devops",
+          "fullName": "DevOpsAIguru123/awesome-agentic-devops",
+          "url": "https://github.com/DevOpsAIguru123/awesome-agentic-devops",
+          "homepage": "",
+          "description": "Curated + scored map of official MCP servers and agents for DevOps, Cloud, SRE, and Platform Engineering — every entry rated on production access, approval gates, and audit evidence.",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-07-02T03:09:58Z",
+          "updatedAt": "2026-07-09T11:50:25Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 72.53
         },
         {
           "id": 1289684562,
@@ -662,7 +682,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-05T04:22:58Z",
-          "updatedAt": "2026-07-08T20:53:37Z",
+          "updatedAt": "2026-07-09T10:00:44Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -674,7 +694,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 70.81
+          "score": 68.96
         },
         {
           "id": 1287514011,
@@ -699,7 +719,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.79
+          "score": 68.94
         },
         {
           "id": 1288087535,
@@ -724,7 +744,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.63
+          "score": 68.77
         },
         {
           "id": 1289216873,
@@ -752,32 +772,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.72
-        },
-        {
-          "id": 1286709310,
-          "name": "awesome-agentic-devops",
-          "fullName": "DevOpsAIguru123/awesome-agentic-devops",
-          "url": "https://github.com/DevOpsAIguru123/awesome-agentic-devops",
-          "homepage": "",
-          "description": "Curated + scored map of official MCP servers and agents for DevOps, Cloud, SRE, and Platform Engineering — every entry rated on production access, approval gates, and audit evidence.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-02T03:09:58Z",
-          "updatedAt": "2026-07-09T00:49:07Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.61
+          "score": 65.86
         },
         {
           "id": 1288794509,
@@ -786,12 +781,12 @@
           "url": "https://github.com/sgateway/s-gw",
           "homepage": "https://s-gw.com",
           "description": "Local credential control for AI coding agents.",
-          "stars": 7,
+          "stars": 8,
           "forks": 0,
           "openIssues": 6,
           "language": "TypeScript",
           "createdAt": "2026-07-04T01:28:09Z",
-          "updatedAt": "2026-07-08T20:30:13Z",
+          "updatedAt": "2026-07-09T07:54:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -802,21 +797,46 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.93
+          "score": 64.95
         },
         {
-          "id": 1286645276,
-          "name": "kevlar-checkdeps",
-          "fullName": "brunoevn/kevlar-checkdeps",
-          "url": "https://github.com/brunoevn/kevlar-checkdeps",
+          "id": 1288350780,
+          "name": "CredStalker-",
+          "fullName": "Mr-Destroyer/CredStalker-",
+          "url": "https://github.com/Mr-Destroyer/CredStalker-",
           "homepage": "",
-          "description": "A powerful, fast, and self-contained command-line utility written in Python to scan project dependencies. It identifies outdated versions, deprecation notices, and security vulnerabilities by querying the npm registry and the Google OSV (Open Source Vulnerabilities) database.",
+          "description": "CredStalker is a powerful automated security tool designed to hunt down exposed  credentials, API keys, passwords, tokens, and sensitive data lurking in websites.  Perfect for bug bounty hunters, penetration testers, and security auditors.",
           "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-02T01:30:32Z",
-          "updatedAt": "2026-07-09T04:17:08Z",
+          "createdAt": "2026-07-03T14:11:55Z",
+          "updatedAt": "2026-07-09T12:13:29Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 63.65
+        },
+        {
+          "id": 1289174784,
+          "name": "sshd-lint",
+          "fullName": "capitan0n/sshd-lint",
+          "url": "https://github.com/capitan0n/sshd-lint",
+          "homepage": "",
+          "description": "Zero-dependency static analyzer for OpenSSH sshd_config — CIS Benchmark, Mozilla, and NIST security checks. Offline SSH hardening linter for CI/CD pipelines.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-04T12:18:46Z",
+          "updatedAt": "2026-07-08T12:48:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -825,10 +845,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 50.53
+          "score": 61.36
         }
       ]
     }
