@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-09T16:09:49.225Z",
+  "generatedAt": "2026-07-10T05:06:25.390Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,96 +33,46 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-06",
-      "totalCandidates": 21,
+      "createdSince": "2026-07-07",
+      "totalCandidates": 19,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         }
       ],
       "repositories": [
-        {
-          "id": 1291014040,
-          "name": "shortdot-evidence",
-          "fullName": "phishdestroy/shortdot-evidence",
-          "url": "https://github.com/phishdestroy/shortdot-evidence",
-          "homepage": "https://phishdestroy.github.io/shortdot-evidence/",
-          "description": "ShortDot SA zone abuse evidence (6.2M domains). Automated Threat Intelligence & daily updated IOCs for .icu, .bond, .cyou, .sbs, .cfd, .buzz, .qpon.",
-          "stars": 38,
-          "forks": 9,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-06T12:28:46Z",
-          "updatedAt": "2026-07-09T07:22:56Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 117.81
-        },
-        {
-          "id": 1291296530,
-          "name": "synapse-ce",
-          "fullName": "KKloudTarus/synapse-ce",
-          "url": "https://github.com/KKloudTarus/synapse-ce",
-          "homepage": "https://synapse.kkloudtarus.net/",
-          "description": "Synapse - a governed control plane for software composition analysis, recon, evidence, and reporting. Verify Everything. Trust Nothing.",
-          "stars": 23,
-          "forks": 2,
-          "openIssues": 5,
-          "language": "Go",
-          "createdAt": "2026-07-06T17:14:46Z",
-          "updatedAt": "2026-07-08T16:27:45Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 90.32
-        },
         {
           "id": 1293032908,
           "name": "SRC-Hunter",
@@ -149,39 +99,59 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 74.89
+          "score": 69.38
         },
         {
-          "id": 1291466723,
-          "name": "violin",
-          "fullName": "Strategic-Automation/violin",
-          "url": "https://github.com/Strategic-Automation/violin",
+          "id": 1295185575,
+          "name": "mona-sast-skills",
+          "fullName": "KaanBicaklar/mona-sast-skills",
+          "url": "https://github.com/KaanBicaklar/mona-sast-skills",
           "homepage": "",
-          "description": "Violin — a supervised, agentic Hermes Agent pentest profile (31 playbooks, 8 references, guard plugin) for authorised recon, exploit validation, and reporting. Hermes-native, no extra keys.",
-          "stars": 7,
+          "description": "A modular source-to-sink SAST methodology as composable skills: 47 vulnerability-class detectors with Burp-pasteable requests, non-destructive validation, and attack-chaining. For security testing.",
+          "stars": 2,
           "forks": 1,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-06T20:37:28Z",
-          "updatedAt": "2026-07-09T10:32:50Z",
+          "language": "Unknown",
+          "createdAt": "2026-07-09T12:13:43Z",
+          "updatedAt": "2026-07-09T19:02:47Z",
           "matchedProfiles": [
-            "通用安全",
-            "网络安全",
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1,
-            1.08,
-            1.18
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 64.7
+        },
+        {
+          "id": 1295557478,
+          "name": "injectlint",
+          "fullName": "VibhorGautam/injectlint",
+          "url": "https://github.com/VibhorGautam/injectlint",
+          "homepage": "",
+          "description": "Pipe untrusted text in and watch prompt injections light up red in your terminal. A best-effort detector, not a guardrail.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-07-09T16:50:25Z",
+          "updatedAt": "2026-07-09T17:53:22Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
           ],
           "tags": [
             "通用安全",
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "AI 自动化 / Skill"
           ],
-          "score": 73.95
+          "score": 63.37
         },
         {
           "id": 1295261727,
@@ -195,7 +165,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-09T13:04:15Z",
-          "updatedAt": "2026-07-09T13:22:41Z",
+          "updatedAt": "2026-07-10T03:06:37Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -206,7 +176,34 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 66.68
+          "score": 62
+        },
+        {
+          "id": 1294252062,
+          "name": "FEBRABAN-Cyber-Academy-2026",
+          "fullName": "heyraqueell/FEBRABAN-Cyber-Academy-2026",
+          "url": "https://github.com/heyraqueell/FEBRABAN-Cyber-Academy-2026",
+          "homepage": "",
+          "description": "Repositório destinado a resumos e estudo do curso Cyber Academy (FEBRABAN)",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-08T21:16:58Z",
+          "updatedAt": "2026-07-10T02:27:08Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 60.81
         },
         {
           "id": 1295089147,
@@ -230,7 +227,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 64.85
+          "score": 59.8
         },
         {
           "id": 1294022777,
@@ -255,7 +252,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 64.64
+          "score": 59.59
         },
         {
           "id": 1292604660,
@@ -280,7 +277,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 64.31
+          "score": 59.26
         },
         {
           "id": 1293698128,
@@ -306,31 +303,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 63.16
+          "score": 58.49
         },
         {
-          "id": 1294252062,
-          "name": "FEBRABAN-Cyber-Academy-2026",
-          "fullName": "heyraqueell/FEBRABAN-Cyber-Academy-2026",
-          "url": "https://github.com/heyraqueell/FEBRABAN-Cyber-Academy-2026",
+          "id": 1293627554,
+          "name": "cloak",
+          "fullName": "hoophq/cloak",
+          "url": "https://github.com/hoophq/cloak",
           "homepage": "",
-          "description": "Repositório destinado a resumos e estudo do curso Cyber Academy (FEBRABAN)",
-          "stars": 2,
+          "description": "Local credential proxy: hand AI agents fake DSNs/API keys and swap in the real secret on egress, so credentials never enter agent context, logs, or traces.",
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-08T21:16:58Z",
-          "updatedAt": "2026-07-09T10:25:51Z",
+          "language": "Go",
+          "createdAt": "2026-07-08T13:21:43Z",
+          "updatedAt": "2026-07-09T19:03:36Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 59.6
+          "score": 53.44
         },
         {
           "id": 1293132228,
@@ -344,7 +342,7 @@
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-08T06:10:44Z",
-          "updatedAt": "2026-07-09T00:59:04Z",
+          "updatedAt": "2026-07-10T04:13:46Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -355,7 +353,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 55.52
+          "score": 50.85
         },
         {
           "id": 1292072614,
@@ -381,7 +379,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 51.85
+          "score": 46.8
         }
       ]
     },
@@ -393,97 +391,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-02",
-      "totalCandidates": 21,
+      "createdSince": "2026-07-03",
+      "totalCandidates": 14,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 12,
+          "fetched": 10,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 6,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1783613441"
+          "rateLimitReset": "1783660038"
         }
       ],
       "repositories": [
-        {
-          "id": 1287125429,
-          "name": "brain0",
-          "fullName": "Brain0-ai/brain0",
-          "url": "https://github.com/Brain0-ai/brain0",
-          "homepage": "",
-          "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it: drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
-          "stars": 132,
-          "forks": 12,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-07-02T12:02:08Z",
-          "updatedAt": "2026-07-09T06:21:16Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 141.99
-        },
-        {
-          "id": 1287441624,
-          "name": "hacksguard",
-          "fullName": "Rhacknarok/hacksguard",
-          "url": "https://github.com/Rhacknarok/hacksguard",
-          "homepage": "",
-          "description": "A blazingly fast, multi-threaded TUI malware analysis tool built in Rust. Features deep PE parsing, YARA scanning, and heuristic risk scoring.",
-          "stars": 89,
-          "forks": 10,
-          "openIssues": 0,
-          "language": "YARA",
-          "createdAt": "2026-07-02T17:32:50Z",
-          "updatedAt": "2026-07-09T07:30:14Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 141.69
-        },
         {
           "id": 1291014040,
           "name": "shortdot-evidence",
@@ -491,12 +438,12 @@
           "url": "https://github.com/phishdestroy/shortdot-evidence",
           "homepage": "https://phishdestroy.github.io/shortdot-evidence/",
           "description": "ShortDot SA zone abuse evidence (6.2M domains). Automated Threat Intelligence & daily updated IOCs for .icu, .bond, .cyou, .sbs, .cfd, .buzz, .qpon.",
-          "stars": 38,
+          "stars": 39,
           "forks": 9,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-06T12:28:46Z",
-          "updatedAt": "2026-07-09T07:22:56Z",
+          "updatedAt": "2026-07-09T23:08:40Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -507,7 +454,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 133.24
+          "score": 131.77
         },
         {
           "id": 1290409103,
@@ -532,7 +479,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 118.87
+          "score": 116.86
         },
         {
           "id": 1291296530,
@@ -541,12 +488,12 @@
           "url": "https://github.com/KKloudTarus/synapse-ce",
           "homepage": "https://synapse.kkloudtarus.net/",
           "description": "Synapse - a governed control plane for software composition analysis, recon, evidence, and reporting. Verify Everything. Trust Nothing.",
-          "stars": 23,
-          "forks": 2,
-          "openIssues": 5,
+          "stars": 24,
+          "forks": 4,
+          "openIssues": 22,
           "language": "Go",
           "createdAt": "2026-07-06T17:14:46Z",
-          "updatedAt": "2026-07-08T16:27:45Z",
+          "updatedAt": "2026-07-10T04:04:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -557,33 +504,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 104.95
-        },
-        {
-          "id": 1287290983,
-          "name": "osint-terminal",
-          "fullName": "RojanSapkota/osint-terminal",
-          "url": "https://github.com/RojanSapkota/osint-terminal",
-          "homepage": "",
-          "description": "Self-hosted OSINT dashboard: 400+ keyless recon tools, a live 3D threat globe, and batch/case   investigation workflows, no API keys required.",
-          "stars": 27,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-02T14:52:02Z",
-          "updatedAt": "2026-07-08T04:32:08Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 101.29
+          "score": 106.92
         },
         {
           "id": 1291466723,
@@ -615,60 +536,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 90.4
-        },
-        {
-          "id": 1287292263,
-          "name": "Browser-Based-Ransomware",
-          "fullName": "danieloz147/Browser-Based-Ransomware",
-          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
-          "homepage": "",
-          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation required - runs entirely within the browser sandbox. Built for authorized red-team assessments.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-07-02T14:53:14Z",
-          "updatedAt": "2026-07-09T11:09:40Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 78.6
-        },
-        {
-          "id": 1286709310,
-          "name": "awesome-agentic-devops",
-          "fullName": "DevOpsAIguru123/awesome-agentic-devops",
-          "url": "https://github.com/DevOpsAIguru123/awesome-agentic-devops",
-          "homepage": "",
-          "description": "Curated + scored map of official MCP servers and agents for DevOps, Cloud, SRE, and Platform Engineering — every entry rated on production access, approval gates, and audit evidence.",
-          "stars": 12,
-          "forks": 1,
-          "openIssues": 2,
-          "language": "Python",
-          "createdAt": "2026-07-02T03:09:58Z",
-          "updatedAt": "2026-07-09T11:50:25Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 72.53
+          "score": 88.03
         },
         {
           "id": 1289684562,
@@ -682,7 +550,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-05T04:22:58Z",
-          "updatedAt": "2026-07-09T10:00:44Z",
+          "updatedAt": "2026-07-09T21:00:42Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -694,32 +562,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 68.96
-        },
-        {
-          "id": 1287514011,
-          "name": "dos-ddos-lab",
-          "fullName": "yusuf-husayn/dos-ddos-lab",
-          "url": "https://github.com/yusuf-husayn/dos-ddos-lab",
-          "homepage": "",
-          "description": "Hands-on DoS and DDoS attack fundamentals lab featuring Wireshark traffic analysis, Bash and Python automation, TCP/IP analysis, and defensive mitigation techniques.",
-          "stars": 7,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-02T18:58:11Z",
-          "updatedAt": "2026-07-08T16:16:22Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 68.94
+          "score": 66.8
         },
         {
           "id": 1288087535,
@@ -744,7 +587,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 68.77
+          "score": 66.61
         },
         {
           "id": 1289216873,
@@ -772,7 +615,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.86
+          "score": 63.7
         },
         {
           "id": 1288794509,
@@ -797,7 +640,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 64.95
+          "score": 62.95
         },
         {
           "id": 1288350780,
@@ -813,16 +656,19 @@
           "createdAt": "2026-07-03T14:11:55Z",
           "updatedAt": "2026-07-09T12:13:29Z",
           "matchedProfiles": [
+            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1,
             1.18
           ],
           "tags": [
+            "通用安全",
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 63.65
+          "score": 61.29
         },
         {
           "id": 1289174784,
@@ -847,7 +693,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 61.36
+          "score": 59.36
         }
       ]
     }
