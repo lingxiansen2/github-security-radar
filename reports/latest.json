@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-10T15:40:09.622Z",
+  "generatedAt": "2026-07-11T04:26:08.457Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-07",
+      "createdSince": "2026-07-08",
       "totalCandidates": 23,
       "queryStats": [
         {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/s0ld13rr/pentestcode",
           "homepage": "",
           "description": "PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations.",
-          "stars": 16,
-          "forks": 1,
+          "stars": 20,
+          "forks": 2,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-07-08T08:22:01Z",
-          "updatedAt": "2026-07-10T14:47:29Z",
+          "updatedAt": "2026-07-11T00:12:44Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -96,7 +96,58 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 100.4
+          "score": 103.87
+        },
+        {
+          "id": 1296478978,
+          "name": "Cisa-KEV-Threat-Intel-Orchestrator",
+          "fullName": "manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
+          "url": "https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
+          "homepage": "https://osintteam.blog/advanced-threat-intel-from-6-hours-to-0-minutes-per-cve-1ee3d55d5485",
+          "description": "Zero-touch pipeline that turns newly weaponized CVEs from the CISA Known Exploited Vulnerabilities (KEV) catalog into production-ready Sigma detection rules, automatically, every week.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-10T12:29:18Z",
+          "updatedAt": "2026-07-11T02:00:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 80.18
+        },
+        {
+          "id": 1296954740,
+          "name": "octra-hfhe-v2-security-assessment",
+          "fullName": "smoke-ui/octra-hfhe-v2-security-assessment",
+          "url": "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment",
+          "homepage": "",
+          "description": "Independent public-artifact cryptanalysis and security assessment of OCTRA HFHE Challenge v2",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 2,
+          "language": "C++",
+          "createdAt": "2026-07-10T22:41:37Z",
+          "updatedAt": "2026-07-11T04:17:23Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 76.09
         },
         {
           "id": 1296514980,
@@ -121,34 +172,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.9
-        },
-        {
-          "id": 1296478978,
-          "name": "Cisa-KEV-Threat-Intel-Orchestrator",
-          "fullName": "manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
-          "url": "https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
-          "homepage": "https://osintteam.blog/advanced-threat-intel-from-6-hours-to-0-minutes-per-cve-1ee3d55d5485",
-          "description": "Zero-touch pipeline that turns newly weaponized CVEs from the CISA Known Exploited Vulnerabilities (KEV) catalog into production-ready Sigma detection rules, automatically, every week.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-10T12:29:18Z",
-          "updatedAt": "2026-07-10T14:36:42Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 65.72
+          "score": 66.29
         },
         {
           "id": 1293032908,
@@ -176,7 +200,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 64.88
+          "score": 59.63
+        },
+        {
+          "id": 1296242913,
+          "name": "Cell-OSINT",
+          "fullName": "jobiryasir/Cell-OSINT",
+          "url": "https://github.com/jobiryasir/Cell-OSINT",
+          "homepage": "",
+          "description": "A comprehensive OSINT archive for phone number intelligence, digital identity resolution, and cellular network forensics.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-10T07:51:42Z",
+          "updatedAt": "2026-07-10T16:44:39Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 58.94
         },
         {
           "id": 1295185575,
@@ -203,7 +252,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 60.58
+          "score": 55.6
         },
         {
           "id": 1295557478,
@@ -228,7 +277,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 59.55
+          "score": 54.94
+        },
+        {
+          "id": 1295773671,
+          "name": "gitshield",
+          "fullName": "fay-saal/gitshield",
+          "url": "https://github.com/fay-saal/gitshield",
+          "homepage": "",
+          "description": "Stop API keys and tokens from ever reaching GitHub, local pre-commit scanning, entropy detection, and a dashboard. No cloud, no signup.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-09T20:59:01Z",
+          "updatedAt": "2026-07-11T04:06:47Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 54.69
         },
         {
           "id": 1295261727,
@@ -253,7 +327,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 58.19
+          "score": 53.58
         },
         {
           "id": 1294252062,
@@ -280,7 +354,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 56.69
+          "score": 51.71
         },
         {
           "id": 1295089147,
@@ -304,83 +378,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 55.68
-        },
-        {
-          "id": 1294022777,
-          "name": "android-mod-apk-security-guide",
-          "fullName": "efxtv/android-mod-apk-security-guide",
-          "url": "https://github.com/efxtv/android-mod-apk-security-guide",
-          "homepage": "",
-          "description": "Complete guide on how hackers inject Trojans into Mod APKs and how to protect your Android device from RATs, malware, and malicious apps. Includes threat analysis, Indicators of Compromise (IOCs), and cybersecurity best practices for mobile security.  #android #cybersecurity #malware-analysis #ethicalhacking #mobile-security",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-08T18:09:16Z",
-          "updatedAt": "2026-07-09T08:08:00Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 55.47
-        },
-        {
-          "id": 1292604660,
-          "name": "RAVEN",
-          "fullName": "emperor-sec/RAVEN",
-          "url": "https://github.com/emperor-sec/RAVEN",
-          "homepage": "https://emperror-sec.github.io/RAVEN/",
-          "description": "Adversary emulation framework build for red teaming and security research",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Java",
-          "createdAt": "2026-07-07T17:07:42Z",
-          "updatedAt": "2026-07-09T13:16:04Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 55.14
-        },
-        {
-          "id": 1293698128,
-          "name": "threat-model",
-          "fullName": "alpha-omega-security/threat-model",
-          "url": "https://github.com/alpha-omega-security/threat-model",
-          "homepage": "https://alpha-omega.dev",
-          "description": "Agent skill for producing threat models for open-source projects",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-08T14:13:47Z",
-          "updatedAt": "2026-07-09T01:28:33Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 54.68
+          "score": 50.71
         }
       ]
     },
@@ -392,43 +390,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-03",
-      "totalCandidates": 16,
+      "createdSince": "2026-07-04",
+      "totalCandidates": 13,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 11,
+          "fetched": 8,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 6,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1783698062"
+          "rateLimitReset": "1783744022"
         }
       ],
       "repositories": [
@@ -455,7 +453,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 130
+          "score": 127.87
+        },
+        {
+          "id": 1293290940,
+          "name": "pentestcode",
+          "fullName": "s0ld13rr/pentestcode",
+          "url": "https://github.com/s0ld13rr/pentestcode",
+          "homepage": "",
+          "description": "PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations.",
+          "stars": 20,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-07-08T08:22:01Z",
+          "updatedAt": "2026-07-11T00:12:44Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 120.45
         },
         {
           "id": 1290409103,
@@ -480,32 +503,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 115.23
-        },
-        {
-          "id": 1293290940,
-          "name": "pentestcode",
-          "fullName": "s0ld13rr/pentestcode",
-          "url": "https://github.com/s0ld13rr/pentestcode",
-          "homepage": "",
-          "description": "PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations.",
-          "stars": 16,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-08T08:22:01Z",
-          "updatedAt": "2026-07-10T14:47:29Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 113.87
+          "score": 113.25
         },
         {
           "id": 1291296530,
@@ -514,12 +512,12 @@
           "url": "https://github.com/KKloudTarus/synapse-ce",
           "homepage": "https://synapse.kkloudtarus.net/",
           "description": "Synapse - a governed control plane for software composition analysis, recon, evidence, and reporting. Verify Everything. Trust Nothing.",
-          "stars": 24,
+          "stars": 25,
           "forks": 5,
-          "openIssues": 20,
+          "openIssues": 17,
           "language": "Go",
           "createdAt": "2026-07-06T17:14:46Z",
-          "updatedAt": "2026-07-10T11:00:06Z",
+          "updatedAt": "2026-07-10T17:27:20Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -530,7 +528,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 106.33
+          "score": 105.34
         },
         {
           "id": 1291466723,
@@ -539,12 +537,12 @@
           "url": "https://github.com/Strategic-Automation/violin",
           "homepage": "",
           "description": "Violin — a supervised, agentic Hermes Agent pentest profile (31 playbooks, 8 references, guard plugin) for authorised recon, exploit validation, and reporting. Hermes-native, no extra keys.",
-          "stars": 7,
+          "stars": 8,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-06T20:37:28Z",
-          "updatedAt": "2026-07-10T14:06:20Z",
+          "updatedAt": "2026-07-11T00:18:00Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -562,21 +560,21 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 86.1
+          "score": 87
         },
         {
-          "id": 1288087535,
-          "name": "job-verify",
-          "fullName": "yessGlory17/job-verify",
-          "url": "https://github.com/yessGlory17/job-verify",
-          "homepage": "",
-          "description": "Detect fake recruiter & job-offer scams with free OSINT — an MCP server for Claude. No API keys.",
-          "stars": 7,
-          "forks": 1,
+          "id": 1296478978,
+          "name": "Cisa-KEV-Threat-Intel-Orchestrator",
+          "fullName": "manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
+          "url": "https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
+          "homepage": "https://osintteam.blog/advanced-threat-intel-from-6-hours-to-0-minutes-per-cve-1ee3d55d5485",
+          "description": "Zero-touch pipeline that turns newly weaponized CVEs from the CISA Known Exploited Vulnerabilities (KEV) catalog into production-ready Sigma detection rules, automatically, every week.",
+          "stars": 6,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-03T09:05:51Z",
-          "updatedAt": "2026-07-06T15:52:49Z",
+          "language": "Unknown",
+          "createdAt": "2026-07-10T12:29:18Z",
+          "updatedAt": "2026-07-11T02:00:50Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -585,9 +583,11 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill"
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
           ],
-          "score": 65.94
+          "score": 83.73
         },
         {
           "id": 1289684562,
@@ -601,7 +601,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-05T04:22:58Z",
-          "updatedAt": "2026-07-09T21:00:42Z",
+          "updatedAt": "2026-07-10T16:14:29Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -613,7 +613,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 65.03
+          "score": 62.9
         },
         {
           "id": 1289216873,
@@ -641,7 +641,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.94
+          "score": 59.8
         },
         {
           "id": 1288794509,
@@ -655,7 +655,7 @@
           "openIssues": 6,
           "language": "TypeScript",
           "createdAt": "2026-07-04T01:28:09Z",
-          "updatedAt": "2026-07-09T07:54:38Z",
+          "updatedAt": "2026-07-10T22:44:27Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -666,35 +666,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.31
-        },
-        {
-          "id": 1288350780,
-          "name": "CredStalker-",
-          "fullName": "Mr-Destroyer/CredStalker-",
-          "url": "https://github.com/Mr-Destroyer/CredStalker-",
-          "homepage": "",
-          "description": "CredStalker is a powerful automated security tool designed to hunt down exposed  credentials, API keys, passwords, tokens, and sensitive data lurking in websites.  Perfect for bug bounty hunters, penetration testers, and security auditors.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-03T14:11:55Z",
-          "updatedAt": "2026-07-09T12:13:29Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 59.63
+          "score": 59.79
         },
         {
           "id": 1289174784,
@@ -719,32 +691,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 57.73
-        },
-        {
-          "id": 1288397357,
-          "name": "mcp-sso",
-          "fullName": "acartag7/mcp-sso",
-          "url": "https://github.com/acartag7/mcp-sso",
-          "homepage": "",
-          "description": "OAuth / SSO bridge for remote MCP servers when your IdP does not support DCR.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 8,
-          "language": "TypeScript",
-          "createdAt": "2026-07-03T15:00:51Z",
-          "updatedAt": "2026-07-10T14:39:02Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 50.53
+          "score": 55.75
         }
       ]
     }
