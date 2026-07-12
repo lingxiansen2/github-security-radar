@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-12T04:36:58.444Z",
+  "generatedAt": "2026-07-12T14:37:42.869Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,70 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-09",
-      "totalCandidates": 21,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 0,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         }
       ],
       "repositories": [
+        {
+          "id": 1297563600,
+          "name": "graveyard-check",
+          "fullName": "TahaKotwal12/graveyard-check",
+          "url": "https://github.com/TahaKotwal12/graveyard-check",
+          "homepage": "https://graveyard-check-ouxi.vercel.app/",
+          "description": "Find maintained successors for abandoned npm dependencies before they break your build.",
+          "stars": 20,
+          "forks": 1,
+          "openIssues": 10,
+          "language": "TypeScript",
+          "createdAt": "2026-07-11T15:33:05Z",
+          "updatedAt": "2026-07-12T11:34:50Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 101.94
+        },
         {
           "id": 1296478978,
           "name": "Cisa-KEV-Threat-Intel-Orchestrator",
@@ -80,12 +105,12 @@
           "url": "https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
           "homepage": "https://osintteam.blog/advanced-threat-intel-from-6-hours-to-0-minutes-per-cve-1ee3d55d5485",
           "description": "Zero-touch pipeline that turns newly weaponized CVEs from the CISA Known Exploited Vulnerabilities (KEV) catalog into production-ready Sigma detection rules, automatically, every week.",
-          "stars": 16,
+          "stars": 18,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-10T12:29:18Z",
-          "updatedAt": "2026-07-12T00:20:40Z",
+          "updatedAt": "2026-07-12T10:57:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -98,7 +123,32 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 93.49
+          "score": 92.54
+        },
+        {
+          "id": 1298248424,
+          "name": "remora-cc",
+          "fullName": "Nanako0129/remora-cc",
+          "url": "https://github.com/Nanako0129/remora-cc",
+          "homepage": "",
+          "description": "Session-scoped GPT-5.6 agent routing for Claude Code",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-12T12:07:54Z",
+          "updatedAt": "2026-07-12T14:28:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.1
         },
         {
           "id": 1297833395,
@@ -123,7 +173,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 81.01
+          "score": 77.4
         },
         {
           "id": 1297829873,
@@ -148,7 +198,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 77.9
+          "score": 74.29
         },
         {
           "id": 1297504980,
@@ -174,7 +224,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 72.77
+          "score": 68.87
         },
         {
           "id": 1296954740,
@@ -198,7 +248,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 70.99
+          "score": 67.08
         },
         {
           "id": 1297831608,
@@ -223,32 +273,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 65.72
-        },
-        {
-          "id": 1297597326,
-          "name": "Vulnerable-Login",
-          "fullName": "yogsec/Vulnerable-Login",
-          "url": "https://github.com/yogsec/Vulnerable-Login",
-          "homepage": "https://yogsec.github.io/Vulnerable-Login/",
-          "description": "Vulnerable login form designed for security education and training. ",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-11T16:18:26Z",
-          "updatedAt": "2026-07-11T17:37:48Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 62.16
+          "score": 62.11
         },
         {
           "id": 1294545454,
@@ -279,6 +304,56 @@
           "score": 61.42
         },
         {
+          "id": 1297597326,
+          "name": "Vulnerable-Login",
+          "fullName": "yogsec/Vulnerable-Login",
+          "url": "https://github.com/yogsec/Vulnerable-Login",
+          "homepage": "https://yogsec.github.io/Vulnerable-Login/",
+          "description": "Vulnerable login form designed for security education and training. ",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-11T16:18:26Z",
+          "updatedAt": "2026-07-11T17:37:48Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 58.26
+        },
+        {
+          "id": 1297385808,
+          "name": "writify",
+          "fullName": "cybersagnik/writify",
+          "url": "https://github.com/cybersagnik/writify",
+          "homepage": "",
+          "description": "Tired of reconstructing writeups from memory, digging through screenshots, and hunting for PoC files? Writify captures everything as you work, then builds a polished GitHub-ready writeup.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-07-11T11:32:02Z",
+          "updatedAt": "2026-07-12T13:19:32Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 56.39
+        },
+        {
           "id": 1296514980,
           "name": "secure-voip-ha-lab",
           "fullName": "Sid00011/secure-voip-ha-lab",
@@ -301,82 +376,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 57.55
-        },
-        {
-          "id": 1297563600,
-          "name": "graveyard-check",
-          "fullName": "TahaKotwal12/graveyard-check",
-          "url": "https://github.com/TahaKotwal12/graveyard-check",
-          "homepage": "https://graveyard-check-ouxi.vercel.app/",
-          "description": "Find maintained successors for abandoned npm dependencies before they break your build.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 10,
-          "language": "TypeScript",
-          "createdAt": "2026-07-11T15:33:05Z",
-          "updatedAt": "2026-07-11T19:17:53Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 57.28
-        },
-        {
-          "id": 1296895521,
-          "name": "agentpay-guard",
-          "fullName": "theMobiusStrip/agentpay-guard",
-          "url": "https://github.com/theMobiusStrip/agentpay-guard",
-          "homepage": "",
-          "description": "Fail-closed spend guard for x402 agent payments: stateful policy plugin, EIP-3009 replay middleware, and DrainBench — a reproducible adversarial drain benchmark",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-10T20:54:22Z",
-          "updatedAt": "2026-07-11T06:50:51Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 50.55
-        },
-        {
-          "id": 1296242913,
-          "name": "Cell-OSINT",
-          "fullName": "jobiryasir/Cell-OSINT",
-          "url": "https://github.com/jobiryasir/Cell-OSINT",
-          "homepage": "",
-          "description": "A comprehensive OSINT archive for phone number intelligence, digital identity resolution, and cellular network forensics.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-10T07:51:42Z",
-          "updatedAt": "2026-07-10T16:44:39Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 49.51
+          "score": 53.94
         }
       ]
     },
@@ -389,42 +389,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-07-05",
-      "totalCandidates": 16,
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 9,
+          "fetched": 11,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1783831072"
+          "rateLimitReset": "1783867115"
         }
       ],
       "repositories": [
@@ -435,12 +435,12 @@
           "url": "https://github.com/s0ld13rr/pentestcode",
           "homepage": "",
           "description": "PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations.",
-          "stars": 26,
+          "stars": 27,
           "forks": 3,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-07-08T08:22:01Z",
-          "updatedAt": "2026-07-12T01:06:38Z",
+          "updatedAt": "2026-07-12T08:13:04Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -451,7 +451,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 125.38
+          "score": 124.63
         },
         {
           "id": 1291014040,
@@ -465,7 +465,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-06T12:28:46Z",
-          "updatedAt": "2026-07-12T00:17:25Z",
+          "updatedAt": "2026-07-12T07:04:32Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -476,7 +476,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 125.16
+          "score": 123.49
         },
         {
           "id": 1290409103,
@@ -501,21 +501,21 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 109.51
+          "score": 107.96
         },
         {
-          "id": 1291296530,
-          "name": "synapse-ce",
-          "fullName": "KKloudTarus/synapse-ce",
-          "url": "https://github.com/KKloudTarus/synapse-ce",
-          "homepage": "https://synapse.kkloudtarus.net/",
-          "description": "Synapse - a governed control plane for software composition analysis, recon, evidence, and reporting. Verify Everything. Trust Nothing.",
-          "stars": 26,
-          "forks": 7,
-          "openIssues": 7,
-          "language": "Go",
-          "createdAt": "2026-07-06T17:14:46Z",
-          "updatedAt": "2026-07-12T04:17:09Z",
+          "id": 1297563600,
+          "name": "graveyard-check",
+          "fullName": "TahaKotwal12/graveyard-check",
+          "url": "https://github.com/TahaKotwal12/graveyard-check",
+          "homepage": "https://graveyard-check-ouxi.vercel.app/",
+          "description": "Find maintained successors for abandoned npm dependencies before they break your build.",
+          "stars": 20,
+          "forks": 1,
+          "openIssues": 10,
+          "language": "TypeScript",
+          "createdAt": "2026-07-11T15:33:05Z",
+          "updatedAt": "2026-07-12T11:34:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -524,9 +524,9 @@
           ],
           "tags": [
             "通用安全",
-            "渗透 / 红队"
+            "AI 自动化 / Skill"
           ],
-          "score": 104.2
+          "score": 106.7
         },
         {
           "id": 1296478978,
@@ -535,12 +535,12 @@
           "url": "https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
           "homepage": "https://osintteam.blog/advanced-threat-intel-from-6-hours-to-0-minutes-per-cve-1ee3d55d5485",
           "description": "Zero-touch pipeline that turns newly weaponized CVEs from the CISA Known Exploited Vulnerabilities (KEV) catalog into production-ready Sigma detection rules, automatically, every week.",
-          "stars": 16,
+          "stars": 18,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-10T12:29:18Z",
-          "updatedAt": "2026-07-12T00:20:40Z",
+          "updatedAt": "2026-07-12T10:57:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -553,7 +553,32 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 102.44
+          "score": 103.72
+        },
+        {
+          "id": 1291296530,
+          "name": "synapse-ce",
+          "fullName": "KKloudTarus/synapse-ce",
+          "url": "https://github.com/KKloudTarus/synapse-ce",
+          "homepage": "https://synapse.kkloudtarus.net/",
+          "description": "Synapse - a governed control plane for software composition analysis, recon, evidence, and reporting. Verify Everything. Trust Nothing.",
+          "stars": 26,
+          "forks": 7,
+          "openIssues": 41,
+          "language": "Go",
+          "createdAt": "2026-07-06T17:14:46Z",
+          "updatedAt": "2026-07-12T14:03:13Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 102.65
         },
         {
           "id": 1291466723,
@@ -567,7 +592,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-06T20:37:28Z",
-          "updatedAt": "2026-07-11T19:19:37Z",
+          "updatedAt": "2026-07-12T08:41:03Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -585,7 +610,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 88.17
+          "score": 86.34
         },
         {
           "id": 1297833395,
@@ -610,7 +635,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 82.18
+          "score": 80.63
+        },
+        {
+          "id": 1298248424,
+          "name": "remora-cc",
+          "fullName": "Nanako0129/remora-cc",
+          "url": "https://github.com/Nanako0129/remora-cc",
+          "homepage": "",
+          "description": "Session-scoped GPT-5.6 agent routing for Claude Code",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-12T12:07:54Z",
+          "updatedAt": "2026-07-12T14:28:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.61
         },
         {
           "id": 1297829873,
@@ -635,7 +685,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 79.1
+          "score": 77.55
         },
         {
           "id": 1296954740,
@@ -659,7 +709,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 77.65
+          "score": 75.98
         },
         {
           "id": 1294545454,
@@ -687,7 +737,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 77.07
+          "score": 75.4
         },
         {
           "id": 1289684562,
@@ -722,12 +772,12 @@
           "url": "https://github.com/HariXploit/darkrecon",
           "homepage": "",
           "description": "Bug Bounty Recon Automation Tool",
-          "stars": 5,
+          "stars": 6,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-05T15:28:22Z",
-          "updatedAt": "2026-07-12T01:44:53Z",
+          "updatedAt": "2026-07-12T13:01:34Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -739,7 +789,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 56.39
+          "score": 58.46
         }
       ]
     }
