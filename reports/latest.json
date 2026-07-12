@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-11T14:32:48.705Z",
+  "generatedAt": "2026-07-12T04:36:58.444Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,71 +33,46 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-08",
-      "totalCandidates": 24,
+      "createdSince": "2026-07-09",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 0,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         }
       ],
       "repositories": [
-        {
-          "id": 1293290940,
-          "name": "pentestcode",
-          "fullName": "s0ld13rr/pentestcode",
-          "url": "https://github.com/s0ld13rr/pentestcode",
-          "homepage": "",
-          "description": "PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations.",
-          "stars": 23,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-08T08:22:01Z",
-          "updatedAt": "2026-07-11T12:09:07Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 108.08
-        },
         {
           "id": 1296478978,
           "name": "Cisa-KEV-Threat-Intel-Orchestrator",
@@ -105,12 +80,12 @@
           "url": "https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
           "homepage": "https://osintteam.blog/advanced-threat-intel-from-6-hours-to-0-minutes-per-cve-1ee3d55d5485",
           "description": "Zero-touch pipeline that turns newly weaponized CVEs from the CISA Known Exploited Vulnerabilities (KEV) catalog into production-ready Sigma detection rules, automatically, every week.",
-          "stars": 14,
+          "stars": 16,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-10T12:29:18Z",
-          "updatedAt": "2026-07-11T14:09:31Z",
+          "updatedAt": "2026-07-12T00:20:40Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -123,7 +98,83 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 95.68
+          "score": 93.49
+        },
+        {
+          "id": 1297833395,
+          "name": "G-Data-2026",
+          "fullName": "Sheeniuslide/G-Data-2026",
+          "url": "https://github.com/Sheeniuslide/G-Data-2026",
+          "homepage": "",
+          "description": "g data antivirus download windows — G Data Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-11T22:56:47Z",
+          "updatedAt": "2026-07-12T00:19:14Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 81.01
+        },
+        {
+          "id": 1297829873,
+          "name": "Comodo-Internet-2026",
+          "fullName": "InvestorWrench/Comodo-Internet-2026",
+          "url": "https://github.com/InvestorWrench/Comodo-Internet-2026",
+          "homepage": "",
+          "description": "comodo internet security download windows — Comodo Internet Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-11T22:48:10Z",
+          "updatedAt": "2026-07-12T00:10:32Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 77.9
+        },
+        {
+          "id": 1297504980,
+          "name": "rag-corpus-poisoning-iot-security",
+          "fullName": "Kh3m/rag-corpus-poisoning-iot-security",
+          "url": "https://github.com/Kh3m/rag-corpus-poisoning-iot-security",
+          "homepage": "https://abdulkareem.khemshield.com/projects",
+          "description": "Corpus poisoning attacks against RAG-based cybersecurity/IoT threat-intelligence assistants, with a lightweight, edge-deployable provenance defense. Evaluated on TF-IDF and dense-embedding retrievers over a CVE/MITRE ATT&CK/vendor-advisory knowledge base.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-11T14:21:22Z",
+          "updatedAt": "2026-07-11T16:45:29Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 72.77
         },
         {
           "id": 1296954740,
@@ -132,12 +183,12 @@
           "url": "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment",
           "homepage": "",
           "description": "Independent public-artifact cryptanalysis and security assessment of OCTRA HFHE Challenge v2",
-          "stars": 4,
+          "stars": 5,
           "forks": 0,
           "openIssues": 2,
-          "language": "C++",
+          "language": "Python",
           "createdAt": "2026-07-10T22:41:37Z",
-          "updatedAt": "2026-07-11T04:17:23Z",
+          "updatedAt": "2026-07-11T19:36:11Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -147,7 +198,85 @@
           "tags": [
             "网络安全"
           ],
-          "score": 72.15
+          "score": 70.99
+        },
+        {
+          "id": 1297831608,
+          "name": "DrWeb-2026",
+          "fullName": "AlphaStaffBushing/DrWeb-2026",
+          "url": "https://github.com/AlphaStaffBushing/DrWeb-2026",
+          "homepage": "",
+          "description": "dr web antivirus download windows — Dr.Web Security Space for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-11T22:52:30Z",
+          "updatedAt": "2026-07-12T00:11:55Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 65.72
+        },
+        {
+          "id": 1297597326,
+          "name": "Vulnerable-Login",
+          "fullName": "yogsec/Vulnerable-Login",
+          "url": "https://github.com/yogsec/Vulnerable-Login",
+          "homepage": "https://yogsec.github.io/Vulnerable-Login/",
+          "description": "Vulnerable login form designed for security education and training. ",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-11T16:18:26Z",
+          "updatedAt": "2026-07-11T17:37:48Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 62.16
+        },
+        {
+          "id": 1294545454,
+          "name": "crowdsec-troubleshooter",
+          "fullName": "modem7/crowdsec-troubleshooter",
+          "url": "https://github.com/modem7/crowdsec-troubleshooter",
+          "homepage": "https://hub.docker.com/repository/docker/modem7/crowdsec-troubleshooter",
+          "description": "Unprivileged, run-once Docker tool for diagnosing CrowdSec + Traefik setups — a wellness check, an IP block checker, and an optional live \"does blocking actually work\" test. No daemon, no docker.sock, no host networking, no capabilities required.",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 1,
+          "language": "Shell",
+          "createdAt": "2026-07-09T02:15:21Z",
+          "updatedAt": "2026-07-12T04:23:41Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 61.42
         },
         {
           "id": 1296514980,
@@ -172,63 +301,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.63
+          "score": 57.55
         },
         {
-          "id": 1293032908,
-          "name": "SRC-Hunter",
-          "fullName": "ssr6125/SRC-Hunter",
-          "url": "https://github.com/ssr6125/SRC-Hunter",
-          "homepage": "",
-          "description": "AI 驱动的自动化 SRC / 渗透测试辅助平台：FOFA 资产搜集 + LLM 多 Worker 自主挖掘、审核与情报沉淀。单进程部署，仅供授权测试与研究。",
-          "stars": 5,
+          "id": 1297563600,
+          "name": "graveyard-check",
+          "fullName": "TahaKotwal12/graveyard-check",
+          "url": "https://github.com/TahaKotwal12/graveyard-check",
+          "homepage": "https://graveyard-check-ouxi.vercel.app/",
+          "description": "Find maintained successors for abandoned npm dependencies before they break your build.",
+          "stars": 2,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-08T03:59:03Z",
-          "updatedAt": "2026-07-08T09:24:21Z",
+          "openIssues": 10,
+          "language": "TypeScript",
+          "createdAt": "2026-07-11T15:33:05Z",
+          "updatedAt": "2026-07-11T19:17:53Z",
           "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1,
-            1.18
+            1
           ],
           "tags": [
             "通用安全",
-            "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 59.63
-        },
-        {
-          "id": 1294545454,
-          "name": "crowdsec-troubleshooter",
-          "fullName": "modem7/crowdsec-troubleshooter",
-          "url": "https://github.com/modem7/crowdsec-troubleshooter",
-          "homepage": "https://hub.docker.com/repository/docker/modem7/crowdsec-troubleshooter",
-          "description": "Unprivileged, run-once Docker tool for diagnosing CrowdSec + Traefik setups — a wellness check, an IP block checker, and an optional live \"does blocking actually work\" test. No daemon, no docker.sock, no host networking, no capabilities required.",
-          "stars": 3,
-          "forks": 2,
-          "openIssues": 1,
-          "language": "Shell",
-          "createdAt": "2026-07-09T02:15:21Z",
-          "updatedAt": "2026-07-11T08:31:54Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 56.55
+          "score": 57.28
         },
         {
           "id": 1296895521,
@@ -253,7 +351,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 55.63
+          "score": 50.55
         },
         {
           "id": 1296242913,
@@ -278,109 +376,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 54.99
-        },
-        {
-          "id": 1295185575,
-          "name": "mona-sast-skills",
-          "fullName": "KaanBicaklar/mona-sast-skills",
-          "url": "https://github.com/KaanBicaklar/mona-sast-skills",
-          "homepage": "",
-          "description": "A modular source-to-sink SAST methodology as composable skills: 47 vulnerability-class detectors with Burp-pasteable requests, non-destructive validation, and attack-chaining. For security testing.",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-09T12:13:43Z",
-          "updatedAt": "2026-07-09T19:02:47Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 51.66
-        },
-        {
-          "id": 1295557478,
-          "name": "injectlint",
-          "fullName": "VibhorGautam/injectlint",
-          "url": "https://github.com/VibhorGautam/injectlint",
-          "homepage": "",
-          "description": "Pipe untrusted text in and watch prompt injections light up red in your terminal. A best-effort detector, not a guardrail.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-09T16:50:25Z",
-          "updatedAt": "2026-07-09T17:53:22Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 51.29
-        },
-        {
-          "id": 1295773671,
-          "name": "gitshield",
-          "fullName": "fay-saal/gitshield",
-          "url": "https://github.com/fay-saal/gitshield",
-          "homepage": "",
-          "description": "Stop API keys and tokens from ever reaching GitHub, local pre-commit scanning, entropy detection, and a dashboard. No cloud, no signup.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-09T20:59:01Z",
-          "updatedAt": "2026-07-11T04:06:47Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 50.75
-        },
-        {
-          "id": 1295261727,
-          "name": "compose-harden",
-          "fullName": "joshua-michael/compose-harden",
-          "url": "https://github.com/joshua-michael/compose-harden",
-          "homepage": "",
-          "description": "Automatically audit and harden Docker Compose files using security best practices.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-09T13:04:15Z",
-          "updatedAt": "2026-07-10T03:06:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 49.93
+          "score": 49.51
         }
       ]
     },
@@ -392,71 +388,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-04",
-      "totalCandidates": 13,
+      "createdSince": "2026-07-05",
+      "totalCandidates": 16,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 8,
+          "fetched": 9,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1783780422"
+          "rateLimitReset": "1783831072"
         }
       ],
       "repositories": [
-        {
-          "id": 1291014040,
-          "name": "shortdot-evidence",
-          "fullName": "phishdestroy/shortdot-evidence",
-          "url": "https://github.com/phishdestroy/shortdot-evidence",
-          "homepage": "https://phishdestroy.github.io/shortdot-evidence/",
-          "description": "ShortDot SA zone abuse evidence (6.2M domains). Automated Threat Intelligence & daily updated IOCs for .icu, .bond, .cyou, .sbs, .cfd, .buzz, .qpon.",
-          "stars": 40,
-          "forks": 9,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-06T12:28:46Z",
-          "updatedAt": "2026-07-11T14:19:05Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 126.85
-        },
         {
           "id": 1293290940,
           "name": "pentestcode",
@@ -464,12 +435,12 @@
           "url": "https://github.com/s0ld13rr/pentestcode",
           "homepage": "",
           "description": "PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations.",
-          "stars": 23,
+          "stars": 26,
           "forks": 3,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-07-08T08:22:01Z",
-          "updatedAt": "2026-07-11T12:09:07Z",
+          "updatedAt": "2026-07-12T01:06:38Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -480,7 +451,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 124.48
+          "score": 125.38
+        },
+        {
+          "id": 1291014040,
+          "name": "shortdot-evidence",
+          "fullName": "phishdestroy/shortdot-evidence",
+          "url": "https://github.com/phishdestroy/shortdot-evidence",
+          "homepage": "https://phishdestroy.github.io/shortdot-evidence/",
+          "description": "ShortDot SA zone abuse evidence (6.2M domains). Automated Threat Intelligence & daily updated IOCs for .icu, .bond, .cyou, .sbs, .cfd, .buzz, .qpon.",
+          "stars": 41,
+          "forks": 9,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-06T12:28:46Z",
+          "updatedAt": "2026-07-12T00:17:25Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 125.16
         },
         {
           "id": 1290409103,
@@ -505,7 +501,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 111.69
+          "score": 109.51
         },
         {
           "id": 1291296530,
@@ -515,11 +511,11 @@
           "homepage": "https://synapse.kkloudtarus.net/",
           "description": "Synapse - a governed control plane for software composition analysis, recon, evidence, and reporting. Verify Everything. Trust Nothing.",
           "stars": 26,
-          "forks": 6,
-          "openIssues": 6,
+          "forks": 7,
+          "openIssues": 7,
           "language": "Go",
           "createdAt": "2026-07-06T17:14:46Z",
-          "updatedAt": "2026-07-11T14:26:42Z",
+          "updatedAt": "2026-07-12T04:17:09Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -530,7 +526,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 105.61
+          "score": 104.2
         },
         {
           "id": 1296478978,
@@ -539,12 +535,12 @@
           "url": "https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator",
           "homepage": "https://osintteam.blog/advanced-threat-intel-from-6-hours-to-0-minutes-per-cve-1ee3d55d5485",
           "description": "Zero-touch pipeline that turns newly weaponized CVEs from the CISA Known Exploited Vulnerabilities (KEV) catalog into production-ready Sigma detection rules, automatically, every week.",
-          "stars": 14,
+          "stars": 16,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-10T12:29:18Z",
-          "updatedAt": "2026-07-11T14:09:31Z",
+          "updatedAt": "2026-07-12T00:20:40Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -557,7 +553,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 101.48
+          "score": 102.44
         },
         {
           "id": 1291466723,
@@ -566,12 +562,12 @@
           "url": "https://github.com/Strategic-Automation/violin",
           "homepage": "",
           "description": "Violin — a supervised, agentic Hermes Agent pentest profile (31 playbooks, 8 references, guard plugin) for authorised recon, exploit validation, and reporting. Hermes-native, no extra keys.",
-          "stars": 9,
+          "stars": 10,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-06T20:37:28Z",
-          "updatedAt": "2026-07-11T11:08:45Z",
+          "updatedAt": "2026-07-11T19:19:37Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -589,7 +585,109 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 88.07
+          "score": 88.17
+        },
+        {
+          "id": 1297833395,
+          "name": "G-Data-2026",
+          "fullName": "Sheeniuslide/G-Data-2026",
+          "url": "https://github.com/Sheeniuslide/G-Data-2026",
+          "homepage": "",
+          "description": "g data antivirus download windows — G Data Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-11T22:56:47Z",
+          "updatedAt": "2026-07-12T00:19:14Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 82.18
+        },
+        {
+          "id": 1297829873,
+          "name": "Comodo-Internet-2026",
+          "fullName": "InvestorWrench/Comodo-Internet-2026",
+          "url": "https://github.com/InvestorWrench/Comodo-Internet-2026",
+          "homepage": "",
+          "description": "comodo internet security download windows — Comodo Internet Security for Windows 11 & 10. Direct download, install steps and setup guide.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-11T22:48:10Z",
+          "updatedAt": "2026-07-12T00:10:32Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 79.1
+        },
+        {
+          "id": 1296954740,
+          "name": "octra-hfhe-v2-security-assessment",
+          "fullName": "smoke-ui/octra-hfhe-v2-security-assessment",
+          "url": "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment",
+          "homepage": "",
+          "description": "Independent public-artifact cryptanalysis and security assessment of OCTRA HFHE Challenge v2",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-07-10T22:41:37Z",
+          "updatedAt": "2026-07-11T19:36:11Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 77.65
+        },
+        {
+          "id": 1294545454,
+          "name": "crowdsec-troubleshooter",
+          "fullName": "modem7/crowdsec-troubleshooter",
+          "url": "https://github.com/modem7/crowdsec-troubleshooter",
+          "homepage": "https://hub.docker.com/repository/docker/modem7/crowdsec-troubleshooter",
+          "description": "Unprivileged, run-once Docker tool for diagnosing CrowdSec + Traefik setups — a wellness check, an IP block checker, and an optional live \"does blocking actually work\" test. No daemon, no docker.sock, no host networking, no capabilities required.",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 1,
+          "language": "Shell",
+          "createdAt": "2026-07-09T02:15:21Z",
+          "updatedAt": "2026-07-12T04:23:41Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 77.07
         },
         {
           "id": 1289684562,
@@ -615,85 +713,33 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 61.21
+          "score": 58.89
         },
         {
-          "id": 1288794509,
-          "name": "s-gw",
-          "fullName": "sgateway/s-gw",
-          "url": "https://github.com/sgateway/s-gw",
-          "homepage": "https://s-gw.com",
-          "description": "Local credential control for AI coding agents.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 6,
-          "language": "TypeScript",
-          "createdAt": "2026-07-04T01:28:09Z",
-          "updatedAt": "2026-07-10T22:44:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 59.79
-        },
-        {
-          "id": 1289216873,
-          "name": "awesome-code-review-prompts",
-          "fullName": "dcarrero/awesome-code-review-prompts",
-          "url": "https://github.com/dcarrero/awesome-code-review-prompts",
+          "id": 1290103976,
+          "name": "darkrecon",
+          "fullName": "HariXploit/darkrecon",
+          "url": "https://github.com/HariXploit/darkrecon",
           "homepage": "",
-          "description": "Master prompts to make Claude (and other AI models) review code for security, performance, accessibility, usability and quality — language-agnostic, with add-ons for 18+ stacks. Bilingual EN/ES.",
-          "stars": 6,
+          "description": "Bug Bounty Recon Automation Tool",
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-07-04T13:17:57Z",
-          "updatedAt": "2026-07-05T15:35:40Z",
+          "language": "Python",
+          "createdAt": "2026-07-05T15:28:22Z",
+          "updatedAt": "2026-07-12T01:44:53Z",
           "matchedProfiles": [
-            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
-            1,
             1.08
           ],
           "tags": [
-            "通用安全",
             "网络安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 58.32
-        },
-        {
-          "id": 1289174784,
-          "name": "sshd-lint",
-          "fullName": "capitan0n/sshd-lint",
-          "url": "https://github.com/capitan0n/sshd-lint",
-          "homepage": "",
-          "description": "Zero-dependency static analyzer for OpenSSH sshd_config — CIS Benchmark, Mozilla, and NIST security checks. Offline SSH hardening linter for CI/CD pipelines.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-04T12:18:46Z",
-          "updatedAt": "2026-07-08T12:48:03Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 54.53
+          "score": 56.39
         }
       ]
     }
