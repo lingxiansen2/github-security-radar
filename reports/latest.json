@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-14T04:16:33.384Z",
+  "generatedAt": "2026-07-14T15:03:43.093Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-11",
-      "totalCandidates": 19,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         }
       ],
       "repositories": [
@@ -82,10 +82,10 @@
           "description": "Session-scoped GPT-5.6 agent routing for Claude Code",
           "stars": 24,
           "forks": 0,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-12T12:07:54Z",
-          "updatedAt": "2026-07-14T03:20:17Z",
+          "updatedAt": "2026-07-14T10:39:43Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 96.11
+          "score": 92.22
         },
         {
           "id": 1297563600,
@@ -121,7 +121,85 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 89.5
+          "score": 85.6
+        },
+        {
+          "id": 1299064384,
+          "name": "Strix-Kali-AI-PoweredPentestFramework",
+          "fullName": "JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "url": "https://github.com/JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "homepage": "",
+          "description": "🦅Strix 落地与调教完全指北 —— 这是一个专注于下一代自主 AI 渗透测试代理Strix 的实战部署与性能榨干指南。🎮以及如何通过 --instruction 指令化身“赛博御兽师”操纵 AI 黑客注意力的进阶玩法的核心沉淀。⚡内含国内网络环境下 Docker 0/33 沙箱卡死究极加速方案，💰全网超全的多模型（DeepSeek-V4、Claude、火山引擎、OpenRouter）高性价比接入配置。A comprehensive hands-on guide to maximizing Strix, the autonomous AI agent that thinks and acts like a real hacker.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-13T08:45:33Z",
+          "updatedAt": "2026-07-14T12:08:47Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.4
+        },
+        {
+          "id": 1300107332,
+          "name": "satellite-flight-software-cybersecurity",
+          "fullName": "YigitAlpG/satellite-flight-software-cybersecurity",
+          "url": "https://github.com/YigitAlpG/satellite-flight-software-cybersecurity",
+          "homepage": "",
+          "description": "STM32-based detection of FDI and Replay attacks in satellite flight software using NASA telemetry data.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-14T06:37:45Z",
+          "updatedAt": "2026-07-14T08:47:39Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 69.93
+        },
+        {
+          "id": 1297766097,
+          "name": "honeyprompt",
+          "fullName": "alectrocute/honeyprompt",
+          "url": "https://github.com/alectrocute/honeyprompt",
+          "homepage": "https://hub.docker.com/r/alectrocute/honeyprompt",
+          "description": "LLM-first deception framework: \"The honeypot that talks back!™\"",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-07-11T20:35:00Z",
+          "updatedAt": "2026-07-14T12:49:22Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.1
         },
         {
           "id": 1299690480,
@@ -130,12 +208,12 @@
           "url": "https://github.com/Dragkob/MCPhantom",
           "homepage": "",
           "description": "MCPhantom is a local web dashboard for MCP endpoint recon. Discover resources, templates, tools, and prompts, then interact with them from a security console.",
-          "stars": 3,
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-13T20:03:25Z",
-          "updatedAt": "2026-07-14T01:31:06Z",
+          "updatedAt": "2026-07-14T06:46:39Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -147,21 +225,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 76.5
+          "score": 65.06
         },
         {
-          "id": 1297766097,
-          "name": "honeyprompt",
-          "fullName": "alectrocute/honeyprompt",
-          "url": "https://github.com/alectrocute/honeyprompt",
-          "homepage": "https://hub.docker.com/r/alectrocute/honeyprompt",
-          "description": "LLM-first deception framework: \"The honeypot that talks back!™\"",
+          "id": 1297504980,
+          "name": "rag-corpus-poisoning-iot-security",
+          "fullName": "Kh3m/rag-corpus-poisoning-iot-security",
+          "url": "https://github.com/Kh3m/rag-corpus-poisoning-iot-security",
+          "homepage": "https://abdulkareem.khemshield.com/projects",
+          "description": "Corpus poisoning attacks against RAG-based cybersecurity/IoT threat-intelligence assistants, with a lightweight, edge-deployable provenance defense. Evaluated on TF-IDF and dense-embedding retrievers over a CVE/MITRE ATT&CK/vendor-advisory knowledge base.",
           "stars": 7,
           "forks": 0,
           "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-11T20:35:00Z",
-          "updatedAt": "2026-07-13T15:58:54Z",
+          "language": "Python",
+          "createdAt": "2026-07-11T14:21:22Z",
+          "updatedAt": "2026-07-14T11:27:53Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -170,9 +248,10 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
           ],
-          "score": 67.98
+          "score": 61.62
         },
         {
           "id": 1297833395,
@@ -197,21 +276,21 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 63.8
+          "score": 59.91
         },
         {
-          "id": 1297504980,
-          "name": "rag-corpus-poisoning-iot-security",
-          "fullName": "Kh3m/rag-corpus-poisoning-iot-security",
-          "url": "https://github.com/Kh3m/rag-corpus-poisoning-iot-security",
-          "homepage": "https://abdulkareem.khemshield.com/projects",
-          "description": "Corpus poisoning attacks against RAG-based cybersecurity/IoT threat-intelligence assistants, with a lightweight, edge-deployable provenance defense. Evaluated on TF-IDF and dense-embedding retrievers over a CVE/MITRE ATT&CK/vendor-advisory knowledge base.",
-          "stars": 6,
+          "id": 1299341721,
+          "name": "blueteam",
+          "fullName": "ryanshrier/blueteam",
+          "url": "https://github.com/ryanshrier/blueteam",
+          "homepage": "https://blueteam.news/",
+          "description": "Self-hosted threat-intelligence desk for cyber defense teams.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-11T14:21:22Z",
-          "updatedAt": "2026-07-13T12:19:33Z",
+          "language": "JavaScript",
+          "createdAt": "2026-07-13T13:46:31Z",
+          "updatedAt": "2026-07-14T04:31:48Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -219,11 +298,9 @@
             1.08
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
+            "网络安全"
           ],
-          "score": 62.25
+          "score": 57.1
         },
         {
           "id": 1297829873,
@@ -248,82 +325,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 60.69
-        },
-        {
-          "id": 1298755770,
-          "name": "grok-upload-audit",
-          "fullName": "MaydayV/grok-upload-audit",
-          "url": "https://github.com/MaydayV/grok-upload-audit",
-          "homepage": "",
-          "description": "Agent skill (Claude Code, OpenAI Codex, …) that forensically audits what the xAI Grok Build CLI uploaded from your machine — detects codebase uploads and secret leakage in ~/.grok logs, then generates a checksummed evidence package and a GDPR/CCPA data-deletion request. Secret values never leave your machine.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-13T01:35:55Z",
-          "updatedAt": "2026-07-13T02:07:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 52.37
-        },
-        {
-          "id": 1298741516,
-          "name": "HaleHound-Fire",
-          "fullName": "PascalKeeper/HaleHound-Fire",
-          "url": "https://github.com/PascalKeeper/HaleHound-Fire",
-          "homepage": "",
-          "description": "Unofficial Fire OS companion for the HaleHound ecosystem — passive Wi-Fi/BLE survey + CYD bridge on Amazon Fire tablets (validated Fire 7 KFQUWI). Not official firmware.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Kotlin",
-          "createdAt": "2026-07-13T01:13:17Z",
-          "updatedAt": "2026-07-13T17:00:38Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 52.23
-        },
-        {
-          "id": 1297831608,
-          "name": "DrWeb-2026",
-          "fullName": "AlphaStaffBushing/DrWeb-2026",
-          "url": "https://github.com/AlphaStaffBushing/DrWeb-2026",
-          "homepage": "",
-          "description": "dr web antivirus download windows — Dr.Web Security Space for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-11T22:52:30Z",
-          "updatedAt": "2026-07-12T00:11:55Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 48.51
+          "score": 56.8
         },
         {
           "id": 1297597326,
@@ -348,7 +350,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 43.57
+          "score": 39.37
         },
         {
           "id": 1297385808,
@@ -373,7 +375,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 41.71
+          "score": 38.88
         }
       ]
     },
@@ -386,42 +388,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-07-07",
-      "totalCandidates": 17,
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1784002645"
+          "rateLimitReset": "1784041475"
         }
       ],
       "repositories": [
@@ -432,12 +434,12 @@
           "url": "https://github.com/s0ld13rr/pentestcode",
           "homepage": "",
           "description": "PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations.",
-          "stars": 35,
+          "stars": 39,
           "forks": 3,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-07-08T08:22:01Z",
-          "updatedAt": "2026-07-14T03:56:56Z",
+          "updatedAt": "2026-07-14T14:48:25Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -448,7 +450,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 125.22
+          "score": 126.39
         },
         {
           "id": 1298248424,
@@ -459,10 +461,10 @@
           "description": "Session-scoped GPT-5.6 agent routing for Claude Code",
           "stars": 24,
           "forks": 0,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-12T12:07:54Z",
-          "updatedAt": "2026-07-14T03:20:17Z",
+          "updatedAt": "2026-07-14T10:39:43Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -473,7 +475,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 104.4
+          "score": 102.73
         },
         {
           "id": 1297563600,
@@ -498,7 +500,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 102.03
+          "score": 100.36
         },
         {
           "id": 1296478978,
@@ -512,7 +514,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-10T12:29:18Z",
-          "updatedAt": "2026-07-13T12:56:48Z",
+          "updatedAt": "2026-07-14T13:14:20Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -525,7 +527,35 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 101.34
+          "score": 99.54
+        },
+        {
+          "id": 1299064384,
+          "name": "Strix-Kali-AI-PoweredPentestFramework",
+          "fullName": "JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "url": "https://github.com/JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "homepage": "",
+          "description": "🦅Strix 落地与调教完全指北 —— 这是一个专注于下一代自主 AI 渗透测试代理Strix 的实战部署与性能榨干指南。🎮以及如何通过 --instruction 指令化身“赛博御兽师”操纵 AI 黑客注意力的进阶玩法的核心沉淀。⚡内含国内网络环境下 Docker 0/33 沙箱卡死究极加速方案，💰全网超全的多模型（DeepSeek-V4、Claude、火山引擎、OpenRouter）高性价比接入配置。A comprehensive hands-on guide to maximizing Strix, the autonomous AI agent that thinks and acts like a real hacker.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-13T08:45:33Z",
+          "updatedAt": "2026-07-14T12:08:47Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 84.77
         },
         {
           "id": 1297766097,
@@ -535,11 +565,11 @@
           "homepage": "https://hub.docker.com/r/alectrocute/honeyprompt",
           "description": "LLM-first deception framework: \"The honeypot that talks back!™\"",
           "stars": 7,
-          "forks": 0,
+          "forks": 1,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-07-11T20:35:00Z",
-          "updatedAt": "2026-07-13T15:58:54Z",
+          "updatedAt": "2026-07-14T12:49:22Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -550,7 +580,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.39
+          "score": 82.91
         },
         {
           "id": 1297504980,
@@ -559,12 +589,12 @@
           "url": "https://github.com/Kh3m/rag-corpus-poisoning-iot-security",
           "homepage": "https://abdulkareem.khemshield.com/projects",
           "description": "Corpus poisoning attacks against RAG-based cybersecurity/IoT threat-intelligence assistants, with a lightweight, edge-deployable provenance defense. Evaluated on TF-IDF and dense-embedding retrievers over a CVE/MITRE ATT&CK/vendor-advisory knowledge base.",
-          "stars": 6,
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-11T14:21:22Z",
-          "updatedAt": "2026-07-13T12:19:33Z",
+          "updatedAt": "2026-07-14T11:27:53Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -576,7 +606,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 76.05
+          "score": 77.55
         },
         {
           "id": 1297833395,
@@ -601,7 +631,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 74.81
+          "score": 73.14
         },
         {
           "id": 1297829873,
@@ -626,7 +656,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 71.72
+          "score": 70.06
         },
         {
           "id": 1296954740,
@@ -650,7 +680,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 69.69
+          "score": 67.88
         },
         {
           "id": 1294545454,
@@ -666,19 +696,16 @@
           "createdAt": "2026-07-09T02:15:21Z",
           "updatedAt": "2026-07-12T04:23:41Z",
           "matchedProfiles": [
-            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
-            1,
             1.08
           ],
           "tags": [
-            "通用安全",
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 69.11
+          "score": 67.3
         },
         {
           "id": 1293698128,
@@ -704,7 +731,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 55.79
+          "score": 54.12
         }
       ]
     }
