@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-14T15:03:43.093Z",
+  "generatedAt": "2026-07-15T04:15:49.900Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-11",
-      "totalCandidates": 22,
+      "createdSince": "2026-07-12",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 9,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 0,
+          "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Nanako0129/remora-cc",
           "homepage": "",
           "description": "Session-scoped GPT-5.6 agent routing for Claude Code",
-          "stars": 24,
+          "stars": 25,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-12T12:07:54Z",
-          "updatedAt": "2026-07-14T10:39:43Z",
+          "updatedAt": "2026-07-15T03:38:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,21 +96,21 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.22
+          "score": 88.43
         },
         {
-          "id": 1297563600,
-          "name": "graveyard-check",
-          "fullName": "TahaKotwal12/graveyard-check",
-          "url": "https://github.com/TahaKotwal12/graveyard-check",
-          "homepage": "https://graveyard-check-ouxi.vercel.app/",
-          "description": "Find maintained successors for abandoned npm dependencies before they break your build.",
-          "stars": 21,
-          "forks": 1,
-          "openIssues": 10,
-          "language": "TypeScript",
-          "createdAt": "2026-07-11T15:33:05Z",
-          "updatedAt": "2026-07-12T14:50:51Z",
+          "id": 1300104837,
+          "name": "mcpvet",
+          "fullName": "12122J/mcpvet",
+          "url": "https://github.com/12122J/mcpvet",
+          "homepage": "",
+          "description": "MCP security scanner — vet a Model Context Protocol server before you add it to Claude Code, Cursor, or Windsurf. Grades it A–F, catching credential theft, tool-poisoning, and install-script payloads by running it in a sealed sandbox. Zero deps.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-14T06:34:43Z",
+          "updatedAt": "2026-07-15T03:20:47Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -119,9 +119,12 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防",
+            "网络安全"
           ],
-          "score": 85.6
+          "score": 82.7
         },
         {
           "id": 1299064384,
@@ -130,12 +133,12 @@
           "url": "https://github.com/JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
           "homepage": "",
           "description": "🦅Strix 落地与调教完全指北 —— 这是一个专注于下一代自主 AI 渗透测试代理Strix 的实战部署与性能榨干指南。🎮以及如何通过 --instruction 指令化身“赛博御兽师”操纵 AI 黑客注意力的进阶玩法的核心沉淀。⚡内含国内网络环境下 Docker 0/33 沙箱卡死究极加速方案，💰全网超全的多模型（DeepSeek-V4、Claude、火山引擎、OpenRouter）高性价比接入配置。A comprehensive hands-on guide to maximizing Strix, the autonomous AI agent that thinks and acts like a real hacker.",
-          "stars": 5,
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-13T08:45:33Z",
-          "updatedAt": "2026-07-14T12:08:47Z",
+          "updatedAt": "2026-07-15T02:36:52Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -149,7 +152,58 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 77.4
+          "score": 82.7
+        },
+        {
+          "id": 1300241319,
+          "name": "10-ai-careers-roadmap",
+          "fullName": "Moh4696/10-ai-careers-roadmap",
+          "url": "https://github.com/Moh4696/10-ai-careers-roadmap",
+          "homepage": "",
+          "description": "Free, structured learning library for 10 AI careers paying $135K-$1M+ in 2026. Companion to the @exploraX_ article.",
+          "stars": 4,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-14T08:53:27Z",
+          "updatedAt": "2026-07-14T23:03:46Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.62
+        },
+        {
+          "id": 1299690480,
+          "name": "MCPhantom",
+          "fullName": "Dragkob/MCPhantom",
+          "url": "https://github.com/Dragkob/MCPhantom",
+          "homepage": "",
+          "description": "MCPhantom is a local web dashboard for MCP endpoint recon. Discover resources, templates, tools, and prompts, then interact with them from a security console.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-13T20:03:25Z",
+          "updatedAt": "2026-07-14T20:11:48Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 66.27
         },
         {
           "id": 1300107332,
@@ -174,98 +228,21 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 69.93
+          "score": 64.78
         },
         {
-          "id": 1297766097,
-          "name": "honeyprompt",
-          "fullName": "alectrocute/honeyprompt",
-          "url": "https://github.com/alectrocute/honeyprompt",
-          "homepage": "https://hub.docker.com/r/alectrocute/honeyprompt",
-          "description": "LLM-first deception framework: \"The honeypot that talks back!™\"",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-11T20:35:00Z",
-          "updatedAt": "2026-07-14T12:49:22Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 68.1
-        },
-        {
-          "id": 1299690480,
-          "name": "MCPhantom",
-          "fullName": "Dragkob/MCPhantom",
-          "url": "https://github.com/Dragkob/MCPhantom",
+          "id": 1300019936,
+          "name": "local-artifact-vault",
+          "fullName": "MoeAisaka/local-artifact-vault",
+          "url": "https://github.com/MoeAisaka/local-artifact-vault",
           "homepage": "",
-          "description": "MCPhantom is a local web dashboard for MCP endpoint recon. Discover resources, templates, tools, and prompts, then interact with them from a security console.",
-          "stars": 2,
+          "description": "Local, expiring, HMAC-signed artifact delivery",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-13T20:03:25Z",
-          "updatedAt": "2026-07-14T06:46:39Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 65.06
-        },
-        {
-          "id": 1297504980,
-          "name": "rag-corpus-poisoning-iot-security",
-          "fullName": "Kh3m/rag-corpus-poisoning-iot-security",
-          "url": "https://github.com/Kh3m/rag-corpus-poisoning-iot-security",
-          "homepage": "https://abdulkareem.khemshield.com/projects",
-          "description": "Corpus poisoning attacks against RAG-based cybersecurity/IoT threat-intelligence assistants, with a lightweight, edge-deployable provenance defense. Evaluated on TF-IDF and dense-embedding retrievers over a CVE/MITRE ATT&CK/vendor-advisory knowledge base.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-11T14:21:22Z",
-          "updatedAt": "2026-07-14T11:27:53Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 61.62
-        },
-        {
-          "id": 1297833395,
-          "name": "G-Data-2026",
-          "fullName": "Sheeniuslide/G-Data-2026",
-          "url": "https://github.com/Sheeniuslide/G-Data-2026",
-          "homepage": "",
-          "description": "g data antivirus download windows — G Data Total Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-11T22:56:47Z",
-          "updatedAt": "2026-07-12T00:19:14Z",
+          "createdAt": "2026-07-14T04:47:47Z",
+          "updatedAt": "2026-07-15T03:47:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -274,9 +251,62 @@
           ],
           "tags": [
             "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 64.06
+        },
+        {
+          "id": 1299350675,
+          "name": "evm-hack-poc",
+          "fullName": "sanbir/evm-hack-poc",
+          "url": "https://github.com/sanbir/evm-hack-poc",
+          "homepage": "https://crypto.training/hacks/",
+          "description": "A public collection of EVM exploit proof-of-concept (PoC) archives for security research, education, and tooling.  These PoCs are generated from evm-hack-registry data and are intended to be used with evm-hack-analyzer.",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-13T13:55:28Z",
+          "updatedAt": "2026-07-15T04:09:13Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
             "网络安全"
           ],
-          "score": 59.91
+          "score": 62.68
+        },
+        {
+          "id": 1300301278,
+          "name": "password-manager-generator",
+          "fullName": "dikshantsharma8396/password-manager-generator",
+          "url": "https://github.com/dikshantsharma8396/password-manager-generator",
+          "homepage": "",
+          "description": "Take complete control of your digital security. A local Password Manager that generates, encrypts, and safely stores credentials using AES-256 cryptography. Built on a React frontend and FastAPI backend with a zero-knowledge DB structure.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-14T09:51:42Z",
+          "updatedAt": "2026-07-15T02:48:10Z",
+          "matchedProfiles": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.12
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 62
         },
         {
           "id": 1299341721,
@@ -285,12 +315,12 @@
           "url": "https://github.com/ryanshrier/blueteam",
           "homepage": "https://blueteam.news/",
           "description": "Self-hosted threat-intelligence desk for cyber defense teams.",
-          "stars": 2,
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-07-13T13:46:31Z",
-          "updatedAt": "2026-07-14T04:31:48Z",
+          "updatedAt": "2026-07-14T16:37:00Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -300,21 +330,21 @@
           "tags": [
             "网络安全"
           ],
-          "score": 57.1
+          "score": 58.21
         },
         {
-          "id": 1297829873,
-          "name": "Comodo-Internet-2026",
-          "fullName": "InvestorWrench/Comodo-Internet-2026",
-          "url": "https://github.com/InvestorWrench/Comodo-Internet-2026",
+          "id": 1300261346,
+          "name": "securitychecker",
+          "fullName": "11lunaric11/securitychecker",
+          "url": "https://github.com/11lunaric11/securitychecker",
           "homepage": "",
-          "description": "comodo internet security download windows — Comodo Internet Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 6,
+          "description": "Recon tool for pentesters & bug bounty hunters: check robots.txt, security.txt (RFC 9116) and /.well-known/ across many targets. CLI + web UI, single static Go binary.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-11T22:48:10Z",
-          "updatedAt": "2026-07-12T00:10:32Z",
+          "language": "Go",
+          "createdAt": "2026-07-14T09:12:35Z",
+          "updatedAt": "2026-07-14T12:13:06Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -323,48 +353,25 @@
           ],
           "tags": [
             "通用安全",
+            "渗透 / 红队",
+            "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 56.8
+          "score": 55.12
         },
         {
-          "id": 1297597326,
-          "name": "Vulnerable-Login",
-          "fullName": "yogsec/Vulnerable-Login",
-          "url": "https://github.com/yogsec/Vulnerable-Login",
-          "homepage": "https://yogsec.github.io/Vulnerable-Login/",
-          "description": "Vulnerable login form designed for security education and training. ",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-11T16:18:26Z",
-          "updatedAt": "2026-07-11T17:37:48Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 39.37
-        },
-        {
-          "id": 1297385808,
-          "name": "writify",
-          "fullName": "cybersagnik/writify",
-          "url": "https://github.com/cybersagnik/writify",
+          "id": 1299375000,
+          "name": "Burp-Suite-Mastery",
+          "fullName": "VikashChoudhary-04/Burp-Suite-Mastery",
+          "url": "https://github.com/VikashChoudhary-04/Burp-Suite-Mastery",
           "homepage": "",
-          "description": "Tired of reconstructing writeups from memory, digging through screenshots, and hunting for PoC files? Writify captures everything as you work, then builds a polished GitHub-ready writeup.",
+          "description": "A complete hands-on Burp Suite mastery guide for web application security, bug bounty hunting, and penetration testing.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-07-11T11:32:02Z",
-          "updatedAt": "2026-07-12T13:19:32Z",
+          "language": "Unknown",
+          "createdAt": "2026-07-13T14:19:53Z",
+          "updatedAt": "2026-07-14T21:26:00Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -375,7 +382,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 38.88
+          "score": 52.17
         }
       ]
     },
@@ -387,43 +394,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-07",
-      "totalCandidates": 21,
+      "createdSince": "2026-07-08",
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1784041475"
+          "rateLimitReset": "1784089003"
         }
       ],
       "repositories": [
@@ -434,12 +441,12 @@
           "url": "https://github.com/s0ld13rr/pentestcode",
           "homepage": "",
           "description": "PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations.",
-          "stars": 39,
-          "forks": 3,
+          "stars": 50,
+          "forks": 7,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-07-08T08:22:01Z",
-          "updatedAt": "2026-07-14T14:48:25Z",
+          "updatedAt": "2026-07-15T03:46:54Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -450,7 +457,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 126.39
+          "score": 135.99
         },
         {
           "id": 1298248424,
@@ -459,12 +466,12 @@
           "url": "https://github.com/Nanako0129/remora-cc",
           "homepage": "",
           "description": "Session-scoped GPT-5.6 agent routing for Claude Code",
-          "stars": 24,
+          "stars": 25,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-12T12:07:54Z",
-          "updatedAt": "2026-07-14T10:39:43Z",
+          "updatedAt": "2026-07-15T03:38:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -475,7 +482,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 102.73
+          "score": 101.66
         },
         {
           "id": 1297563600,
@@ -489,7 +496,7 @@
           "openIssues": 10,
           "language": "TypeScript",
           "createdAt": "2026-07-11T15:33:05Z",
-          "updatedAt": "2026-07-12T14:50:51Z",
+          "updatedAt": "2026-07-15T03:55:29Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -500,7 +507,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 100.36
+          "score": 98.31
         },
         {
           "id": 1296478978,
@@ -527,7 +534,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 99.54
+          "score": 97.34
         },
         {
           "id": 1299064384,
@@ -536,12 +543,12 @@
           "url": "https://github.com/JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
           "homepage": "",
           "description": "🦅Strix 落地与调教完全指北 —— 这是一个专注于下一代自主 AI 渗透测试代理Strix 的实战部署与性能榨干指南。🎮以及如何通过 --instruction 指令化身“赛博御兽师”操纵 AI 黑客注意力的进阶玩法的核心沉淀。⚡内含国内网络环境下 Docker 0/33 沙箱卡死究极加速方案，💰全网超全的多模型（DeepSeek-V4、Claude、火山引擎、OpenRouter）高性价比接入配置。A comprehensive hands-on guide to maximizing Strix, the autonomous AI agent that thinks and acts like a real hacker.",
-          "stars": 5,
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-13T08:45:33Z",
-          "updatedAt": "2026-07-14T12:08:47Z",
+          "updatedAt": "2026-07-15T02:36:52Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -555,7 +562,35 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 84.77
+          "score": 93.29
+        },
+        {
+          "id": 1300104837,
+          "name": "mcpvet",
+          "fullName": "12122J/mcpvet",
+          "url": "https://github.com/12122J/mcpvet",
+          "homepage": "",
+          "description": "MCP security scanner — vet a Model Context Protocol server before you add it to Claude Code, Cursor, or Windsurf. Grades it A–F, catching credential theft, tool-poisoning, and install-script payloads by running it in a sealed sandbox. Zero deps.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-14T06:34:43Z",
+          "updatedAt": "2026-07-15T03:20:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 87.17
         },
         {
           "id": 1297766097,
@@ -580,7 +615,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.91
+          "score": 80.71
         },
         {
           "id": 1297504980,
@@ -606,7 +641,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.55
+          "score": 75.34
         },
         {
           "id": 1297833395,
@@ -631,7 +666,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 73.14
+          "score": 71.09
         },
         {
           "id": 1297829873,
@@ -656,7 +691,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 70.06
+          "score": 68.01
         },
         {
           "id": 1296954740,
@@ -680,7 +715,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 67.88
+          "score": 65.68
         },
         {
           "id": 1294545454,
@@ -705,33 +740,32 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 67.3
+          "score": 65.1
         },
         {
-          "id": 1293698128,
-          "name": "threat-model",
-          "fullName": "alpha-omega-security/threat-model",
-          "url": "https://github.com/alpha-omega-security/threat-model",
-          "homepage": "https://alpha-omega.dev",
-          "description": "Agent skill for producing threat models for open-source projects",
-          "stars": 5,
+          "id": 1293082552,
+          "name": "deepfake-detector",
+          "fullName": "ali-faraz-py/deepfake-detector",
+          "url": "https://github.com/ali-faraz-py/deepfake-detector",
+          "homepage": "https://deepfake-detector-olive.vercel.app",
+          "description": "AI-powered deepfake detector that classifies uploaded face images and videos as Real or Fake with confidence scores. Full-stack app built with PyTorch (EfficientNet-B0), FastAPI, and Next.js — trained on 100k+ images and deployed with Vercel + Render.",
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-08T14:13:47Z",
-          "updatedAt": "2026-07-13T22:57:11Z",
+          "language": "JavaScript",
+          "createdAt": "2026-07-08T05:08:00Z",
+          "updatedAt": "2026-07-14T18:49:06Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 54.12
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 61.77
         }
       ]
     }
