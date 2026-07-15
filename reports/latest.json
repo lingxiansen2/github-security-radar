@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-15T04:15:49.900Z",
+  "generatedAt": "2026-07-15T15:02:09.136Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-12",
-      "totalCandidates": 21,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 11,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         }
       ],
       "repositories": [
@@ -96,35 +96,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 88.43
+          "score": 85.59
         },
         {
-          "id": 1300104837,
-          "name": "mcpvet",
-          "fullName": "12122J/mcpvet",
-          "url": "https://github.com/12122J/mcpvet",
+          "id": 1300241319,
+          "name": "10-ai-careers-roadmap",
+          "fullName": "Moh4696/10-ai-careers-roadmap",
+          "url": "https://github.com/Moh4696/10-ai-careers-roadmap",
           "homepage": "",
-          "description": "MCP security scanner — vet a Model Context Protocol server before you add it to Claude Code, Cursor, or Windsurf. Grades it A–F, catching credential theft, tool-poisoning, and install-script payloads by running it in a sealed sandbox. Zero deps.",
-          "stars": 10,
-          "forks": 0,
+          "description": "Free, structured learning library for 10 AI careers paying $135K-$1M+ in 2026. Companion to the @exploraX_ article.",
+          "stars": 7,
+          "forks": 2,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-14T06:34:43Z",
-          "updatedAt": "2026-07-15T03:20:47Z",
+          "language": "Unknown",
+          "createdAt": "2026-07-14T08:53:27Z",
+          "updatedAt": "2026-07-15T11:05:28Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 82.7
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 84.79
         },
         {
           "id": 1299064384,
@@ -152,21 +149,71 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 82.7
+          "score": 78.11
         },
         {
-          "id": 1300241319,
-          "name": "10-ai-careers-roadmap",
-          "fullName": "Moh4696/10-ai-careers-roadmap",
-          "url": "https://github.com/Moh4696/10-ai-careers-roadmap",
+          "id": 1300227306,
+          "name": "flare-redact",
+          "fullName": "umudhasanli/flare-redact",
+          "url": "https://github.com/umudhasanli/flare-redact",
+          "homepage": "https://www.npmjs.com/package/flare-redact",
+          "description": "Hide secrets & PII in logs, prompts, and text before they leak — with a reversible layer that keeps them out of your OpenAI/Anthropic calls. Zero deps, ReDoS-safe.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-07-14T08:40:17Z",
+          "updatedAt": "2026-07-15T08:41:59Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 69.04
+        },
+        {
+          "id": 1301576807,
+          "name": "github-token-guide",
+          "fullName": "visma-prodsec/github-token-guide",
+          "url": "https://github.com/visma-prodsec/github-token-guide",
           "homepage": "",
-          "description": "Free, structured learning library for 10 AI careers paying $135K-$1M+ in 2026. Companion to the @exploraX_ article.",
-          "stars": 4,
-          "forks": 2,
+          "description": "Guide to choosing the right GitHub credential for a job — favoring least-privilege fine-grained PATs over the repo-scope classic-token trap.",
+          "stars": 3,
+          "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-07-14T08:53:27Z",
-          "updatedAt": "2026-07-14T23:03:46Z",
+          "createdAt": "2026-07-15T12:11:23Z",
+          "updatedAt": "2026-07-15T13:42:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 66.77
+        },
+        {
+          "id": 1301485923,
+          "name": "HY300-Ultimate",
+          "fullName": "Hen-Dricks/HY300-Ultimate",
+          "url": "https://github.com/Hen-Dricks/HY300-Ultimate",
+          "homepage": "",
+          "description": "A comprehensive reverse engineering study of the HY300 Android projector (Rockchip RK3326): firmware analysis, security audit, OEM component dissection, and custom ROM reconstruction.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-07-15T10:24:13Z",
+          "updatedAt": "2026-07-15T10:37:43Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -175,9 +222,10 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill"
+            "渗透 / 红队",
+            "逆向 / 恶意代码"
           ],
-          "score": 77.62
+          "score": 65.15
         },
         {
           "id": 1299690480,
@@ -203,7 +251,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 66.27
+          "score": 61.68
         },
         {
           "id": 1300107332,
@@ -228,7 +276,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 64.78
+          "score": 60.58
         },
         {
           "id": 1300019936,
@@ -253,7 +301,31 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 64.06
+          "score": 60.17
+        },
+        {
+          "id": 1299341721,
+          "name": "blueteam",
+          "fullName": "ryanshrier/blueteam",
+          "url": "https://github.com/ryanshrier/blueteam",
+          "homepage": "https://blueteam.news/",
+          "description": "Self-hosted threat-intelligence desk for cyber defense teams.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-13T13:46:31Z",
+          "updatedAt": "2026-07-15T07:17:08Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 59.12
         },
         {
           "id": 1299350675,
@@ -267,7 +339,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-13T13:55:28Z",
-          "updatedAt": "2026-07-15T04:09:13Z",
+          "updatedAt": "2026-07-15T10:29:31Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -279,7 +351,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 62.68
+          "score": 58.79
         },
         {
           "id": 1300301278,
@@ -306,83 +378,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 62
-        },
-        {
-          "id": 1299341721,
-          "name": "blueteam",
-          "fullName": "ryanshrier/blueteam",
-          "url": "https://github.com/ryanshrier/blueteam",
-          "homepage": "https://blueteam.news/",
-          "description": "Self-hosted threat-intelligence desk for cyber defense teams.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-13T13:46:31Z",
-          "updatedAt": "2026-07-14T16:37:00Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 58.21
-        },
-        {
-          "id": 1300261346,
-          "name": "securitychecker",
-          "fullName": "11lunaric11/securitychecker",
-          "url": "https://github.com/11lunaric11/securitychecker",
-          "homepage": "",
-          "description": "Recon tool for pentesters & bug bounty hunters: check robots.txt, security.txt (RFC 9116) and /.well-known/ across many targets. CLI + web UI, single static Go binary.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-07-14T09:12:35Z",
-          "updatedAt": "2026-07-14T12:13:06Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "逆向 / 恶意代码",
-            "网络安全"
-          ],
-          "score": 55.12
-        },
-        {
-          "id": 1299375000,
-          "name": "Burp-Suite-Mastery",
-          "fullName": "VikashChoudhary-04/Burp-Suite-Mastery",
-          "url": "https://github.com/VikashChoudhary-04/Burp-Suite-Mastery",
-          "homepage": "",
-          "description": "A complete hands-on Burp Suite mastery guide for web application security, bug bounty hunting, and penetration testing.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-13T14:19:53Z",
-          "updatedAt": "2026-07-14T21:26:00Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 52.17
+          "score": 57.64
         }
       ]
     },
@@ -395,42 +391,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-07-08",
-      "totalCandidates": 22,
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 11,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1784089003"
+          "rateLimitReset": "1784127782"
         }
       ],
       "repositories": [
@@ -441,12 +437,12 @@
           "url": "https://github.com/s0ld13rr/pentestcode",
           "homepage": "",
           "description": "PentestCode - Multi-agent AI penetration testing system with persistent engagement state, strategic coordination, and parallel autonomous operations.",
-          "stars": 50,
-          "forks": 7,
+          "stars": 59,
+          "forks": 9,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-07-08T08:22:01Z",
-          "updatedAt": "2026-07-15T03:46:54Z",
+          "updatedAt": "2026-07-15T14:12:05Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -457,7 +453,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 135.99
+          "score": 141.65
         },
         {
           "id": 1298248424,
@@ -482,7 +478,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 101.66
+          "score": 100
         },
         {
           "id": 1297563600,
@@ -507,7 +503,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 98.31
+          "score": 96.65
         },
         {
           "id": 1296478978,
@@ -534,7 +530,32 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 97.34
+          "score": 95.54
+        },
+        {
+          "id": 1300241319,
+          "name": "10-ai-careers-roadmap",
+          "fullName": "Moh4696/10-ai-careers-roadmap",
+          "url": "https://github.com/Moh4696/10-ai-careers-roadmap",
+          "homepage": "",
+          "description": "Free, structured learning library for 10 AI careers paying $135K-$1M+ in 2026. Companion to the @exploraX_ article.",
+          "stars": 7,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-14T08:53:27Z",
+          "updatedAt": "2026-07-15T11:05:28Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 91.51
         },
         {
           "id": 1299064384,
@@ -562,35 +583,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 93.29
-        },
-        {
-          "id": 1300104837,
-          "name": "mcpvet",
-          "fullName": "12122J/mcpvet",
-          "url": "https://github.com/12122J/mcpvet",
-          "homepage": "",
-          "description": "MCP security scanner — vet a Model Context Protocol server before you add it to Claude Code, Cursor, or Windsurf. Grades it A–F, catching credential theft, tool-poisoning, and install-script payloads by running it in a sealed sandbox. Zero deps.",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-14T06:34:43Z",
-          "updatedAt": "2026-07-15T03:20:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 87.17
+          "score": 91.33
         },
         {
           "id": 1297766097,
@@ -615,7 +608,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.71
+          "score": 78.9
+        },
+        {
+          "id": 1300227306,
+          "name": "flare-redact",
+          "fullName": "umudhasanli/flare-redact",
+          "url": "https://github.com/umudhasanli/flare-redact",
+          "homepage": "https://www.npmjs.com/package/flare-redact",
+          "description": "Hide secrets & PII in logs, prompts, and text before they leak — with a reversible layer that keeps them out of your OpenAI/Anthropic calls. Zero deps, ReDoS-safe.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-07-14T08:40:17Z",
+          "updatedAt": "2026-07-15T08:41:59Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 75.3
         },
         {
           "id": 1297504980,
@@ -641,7 +659,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 75.34
+          "score": 73.54
         },
         {
           "id": 1297833395,
@@ -666,32 +684,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 71.09
-        },
-        {
-          "id": 1297829873,
-          "name": "Comodo-Internet-2026",
-          "fullName": "InvestorWrench/Comodo-Internet-2026",
-          "url": "https://github.com/InvestorWrench/Comodo-Internet-2026",
-          "homepage": "",
-          "description": "comodo internet security download windows — Comodo Internet Security for Windows 11 & 10. Direct download, install steps and setup guide.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-11T22:48:10Z",
-          "updatedAt": "2026-07-12T00:10:32Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 68.01
+          "score": 69.43
         },
         {
           "id": 1296954740,
@@ -700,12 +693,12 @@
           "url": "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment",
           "homepage": "",
           "description": "Independent public-artifact cryptanalysis and security assessment of OCTRA HFHE Challenge v2",
-          "stars": 5,
+          "stars": 6,
           "forks": 0,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-10T22:41:37Z",
-          "updatedAt": "2026-07-11T19:36:11Z",
+          "updatedAt": "2026-07-15T09:11:05Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -715,7 +708,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 65.68
+          "score": 67.62
         },
         {
           "id": 1294545454,
@@ -740,7 +733,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 65.1
+          "score": 63.3
         },
         {
           "id": 1293082552,
@@ -765,7 +758,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.77
+          "score": 61.62
+        },
+        {
+          "id": 1293627554,
+          "name": "cloak",
+          "fullName": "hoophq/cloak",
+          "url": "https://github.com/hoophq/cloak",
+          "homepage": "",
+          "description": "Local credential proxy: hand AI agents fake DSNs/API keys and swap in the real secret on egress, so credentials never enter agent context, logs, or traces.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-07-08T13:21:43Z",
+          "updatedAt": "2026-07-15T07:15:41Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 54
         }
       ]
     }
