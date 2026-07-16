@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-16T04:23:54.634Z",
+  "generatedAt": "2026-07-16T15:13:48.943Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,70 +34,45 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-13",
-      "totalCandidates": 25,
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         }
       ],
       "repositories": [
-        {
-          "id": 1301677946,
-          "name": "Lanflux",
-          "fullName": "Leadrogue/Lanflux",
-          "url": "https://github.com/Leadrogue/Lanflux",
-          "homepage": "https://github.com/Leadrogue/Lanflux",
-          "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
-          "stars": 13,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T13:59:06Z",
-          "updatedAt": "2026-07-16T03:21:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 91.12
-        },
         {
           "id": 1300241319,
           "name": "10-ai-careers-roadmap",
@@ -105,12 +80,12 @@
           "url": "https://github.com/Moh4696/10-ai-careers-roadmap",
           "homepage": "",
           "description": "Free, structured learning library for 10 AI careers paying $135K-$1M+ in 2026. Companion to the @exploraX_ article.",
-          "stars": 11,
-          "forks": 2,
+          "stars": 15,
+          "forks": 5,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-14T08:53:27Z",
-          "updatedAt": "2026-07-16T04:09:51Z",
+          "updatedAt": "2026-07-16T09:26:35Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -121,21 +96,21 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 89.9
+          "score": 97.52
         },
         {
-          "id": 1299064384,
-          "name": "Strix-Kali-AI-PoweredPentestFramework",
-          "fullName": "JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
-          "url": "https://github.com/JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "id": 1301372808,
+          "name": "LLMVault",
+          "fullName": "CyberSunil/LLMVault",
+          "url": "https://github.com/CyberSunil/LLMVault",
           "homepage": "",
-          "description": "🦅Strix 落地与调教完全指北 —— 这是一个专注于下一代自主 AI 渗透测试代理Strix 的实战部署与性能榨干指南。🎮以及如何通过 --instruction 指令化身“赛博御兽师”操纵 AI 黑客注意力的进阶玩法的核心沉淀。⚡内含国内网络环境下 Docker 0/33 沙箱卡死究极加速方案，💰全网超全的多模型（DeepSeek-V4、Claude、火山引擎、OpenRouter）高性价比接入配置。A comprehensive hands-on guide to maximizing Strix, the autonomous AI agent that thinks and acts like a real hacker.",
-          "stars": 9,
-          "forks": 0,
+          "description": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
+          "stars": 8,
+          "forks": 2,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-13T08:45:33Z",
-          "updatedAt": "2026-07-16T01:09:26Z",
+          "language": "Python",
+          "createdAt": "2026-07-15T08:18:22Z",
+          "updatedAt": "2026-07-16T14:54:48Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -149,7 +124,160 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 75.34
+          "score": 95.54
+        },
+        {
+          "id": 1301677946,
+          "name": "Lanflux",
+          "fullName": "Leadrogue/Lanflux",
+          "url": "https://github.com/Leadrogue/Lanflux",
+          "homepage": "https://github.com/Leadrogue/Lanflux",
+          "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
+          "stars": 18,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T13:59:06Z",
+          "updatedAt": "2026-07-16T14:46:56Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 94.68
+        },
+        {
+          "id": 1301957952,
+          "name": "Telegram-OSINT-Toolkit",
+          "fullName": "AnuragRoy485/Telegram-OSINT-Toolkit",
+          "url": "https://github.com/AnuragRoy485/Telegram-OSINT-Toolkit",
+          "homepage": "",
+          "description": "High-end Telegram OSINT Toolkit built with Telethon. Bulk keyword search, chat export, member enumeration, proxy/Tor support & SQLite. For cybersecurity & intelligence work.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T19:05:39Z",
+          "updatedAt": "2026-07-16T12:42:19Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 89.92
+        },
+        {
+          "id": 1302624827,
+          "name": "recon-modular",
+          "fullName": "Ali-hey-0/recon-modular",
+          "url": "https://github.com/Ali-hey-0/recon-modular",
+          "homepage": "",
+          "description": "🛡️ AI-powered reconnaissance framework unifying 130+ security tools — subdomain enum, vuln scanning, cloud/IoT recon, dark web monitoring & blockchain-audited reporting. GAN-driven subdomain prediction, distributed execution post-quantum encryption. Built for bug bounty, red team & DevSecOps.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-07-16T10:05:00Z",
+          "updatedAt": "2026-07-16T14:01:02Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 77.81
+        },
+        {
+          "id": 1299064384,
+          "name": "Strix-Kali-AI-PoweredPentestFramework",
+          "fullName": "JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "url": "https://github.com/JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "homepage": "",
+          "description": "🦅Strix 落地与调教完全指北 —— 这是一个专注于下一代自主 AI 渗透测试代理Strix 的实战部署与性能榨干指南。🎮以及如何通过 --instruction 指令化身“赛博御兽师”操纵 AI 黑客注意力的进阶玩法的核心沉淀。⚡内含国内网络环境下 Docker 0/33 沙箱卡死究极加速方案，💰全网超全的多模型（DeepSeek-V4、Claude、火山引擎、OpenRouter）高性价比接入配置。A comprehensive hands-on guide to maximizing Strix, the autonomous AI agent that thinks and acts like a real hacker.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-13T08:45:33Z",
+          "updatedAt": "2026-07-16T06:57:21Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 76.14
+        },
+        {
+          "id": 1301806074,
+          "name": "strix-redteam-workbench",
+          "fullName": "link17789016-jpg/strix-redteam-workbench",
+          "url": "https://github.com/link17789016-jpg/strix-redteam-workbench",
+          "homepage": "",
+          "description": "Sanitized Strix 1.2.26 workbench for evidence-driven validation, long-running red-team workflows, and reusable test assets.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T16:07:54Z",
+          "updatedAt": "2026-07-16T04:56:41Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 74.88
+        },
+        {
+          "id": 1302243914,
+          "name": "awesome-cybersecurity-middle-school",
+          "fullName": "ywoneday/awesome-cybersecurity-middle-school",
+          "url": "https://github.com/ywoneday/awesome-cybersecurity-middle-school",
+          "homepage": "",
+          "description": "A curated collection of teaching resources, tools, and references for educators bringing AP Cybersecurity and cybersecurity education to middle school and early high school classrooms.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-16T02:56:11Z",
+          "updatedAt": "2026-07-16T07:51:59Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 68.42
         },
         {
           "id": 1301565656,
@@ -163,7 +291,7 @@
           "openIssues": 0,
           "language": "Nim",
           "createdAt": "2026-07-15T11:58:22Z",
-          "updatedAt": "2026-07-15T19:53:31Z",
+          "updatedAt": "2026-07-16T09:46:47Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -177,57 +305,59 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 73
+          "score": 68.38
         },
         {
-          "id": 1302105502,
-          "name": "Guox",
-          "fullName": "nuekkis/Guox",
-          "url": "https://github.com/nuekkis/Guox",
-          "homepage": "",
-          "description": "Sub-millisecond security layer for Node.js. Enterprise-grade defense featuring cost-based rate limiting, HMAC request signing, active session-hijacking protection, and JA4 fingerprinting.",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-15T23:09:41Z",
-          "updatedAt": "2026-07-16T00:48:05Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 69.24
-        },
-        {
-          "id": 1301806074,
-          "name": "strix-redteam-workbench",
-          "fullName": "link17789016-jpg/strix-redteam-workbench",
-          "url": "https://github.com/link17789016-jpg/strix-redteam-workbench",
-          "homepage": "",
-          "description": "Sanitized Strix 1.2.26 workbench for evidence-driven validation, long-running red-team workflows, and reusable test assets.",
-          "stars": 2,
+          "id": 1301089350,
+          "name": "tahr-security-skills",
+          "fullName": "tahr-security/tahr-security-skills",
+          "url": "https://github.com/tahr-security/tahr-security-skills",
+          "homepage": "https://skills.sh/tahr-security",
+          "description": "Pentester-informed skills that help developers review applications with an attacker's mindset.",
+          "stars": 6,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-15T16:07:54Z",
-          "updatedAt": "2026-07-15T19:20:57Z",
+          "createdAt": "2026-07-15T01:32:28Z",
+          "updatedAt": "2026-07-16T14:15:07Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队",
+            "通用安全",
             "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 66.39
+        },
+        {
+          "id": 1301534842,
+          "name": "frida-scripts-collection",
+          "fullName": "mabbcoll13/frida-scripts-collection",
+          "url": "https://github.com/mabbcoll13/frida-scripts-collection",
+          "homepage": "",
+          "description": "Frida scripts for Android dynamic analysis: root / emulator / SSL-pinning bypass, memory & class dumping, API tracing, deobfuscation, plus a batch runner.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-15T11:23:15Z",
+          "updatedAt": "2026-07-16T02:04:22Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 67.93
+          "score": 62.48
         },
         {
           "id": 1301534691,
@@ -252,135 +382,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 66.39
-        },
-        {
-          "id": 1301535187,
-          "name": "android-emulator-detect-bypass",
-          "fullName": "mabbcoll13/android-emulator-detect-bypass",
-          "url": "https://github.com/mabbcoll13/android-emulator-detect-bypass",
-          "homepage": "",
-          "description": "Android emulator detection bypass: a Magisk module template, an Xposed hook template, a device-property generator, and build tools to package a flashable zip.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T11:23:41Z",
-          "updatedAt": "2026-07-16T02:04:16Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 66.39
-        },
-        {
-          "id": 1300227306,
-          "name": "flare-redact",
-          "fullName": "umudhasanli/flare-redact",
-          "url": "https://github.com/umudhasanli/flare-redact",
-          "homepage": "https://www.npmjs.com/package/flare-redact",
-          "description": "International secret & PII redaction for JS/TS — logs, prompts, HTTP, datasets. 20+ languages, checksum-validated national IDs, reversible LLM layer. Zero deps, ReDoS-safe.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-14T08:40:17Z",
-          "updatedAt": "2026-07-15T20:40:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 64.21
-        },
-        {
-          "id": 1299350675,
-          "name": "evm-hack-poc",
-          "fullName": "sanbir/evm-hack-poc",
-          "url": "https://github.com/sanbir/evm-hack-poc",
-          "homepage": "https://crypto.training/hacks/",
-          "description": "A public collection of EVM exploit proof-of-concept (PoC) archives for security research, education, and tooling.  These PoCs are generated from evm-hack-registry data and are intended to be used with evm-hack-analyzer.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-13T13:55:28Z",
-          "updatedAt": "2026-07-15T21:50:23Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 57.97
-        },
-        {
-          "id": 1299690480,
-          "name": "MCPhantom",
-          "fullName": "Dragkob/MCPhantom",
-          "url": "https://github.com/Dragkob/MCPhantom",
-          "homepage": "",
-          "description": "MCPhantom is a local web dashboard for MCP endpoint recon. Discover resources, templates, tools, and prompts, then interact with them from a security console.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-13T20:03:25Z",
-          "updatedAt": "2026-07-14T20:11:48Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 55.99
-        },
-        {
-          "id": 1300107332,
-          "name": "satellite-flight-software-cybersecurity",
-          "fullName": "YigitAlpG/satellite-flight-software-cybersecurity",
-          "url": "https://github.com/YigitAlpG/satellite-flight-software-cybersecurity",
-          "homepage": "",
-          "description": "STM32-based detection of FDI and Replay attacks in satellite flight software using NASA telemetry data.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-14T06:37:45Z",
-          "updatedAt": "2026-07-14T08:47:39Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 55.37
+          "score": 62.47
         }
       ]
     },
@@ -400,35 +402,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1784175887"
+          "rateLimitReset": "1784214881"
         }
       ],
       "repositories": [
@@ -439,12 +441,12 @@
           "url": "https://github.com/SyscallX-18113/Apkx-Hunter",
           "homepage": "",
           "description": "Apkx-Hunter is an Android Static Analysis Framework written entirely in C with OWASP MASVS scanning with 15 categories and 166 detection patterns for Android security assessments, reverse engineering, malware analysis, bug bounty hunting, and penetration testing. It features ML-based secret scoring, and advanced static security analysis.",
-          "stars": 55,
+          "stars": 60,
           "forks": 5,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-07-11T11:29:57Z",
-          "updatedAt": "2026-07-16T04:22:41Z",
+          "updatedAt": "2026-07-16T12:23:26Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -459,7 +461,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 146.15
+          "score": 146.75
         },
         {
           "id": 1300241319,
@@ -468,12 +470,12 @@
           "url": "https://github.com/Moh4696/10-ai-careers-roadmap",
           "homepage": "",
           "description": "Free, structured learning library for 10 AI careers paying $135K-$1M+ in 2026. Companion to the @exploraX_ article.",
-          "stars": 11,
-          "forks": 2,
+          "stars": 15,
+          "forks": 5,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-14T08:53:27Z",
-          "updatedAt": "2026-07-16T04:09:51Z",
+          "updatedAt": "2026-07-16T09:26:35Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -484,7 +486,60 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 99.59
+          "score": 109.62
+        },
+        {
+          "id": 1301372808,
+          "name": "LLMVault",
+          "fullName": "CyberSunil/LLMVault",
+          "url": "https://github.com/CyberSunil/LLMVault",
+          "homepage": "",
+          "description": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
+          "stars": 8,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T08:18:22Z",
+          "updatedAt": "2026-07-16T14:54:48Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 103.07
+        },
+        {
+          "id": 1301677946,
+          "name": "Lanflux",
+          "fullName": "Leadrogue/Lanflux",
+          "url": "https://github.com/Leadrogue/Lanflux",
+          "homepage": "https://github.com/Leadrogue/Lanflux",
+          "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
+          "stars": 18,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T13:59:06Z",
+          "updatedAt": "2026-07-16T14:46:56Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 99.89
         },
         {
           "id": 1298248424,
@@ -498,7 +553,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-12T12:07:54Z",
-          "updatedAt": "2026-07-15T03:38:39Z",
+          "updatedAt": "2026-07-16T11:41:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -509,7 +564,31 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 97.93
+          "score": 96.25
+        },
+        {
+          "id": 1301957952,
+          "name": "Telegram-OSINT-Toolkit",
+          "fullName": "AnuragRoy485/Telegram-OSINT-Toolkit",
+          "url": "https://github.com/AnuragRoy485/Telegram-OSINT-Toolkit",
+          "homepage": "",
+          "description": "High-end Telegram OSINT Toolkit built with Telethon. Bulk keyword search, chat export, member enumeration, proxy/Tor support & SQLite. For cybersecurity & intelligence work.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T19:05:39Z",
+          "updatedAt": "2026-07-16T12:42:19Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 94.41
         },
         {
           "id": 1297563600,
@@ -534,32 +613,35 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.58
+          "score": 92.9
         },
         {
-          "id": 1301677946,
-          "name": "Lanflux",
-          "fullName": "Leadrogue/Lanflux",
-          "url": "https://github.com/Leadrogue/Lanflux",
-          "homepage": "https://github.com/Leadrogue/Lanflux",
-          "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
-          "stars": 13,
+          "id": 1299064384,
+          "name": "Strix-Kali-AI-PoweredPentestFramework",
+          "fullName": "JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "url": "https://github.com/JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "homepage": "",
+          "description": "🦅Strix 落地与调教完全指北 —— 这是一个专注于下一代自主 AI 渗透测试代理Strix 的实战部署与性能榨干指南。🎮以及如何通过 --instruction 指令化身“赛博御兽师”操纵 AI 黑客注意力的进阶玩法的核心沉淀。⚡内含国内网络环境下 Docker 0/33 沙箱卡死究极加速方案，💰全网超全的多模型（DeepSeek-V4、Claude、火山引擎、OpenRouter）高性价比接入配置。A comprehensive hands-on guide to maximizing Strix, the autonomous AI agent that thinks and acts like a real hacker.",
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T13:59:06Z",
-          "updatedAt": "2026-07-16T03:21:13Z",
+          "language": "Unknown",
+          "createdAt": "2026-07-13T08:45:33Z",
+          "updatedAt": "2026-07-16T06:57:21Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
+            "网络安全",
             "渗透 / 红队"
           ],
-          "score": 94.09
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 92.49
         },
         {
           "id": 1296478978,
@@ -586,21 +668,21 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 93.3
+          "score": 91.49
         },
         {
-          "id": 1299064384,
-          "name": "Strix-Kali-AI-PoweredPentestFramework",
-          "fullName": "JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
-          "url": "https://github.com/JY-666-YINZI/Strix-Kali-AI-PoweredPentestFramework",
+          "id": 1295850700,
+          "name": "CSharp-Powerful-Rat",
+          "fullName": "tfwcodes/CSharp-Powerful-Rat",
+          "url": "https://github.com/tfwcodes/CSharp-Powerful-Rat",
           "homepage": "",
-          "description": "🦅Strix 落地与调教完全指北 —— 这是一个专注于下一代自主 AI 渗透测试代理Strix 的实战部署与性能榨干指南。🎮以及如何通过 --instruction 指令化身“赛博御兽师”操纵 AI 黑客注意力的进阶玩法的核心沉淀。⚡内含国内网络环境下 Docker 0/33 沙箱卡死究极加速方案，💰全网超全的多模型（DeepSeek-V4、Claude、火山引擎、OpenRouter）高性价比接入配置。A comprehensive hands-on guide to maximizing Strix, the autonomous AI agent that thinks and acts like a real hacker.",
-          "stars": 9,
+          "description": "A powerful Remote-Acces-Trojan made by tfwcodes in c# with it's own network protocol. This app features many different commands and a built-in networking protocol with asymmetric encryption and a Elliptic-curve Diffie–Hellman (ECDH) key agreement protocol.",
+          "stars": 11,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-13T08:45:33Z",
-          "updatedAt": "2026-07-16T01:09:26Z",
+          "language": "C#",
+          "createdAt": "2026-07-09T23:05:21Z",
+          "updatedAt": "2026-07-16T15:11:08Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -614,7 +696,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 91.81
+          "score": 80.03
+        },
+        {
+          "id": 1297713900,
+          "name": "PE-pal",
+          "fullName": "zeynnekaya/PE-pal",
+          "url": "https://github.com/zeynnekaya/PE-pal",
+          "homepage": "https://pe-pal.vercel.app",
+          "description": "PE-pal is a binary file translator. it reads the instructions inside your PE file and tells you what it's trying to do in a language that doesn't require a compsci degree to understand!",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-07-11T19:04:32Z",
+          "updatedAt": "2026-07-16T14:30:17Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 75.92
         },
         {
           "id": 1297766097,
@@ -639,35 +746,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 76.67
-        },
-        {
-          "id": 1295850700,
-          "name": "CSharp-Powerful-Rat",
-          "fullName": "tfwcodes/CSharp-Powerful-Rat",
-          "url": "https://github.com/tfwcodes/CSharp-Powerful-Rat",
-          "homepage": "",
-          "description": "A powerful Remote-Acces-Trojan made by tfwcodes in c# with it's own network protocol. This app features many different commands and a built-in networking protocol with asymmetric encryption and a Elliptic-curve Diffie–Hellman (ECDH) key agreement protocol.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-07-09T23:05:21Z",
-          "updatedAt": "2026-07-15T23:48:32Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 73.97
+          "score": 74.86
         },
         {
           "id": 1300227306,
@@ -693,7 +772,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 73.23
+          "score": 71.56
         },
         {
           "id": 1297504980,
@@ -719,7 +798,31 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 71.31
+          "score": 69.5
+        },
+        {
+          "id": 1295848752,
+          "name": "JwtExploits",
+          "fullName": "tfwcodes/JwtExploits",
+          "url": "https://github.com/tfwcodes/JwtExploits",
+          "homepage": "",
+          "description": "A collection of different JWT exploits made by me in python to exploit different vulnerabilites in jWT.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-09T23:02:04Z",
+          "updatedAt": "2026-07-16T09:45:20Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 68.75
         },
         {
           "id": 1297833395,
@@ -744,80 +847,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 67.36
-        },
-        {
-          "id": 1296954740,
-          "name": "octra-hfhe-v2-security-assessment",
-          "fullName": "smoke-ui/octra-hfhe-v2-security-assessment",
-          "url": "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment",
-          "homepage": "",
-          "description": "Independent public-artifact cryptanalysis and security assessment of OCTRA HFHE Challenge v2",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 2,
-          "language": "Python",
-          "createdAt": "2026-07-10T22:41:37Z",
-          "updatedAt": "2026-07-15T09:11:05Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 65.39
-        },
-        {
-          "id": 1295848752,
-          "name": "JwtExploits",
-          "fullName": "tfwcodes/JwtExploits",
-          "url": "https://github.com/tfwcodes/JwtExploits",
-          "homepage": "",
-          "description": "A collection of different JWT exploits made by me in python to exploit different vulnerabilites in jWT.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-09T23:02:04Z",
-          "updatedAt": "2026-07-15T21:31:50Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 63.03
-        },
-        {
-          "id": 1294545454,
-          "name": "crowdsec-troubleshooter",
-          "fullName": "modem7/crowdsec-troubleshooter",
-          "url": "https://github.com/modem7/crowdsec-troubleshooter",
-          "homepage": "https://hub.docker.com/repository/docker/modem7/crowdsec-troubleshooter",
-          "description": "Unprivileged, run-once Docker tool for diagnosing CrowdSec + Traefik setups — a wellness check, an IP block checker, and an optional live \"does blocking actually work\" test. No daemon, no docker.sock, no host networking, no capabilities required.",
-          "stars": 5,
-          "forks": 2,
-          "openIssues": 1,
-          "language": "Shell",
-          "createdAt": "2026-07-09T02:15:21Z",
-          "updatedAt": "2026-07-15T21:21:02Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 61.42
+          "score": 65.68
         }
       ]
     }
