@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-17T04:23:28.392Z",
+  "generatedAt": "2026-07-17T14:53:29.860Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-14",
-      "totalCandidates": 25,
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         }
       ],
       "repositories": [
@@ -80,26 +80,24 @@
           "url": "https://github.com/CyberSunil/LLMVault",
           "homepage": "",
           "description": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
-          "stars": 61,
-          "forks": 12,
-          "openIssues": 0,
+          "stars": 127,
+          "forks": 33,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-15T08:18:22Z",
-          "updatedAt": "2026-07-17T04:20:43Z",
+          "updatedAt": "2026-07-17T14:50:42Z",
           "matchedProfiles": [
-            "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08,
             1.18
           ],
           "tags": [
-            "网络安全",
             "渗透 / 红队",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 156.32
+          "score": 180.35
         },
         {
           "id": 1301677946,
@@ -108,12 +106,12 @@
           "url": "https://github.com/Leadrogue/Lanflux",
           "homepage": "https://github.com/Leadrogue/Lanflux",
           "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
-          "stars": 21,
-          "forks": 0,
+          "stars": 24,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T13:59:06Z",
-          "updatedAt": "2026-07-16T19:59:43Z",
+          "updatedAt": "2026-07-17T13:39:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -124,7 +122,31 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 93.56
+          "score": 96.95
+        },
+        {
+          "id": 1301957952,
+          "name": "Telegram-OSINT-Toolkit",
+          "fullName": "AnuragRoy485/Telegram-OSINT-Toolkit",
+          "url": "https://github.com/AnuragRoy485/Telegram-OSINT-Toolkit",
+          "homepage": "",
+          "description": "High-end Telegram OSINT Toolkit built with Telethon. Bulk keyword search, chat export, member enumeration, proxy/Tor support & SQLite. For cybersecurity & intelligence work.",
+          "stars": 16,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T19:05:39Z",
+          "updatedAt": "2026-07-17T12:58:07Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 92.06
         },
         {
           "id": 1300241319,
@@ -149,31 +171,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.38
-        },
-        {
-          "id": 1301957952,
-          "name": "Telegram-OSINT-Toolkit",
-          "fullName": "AnuragRoy485/Telegram-OSINT-Toolkit",
-          "url": "https://github.com/AnuragRoy485/Telegram-OSINT-Toolkit",
-          "homepage": "",
-          "description": "High-end Telegram OSINT Toolkit built with Telethon. Bulk keyword search, chat export, member enumeration, proxy/Tor support & SQLite. For cybersecurity & intelligence work.",
-          "stars": 13,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T19:05:39Z",
-          "updatedAt": "2026-07-17T02:08:22Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 91.04
+          "score": 90.63
         },
         {
           "id": 1302624827,
@@ -201,21 +199,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 82.51
+          "score": 78.03
         },
         {
-          "id": 1300825641,
-          "name": "grokpatrol",
-          "fullName": "optimuslabs-io/grokpatrol",
-          "url": "https://github.com/optimuslabs-io/grokpatrol",
-          "homepage": "",
-          "description": "Open-source, offline forensic scanner CLI tool designed to detect evidence of git repo collection or upload by the Grok Build CLI to xAI infrastructure.",
-          "stars": 11,
+          "id": 1302464336,
+          "name": "ghost-captcha",
+          "fullName": "rohitkhatri1st/ghost-captcha",
+          "url": "https://github.com/rohitkhatri1st/ghost-captcha",
+          "homepage": "https://rohitkhatri1st.github.io/ghost-captcha/",
+          "description": "Animated Font and CAPTCHA library for Go — invisible in any single frame, only readable in motion. Resists OCR and AI vision models.",
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
           "language": "Go",
-          "createdAt": "2026-07-14T18:23:18Z",
-          "updatedAt": "2026-07-17T02:02:49Z",
+          "createdAt": "2026-07-16T07:25:09Z",
+          "updatedAt": "2026-07-17T14:23:06Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -226,7 +224,57 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.66
+          "score": 76.91
+        },
+        {
+          "id": 1300825641,
+          "name": "grokpatrol",
+          "fullName": "optimuslabs-io/grokpatrol",
+          "url": "https://github.com/optimuslabs-io/grokpatrol",
+          "homepage": "",
+          "description": "Open-source, offline forensic scanner CLI tool designed to detect evidence of git repo collection or upload by the Grok Build CLI to xAI infrastructure.",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-07-14T18:23:18Z",
+          "updatedAt": "2026-07-17T11:35:06Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 69.8
+        },
+        {
+          "id": 1302114817,
+          "name": "blue_swan",
+          "fullName": "Iankulani/blue_swan",
+          "url": "https://github.com/Iankulani/blue_swan",
+          "homepage": "",
+          "description": "Blue Swan is an enterprise-grade cybersecurity platform designed to help organizations monitor, protect, and manage their digital infrastructure from a single unified interface. The platform enables authorized security administrators to remotely perform security operations, monitor infrastructure, investigate incidents, automate defensive workflows",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T23:27:51Z",
+          "updatedAt": "2026-07-17T05:51:24Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 67.28
         },
         {
           "id": 1301806074,
@@ -252,32 +300,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 69.27
-        },
-        {
-          "id": 1302114817,
-          "name": "blue_swan",
-          "fullName": "Iankulani/blue_swan",
-          "url": "https://github.com/Iankulani/blue_swan",
-          "homepage": "",
-          "description": "Blue Swan is an enterprise-grade cybersecurity platform designed to help organizations monitor, protect, and manage their digital infrastructure from a single unified interface. The platform enables authorized security administrators to remotely perform security operations, monitor infrastructure, investigate incidents, automate defensive workflows",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T23:27:51Z",
-          "updatedAt": "2026-07-17T03:45:25Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.26
+          "score": 64.79
         },
         {
           "id": 1301089350,
@@ -304,7 +327,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 64.7
+          "score": 60.9
         },
         {
           "id": 1302243914,
@@ -328,7 +351,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 63.29
+          "score": 59.2
         },
         {
           "id": 1301565656,
@@ -356,32 +379,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 62.78
-        },
-        {
-          "id": 1301534691,
-          "name": "xposed-module-kit",
-          "fullName": "mabbcoll13/xposed-module-kit",
-          "url": "https://github.com/mabbcoll13/xposed-module-kit",
-          "homepage": "",
-          "description": "Xposed/LSPosed module development kit: reusable hook templates, Gradle build config, a root-detection bypass example, and offline class-scanning tooling.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T11:23:05Z",
-          "updatedAt": "2026-07-16T02:04:30Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 61.72
+          "score": 58.3
         }
       ]
     },
@@ -394,42 +392,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-07-10",
-      "totalCandidates": 25,
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1784262261"
+          "rateLimitReset": "1784300062"
         }
       ],
       "repositories": [
@@ -440,26 +438,24 @@
           "url": "https://github.com/CyberSunil/LLMVault",
           "homepage": "",
           "description": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
-          "stars": 61,
-          "forks": 12,
-          "openIssues": 0,
+          "stars": 127,
+          "forks": 33,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-15T08:18:22Z",
-          "updatedAt": "2026-07-17T04:20:43Z",
+          "updatedAt": "2026-07-17T14:50:42Z",
           "matchedProfiles": [
-            "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08,
             1.18
           ],
           "tags": [
-            "网络安全",
             "渗透 / 红队",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 167.05
+          "score": 193.64
         },
         {
           "id": 1297384407,
@@ -468,12 +464,12 @@
           "url": "https://github.com/SyscallX-18113/Apkx-Hunter",
           "homepage": "",
           "description": "Apkx-Hunter is an Android Static Analysis Framework written entirely in C with OWASP MASVS scanning with 15 categories and 166 detection patterns for Android security assessments, reverse engineering, malware analysis, bug bounty hunting, and penetration testing. It features ML-based secret scoring, and advanced static security analysis.",
-          "stars": 64,
-          "forks": 5,
+          "stars": 66,
+          "forks": 6,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-07-11T11:29:57Z",
-          "updatedAt": "2026-07-17T01:27:18Z",
+          "updatedAt": "2026-07-17T13:18:45Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -488,7 +484,32 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 146.26
+          "score": 146.31
+        },
+        {
+          "id": 1301677946,
+          "name": "Lanflux",
+          "fullName": "Leadrogue/Lanflux",
+          "url": "https://github.com/Leadrogue/Lanflux",
+          "homepage": "https://github.com/Leadrogue/Lanflux",
+          "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
+          "stars": 24,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T13:59:06Z",
+          "updatedAt": "2026-07-17T13:39:16Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 107.04
         },
         {
           "id": 1300241319,
@@ -513,32 +534,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 107.43
-        },
-        {
-          "id": 1301677946,
-          "name": "Lanflux",
-          "fullName": "Leadrogue/Lanflux",
-          "url": "https://github.com/Leadrogue/Lanflux",
-          "homepage": "https://github.com/Leadrogue/Lanflux",
-          "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
-          "stars": 21,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T13:59:06Z",
-          "updatedAt": "2026-07-16T19:59:43Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 101.48
+          "score": 105.67
         },
         {
           "id": 1301957952,
@@ -547,12 +543,12 @@
           "url": "https://github.com/AnuragRoy485/Telegram-OSINT-Toolkit",
           "homepage": "",
           "description": "High-end Telegram OSINT Toolkit built with Telethon. Bulk keyword search, chat export, member enumeration, proxy/Tor support & SQLite. For cybersecurity & intelligence work.",
-          "stars": 13,
+          "stars": 16,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T19:05:39Z",
-          "updatedAt": "2026-07-17T02:08:22Z",
+          "updatedAt": "2026-07-17T12:58:07Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -562,7 +558,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 98.46
+          "score": 101.82
         },
         {
           "id": 1298248424,
@@ -587,7 +583,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.21
+          "score": 92.59
+        },
+        {
+          "id": 1297563600,
+          "name": "graveyard-check",
+          "fullName": "TahaKotwal12/graveyard-check",
+          "url": "https://github.com/TahaKotwal12/graveyard-check",
+          "homepage": "https://graveyard-check-ouxi.vercel.app/",
+          "description": "Find maintained successors for abandoned npm dependencies before they break your build.",
+          "stars": 23,
+          "forks": 1,
+          "openIssues": 10,
+          "language": "TypeScript",
+          "createdAt": "2026-07-11T15:33:05Z",
+          "updatedAt": "2026-07-17T11:52:05Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 91.41
         },
         {
           "id": 1299064384,
@@ -615,32 +636,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 92.54
-        },
-        {
-          "id": 1297563600,
-          "name": "graveyard-check",
-          "fullName": "TahaKotwal12/graveyard-check",
-          "url": "https://github.com/TahaKotwal12/graveyard-check",
-          "homepage": "https://graveyard-check-ouxi.vercel.app/",
-          "description": "Find maintained successors for abandoned npm dependencies before they break your build.",
-          "stars": 21,
-          "forks": 1,
-          "openIssues": 10,
-          "language": "TypeScript",
-          "createdAt": "2026-07-11T15:33:05Z",
-          "updatedAt": "2026-07-16T17:18:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 90.87
+          "score": 90.63
         },
         {
           "id": 1296478978,
@@ -667,7 +663,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 89.29
+          "score": 87.94
         },
         {
           "id": 1302624827,
@@ -693,7 +689,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 86.96
+          "score": 85.05
         },
         {
           "id": 1300825641,
@@ -702,12 +698,12 @@
           "url": "https://github.com/optimuslabs-io/grokpatrol",
           "homepage": "",
           "description": "Open-source, offline forensic scanner CLI tool designed to detect evidence of git repo collection or upload by the Grok Build CLI to xAI infrastructure.",
-          "stars": 11,
+          "stars": 12,
           "forks": 0,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-07-14T18:23:18Z",
-          "updatedAt": "2026-07-17T02:02:49Z",
+          "updatedAt": "2026-07-17T11:35:06Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -718,7 +714,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 83.63
+          "score": 83.93
+        },
+        {
+          "id": 1302464336,
+          "name": "ghost-captcha",
+          "fullName": "rohitkhatri1st/ghost-captcha",
+          "url": "https://github.com/rohitkhatri1st/ghost-captcha",
+          "homepage": "https://rohitkhatri1st.github.io/ghost-captcha/",
+          "description": "Animated Font and CAPTCHA library for Go — invisible in any single frame, only readable in motion. Resists OCR and AI vision models.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-07-16T07:25:09Z",
+          "updatedAt": "2026-07-17T14:23:06Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 83.4
         },
         {
           "id": 1297713900,
@@ -727,12 +748,12 @@
           "url": "https://github.com/zeynnekaya/PE-pal",
           "homepage": "https://pe-pal.vercel.app",
           "description": "PE-pal is a binary file translator. it reads the instructions inside your PE file and tells you what it's trying to do in a language that doesn't require a compsci degree to understand!",
-          "stars": 10,
+          "stars": 11,
           "forks": 0,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-07-11T19:04:32Z",
-          "updatedAt": "2026-07-16T22:08:34Z",
+          "updatedAt": "2026-07-17T13:55:16Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -743,34 +764,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 76.16
-        },
-        {
-          "id": 1301089350,
-          "name": "tahr-security-skills",
-          "fullName": "tahr-security/tahr-security-skills",
-          "url": "https://github.com/tahr-security/tahr-security-skills",
-          "homepage": "https://skills.sh/tahr-security",
-          "description": "Pentester-informed skills that help developers review applications with an attacker's mindset.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T01:32:28Z",
-          "updatedAt": "2026-07-16T21:53:30Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 75.19
+          "score": 76.65
         },
         {
           "id": 1297766097,
@@ -795,7 +789,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.66
+          "score": 70.91
         },
         {
           "id": 1297504980,
@@ -821,7 +815,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 67.3
+          "score": 65.55
         },
         {
           "id": 1297833395,
@@ -846,7 +840,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 63.64
+          "score": 62.02
         }
       ]
     }
