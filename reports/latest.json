@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-18T04:12:47.481Z",
+  "generatedAt": "2026-07-18T14:31:42.765Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-15",
-      "totalCandidates": 26,
+      "totalCandidates": 28,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/CyberSunil/LLMVault",
           "homepage": "",
           "description": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
-          "stars": 158,
-          "forks": 38,
+          "stars": 174,
+          "forks": 40,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-15T08:18:22Z",
-          "updatedAt": "2026-07-18T04:02:44Z",
+          "updatedAt": "2026-07-18T14:30:15Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -97,7 +97,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 182.21
+          "score": 183.73
         },
         {
           "id": 1301677946,
@@ -106,12 +106,12 @@
           "url": "https://github.com/Leadrogue/Lanflux",
           "homepage": "https://github.com/Leadrogue/Lanflux",
           "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
-          "stars": 26,
+          "stars": 27,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T13:59:06Z",
-          "updatedAt": "2026-07-17T16:47:11Z",
+          "updatedAt": "2026-07-18T14:19:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,7 +122,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 94.06
+          "score": 91.44
         },
         {
           "id": 1301957952,
@@ -131,12 +131,12 @@
           "url": "https://github.com/AnuragRoy485/Telegram-OSINT-Toolkit",
           "homepage": "",
           "description": "High-end Telegram OSINT Toolkit built with Telethon. Bulk keyword search, chat export, member enumeration, proxy/Tor support & SQLite. For cybersecurity & intelligence work.",
-          "stars": 21,
+          "stars": 22,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T19:05:39Z",
-          "updatedAt": "2026-07-18T01:24:06Z",
+          "updatedAt": "2026-07-18T05:18:31Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -146,7 +146,57 @@
           "tags": [
             "网络安全"
           ],
-          "score": 93.74
+          "score": 90.91
+        },
+        {
+          "id": 1304553327,
+          "name": "wp2shell-lab",
+          "fullName": "dinosn/wp2shell-lab",
+          "url": "https://github.com/dinosn/wp2shell-lab",
+          "homepage": "",
+          "description": "Non-destructive detector + Docker lab for wp2shell (CVE-2026-63030 REST /batch/v1 route confusion + CVE-2026-60137 author__not_in SQLi) in WordPress core 6.9.0-6.9.4 / 7.0.0-7.0.1",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-18T03:04:50Z",
+          "updatedAt": "2026-07-18T13:52:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 82.21
+        },
+        {
+          "id": 1304842610,
+          "name": "nik-checker",
+          "fullName": "andikaputradev/nik-checker",
+          "url": "https://github.com/andikaputradev/nik-checker",
+          "homepage": "",
+          "description": "NIK Checker Premium: Aplikasi CLI untuk validasi, parsing, dan pelacakan informasi KTP NIK Indonesia dengan lookup wilayah terintegrasi. Dikembangkan dalam Go, arsitektur modular dan produksi-siap.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-07-18T11:18:06Z",
+          "updatedAt": "2026-07-18T14:18:13Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 76.28
         },
         {
           "id": 1302624827,
@@ -174,7 +224,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 77.08
+          "score": 72.68
         },
         {
           "id": 1302464336,
@@ -199,7 +249,59 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.09
+          "score": 68.37
+        },
+        {
+          "id": 1304461349,
+          "name": "HIKRAVEN",
+          "fullName": "sylhetyhackvenger/HIKRAVEN",
+          "url": "https://github.com/sylhetyhackvenger/HIKRAVEN",
+          "homepage": "",
+          "description": "HIKRAVEN - Advanced Hikvision Security Assessment Platform for professional penetration testing. Detects 12+ CVEs including CVE-2021-36260 (CRITICAL), tests default credentials, performs network discovery, and generates professional security reports. For authorized security testing only! 🛡️🔒",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-17T23:29:55Z",
+          "updatedAt": "2026-07-18T13:54:24Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 66.76
+        },
+        {
+          "id": 1304380941,
+          "name": "Cyberbot-Uncensored-Offline-chatbot",
+          "fullName": "0xfa-ni/Cyberbot-Uncensored-Offline-chatbot",
+          "url": "https://github.com/0xfa-ni/Cyberbot-Uncensored-Offline-chatbot",
+          "homepage": "",
+          "description": "**CyberBot** is a fully offline AI-powered cybersecurity assistant built with Python, PyQt6, Ollama, and SQLite. It provides private, local AI chat capabilities for penetration testers, security analysts, CTF players, and cybersecurity students. All conversations remain on the user's machine, with no cloud services, API keys, or internet connection",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-07-17T20:51:57Z",
+          "updatedAt": "2026-07-18T07:27:34Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 65.63
         },
         {
           "id": 1302114817,
@@ -213,7 +315,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T23:27:51Z",
-          "updatedAt": "2026-07-17T16:12:41Z",
+          "updatedAt": "2026-07-18T11:45:17Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -224,58 +326,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.4
-        },
-        {
-          "id": 1303047829,
-          "name": "inro",
-          "fullName": "crgimenes/inro",
-          "url": "https://github.com/crgimenes/inro",
-          "homepage": "",
-          "description": "Self-contained PGP desktop app: encrypt, sign, verify and decrypt messages",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-07-16T17:12:21Z",
-          "updatedAt": "2026-07-17T20:21:11Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 59.89
-        },
-        {
-          "id": 1301806074,
-          "name": "strix-redteam-workbench",
-          "fullName": "link17789016-jpg/strix-redteam-workbench",
-          "url": "https://github.com/link17789016-jpg/strix-redteam-workbench",
-          "homepage": "",
-          "description": "Sanitized Strix 1.2.26 workbench for evidence-driven validation, long-running red-team workflows, and reusable test assets.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T16:07:54Z",
-          "updatedAt": "2026-07-16T04:56:41Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 59.12
+          "score": 62.38
         },
         {
           "id": 1301089350,
@@ -305,42 +356,18 @@
           "score": 57.06
         },
         {
-          "id": 1302243914,
-          "name": "awesome-cybersecurity-middle-school",
-          "fullName": "ywoneday/awesome-cybersecurity-middle-school",
-          "url": "https://github.com/ywoneday/awesome-cybersecurity-middle-school",
+          "id": 1303047829,
+          "name": "inro",
+          "fullName": "crgimenes/inro",
+          "url": "https://github.com/crgimenes/inro",
           "homepage": "",
-          "description": "A curated collection of teaching resources, tools, and references for educators bringing AP Cybersecurity and cybersecurity education to middle school and early high school classrooms.",
-          "stars": 3,
+          "description": "Self-contained PGP desktop app: encrypt, sign, verify and decrypt messages",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-16T02:56:11Z",
-          "updatedAt": "2026-07-16T07:51:59Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 54
-        },
-        {
-          "id": 1301534691,
-          "name": "xposed-module-kit",
-          "fullName": "mabbcoll13/xposed-module-kit",
-          "url": "https://github.com/mabbcoll13/xposed-module-kit",
-          "homepage": "",
-          "description": "Xposed/LSPosed module development kit: reusable hook templates, Gradle build config, a root-detection bypass example, and offline class-scanning tooling.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-15T11:23:05Z",
-          "updatedAt": "2026-07-16T02:04:30Z",
+          "language": "Go",
+          "createdAt": "2026-07-16T17:12:21Z",
+          "updatedAt": "2026-07-17T20:21:11Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -349,37 +376,9 @@
           ],
           "tags": [
             "通用安全",
-            "防守 / 蓝队"
+            "AI 自动化 / Skill"
           ],
-          "score": 53.12
-        },
-        {
-          "id": 1301565656,
-          "name": "nimux",
-          "fullName": "blue0x1/nimux",
-          "url": "https://github.com/blue0x1/nimux",
-          "homepage": "https://nimux.wiki",
-          "description": "Single-binary Nim toolkit for network enumeration, Active Directory operations, and remote execution.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Nim",
-          "createdAt": "2026-07-15T11:58:22Z",
-          "updatedAt": "2026-07-17T18:54:54Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 52.62
+          "score": 56.16
         }
       ]
     },
@@ -392,42 +391,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-07-11",
-      "totalCandidates": 26,
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1784348021"
+          "rateLimitReset": "1784385155"
         }
       ],
       "repositories": [
@@ -438,12 +437,12 @@
           "url": "https://github.com/CyberSunil/LLMVault",
           "homepage": "",
           "description": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
-          "stars": 158,
-          "forks": 38,
+          "stars": 174,
+          "forks": 40,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-15T08:18:22Z",
-          "updatedAt": "2026-07-18T04:02:44Z",
+          "updatedAt": "2026-07-18T14:30:15Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -455,7 +454,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 198.74
+          "score": 200.12
         },
         {
           "id": 1297384407,
@@ -484,7 +483,32 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 144.79
+          "score": 143.46
+        },
+        {
+          "id": 1300910939,
+          "name": "codesteward",
+          "fullName": "Codesteward/codesteward",
+          "url": "https://github.com/Codesteward/codesteward",
+          "homepage": "https://docs.codesteward.ai/",
+          "description": "Agentic code review with structural graph intelligence — PR gate + branch stewardship. Self-hosted. Apache-2.0.",
+          "stars": 61,
+          "forks": 9,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-07-14T20:15:56Z",
+          "updatedAt": "2026-07-18T08:56:34Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 132.91
         },
         {
           "id": 1301677946,
@@ -493,12 +517,12 @@
           "url": "https://github.com/Leadrogue/Lanflux",
           "homepage": "https://github.com/Leadrogue/Lanflux",
           "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
-          "stars": 26,
+          "stars": 27,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T13:59:06Z",
-          "updatedAt": "2026-07-17T16:47:11Z",
+          "updatedAt": "2026-07-18T14:19:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -509,7 +533,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 106.9
+          "score": 106.22
         },
         {
           "id": 1301957952,
@@ -518,12 +542,12 @@
           "url": "https://github.com/AnuragRoy485/Telegram-OSINT-Toolkit",
           "homepage": "",
           "description": "High-end Telegram OSINT Toolkit built with Telethon. Bulk keyword search, chat export, member enumeration, proxy/Tor support & SQLite. For cybersecurity & intelligence work.",
-          "stars": 21,
+          "stars": 22,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T19:05:39Z",
-          "updatedAt": "2026-07-18T01:24:06Z",
+          "updatedAt": "2026-07-18T05:18:31Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -533,7 +557,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 106.47
+          "score": 105.94
         },
         {
           "id": 1300241319,
@@ -558,7 +582,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 103.44
+          "score": 101.72
         },
         {
           "id": 1298248424,
@@ -583,7 +607,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 90.53
+          "score": 88.93
         },
         {
           "id": 1299064384,
@@ -611,7 +635,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 90.46
+          "score": 88.58
         },
         {
           "id": 1297563600,
@@ -625,7 +649,7 @@
           "openIssues": 10,
           "language": "TypeScript",
           "createdAt": "2026-07-11T15:33:05Z",
-          "updatedAt": "2026-07-17T11:52:05Z",
+          "updatedAt": "2026-07-18T10:52:40Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -636,7 +660,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 89.34
+          "score": 87.75
         },
         {
           "id": 1302624827,
@@ -662,7 +686,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 87.33
+          "score": 85.45
+        },
+        {
+          "id": 1297766097,
+          "name": "honeyprompt",
+          "fullName": "alectrocute/honeyprompt",
+          "url": "https://github.com/alectrocute/honeyprompt",
+          "homepage": "https://hub.docker.com/r/alectrocute/honeyprompt",
+          "description": "LLM-first deception framework: \"The honeypot that talks back!™\"",
+          "stars": 14,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-07-11T20:35:00Z",
+          "updatedAt": "2026-07-18T10:37:49Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 83.09
         },
         {
           "id": 1300825641,
@@ -687,7 +736,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 81.87
+          "score": 80.27
         },
         {
           "id": 1302464336,
@@ -712,32 +761,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 81.34
-        },
-        {
-          "id": 1297766097,
-          "name": "honeyprompt",
-          "fullName": "alectrocute/honeyprompt",
-          "url": "https://github.com/alectrocute/honeyprompt",
-          "homepage": "https://hub.docker.com/r/alectrocute/honeyprompt",
-          "description": "LLM-first deception framework: \"The honeypot that talks back!™\"",
-          "stars": 12,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-11T20:35:00Z",
-          "updatedAt": "2026-07-18T00:26:21Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 81.07
+          "score": 79.74
         },
         {
           "id": 1297713900,
@@ -762,7 +786,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 74.42
+          "score": 72.7
         },
         {
           "id": 1299690480,
@@ -788,7 +812,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 71.29
+          "score": 69.4
         },
         {
           "id": 1297504980,
@@ -814,7 +838,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 63.32
+          "score": 61.62
         }
       ]
     }
