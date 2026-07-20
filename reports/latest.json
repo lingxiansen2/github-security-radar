@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-19T14:34:52.866Z",
+  "generatedAt": "2026-07-20T04:50:14.935Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-16",
-      "totalCandidates": 25,
+      "createdSince": "2026-07-17",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 7,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/dinosn/wp2shell-lab",
           "homepage": "",
           "description": "Non-destructive detector + Docker lab for wp2shell (CVE-2026-63030 REST /batch/v1 route confusion + CVE-2026-60137 author__not_in SQLi) in WordPress core 6.9.0-6.9.4 / 7.0.0-7.0.1",
-          "stars": 23,
+          "stars": 27,
           "forks": 7,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-18T03:04:50Z",
-          "updatedAt": "2026-07-19T13:59:38Z",
+          "updatedAt": "2026-07-19T22:24:20Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 108.77
+          "score": 107.48
         },
         {
           "id": 1305266704,
@@ -105,12 +105,12 @@
           "url": "https://github.com/fhiltscher/awesome-ai-coding-sandboxes",
           "homepage": "",
           "description": "Security-posture-first list of sandboxes for running AI coding agents' code, ranked by isolation, egress control and secrets handling",
-          "stars": 15,
+          "stars": 16,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-18T22:35:03Z",
-          "updatedAt": "2026-07-19T14:27:07Z",
+          "updatedAt": "2026-07-19T21:38:52Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -123,7 +123,32 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 93.8
+          "score": 90.13
+        },
+        {
+          "id": 1305831057,
+          "name": "athena-ctf-2026-challs",
+          "fullName": "astraqcd/athena-ctf-2026-challs",
+          "url": "https://github.com/astraqcd/athena-ctf-2026-challs",
+          "homepage": "",
+          "description": "Public archive of Athena CTF 2026 challenges: files, Docker services, and challenge READMEs.",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-19T15:47:51Z",
+          "updatedAt": "2026-07-20T01:51:54Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 89.82
         },
         {
           "id": 1305328529,
@@ -150,7 +175,35 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 79.86
+          "score": 73.78
+        },
+        {
+          "id": 1305495074,
+          "name": "rapiscm",
+          "fullName": "grave0x/rapiscm",
+          "url": "https://github.com/grave0x/rapiscm",
+          "homepage": "",
+          "description": "Rust API scanner — spec, URL, fuzz, ghost mode, JS bundle analysis",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-07-19T07:01:42Z",
+          "updatedAt": "2026-07-20T01:05:46Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 70.71
         },
         {
           "id": 1304842610,
@@ -159,12 +212,12 @@
           "url": "https://github.com/andikaputradev/nik-checker",
           "homepage": "",
           "description": "NIK Checker Premium: Aplikasi CLI untuk validasi, parsing, dan pelacakan informasi KTP NIK Indonesia dengan lookup wilayah terintegrasi. Dikembangkan dalam Go, arsitektur modular dan produksi-siap.",
-          "stars": 3,
+          "stars": 4,
           "forks": 1,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-07-18T11:18:06Z",
-          "updatedAt": "2026-07-18T14:18:13Z",
+          "updatedAt": "2026-07-20T01:57:39Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -175,21 +228,21 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 66.9
+          "score": 66.45
         },
         {
-          "id": 1302464336,
-          "name": "ghost-captcha",
-          "fullName": "rohitkhatri1st/ghost-captcha",
-          "url": "https://github.com/rohitkhatri1st/ghost-captcha",
-          "homepage": "https://rohitkhatri1st.github.io/ghost-captcha/",
-          "description": "Animated Font and CAPTCHA library for Go — invisible in any single frame, only readable in motion. Resists OCR and AI vision models.",
-          "stars": 11,
+          "id": 1305900020,
+          "name": "protoscan",
+          "fullName": "dumtban/protoscan",
+          "url": "https://github.com/dumtban/protoscan",
+          "homepage": "",
+          "description": "On-chain protocol state tracker and diff tool for DeFi teams",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-07-16T07:25:09Z",
-          "updatedAt": "2026-07-19T13:54:00Z",
+          "language": "TypeScript",
+          "createdAt": "2026-07-19T17:26:04Z",
+          "updatedAt": "2026-07-20T01:34:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -200,35 +253,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.61
-        },
-        {
-          "id": 1302624827,
-          "name": "recon-modular",
-          "fullName": "Ali-hey-0/recon-modular",
-          "url": "https://github.com/Ali-hey-0/recon-modular",
-          "homepage": "",
-          "description": "🛡️ AI-powered reconnaissance framework unifying 130+ security tools — subdomain enum, vuln scanning, cloud/IoT recon, dark web monitoring & blockchain-audited reporting. GAN-driven subdomain prediction, distributed execution post-quantum encryption. Built for bug bounty, red team & DevSecOps.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-07-16T10:05:00Z",
-          "updatedAt": "2026-07-16T20:13:07Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 64.35
+          "score": 57.88
         },
         {
           "id": 1304963239,
@@ -255,7 +280,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 62.82
+          "score": 56.75
         },
         {
           "id": 1304518939,
@@ -281,7 +306,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 59.26
+          "score": 54.11
         },
         {
           "id": 1304961982,
@@ -308,7 +333,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 57.48
+          "score": 51.92
         },
         {
           "id": 1304707901,
@@ -316,13 +341,13 @@
           "fullName": "fncreator22/sentinel-mcp",
           "url": "https://github.com/fncreator22/sentinel-mcp",
           "homepage": "https://sentinel-landing-azure.vercel.app/",
-          "description": "",
+          "description": "A 3-stage safety guardrail agent for LLM coding assistants (Claude Desktop, Cursor, CodeX) via MCP protocol.",
           "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-18T07:44:26Z",
-          "updatedAt": "2026-07-19T12:31:18Z",
+          "updatedAt": "2026-07-19T17:43:25Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -333,7 +358,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 56.66
+          "score": 51.51
         },
         {
           "id": 1304461349,
@@ -359,35 +384,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 56.51
-        },
-        {
-          "id": 1304380941,
-          "name": "Cyberbot-Uncensored-Offline-chatbot",
-          "fullName": "0xfa-ni/Cyberbot-Uncensored-Offline-chatbot",
-          "url": "https://github.com/0xfa-ni/Cyberbot-Uncensored-Offline-chatbot",
-          "homepage": "",
-          "description": "CyberBot is a fully offline AI-powered cybersecurity assistant built with Python, PyQt6, Ollama, and SQLite. It provides private, local AI chat capabilities for penetration testers, security analysts, CTF players, and cybersecurity students. All conversations remain on the user's machine, with no cloud services, API keys, or internet connection",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-07-17T20:51:57Z",
-          "updatedAt": "2026-07-19T07:54:46Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 55.38
+          "score": 50.43
         }
       ]
     },
@@ -399,43 +396,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-12",
-      "totalCandidates": 27,
+      "createdSince": "2026-07-13",
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1784471745"
+          "rateLimitReset": "1784523068"
         }
       ],
       "repositories": [
@@ -446,12 +443,12 @@
           "url": "https://github.com/CyberSunil/LLMVault",
           "homepage": "",
           "description": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
-          "stars": 194,
-          "forks": 49,
+          "stars": 202,
+          "forks": 51,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-15T08:18:22Z",
-          "updatedAt": "2026-07-19T14:21:22Z",
+          "updatedAt": "2026-07-20T03:21:22Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -463,7 +460,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 200.38
+          "score": 199.27
         },
         {
           "id": 1300910939,
@@ -488,7 +485,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 129.19
+          "score": 126.98
         },
         {
           "id": 1304553327,
@@ -497,12 +494,12 @@
           "url": "https://github.com/dinosn/wp2shell-lab",
           "homepage": "",
           "description": "Non-destructive detector + Docker lab for wp2shell (CVE-2026-63030 REST /batch/v1 route confusion + CVE-2026-60137 author__not_in SQLi) in WordPress core 6.9.0-6.9.4 / 7.0.0-7.0.1",
-          "stars": 23,
+          "stars": 27,
           "forks": 7,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-18T03:04:50Z",
-          "updatedAt": "2026-07-19T13:59:38Z",
+          "updatedAt": "2026-07-19T22:24:20Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -513,7 +510,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 116.1
+          "score": 117.74
         },
         {
           "id": 1301677946,
@@ -522,12 +519,12 @@
           "url": "https://github.com/Leadrogue/Lanflux",
           "homepage": "https://github.com/Leadrogue/Lanflux",
           "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
-          "stars": 33,
+          "stars": 38,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T13:59:06Z",
-          "updatedAt": "2026-07-19T11:29:30Z",
+          "updatedAt": "2026-07-20T00:06:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -538,7 +535,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 107.38
+          "score": 108.64
         },
         {
           "id": 1301957952,
@@ -562,7 +559,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 103.07
+          "score": 100.68
         },
         {
           "id": 1300241319,
@@ -587,7 +584,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 100.82
+          "score": 98.44
         },
         {
           "id": 1305266704,
@@ -596,12 +593,12 @@
           "url": "https://github.com/fhiltscher/awesome-ai-coding-sandboxes",
           "homepage": "",
           "description": "Security-posture-first list of sandboxes for running AI coding agents' code, ranked by isolation, egress control and secrets handling",
-          "stars": 15,
+          "stars": 16,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-18T22:35:03Z",
-          "updatedAt": "2026-07-19T14:27:07Z",
+          "updatedAt": "2026-07-19T21:38:52Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -614,7 +611,32 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 97.1
+          "score": 96.38
+        },
+        {
+          "id": 1305831057,
+          "name": "athena-ctf-2026-challs",
+          "fullName": "astraqcd/athena-ctf-2026-challs",
+          "url": "https://github.com/astraqcd/athena-ctf-2026-challs",
+          "homepage": "",
+          "description": "Public archive of Athena CTF 2026 challenges: files, Docker services, and challenge READMEs.",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-19T15:47:51Z",
+          "updatedAt": "2026-07-20T01:51:54Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 92.51
         },
         {
           "id": 1299064384,
@@ -642,32 +664,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 86.3
-        },
-        {
-          "id": 1298248424,
-          "name": "remora-cc",
-          "fullName": "Nanako0129/remora-cc",
-          "url": "https://github.com/Nanako0129/remora-cc",
-          "homepage": "",
-          "description": "Session-scoped GPT-5.6 agent routing for Claude Code",
-          "stars": 25,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-12T12:07:54Z",
-          "updatedAt": "2026-07-16T11:41:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 85.59
+          "score": 83.7
         },
         {
           "id": 1302010814,
@@ -676,12 +673,12 @@
           "url": "https://github.com/WiLL75G/soc-analyst-toolkit",
           "homepage": "",
           "description": "A curated arsenal of 55 blue team / detection engineering tools across 13 sections, mapped to real SOC workflows. Where a tool appears in your own lab work, the entry links to your writeup.",
-          "stars": 8,
+          "stars": 9,
           "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-15T20:23:49Z",
-          "updatedAt": "2026-07-19T11:04:45Z",
+          "updatedAt": "2026-07-20T02:33:20Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -693,7 +690,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 81.9
+          "score": 82.19
+        },
+        {
+          "id": 1302464336,
+          "name": "ghost-captcha",
+          "fullName": "rohitkhatri1st/ghost-captcha",
+          "url": "https://github.com/rohitkhatri1st/ghost-captcha",
+          "homepage": "https://rohitkhatri1st.github.io/ghost-captcha/",
+          "description": "Animated Font and CAPTCHA library for Go — invisible in any single frame, only readable in motion. Resists OCR and AI vision models.",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-07-16T07:25:09Z",
+          "updatedAt": "2026-07-19T15:51:17Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 80.07
         },
         {
           "id": 1302624827,
@@ -709,42 +731,19 @@
           "createdAt": "2026-07-16T10:05:00Z",
           "updatedAt": "2026-07-16T20:13:07Z",
           "matchedProfiles": [
+            "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1.08,
             1.18
           ],
           "tags": [
+            "网络安全",
             "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 81.06
-        },
-        {
-          "id": 1302464336,
-          "name": "ghost-captcha",
-          "fullName": "rohitkhatri1st/ghost-captcha",
-          "url": "https://github.com/rohitkhatri1st/ghost-captcha",
-          "homepage": "https://rohitkhatri1st.github.io/ghost-captcha/",
-          "description": "Animated Font and CAPTCHA library for Go — invisible in any single frame, only readable in motion. Resists OCR and AI vision models.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-07-16T07:25:09Z",
-          "updatedAt": "2026-07-19T13:54:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.36
+          "score": 78.45
         },
         {
           "id": 1300825641,
@@ -769,7 +768,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 76.55
+          "score": 74.34
         },
         {
           "id": 1302114817,
@@ -794,7 +793,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.41
+          "score": 70.03
         },
         {
           "id": 1299690480,
@@ -820,7 +819,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 69.1
+          "score": 66.5
         },
         {
           "id": 1299789342,
@@ -845,7 +844,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 59.92
+          "score": 57.54
         },
         {
           "id": 1299341721,
@@ -869,7 +868,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 58.45
+          "score": 56.07
         }
       ]
     }
