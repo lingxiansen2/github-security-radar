@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-21T04:29:44.814Z",
+  "generatedAt": "2026-07-21T15:18:01.911Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,70 +34,45 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-18",
-      "totalCandidates": 17,
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 4,
+          "fetched": 5,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         }
       ],
       "repositories": [
-        {
-          "id": 1306830776,
-          "name": "fastjson-jsontype-rce-lab",
-          "fullName": "dinosn/fastjson-jsontype-rce-lab",
-          "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-          "homepage": "",
-          "description": "Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-load RCE (SSRF->defineClass under Spring Boot LaunchedURLClassLoader; autoType OFF; parseObject binding is not a mitigation)",
-          "stars": 86,
-          "forks": 63,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-20T17:00:03Z",
-          "updatedAt": "2026-07-21T04:09:40Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 162.12
-        },
         {
           "id": 1306989887,
           "name": "open-kritt",
@@ -105,12 +80,12 @@
           "url": "https://github.com/Kritt-ai/open-kritt",
           "homepage": "https://kritt.ai/",
           "description": "Orchestrate AI agents to find real vulnerabilities in code.",
-          "stars": 77,
-          "forks": 20,
-          "openIssues": 14,
+          "stars": 173,
+          "forks": 39,
+          "openIssues": 16,
           "language": "JavaScript",
           "createdAt": "2026-07-20T20:26:24Z",
-          "updatedAt": "2026-07-21T04:27:36Z",
+          "updatedAt": "2026-07-21T15:08:30Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -121,7 +96,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 154.13
+          "score": 174.6
+        },
+        {
+          "id": 1306830776,
+          "name": "fastjson-jsontype-rce-lab",
+          "fullName": "dinosn/fastjson-jsontype-rce-lab",
+          "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
+          "homepage": "",
+          "description": "Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-load RCE (SSRF->defineClass under Spring Boot LaunchedURLClassLoader; autoType OFF; parseObject binding is not a mitigation)",
+          "stars": 114,
+          "forks": 74,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-20T17:00:03Z",
+          "updatedAt": "2026-07-21T15:08:31Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 166.31
         },
         {
           "id": 1304553327,
@@ -130,12 +130,12 @@
           "url": "https://github.com/dinosn/wp2shell-lab",
           "homepage": "",
           "description": "Non-destructive detector + Docker lab for wp2shell (CVE-2026-63030 REST /batch/v1 route confusion + CVE-2026-60137 author__not_in SQLi) in WordPress core 6.9.0-6.9.4 / 7.0.0-7.0.1",
-          "stars": 34,
-          "forks": 9,
+          "stars": 35,
+          "forks": 10,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-18T03:04:50Z",
-          "updatedAt": "2026-07-20T17:03:51Z",
+          "updatedAt": "2026-07-21T10:50:34Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -146,7 +146,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 106.35
+          "score": 107.61
         },
         {
           "id": 1305831057,
@@ -171,7 +171,32 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 83.07
+          "score": 79.17
+        },
+        {
+          "id": 1306061660,
+          "name": "prompt-injection-auditor",
+          "fullName": "screem500/prompt-injection-auditor",
+          "url": "https://github.com/screem500/prompt-injection-auditor",
+          "homepage": "",
+          "description": "Security audit skill for LLM agents - prompt injection scanner, attack catalog & defense checklist",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-07-19T23:05:21Z",
+          "updatedAt": "2026-07-21T06:24:31Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 66.97
         },
         {
           "id": 1305266704,
@@ -180,12 +205,12 @@
           "url": "https://github.com/fhiltscher/awesome-ai-coding-sandboxes",
           "homepage": "",
           "description": "Security-posture-first list of sandboxes for running AI coding agents' code, ranked by isolation, egress control and secrets handling",
-          "stars": 10,
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-18T22:35:03Z",
-          "updatedAt": "2026-07-20T15:00:04Z",
+          "updatedAt": "2026-07-21T08:40:31Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -198,7 +223,58 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 71.06
+          "score": 64.9
+        },
+        {
+          "id": 1304842610,
+          "name": "nik-checker",
+          "fullName": "andikaputradev/nik-checker",
+          "url": "https://github.com/andikaputradev/nik-checker",
+          "homepage": "",
+          "description": "NIK Checker Premium: Aplikasi CLI untuk validasi, parsing, dan pelacakan informasi KTP NIK Indonesia dengan lookup wilayah terintegrasi. Dikembangkan dalam Go, arsitektur modular dan produksi-siap.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-07-18T11:18:06Z",
+          "updatedAt": "2026-07-21T05:25:27Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 62.64
+        },
+        {
+          "id": 1306486053,
+          "name": "PolySIEM",
+          "fullName": "Realynx/PolySIEM",
+          "url": "https://github.com/Realynx/PolySIEM",
+          "homepage": "https://demo-polysiem.f0x.app/",
+          "description": "Open-source homelab SIEM — your whole lab mapped, logged, and watched. Proxmox + OPNsense + Elastic sync, Suricata threat intel, and security scoring in one self-hosted dashboard.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-07-20T10:25:15Z",
+          "updatedAt": "2026-07-21T11:30:38Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队",
+            "网络安全"
+          ],
+          "score": 62.1
         },
         {
           "id": 1305495074,
@@ -223,33 +299,32 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 66.21
+          "score": 61.61
         },
         {
-          "id": 1306486053,
-          "name": "PolySIEM",
-          "fullName": "Realynx/PolySIEM",
-          "url": "https://github.com/Realynx/PolySIEM",
-          "homepage": "https://demo-polysiem.f0x.app/",
-          "description": "Open-source homelab SIEM — your whole lab mapped, logged, and watched. Proxmox + OPNsense + Elastic sync, Suricata threat intel, and security scoring in one self-hosted dashboard.",
-          "stars": 4,
+          "id": 1307126839,
+          "name": "NIGHT-EYE",
+          "fullName": "err0rb0t999/NIGHT-EYE",
+          "url": "https://github.com/err0rb0t999/NIGHT-EYE",
+          "homepage": "",
+          "description": "Modular OSINT toolkit with phone, email, domain and IP intelligence for Termux and Linux.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-20T10:25:15Z",
-          "updatedAt": "2026-07-20T22:43:09Z",
+          "language": "Python",
+          "createdAt": "2026-07-21T00:41:41Z",
+          "updatedAt": "2026-07-21T13:13:05Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 66
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 61.26
         },
         {
           "id": 1306251161,
@@ -263,7 +338,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-20T05:32:45Z",
-          "updatedAt": "2026-07-21T03:39:45Z",
+          "updatedAt": "2026-07-21T04:52:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -276,34 +351,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 64.24
-        },
-        {
-          "id": 1305328529,
-          "name": "wp2shell",
-          "fullName": "edenzaraf/wp2shell",
-          "url": "https://github.com/edenzaraf/wp2shell",
-          "homepage": "",
-          "description": "",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-19T01:08:26Z",
-          "updatedAt": "2026-07-19T06:22:29Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 63.7
+          "score": 60.34
         },
         {
           "id": 1306159732,
@@ -329,57 +377,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 63.28
-        },
-        {
-          "id": 1304842610,
-          "name": "nik-checker",
-          "fullName": "andikaputradev/nik-checker",
-          "url": "https://github.com/andikaputradev/nik-checker",
-          "homepage": "",
-          "description": "NIK Checker Premium: Aplikasi CLI untuk validasi, parsing, dan pelacakan informasi KTP NIK Indonesia dengan lookup wilayah terintegrasi. Dikembangkan dalam Go, arsitektur modular dan produksi-siap.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-07-18T11:18:06Z",
-          "updatedAt": "2026-07-20T01:57:39Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 57.23
-        },
-        {
-          "id": 1306061660,
-          "name": "prompt-injection-auditor",
-          "fullName": "screem500/prompt-injection-auditor",
-          "url": "https://github.com/screem500/prompt-injection-auditor",
-          "homepage": "",
-          "description": "Security audit skill for LLM agents - prompt injection scanner, attack catalog & defense checklist",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-19T23:05:21Z",
-          "updatedAt": "2026-07-20T23:54:02Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 55.49
+          "score": 59.38
         }
       ]
     },
@@ -392,42 +390,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-07-14",
-      "totalCandidates": 22,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1784608237"
+          "rateLimitReset": "1784647135"
         }
       ],
       "repositories": [
@@ -438,12 +436,12 @@
           "url": "https://github.com/CyberSunil/LLMVault",
           "homepage": "",
           "description": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
-          "stars": 215,
-          "forks": 53,
+          "stars": 220,
+          "forks": 54,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-15T08:18:22Z",
-          "updatedAt": "2026-07-21T02:46:33Z",
+          "updatedAt": "2026-07-21T13:56:51Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -455,32 +453,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 197.1
-        },
-        {
-          "id": 1306830776,
-          "name": "fastjson-jsontype-rce-lab",
-          "fullName": "dinosn/fastjson-jsontype-rce-lab",
-          "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-          "homepage": "",
-          "description": "Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-load RCE (SSRF->defineClass under Spring Boot LaunchedURLClassLoader; autoType OFF; parseObject binding is not a mitigation)",
-          "stars": 86,
-          "forks": 63,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-20T17:00:03Z",
-          "updatedAt": "2026-07-21T04:09:40Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 164.49
+          "score": 195.95
         },
         {
           "id": 1306989887,
@@ -489,12 +462,12 @@
           "url": "https://github.com/Kritt-ai/open-kritt",
           "homepage": "https://kritt.ai/",
           "description": "Orchestrate AI agents to find real vulnerabilities in code.",
-          "stars": 77,
-          "forks": 20,
-          "openIssues": 14,
+          "stars": 173,
+          "forks": 39,
+          "openIssues": 16,
           "language": "JavaScript",
           "createdAt": "2026-07-20T20:26:24Z",
-          "updatedAt": "2026-07-21T04:27:36Z",
+          "updatedAt": "2026-07-21T15:08:30Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -505,7 +478,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 155.79
+          "score": 178.49
+        },
+        {
+          "id": 1306830776,
+          "name": "fastjson-jsontype-rce-lab",
+          "fullName": "dinosn/fastjson-jsontype-rce-lab",
+          "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
+          "homepage": "",
+          "description": "Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-load RCE (SSRF->defineClass under Spring Boot LaunchedURLClassLoader; autoType OFF; parseObject binding is not a mitigation)",
+          "stars": 114,
+          "forks": 74,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-20T17:00:03Z",
+          "updatedAt": "2026-07-21T15:08:31Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 170.91
         },
         {
           "id": 1300910939,
@@ -530,7 +528,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 123.32
+          "score": 121.65
         },
         {
           "id": 1304553327,
@@ -539,12 +537,12 @@
           "url": "https://github.com/dinosn/wp2shell-lab",
           "homepage": "",
           "description": "Non-destructive detector + Docker lab for wp2shell (CVE-2026-63030 REST /batch/v1 route confusion + CVE-2026-60137 author__not_in SQLi) in WordPress core 6.9.0-6.9.4 / 7.0.0-7.0.1",
-          "stars": 34,
-          "forks": 9,
+          "stars": 35,
+          "forks": 10,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-18T03:04:50Z",
-          "updatedAt": "2026-07-20T17:03:51Z",
+          "updatedAt": "2026-07-21T10:50:34Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -555,7 +553,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 120.98
+          "score": 120.57
         },
         {
           "id": 1303302498,
@@ -564,12 +562,12 @@
           "url": "https://github.com/JVBotelho/ghosthound",
           "homepage": "",
           "description": "GhostHound is a BloodHound OpenGraph extension that surfaces Active Directory tombstone reanimation as a first-class attack path, enumerating deleted objects via SHOW_DELETED, mapping who can restore them, and revealing when a reanimated identity regains privileged group membership.",
-          "stars": 25,
+          "stars": 32,
           "forks": 0,
           "openIssues": 1,
           "language": "Rust",
           "createdAt": "2026-07-16T22:20:01Z",
-          "updatedAt": "2026-07-21T03:06:06Z",
+          "updatedAt": "2026-07-21T15:11:35Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -580,7 +578,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 113.02
+          "score": 118.11
         },
         {
           "id": 1301677946,
@@ -589,12 +587,12 @@
           "url": "https://github.com/Leadrogue/Lanflux",
           "homepage": "https://github.com/Leadrogue/Lanflux",
           "description": "On-LAN recon and exploitation after wireless foothold — sibling to Wiflux",
-          "stars": 40,
+          "stars": 41,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T13:59:06Z",
-          "updatedAt": "2026-07-20T13:20:20Z",
+          "updatedAt": "2026-07-21T08:46:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -605,7 +603,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 108.58
+          "score": 107.52
         },
         {
           "id": 1301957952,
@@ -629,7 +627,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 96.73
+          "score": 94.92
         },
         {
           "id": 1300241319,
@@ -654,7 +652,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.48
+          "score": 93.75
         },
         {
           "id": 1305831057,
@@ -679,7 +677,35 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 90.64
+          "score": 88.97
+        },
+        {
+          "id": 1302624827,
+          "name": "recon-modular",
+          "fullName": "Ali-hey-0/recon-modular",
+          "url": "https://github.com/Ali-hey-0/recon-modular",
+          "homepage": "",
+          "description": "🛡️ AI-powered reconnaissance framework unifying 130+ security tools — subdomain enum, vuln scanning, cloud/IoT recon, dark web monitoring & blockchain-audited reporting. GAN-driven subdomain prediction, distributed execution post-quantum encryption. Built for bug bounty, red team & DevSecOps.",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-07-16T10:05:00Z",
+          "updatedAt": "2026-07-21T09:45:58Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.86
         },
         {
           "id": 1305266704,
@@ -688,12 +714,12 @@
           "url": "https://github.com/fhiltscher/awesome-ai-coding-sandboxes",
           "homepage": "",
           "description": "Security-posture-first list of sandboxes for running AI coding agents' code, ranked by isolation, egress control and secrets handling",
-          "stars": 10,
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-18T22:35:03Z",
-          "updatedAt": "2026-07-20T15:00:04Z",
+          "updatedAt": "2026-07-21T08:40:31Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -706,7 +732,32 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 82.19
+          "score": 78.25
+        },
+        {
+          "id": 1304842610,
+          "name": "nik-checker",
+          "fullName": "andikaputradev/nik-checker",
+          "url": "https://github.com/andikaputradev/nik-checker",
+          "homepage": "",
+          "description": "NIK Checker Premium: Aplikasi CLI untuk validasi, parsing, dan pelacakan informasi KTP NIK Indonesia dengan lookup wilayah terintegrasi. Dikembangkan dalam Go, arsitektur modular dan produksi-siap.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-07-18T11:18:06Z",
+          "updatedAt": "2026-07-21T05:25:27Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 78.02
         },
         {
           "id": 1302010814,
@@ -732,35 +783,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 78.24
-        },
-        {
-          "id": 1302624827,
-          "name": "recon-modular",
-          "fullName": "Ali-hey-0/recon-modular",
-          "url": "https://github.com/Ali-hey-0/recon-modular",
-          "homepage": "",
-          "description": "🛡️ AI-powered reconnaissance framework unifying 130+ security tools — subdomain enum, vuln scanning, cloud/IoT recon, dark web monitoring & blockchain-audited reporting. GAN-driven subdomain prediction, distributed execution post-quantum encryption. Built for bug bounty, red team & DevSecOps.",
-          "stars": 6,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-07-16T10:05:00Z",
-          "updatedAt": "2026-07-21T00:17:28Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 78.23
+          "score": 76.43
         },
         {
           "id": 1302464336,
@@ -785,7 +808,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 76.41
+          "score": 74.74
         },
         {
           "id": 1300825641,
@@ -794,12 +817,12 @@
           "url": "https://github.com/optimuslabs-io/grokpatrol",
           "homepage": "https://www.optimuslabs.io/grokpatrol/",
           "description": "Open-source, offline forensic scanner CLI tool designed to detect evidence of git repo collection or upload by the Grok Build CLI to xAI infrastructure.",
-          "stars": 12,
+          "stars": 13,
           "forks": 0,
           "openIssues": 1,
           "language": "Go",
           "createdAt": "2026-07-14T18:23:18Z",
-          "updatedAt": "2026-07-18T22:41:13Z",
+          "updatedAt": "2026-07-21T08:04:34Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -810,7 +833,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.68
+          "score": 70.8
         },
         {
           "id": 1302114817,
@@ -824,7 +847,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-15T23:27:51Z",
-          "updatedAt": "2026-07-18T11:45:17Z",
+          "updatedAt": "2026-07-21T04:32:31Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -835,7 +858,34 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.08
+          "score": 64.27
+        },
+        {
+          "id": 1301089350,
+          "name": "tahr-security-skills",
+          "fullName": "tahr-security/tahr-security-skills",
+          "url": "https://github.com/tahr-security/tahr-security-skills",
+          "homepage": "https://skills.sh/tahr-security",
+          "description": "Pentester-informed skills that help developers review applications with an attacker's mindset.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-15T01:32:28Z",
+          "updatedAt": "2026-07-16T21:53:30Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 58.64
         }
       ]
     }
