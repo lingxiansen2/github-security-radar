@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-24T04:30:11.370Z",
+  "generatedAt": "2026-07-24T15:08:20.634Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,73 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-21",
-      "totalCandidates": 24,
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         }
       ],
       "repositories": [
+        {
+          "id": 1309026822,
+          "name": "Wireless-Security-and-WiFi-Penetration-Testing",
+          "fullName": "armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
+          "url": "https://github.com/armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
+          "homepage": "https://www.armourinfosec.com",
+          "description": "Open, hands-on study notes on wireless security & Wi-Fi penetration testing (802.11, WEP/WPA/WPA2/WPA3, aircrack-ng). CC BY 4.0.",
+          "stars": 43,
+          "forks": 16,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-22T16:25:06Z",
+          "updatedAt": "2026-07-24T14:15:31Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 146.71
+        },
         {
           "id": 1308592681,
           "name": "Enterprise-Windows-Infrastructure-Security",
@@ -80,12 +108,12 @@
           "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
           "homepage": "https://www.armourinfosec.com",
           "description": "An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
-          "stars": 53,
-          "forks": 31,
+          "stars": 67,
+          "forks": 32,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-22T08:49:02Z",
-          "updatedAt": "2026-07-23T16:52:19Z",
+          "updatedAt": "2026-07-24T15:02:51Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +124,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 134.29
+          "score": 136.52
         },
         {
           "id": 1307733763,
@@ -105,12 +133,12 @@
           "url": "https://github.com/itshamzabendelladj/AIGuardSIEM",
           "homepage": "",
           "description": "A production-grade SIEM/XDR platform for 1M+ EPS ingestion with sub-15ms detection latency. Built with C++, Go, and Python. Features DPDK capture, ONNX ML inference, Sigma rules, eBPF monitoring, and SOAR.",
-          "stars": 65,
-          "forks": 6,
+          "stars": 70,
+          "forks": 7,
           "openIssues": 0,
           "language": "C++",
           "createdAt": "2026-07-21T13:28:34Z",
-          "updatedAt": "2026-07-24T00:57:31Z",
+          "updatedAt": "2026-07-24T13:14:28Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -125,35 +153,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 133.55
-        },
-        {
-          "id": 1309026822,
-          "name": "Wireless-Security-and-WiFi-Penetration-Testing",
-          "fullName": "armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
-          "url": "https://github.com/armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
-          "homepage": "https://www.armourinfosec.com",
-          "description": "Open, hands-on study notes on wireless security & Wi-Fi penetration testing (802.11, WEP/WPA/WPA2/WPA3, aircrack-ng). CC BY 4.0.",
-          "stars": 23,
-          "forks": 14,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-22T16:25:06Z",
-          "updatedAt": "2026-07-23T22:14:13Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 132.38
+          "score": 132.9
         },
         {
           "id": 1309144357,
@@ -178,7 +178,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 74.84
+          "score": 71
         },
         {
           "id": 1310469702,
@@ -203,7 +203,56 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.2
+          "score": 62.36
+        },
+        {
+          "id": 1310334069,
+          "name": "secure-software",
+          "fullName": "GofMan5/secure-software",
+          "url": "https://github.com/GofMan5/secure-software",
+          "homepage": "https://github.com/GofMan5/secure-software",
+          "description": "Adversarial, evidence-driven security engineering plugin for Codex",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-23T20:18:34Z",
+          "updatedAt": "2026-07-24T11:20:35Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 59.62
+        },
+        {
+          "id": 1309975563,
+          "name": "Github-finder",
+          "fullName": "JimilPrabtani/Github-finder",
+          "url": "https://github.com/JimilPrabtani/Github-finder",
+          "homepage": "https://master.d3pi7onc804mcv.amplifyapp.com/",
+          "description": "web application that lets developers search GitHub profiles, compare users in head-to-head duels, export custom sketch profile badges, and explore 35+ handpicked developer & AI learning hubs. and below their is an temporary link to the project.  ",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Vue",
+          "createdAt": "2026-07-23T13:32:04Z",
+          "updatedAt": "2026-07-24T08:01:38Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 56.97
         },
         {
           "id": 1309718634,
@@ -217,7 +266,7 @@
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-07-23T08:40:09Z",
-          "updatedAt": "2026-07-23T17:32:44Z",
+          "updatedAt": "2026-07-24T13:43:51Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -228,7 +277,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 59.23
+          "score": 55.08
         },
         {
           "id": 1310257937,
@@ -242,7 +291,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-23T18:34:49Z",
-          "updatedAt": "2026-07-23T23:20:53Z",
+          "updatedAt": "2026-07-24T11:11:15Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -254,7 +303,33 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 58.42
+          "score": 54.58
+        },
+        {
+          "id": 1309415962,
+          "name": "intutic",
+          "fullName": "intutic/intutic",
+          "url": "https://github.com/intutic/intutic",
+          "homepage": "https://intutic.ai",
+          "description": "The open source circuit breaker for AI agents. Real-time security, secret DLP, and loop burn prevention for Claude Code, Cursor, Antigravity, LangGraph, n8n and many more.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "TypeScript",
+          "createdAt": "2026-07-23T01:47:30Z",
+          "updatedAt": "2026-07-24T05:54:27Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 54.31
         },
         {
           "id": 1309071177,
@@ -280,7 +355,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 57.53
+          "score": 53.38
         },
         {
           "id": 1308600096,
@@ -306,82 +381,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 56.8
-        },
-        {
-          "id": 1308947963,
-          "name": "Revoact",
-          "fullName": "arsudsandesh97/Revoact",
-          "url": "https://github.com/arsudsandesh97/Revoact",
-          "homepage": "",
-          "description": "AI-powered skill pack for generating professional documentation, including PRDs, architecture, design docs, roadmaps, and READMEs",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-22T14:59:45Z",
-          "updatedAt": "2026-07-22T17:51:38Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54.25
-        },
-        {
-          "id": 1308917830,
-          "name": "IoT_Anomaly_Detection_Autoencoder",
-          "fullName": "Hussein-Furaty/IoT_Anomaly_Detection_Autoencoder",
-          "url": "https://github.com/Hussein-Furaty/IoT_Anomaly_Detection_Autoencoder",
-          "homepage": "",
-          "description": "IoT Anomaly Detection Based on Ai",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-22T14:29:01Z",
-          "updatedAt": "2026-07-22T22:26:15Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 52.13
-        },
-        {
-          "id": 1307838013,
-          "name": "TrashPandaPaws",
-          "fullName": "BenjiTrapp/TrashPandaPaws",
-          "url": "https://github.com/BenjiTrapp/TrashPandaPaws",
-          "homepage": "",
-          "description": "Red Team hardware implant — RPi4/CM4 inline Ethernet tap with PoE, dual cover identities (Cisco Phone / HP Printer), 802.1X NAC bypass, and Sliver C2",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-21T15:17:34Z",
-          "updatedAt": "2026-07-23T16:41:53Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 51.8
+          "score": 52.96
         }
       ]
     },
@@ -401,35 +401,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 6,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1784867464"
+          "rateLimitReset": "1784905753"
         }
       ],
       "repositories": [
@@ -440,12 +440,12 @@
           "url": "https://github.com/Kritt-ai/open-kritt",
           "homepage": "https://kritt.ai/",
           "description": "Orchestrate AI agents to find real vulnerabilities in code.",
-          "stars": 361,
-          "forks": 76,
+          "stars": 371,
+          "forks": 77,
           "openIssues": 18,
           "language": "JavaScript",
           "createdAt": "2026-07-20T20:26:24Z",
-          "updatedAt": "2026-07-24T04:14:37Z",
+          "updatedAt": "2026-07-24T12:16:05Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -456,7 +456,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 191.75
+          "score": 190.88
         },
         {
           "id": 1306830776,
@@ -465,12 +465,12 @@
           "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
           "homepage": "",
           "description": "Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-load RCE (SSRF->defineClass under Spring Boot LaunchedURLClassLoader; autoType OFF; parseObject binding is not a mitigation)",
-          "stars": 156,
-          "forks": 80,
+          "stars": 160,
+          "forks": 82,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-20T17:00:03Z",
-          "updatedAt": "2026-07-24T04:00:59Z",
+          "updatedAt": "2026-07-24T08:17:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -481,7 +481,64 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 169.9
+          "score": 169.05
+        },
+        {
+          "id": 1309026822,
+          "name": "Wireless-Security-and-WiFi-Penetration-Testing",
+          "fullName": "armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
+          "url": "https://github.com/armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
+          "homepage": "https://www.armourinfosec.com",
+          "description": "Open, hands-on study notes on wireless security & Wi-Fi penetration testing (802.11, WEP/WPA/WPA2/WPA3, aircrack-ng). CC BY 4.0.",
+          "stars": 43,
+          "forks": 16,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-22T16:25:06Z",
+          "updatedAt": "2026-07-24T14:15:31Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 158.09
+        },
+        {
+          "id": 1305772131,
+          "name": "awesome-cyber-ai-arsenal",
+          "fullName": "pazo01/awesome-cyber-ai-arsenal",
+          "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
+          "homepage": "",
+          "description": "A curated collection of offensive, defensive and AI/LLM security tools.",
+          "stars": 88,
+          "forks": 20,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-19T14:25:45Z",
+          "updatedAt": "2026-07-24T15:03:53Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 153.08
         },
         {
           "id": 1307733763,
@@ -490,12 +547,12 @@
           "url": "https://github.com/itshamzabendelladj/AIGuardSIEM",
           "homepage": "",
           "description": "A production-grade SIEM/XDR platform for 1M+ EPS ingestion with sub-15ms detection latency. Built with C++, Go, and Python. Features DPDK capture, ONNX ML inference, Sigma rules, eBPF monitoring, and SOAR.",
-          "stars": 65,
-          "forks": 6,
+          "stars": 70,
+          "forks": 7,
           "openIssues": 0,
           "language": "C++",
           "createdAt": "2026-07-21T13:28:34Z",
-          "updatedAt": "2026-07-24T00:57:31Z",
+          "updatedAt": "2026-07-24T13:14:28Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -510,36 +567,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 147.6
-        },
-        {
-          "id": 1305772131,
-          "name": "awesome-cyber-ai-arsenal",
-          "fullName": "pazo01/awesome-cyber-ai-arsenal",
-          "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
-          "homepage": "",
-          "description": "A curated collection of offensive, defensive and AI/LLM security tools.",
-          "stars": 69,
-          "forks": 13,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-19T14:25:45Z",
-          "updatedAt": "2026-07-24T04:15:25Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 145.68
+          "score": 148.67
         },
         {
           "id": 1308592681,
@@ -548,12 +576,12 @@
           "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
           "homepage": "https://www.armourinfosec.com",
           "description": "An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
-          "stars": 53,
-          "forks": 31,
+          "stars": 67,
+          "forks": 32,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-07-22T08:49:02Z",
-          "updatedAt": "2026-07-23T16:52:19Z",
+          "updatedAt": "2026-07-24T15:02:51Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -564,35 +592,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 143.3
-        },
-        {
-          "id": 1309026822,
-          "name": "Wireless-Security-and-WiFi-Penetration-Testing",
-          "fullName": "armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
-          "url": "https://github.com/armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
-          "homepage": "https://www.armourinfosec.com",
-          "description": "Open, hands-on study notes on wireless security & Wi-Fi penetration testing (802.11, WEP/WPA/WPA2/WPA3, aircrack-ng). CC BY 4.0.",
-          "stars": 23,
-          "forks": 14,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-22T16:25:06Z",
-          "updatedAt": "2026-07-23T22:14:13Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 141.17
+          "score": 147.72
         },
         {
           "id": 1304553327,
@@ -602,7 +602,7 @@
           "homepage": "",
           "description": "Non-destructive detector + Docker lab for wp2shell (CVE-2026-63030 REST /batch/v1 route confusion + CVE-2026-60137 author__not_in SQLi) in WordPress core 6.9.0-6.9.4 / 7.0.0-7.0.1",
           "stars": 38,
-          "forks": 11,
+          "forks": 12,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-18T03:04:50Z",
@@ -617,7 +617,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 113.63
+          "score": 112.44
         },
         {
           "id": 1305831057,
@@ -642,7 +642,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 86.75
+          "score": 85.1
         },
         {
           "id": 1306061660,
@@ -667,7 +667,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.7
+          "score": 80.92
         },
         {
           "id": 1309144357,
@@ -692,7 +692,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 81.82
+          "score": 80.17
         },
         {
           "id": 1304842610,
@@ -717,7 +717,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 71.09
+          "score": 69.31
         },
         {
           "id": 1305495074,
@@ -742,7 +742,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 68.86
+          "score": 66.91
         },
         {
           "id": 1304545259,
@@ -766,7 +766,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 67.79
+          "score": 65.85
         },
         {
           "id": 1306486053,
@@ -791,7 +791,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 67.6
+          "score": 65.82
         },
         {
           "id": 1305266704,
@@ -818,7 +818,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 63.57
+          "score": 61.93
         },
         {
           "id": 1305259767,
@@ -843,34 +843,7 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 60.47
-        },
-        {
-          "id": 1304968466,
-          "name": "BigEye",
-          "fullName": "marcellomaugeri/BigEye",
-          "url": "https://github.com/marcellomaugeri/BigEye",
-          "homepage": "",
-          "description": "[OpenAI Build Week submission] An autonomous fuzzing campaign manager that turns a source repository into a continuously managed, inspectable security campaign.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-18T14:26:22Z",
-          "updatedAt": "2026-07-23T14:37:35Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 59.25
+          "score": 58.82
         }
       ]
     }
