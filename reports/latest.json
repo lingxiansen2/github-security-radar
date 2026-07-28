@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-27T15:51:10.926Z",
+  "generatedAt": "2026-07-28T04:26:38.567Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-24",
-      "totalCandidates": 26,
+      "createdSince": "2026-07-25",
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         }
       ],
       "repositories": [
@@ -98,35 +98,32 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 78.9
+          "score": 73.54
         },
         {
-          "id": 1311464862,
-          "name": "korugan",
-          "fullName": "behramkendra/korugan",
-          "url": "https://github.com/behramkendra/korugan",
-          "homepage": "https://korugan.com.tr",
-          "description": "AI-powered open-source edge security platform for Cloudflare, CDN, DNS, WAF and infrastructure automation.",
-          "stars": 8,
+          "id": 1313959360,
+          "name": "Professional-Certifications",
+          "fullName": "LuthandoYekani/Professional-Certifications",
+          "url": "https://github.com/LuthandoYekani/Professional-Certifications",
+          "homepage": "",
+          "description": "Professional certifications demonstrating continuous learning in cybersecurity, AI, AWS, networking, and project management.",
+          "stars": 2,
           "forks": 0,
-          "openIssues": 9,
-          "language": "Go",
-          "createdAt": "2026-07-24T22:02:10Z",
-          "updatedAt": "2026-07-27T06:25:18Z",
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-27T14:51:55Z",
+          "updatedAt": "2026-07-27T16:00:32Z",
           "matchedProfiles": [
-            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
-            1,
             1.08
           ],
           "tags": [
-            "通用安全",
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.99
+          "score": 61.66
         },
         {
           "id": 1312772693,
@@ -151,7 +148,59 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 65.37
+          "score": 60.28
+        },
+        {
+          "id": 1312778629,
+          "name": "CVE-2026-64600",
+          "fullName": "Debajyoti0-0/CVE-2026-64600",
+          "url": "https://github.com/Debajyoti0-0/CVE-2026-64600",
+          "homepage": "",
+          "description": "A C-based Linux security utility for detecting, safely verifying (Proof of Concept), and mitigating CVE-2026-64600 (RefluXFS). It provides kernel vulnerability assessment, XFS reflink detection, a safe race-condition PoC, and layered mitigation using SystemTap and XFS hardening.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-07-26T12:22:52Z",
+          "updatedAt": "2026-07-27T17:38:14Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 56.09
+        },
+        {
+          "id": 1313266567,
+          "name": "domainghost",
+          "fullName": "b0dj0x/domainghost",
+          "url": "https://github.com/b0dj0x/domainghost",
+          "homepage": "",
+          "description": "domainghost by b0dj0x",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-27T00:24:40Z",
+          "updatedAt": "2026-07-27T01:29:36Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 56.03
         },
         {
           "id": 1312735762,
@@ -179,32 +228,34 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 61
+          "score": 55.63
         },
         {
-          "id": 1313266567,
-          "name": "domainghost",
-          "fullName": "b0dj0x/domainghost",
-          "url": "https://github.com/b0dj0x/domainghost",
-          "homepage": "",
-          "description": "domainghost by b0dj0x",
-          "stars": 2,
+          "id": 1312928234,
+          "name": "OpenPhoenix",
+          "fullName": "Paulus1337/OpenPhoenix",
+          "url": "https://github.com/Paulus1337/OpenPhoenix",
+          "homepage": "https://github.com/Paulus1337/OpenPhoenix/wiki",
+          "description": "Rise clean. Leave no ashes. Personal AI agent in one static Rust binary: 6 crates, fail-closed security, ghost mode by default.",
+          "stars": 3,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-27T00:24:40Z",
-          "updatedAt": "2026-07-27T01:29:36Z",
+          "openIssues": 1,
+          "language": "Rust",
+          "createdAt": "2026-07-26T15:42:41Z",
+          "updatedAt": "2026-07-27T17:51:34Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "网络安全"
           ],
-          "score": 60.94
+          "score": 54.53
         },
         {
           "id": 1312634403,
@@ -218,7 +269,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-26T08:39:35Z",
-          "updatedAt": "2026-07-27T14:07:20Z",
+          "updatedAt": "2026-07-27T20:54:46Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -235,7 +286,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 59.87
+          "score": 54.5
         },
         {
           "id": 1312721240,
@@ -264,7 +315,32 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 57.35
+          "score": 52.81
+        },
+        {
+          "id": 1312592830,
+          "name": "mcp-audit",
+          "fullName": "eltociear/mcp-audit",
+          "url": "https://github.com/eltociear/mcp-audit",
+          "homepage": "",
+          "description": "Scan MCP servers & AI-agent skills for malicious patterns (prompt injection in tool descriptions, credential exfil, download-and-execute). Zero-dep, calibrated to near-zero false positives.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-26T07:32:24Z",
+          "updatedAt": "2026-07-27T15:53:17Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 51.58
         },
         {
           "id": 1312366405,
@@ -291,7 +367,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 55.9
+          "score": 50.54
         },
         {
           "id": 1312640791,
@@ -316,84 +392,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 54.86
-        },
-        {
-          "id": 1312622023,
-          "name": "IDOR--hunter",
-          "fullName": "annmasha78-commits/IDOR--hunter",
-          "url": "https://github.com/annmasha78-commits/IDOR--hunter",
-          "homepage": "",
-          "description": "A lightweight, high-performance browser extension (Manifest V3) designed for penetration testers and ethical hackers. Features passive HTTP traffic inspection, automated IDOR/BOLA scoring, noise filtering, and AI-driven vulnerability analysis with PDF report generation. Built for ethical security research.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-26T08:18:57Z",
-          "updatedAt": "2026-07-26T13:28:01Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 54.66
-        },
-        {
-          "id": 1312646436,
-          "name": "CVE-2026-58480",
-          "fullName": "shinthink/CVE-2026-58480",
-          "url": "https://github.com/shinthink/CVE-2026-58480",
-          "homepage": "",
-          "description": "CVE-2026-58480 / CVE-2026-15158 — Unauthenticated RCE in Blocksy Companion Pro < 2.1.47 (300K+ installs). Pre-auth arbitrary file upload via double-extension bypass.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-26T08:59:36Z",
-          "updatedAt": "2026-07-27T14:22:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 50.86
-        },
-        {
-          "id": 1311616885,
-          "name": "stiq-source",
-          "fullName": "olightening/stiq-source",
-          "url": "https://github.com/olightening/stiq-source",
-          "homepage": "",
-          "description": "Stiq is technology for civil society. Communities need spaces to convene, but individuals should not give up control. In this spirit, Stiq was Designed. Envisioned, funded & developed by BKF community (Bunnies Kill Fascists) with the help of Claude by Anthropic.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-25T03:12:38Z",
-          "updatedAt": "2026-07-26T21:36:17Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 50.63
+          "score": 49.95
         }
       ]
     },
@@ -405,71 +404,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-20",
-      "totalCandidates": 15,
+      "createdSince": "2026-07-21",
+      "totalCandidates": 10,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 12,
+          "fetched": 8,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 5,
+          "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1785167524"
+          "rateLimitReset": "1785212852"
         }
       ],
       "repositories": [
-        {
-          "id": 1306989887,
-          "name": "open-kritt",
-          "fullName": "Kritt-ai/open-kritt",
-          "url": "https://github.com/Kritt-ai/open-kritt",
-          "homepage": "https://kritt.ai/",
-          "description": "Orchestrate AI agents to find real vulnerabilities in code.",
-          "stars": 429,
-          "forks": 88,
-          "openIssues": 24,
-          "language": "JavaScript",
-          "createdAt": "2026-07-20T20:26:24Z",
-          "updatedAt": "2026-07-27T13:18:18Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 184.14
-        },
         {
           "id": 1309026822,
           "name": "Wireless-Security-and-WiFi-Penetration-Testing",
@@ -496,33 +470,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 165.99
-        },
-        {
-          "id": 1306830776,
-          "name": "fastjson-jsontype-rce-lab",
-          "fullName": "dinosn/fastjson-jsontype-rce-lab",
-          "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-          "homepage": "",
-          "description": "Docker labs + defensive scanner for fastjson remote-class-load RCE. fastjson 1.2.66-1.2.83: @JSONType resource probe (CVE-2026-16723). fastjson2 2.0.57: attacker @type reaches loadClass with autoType DISABLED via polymorphic types (@JSONType(seeAlso) / Jackson @JsonSubTypes). Marker-only payloads; safeMode + JDK17 controls.",
-          "stars": 177,
-          "forks": 85,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-20T17:00:03Z",
-          "updatedAt": "2026-07-27T15:15:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 160.59
+          "score": 163.69
         },
         {
           "id": 1308592681,
@@ -547,7 +495,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 142.39
+          "score": 140.44
         },
         {
           "id": 1307733763,
@@ -556,12 +504,12 @@
           "url": "https://github.com/itshamzabendelladj/AIGuardSIEM",
           "homepage": "",
           "description": "A production-grade SIEM/XDR platform for 1M+ EPS ingestion with sub-15ms detection latency. Built with C++, Go, and Python. Features DPDK capture, ONNX ML inference, Sigma rules, eBPF monitoring, and SOAR.",
-          "stars": 75,
+          "stars": 76,
           "forks": 7,
-          "openIssues": 0,
+          "openIssues": 1,
           "language": "C++",
           "createdAt": "2026-07-21T13:28:34Z",
-          "updatedAt": "2026-07-26T22:34:40Z",
+          "updatedAt": "2026-07-27T17:08:50Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -576,7 +524,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 138.4
+          "score": 136.66
         },
         {
           "id": 1312256656,
@@ -603,7 +551,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 89.69
+          "score": 87.4
         },
         {
           "id": 1311464862,
@@ -631,7 +579,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 81.66
+          "score": 79.55
         },
         {
           "id": 1309144357,
@@ -656,7 +604,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 68.92
+          "score": 66.97
         },
         {
           "id": 1309793436,
@@ -682,49 +630,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 64.77
+          "score": 62.83
         },
         {
-          "id": 1306486053,
-          "name": "PolySIEM",
-          "fullName": "Realynx/PolySIEM",
-          "url": "https://github.com/Realynx/PolySIEM",
-          "homepage": "https://demo-polysiem.f0x.app/",
-          "description": "Open-source homelab SIEM — your whole lab mapped, logged, and watched. Proxmox + OPNsense + Elastic sync, Suricata threat intel, and security scoring in one self-hosted dashboard.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-20T10:25:15Z",
-          "updatedAt": "2026-07-23T20:07:39Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 54.57
-        },
-        {
-          "id": 1306159732,
-          "name": "code-review-agent-mcp",
-          "fullName": "frangelbarrera/code-review-agent-mcp",
-          "url": "https://github.com/frangelbarrera/code-review-agent-mcp",
-          "homepage": "https://pypi.org/project/code-review-agent-mcp/",
-          "description": "AI code review agent MCP server. Reviews code like a kernel maintainer: blunt, technical, no sugarcoating. Detects bugs + OWASP Top 10 security vulnerabilities. 4 harshness levels. Anti-RLHF.",
+          "id": 1309594150,
+          "name": "tyrian-detection-pack",
+          "fullName": "zshguy/tyrian-detection-pack",
+          "url": "https://github.com/zshguy/tyrian-detection-pack",
+          "homepage": "https://tyriancyber.com/attack",
+          "description": "Sigma detections for real ATT&CK techniques, with a compiler that emits Wazuh, Splunk and Sentinel from one source. 36 rules, 33 techniques, MIT.",
           "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-20T02:52:31Z",
-          "updatedAt": "2026-07-25T21:15:18Z",
+          "createdAt": "2026-07-23T06:18:15Z",
+          "updatedAt": "2026-07-27T19:03:31Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -733,10 +653,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
+            "防守 / 蓝队"
           ],
-          "score": 50.53
+          "score": 58.25
         }
       ]
     }
