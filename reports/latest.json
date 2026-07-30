@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-29T15:19:54.692Z",
+  "generatedAt": "2026-07-30T04:17:35.775Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,46 +33,72 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-26",
-      "totalCandidates": 28,
+      "createdSince": "2026-07-27",
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         }
       ],
       "repositories": [
+        {
+          "id": 1315523341,
+          "name": "AgentDoctor",
+          "fullName": "pranee54/AgentDoctor",
+          "url": "https://github.com/pranee54/AgentDoctor",
+          "homepage": "https://www.npmjs.com/package/@praneeth_54/agentdoctor",
+          "description": "Local CLI that audits coding-agent configuration for security, instructions, context, and MCP — no API key or code upload by default.",
+          "stars": 10,
+          "forks": 3,
+          "openIssues": 5,
+          "language": "TypeScript",
+          "createdAt": "2026-07-28T23:52:07Z",
+          "updatedAt": "2026-07-29T17:19:13Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 88.27
+        },
         {
           "id": 1314835940,
           "name": "liferay-ga4-rce-research",
@@ -99,7 +125,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 82.67
+          "score": 77.14
         },
         {
           "id": 1315625985,
@@ -125,7 +151,32 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 73.49
+          "score": 68.43
+        },
+        {
+          "id": 1313463270,
+          "name": "SecureAppLocker",
+          "fullName": "osmanonurkoc/SecureAppLocker",
+          "url": "https://github.com/osmanonurkoc/SecureAppLocker",
+          "homepage": "",
+          "description": "A robust system-level application locker for Windows. Powered by an NT Service and a modern WinUI 3 interface, it features instant metadata-based interception, fail-secure lockdown, zero-trust WTS session resets, and isolated Session 0 IPC. Secure your personal apps with master password cryptography and offline recovery.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C#",
+          "createdAt": "2026-07-27T05:46:11Z",
+          "updatedAt": "2026-07-30T01:56:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 62.8
         },
         {
           "id": 1314825132,
@@ -134,12 +185,12 @@
           "url": "https://github.com/amandykovxd/anticheat",
           "homepage": "https://amandykovxd.github.io/anticheat/",
           "description": "Hybrid Ring 0/3 Windows process-integrity telemetry: WDM callbacks, user-mode memory scanner, versioned IOCTL ABI, and tamper-evident JSONL.",
-          "stars": 3,
+          "stars": 4,
           "forks": 0,
           "openIssues": 9,
           "language": "C",
           "createdAt": "2026-07-28T10:07:20Z",
-          "updatedAt": "2026-07-29T12:32:46Z",
+          "updatedAt": "2026-07-29T16:44:01Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -149,7 +200,57 @@
           "tags": [
             "网络安全"
           ],
-          "score": 61.83
+          "score": 61.89
+        },
+        {
+          "id": 1315960452,
+          "name": "phishing-email-detector",
+          "fullName": "IdreesYousofzai/phishing-email-detector",
+          "url": "https://github.com/IdreesYousofzai/phishing-email-detector",
+          "homepage": "",
+          "description": "A phishing email classifier that combines a trained ML model with rule-based checks (urgency language, suspicious URLs, sender/domain mismatch), served through a Flask web app.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-29T09:47:26Z",
+          "updatedAt": "2026-07-29T10:05:55Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 59.74
+        },
+        {
+          "id": 1315942673,
+          "name": "proxy-monster",
+          "fullName": "ridi-oss/proxy-monster",
+          "url": "https://github.com/ridi-oss/proxy-monster",
+          "homepage": "",
+          "description": "Self-hosted database access-control proxy for MySQL and PostgreSQL: lineage-aware column masking, Cedar policy, fail-closed deny, tamper-evident audit trail.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 10,
+          "language": "Kotlin",
+          "createdAt": "2026-07-29T09:28:48Z",
+          "updatedAt": "2026-07-30T03:51:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 55.21
         },
         {
           "id": 1314541567,
@@ -175,7 +276,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 59.71
+          "score": 54.65
         },
         {
           "id": 1313629638,
@@ -202,7 +303,56 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 56.85
+          "score": 51.33
+        },
+        {
+          "id": 1313615233,
+          "name": "caddy-analyzer",
+          "fullName": "L9Lenny/caddy-analyzer",
+          "url": "https://github.com/L9Lenny/caddy-analyzer",
+          "homepage": "https://l9lenny.github.io/caddy-analyzer/",
+          "description": "Fast, zero-dependency access log analyzer, security threat inspector, and TUI dashboard for Caddy v2",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-07-27T08:44:15Z",
+          "updatedAt": "2026-07-29T20:45:56Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 48.13
+        },
+        {
+          "id": 1314508684,
+          "name": "Security-Bookmarks",
+          "fullName": "Shlucus/Security-Bookmarks",
+          "url": "https://github.com/Shlucus/Security-Bookmarks",
+          "homepage": "",
+          "description": "A library of Chromium browser bookmarks for cybersecurity specialists.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-07-28T03:48:59Z",
+          "updatedAt": "2026-07-28T22:34:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 48.05
         },
         {
           "id": 1313302925,
@@ -226,160 +376,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 51.53
-        },
-        {
-          "id": 1312924533,
-          "name": "revertly",
-          "fullName": "nirbenda/revertly",
-          "url": "https://github.com/nirbenda/revertly",
-          "homepage": "",
-          "description": "Local, offline safety net for AI coding agents — records every file change and reverts anything (one file → a whole rm -rf), and alerts on secret reads. Claude Code · Codex · Cursor. Zero deps · MIT.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-26T15:37:46Z",
-          "updatedAt": "2026-07-29T14:32:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 50.64
-        },
-        {
-          "id": 1313860072,
-          "name": "bugwarden",
-          "fullName": "plusky/bugwarden",
-          "url": "https://github.com/plusky/bugwarden",
-          "homepage": "",
-          "description": "Security-guarded MCP server for Bugzilla, written in Rust",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-07-27T13:11:16Z",
-          "updatedAt": "2026-07-28T18:59:44Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 49.69
-        },
-        {
-          "id": 1312778629,
-          "name": "CVE-2026-64600",
-          "fullName": "Debajyoti0-0/CVE-2026-64600",
-          "url": "https://github.com/Debajyoti0-0/CVE-2026-64600",
-          "homepage": "",
-          "description": "A C-based Linux security utility for detecting, safely verifying (Proof of Concept), and mitigating CVE-2026-64600 (RefluXFS). It provides kernel vulnerability assessment, XFS reflink detection, a safe race-condition PoC, and layered mitigation using SystemTap and XFS hardening.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-07-26T12:22:52Z",
-          "updatedAt": "2026-07-28T05:38:43Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 49.32
-        },
-        {
-          "id": 1313959360,
-          "name": "Professional-Certifications",
-          "fullName": "LuthandoYekani/Professional-Certifications",
-          "url": "https://github.com/LuthandoYekani/Professional-Certifications",
-          "homepage": "",
-          "description": "Professional certifications demonstrating continuous learning in cybersecurity, AI, AWS, networking, and project management.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-27T14:51:55Z",
-          "updatedAt": "2026-07-27T16:00:32Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 48.06
-        },
-        {
-          "id": 1312772693,
-          "name": "debug-interface-security-notes",
-          "fullName": "Deniztktk/debug-interface-security-notes",
-          "url": "https://github.com/Deniztktk/debug-interface-security-notes",
-          "homepage": "",
-          "description": "Defensive, source-led research notes on JTAG and SWD security for authorized embedded hardware assessments.",
-          "stars": 2,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-26T12:14:37Z",
-          "updatedAt": "2026-07-26T16:06:26Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队",
-            "网络安全"
-          ],
-          "score": 47.42
-        },
-        {
-          "id": 1313839096,
-          "name": "VulnnForge",
-          "fullName": "michspenz/VulnnForge",
-          "url": "https://github.com/michspenz/VulnnForge",
-          "homepage": "",
-          "description": "A modern hands-on web security training platform with intentionally vulnerable labs, guided writeups, and Dockerized environments.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-27T12:49:51Z",
-          "updatedAt": "2026-07-29T14:17:15Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 47.27
+          "score": 47.2
         }
       ]
     },
@@ -391,87 +388,59 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-22",
-      "totalCandidates": 13,
+      "createdSince": "2026-07-23",
+      "totalCandidates": 11,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 10,
+          "fetched": 9,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1785338447"
+          "rateLimitReset": "1785385108"
         }
       ],
       "repositories": [
         {
-          "id": 1309026822,
-          "name": "Wireless-Security-and-WiFi-Penetration-Testing",
-          "fullName": "armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
-          "url": "https://github.com/armourinfosec/Wireless-Security-and-WiFi-Penetration-Testing",
-          "homepage": "https://www.armourinfosec.com",
-          "description": "Open, hands-on study notes on wireless security & Wi-Fi penetration testing (802.11, WEP/WPA/WPA2/WPA3, aircrack-ng). CC BY 4.0.",
-          "stars": 85,
-          "forks": 24,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-22T16:25:06Z",
-          "updatedAt": "2026-07-29T05:37:46Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 158.97
-        },
-        {
-          "id": 1308592681,
-          "name": "Enterprise-Windows-Infrastructure-Security",
-          "fullName": "armourinfosec/Enterprise-Windows-Infrastructure-Security",
-          "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
-          "homepage": "https://www.armourinfosec.com",
-          "description": "An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
-          "stars": 85,
-          "forks": 35,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-22T08:49:02Z",
-          "updatedAt": "2026-07-29T10:13:36Z",
+          "id": 1315523341,
+          "name": "AgentDoctor",
+          "fullName": "pranee54/AgentDoctor",
+          "url": "https://github.com/pranee54/AgentDoctor",
+          "homepage": "https://www.npmjs.com/package/@praneeth_54/agentdoctor",
+          "description": "Local CLI that audits coding-agent configuration for security, instructions, context, and MCP — no API key or code upload by default.",
+          "stars": 10,
+          "forks": 3,
+          "openIssues": 5,
+          "language": "TypeScript",
+          "createdAt": "2026-07-28T23:52:07Z",
+          "updatedAt": "2026-07-29T17:19:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -480,9 +449,10 @@
           ],
           "tags": [
             "通用安全",
+            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 136.65
+          "score": 94.13
         },
         {
           "id": 1314835940,
@@ -510,7 +480,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 89.73
+          "score": 87.36
         },
         {
           "id": 1312256656,
@@ -537,7 +507,32 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 81.02
+          "score": 78.66
+        },
+        {
+          "id": 1313463270,
+          "name": "SecureAppLocker",
+          "fullName": "osmanonurkoc/SecureAppLocker",
+          "url": "https://github.com/osmanonurkoc/SecureAppLocker",
+          "homepage": "",
+          "description": "A robust system-level application locker for Windows. Powered by an NT Service and a modern WinUI 3 interface, it features instant metadata-based interception, fail-secure lockdown, zero-trust WTS session resets, and isolated Session 0 IPC. Secure your personal apps with master password cryptography and offline recovery.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C#",
+          "createdAt": "2026-07-27T05:46:11Z",
+          "updatedAt": "2026-07-30T01:56:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.36
         },
         {
           "id": 1309594150,
@@ -562,7 +557,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 70.85
+          "score": 68.84
         },
         {
           "id": 1311464862,
@@ -590,7 +585,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.77
+          "score": 68.6
         },
         {
           "id": 1312924533,
@@ -615,32 +610,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.44
-        },
-        {
-          "id": 1309144357,
-          "name": "theharbinger",
-          "fullName": "n0tduck1e/theharbinger",
-          "url": "https://github.com/n0tduck1e/theharbinger",
-          "homepage": "https://theharbinger.in/",
-          "description": "Sane policies for insane agents",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-07-22T18:39:32Z",
-          "updatedAt": "2026-07-23T16:31:26Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 57.57
+          "score": 63.43
         },
         {
           "id": 1309793436,
@@ -666,33 +636,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 57.43
-        },
-        {
-          "id": 1308600096,
-          "name": "laravel-ssrf",
-          "fullName": "securized/laravel-ssrf",
-          "url": "https://github.com/securized/laravel-ssrf",
-          "homepage": "",
-          "description": "SSRF prevention for Laravel. Protect Http::, Guzzle, and validate user-supplied URLs against server-side request forgery.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-07-22T08:56:36Z",
-          "updatedAt": "2026-07-29T12:03:16Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 54
+          "score": 55.42
         }
       ]
     }
