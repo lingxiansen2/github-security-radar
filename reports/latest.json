@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-30T15:23:55.515Z",
+  "generatedAt": "2026-07-31T04:37:24.110Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-27",
-      "totalCandidates": 27,
+      "createdSince": "2026-07-28",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 0,
+          "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         }
       ],
       "repositories": [
@@ -97,7 +97,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 84.25
+          "score": 79.48
         },
         {
           "id": 1315625985,
@@ -106,12 +106,12 @@
           "url": "https://github.com/DevCop95/shodan_reconsx",
           "homepage": "",
           "description": "Portable passive hostname reconnaissance through Shodan CTL",
-          "stars": 7,
+          "stars": 10,
           "forks": 0,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-29T02:54:33Z",
-          "updatedAt": "2026-07-30T13:26:37Z",
+          "updatedAt": "2026-07-30T21:54:23Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -123,7 +123,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 75.47
+          "score": 78.38
         },
         {
           "id": 1316590357,
@@ -132,12 +132,12 @@
           "url": "https://github.com/MrEchoFi/docklab",
           "homepage": "",
           "description": "DockLAB: Disposable, isolated terminals for practicing IT operations, CVE proof-of-concepts, and penetration testing — safely.",
-          "stars": 2,
+          "stars": 3,
           "forks": 2,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-07-29T21:44:51Z",
-          "updatedAt": "2026-07-30T09:27:34Z",
+          "updatedAt": "2026-07-30T18:18:13Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -151,21 +151,21 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 73.12
+          "score": 74.32
         },
         {
-          "id": 1313463270,
-          "name": "SecureAppLocker",
-          "fullName": "osmanonurkoc/SecureAppLocker",
-          "url": "https://github.com/osmanonurkoc/SecureAppLocker",
+          "id": 1316537959,
+          "name": "CVE-2026-57827",
+          "fullName": "shinthink/CVE-2026-57827",
+          "url": "https://github.com/shinthink/CVE-2026-57827",
           "homepage": "",
-          "description": "A robust system-level application locker for Windows. Powered by an NT Service and a modern WinUI 3 interface, it features instant metadata-based interception, fail-secure lockdown, zero-trust WTS session resets, and isolated Session 0 IPC. Secure your personal apps with master password cryptography and offline recovery.",
-          "stars": 12,
-          "forks": 1,
+          "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
+          "stars": 8,
+          "forks": 0,
           "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-07-27T05:46:11Z",
-          "updatedAt": "2026-07-30T11:31:59Z",
+          "language": "Python",
+          "createdAt": "2026-07-29T20:19:30Z",
+          "updatedAt": "2026-07-31T00:43:12Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -174,9 +174,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "漏洞研究 / 攻防"
           ],
-          "score": 72.53
+          "score": 74.13
         },
         {
           "id": 1314835940,
@@ -204,7 +204,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 72.41
+          "score": 66.78
         },
         {
           "id": 1315942673,
@@ -214,11 +214,11 @@
           "homepage": "",
           "description": "Self-hosted database access-control proxy for MySQL and PostgreSQL: lineage-aware column masking, Cedar policy, fail-closed deny, tamper-evident audit trail.",
           "stars": 4,
-          "forks": 1,
-          "openIssues": 9,
+          "forks": 2,
+          "openIssues": 11,
           "language": "Kotlin",
           "createdAt": "2026-07-29T09:28:48Z",
-          "updatedAt": "2026-07-30T14:49:00Z",
+          "updatedAt": "2026-07-31T04:33:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -229,32 +229,60 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.73
+          "score": 63.29
         },
         {
-          "id": 1316537959,
-          "name": "CVE-2026-57827",
-          "fullName": "shinthink/CVE-2026-57827",
-          "url": "https://github.com/shinthink/CVE-2026-57827",
+          "id": 1316910704,
+          "name": "rust-security",
+          "fullName": "jeresoftx/rust-security",
+          "url": "https://github.com/jeresoftx/rust-security",
           "homepage": "",
-          "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
-          "stars": 4,
+          "description": "Curso de Jeresoft Academy sobre seguridad defensiva en Rust: amenazas, hardening, análisis y laboratorios éticos.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-29T20:19:30Z",
-          "updatedAt": "2026-07-30T15:06:28Z",
+          "language": "Rust",
+          "createdAt": "2026-07-30T06:21:18Z",
+          "updatedAt": "2026-07-31T04:11:36Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全",
+            "防守 / 蓝队"
           ],
           "profileWeights": [
-            1
+            1.08,
+            1.12
           ],
           "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
+            "网络安全",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
           ],
-          "score": 65.64
+          "score": 60.43
+        },
+        {
+          "id": 1316896183,
+          "name": "cyberthreat-visualizer",
+          "fullName": "0xh1tesh/cyberthreat-visualizer",
+          "url": "https://github.com/0xh1tesh/cyberthreat-visualizer",
+          "homepage": "",
+          "description": "Real-time cyberthreat intelligence platform with 3D globe visualization, multi-source OSINT fusion (AbuseIPDB, OTX, Shodan) and AI-powered threat classification",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-30T06:04:32Z",
+          "updatedAt": "2026-07-30T07:27:56Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 58.17
         },
         {
           "id": 1314825132,
@@ -278,7 +306,35 @@
           "tags": [
             "网络安全"
           ],
-          "score": 57.55
+          "score": 52.4
+        },
+        {
+          "id": 1315639447,
+          "name": "yubel",
+          "fullName": "ggeorgeazevedo/yubel",
+          "url": "https://github.com/ggeorgeazevedo/yubel",
+          "homepage": "https://pypi.org/project/yubel/",
+          "description": "Cloud-native, multi-target DAST orchestrator — one config runs ZAP, Nuclei, Nikto, testssl.sh, dalfox, schemathesis, kube-hunter and more against web, APIs, cloud, containers and Kubernetes. Cross-engine correlation, attack-chain synthesis, deterministic evidence trail and air-gapped mode.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-29T03:15:36Z",
+          "updatedAt": "2026-07-31T01:04:01Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 52.13
         },
         {
           "id": 1315587108,
@@ -294,16 +350,19 @@
           "createdAt": "2026-07-29T01:50:09Z",
           "updatedAt": "2026-07-30T07:04:44Z",
           "matchedProfiles": [
+            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1,
             1.18
           ],
           "tags": [
+            "通用安全",
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 57.15
+          "score": 51.52
         },
         {
           "id": 1315960452,
@@ -328,60 +387,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 55.41
-        },
-        {
-          "id": 1314541567,
-          "name": "breachbench",
-          "fullName": "0xwi11iam/breachbench",
-          "url": "https://github.com/0xwi11iam/breachbench",
-          "homepage": "",
-          "description": "This is BreachBench, open-source benchmarking framework for LLM performance in offensive security, tested practically, not a trivia quiz.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-28T04:40:59Z",
-          "updatedAt": "2026-07-29T03:07:17Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 50.32
-        },
-        {
-          "id": 1313629638,
-          "name": "vulnhub-machine-notes",
-          "fullName": "ANKIT48274/vulnhub-machine-notes",
-          "url": "https://github.com/ANKIT48274/vulnhub-machine-notes",
-          "homepage": "",
-          "description": "🏴 Comprehensive OSCP & VulnHub machine walkthroughs — enumeration, exploitation & privilege escalation techniques",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-07-27T09:00:15Z",
-          "updatedAt": "2026-07-29T12:48:59Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 49.32
+          "score": 50.26
         }
       ]
     },
@@ -393,43 +399,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-23",
-      "totalCandidates": 13,
+      "createdSince": "2026-07-24",
+      "totalCandidates": 11,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 10,
+          "fetched": 7,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1785425088"
+          "rateLimitReset": "1785472697"
         }
       ],
       "repositories": [
@@ -457,7 +463,33 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 92.41
+          "score": 90.36
+        },
+        {
+          "id": 1315625985,
+          "name": "shodan_reconsx",
+          "fullName": "DevCop95/shodan_reconsx",
+          "url": "https://github.com/DevCop95/shodan_reconsx",
+          "homepage": "",
+          "description": "Portable passive hostname reconnaissance through Shodan CTL",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-07-29T02:54:33Z",
+          "updatedAt": "2026-07-30T21:54:23Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 89.46
         },
         {
           "id": 1313463270,
@@ -466,12 +498,12 @@
           "url": "https://github.com/osmanonurkoc/SecureAppLocker",
           "homepage": "",
           "description": "A robust system-level application locker for Windows. Powered by an NT Service and a modern WinUI 3 interface, it features instant metadata-based interception, fail-secure lockdown, zero-trust WTS session resets, and isolated Session 0 IPC. Secure your personal apps with master password cryptography and offline recovery.",
-          "stars": 12,
+          "stars": 14,
           "forks": 1,
           "openIssues": 0,
           "language": "C#",
           "createdAt": "2026-07-27T05:46:11Z",
-          "updatedAt": "2026-07-30T11:31:59Z",
+          "updatedAt": "2026-07-31T03:38:05Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -482,7 +514,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 85.9
+          "score": 87.32
         },
         {
           "id": 1314835940,
@@ -510,33 +542,32 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 85.33
+          "score": 82.92
         },
         {
-          "id": 1315625985,
-          "name": "shodan_reconsx",
-          "fullName": "DevCop95/shodan_reconsx",
-          "url": "https://github.com/DevCop95/shodan_reconsx",
+          "id": 1316537959,
+          "name": "CVE-2026-57827",
+          "fullName": "shinthink/CVE-2026-57827",
+          "url": "https://github.com/shinthink/CVE-2026-57827",
           "homepage": "",
-          "description": "Portable passive hostname reconnaissance through Shodan CTL",
-          "stars": 7,
+          "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
+          "stars": 8,
           "forks": 0,
-          "openIssues": 2,
+          "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-29T02:54:33Z",
-          "updatedAt": "2026-07-30T13:26:37Z",
+          "createdAt": "2026-07-29T20:19:30Z",
+          "updatedAt": "2026-07-31T00:43:12Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
+            "通用安全",
+            "漏洞研究 / 攻防"
           ],
-          "score": 83.6
+          "score": 80.8
         },
         {
           "id": 1312256656,
@@ -563,7 +594,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 76.63
+          "score": 74.21
         },
         {
           "id": 1312924533,
@@ -572,12 +603,12 @@
           "url": "https://github.com/nirbenda/revertly",
           "homepage": "",
           "description": "Local, offline safety net for AI coding agents — records every file change and reverts anything (one file → a whole rm -rf), and alerts on secret reads. Claude Code · Codex · Cursor. Zero deps · MIT.",
-          "stars": 8,
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-26T15:37:46Z",
-          "updatedAt": "2026-07-30T08:12:09Z",
+          "updatedAt": "2026-07-30T16:43:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -588,32 +619,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.97
-        },
-        {
-          "id": 1309594150,
-          "name": "tyrian-detection-pack",
-          "fullName": "zshguy/tyrian-detection-pack",
-          "url": "https://github.com/zshguy/tyrian-detection-pack",
-          "homepage": "https://tyriancyber.com/attack",
-          "description": "Sigma detections for real ATT&CK techniques, with a compiler that emits Wazuh, Splunk and Sentinel from one source. 36 rules, 33 techniques, MIT.",
-          "stars": 10,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-23T06:18:15Z",
-          "updatedAt": "2026-07-29T13:14:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 68.53
+          "score": 71.4
         },
         {
           "id": 1311464862,
@@ -641,7 +647,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.74
+          "score": 64.53
         },
         {
           "id": 1311320453,
@@ -668,33 +674,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 58.71
-        },
-        {
-          "id": 1309793436,
-          "name": "opencode-security",
-          "fullName": "ismkdc/opencode-security",
-          "url": "https://github.com/ismkdc/opencode-security",
-          "homepage": "",
-          "description": "Multi-agent security scanning for OpenCode - scan codebase, scan changes, suggest patches",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-23T10:02:07Z",
-          "updatedAt": "2026-07-25T05:21:58Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 54.53
+          "score": 56.67
         }
       ]
     }
