@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-07-31T15:29:36.707Z",
+  "generatedAt": "2026-08-01T04:33:52.472Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-28",
-      "totalCandidates": 26,
+      "createdSince": "2026-07-29",
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/shinthink/CVE-2026-57827",
           "homepage": "",
           "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
-          "stars": 10,
-          "forks": 1,
+          "stars": 12,
+          "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-29T20:19:30Z",
-          "updatedAt": "2026-07-31T14:03:12Z",
+          "updatedAt": "2026-07-31T22:15:21Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 78.94
+          "score": 80.56
         },
         {
           "id": 1315625985,
@@ -122,33 +122,35 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 78.47
+          "score": 74.01
         },
         {
-          "id": 1315523341,
-          "name": "AgentDoctor",
-          "fullName": "pranee54/AgentDoctor",
-          "url": "https://github.com/pranee54/AgentDoctor",
-          "homepage": "https://www.npmjs.com/package/@praneeth_54/agentdoctor",
-          "description": "Local CLI that audits coding-agent configuration for security, instructions, context, and MCP — no API key or code upload by default.",
-          "stars": 10,
-          "forks": 3,
-          "openIssues": 4,
-          "language": "TypeScript",
-          "createdAt": "2026-07-28T23:52:07Z",
-          "updatedAt": "2026-07-30T06:06:11Z",
+          "id": 1316910704,
+          "name": "rust-security",
+          "fullName": "jeresoftx/rust-security",
+          "url": "https://github.com/jeresoftx/rust-security",
+          "homepage": "",
+          "description": "Curso de Jeresoft Academy sobre seguridad defensiva en Rust: amenazas, hardening, análisis y laboratorios éticos.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-07-30T06:21:18Z",
+          "updatedAt": "2026-07-31T23:15:50Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全",
+            "防守 / 蓝队"
           ],
           "profileWeights": [
-            1
+            1.08,
+            1.12
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
+            "网络安全",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
           ],
-          "score": 75.55
+          "score": 70.91
         },
         {
           "id": 1316590357,
@@ -176,35 +178,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 69.69
-        },
-        {
-          "id": 1314835940,
-          "name": "liferay-ga4-rce-research",
-          "fullName": "dinosn/liferay-ga4-rce-research",
-          "url": "https://github.com/dinosn/liferay-ga4-rce-research",
-          "homepage": "",
-          "description": "Security research on Liferay CE 7.0.3 GA4: pre-auth RCE as root (CVE-2020-7961 class) reproduced end-to-end, plus 16 more findings — 8+ with no known CVE. Agentic loop-hunt: 25 generators, 22 judges, 9 live validators on Docker. Evidence trail + one-go checker included.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-28T10:19:06Z",
-          "updatedAt": "2026-07-29T07:50:18Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 64.35
+          "score": 64.12
         },
         {
           "id": 1315942673,
@@ -229,21 +203,21 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.37
+          "score": 58.65
         },
         {
-          "id": 1316896183,
-          "name": "cyberthreat-visualizer",
-          "fullName": "0xh1tesh/cyberthreat-visualizer",
-          "url": "https://github.com/0xh1tesh/cyberthreat-visualizer",
+          "id": 1317168478,
+          "name": "HackDev-NetSniff",
+          "fullName": "raghubirmahato/HackDev-NetSniff",
+          "url": "https://github.com/raghubirmahato/HackDev-NetSniff",
           "homepage": "",
-          "description": "Real-time cyberthreat intelligence platform with 3D globe visualization, multi-source OSINT fusion (AbuseIPDB, OTX, Shodan) and AI-powered threat classification",
-          "stars": 3,
+          "description": "Live packet sniffer and traffic analyzer with protocol breakdown and suspicious-pattern detection",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-30T06:04:32Z",
-          "updatedAt": "2026-07-31T14:17:30Z",
+          "language": "Python",
+          "createdAt": "2026-07-30T10:59:31Z",
+          "updatedAt": "2026-07-31T07:14:17Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -252,37 +226,9 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 60.19
-        },
-        {
-          "id": 1316910704,
-          "name": "rust-security",
-          "fullName": "jeresoftx/rust-security",
-          "url": "https://github.com/jeresoftx/rust-security",
-          "homepage": "",
-          "description": "Curso de Jeresoft Academy sobre seguridad defensiva en Rust: amenazas, hardening, análisis y laboratorios éticos.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-07-30T06:21:18Z",
-          "updatedAt": "2026-07-31T04:11:36Z",
-          "matchedProfiles": [
-            "网络安全",
             "防守 / 蓝队"
           ],
-          "profileWeights": [
-            1.08,
-            1.12
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 56.04
+          "score": 50.75
         },
         {
           "id": 1317168591,
@@ -307,31 +253,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 55.85
-        },
-        {
-          "id": 1317166351,
-          "name": "HackDev-PortScanner",
-          "fullName": "raghubirmahato/HackDev-PortScanner",
-          "url": "https://github.com/raghubirmahato/HackDev-PortScanner",
-          "homepage": "",
-          "description": "Async TCP/UDP port scanner with banner grabbing and service fingerprinting",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-30T10:57:03Z",
-          "updatedAt": "2026-07-31T07:14:15Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 55.83
+          "score": 50.75
         },
         {
           "id": 1317167167,
@@ -356,7 +278,59 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 55.83
+          "score": 50.74
+        },
+        {
+          "id": 1317166351,
+          "name": "HackDev-PortScanner",
+          "fullName": "raghubirmahato/HackDev-PortScanner",
+          "url": "https://github.com/raghubirmahato/HackDev-PortScanner",
+          "homepage": "",
+          "description": "Async TCP/UDP port scanner with banner grabbing and service fingerprinting",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-30T10:57:03Z",
+          "updatedAt": "2026-07-31T07:14:15Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 50.73
+        },
+        {
+          "id": 1315587108,
+          "name": "Medusa",
+          "fullName": "0xwi11iam/Medusa",
+          "url": "https://github.com/0xwi11iam/Medusa",
+          "homepage": "",
+          "description": "Medusa is an open-source AI agentic red-teaming framework powered by LangGraph and a Re-Act Architecture.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-29T01:50:09Z",
+          "updatedAt": "2026-07-31T19:08:40Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 49.32
         },
         {
           "id": 1317269811,
@@ -382,7 +356,35 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 52.41
+          "score": 47.69
+        },
+        {
+          "id": 1315639447,
+          "name": "yubel",
+          "fullName": "ggeorgeazevedo/yubel",
+          "url": "https://github.com/ggeorgeazevedo/yubel",
+          "homepage": "https://pypi.org/project/yubel/",
+          "description": "Cloud-native, multi-target DAST orchestrator — one config runs ZAP, Nuclei, Nikto, testssl.sh, dalfox, schemathesis, kube-hunter and more against web, APIs, cloud, containers and Kubernetes. Cross-engine correlation, attack-chain synthesis, deterministic evidence trail and air-gapped mode.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-29T03:15:36Z",
+          "updatedAt": "2026-08-01T00:33:38Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 42.48
         }
       ]
     },
@@ -394,43 +396,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-24",
-      "totalCandidates": 13,
+      "createdSince": "2026-07-25",
+      "totalCandidates": 12,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 9,
+          "fetched": 7,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 0,
+          "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1785511830"
+          "rateLimitReset": "1785558885"
         }
       ],
       "repositories": [
@@ -441,12 +443,12 @@
           "url": "https://github.com/osmanonurkoc/SecureAppLocker",
           "homepage": "",
           "description": "A robust system-level application locker for Windows. Powered by an NT Service and a modern WinUI 3 interface, it features instant metadata-based interception, fail-secure lockdown, zero-trust WTS session resets, and isolated Session 0 IPC. Secure your personal apps with master password cryptography and offline recovery.",
-          "stars": 17,
+          "stars": 19,
           "forks": 2,
           "openIssues": 1,
           "language": "C#",
           "createdAt": "2026-07-27T05:46:11Z",
-          "updatedAt": "2026-07-31T13:03:22Z",
+          "updatedAt": "2026-07-31T18:07:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -457,7 +459,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.44
+          "score": 93.02
+        },
+        {
+          "id": 1316537959,
+          "name": "CVE-2026-57827",
+          "fullName": "shinthink/CVE-2026-57827",
+          "url": "https://github.com/shinthink/CVE-2026-57827",
+          "homepage": "",
+          "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
+          "stars": 12,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-29T20:19:30Z",
+          "updatedAt": "2026-07-31T22:15:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 92.17
         },
         {
           "id": 1315625985,
@@ -483,7 +510,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 91.97
+          "score": 89.78
         },
         {
           "id": 1315523341,
@@ -509,32 +536,35 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 88.68
+          "score": 86.66
         },
         {
-          "id": 1316537959,
-          "name": "CVE-2026-57827",
-          "fullName": "shinthink/CVE-2026-57827",
-          "url": "https://github.com/shinthink/CVE-2026-57827",
+          "id": 1316910704,
+          "name": "rust-security",
+          "fullName": "jeresoftx/rust-security",
+          "url": "https://github.com/jeresoftx/rust-security",
           "homepage": "",
-          "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
-          "stars": 10,
-          "forks": 1,
+          "description": "Curso de Jeresoft Academy sobre seguridad defensiva en Rust: amenazas, hardening, análisis y laboratorios éticos.",
+          "stars": 6,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-29T20:19:30Z",
-          "updatedAt": "2026-07-31T14:03:12Z",
+          "language": "Rust",
+          "createdAt": "2026-07-30T06:21:18Z",
+          "updatedAt": "2026-07-31T23:15:50Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全",
+            "防守 / 蓝队"
           ],
           "profileWeights": [
-            1
+            1.08,
+            1.12
           ],
           "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
+            "网络安全",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
           ],
-          "score": 87.85
+          "score": 81.59
         },
         {
           "id": 1314835940,
@@ -562,7 +592,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 80.93
+          "score": 78.55
         },
         {
           "id": 1315942673,
@@ -587,7 +617,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 74.51
+          "score": 72.49
+        },
+        {
+          "id": 1312924533,
+          "name": "revertly",
+          "fullName": "nirbenda/revertly",
+          "url": "https://github.com/nirbenda/revertly",
+          "homepage": "",
+          "description": "Local, offline safety net for AI coding agents — records every file change and reverts anything (one file → a whole rm -rf), and alerts on secret reads. Claude Code · Codex · Cursor. Zero deps · MIT.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-26T15:37:46Z",
+          "updatedAt": "2026-07-31T06:25:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 69.96
         },
         {
           "id": 1312256656,
@@ -614,112 +669,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 72.23
-        },
-        {
-          "id": 1312924533,
-          "name": "revertly",
-          "fullName": "nirbenda/revertly",
-          "url": "https://github.com/nirbenda/revertly",
-          "homepage": "",
-          "description": "Local, offline safety net for AI coding agents — records every file change and reverts anything (one file → a whole rm -rf), and alerts on secret reads. Claude Code · Codex · Cursor. Zero deps · MIT.",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-26T15:37:46Z",
-          "updatedAt": "2026-07-31T06:25:36Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 71.98
-        },
-        {
-          "id": 1311464862,
-          "name": "korugan",
-          "fullName": "behramkendra/korugan",
-          "url": "https://github.com/behramkendra/korugan",
-          "homepage": "https://korugan.com.tr",
-          "description": "AI-powered open-source edge security platform for Cloudflare, CDN, DNS, WAF and infrastructure automation.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 9,
-          "language": "Go",
-          "createdAt": "2026-07-24T22:02:10Z",
-          "updatedAt": "2026-07-28T16:04:25Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 62.72
-        },
-        {
-          "id": 1311320453,
-          "name": "colmena",
-          "fullName": "prevotai/colmena",
-          "url": "https://github.com/prevotai/colmena",
-          "homepage": "",
-          "description": "Prevot — verifiable receipts for firmware CVE reproduction (in-toto + Sigstore/Rekor)",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-24T18:25:12Z",
-          "updatedAt": "2026-07-30T06:17:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 54.99
-        },
-        {
-          "id": 1310971289,
-          "name": "ShellBridge",
-          "fullName": "fengyincheng/ShellBridge",
-          "url": "https://github.com/fengyincheng/ShellBridge",
-          "homepage": "",
-          "description": "Give ChatGPT fast, safe, and auditable visibility into your VPS through MCP.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-07-24T11:37:56Z",
-          "updatedAt": "2026-07-31T06:25:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54.53
+          "score": 69.84
         }
       ]
     }
