@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-01T04:33:52.472Z",
+  "generatedAt": "2026-08-01T14:41:04.869Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         }
       ],
       "repositories": [
@@ -96,7 +96,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 80.56
+          "score": 76.91
         },
         {
           "id": 1315625985,
@@ -125,6 +125,60 @@
           "score": 74.01
         },
         {
+          "id": 1318285853,
+          "name": "DLL-Injection-Lab",
+          "fullName": "bsmensah-ctrl/DLL-Injection-Lab",
+          "url": "https://github.com/bsmensah-ctrl/DLL-Injection-Lab",
+          "homepage": "https://bsmensah-ctrl.github.io/DLL-Injection-Lab/",
+          "description": "Simulate and detect the full DLL-injection telemetry chain—no VM, no admin, zero live processes touched. ATT&CK T1055.001 · JSONL · SARIF",
+          "stars": 3,
+          "forks": 2,
+          "openIssues": 4,
+          "language": "Python",
+          "createdAt": "2026-07-31T11:40:13Z",
+          "updatedAt": "2026-08-01T11:00:56Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 69.53
+        },
+        {
+          "id": 1318404238,
+          "name": "pentestkit",
+          "fullName": "lordx64/pentestkit",
+          "url": "https://github.com/lordx64/pentestkit",
+          "homepage": "",
+          "description": "Autonomous multi-agent pentest framework — plans, exploits, verifies (proof-required), CVSS-scores and writes client-ready reports. 104/104 (100%) on the XBOW validation benchmarks, powered by Kimi K3.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-31T13:56:16Z",
+          "updatedAt": "2026-08-01T13:18:59Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 67.34
+        },
+        {
           "id": 1316910704,
           "name": "rust-security",
           "fullName": "jeresoftx/rust-security",
@@ -150,7 +204,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 70.91
+          "score": 66.82
         },
         {
           "id": 1316590357,
@@ -178,7 +232,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 64.12
+          "score": 59.81
         },
         {
           "id": 1315942673,
@@ -203,71 +257,47 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 58.65
+          "score": 56.87
         },
         {
-          "id": 1317168478,
-          "name": "HackDev-NetSniff",
-          "fullName": "raghubirmahato/HackDev-NetSniff",
-          "url": "https://github.com/raghubirmahato/HackDev-NetSniff",
-          "homepage": "",
-          "description": "Live packet sniffer and traffic analyzer with protocol breakdown and suspicious-pattern detection",
+          "id": 1318683469,
+          "name": "coldcard-mk3-rng-disclosure",
+          "fullName": "3z/coldcard-mk3-rng-disclosure",
+          "url": "https://github.com/3z/coldcard-mk3-rng-disclosure",
+          "homepage": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/",
+          "description": "Binary-verified reverse engineering of the COLDCARD Mk3 weak-RNG vulnerability (4.0.1-4.1.9): root cause at the linker boundary, bounded PoC, and seed-to-xpub pipeline",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-30T10:59:31Z",
-          "updatedAt": "2026-07-31T07:14:17Z",
+          "createdAt": "2026-07-31T19:21:59Z",
+          "updatedAt": "2026-08-01T14:24:12Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 50.75
-        },
-        {
-          "id": 1317168591,
-          "name": "HackDev-CVEWatch",
-          "fullName": "raghubirmahato/HackDev-CVEWatch",
-          "url": "https://github.com/raghubirmahato/HackDev-CVEWatch",
-          "homepage": "",
-          "description": "CVE feed monitor with keyword/vendor/severity filtering and new-CVE alerting",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-30T10:59:39Z",
-          "updatedAt": "2026-07-31T07:14:05Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
+            "通用安全",
+            "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 50.75
+          "score": 55.02
         },
         {
-          "id": 1317167167,
-          "name": "HackDev-WebScan",
-          "fullName": "raghubirmahato/HackDev-WebScan",
-          "url": "https://github.com/raghubirmahato/HackDev-WebScan",
+          "id": 1316896183,
+          "name": "cyberthreat-visualizer",
+          "fullName": "0xh1tesh/cyberthreat-visualizer",
+          "url": "https://github.com/0xh1tesh/cyberthreat-visualizer",
           "homepage": "",
-          "description": "Web application vulnerability scanner for XSS, SQLi signatures, open redirects, and missing security headers",
-          "stars": 2,
+          "description": "Real-time cyberthreat intelligence platform with 3D globe visualization, multi-source OSINT fusion (AbuseIPDB, OTX, Shodan) and AI-powered threat classification",
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-30T10:57:55Z",
-          "updatedAt": "2026-07-31T07:14:12Z",
+          "language": "JavaScript",
+          "createdAt": "2026-07-30T06:04:32Z",
+          "updatedAt": "2026-08-01T07:03:53Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -276,33 +306,37 @@
           ],
           "tags": [
             "网络安全",
-            "漏洞研究 / 攻防"
+            "AI 自动化 / Skill"
           ],
-          "score": 50.74
+          "score": 51.14
         },
         {
-          "id": 1317166351,
-          "name": "HackDev-PortScanner",
-          "fullName": "raghubirmahato/HackDev-PortScanner",
-          "url": "https://github.com/raghubirmahato/HackDev-PortScanner",
-          "homepage": "",
-          "description": "Async TCP/UDP port scanner with banner grabbing and service fingerprinting",
-          "stars": 2,
+          "id": 1315639447,
+          "name": "yubel",
+          "fullName": "ggeorgeazevedo/yubel",
+          "url": "https://github.com/ggeorgeazevedo/yubel",
+          "homepage": "https://pypi.org/project/yubel/",
+          "description": "Cloud-native, multi-target DAST orchestrator — one config runs ZAP, Nuclei, Nikto, testssl.sh, dalfox, schemathesis, kube-hunter and more against web, APIs, cloud, containers and Kubernetes. Cross-engine correlation, attack-chain synthesis, deterministic evidence trail and air-gapped mode.",
+          "stars": 3,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 1,
           "language": "Python",
-          "createdAt": "2026-07-30T10:57:03Z",
-          "updatedAt": "2026-07-31T07:14:15Z",
+          "createdAt": "2026-07-29T03:15:36Z",
+          "updatedAt": "2026-08-01T13:36:21Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
+            1,
+            1.18
           ],
           "tags": [
-            "网络安全"
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
           ],
-          "score": 50.73
+          "score": 49.32
         },
         {
           "id": 1315587108,
@@ -333,58 +367,29 @@
           "score": 49.32
         },
         {
-          "id": 1317269811,
-          "name": "codex-docker-sandbox",
-          "fullName": "balyakin/codex-docker-sandbox",
-          "url": "https://github.com/balyakin/codex-docker-sandbox",
+          "id": 1317168591,
+          "name": "HackDev-CVEWatch",
+          "fullName": "raghubirmahato/HackDev-CVEWatch",
+          "url": "https://github.com/raghubirmahato/HackDev-CVEWatch",
           "homepage": "",
-          "description": "Hardened Docker sandbox for OpenAI Codex CLI with workspace-only mounts, per-project auth, and allowlisted network egress",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-07-30T12:56:15Z",
-          "updatedAt": "2026-07-31T10:43:43Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 47.69
-        },
-        {
-          "id": 1315639447,
-          "name": "yubel",
-          "fullName": "ggeorgeazevedo/yubel",
-          "url": "https://github.com/ggeorgeazevedo/yubel",
-          "homepage": "https://pypi.org/project/yubel/",
-          "description": "Cloud-native, multi-target DAST orchestrator — one config runs ZAP, Nuclei, Nikto, testssl.sh, dalfox, schemathesis, kube-hunter and more against web, APIs, cloud, containers and Kubernetes. Cross-engine correlation, attack-chain synthesis, deterministic evidence trail and air-gapped mode.",
+          "description": "CVE feed monitor with keyword/vendor/severity filtering and new-CVE alerting",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-29T03:15:36Z",
-          "updatedAt": "2026-08-01T00:33:38Z",
+          "createdAt": "2026-07-30T10:59:39Z",
+          "updatedAt": "2026-07-31T07:14:05Z",
           "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1,
-            1.18
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
+            "网络安全",
+            "漏洞研究 / 攻防"
           ],
-          "score": 42.48
+          "score": 46.8
         }
       ]
     },
@@ -404,35 +409,35 @@
           "query": "topic:security",
           "fetched": 7,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1785558885"
+          "rateLimitReset": "1785595318"
         }
       ],
       "repositories": [
@@ -459,7 +464,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 93.02
+          "score": 91.45
         },
         {
           "id": 1316537959,
@@ -484,7 +489,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 92.17
+          "score": 90.6
         },
         {
           "id": 1315625985,
@@ -510,7 +515,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 89.78
+          "score": 88.09
         },
         {
           "id": 1315523341,
@@ -536,7 +541,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 86.66
+          "score": 85.09
         },
         {
           "id": 1316910704,
@@ -564,7 +569,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 81.59
+          "score": 79.84
         },
         {
           "id": 1314835940,
@@ -592,7 +597,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 78.55
+          "score": 76.7
         },
         {
           "id": 1315942673,
@@ -617,7 +622,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.49
+          "score": 70.92
         },
         {
           "id": 1312924533,
@@ -642,7 +647,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 69.96
+          "score": 68.39
         },
         {
           "id": 1312256656,
@@ -669,7 +674,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 69.84
+          "score": 67.99
         }
       ]
     }
