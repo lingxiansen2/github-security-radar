@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-02T14:43:15.023Z",
+  "generatedAt": "2026-08-03T04:45:16.615Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-07-30",
+      "createdSince": "2026-07-31",
       "totalCandidates": 23,
       "queryStats": [
         {
@@ -41,38 +41,67 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 11,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         }
       ],
       "repositories": [
+        {
+          "id": 1319299763,
+          "name": "security-research-orchestrator-prompt",
+          "fullName": "dinosn/security-research-orchestrator-prompt",
+          "url": "https://github.com/dinosn/security-research-orchestrator-prompt",
+          "homepage": "",
+          "description": "High-assurance, artifact-agnostic prompt for authorized security labs, exploit-chain research, PoC validation, and evidence-led reporting.",
+          "stars": 17,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-01T13:03:36Z",
+          "updatedAt": "2026-08-03T01:44:05Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 103.99
+        },
         {
           "id": 1319600255,
           "name": "wraith",
@@ -80,12 +109,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 9,
-          "forks": 0,
+          "stars": 11,
+          "forks": 1,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-02T14:32:33Z",
+          "updatedAt": "2026-08-03T04:19:40Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -100,21 +129,47 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 96.32
+          "score": 100.17
         },
         {
-          "id": 1319299763,
-          "name": "security-research-orchestrator-prompt",
-          "fullName": "dinosn/security-research-orchestrator-prompt",
-          "url": "https://github.com/dinosn/security-research-orchestrator-prompt",
+          "id": 1321097781,
+          "name": "kernel-security-check-bsod-fix",
+          "fullName": "LinkEmuBewitch/kernel-security-check-bsod-fix",
+          "url": "https://github.com/LinkEmuBewitch/kernel-security-check-bsod-fix",
           "homepage": "",
-          "description": "High-assurance, artifact-agnostic prompt for authorized security labs, exploit-chain research, PoC validation, and evidence-led reporting.",
-          "stars": 8,
+          "description": "Kernel Security Check BSOD Fix — Kernel Security Check BSOD Fix Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-08-01T13:03:36Z",
-          "updatedAt": "2026-08-02T12:04:57Z",
+          "createdAt": "2026-08-03T02:14:12Z",
+          "updatedAt": "2026-08-03T03:31:40Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 82.15
+        },
+        {
+          "id": 1321115089,
+          "name": "awesome-security-agent-harnesses",
+          "fullName": "Ed-Marcavage/awesome-security-agent-harnesses",
+          "url": "https://github.com/Ed-Marcavage/awesome-security-agent-harnesses",
+          "homepage": "",
+          "description": "AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engineering — harnesses, sandboxes, security MCP servers, benchmarks, and evals.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-03T02:33:32Z",
+          "updatedAt": "2026-08-03T03:49:57Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -127,41 +182,190 @@
             "网络安全",
             "渗透 / 红队",
             "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
           ],
-          "score": 90.3
+          "score": 72.22
         },
         {
-          "id": 1318404238,
-          "name": "pentestkit",
-          "fullName": "lordx64/pentestkit",
-          "url": "https://github.com/lordx64/pentestkit",
+          "id": 1320812437,
+          "name": "ReverseOps-Skill",
+          "fullName": "xAmirHamza77/ReverseOps-Skill",
+          "url": "https://github.com/xAmirHamza77/ReverseOps-Skill",
           "homepage": "",
-          "description": "Autonomous multi-agent pentest framework — plans, exploits, verifies (proof-required), CVSS-scores and writes client-ready reports. 104/104 (100%) on the XBOW validation benchmarks, powered by Kimi K3.",
-          "stars": 3,
-          "forks": 1,
+          "description": "ReverseOps-Skill is an AI-powered security orchestration framework that routes AI agents to the right tools and workflows for reverse engineering, APK analysis, malware, pentesting, CTFs, firmware, exploit development, and JavaScript deobfuscation, delivering repeatable investigations with structured evidence and reports.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-08-02T21:48:19Z",
+          "updatedAt": "2026-08-03T01:44:52Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码",
+            "网络安全"
+          ],
+          "score": 70.2
+        },
+        {
+          "id": 1320398962,
+          "name": "DeepRecon",
+          "fullName": "etshxxx/DeepRecon",
+          "url": "https://github.com/etshxxx/DeepRecon",
+          "homepage": "",
+          "description": "DeepRecon automates deep discovery, documentation analysis, application understanding, role modeling, API inventorying, JavaScript deconstruction, data model inference, threat modeling, and testing roadmap generation.",
+          "stars": 2,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-31T13:56:16Z",
-          "updatedAt": "2026-08-01T15:28:46Z",
+          "createdAt": "2026-08-02T16:53:51Z",
+          "updatedAt": "2026-08-02T18:52:24Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 68.11
+        },
+        {
+          "id": 1320721630,
+          "name": "timeline-cti-explorer",
+          "fullName": "Delaldincer/timeline-cti-explorer",
+          "url": "https://github.com/Delaldincer/timeline-cti-explorer",
+          "homepage": "",
+          "description": "Automation of IOC and POST collection and search for CTI purposes via X (formerly Twitter).",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-02T20:54:12Z",
+          "updatedAt": "2026-08-02T21:12:17Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 63.9
+        },
+        {
+          "id": 1319995142,
+          "name": "osint-skills",
+          "fullName": "useosint/osint-skills",
+          "url": "https://github.com/useosint/osint-skills",
+          "homepage": "https://www.skills.sh/useosint/osint-skills",
+          "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Shell",
+          "createdAt": "2026-08-02T09:21:29Z",
+          "updatedAt": "2026-08-03T00:38:13Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 63.72
+        },
+        {
+          "id": 1318845961,
+          "name": "LANtern-Control",
+          "fullName": "humane125/LANtern-Control",
+          "url": "https://github.com/humane125/LANtern-Control",
+          "homepage": "",
+          "description": "Open-source SelfishNet alternative for Windows. Monitor devices, limit bandwidth, pause internet access, and block domains without router access.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C#",
+          "createdAt": "2026-08-01T00:23:38Z",
+          "updatedAt": "2026-08-02T21:57:15Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 61.09
+        },
+        {
+          "id": 1320160167,
+          "name": "WardenOne",
+          "fullName": "iri-dev/WardenOne",
+          "url": "https://github.com/iri-dev/WardenOne",
+          "homepage": "",
+          "description": "One extension. Every defence. - the all-in-one privacy, security & anti-scam extension for Chromium browsers (MV3). 80+ on-device protections: ad & tracker blocking, anti-fingerprinting, phishing/scam & credential-theft defence, download scanning, IP-leak protection, plus YouTube & Twitch tools. No account, no telemetry. GPLv3.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "JavaScript",
+          "createdAt": "2026-08-02T12:21:28Z",
+          "updatedAt": "2026-08-02T23:01:33Z",
           "matchedProfiles": [
             "通用安全",
-            "网络安全",
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
             1,
-            1.08,
-            1.18
+            1.08
           ],
           "tags": [
             "通用安全",
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 60.57
+        },
+        {
+          "id": 1319843405,
+          "name": "catcard",
+          "fullName": "TibaneLabs/catcard",
+          "url": "https://github.com/TibaneLabs/catcard",
+          "homepage": "",
+          "description": "Clean-room open-source Rust firmware for Coldcard hardware wallets. MIT licensed, no-std, Cortex-M4F.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-08-02T05:20:59Z",
+          "updatedAt": "2026-08-03T02:29:25Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 63.93
+          "score": 59.34
         },
         {
           "id": 1318434920,
@@ -175,7 +379,7 @@
           "openIssues": 5,
           "language": "TypeScript",
           "createdAt": "2026-07-31T14:29:24Z",
-          "updatedAt": "2026-08-02T13:11:29Z",
+          "updatedAt": "2026-08-03T03:39:15Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -186,213 +390,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.12
-        },
-        {
-          "id": 1318845961,
-          "name": "LANtern-Control",
-          "fullName": "humane125/LANtern-Control",
-          "url": "https://github.com/humane125/LANtern-Control",
-          "homepage": "",
-          "description": "Open-source SelfishNet alternative for Windows. Monitor devices, limit bandwidth, pause internet access, and block domains without router access.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-08-01T00:23:38Z",
-          "updatedAt": "2026-08-02T11:21:50Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 62.69
-        },
-        {
-          "id": 1316910704,
-          "name": "rust-security",
-          "fullName": "jeresoftx/rust-security",
-          "url": "https://github.com/jeresoftx/rust-security",
-          "homepage": "",
-          "description": "Curso de Jeresoft Academy sobre seguridad defensiva en Rust: amenazas, hardening, análisis y laboratorios éticos.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-07-30T06:21:18Z",
-          "updatedAt": "2026-07-31T23:15:50Z",
-          "matchedProfiles": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.12
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 60.48
-        },
-        {
-          "id": 1318285853,
-          "name": "DLL-Injection-Lab",
-          "fullName": "bsmensah-ctrl/DLL-Injection-Lab",
-          "url": "https://github.com/bsmensah-ctrl/DLL-Injection-Lab",
-          "homepage": "https://bsmensah-ctrl.github.io/DLL-Injection-Lab/",
-          "description": "Simulate and detect the full DLL-injection telemetry chain—no VM, no admin, zero live processes touched. ATT&CK T1055.001 · JSONL · SARIF",
-          "stars": 3,
-          "forks": 2,
-          "openIssues": 4,
-          "language": "Python",
-          "createdAt": "2026-07-31T11:40:13Z",
-          "updatedAt": "2026-08-01T11:00:56Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 60.16
-        },
-        {
-          "id": 1319867499,
-          "name": "vibeguard",
-          "fullName": "thesajidalam/vibeguard",
-          "url": "https://github.com/thesajidalam/vibeguard",
-          "homepage": "https://guardvibe.vercel.app",
-          "description": "Vibeguard is an AI-powered code scanner that finds bugs, security issues, performance problems, and deployment risks. It suggests fixes and generates a downloadable analysis report.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-02T05:57:48Z",
-          "updatedAt": "2026-08-02T09:02:29Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "网络安全"
-          ],
-          "score": 58.84
-        },
-        {
-          "id": 1319843405,
-          "name": "catcard",
-          "fullName": "TibaneLabs/catcard",
-          "url": "https://github.com/TibaneLabs/catcard",
-          "homepage": "",
-          "description": "Clean-room open-source Rust firmware for Coldcard hardware wallets. MIT licensed, no-std, Cortex-M4F.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-08-02T05:20:59Z",
-          "updatedAt": "2026-08-02T13:35:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 58.62
-        },
-        {
-          "id": 1316896183,
-          "name": "cyberthreat-visualizer",
-          "fullName": "0xh1tesh/cyberthreat-visualizer",
-          "url": "https://github.com/0xh1tesh/cyberthreat-visualizer",
-          "homepage": "",
-          "description": "Real-time cyberthreat intelligence platform with 3D globe visualization, multi-source OSINT fusion (AbuseIPDB, OTX, Shodan) and AI-powered threat classification",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-30T06:04:32Z",
-          "updatedAt": "2026-08-02T05:23:41Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 58.32
-        },
-        {
-          "id": 1318683469,
-          "name": "coldcard-mk3-rng-disclosure",
-          "fullName": "3z/coldcard-mk3-rng-disclosure",
-          "url": "https://github.com/3z/coldcard-mk3-rng-disclosure",
-          "homepage": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/",
-          "description": "Binary-verified reverse engineering of the COLDCARD Mk3 weak-RNG vulnerability (4.0.1-4.1.9): root cause at the linker boundary, bounded PoC, and seed-to-xpub pipeline",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-31T19:21:59Z",
-          "updatedAt": "2026-08-02T04:45:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 56.87
-        },
-        {
-          "id": 1317593076,
-          "name": "SafeIP",
-          "fullName": "AhmadJeddi/SafeIP",
-          "url": "https://github.com/AhmadJeddi/SafeIP",
-          "homepage": "https://ahmadjeddi.github.io/SafeIP",
-          "description": "A lightweight network security tool that verifies IP location, validates network safety, and prevents access to protected links when unexpected location changes are detected.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-30T18:56:01Z",
-          "updatedAt": "2026-08-02T12:27:18Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 56.22
+          "score": 58.05
         }
       ]
     },
@@ -404,46 +402,75 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-26",
-      "totalCandidates": 19,
+      "createdSince": "2026-07-27",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 10,
+          "fetched": 11,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1785681848"
+          "rateLimitReset": "1785732369"
         }
       ],
       "repositories": [
+        {
+          "id": 1319299763,
+          "name": "security-research-orchestrator-prompt",
+          "fullName": "dinosn/security-research-orchestrator-prompt",
+          "url": "https://github.com/dinosn/security-research-orchestrator-prompt",
+          "homepage": "",
+          "description": "High-assurance, artifact-agnostic prompt for authorized security labs, exploit-chain research, PoC validation, and evidence-led reporting.",
+          "stars": 17,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-01T13:03:36Z",
+          "updatedAt": "2026-08-03T01:44:05Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 113.66
+        },
         {
           "id": 1319600255,
           "name": "wraith",
@@ -451,12 +478,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 9,
-          "forks": 0,
+          "stars": 11,
+          "forks": 1,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-02T14:32:33Z",
+          "updatedAt": "2026-08-03T04:19:40Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -471,36 +498,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 100.8
-        },
-        {
-          "id": 1319299763,
-          "name": "security-research-orchestrator-prompt",
-          "fullName": "dinosn/security-research-orchestrator-prompt",
-          "url": "https://github.com/dinosn/security-research-orchestrator-prompt",
-          "homepage": "",
-          "description": "High-assurance, artifact-agnostic prompt for authorized security labs, exploit-chain research, PoC validation, and evidence-led reporting.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-01T13:03:36Z",
-          "updatedAt": "2026-08-02T12:04:57Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 96.55
+          "score": 108.07
         },
         {
           "id": 1313463270,
@@ -509,12 +507,12 @@
           "url": "https://github.com/osmanonurkoc/SecureAppLocker",
           "homepage": "",
           "description": "A robust system-level application locker for Windows. Powered by an NT Service and a modern WinUI 3 interface, it features instant metadata-based interception, fail-secure lockdown, zero-trust WTS session resets, and isolated Session 0 IPC. Secure your personal apps with master password cryptography and offline recovery.",
-          "stars": 21,
+          "stars": 23,
           "forks": 2,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "C#",
           "createdAt": "2026-07-27T05:46:11Z",
-          "updatedAt": "2026-08-02T06:06:54Z",
+          "updatedAt": "2026-08-03T03:59:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -534,12 +532,12 @@
           "url": "https://github.com/shinthink/CVE-2026-57827",
           "homepage": "",
           "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
-          "stars": 13,
+          "stars": 14,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-07-29T20:19:30Z",
-          "updatedAt": "2026-08-02T11:40:43Z",
+          "updatedAt": "2026-08-03T00:44:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -550,7 +548,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 88.67
+          "score": 88.18
         },
         {
           "id": 1315625985,
@@ -560,7 +558,7 @@
           "homepage": "",
           "description": "Portable passive hostname reconnaissance through Shodan CTL",
           "stars": 13,
-          "forks": 0,
+          "forks": 1,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-07-29T02:54:33Z",
@@ -576,7 +574,33 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 86.01
+          "score": 87.98
+        },
+        {
+          "id": 1321097781,
+          "name": "kernel-security-check-bsod-fix",
+          "fullName": "LinkEmuBewitch/kernel-security-check-bsod-fix",
+          "url": "https://github.com/LinkEmuBewitch/kernel-security-check-bsod-fix",
+          "homepage": "",
+          "description": "Kernel Security Check BSOD Fix — Kernel Security Check BSOD Fix Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-03T02:14:12Z",
+          "updatedAt": "2026-08-03T03:31:40Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 82.67
         },
         {
           "id": 1315523341,
@@ -602,7 +626,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 81.37
+          "score": 79.2
         },
         {
           "id": 1316910704,
@@ -611,12 +635,12 @@
           "url": "https://github.com/jeresoftx/rust-security",
           "homepage": "",
           "description": "Curso de Jeresoft Academy sobre seguridad defensiva en Rust: amenazas, hardening, análisis y laboratorios éticos.",
-          "stars": 6,
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-07-30T06:21:18Z",
-          "updatedAt": "2026-07-31T23:15:50Z",
+          "updatedAt": "2026-08-02T17:36:23Z",
           "matchedProfiles": [
             "网络安全",
             "防守 / 蓝队"
@@ -630,7 +654,32 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 75.67
+          "score": 76.66
+        },
+        {
+          "id": 1318845961,
+          "name": "LANtern-Control",
+          "fullName": "humane125/LANtern-Control",
+          "url": "https://github.com/humane125/LANtern-Control",
+          "homepage": "",
+          "description": "Open-source SelfishNet alternative for Windows. Monitor devices, limit bandwidth, pause internet access, and block domains without router access.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C#",
+          "createdAt": "2026-08-01T00:23:38Z",
+          "updatedAt": "2026-08-02T21:57:15Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 71.9
         },
         {
           "id": 1315942673,
@@ -641,7 +690,7 @@
           "description": "Self-hosted database access-control proxy for MySQL and PostgreSQL: lineage-aware column masking, Cedar policy, fail-closed deny, tamper-evident audit trail.",
           "stars": 7,
           "forks": 2,
-          "openIssues": 10,
+          "openIssues": 12,
           "language": "Kotlin",
           "createdAt": "2026-07-29T09:28:48Z",
           "updatedAt": "2026-08-02T13:23:47Z",
@@ -655,7 +704,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.73
+          "score": 71.56
         },
         {
           "id": 1318434920,
@@ -669,7 +718,7 @@
           "openIssues": 5,
           "language": "TypeScript",
           "createdAt": "2026-07-31T14:29:24Z",
-          "updatedAt": "2026-08-02T13:11:29Z",
+          "updatedAt": "2026-08-03T03:39:15Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -680,7 +729,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.07
+          "score": 70.9
         },
         {
           "id": 1316896183,
@@ -705,7 +754,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.92
+          "score": 70.58
         },
         {
           "id": 1314835940,
@@ -733,7 +782,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 72.31
+          "score": 69.75
         },
         {
           "id": 1317593076,
@@ -758,32 +807,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 71.32
-        },
-        {
-          "id": 1318845961,
-          "name": "LANtern-Control",
-          "fullName": "humane125/LANtern-Control",
-          "url": "https://github.com/humane125/LANtern-Control",
-          "homepage": "",
-          "description": "Open-source SelfishNet alternative for Windows. Monitor devices, limit bandwidth, pause internet access, and block domains without router access.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-08-01T00:23:38Z",
-          "updatedAt": "2026-08-02T11:21:50Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 70.6
+          "score": 68.98
         },
         {
           "id": 1316206152,
@@ -809,45 +833,21 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 70.26
+          "score": 67.91
         },
         {
-          "id": 1314825132,
-          "name": "anticheat",
-          "fullName": "amandykovxd/anticheat",
-          "url": "https://github.com/amandykovxd/anticheat",
-          "homepage": "https://amandykovxd.github.io/anticheat/",
-          "description": "Hybrid Ring 0/3 Windows process-integrity telemetry: WDM callbacks, user-mode memory scanner, versioned IOCTL ABI, and tamper-evident JSONL.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 11,
-          "language": "C",
-          "createdAt": "2026-07-28T10:07:20Z",
-          "updatedAt": "2026-08-02T12:52:56Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 68.88
-        },
-        {
-          "id": 1312924533,
-          "name": "revertly",
-          "fullName": "nirbenda/revertly",
-          "url": "https://github.com/nirbenda/revertly",
+          "id": 1314921521,
+          "name": "Codex-Skill-Manager",
+          "fullName": "bme-lyh/Codex-Skill-Manager",
+          "url": "https://github.com/bme-lyh/Codex-Skill-Manager",
           "homepage": "",
-          "description": "Local, offline safety net for AI coding agents — records every file change and reverts anything (one file → a whole rm -rf), and alerts on secret reads. Claude Code · Codex · Cursor. Zero deps · MIT.",
-          "stars": 10,
+          "description": "Review, install, update, and recover Codex Skills on Windows.",
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-26T15:37:46Z",
-          "updatedAt": "2026-08-02T05:56:22Z",
+          "language": "Go",
+          "createdAt": "2026-07-28T11:54:23Z",
+          "updatedAt": "2026-08-03T03:10:22Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -858,7 +858,31 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 64.67
+          "score": 67.09
+        },
+        {
+          "id": 1314825132,
+          "name": "anticheat",
+          "fullName": "amandykovxd/anticheat",
+          "url": "https://github.com/amandykovxd/anticheat",
+          "homepage": "https://amandykovxd.github.io/anticheat/",
+          "description": "Hybrid Ring 0/3 Windows process-integrity telemetry: WDM callbacks, user-mode memory scanner, versioned IOCTL ABI, and tamper-evident JSONL.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 10,
+          "language": "C",
+          "createdAt": "2026-07-28T10:07:20Z",
+          "updatedAt": "2026-08-02T15:45:08Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 66.53
         }
       ]
     }
