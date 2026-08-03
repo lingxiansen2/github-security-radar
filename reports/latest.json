@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-03T04:45:16.615Z",
+  "generatedAt": "2026-08-03T15:54:10.907Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-07-31",
-      "totalCandidates": 23,
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/dinosn/security-research-orchestrator-prompt",
           "homepage": "",
           "description": "High-assurance, artifact-agnostic prompt for authorized security labs, exploit-chain research, PoC validation, and evidence-led reporting.",
-          "stars": 17,
+          "stars": 20,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-01T13:03:36Z",
-          "updatedAt": "2026-08-03T01:44:05Z",
+          "updatedAt": "2026-08-03T15:36:17Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -100,7 +100,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 103.99
+          "score": 103.73
         },
         {
           "id": 1319600255,
@@ -109,12 +109,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 11,
+          "stars": 14,
           "forks": 1,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-03T04:19:40Z",
+          "updatedAt": "2026-08-03T15:19:48Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -129,7 +129,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 100.17
+          "score": 101.79
+        },
+        {
+          "id": 1321015213,
+          "name": "xorcise",
+          "fullName": "xorcise-ai/xorcise",
+          "url": "https://github.com/xorcise-ai/xorcise",
+          "homepage": "https://xorcise.ai",
+          "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 9,
+          "language": "Python",
+          "createdAt": "2026-08-03T00:15:52Z",
+          "updatedAt": "2026-08-03T09:27:17Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 80.3
         },
         {
           "id": 1321097781,
@@ -155,7 +180,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 82.15
+          "score": 78.12
         },
         {
           "id": 1321115089,
@@ -171,21 +196,45 @@
           "createdAt": "2026-08-03T02:33:32Z",
           "updatedAt": "2026-08-03T03:49:57Z",
           "matchedProfiles": [
-            "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08,
             1.18
           ],
           "tags": [
-            "网络安全",
             "渗透 / 红队",
             "AI 自动化 / Skill",
             "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
+            "漏洞研究 / 攻防",
+            "网络安全"
           ],
-          "score": 72.22
+          "score": 67.47
+        },
+        {
+          "id": 1319995142,
+          "name": "osint-skills",
+          "fullName": "useosint/osint-skills",
+          "url": "https://github.com/useosint/osint-skills",
+          "homepage": "https://www.skills.sh/useosint/osint-skills",
+          "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Shell",
+          "createdAt": "2026-08-02T09:21:29Z",
+          "updatedAt": "2026-08-03T06:23:26Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 65.63
         },
         {
           "id": 1320812437,
@@ -213,7 +262,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 70.2
+          "score": 65.45
         },
         {
           "id": 1320398962,
@@ -237,7 +286,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 68.11
+          "score": 63.36
         },
         {
           "id": 1320721630,
@@ -262,33 +311,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.9
+          "score": 59.55
         },
         {
-          "id": 1319995142,
-          "name": "osint-skills",
-          "fullName": "useosint/osint-skills",
-          "url": "https://github.com/useosint/osint-skills",
-          "homepage": "https://www.skills.sh/useosint/osint-skills",
-          "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
-          "stars": 2,
+          "id": 1318434920,
+          "name": "lattice",
+          "fullName": "moulwyse/lattice",
+          "url": "https://github.com/moulwyse/lattice",
+          "homepage": "",
+          "description": "Bounded, auditable repository context and verified patch execution for coding agents.",
+          "stars": 6,
           "forks": 1,
-          "openIssues": 1,
-          "language": "Shell",
-          "createdAt": "2026-08-02T09:21:29Z",
-          "updatedAt": "2026-08-03T00:38:13Z",
+          "openIssues": 5,
+          "language": "TypeScript",
+          "createdAt": "2026-07-31T14:29:24Z",
+          "updatedAt": "2026-08-03T12:34:37Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 63.72
+          "score": 58
         },
         {
           "id": 1318845961,
@@ -313,7 +361,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.09
+          "score": 57.07
         },
         {
           "id": 1320160167,
@@ -340,57 +388,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 60.57
-        },
-        {
-          "id": 1319843405,
-          "name": "catcard",
-          "fullName": "TibaneLabs/catcard",
-          "url": "https://github.com/TibaneLabs/catcard",
-          "homepage": "",
-          "description": "Clean-room open-source Rust firmware for Coldcard hardware wallets. MIT licensed, no-std, Cortex-M4F.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-08-02T05:20:59Z",
-          "updatedAt": "2026-08-03T02:29:25Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 59.34
-        },
-        {
-          "id": 1318434920,
-          "name": "lattice",
-          "fullName": "moulwyse/lattice",
-          "url": "https://github.com/moulwyse/lattice",
-          "homepage": "",
-          "description": "Bounded, auditable repository context and verified patch execution for coding agents.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 5,
-          "language": "TypeScript",
-          "createdAt": "2026-07-31T14:29:24Z",
-          "updatedAt": "2026-08-03T03:39:15Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 58.05
+          "score": 56.22
         }
       ]
     },
@@ -403,42 +401,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-07-27",
-      "totalCandidates": 20,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1785732369"
+          "rateLimitReset": "1785772504"
         }
       ],
       "repositories": [
@@ -449,12 +447,12 @@
           "url": "https://github.com/dinosn/security-research-orchestrator-prompt",
           "homepage": "",
           "description": "High-assurance, artifact-agnostic prompt for authorized security labs, exploit-chain research, PoC validation, and evidence-led reporting.",
-          "stars": 17,
+          "stars": 20,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-01T13:03:36Z",
-          "updatedAt": "2026-08-03T01:44:05Z",
+          "updatedAt": "2026-08-03T15:36:17Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -469,7 +467,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 113.66
+          "score": 116.11
         },
         {
           "id": 1319600255,
@@ -478,12 +476,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 11,
+          "stars": 14,
           "forks": 1,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-03T04:19:40Z",
+          "updatedAt": "2026-08-03T15:19:48Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -498,7 +496,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 108.07
+          "score": 112.4
         },
         {
           "id": 1313463270,
@@ -523,7 +521,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 90.09
+          "score": 89.93
         },
         {
           "id": 1316537959,
@@ -548,7 +546,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 88.18
+          "score": 86.45
         },
         {
           "id": 1315625985,
@@ -574,7 +572,32 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 87.98
+          "score": 86.12
+        },
+        {
+          "id": 1321015213,
+          "name": "xorcise",
+          "fullName": "xorcise-ai/xorcise",
+          "url": "https://github.com/xorcise-ai/xorcise",
+          "homepage": "https://xorcise.ai",
+          "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 9,
+          "language": "Python",
+          "createdAt": "2026-08-03T00:15:52Z",
+          "updatedAt": "2026-08-03T09:27:17Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 83.79
         },
         {
           "id": 1321097781,
@@ -600,7 +623,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 82.67
+          "score": 80.94
         },
         {
           "id": 1315523341,
@@ -626,7 +649,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 79.2
+          "score": 77.48
         },
         {
           "id": 1316910704,
@@ -654,7 +677,57 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 76.66
+          "score": 74.73
+        },
+        {
+          "id": 1318434920,
+          "name": "lattice",
+          "fullName": "moulwyse/lattice",
+          "url": "https://github.com/moulwyse/lattice",
+          "homepage": "",
+          "description": "Bounded, auditable repository context and verified patch execution for coding agents.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 5,
+          "language": "TypeScript",
+          "createdAt": "2026-07-31T14:29:24Z",
+          "updatedAt": "2026-08-03T12:34:37Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 72.64
+        },
+        {
+          "id": 1317593076,
+          "name": "SafeIP",
+          "fullName": "AhmadJeddi/SafeIP",
+          "url": "https://github.com/AhmadJeddi/SafeIP",
+          "homepage": "https://ahmadjeddi.github.io/SafeIP",
+          "description": "A lightweight network security tool that verifies IP location, validates network safety, and prevents access to protected links when unexpected location changes are detected.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-30T18:56:01Z",
+          "updatedAt": "2026-08-03T08:27:07Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 70.86
         },
         {
           "id": 1318845961,
@@ -679,7 +752,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.9
+          "score": 70.17
         },
         {
           "id": 1315942673,
@@ -690,10 +763,10 @@
           "description": "Self-hosted database access-control proxy for MySQL and PostgreSQL: lineage-aware column masking, Cedar policy, fail-closed deny, tamper-evident audit trail.",
           "stars": 7,
           "forks": 2,
-          "openIssues": 12,
+          "openIssues": 11,
           "language": "Kotlin",
           "createdAt": "2026-07-29T09:28:48Z",
-          "updatedAt": "2026-08-02T13:23:47Z",
+          "updatedAt": "2026-08-03T13:18:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -704,32 +777,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.56
-        },
-        {
-          "id": 1318434920,
-          "name": "lattice",
-          "fullName": "moulwyse/lattice",
-          "url": "https://github.com/moulwyse/lattice",
-          "homepage": "",
-          "description": "Bounded, auditable repository context and verified patch execution for coding agents.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 5,
-          "language": "TypeScript",
-          "createdAt": "2026-07-31T14:29:24Z",
-          "updatedAt": "2026-08-03T03:39:15Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 70.9
+          "score": 69.83
         },
         {
           "id": 1316896183,
@@ -754,7 +802,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.58
+          "score": 68.71
+        },
+        {
+          "id": 1317581353,
+          "name": "identity-exposure-assessment",
+          "fullName": "Terminustrorivet/identity-exposure-assessment",
+          "url": "https://github.com/Terminustrorivet/identity-exposure-assessment",
+          "homepage": "https://faceseek.online",
+          "description": "Assess your online identity exposure. Comprehensive guide to understanding what personal data is publicly available and how to mitigate risks.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-07-30T18:40:14Z",
+          "updatedAt": "2026-08-03T13:26:01Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.63
         },
         {
           "id": 1314835940,
@@ -782,32 +855,32 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 69.75
+          "score": 67.71
         },
         {
-          "id": 1317593076,
-          "name": "SafeIP",
-          "fullName": "AhmadJeddi/SafeIP",
-          "url": "https://github.com/AhmadJeddi/SafeIP",
-          "homepage": "https://ahmadjeddi.github.io/SafeIP",
-          "description": "A lightweight network security tool that verifies IP location, validates network safety, and prevents access to protected links when unexpected location changes are detected.",
-          "stars": 5,
+          "id": 1314921521,
+          "name": "Codex-Skill-Manager",
+          "fullName": "bme-lyh/Codex-Skill-Manager",
+          "url": "https://github.com/bme-lyh/Codex-Skill-Manager",
+          "homepage": "",
+          "description": "Review, install, update, and recover Codex Skills on Windows.",
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-30T18:56:01Z",
-          "updatedAt": "2026-08-02T12:27:18Z",
+          "language": "Go",
+          "createdAt": "2026-07-28T11:54:23Z",
+          "updatedAt": "2026-08-03T13:53:16Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "逆向 / 恶意代码"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 68.98
+          "score": 67.63
         },
         {
           "id": 1316206152,
@@ -833,56 +906,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 67.91
-        },
-        {
-          "id": 1314921521,
-          "name": "Codex-Skill-Manager",
-          "fullName": "bme-lyh/Codex-Skill-Manager",
-          "url": "https://github.com/bme-lyh/Codex-Skill-Manager",
-          "homepage": "",
-          "description": "Review, install, update, and recover Codex Skills on Windows.",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-07-28T11:54:23Z",
-          "updatedAt": "2026-08-03T03:10:22Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 67.09
-        },
-        {
-          "id": 1314825132,
-          "name": "anticheat",
-          "fullName": "amandykovxd/anticheat",
-          "url": "https://github.com/amandykovxd/anticheat",
-          "homepage": "https://amandykovxd.github.io/anticheat/",
-          "description": "Hybrid Ring 0/3 Windows process-integrity telemetry: WDM callbacks, user-mode memory scanner, versioned IOCTL ABI, and tamper-evident JSONL.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 10,
-          "language": "C",
-          "createdAt": "2026-07-28T10:07:20Z",
-          "updatedAt": "2026-08-02T15:45:08Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 66.53
+          "score": 66.05
         }
       ]
     }
