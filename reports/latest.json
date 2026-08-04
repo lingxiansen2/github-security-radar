@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-04T04:28:40.381Z",
+  "generatedAt": "2026-08-04T15:36:05.366Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-08-01",
-      "totalCandidates": 24,
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 40,
-          "forks": 5,
+          "stars": 63,
+          "forks": 10,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-04T04:02:22Z",
+          "updatedAt": "2026-08-04T15:35:15Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -100,7 +100,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 133.48
+          "score": 146.25
         },
         {
           "id": 1319299763,
@@ -129,7 +129,86 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 98.38
+          "score": 94.72
+        },
+        {
+          "id": 1322400160,
+          "name": "coldcard-poc",
+          "fullName": "domaup/coldcard-poc",
+          "url": "https://github.com/domaup/coldcard-poc",
+          "homepage": "",
+          "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-04T02:03:17Z",
+          "updatedAt": "2026-08-04T14:21:56Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 77.98
+        },
+        {
+          "id": 1322906687,
+          "name": "CkSKILLS",
+          "fullName": "zhaji2333/CkSKILLS",
+          "url": "https://github.com/zhaji2333/CkSKILLS",
+          "homepage": "",
+          "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-04T12:08:59Z",
+          "updatedAt": "2026-08-04T14:24:16Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 75.29
+        },
+        {
+          "id": 1321917631,
+          "name": "spotlight",
+          "fullName": "CMUL8/spotlight",
+          "url": "https://github.com/CMUL8/spotlight",
+          "homepage": "https://github.com/CMUL8/spotlight",
+          "description": "Autonomous AI security engineer — multi-agent swarm that scans, exploits, fixes, verifies, and attests. Open source (Apache 2.0).",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-03T15:06:25Z",
+          "updatedAt": "2026-08-04T05:38:24Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 71.69
         },
         {
           "id": 1321015213,
@@ -143,7 +222,7 @@
           "openIssues": 7,
           "language": "Python",
           "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-04T03:09:33Z",
+          "updatedAt": "2026-08-04T07:27:13Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -154,7 +233,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.4
+          "score": 71.06
         },
         {
           "id": 1321097781,
@@ -180,85 +259,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 73.58
-        },
-        {
-          "id": 1321917631,
-          "name": "spotlight",
-          "fullName": "CMUL8/spotlight",
-          "url": "https://github.com/CMUL8/spotlight",
-          "homepage": "https://github.com/CMUL8/spotlight",
-          "description": "Autonomous AI security engineer — multi-agent swarm that scans, exploits, fixes, verifies, and attests. Open source (Apache 2.0).",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-03T15:06:25Z",
-          "updatedAt": "2026-08-03T18:03:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 71.7
-        },
-        {
-          "id": 1321854441,
-          "name": "threat-actor-explorer",
-          "fullName": "adulau/threat-actor-explorer",
-          "url": "https://github.com/adulau/threat-actor-explorer",
-          "homepage": "https://foo.be/threat-actor-explorer/misp-threat-actor-explorer.html",
-          "description": "A Threat-Actor explorer (browser-local) from the MISP galaxy dataset",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-03T14:06:40Z",
-          "updatedAt": "2026-08-03T20:39:09Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 65.68
-        },
-        {
-          "id": 1322278319,
-          "name": "vo-soc-harness",
-          "fullName": "danilotell/vo-soc-harness",
-          "url": "https://github.com/danilotell/vo-soc-harness",
-          "homepage": "",
-          "description": "Harness de operaciones de ciberseguridad sobre Trend Micro Vision One: agentes de IA que hacen triage, investigan IOCs, ejecutan la contención y documentan la alerta. Incluye el servidor MCP (FastMCP) que expone su API, VirusTotal y Slack como herramientas. Ninguna acción de respuesta corre sin autorización humana, garantizada en código.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-08-03T22:18:42Z",
-          "updatedAt": "2026-08-04T03:35:04Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 64.56
+          "score": 69.57
         },
         {
           "id": 1321115089,
@@ -267,12 +268,12 @@
           "url": "https://github.com/Ed-Marcavage/awesome-security-agent-harnesses",
           "homepage": "",
           "description": "AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engineering — harnesses, sandboxes, security MCP servers, benchmarks, and evals.",
-          "stars": 2,
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-03T02:33:32Z",
-          "updatedAt": "2026-08-03T21:26:27Z",
+          "updatedAt": "2026-08-04T13:31:08Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -288,7 +289,85 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 62.12
+          "score": 64.21
+        },
+        {
+          "id": 1322008239,
+          "name": "python-cybersecurity-libraries",
+          "fullName": "yogsec/python-cybersecurity-libraries",
+          "url": "https://github.com/yogsec/python-cybersecurity-libraries",
+          "homepage": "https://linktr.ee/abhinavsingwal",
+          "description": "A collection of Python libraries for cybersecurity, penetration testing, malware analysis, and digital forensics.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-03T16:32:56Z",
+          "updatedAt": "2026-08-04T12:33:01Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 57.97
+        },
+        {
+          "id": 1321822453,
+          "name": "twine-lang",
+          "fullName": "29anan29/twine-lang",
+          "url": "https://github.com/29anan29/twine-lang",
+          "homepage": "https://github.com/29anan29/twine-lang",
+          "description": "Twine the edge. Block beyond. A Python superset with compile-time safety: capability modifiers, Taint/Clean data flow, fuzzy narrowing — transpiled to pure Python.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-08-03T13:35:24Z",
+          "updatedAt": "2026-08-04T09:05:01Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 56.61
+        },
+        {
+          "id": 1319995142,
+          "name": "osint-skills",
+          "fullName": "useosint/osint-skills",
+          "url": "https://github.com/useosint/osint-skills",
+          "homepage": "https://www.skills.sh/useosint/osint-skills",
+          "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Shell",
+          "createdAt": "2026-08-02T09:21:29Z",
+          "updatedAt": "2026-08-03T06:23:26Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 56.38
         },
         {
           "id": 1321377390,
@@ -315,86 +394,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 60.86
-        },
-        {
-          "id": 1319995142,
-          "name": "osint-skills",
-          "fullName": "useosint/osint-skills",
-          "url": "https://github.com/useosint/osint-skills",
-          "homepage": "https://www.skills.sh/useosint/osint-skills",
-          "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Shell",
-          "createdAt": "2026-08-02T09:21:29Z",
-          "updatedAt": "2026-08-03T06:23:26Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 60.72
-        },
-        {
-          "id": 1320812437,
-          "name": "ReverseOps-Skill",
-          "fullName": "xAmirHamza77/ReverseOps-Skill",
-          "url": "https://github.com/xAmirHamza77/ReverseOps-Skill",
-          "homepage": "",
-          "description": "ReverseOps-Skill is an AI-powered security orchestration framework that routes AI agents to the right tools and workflows for reverse engineering, APK analysis, malware, pentesting, CTFs, firmware, exploit development, and JavaScript deobfuscation, delivering repeatable investigations with structured evidence and reports.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-08-02T21:48:19Z",
-          "updatedAt": "2026-08-03T01:44:52Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码",
-            "网络安全"
-          ],
-          "score": 60.09
-        },
-        {
-          "id": 1322162994,
-          "name": "devops-days-rio-de-janeiro2026",
-          "fullName": "amaurybsouza/devops-days-rio-de-janeiro2026",
-          "url": "https://github.com/amaurybsouza/devops-days-rio-de-janeiro2026",
-          "homepage": "https://amaurybsouza.medium.com/",
-          "description": "Repositório oficial contendo os materiais, demonstrações e laboratórios utilizados durante minha palestra no DevOps Days Rio de Janeiro 2026",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-03T19:24:12Z",
-          "updatedAt": "2026-08-03T23:21:21Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 58.72
+          "score": 56.36
         }
       ]
     },
@@ -407,42 +407,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-07-28",
-      "totalCandidates": 22,
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1785817773"
+          "rateLimitReset": "1785857817"
         }
       ],
       "repositories": [
@@ -453,12 +453,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 40,
-          "forks": 5,
+          "stars": 63,
+          "forks": 10,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-04T04:02:22Z",
+          "updatedAt": "2026-08-04T15:35:15Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -473,7 +473,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 147.16
+          "score": 162.64
+        },
+        {
+          "id": 1314921521,
+          "name": "Codex-Skill-Manager",
+          "fullName": "bme-lyh/Codex-Skill-Manager",
+          "url": "https://github.com/bme-lyh/Codex-Skill-Manager",
+          "homepage": "",
+          "description": "Review, install, update, and recover Codex Skills on Windows.",
+          "stars": 78,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-07-28T11:54:23Z",
+          "updatedAt": "2026-08-04T13:49:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 113.79
         },
         {
           "id": 1319299763,
@@ -502,7 +527,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 113.82
+          "score": 111.79
         },
         {
           "id": 1316537959,
@@ -527,7 +552,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 84.51
+          "score": 82.79
         },
         {
           "id": 1315625985,
@@ -553,7 +578,34 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 84.02
+          "score": 82.16
+        },
+        {
+          "id": 1322400160,
+          "name": "coldcard-poc",
+          "fullName": "domaup/coldcard-poc",
+          "url": "https://github.com/domaup/coldcard-poc",
+          "homepage": "",
+          "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-04T02:03:17Z",
+          "updatedAt": "2026-08-04T14:21:56Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 80.78
         },
         {
           "id": 1321015213,
@@ -567,7 +619,7 @@
           "openIssues": 7,
           "language": "Python",
           "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-04T03:09:33Z",
+          "updatedAt": "2026-08-04T07:27:13Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -578,7 +630,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 81.68
+          "score": 79.83
         },
         {
           "id": 1321097781,
@@ -604,21 +656,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 79
+          "score": 77.28
         },
         {
-          "id": 1317581353,
-          "name": "identity-exposure-assessment",
-          "fullName": "Terminustrorivet/identity-exposure-assessment",
-          "url": "https://github.com/Terminustrorivet/identity-exposure-assessment",
-          "homepage": "https://faceseek.online",
-          "description": "Assess your online identity exposure. Comprehensive guide to understanding what personal data is publicly available and how to mitigate risks.",
-          "stars": 7,
-          "forks": 7,
+          "id": 1322906687,
+          "name": "CkSKILLS",
+          "fullName": "zhaji2333/CkSKILLS",
+          "url": "https://github.com/zhaji2333/CkSKILLS",
+          "homepage": "",
+          "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
+          "stars": 5,
+          "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-07-30T18:40:14Z",
-          "updatedAt": "2026-08-03T13:26:01Z",
+          "createdAt": "2026-08-04T12:08:59Z",
+          "updatedAt": "2026-08-04T14:24:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -629,7 +681,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 78.68
+          "score": 76
         },
         {
           "id": 1315523341,
@@ -655,7 +707,57 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 75.53
+          "score": 73.81
+        },
+        {
+          "id": 1315942673,
+          "name": "proxy-monster",
+          "fullName": "ridi-oss/proxy-monster",
+          "url": "https://github.com/ridi-oss/proxy-monster",
+          "homepage": "",
+          "description": "Self-hosted database access-control proxy for MySQL and PostgreSQL: lineage-aware column masking, Cedar policy, fail-closed deny, tamper-evident audit trail.",
+          "stars": 8,
+          "forks": 5,
+          "openIssues": 17,
+          "language": "Kotlin",
+          "createdAt": "2026-07-29T09:28:48Z",
+          "updatedAt": "2026-08-04T15:00:44Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 72.9
+        },
+        {
+          "id": 1316896183,
+          "name": "cyberthreat-visualizer",
+          "fullName": "0xh1tesh/cyberthreat-visualizer",
+          "url": "https://github.com/0xh1tesh/cyberthreat-visualizer",
+          "homepage": "",
+          "description": "Real-time cyberthreat intelligence platform with 3D globe visualization, multi-source OSINT fusion (AbuseIPDB, OTX, Shodan) and AI-powered threat classification",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-07-30T06:04:32Z",
+          "updatedAt": "2026-08-04T10:26:08Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 71.01
         },
         {
           "id": 1316910704,
@@ -683,32 +785,32 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 72.55
+          "score": 70.62
         },
         {
-          "id": 1318845961,
-          "name": "LANtern-Control",
-          "fullName": "humane125/LANtern-Control",
-          "url": "https://github.com/humane125/LANtern-Control",
-          "homepage": "",
-          "description": "Open-source SelfishNet alternative for Windows. Monitor devices, limit bandwidth, pause internet access, and block domains without router access.",
+          "id": 1317593076,
+          "name": "SafeIP",
+          "fullName": "AhmadJeddi/SafeIP",
+          "url": "https://github.com/AhmadJeddi/SafeIP",
+          "homepage": "https://ahmadjeddi.github.io/SafeIP",
+          "description": "A lightweight network security tool that verifies IP location, validates network safety, and prevents access to protected links when unexpected location changes are detected.",
           "stars": 7,
           "forks": 0,
           "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-08-01T00:23:38Z",
-          "updatedAt": "2026-08-04T00:43:13Z",
+          "language": "JavaScript",
+          "createdAt": "2026-07-30T18:56:01Z",
+          "updatedAt": "2026-08-04T12:44:04Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
+            "网络安全",
+            "逆向 / 恶意代码"
           ],
-          "score": 71.28
+          "score": 70.2
         },
         {
           "id": 1318434920,
@@ -722,7 +824,7 @@
           "openIssues": 5,
           "language": "TypeScript",
           "createdAt": "2026-07-31T14:29:24Z",
-          "updatedAt": "2026-08-03T12:34:37Z",
+          "updatedAt": "2026-08-04T05:12:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -733,46 +835,46 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.69
+          "score": 68.97
         },
         {
-          "id": 1315942673,
-          "name": "proxy-monster",
-          "fullName": "ridi-oss/proxy-monster",
-          "url": "https://github.com/ridi-oss/proxy-monster",
+          "id": 1318845961,
+          "name": "LANtern-Control",
+          "fullName": "humane125/LANtern-Control",
+          "url": "https://github.com/humane125/LANtern-Control",
           "homepage": "",
-          "description": "Self-hosted database access-control proxy for MySQL and PostgreSQL: lineage-aware column masking, Cedar policy, fail-closed deny, tamper-evident audit trail.",
-          "stars": 8,
-          "forks": 2,
-          "openIssues": 13,
-          "language": "Kotlin",
-          "createdAt": "2026-07-29T09:28:48Z",
-          "updatedAt": "2026-08-04T02:48:30Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 70.62
-        },
-        {
-          "id": 1317593076,
-          "name": "SafeIP",
-          "fullName": "AhmadJeddi/SafeIP",
-          "url": "https://github.com/AhmadJeddi/SafeIP",
-          "homepage": "https://ahmadjeddi.github.io/SafeIP",
-          "description": "A lightweight network security tool that verifies IP location, validates network safety, and prevents access to protected links when unexpected location changes are detected.",
+          "description": "Open-source SelfishNet alternative for Windows. Monitor devices, limit bandwidth, pause internet access, and block domains without router access.",
           "stars": 6,
           "forks": 0,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-30T18:56:01Z",
-          "updatedAt": "2026-08-03T08:27:07Z",
+          "language": "C#",
+          "createdAt": "2026-08-01T00:23:38Z",
+          "updatedAt": "2026-08-04T10:47:02Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 66.5
+        },
+        {
+          "id": 1316206152,
+          "name": "win_malware_analyzer",
+          "fullName": "Spellskite-coding/win_malware_analyzer",
+          "url": "https://github.com/Spellskite-coding/win_malware_analyzer",
+          "homepage": "",
+          "description": "Un script python qui automarise l'analyse statique sur des binaires Windows !",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-29T14:08:49Z",
+          "updatedAt": "2026-08-04T11:18:25Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -781,59 +883,10 @@
           ],
           "tags": [
             "网络安全",
-            "逆向 / 恶意代码"
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
           ],
-          "score": 68.76
-        },
-        {
-          "id": 1316896183,
-          "name": "cyberthreat-visualizer",
-          "fullName": "0xh1tesh/cyberthreat-visualizer",
-          "url": "https://github.com/0xh1tesh/cyberthreat-visualizer",
-          "homepage": "",
-          "description": "Real-time cyberthreat intelligence platform with 3D globe visualization, multi-source OSINT fusion (AbuseIPDB, OTX, Shodan) and AI-powered threat classification",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-30T06:04:32Z",
-          "updatedAt": "2026-08-02T05:23:41Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.61
-        },
-        {
-          "id": 1314921521,
-          "name": "Codex-Skill-Manager",
-          "fullName": "bme-lyh/Codex-Skill-Manager",
-          "url": "https://github.com/bme-lyh/Codex-Skill-Manager",
-          "homepage": "",
-          "description": "Review, install, update, and recover Codex Skills on Windows.",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-07-28T11:54:23Z",
-          "updatedAt": "2026-08-03T13:53:16Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 65.68
+          "score": 65.39
         },
         {
           "id": 1314835940,
@@ -861,59 +914,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 65.41
-        },
-        {
-          "id": 1318683469,
-          "name": "coldcard-mk3-rng-disclosure",
-          "fullName": "3z/coldcard-mk3-rng-disclosure",
-          "url": "https://github.com/3z/coldcard-mk3-rng-disclosure",
-          "homepage": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/",
-          "description": "Binary-verified reverse engineering of the COLDCARD Mk3 weak-RNG vulnerability (4.0.1-4.1.9): root cause at the linker boundary, bounded PoC, and seed-to-xpub pipeline",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-31T19:21:59Z",
-          "updatedAt": "2026-08-03T06:19:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 63.98
-        },
-        {
-          "id": 1316206152,
-          "name": "win_malware_analyzer",
-          "fullName": "Spellskite-coding/win_malware_analyzer",
-          "url": "https://github.com/Spellskite-coding/win_malware_analyzer",
-          "homepage": "",
-          "description": "Un script python qui automarise l'analyse statique sur des binaires Windows !",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-29T14:08:49Z",
-          "updatedAt": "2026-08-02T09:07:24Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 63.95
+          "score": 64.35
         }
       ]
     }
