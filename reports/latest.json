@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-04T15:36:05.366Z",
+  "generatedAt": "2026-08-05T04:27:48.763Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,407 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-01",
-      "totalCandidates": 25,
+      "createdSince": "2026-08-02",
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785857817"
+          "rateLimitReset": "1785904121"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 11,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785857817"
+          "rateLimitReset": "1785904121"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785857817"
+          "rateLimitReset": "1785904121"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785857817"
+          "rateLimitReset": "1785904121"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785857817"
+          "rateLimitReset": "1785904121"
+        }
+      ],
+      "repositories": [
+        {
+          "id": 1322400160,
+          "name": "coldcard-poc",
+          "fullName": "domaup/coldcard-poc",
+          "url": "https://github.com/domaup/coldcard-poc",
+          "homepage": "",
+          "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
+          "stars": 7,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-04T02:03:17Z",
+          "updatedAt": "2026-08-05T03:30:39Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 79.86
+        },
+        {
+          "id": 1323490949,
+          "name": "internetcondom",
+          "fullName": "orlyjamie/internetcondom",
+          "url": "https://github.com/orlyjamie/internetcondom",
+          "homepage": "",
+          "description": "Protection against npm supply-chain attacks. One command: Socket Firewall on every package manager, minimum release age, ignore-scripts.",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Shell",
+          "createdAt": "2026-08-05T00:40:38Z",
+          "updatedAt": "2026-08-05T04:23:53Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 75.16
+        },
+        {
+          "id": 1322906687,
+          "name": "CkSKILLS",
+          "fullName": "zhaji2333/CkSKILLS",
+          "url": "https://github.com/zhaji2333/CkSKILLS",
+          "homepage": "",
+          "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-04T12:08:59Z",
+          "updatedAt": "2026-08-04T14:24:16Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 70.64
+        },
+        {
+          "id": 1321917631,
+          "name": "spotlight",
+          "fullName": "CMUL8/spotlight",
+          "url": "https://github.com/CMUL8/spotlight",
+          "homepage": "https://github.com/CMUL8/spotlight",
+          "description": "Autonomous AI security engineer — multi-agent swarm that scans, exploits, fixes, verifies, and attests. Open source (Apache 2.0).",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-03T15:06:25Z",
+          "updatedAt": "2026-08-04T05:38:24Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 67.04
+        },
+        {
+          "id": 1322897843,
+          "name": "cybercrew-ip-scanner",
+          "fullName": "cybercrewinc/cybercrew-ip-scanner",
+          "url": "https://github.com/cybercrewinc/cybercrew-ip-scanner",
+          "homepage": "",
+          "description": "Fast, portable IP address and port scanner for VAPT. Single-file binary for Windows, Linux and macOS - no installation required.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-04T11:59:03Z",
+          "updatedAt": "2026-08-05T03:22:35Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "逆向 / 恶意代码",
+            "网络安全"
+          ],
+          "score": 66.14
+        },
+        {
+          "id": 1321015213,
+          "name": "xorcise",
+          "fullName": "xorcise-ai/xorcise",
+          "url": "https://github.com/xorcise-ai/xorcise",
+          "homepage": "https://xorcise.ai",
+          "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 10,
+          "language": "Python",
+          "createdAt": "2026-08-03T00:15:52Z",
+          "updatedAt": "2026-08-05T03:52:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 66.04
+        },
+        {
+          "id": 1321097781,
+          "name": "kernel-security-check-bsod-fix",
+          "fullName": "LinkEmuBewitch/kernel-security-check-bsod-fix",
+          "url": "https://github.com/LinkEmuBewitch/kernel-security-check-bsod-fix",
+          "homepage": "https://kernel-security-check-bsod-fix.kolmods.com/",
+          "description": "Kernel Security Check BSOD Fix — Kernel Security Check BSOD Fix Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-03T02:14:12Z",
+          "updatedAt": "2026-08-03T20:17:54Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 64.92
+        },
+        {
+          "id": 1321854441,
+          "name": "threat-actor-explorer",
+          "fullName": "adulau/threat-actor-explorer",
+          "url": "https://github.com/adulau/threat-actor-explorer",
+          "homepage": "https://foo.be/threat-actor-explorer/misp-threat-actor-explorer.html",
+          "description": "A Threat-Actor explorer (browser-local) from the MISP galaxy dataset",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-03T14:06:40Z",
+          "updatedAt": "2026-08-04T16:23:01Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 62.58
+        },
+        {
+          "id": 1321115089,
+          "name": "awesome-security-agent-harnesses",
+          "fullName": "Ed-Marcavage/awesome-security-agent-harnesses",
+          "url": "https://github.com/Ed-Marcavage/awesome-security-agent-harnesses",
+          "homepage": "",
+          "description": "AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engineering — harnesses, sandboxes, security MCP servers, benchmarks, and evals.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-03T02:33:32Z",
+          "updatedAt": "2026-08-05T03:31:31Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 58.73
+        },
+        {
+          "id": 1323287160,
+          "name": "Bastion-FlipperZero",
+          "fullName": "at0m-b0mb/Bastion-FlipperZero",
+          "url": "https://github.com/at0m-b0mb/Bastion-FlipperZero",
+          "homepage": "",
+          "description": "125 kHz badge grader for Flipper Zero. Hold an EM4100, HID Prox, Indala, AWID, ioProx, Gallagher or Nexwatch badge to the back and get a plain-English security grade with a full report. Read-only.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-08-04T19:00:14Z",
+          "updatedAt": "2026-08-05T02:17:38Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 58.58
+        },
+        {
+          "id": 1319995142,
+          "name": "osint-skills",
+          "fullName": "useosint/osint-skills",
+          "url": "https://github.com/useosint/osint-skills",
+          "homepage": "https://www.skills.sh/useosint/osint-skills",
+          "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Shell",
+          "createdAt": "2026-08-02T09:21:29Z",
+          "updatedAt": "2026-08-04T20:58:34Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 56.48
+        },
+        {
+          "id": 1322008239,
+          "name": "python-cybersecurity-libraries",
+          "fullName": "yogsec/python-cybersecurity-libraries",
+          "url": "https://github.com/yogsec/python-cybersecurity-libraries",
+          "homepage": "https://linktr.ee/abhinavsingwal",
+          "description": "A collection of Python libraries for cybersecurity, penetration testing, malware analysis, and digital forensics.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-03T16:32:56Z",
+          "updatedAt": "2026-08-04T12:33:01Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 52.95
+        }
+      ]
+    },
+    {
+      "window": {
+        "id": "7d",
+        "days": 7,
+        "label": "近 7 天新项目",
+        "minStars": 5,
+        "maxItems": 18
+      },
+      "createdSince": "2026-07-29",
+      "totalCandidates": 21,
+      "queryStats": [
+        {
+          "profile": "通用安全",
+          "query": "topic:security",
+          "fetched": 12,
+          "rateLimitRemaining": "24",
+          "rateLimitReset": "1785904121"
+        },
+        {
+          "profile": "网络安全",
+          "query": "topic:cybersecurity",
+          "fetched": 9,
+          "rateLimitRemaining": "23",
+          "rateLimitReset": "1785904121"
+        },
+        {
+          "profile": "渗透 / 红队",
+          "query": "topic:penetration-testing",
+          "fetched": 2,
+          "rateLimitRemaining": "22",
+          "rateLimitReset": "1785904121"
+        },
+        {
+          "profile": "防守 / 蓝队",
+          "query": "topic:defensive-security",
+          "fetched": 1,
+          "rateLimitRemaining": "21",
+          "rateLimitReset": "1785904121"
+        },
+        {
+          "profile": "AI 自动化 / Skill",
+          "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
+          "fetched": 0,
+          "rateLimitRemaining": "20",
+          "rateLimitReset": "1785904121"
         }
       ],
       "repositories": [
@@ -80,12 +444,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 63,
+          "stars": 65,
           "forks": 10,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-04T15:35:15Z",
+          "updatedAt": "2026-08-05T02:01:15Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -100,7 +464,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 146.25
+          "score": 161.22
         },
         {
           "id": 1319299763,
@@ -129,7 +493,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 94.72
+          "score": 109.44
         },
         {
           "id": 1322400160,
@@ -138,12 +502,12 @@
           "url": "https://github.com/domaup/coldcard-poc",
           "homepage": "",
           "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
-          "stars": 5,
+          "stars": 7,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-04T02:03:17Z",
-          "updatedAt": "2026-08-04T14:21:56Z",
+          "updatedAt": "2026-08-05T03:30:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -156,21 +520,21 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 77.98
+          "score": 85.31
         },
         {
-          "id": 1322906687,
-          "name": "CkSKILLS",
-          "fullName": "zhaji2333/CkSKILLS",
-          "url": "https://github.com/zhaji2333/CkSKILLS",
+          "id": 1316537959,
+          "name": "CVE-2026-57827",
+          "fullName": "shinthink/CVE-2026-57827",
+          "url": "https://github.com/shinthink/CVE-2026-57827",
           "homepage": "",
-          "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
-          "stars": 5,
-          "forks": 0,
+          "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
+          "stars": 14,
+          "forks": 2,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-04T12:08:59Z",
-          "updatedAt": "2026-08-04T14:24:16Z",
+          "language": "Python",
+          "createdAt": "2026-07-29T20:19:30Z",
+          "updatedAt": "2026-08-03T00:44:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -179,7 +543,84 @@
           ],
           "tags": [
             "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 80.79
+        },
+        {
+          "id": 1315625985,
+          "name": "shodan_reconsx",
+          "fullName": "DevCop95/shodan_reconsx",
+          "url": "https://github.com/DevCop95/shodan_reconsx",
+          "homepage": "",
+          "description": "Portable passive hostname reconnaissance through Shodan CTL",
+          "stars": 13,
+          "forks": 1,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-07-29T02:54:33Z",
+          "updatedAt": "2026-08-02T11:43:54Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 80.27
+        },
+        {
+          "id": 1321015213,
+          "name": "xorcise",
+          "fullName": "xorcise-ai/xorcise",
+          "url": "https://github.com/xorcise-ai/xorcise",
+          "homepage": "https://xorcise.ai",
+          "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 10,
+          "language": "Python",
+          "createdAt": "2026-08-03T00:15:52Z",
+          "updatedAt": "2026-08-05T03:52:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
             "AI 自动化 / Skill"
+          ],
+          "score": 77.68
+        },
+        {
+          "id": 1321097781,
+          "name": "kernel-security-check-bsod-fix",
+          "fullName": "LinkEmuBewitch/kernel-security-check-bsod-fix",
+          "url": "https://github.com/LinkEmuBewitch/kernel-security-check-bsod-fix",
+          "homepage": "https://kernel-security-check-bsod-fix.kolmods.com/",
+          "description": "Kernel Security Check BSOD Fix — Kernel Security Check BSOD Fix Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-03T02:14:12Z",
+          "updatedAt": "2026-08-03T20:17:54Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
           "score": 75.29
         },
@@ -208,455 +649,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 71.69
-        },
-        {
-          "id": 1321015213,
-          "name": "xorcise",
-          "fullName": "xorcise-ai/xorcise",
-          "url": "https://github.com/xorcise-ai/xorcise",
-          "homepage": "https://xorcise.ai",
-          "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 7,
-          "language": "Python",
-          "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-04T07:27:13Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 71.06
-        },
-        {
-          "id": 1321097781,
-          "name": "kernel-security-check-bsod-fix",
-          "fullName": "LinkEmuBewitch/kernel-security-check-bsod-fix",
-          "url": "https://github.com/LinkEmuBewitch/kernel-security-check-bsod-fix",
-          "homepage": "https://kernel-security-check-bsod-fix.kolmods.com/",
-          "description": "Kernel Security Check BSOD Fix — Kernel Security Check BSOD Fix Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-03T02:14:12Z",
-          "updatedAt": "2026-08-03T20:17:54Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 69.57
-        },
-        {
-          "id": 1321115089,
-          "name": "awesome-security-agent-harnesses",
-          "fullName": "Ed-Marcavage/awesome-security-agent-harnesses",
-          "url": "https://github.com/Ed-Marcavage/awesome-security-agent-harnesses",
-          "homepage": "",
-          "description": "AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engineering — harnesses, sandboxes, security MCP servers, benchmarks, and evals.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-03T02:33:32Z",
-          "updatedAt": "2026-08-04T13:31:08Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 64.21
-        },
-        {
-          "id": 1322008239,
-          "name": "python-cybersecurity-libraries",
-          "fullName": "yogsec/python-cybersecurity-libraries",
-          "url": "https://github.com/yogsec/python-cybersecurity-libraries",
-          "homepage": "https://linktr.ee/abhinavsingwal",
-          "description": "A collection of Python libraries for cybersecurity, penetration testing, malware analysis, and digital forensics.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-03T16:32:56Z",
-          "updatedAt": "2026-08-04T12:33:01Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 57.97
-        },
-        {
-          "id": 1321822453,
-          "name": "twine-lang",
-          "fullName": "29anan29/twine-lang",
-          "url": "https://github.com/29anan29/twine-lang",
-          "homepage": "https://github.com/29anan29/twine-lang",
-          "description": "Twine the edge. Block beyond. A Python superset with compile-time safety: capability modifiers, Taint/Clean data flow, fuzzy narrowing — transpiled to pure Python.",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-08-03T13:35:24Z",
-          "updatedAt": "2026-08-04T09:05:01Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 56.61
-        },
-        {
-          "id": 1319995142,
-          "name": "osint-skills",
-          "fullName": "useosint/osint-skills",
-          "url": "https://github.com/useosint/osint-skills",
-          "homepage": "https://www.skills.sh/useosint/osint-skills",
-          "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Shell",
-          "createdAt": "2026-08-02T09:21:29Z",
-          "updatedAt": "2026-08-03T06:23:26Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 56.38
-        },
-        {
-          "id": 1321377390,
-          "name": "network-security-lab-opnsense",
-          "fullName": "esmyy1818/network-security-lab-opnsense",
-          "url": "https://github.com/esmyy1818/network-security-lab-opnsense",
-          "homepage": "",
-          "description": "Enterprise network segmentation, OPNsense firewall rules, VLAN management, and MITM (ARP Spoofing) attack/defense lab case study",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-03T07:16:08Z",
-          "updatedAt": "2026-08-03T17:09:10Z",
-          "matchedProfiles": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.12
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 56.36
-        }
-      ]
-    },
-    {
-      "window": {
-        "id": "7d",
-        "days": 7,
-        "label": "近 7 天新项目",
-        "minStars": 5,
-        "maxItems": 18
-      },
-      "createdSince": "2026-07-28",
-      "totalCandidates": 21,
-      "queryStats": [
-        {
-          "profile": "通用安全",
-          "query": "topic:security",
-          "fetched": 12,
-          "rateLimitRemaining": "24",
-          "rateLimitReset": "1785857817"
-        },
-        {
-          "profile": "网络安全",
-          "query": "topic:cybersecurity",
-          "fetched": 8,
-          "rateLimitRemaining": "23",
-          "rateLimitReset": "1785857817"
-        },
-        {
-          "profile": "渗透 / 红队",
-          "query": "topic:penetration-testing",
-          "fetched": 3,
-          "rateLimitRemaining": "22",
-          "rateLimitReset": "1785857817"
-        },
-        {
-          "profile": "防守 / 蓝队",
-          "query": "topic:defensive-security",
-          "fetched": 1,
-          "rateLimitRemaining": "21",
-          "rateLimitReset": "1785857817"
-        },
-        {
-          "profile": "AI 自动化 / Skill",
-          "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
-          "fetched": 0,
-          "rateLimitRemaining": "20",
-          "rateLimitReset": "1785857817"
-        }
-      ],
-      "repositories": [
-        {
-          "id": 1319600255,
-          "name": "wraith",
-          "fullName": "Arcanum-Sec/wraith",
-          "url": "https://github.com/Arcanum-Sec/wraith",
-          "homepage": "https://arcanum-sec.com",
-          "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 63,
-          "forks": 10,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-04T15:35:15Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 162.64
-        },
-        {
-          "id": 1314921521,
-          "name": "Codex-Skill-Manager",
-          "fullName": "bme-lyh/Codex-Skill-Manager",
-          "url": "https://github.com/bme-lyh/Codex-Skill-Manager",
-          "homepage": "",
-          "description": "Review, install, update, and recover Codex Skills on Windows.",
-          "stars": 78,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-07-28T11:54:23Z",
-          "updatedAt": "2026-08-04T13:49:36Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 113.79
-        },
-        {
-          "id": 1319299763,
-          "name": "security-research-orchestrator-prompt",
-          "fullName": "dinosn/security-research-orchestrator-prompt",
-          "url": "https://github.com/dinosn/security-research-orchestrator-prompt",
-          "homepage": "",
-          "description": "High-assurance, artifact-agnostic prompt for authorized security labs, exploit-chain research, PoC validation, and evidence-led reporting.",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-01T13:03:36Z",
-          "updatedAt": "2026-08-03T15:36:17Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 111.79
-        },
-        {
-          "id": 1316537959,
-          "name": "CVE-2026-57827",
-          "fullName": "shinthink/CVE-2026-57827",
-          "url": "https://github.com/shinthink/CVE-2026-57827",
-          "homepage": "",
-          "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
-          "stars": 14,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-29T20:19:30Z",
-          "updatedAt": "2026-08-03T00:44:32Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 82.79
-        },
-        {
-          "id": 1315625985,
-          "name": "shodan_reconsx",
-          "fullName": "DevCop95/shodan_reconsx",
-          "url": "https://github.com/DevCop95/shodan_reconsx",
-          "homepage": "",
-          "description": "Portable passive hostname reconnaissance through Shodan CTL",
-          "stars": 13,
-          "forks": 1,
-          "openIssues": 2,
-          "language": "Python",
-          "createdAt": "2026-07-29T02:54:33Z",
-          "updatedAt": "2026-08-02T11:43:54Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 82.16
-        },
-        {
-          "id": 1322400160,
-          "name": "coldcard-poc",
-          "fullName": "domaup/coldcard-poc",
-          "url": "https://github.com/domaup/coldcard-poc",
-          "homepage": "",
-          "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
-          "stars": 5,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-04T02:03:17Z",
-          "updatedAt": "2026-08-04T14:21:56Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 80.78
-        },
-        {
-          "id": 1321015213,
-          "name": "xorcise",
-          "fullName": "xorcise-ai/xorcise",
-          "url": "https://github.com/xorcise-ai/xorcise",
-          "homepage": "https://xorcise.ai",
-          "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 7,
-          "language": "Python",
-          "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-04T07:27:13Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 79.83
-        },
-        {
-          "id": 1321097781,
-          "name": "kernel-security-check-bsod-fix",
-          "fullName": "LinkEmuBewitch/kernel-security-check-bsod-fix",
-          "url": "https://github.com/LinkEmuBewitch/kernel-security-check-bsod-fix",
-          "homepage": "https://kernel-security-check-bsod-fix.kolmods.com/",
-          "description": "Kernel Security Check BSOD Fix — Kernel Security Check BSOD Fix Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-03T02:14:12Z",
-          "updatedAt": "2026-08-03T20:17:54Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 77.28
+          "score": 74.75
         },
         {
           "id": 1322906687,
@@ -681,33 +674,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 76
-        },
-        {
-          "id": 1315523341,
-          "name": "AgentDoctor",
-          "fullName": "pranee54/AgentDoctor",
-          "url": "https://github.com/pranee54/AgentDoctor",
-          "homepage": "https://www.npmjs.com/package/@praneeth_54/agentdoctor",
-          "description": "Local CLI that audits coding-agent configuration for security, instructions, context, and MCP — no API key or code upload by default.",
-          "stars": 10,
-          "forks": 3,
-          "openIssues": 4,
-          "language": "TypeScript",
-          "createdAt": "2026-07-28T23:52:07Z",
-          "updatedAt": "2026-08-02T11:24:58Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 73.81
+          "score": 74.01
         },
         {
           "id": 1315942673,
@@ -718,10 +685,10 @@
           "description": "Self-hosted database access-control proxy for MySQL and PostgreSQL: lineage-aware column masking, Cedar policy, fail-closed deny, tamper-evident audit trail.",
           "stars": 8,
           "forks": 5,
-          "openIssues": 17,
+          "openIssues": 23,
           "language": "Kotlin",
           "createdAt": "2026-07-29T09:28:48Z",
-          "updatedAt": "2026-08-04T15:00:44Z",
+          "updatedAt": "2026-08-05T00:58:33Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -732,7 +699,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.9
+          "score": 70.91
         },
         {
           "id": 1316896183,
@@ -757,7 +724,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.01
+          "score": 68.86
         },
         {
           "id": 1316910704,
@@ -785,7 +752,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 70.62
+          "score": 68.39
         },
         {
           "id": 1317593076,
@@ -810,7 +777,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 70.2
+          "score": 68.05
         },
         {
           "id": 1318434920,
@@ -835,7 +802,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 68.97
+          "score": 66.98
+        },
+        {
+          "id": 1317602358,
+          "name": "Ordo",
+          "fullName": "Zeroska/Ordo",
+          "url": "https://github.com/Zeroska/Ordo",
+          "homepage": "",
+          "description": "An AI-powered intelligence analysis assistant built to support investigations, combining persistent memory with curated knowledge bases derived from my analytical methodology the more investigations it runs, the sharper it gets.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-07-30T19:08:41Z",
+          "updatedAt": "2026-08-05T01:37:52Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 65.36
         },
         {
           "id": 1318845961,
@@ -860,7 +852,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.5
+          "score": 64.51
         },
         {
           "id": 1316206152,
@@ -886,35 +878,33 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 65.39
+          "score": 63.24
         },
         {
-          "id": 1314835940,
-          "name": "liferay-ga4-rce-research",
-          "fullName": "dinosn/liferay-ga4-rce-research",
-          "url": "https://github.com/dinosn/liferay-ga4-rce-research",
-          "homepage": "",
-          "description": "Security research on Liferay CE 7.0.3 GA4: pre-auth RCE as root (CVE-2020-7961 class) reproduced end-to-end, plus 16 more findings — 8+ with no known CVE. Agentic loop-hunt: 25 generators, 22 judges, 9 live validators on Docker. Evidence trail + one-go checker included.",
+          "id": 1318683469,
+          "name": "coldcard-mk3-rng-disclosure",
+          "fullName": "3z/coldcard-mk3-rng-disclosure",
+          "url": "https://github.com/3z/coldcard-mk3-rng-disclosure",
+          "homepage": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/",
+          "description": "Binary-verified reverse engineering of the COLDCARD Mk3 weak-RNG vulnerability (4.0.1-4.1.9): root cause at the linker boundary, bounded PoC, and seed-to-xpub pipeline",
           "stars": 5,
-          "forks": 1,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-07-28T10:19:06Z",
-          "updatedAt": "2026-07-29T07:50:18Z",
+          "createdAt": "2026-07-31T19:21:59Z",
+          "updatedAt": "2026-08-03T06:19:37Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
+            "通用安全",
             "逆向 / 恶意代码",
-            "漏洞研究 / 攻防",
-            "网络安全"
+            "漏洞研究 / 攻防"
           ],
-          "score": 64.35
+          "score": 60.27
         }
       ]
     }
