@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-05T15:28:51.668Z",
+  "generatedAt": "2026-08-06T04:28:46.492Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-02",
-      "totalCandidates": 26,
+      "createdSince": "2026-08-03",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 7,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/domaup/coldcard-poc",
           "homepage": "",
           "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
-          "stars": 105,
-          "forks": 2,
-          "openIssues": 2,
+          "stars": 128,
+          "forks": 3,
+          "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-08-04T02:03:17Z",
-          "updatedAt": "2026-08-05T15:17:38Z",
+          "updatedAt": "2026-08-06T04:24:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -98,7 +98,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 140.17
+          "score": 142.19
         },
         {
           "id": 1323957541,
@@ -125,7 +125,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 121.52
+          "score": 116.83
         },
         {
           "id": 1323490949,
@@ -134,12 +134,12 @@
           "url": "https://github.com/orlyjamie/internetcondom",
           "homepage": "",
           "description": "Protection against npm supply-chain attacks. One command: Socket Firewall on every package manager, minimum release age, ignore-scripts.",
-          "stars": 10,
+          "stars": 11,
           "forks": 1,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-08-05T00:40:38Z",
-          "updatedAt": "2026-08-05T13:11:30Z",
+          "updatedAt": "2026-08-06T03:01:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -151,7 +151,57 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 89.18
+          "score": 86.57
+        },
+        {
+          "id": 1323878328,
+          "name": "happ-android-full-decompiled",
+          "fullName": "ded648238/happ-android-full-decompiled",
+          "url": "https://github.com/ded648238/happ-android-full-decompiled",
+          "homepage": "",
+          "description": "Full decompiled source of Happ Android proxy client (v4.0.1) — 2,252 Java + 11,583 Smali files, 100% complete. Includes DNSTT protocol, anti-filter, Xray config, JNI bridge.",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Smali",
+          "createdAt": "2026-08-05T09:39:54Z",
+          "updatedAt": "2026-08-06T03:02:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 79.55
+        },
+        {
+          "id": 1324276892,
+          "name": "url-safety-detection-system",
+          "fullName": "Lohithsp/url-safety-detection-system",
+          "url": "https://github.com/Lohithsp/url-safety-detection-system",
+          "homepage": "",
+          "description": "An explainable AI-powered URL safety detection system featuring a hybrid scanning pipeline. It classifies web links as Safe or Malicious in real time and provides explanations for its decisions.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-05T16:45:08Z",
+          "updatedAt": "2026-08-05T17:28:14Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 68.64
         },
         {
           "id": 1322906687,
@@ -176,7 +226,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.13
+          "score": 65.44
         },
         {
           "id": 1321015213,
@@ -185,12 +235,12 @@
           "url": "https://github.com/xorcise-ai/xorcise",
           "homepage": "https://xorcise.ai",
           "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
-          "stars": 7,
+          "stars": 8,
           "forks": 0,
-          "openIssues": 15,
+          "openIssues": 8,
           "language": "Python",
           "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-05T12:41:52Z",
+          "updatedAt": "2026-08-05T23:56:48Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -201,31 +251,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.05
-        },
-        {
-          "id": 1321854441,
-          "name": "threat-actor-explorer",
-          "fullName": "adulau/threat-actor-explorer",
-          "url": "https://github.com/adulau/threat-actor-explorer",
-          "homepage": "https://foo.be/threat-actor-explorer/misp-threat-actor-explorer.html",
-          "description": "A Threat-Actor explorer (browser-local) from the MISP galaxy dataset",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-03T14:06:40Z",
-          "updatedAt": "2026-08-05T10:31:52Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 63.4
+          "score": 64.58
         },
         {
           "id": 1321917631,
@@ -252,33 +278,58 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 63.06
+          "score": 58.37
         },
         {
-          "id": 1322897843,
-          "name": "cybercrew-ip-scanner",
-          "fullName": "cybercrewinc/cybercrew-ip-scanner",
-          "url": "https://github.com/cybercrewinc/cybercrew-ip-scanner",
-          "homepage": "",
-          "description": "Fast, portable IP address and port scanner for VAPT. Single-file binary for Windows, Linux and macOS - no installation required.",
-          "stars": 2,
-          "forks": 0,
+          "id": 1321854441,
+          "name": "threat-actor-explorer",
+          "fullName": "adulau/threat-actor-explorer",
+          "url": "https://github.com/adulau/threat-actor-explorer",
+          "homepage": "https://foo.be/threat-actor-explorer/misp-threat-actor-explorer.html",
+          "description": "A Threat-Actor explorer (browser-local) from the MISP galaxy dataset",
+          "stars": 4,
+          "forks": 1,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-04T11:59:03Z",
-          "updatedAt": "2026-08-05T03:22:35Z",
+          "language": "HTML",
+          "createdAt": "2026-08-03T14:06:40Z",
+          "updatedAt": "2026-08-05T10:31:52Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1.18
+            1.08
           ],
           "tags": [
-            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 58.33
+        },
+        {
+          "id": 1321841047,
+          "name": "securitycards",
+          "fullName": "Reware-Labs/securitycards",
+          "url": "https://github.com/Reware-Labs/securitycards",
+          "homepage": "https://securitycards.rewarelabs.com",
+          "description": "Security guidance based on library and version for developers and agents.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-03T13:53:59Z",
+          "updatedAt": "2026-08-05T16:06:26Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 61.44
+          "score": 57.4
         },
         {
           "id": 1321097781,
@@ -304,86 +355,33 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 60.94
+          "score": 57.06
         },
         {
-          "id": 1323287160,
-          "name": "Bastion-FlipperZero",
-          "fullName": "at0m-b0mb/Bastion-FlipperZero",
-          "url": "https://github.com/at0m-b0mb/Bastion-FlipperZero",
+          "id": 1322897843,
+          "name": "cybercrew-ip-scanner",
+          "fullName": "cybercrewinc/cybercrew-ip-scanner",
+          "url": "https://github.com/cybercrewinc/cybercrew-ip-scanner",
           "homepage": "",
-          "description": "125 kHz badge grader for Flipper Zero. Hold an EM4100, HID Prox, Indala, AWID, ioProx, Gallagher or Nexwatch badge to the back and get a plain-English security grade with a full report. Read-only.",
-          "stars": 3,
+          "description": "Fast, portable IP address and port scanner for VAPT. Single-file binary for Windows, Linux and macOS - no installation required.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-08-04T19:00:14Z",
-          "updatedAt": "2026-08-05T09:16:20Z",
+          "language": "Python",
+          "createdAt": "2026-08-04T11:59:03Z",
+          "updatedAt": "2026-08-05T03:22:35Z",
           "matchedProfiles": [
-            "通用安全"
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1
+            1.18
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 60.4
-        },
-        {
-          "id": 1321841047,
-          "name": "securitycards",
-          "fullName": "Reware-Labs/securitycards",
-          "url": "https://github.com/Reware-Labs/securitycards",
-          "homepage": "https://securitycards.rewarelabs.com",
-          "description": "Security guidance based on library and version for developers and agents.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-03T13:53:59Z",
-          "updatedAt": "2026-08-05T10:22:45Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
+            "渗透 / 红队",
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 58.63
-        },
-        {
-          "id": 1319995142,
-          "name": "osint-skills",
-          "fullName": "useosint/osint-skills",
-          "url": "https://github.com/useosint/osint-skills",
-          "homepage": "https://www.skills.sh/useosint/osint-skills",
-          "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Shell",
-          "createdAt": "2026-08-02T09:21:29Z",
-          "updatedAt": "2026-08-04T20:58:34Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 54.57
+          "score": 55.9
         }
       ]
     },
@@ -395,43 +393,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-29",
-      "totalCandidates": 21,
+      "createdSince": "2026-07-30",
+      "totalCandidates": 19,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1785943784"
+          "rateLimitReset": "1785990579"
         }
       ],
       "repositories": [
@@ -442,12 +440,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 70,
+          "stars": 72,
           "forks": 10,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-05T11:33:49Z",
+          "updatedAt": "2026-08-06T02:33:34Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -462,7 +460,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 161.41
+          "score": 159.87
         },
         {
           "id": 1322400160,
@@ -471,12 +469,12 @@
           "url": "https://github.com/domaup/coldcard-poc",
           "homepage": "",
           "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
-          "stars": 105,
-          "forks": 2,
-          "openIssues": 2,
+          "stars": 128,
+          "forks": 3,
+          "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-08-04T02:03:17Z",
-          "updatedAt": "2026-08-05T15:17:38Z",
+          "updatedAt": "2026-08-06T04:24:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -489,7 +487,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 147.89
+          "score": 152.6
         },
         {
           "id": 1323957541,
@@ -516,7 +514,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 122.4
+          "score": 120.39
         },
         {
           "id": 1319299763,
@@ -545,7 +543,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 108.79
+          "score": 106.41
         },
         {
           "id": 1323490949,
@@ -554,12 +552,12 @@
           "url": "https://github.com/orlyjamie/internetcondom",
           "homepage": "",
           "description": "Protection against npm supply-chain attacks. One command: Socket Firewall on every package manager, minimum release age, ignore-scripts.",
-          "stars": 10,
+          "stars": 11,
           "forks": 1,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-08-05T00:40:38Z",
-          "updatedAt": "2026-08-05T13:11:30Z",
+          "updatedAt": "2026-08-06T03:01:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -571,58 +569,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 92.24
-        },
-        {
-          "id": 1316537959,
-          "name": "CVE-2026-57827",
-          "fullName": "shinthink/CVE-2026-57827",
-          "url": "https://github.com/shinthink/CVE-2026-57827",
-          "homepage": "",
-          "description": "CVE-2026-57827 — RSFiles! Joomla Component Unauthenticated File Upload RCE. Split-controller upload bypass. CVSS 9.8 | CWE-434 | com_rsfiles < 1.17.12",
-          "stars": 15,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-29T20:19:30Z",
-          "updatedAt": "2026-08-05T04:55:48Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 80.66
-        },
-        {
-          "id": 1315625985,
-          "name": "shodan_reconsx",
-          "fullName": "DevCop95/shodan_reconsx",
-          "url": "https://github.com/DevCop95/shodan_reconsx",
-          "homepage": "",
-          "description": "Portable passive hostname reconnaissance through Shodan CTL",
-          "stars": 13,
-          "forks": 1,
-          "openIssues": 2,
-          "language": "Python",
-          "createdAt": "2026-07-29T02:54:33Z",
-          "updatedAt": "2026-08-02T11:43:54Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 80.27
+          "score": 92.31
         },
         {
           "id": 1321015213,
@@ -631,12 +578,12 @@
           "url": "https://github.com/xorcise-ai/xorcise",
           "homepage": "https://xorcise.ai",
           "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
-          "stars": 7,
+          "stars": 8,
           "forks": 0,
-          "openIssues": 15,
+          "openIssues": 8,
           "language": "Python",
           "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-05T12:41:52Z",
+          "updatedAt": "2026-08-05T23:56:48Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -647,7 +594,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.14
+          "score": 79.92
         },
         {
           "id": 1322906687,
@@ -672,32 +619,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.77
-        },
-        {
-          "id": 1315942673,
-          "name": "proxy-monster",
-          "fullName": "ridi-oss/proxy-monster",
-          "url": "https://github.com/ridi-oss/proxy-monster",
-          "homepage": "",
-          "description": "Self-hosted database access-control proxy for MySQL and PostgreSQL: lineage-aware column masking, Cedar policy, fail-closed deny, tamper-evident audit trail.",
-          "stars": 10,
-          "forks": 5,
-          "openIssues": 22,
-          "language": "Kotlin",
-          "createdAt": "2026-07-29T09:28:48Z",
-          "updatedAt": "2026-08-05T15:15:57Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 74.87
+          "score": 73.76
         },
         {
           "id": 1321097781,
@@ -723,7 +645,34 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 73.58
+          "score": 71.57
+        },
+        {
+          "id": 1321841047,
+          "name": "securitycards",
+          "fullName": "Reware-Labs/securitycards",
+          "url": "https://github.com/Reware-Labs/securitycards",
+          "homepage": "https://securitycards.rewarelabs.com",
+          "description": "Security guidance based on library and version for developers and agents.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-03T13:53:59Z",
+          "updatedAt": "2026-08-05T16:06:26Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "网络安全"
+          ],
+          "score": 70.32
         },
         {
           "id": 1317593076,
@@ -748,7 +697,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 69.17
+          "score": 66.99
         },
         {
           "id": 1316896183,
@@ -773,7 +722,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.02
+          "score": 64.85
         },
         {
           "id": 1316910704,
@@ -801,7 +750,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 66.48
+          "score": 64.23
         },
         {
           "id": 1318434920,
@@ -826,7 +775,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.28
+          "score": 63.26
         },
         {
           "id": 1317602358,
@@ -851,7 +800,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.52
+          "score": 61.35
         },
         {
           "id": 1318845961,
@@ -876,7 +825,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.81
+          "score": 60.8
         },
         {
           "id": 1318683469,
@@ -902,7 +851,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 62.03
+          "score": 60.02
         }
       ]
     }
