@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-06T15:29:08.874Z",
+  "generatedAt": "2026-08-07T04:02:48.589Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-03",
-      "totalCandidates": 23,
+      "createdSince": "2026-08-04",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 7,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/domaup/coldcard-poc",
           "homepage": "",
           "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
-          "stars": 146,
+          "stars": 159,
           "forks": 2,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-08-04T02:03:17Z",
-          "updatedAt": "2026-08-06T15:22:48Z",
+          "updatedAt": "2026-08-07T03:53:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -98,7 +98,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 139.93
+          "score": 138.3
         },
         {
           "id": 1323957541,
@@ -107,12 +107,12 @@
           "url": "https://github.com/Sentry-LLM/SentryLLM",
           "homepage": "http://www.sentryllm.xyz/",
           "description": "AI Security Monitor — Real-time threat detection, prompt injection defense, and behavioral analysis for LLM-powered systems",
-          "stars": 34,
+          "stars": 35,
           "forks": 1,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-08-05T11:13:46Z",
-          "updatedAt": "2026-08-05T12:13:15Z",
+          "updatedAt": "2026-08-07T01:00:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -125,7 +125,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 112.86
+          "score": 109.03
         },
         {
           "id": 1323490949,
@@ -151,7 +151,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 82.59
+          "score": 78.06
         },
         {
           "id": 1323878328,
@@ -175,21 +175,21 @@
           "tags": [
             "通用安全"
           ],
-          "score": 75.57
+          "score": 71.04
         },
         {
-          "id": 1321015213,
-          "name": "xorcise",
-          "fullName": "xorcise-ai/xorcise",
-          "url": "https://github.com/xorcise-ai/xorcise",
-          "homepage": "https://xorcise.ai",
-          "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
-          "stars": 8,
+          "id": 1324518131,
+          "name": "Malware-Research-Hub",
+          "fullName": "darama22/Malware-Research-Hub",
+          "url": "https://github.com/darama22/Malware-Research-Hub",
+          "homepage": "",
+          "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
+          "stars": 3,
           "forks": 0,
-          "openIssues": 9,
+          "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-06T07:24:29Z",
+          "createdAt": "2026-08-05T22:09:35Z",
+          "updatedAt": "2026-08-07T00:01:36Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -198,9 +198,10 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
           ],
-          "score": 64.58
+          "score": 61.56
         },
         {
           "id": 1324276892,
@@ -226,7 +227,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 64.35
+          "score": 59.45
         },
         {
           "id": 1324819996,
@@ -251,7 +252,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.38
+          "score": 58.49
         },
         {
           "id": 1322906687,
@@ -276,21 +277,46 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.46
+          "score": 56.93
         },
         {
-          "id": 1321841047,
-          "name": "securitycards",
-          "fullName": "Reware-Labs/securitycards",
-          "url": "https://github.com/Reware-Labs/securitycards",
-          "homepage": "https://securitycards.rewarelabs.com",
-          "description": "Security guidance based on library and version for developers and agents.",
-          "stars": 7,
+          "id": 1324099295,
+          "name": "nis2-quickscan",
+          "fullName": "Dxfferent/nis2-quickscan",
+          "url": "https://github.com/Dxfferent/nis2-quickscan",
+          "homepage": "https://dxffferent.com",
+          "description": "Gratis open-source NIS2/Cyberbeveiligingswet-quickscan waarmee MSP's het NIS2-gesprek met hun klanten voeren: Cbw-scope-indicatie, RTO/RPO-herstelprofielen en een gap-overzicht over 78 maatregelen. White-label, door Dxfferent - Gids in MSP-ondernemerschap.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-08-05T13:45:16Z",
+          "updatedAt": "2026-08-06T14:43:56Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 52.17
+        },
+        {
+          "id": 1323287160,
+          "name": "Bastion-FlipperZero",
+          "fullName": "at0m-b0mb/Bastion-FlipperZero",
+          "url": "https://github.com/at0m-b0mb/Bastion-FlipperZero",
+          "homepage": "",
+          "description": "125 kHz badge grader for Flipper Zero. Hold an EM4100, HID Prox, Indala, AWID, ioProx, Gallagher or Nexwatch badge to the back and get a plain-English security grade with a full report. Read-only.",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-03T13:53:59Z",
-          "updatedAt": "2026-08-06T08:28:17Z",
+          "language": "C",
+          "createdAt": "2026-08-04T19:00:14Z",
+          "updatedAt": "2026-08-06T16:17:01Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -300,36 +326,34 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 57.06
+          "score": 51.93
         },
         {
-          "id": 1321097781,
-          "name": "kernel-security-check-bsod-fix",
-          "fullName": "LinkEmuBewitch/kernel-security-check-bsod-fix",
-          "url": "https://github.com/LinkEmuBewitch/kernel-security-check-bsod-fix",
-          "homepage": "https://kernel-security-check-bsod-fix.kolmods.com/",
-          "description": "Kernel Security Check BSOD Fix — Kernel Security Check BSOD Fix Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
-          "stars": 7,
+          "id": 1322631274,
+          "name": "SOC-Log-Analysis-Datasets",
+          "fullName": "mahialjaber/SOC-Log-Analysis-Datasets",
+          "url": "https://github.com/mahialjaber/SOC-Log-Analysis-Datasets",
+          "homepage": "",
+          "description": "Curated, simulated dataset of security logs (Windows, Web, Firewall, Cloud) with embedded attack vectors for SOC analysts to practice SIEM ingestion, threat hunting, and log analysis.",
+          "stars": 4,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 2,
           "language": "Unknown",
-          "createdAt": "2026-08-03T02:14:12Z",
-          "updatedAt": "2026-08-03T20:17:54Z",
+          "createdAt": "2026-08-04T07:09:15Z",
+          "updatedAt": "2026-08-06T17:57:17Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 57.06
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 51.46
         },
         {
           "id": 1323792518,
@@ -354,31 +378,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 54.71
-        },
-        {
-          "id": 1321854441,
-          "name": "threat-actor-explorer",
-          "fullName": "adulau/threat-actor-explorer",
-          "url": "https://github.com/adulau/threat-actor-explorer",
-          "homepage": "https://foo.be/threat-actor-explorer/misp-threat-actor-explorer.html",
-          "description": "A Threat-Actor explorer (browser-local) from the MISP galaxy dataset",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-03T14:06:40Z",
-          "updatedAt": "2026-08-05T10:31:52Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 54.57
+          "score": 49.81
         }
       ]
     },
@@ -390,43 +390,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-30",
-      "totalCandidates": 19,
+      "createdSince": "2026-07-31",
+      "totalCandidates": 16,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786030201"
+          "rateLimitReset": "1786075421"
         }
       ],
       "repositories": [
@@ -437,12 +437,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 86,
-          "forks": 11,
+          "stars": 102,
+          "forks": 12,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-06T14:10:08Z",
+          "updatedAt": "2026-08-07T04:01:44Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -457,7 +457,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 163.77
+          "score": 167.14
         },
         {
           "id": 1322400160,
@@ -466,12 +466,12 @@
           "url": "https://github.com/domaup/coldcard-poc",
           "homepage": "",
           "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
-          "stars": 146,
+          "stars": 159,
           "forks": 2,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-08-04T02:03:17Z",
-          "updatedAt": "2026-08-06T15:22:48Z",
+          "updatedAt": "2026-08-07T03:53:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -484,7 +484,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 152.6
+          "score": 152.85
         },
         {
           "id": 1323957541,
@@ -493,12 +493,12 @@
           "url": "https://github.com/Sentry-LLM/SentryLLM",
           "homepage": "http://www.sentryllm.xyz/",
           "description": "AI Security Monitor — Real-time threat detection, prompt injection defense, and behavioral analysis for LLM-powered systems",
-          "stars": 34,
+          "stars": 35,
           "forks": 1,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-08-05T11:13:46Z",
-          "updatedAt": "2026-08-05T12:13:15Z",
+          "updatedAt": "2026-08-07T01:00:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -511,7 +511,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 118.69
+          "score": 117.45
         },
         {
           "id": 1319299763,
@@ -520,12 +520,12 @@
           "url": "https://github.com/dinosn/security-research-orchestrator-prompt",
           "homepage": "",
           "description": "High-assurance, artifact-agnostic prompt for authorized security labs, exploit-chain research, PoC validation, and evidence-led reporting.",
-          "stars": 21,
+          "stars": 22,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-01T13:03:36Z",
-          "updatedAt": "2026-08-05T12:35:49Z",
+          "updatedAt": "2026-08-06T16:01:20Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -540,7 +540,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 104.4
+          "score": 103.41
         },
         {
           "id": 1323490949,
@@ -566,7 +566,31 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 90.6
+          "score": 88.66
+        },
+        {
+          "id": 1323878328,
+          "name": "happ-android-full-decompiled",
+          "fullName": "ded648238/happ-android-full-decompiled",
+          "url": "https://github.com/ded648238/happ-android-full-decompiled",
+          "homepage": "",
+          "description": "Full decompiled source of Happ Android proxy client (v4.0.1) — 2,252 Java + 11,583 Smali files, 100% complete. Includes DNSTT protocol, anti-filter, Xray config, JNI bridge.",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Smali",
+          "createdAt": "2026-08-05T09:39:54Z",
+          "updatedAt": "2026-08-06T03:02:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 79.78
         },
         {
           "id": 1321015213,
@@ -577,10 +601,10 @@
           "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
           "stars": 8,
           "forks": 0,
-          "openIssues": 9,
+          "openIssues": 11,
           "language": "Python",
           "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-06T07:24:29Z",
+          "updatedAt": "2026-08-07T00:14:22Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -591,7 +615,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 78.08
+          "score": 75.98
         },
         {
           "id": 1322906687,
@@ -616,7 +640,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.06
+          "score": 70.11
         },
         {
           "id": 1321841047,
@@ -643,7 +667,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 71.67
+          "score": 69.73
         },
         {
           "id": 1321097781,
@@ -669,110 +693,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 69.87
-        },
-        {
-          "id": 1317593076,
-          "name": "SafeIP",
-          "fullName": "AhmadJeddi/SafeIP",
-          "url": "https://github.com/AhmadJeddi/SafeIP",
-          "homepage": "https://ahmadjeddi.github.io/SafeIP",
-          "description": "A lightweight network security tool that verifies IP location, validates network safety, and prevents access to protected links when unexpected location changes are detected.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-30T18:56:01Z",
-          "updatedAt": "2026-08-06T10:57:53Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 65.15
-        },
-        {
-          "id": 1316896183,
-          "name": "cyberthreat-visualizer",
-          "fullName": "0xh1tesh/cyberthreat-visualizer",
-          "url": "https://github.com/0xh1tesh/cyberthreat-visualizer",
-          "homepage": "",
-          "description": "Real-time cyberthreat intelligence platform with 3D globe visualization, multi-source OSINT fusion (AbuseIPDB, OTX, Shodan) and AI-powered threat classification",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-07-30T06:04:32Z",
-          "updatedAt": "2026-08-04T10:26:08Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 64.58
-        },
-        {
-          "id": 1316910704,
-          "name": "rust-security",
-          "fullName": "jeresoftx/rust-security",
-          "url": "https://github.com/jeresoftx/rust-security",
-          "homepage": "",
-          "description": "Curso de Jeresoft Academy sobre seguridad defensiva en Rust: amenazas, hardening, análisis y laboratorios éticos.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-07-30T06:21:18Z",
-          "updatedAt": "2026-08-02T17:36:23Z",
-          "matchedProfiles": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.12
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 63.91
-        },
-        {
-          "id": 1317602358,
-          "name": "Ordo",
-          "fullName": "Zeroska/Ordo",
-          "url": "https://github.com/Zeroska/Ordo",
-          "homepage": "",
-          "description": "An AI-powered intelligence analysis assistant built to support investigations, combining persistent memory with curated knowledge bases derived from my analytical methodology the more investigations it runs, the sharper it gets.",
-          "stars": 5,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-30T19:08:41Z",
-          "updatedAt": "2026-08-05T13:37:52Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 62.03
+          "score": 67.92
         },
         {
           "id": 1318434920,
@@ -797,7 +718,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.56
+          "score": 59.62
         },
         {
           "id": 1318845961,
@@ -822,7 +743,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 59.09
+          "score": 57.15
         },
         {
           "id": 1318683469,
@@ -848,7 +769,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 58.31
+          "score": 56.37
         }
       ]
     }
