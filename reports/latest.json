@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-07T14:19:08.899Z",
+  "generatedAt": "2026-08-08T02:59:34.008Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-04",
+      "createdSince": "2026-08-05",
       "totalCandidates": 21,
       "queryStats": [
         {
@@ -41,64 +41,63 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         }
       ],
       "repositories": [
         {
-          "id": 1322400160,
-          "name": "coldcard-poc",
-          "fullName": "domaup/coldcard-poc",
-          "url": "https://github.com/domaup/coldcard-poc",
+          "id": 1324518131,
+          "name": "Malware-Research-Hub",
+          "fullName": "darama22/Malware-Research-Hub",
+          "url": "https://github.com/darama22/Malware-Research-Hub",
           "homepage": "",
-          "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
-          "stars": 162,
-          "forks": 4,
-          "openIssues": 2,
+          "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
+          "stars": 25,
+          "forks": 8,
+          "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-04T02:03:17Z",
-          "updatedAt": "2026-08-07T13:58:39Z",
+          "createdAt": "2026-08-05T22:09:35Z",
+          "updatedAt": "2026-08-08T02:57:17Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 141.72
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 113.6
         },
         {
           "id": 1323957541,
@@ -125,21 +124,47 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 105.32
+          "score": 100.74
         },
         {
-          "id": 1324518131,
-          "name": "Malware-Research-Hub",
-          "fullName": "darama22/Malware-Research-Hub",
-          "url": "https://github.com/darama22/Malware-Research-Hub",
+          "id": 1326714312,
+          "name": "trustbin",
+          "fullName": "hunntr/trustbin",
+          "url": "https://github.com/hunntr/trustbin",
           "homepage": "",
-          "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 11,
-          "forks": 2,
+          "description": "Offensive security tools, built from source and hash verified with public CI and build provenance attestations. No mystery binaries.",
+          "stars": 3,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-07T13:59:04Z",
+          "createdAt": "2026-08-07T13:35:34Z",
+          "updatedAt": "2026-08-07T19:22:07Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 74.29
+        },
+        {
+          "id": 1326802583,
+          "name": "atlaslatino",
+          "fullName": "verovaleros/atlaslatino",
+          "url": "https://github.com/verovaleros/atlaslatino",
+          "homepage": "https://atlaslatino.org",
+          "description": "AtlasLatino is a grassroots effort to give visibility to the work of Latin American researchers and practitioners, across security, machine learning, data science, and more.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "JavaScript",
+          "createdAt": "2026-08-07T14:59:20Z",
+          "updatedAt": "2026-08-07T23:58:33Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -147,11 +172,9 @@
             1.08
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
+            "网络安全"
           ],
-          "score": 91.2
+          "score": 73.65
         },
         {
           "id": 1323490949,
@@ -177,7 +200,35 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 74.35
+          "score": 70.61
+        },
+        {
+          "id": 1326748341,
+          "name": "ai-assurance-profile",
+          "fullName": "Krishita17/ai-assurance-profile",
+          "url": "https://github.com/Krishita17/ai-assurance-profile",
+          "homepage": "",
+          "description": "A runnable evaluation harness + procurement standard for AI system assurance: probes an LLM/agent for prompt-injection, jailbreak, data-leakage, refusal reliability, and auditability, and emits a machine-readable assurance report with a gated authorization decision mapped to NIST AI RMF, SP 800-53, FedRAMP, OWASP LLM Top 10, and MITRE ATLAS.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-07T14:08:04Z",
+          "updatedAt": "2026-08-08T01:18:30Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.2
         },
         {
           "id": 1326281239,
@@ -206,7 +257,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 70.05
+          "score": 65.11
         },
         {
           "id": 1323878328,
@@ -230,122 +281,21 @@
           "tags": [
             "通用安全"
           ],
-          "score": 67.33
+          "score": 62.75
         },
         {
-          "id": 1324276892,
-          "name": "url-safety-detection-system",
-          "fullName": "Lohithsp/url-safety-detection-system",
-          "url": "https://github.com/Lohithsp/url-safety-detection-system",
+          "id": 1326805567,
+          "name": "global-threat-policy-tracker",
+          "fullName": "Krishita17/global-threat-policy-tracker",
+          "url": "https://github.com/Krishita17/global-threat-policy-tracker",
           "homepage": "",
-          "description": "An explainable AI-powered URL safety detection system featuring a hybrid scanning pipeline. It classifies web links as Safe or Malicious in real time and provides explanations for its decisions.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-05T16:45:08Z",
-          "updatedAt": "2026-08-05T17:28:14Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 55.45
-        },
-        {
-          "id": 1324819996,
-          "name": "Hermes-Agent-Mobile",
-          "fullName": "fengnanrui/Hermes-Agent-Mobile",
-          "url": "https://github.com/fengnanrui/Hermes-Agent-Mobile",
-          "homepage": "https://github.com/fengnanrui/Hermes-Agent-Mobile/releases/tag/v0.8.0-preview",
-          "description": "Hermes Agent Android 客户端与中文移动 Dashboard：模型/DeepSeek、QQ Bot、MCP、记忆、语音，以及可选 Root、Kali Linux/NetHunter 安全工具集成。",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-06T06:18:58Z",
-          "updatedAt": "2026-08-06T10:55:01Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54.48
-        },
-        {
-          "id": 1322906687,
-          "name": "CkSKILLS",
-          "fullName": "zhaji2333/CkSKILLS",
-          "url": "https://github.com/zhaji2333/CkSKILLS",
-          "homepage": "",
-          "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-04T12:08:59Z",
-          "updatedAt": "2026-08-05T09:14:20Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54
-        },
-        {
-          "id": 1322631274,
-          "name": "SOC-Log-Analysis-Datasets",
-          "fullName": "mahialjaber/SOC-Log-Analysis-Datasets",
-          "url": "https://github.com/mahialjaber/SOC-Log-Analysis-Datasets",
-          "homepage": "",
-          "description": "Curated, simulated dataset of security logs (Windows, Web, Firewall, Cloud) with embedded attack vectors for SOC analysts to practice SIEM ingestion, threat hunting, and log analysis.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 2,
-          "language": "Unknown",
-          "createdAt": "2026-08-04T07:09:15Z",
-          "updatedAt": "2026-08-06T17:57:17Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 50.25
-        },
-        {
-          "id": 1324137763,
-          "name": "From-LLMs-to-Secure-Agents",
-          "fullName": "RenatoMignone/From-LLMs-to-Secure-Agents",
-          "url": "https://github.com/RenatoMignone/From-LLMs-to-Secure-Agents",
-          "homepage": "",
-          "description": "A deep, visual, source-grounded guide from LLMs and agent architectures to secure agentic AI systems.",
+          "description": "Facts-only OSINT cyber-threat-intelligence catalog mapped to real cybersecurity & tech-policy frameworks (NIST CSF, EU NIS2/AI Act, Korea PIPA, FATF). Zero-dependency CLI, analytics & auto-generated dashboards.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-05T14:22:43Z",
-          "updatedAt": "2026-08-07T13:52:08Z",
+          "createdAt": "2026-08-07T15:02:05Z",
+          "updatedAt": "2026-08-07T15:11:23Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -356,21 +306,74 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 48.26
+          "score": 62.3
         },
         {
-          "id": 1323287160,
-          "name": "Bastion-FlipperZero",
-          "fullName": "at0m-b0mb/Bastion-FlipperZero",
-          "url": "https://github.com/at0m-b0mb/Bastion-FlipperZero",
+          "id": 1326738567,
+          "name": "federal-ai-incident-reporting",
+          "fullName": "Krishita17/federal-ai-incident-reporting",
+          "url": "https://github.com/Krishita17/federal-ai-incident-reporting",
+          "homepage": "https://krishita17.github.io/federal-ai-incident-reporting/",
+          "description": "A mandatory federal incident-reporting regime for AI security failures, built on a technically grounded, machine-readable taxonomy of how AI systems break. Policy framework + JSON Schema + MITRE ATLAS / OWASP / NIST crosswalk.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-07T13:58:11Z",
+          "updatedAt": "2026-08-07T15:11:25Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 61.88
+        },
+        {
+          "id": 1326563904,
+          "name": "devsecops-roadmap",
+          "fullName": "BlackPanda999/devsecops-roadmap",
+          "url": "https://github.com/BlackPanda999/devsecops-roadmap",
           "homepage": "",
-          "description": "125 kHz badge grader for Flipper Zero. Hold an EM4100, HID Prox, Indala, AWID, ioProx, Gallagher or Nexwatch badge to the back and get a plain-English security grade with a full report. Read-only.",
-          "stars": 4,
+          "description": "Free DevSecOps Engineer roadmap 2026 — CI/CD, secure coding, containers, Kubernetes, cloud, supply-chain security, and automation.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-07T11:02:59Z",
+          "updatedAt": "2026-08-07T14:24:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 60.74
+        },
+        {
+          "id": 1326092361,
+          "name": "Talos-FlipperZero",
+          "fullName": "at0m-b0mb/Talos-FlipperZero",
+          "url": "https://github.com/at0m-b0mb/Talos-FlipperZero",
+          "homepage": "",
+          "description": "iButton / Dallas key grader for Flipper Zero. Touch a 1-Wire key to the contact and find out what it actually proves - a plain-English security grade, the ROM's checksum verified, and sequentially issued keys called out. Strictly read-only.",
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "C",
-          "createdAt": "2026-08-04T19:00:14Z",
-          "updatedAt": "2026-08-06T16:17:01Z",
+          "createdAt": "2026-08-07T01:59:55Z",
+          "updatedAt": "2026-08-08T01:29:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -382,7 +385,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 48.22
+          "score": 58.77
         }
       ]
     },
@@ -394,43 +397,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-07-31",
-      "totalCandidates": 17,
+      "createdSince": "2026-08-01",
+      "totalCandidates": 14,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 12,
+          "fetched": 10,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 5,
+          "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786112402"
+          "rateLimitReset": "1786158027"
         }
       ],
       "repositories": [
@@ -441,12 +444,12 @@
           "url": "https://github.com/Arcanum-Sec/wraith",
           "homepage": "https://arcanum-sec.com",
           "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 104,
+          "stars": 107,
           "forks": 12,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-07T12:59:39Z",
+          "updatedAt": "2026-08-08T02:58:35Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -461,34 +464,33 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 165.84
+          "score": 164.39
         },
         {
-          "id": 1322400160,
-          "name": "coldcard-poc",
-          "fullName": "domaup/coldcard-poc",
-          "url": "https://github.com/domaup/coldcard-poc",
+          "id": 1324518131,
+          "name": "Malware-Research-Hub",
+          "fullName": "darama22/Malware-Research-Hub",
+          "url": "https://github.com/darama22/Malware-Research-Hub",
           "homepage": "",
-          "description": "Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 2026)",
-          "stars": 162,
-          "forks": 4,
-          "openIssues": 2,
+          "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
+          "stars": 25,
+          "forks": 8,
+          "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-04T02:03:17Z",
-          "updatedAt": "2026-08-07T13:58:39Z",
+          "createdAt": "2026-08-05T22:09:35Z",
+          "updatedAt": "2026-08-08T02:57:17Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 154.68
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 125.38
         },
         {
           "id": 1323957541,
@@ -515,7 +517,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 115.86
+          "score": 113.9
         },
         {
           "id": 1319299763,
@@ -544,33 +546,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 101.54
-        },
-        {
-          "id": 1324518131,
-          "name": "Malware-Research-Hub",
-          "fullName": "darama22/Malware-Research-Hub",
-          "url": "https://github.com/darama22/Malware-Research-Hub",
-          "homepage": "",
-          "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 11,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-07T13:59:04Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 100.15
+          "score": 99.22
         },
         {
           "id": 1323490949,
@@ -596,7 +572,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 87.07
+          "score": 85.11
         },
         {
           "id": 1323878328,
@@ -620,7 +596,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 78.19
+          "score": 76.23
         },
         {
           "id": 1321015213,
@@ -629,12 +605,12 @@
           "url": "https://github.com/xorcise-ai/xorcise",
           "homepage": "https://xorcise.ai",
           "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
-          "stars": 8,
+          "stars": 9,
           "forks": 0,
           "openIssues": 11,
           "language": "Python",
           "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-07T00:14:22Z",
+          "updatedAt": "2026-08-07T14:54:45Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -645,32 +621,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 74.26
-        },
-        {
-          "id": 1318434920,
-          "name": "lattice",
-          "fullName": "moulwyse/lattice",
-          "url": "https://github.com/moulwyse/lattice",
-          "homepage": "",
-          "description": "Bounded, auditable repository context and verified patch execution for coding agents.",
-          "stars": 10,
-          "forks": 1,
-          "openIssues": 5,
-          "language": "TypeScript",
-          "createdAt": "2026-07-31T14:29:24Z",
-          "updatedAt": "2026-08-07T10:12:21Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 68.56
+          "score": 74.82
         },
         {
           "id": 1322906687,
@@ -684,7 +635,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-04T12:08:59Z",
-          "updatedAt": "2026-08-05T09:14:20Z",
+          "updatedAt": "2026-08-07T15:17:08Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -695,7 +646,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 68.52
+          "score": 66.56
         },
         {
           "id": 1321841047,
@@ -706,10 +657,10 @@
           "description": "Security guidance based on library and version for developers and agents.",
           "stars": 7,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-08-03T13:53:59Z",
-          "updatedAt": "2026-08-06T08:28:17Z",
+          "updatedAt": "2026-08-07T22:46:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -722,7 +673,34 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 68.14
+          "score": 66.18
+        },
+        {
+          "id": 1321917631,
+          "name": "spotlight",
+          "fullName": "CMUL8/spotlight",
+          "url": "https://github.com/CMUL8/spotlight",
+          "homepage": "https://github.com/CMUL8/spotlight",
+          "description": "Autonomous AI security engineer — multi-agent swarm that scans, exploits, fixes, verifies, and attests. Open source (Apache 2.0).",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-03T15:06:25Z",
+          "updatedAt": "2026-08-04T05:38:24Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 63.84
         },
         {
           "id": 1321097781,
@@ -748,7 +726,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 63.27
+          "score": 61.31
         },
         {
           "id": 1318845961,
@@ -773,33 +751,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 55.56
-        },
-        {
-          "id": 1318683469,
-          "name": "coldcard-mk3-rng-disclosure",
-          "fullName": "3z/coldcard-mk3-rng-disclosure",
-          "url": "https://github.com/3z/coldcard-mk3-rng-disclosure",
-          "homepage": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/",
-          "description": "Binary-verified reverse engineering of the COLDCARD Mk3 weak-RNG vulnerability (4.0.1-4.1.9): root cause at the linker boundary, bounded PoC, and seed-to-xpub pipeline",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-07-31T19:21:59Z",
-          "updatedAt": "2026-08-05T14:06:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 54.78
+          "score": 54
         }
       ]
     }
