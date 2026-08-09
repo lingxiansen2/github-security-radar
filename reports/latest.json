@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-08T13:57:54.089Z",
+  "generatedAt": "2026-08-09T03:07:47.358Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,124 +33,72 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-05",
-      "totalCandidates": 23,
+      "createdSince": "2026-08-06",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         }
       ],
       "repositories": [
         {
-          "id": 1324518131,
-          "name": "Malware-Research-Hub",
-          "fullName": "darama22/Malware-Research-Hub",
-          "url": "https://github.com/darama22/Malware-Research-Hub",
+          "id": 1326089811,
+          "name": "TraceSurface",
+          "fullName": "pis10/TraceSurface",
+          "url": "https://github.com/pis10/TraceSurface",
           "homepage": "",
-          "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 35,
-          "forks": 12,
+          "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
+          "stars": 15,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-08T13:13:28Z",
+          "createdAt": "2026-08-07T01:56:16Z",
+          "updatedAt": "2026-08-08T15:10:41Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 120.45
-        },
-        {
-          "id": 1323957541,
-          "name": "SentryLLM",
-          "fullName": "Sentry-LLM/SentryLLM",
-          "url": "https://github.com/Sentry-LLM/SentryLLM",
-          "homepage": "http://www.sentryllm.xyz/",
-          "description": "AI Security Monitor — Real-time threat detection, prompt injection defense, and behavioral analysis for LLM-powered systems",
-          "stars": 35,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-05T11:13:46Z",
-          "updatedAt": "2026-08-07T01:00:18Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
+            1,
+            1.18
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "网络安全"
+            "渗透 / 红队"
           ],
-          "score": 97.77
-        },
-        {
-          "id": 1323490949,
-          "name": "internetcondom",
-          "fullName": "orlyjamie/internetcondom",
-          "url": "https://github.com/orlyjamie/internetcondom",
-          "homepage": "",
-          "description": "Protection against npm supply-chain attacks. One command: Socket Firewall on every package manager, minimum release age, ignore-scripts.",
-          "stars": 11,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-08-05T00:40:38Z",
-          "updatedAt": "2026-08-06T03:01:16Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 70.61
+          "score": 96.54
         },
         {
           "id": 1327530354,
@@ -159,12 +107,12 @@
           "url": "https://github.com/Antcipher/PathHound",
           "homepage": "https://antcipher.github.io/PathHound-Website/",
           "description": "High-speed asynchronous web endpoint and directory discovery tool built with Python.",
-          "stars": 2,
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-08T07:44:40Z",
-          "updatedAt": "2026-08-08T11:36:57Z",
+          "updatedAt": "2026-08-08T17:09:58Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -174,7 +122,90 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 70.51
+          "score": 77.32
+        },
+        {
+          "id": 1327994300,
+          "name": "wp2shell-Exploit-Waf-Bypass",
+          "fullName": "M4xSec/wp2shell-Exploit-Waf-Bypass",
+          "url": "https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass",
+          "homepage": "",
+          "description": "WordPress Pre-Auth RCE Exploit + Scanner + WAF Bypass | CVE-2026-63030 + CVE-2026-60137 | Go + Python + Metasploit modules + Docker lab",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-08-08T17:22:08Z",
+          "updatedAt": "2026-08-08T22:48:30Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 69
+        },
+        {
+          "id": 1327988189,
+          "name": "secs",
+          "fullName": "EvilFreelancer/secs",
+          "url": "https://github.com/EvilFreelancer/secs",
+          "homepage": "",
+          "description": "SECS (SECurity aSsistant) turns an AI coding agent (Claude Code, Cursor, Codex) into an authorized information-security assistant - 35 security Agent Skills, a Debian/Ubuntu/Kali toolchain installer, and a local Metasploitable 3 practice lab, under strict rules of engagement.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Makefile",
+          "createdAt": "2026-08-08T17:15:25Z",
+          "updatedAt": "2026-08-09T01:11:56Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.95
+        },
+        {
+          "id": 1326802583,
+          "name": "atlaslatino",
+          "fullName": "verovaleros/atlaslatino",
+          "url": "https://github.com/verovaleros/atlaslatino",
+          "homepage": "https://atlaslatino.org",
+          "description": "AtlasLatino is a grassroots effort to give visibility to the work of Latin American researchers and practitioners, across security, machine learning, data science, and more.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "JavaScript",
+          "createdAt": "2026-08-07T14:59:20Z",
+          "updatedAt": "2026-08-08T22:47:25Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 64.24
         },
         {
           "id": 1326714312,
@@ -200,31 +231,32 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 69.61
+          "score": 64
         },
         {
-          "id": 1326802583,
-          "name": "atlaslatino",
-          "fullName": "verovaleros/atlaslatino",
-          "url": "https://github.com/verovaleros/atlaslatino",
-          "homepage": "https://atlaslatino.org",
-          "description": "AtlasLatino is a grassroots effort to give visibility to the work of Latin American researchers and practitioners, across security, machine learning, data science, and more.",
-          "stars": 4,
+          "id": 1327760772,
+          "name": "Mekka",
+          "fullName": "yiaany/Mekka",
+          "url": "https://github.com/yiaany/Mekka",
+          "homepage": "",
+          "description": "The agent-native Supabase killer: SQLite speed today, distributed cloud next, without the PostgreSQL tax.",
+          "stars": 3,
           "forks": 0,
-          "openIssues": 1,
-          "language": "JavaScript",
-          "createdAt": "2026-08-07T14:59:20Z",
-          "updatedAt": "2026-08-07T23:58:33Z",
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-08T13:09:09Z",
+          "updatedAt": "2026-08-08T21:11:03Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 69.37
+          "score": 62.75
         },
         {
           "id": 1326748341,
@@ -252,7 +284,35 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.92
+          "score": 58.79
+        },
+        {
+          "id": 1326104549,
+          "name": "weaponAIzer",
+          "fullName": "urcuqui/weaponAIzer",
+          "url": "https://github.com/urcuqui/weaponAIzer",
+          "homepage": "",
+          "description": "Multi-agent framework for evidence-driven CVE research, exploitation, and validation.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-07T02:16:06Z",
+          "updatedAt": "2026-08-09T01:19:27Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 58.48
         },
         {
           "id": 1326281239,
@@ -281,31 +341,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 60.83
-        },
-        {
-          "id": 1323878328,
-          "name": "happ-android-full-decompiled",
-          "fullName": "ded648238/happ-android-full-decompiled",
-          "url": "https://github.com/ded648238/happ-android-full-decompiled",
-          "homepage": "",
-          "description": "Full decompiled source of Happ Android proxy client (v4.0.1) — 2,252 Java + 11,583 Smali files, 100% complete. Includes DNSTT protocol, anti-filter, Xray config, JNI bridge.",
-          "stars": 6,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Smali",
-          "createdAt": "2026-08-05T09:39:54Z",
-          "updatedAt": "2026-08-06T03:02:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 60.34
+          "score": 55.69
         },
         {
           "id": 1326805567,
@@ -330,7 +366,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 58.02
+          "score": 52.88
         },
         {
           "id": 1326738567,
@@ -346,42 +382,19 @@
           "createdAt": "2026-08-07T13:58:11Z",
           "updatedAt": "2026-08-07T15:11:25Z",
           "matchedProfiles": [
+            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
+            1,
             1.08
           ],
           "tags": [
+            "通用安全",
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 57.6
-        },
-        {
-          "id": 1326092361,
-          "name": "Talos-FlipperZero",
-          "fullName": "at0m-b0mb/Talos-FlipperZero",
-          "url": "https://github.com/at0m-b0mb/Talos-FlipperZero",
-          "homepage": "",
-          "description": "iButton / Dallas key grader for Flipper Zero. Touch a 1-Wire key to the contact and find out what it actually proves - a plain-English security grade, the ROM's checksum verified, and sequentially issued keys called out. Strictly read-only.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-08-07T01:59:55Z",
-          "updatedAt": "2026-08-08T01:29:23Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 54.81
+          "score": 52.47
         }
       ]
     },
@@ -393,75 +406,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-01",
-      "totalCandidates": 15,
+      "createdSince": "2026-08-02",
+      "totalCandidates": 13,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 11,
+          "fetched": 10,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786197526"
+          "rateLimitReset": "1786244920"
         }
       ],
       "repositories": [
-        {
-          "id": 1319600255,
-          "name": "wraith",
-          "fullName": "Arcanum-Sec/wraith",
-          "url": "https://github.com/Arcanum-Sec/wraith",
-          "homepage": "https://arcanum-sec.com",
-          "description": "WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.",
-          "stars": 112,
-          "forks": 12,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-01T20:18:50Z",
-          "updatedAt": "2026-08-08T12:16:54Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 163.76
-        },
         {
           "id": 1324518131,
           "name": "Malware-Research-Hub",
@@ -469,12 +453,12 @@
           "url": "https://github.com/darama22/Malware-Research-Hub",
           "homepage": "",
           "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 35,
-          "forks": 12,
+          "stars": 43,
+          "forks": 14,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-08T13:13:28Z",
+          "updatedAt": "2026-08-09T01:15:01Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -486,7 +470,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 134.67
+          "score": 138.85
         },
         {
           "id": 1323957541,
@@ -513,36 +497,34 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 112.2
+          "score": 110.17
         },
         {
-          "id": 1319299763,
-          "name": "security-research-orchestrator-prompt",
-          "fullName": "dinosn/security-research-orchestrator-prompt",
-          "url": "https://github.com/dinosn/security-research-orchestrator-prompt",
+          "id": 1326089811,
+          "name": "TraceSurface",
+          "fullName": "pis10/TraceSurface",
+          "url": "https://github.com/pis10/TraceSurface",
           "homepage": "",
-          "description": "High-assurance, artifact-agnostic prompt for authorized security labs, exploit-chain research, PoC validation, and evidence-led reporting.",
-          "stars": 22,
+          "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
+          "stars": 15,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-01T13:03:36Z",
-          "updatedAt": "2026-08-06T16:01:20Z",
+          "language": "Python",
+          "createdAt": "2026-08-07T01:56:16Z",
+          "updatedAt": "2026-08-08T15:10:41Z",
           "matchedProfiles": [
-            "网络安全",
+            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08,
+            1,
             1.18
           ],
           "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "通用安全",
+            "渗透 / 红队"
           ],
-          "score": 97.38
+          "score": 108.51
         },
         {
           "id": 1323490949,
@@ -551,12 +533,12 @@
           "url": "https://github.com/orlyjamie/internetcondom",
           "homepage": "",
           "description": "Protection against npm supply-chain attacks. One command: Socket Firewall on every package manager, minimum release age, ignore-scripts.",
-          "stars": 11,
+          "stars": 12,
           "forks": 1,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-08-05T00:40:38Z",
-          "updatedAt": "2026-08-06T03:01:16Z",
+          "updatedAt": "2026-08-08T17:46:00Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -568,7 +550,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 83.41
+          "score": 83.3
         },
         {
           "id": 1323878328,
@@ -592,7 +574,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 74.53
+          "score": 72.49
         },
         {
           "id": 1321015213,
@@ -617,7 +599,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.98
+          "score": 70.78
         },
         {
           "id": 1322906687,
@@ -642,7 +624,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.92
+          "score": 65.88
         },
         {
           "id": 1321841047,
@@ -651,12 +633,12 @@
           "url": "https://github.com/Reware-Labs/securitycards",
           "homepage": "https://securitycards.rewarelabs.com",
           "description": "Security guidance based on library and version for developers and agents.",
-          "stars": 7,
+          "stars": 8,
           "forks": 0,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-08-03T13:53:59Z",
-          "updatedAt": "2026-08-07T22:46:44Z",
+          "updatedAt": "2026-08-09T00:08:37Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -669,7 +651,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 64.48
+          "score": 65.18
         },
         {
           "id": 1321917631,
@@ -696,7 +678,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 62.14
+          "score": 60.1
         },
         {
           "id": 1323050230,
@@ -722,7 +704,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.77
+          "score": 59.74
         },
         {
           "id": 1321097781,
@@ -748,32 +730,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 59.61
-        },
-        {
-          "id": 1318845961,
-          "name": "LANtern-Control",
-          "fullName": "humane125/LANtern-Control",
-          "url": "https://github.com/humane125/LANtern-Control",
-          "homepage": "",
-          "description": "Open-source SelfishNet alternative for Windows. Monitor devices, limit bandwidth, pause internet access, and block domains without router access.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-08-01T00:23:38Z",
-          "updatedAt": "2026-08-04T10:47:02Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54
+          "score": 57.58
         }
       ]
     }
