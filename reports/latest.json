@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-10T03:18:11.860Z",
+  "generatedAt": "2026-08-10T14:32:13.684Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,100 @@
         "maxItems": 12
       },
       "createdSince": "2026-08-07",
-      "totalCandidates": 23,
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         }
       ],
       "repositories": [
+        {
+          "id": 1329535977,
+          "name": "ai-smart-contract-auditor",
+          "fullName": "iktok90-design/ai-smart-contract-auditor",
+          "url": "https://github.com/iktok90-design/ai-smart-contract-auditor",
+          "homepage": "",
+          "description": "AuditSentry — AI-powered smart contract security auditor for Claude Code. Automated vulnerability detection, exploit PoCs, mainnet-fork simulation, and professional audit reports for Solidity & Vyper across all EVM chains.",
+          "stars": 70,
+          "forks": 1,
+          "openIssues": 3,
+          "language": "JavaScript",
+          "createdAt": "2026-08-10T07:14:48Z",
+          "updatedAt": "2026-08-10T14:29:17Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 138.43
+        },
+        {
+          "id": 1329416756,
+          "name": "btcpay-scanner",
+          "fullName": "iktok90-design/btcpay-scanner",
+          "url": "https://github.com/iktok90-design/btcpay-scanner",
+          "homepage": "",
+          "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
+          "stars": 30,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-08-10T04:24:41Z",
+          "updatedAt": "2026-08-10T13:56:07Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 137.29
+        },
         {
           "id": 1326089811,
           "name": "TraceSurface",
@@ -80,12 +135,12 @@
           "url": "https://github.com/pis10/TraceSurface",
           "homepage": "",
           "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-          "stars": 25,
+          "stars": 26,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-07T01:56:16Z",
-          "updatedAt": "2026-08-09T15:54:02Z",
+          "updatedAt": "2026-08-10T08:59:15Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -98,7 +153,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 100.99
+          "score": 102.11
         },
         {
           "id": 1327587687,
@@ -107,12 +162,12 @@
           "url": "https://github.com/EternalBlue813/live-agent-monitoring",
           "homepage": "",
           "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
-          "stars": 12,
+          "stars": 13,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-08T09:10:00Z",
-          "updatedAt": "2026-08-10T00:21:45Z",
+          "updatedAt": "2026-08-10T08:15:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -123,7 +178,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 85.66
+          "score": 83.39
+        },
+        {
+          "id": 1329340682,
+          "name": "SimpleReconURL",
+          "fullName": "osintbrazuca/SimpleReconURL",
+          "url": "https://github.com/osintbrazuca/SimpleReconURL",
+          "homepage": "",
+          "description": "Ferramenta de extração e descoberta de URLs para fluxos de OSINT e reconhecimento",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-10T02:09:27Z",
+          "updatedAt": "2026-08-10T13:12:16Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 77.82
         },
         {
           "id": 1327988189,
@@ -132,12 +212,12 @@
           "url": "https://github.com/EvilFreelancer/secs",
           "homepage": "",
           "description": "SECS (SECurity aSsistant) turns an AI coding agent (Claude Code, Cursor, Codex) into an authorized information-security assistant - 35 security Agent Skills, a Debian/Ubuntu/Kali toolchain installer, and a local Metasploitable 3 practice lab, under strict rules of engagement.",
-          "stars": 4,
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "Makefile",
           "createdAt": "2026-08-08T17:15:25Z",
-          "updatedAt": "2026-08-09T10:45:12Z",
+          "updatedAt": "2026-08-10T10:18:14Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -154,7 +234,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 71.08
+          "score": 71.01
+        },
+        {
+          "id": 1328893828,
+          "name": "laravel-media-vault",
+          "fullName": "MohamedSamy902/laravel-media-vault",
+          "url": "https://github.com/MohamedSamy902/laravel-media-vault",
+          "homepage": "",
+          "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PHP",
+          "createdAt": "2026-08-09T14:39:00Z",
+          "updatedAt": "2026-08-10T11:59:23Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 63.9
         },
         {
           "id": 1327530354,
@@ -178,7 +283,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 67.02
+          "score": 62.24
         },
         {
           "id": 1327994300,
@@ -206,32 +311,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 65.54
-        },
-        {
-          "id": 1328893828,
-          "name": "laravel-media-vault",
-          "fullName": "MohamedSamy902/laravel-media-vault",
-          "url": "https://github.com/MohamedSamy902/laravel-media-vault",
-          "homepage": "",
-          "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-08-09T14:39:00Z",
-          "updatedAt": "2026-08-09T15:56:29Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 63.23
+          "score": 60.75
         },
         {
           "id": 1328264679,
@@ -256,7 +336,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.49
+          "score": 58.11
         },
         {
           "id": 1326802583,
@@ -280,7 +360,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 59.13
+          "score": 54.75
         },
         {
           "id": 1327760772,
@@ -305,87 +385,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 58.75
-        },
-        {
-          "id": 1328233224,
-          "name": "awesome-agent-skills",
-          "fullName": "DDW-X/awesome-agent-skills",
-          "url": "https://github.com/DDW-X/awesome-agent-skills",
-          "homepage": "",
-          "description": "<DDW-X> Agentic Knowledge Base: A massive, cross-IDE repository transforming leaked AI system prompts (GPT-5, Claude Fable, DeepSeek) into structured, token-efficient Agent Skills. Includes Domain-Specific Master Skills for Cybersecurity, Low-Level Sys-Programming, and Full-Stack.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-08T22:51:35Z",
-          "updatedAt": "2026-08-09T09:30:11Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 55.87
-        },
-        {
-          "id": 1326714312,
-          "name": "trustbin",
-          "fullName": "hunntr/trustbin",
-          "url": "https://github.com/hunntr/trustbin",
-          "homepage": "",
-          "description": "Offensive security tools, built from source and hash verified with public CI and build provenance attestations. No mystery binaries.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-07T13:35:34Z",
-          "updatedAt": "2026-08-07T19:22:07Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 53.7
-        },
-        {
-          "id": 1326281239,
-          "name": "AegisAgent",
-          "fullName": "c-zerooo/AegisAgent",
-          "url": "https://github.com/c-zerooo/AegisAgent",
-          "homepage": "",
-          "description": " Autonomous Multi-Agent Security Operations Center (SOC) powered by Agentic AI, FastAPI, and Orchestrated AI Agents.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-07T06:11:34Z",
-          "updatedAt": "2026-08-09T17:25:30Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 51.38
+          "score": 54.7
         }
       ]
     },
@@ -398,42 +398,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-08-03",
-      "totalCandidates": 18,
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786331944"
+          "rateLimitReset": "1786372386"
         }
       ],
       "repositories": [
@@ -444,12 +444,12 @@
           "url": "https://github.com/darama22/Malware-Research-Hub",
           "homepage": "",
           "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 52,
-          "forks": 19,
+          "stars": 66,
+          "forks": 23,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-10T01:43:58Z",
+          "updatedAt": "2026-08-10T14:30:11Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -461,7 +461,62 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 141.72
+          "score": 147.44
+        },
+        {
+          "id": 1329535977,
+          "name": "ai-smart-contract-auditor",
+          "fullName": "iktok90-design/ai-smart-contract-auditor",
+          "url": "https://github.com/iktok90-design/ai-smart-contract-auditor",
+          "homepage": "",
+          "description": "AuditSentry — AI-powered smart contract security auditor for Claude Code. Automated vulnerability detection, exploit PoCs, mainnet-fork simulation, and professional audit reports for Solidity & Vyper across all EVM chains.",
+          "stars": 70,
+          "forks": 1,
+          "openIssues": 3,
+          "language": "JavaScript",
+          "createdAt": "2026-08-10T07:14:48Z",
+          "updatedAt": "2026-08-10T14:29:17Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 139.93
+        },
+        {
+          "id": 1329416756,
+          "name": "btcpay-scanner",
+          "fullName": "iktok90-design/btcpay-scanner",
+          "url": "https://github.com/iktok90-design/btcpay-scanner",
+          "homepage": "",
+          "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
+          "stars": 30,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-08-10T04:24:41Z",
+          "updatedAt": "2026-08-10T13:56:07Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 139.75
         },
         {
           "id": 1326089811,
@@ -470,12 +525,12 @@
           "url": "https://github.com/pis10/TraceSurface",
           "homepage": "",
           "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-          "stars": 25,
+          "stars": 26,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-07T01:56:16Z",
-          "updatedAt": "2026-08-09T15:54:02Z",
+          "updatedAt": "2026-08-10T08:59:15Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -488,7 +543,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 118.28
+          "score": 117.34
         },
         {
           "id": 1323957541,
@@ -515,7 +570,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 107.12
+          "score": 105.38
         },
         {
           "id": 1327587687,
@@ -524,12 +579,12 @@
           "url": "https://github.com/EternalBlue813/live-agent-monitoring",
           "homepage": "",
           "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
-          "stars": 12,
+          "stars": 13,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-08T09:10:00Z",
-          "updatedAt": "2026-08-10T00:21:45Z",
+          "updatedAt": "2026-08-10T08:15:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -540,7 +595,38 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.35
+          "score": 94.4
+        },
+        {
+          "id": 1327988189,
+          "name": "secs",
+          "fullName": "EvilFreelancer/secs",
+          "url": "https://github.com/EvilFreelancer/secs",
+          "homepage": "",
+          "description": "SECS (SECurity aSsistant) turns an AI coding agent (Claude Code, Cursor, Codex) into an authorized information-security assistant - 35 security Agent Skills, a Debian/Ubuntu/Kali toolchain installer, and a local Metasploitable 3 practice lab, under strict rules of engagement.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Makefile",
+          "createdAt": "2026-08-08T17:15:25Z",
+          "updatedAt": "2026-08-10T10:18:14Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 82.04
         },
         {
           "id": 1323490949,
@@ -566,7 +652,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 79.55
+          "score": 77.82
         },
         {
           "id": 1325290208,
@@ -580,7 +666,7 @@
           "openIssues": 0,
           "language": "Jupyter Notebook",
           "createdAt": "2026-08-06T13:39:35Z",
-          "updatedAt": "2026-08-09T15:48:16Z",
+          "updatedAt": "2026-08-10T05:26:51Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -592,7 +678,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 75.39
+          "score": 73.51
         },
         {
           "id": 1326802583,
@@ -616,7 +702,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 72.57
+          "score": 70.7
         },
         {
           "id": 1321015213,
@@ -627,7 +713,7 @@
           "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
           "stars": 10,
           "forks": 0,
-          "openIssues": 11,
+          "openIssues": 12,
           "language": "Python",
           "createdAt": "2026-08-03T00:15:52Z",
           "updatedAt": "2026-08-09T10:51:33Z",
@@ -665,7 +751,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 68.75
+          "score": 67.01
         },
         {
           "id": 1322906687,
@@ -690,7 +776,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.14
+          "score": 64.4
         },
         {
           "id": 1321841047,
@@ -717,7 +803,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 61.43
+          "score": 59.79
         },
         {
           "id": 1321115089,
@@ -750,18 +836,42 @@
           "score": 59.63
         },
         {
+          "id": 1321854441,
+          "name": "threat-actor-explorer",
+          "fullName": "adulau/threat-actor-explorer",
+          "url": "https://github.com/adulau/threat-actor-explorer",
+          "homepage": "https://foo.be/threat-actor-explorer/misp-threat-actor-explorer.html",
+          "description": "A Threat-Actor explorer (browser-local) from the MISP galaxy dataset",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-03T14:06:40Z",
+          "updatedAt": "2026-08-10T12:32:56Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 58.89
+        },
+        {
           "id": 1321917631,
           "name": "spotlight",
           "fullName": "CMUL8/spotlight",
           "url": "https://github.com/CMUL8/spotlight",
           "homepage": "https://github.com/CMUL8/spotlight",
           "description": "Autonomous AI security engineer — multi-agent swarm that scans, exploits, fixes, verifies, and attests. Open source (Apache 2.0).",
-          "stars": 5,
+          "stars": 6,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-03T15:06:25Z",
-          "updatedAt": "2026-08-04T05:38:24Z",
+          "updatedAt": "2026-08-10T13:36:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -774,33 +884,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 56.36
-        },
-        {
-          "id": 1323050230,
-          "name": "vyql",
-          "fullName": "vyprai/vyql",
-          "url": "https://github.com/vyprai/vyql",
-          "homepage": "http://vyql.vyprsec.ai/",
-          "description": "Multi-language taint and graph security scanner. Follows tainted data through your code and shows why each finding is a finding.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "C",
-          "createdAt": "2026-08-04T14:35:40Z",
-          "updatedAt": "2026-08-08T11:20:14Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 55.99
+          "score": 58.09
         },
         {
           "id": 1321097781,
