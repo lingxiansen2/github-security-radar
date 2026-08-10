@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-09T13:59:36.578Z",
+  "generatedAt": "2026-08-10T03:18:11.860Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-06",
+      "createdSince": "2026-08-07",
       "totalCandidates": 23,
       "queryStats": [
         {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/pis10/TraceSurface",
           "homepage": "",
           "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-          "stars": 15,
+          "stars": 25,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-07T01:56:16Z",
-          "updatedAt": "2026-08-08T15:10:41Z",
+          "updatedAt": "2026-08-09T15:54:02Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -98,7 +98,32 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 91.91
+          "score": 100.99
+        },
+        {
+          "id": 1327587687,
+          "name": "live-agent-monitoring",
+          "fullName": "EternalBlue813/live-agent-monitoring",
+          "url": "https://github.com/EternalBlue813/live-agent-monitoring",
+          "homepage": "",
+          "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
+          "stars": 12,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-08T09:10:00Z",
+          "updatedAt": "2026-08-10T00:21:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 85.66
         },
         {
           "id": 1327988189,
@@ -129,7 +154,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 76.75
+          "score": 71.08
         },
         {
           "id": 1327530354,
@@ -153,7 +178,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 72.7
+          "score": 67.02
         },
         {
           "id": 1327994300,
@@ -162,23 +187,76 @@
           "url": "https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass",
           "homepage": "",
           "description": "WordPress Pre-Auth RCE Exploit + Scanner + WAF Bypass | CVE-2026-63030 + CVE-2026-60137 | Go + Python + Metasploit modules + Docker lab",
-          "stars": 2,
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-08-08T17:22:08Z",
-          "updatedAt": "2026-08-08T22:48:30Z",
+          "updatedAt": "2026-08-10T00:19:58Z",
           "matchedProfiles": [
+            "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1.08,
             1.18
           ],
           "tags": [
+            "网络安全",
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 64.37
+          "score": 65.54
+        },
+        {
+          "id": 1328893828,
+          "name": "laravel-media-vault",
+          "fullName": "MohamedSamy902/laravel-media-vault",
+          "url": "https://github.com/MohamedSamy902/laravel-media-vault",
+          "homepage": "",
+          "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PHP",
+          "createdAt": "2026-08-09T14:39:00Z",
+          "updatedAt": "2026-08-09T15:56:29Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 63.23
+        },
+        {
+          "id": 1328264679,
+          "name": "cchia-skills",
+          "fullName": "argorixlabs/cchia-skills",
+          "url": "https://github.com/argorixlabs/cchia-skills",
+          "homepage": "",
+          "description": "CCHIA Security Compiler and read-only security checks for AI, cloud, IAM, Kubernetes and agents",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 4,
+          "language": "Python",
+          "createdAt": "2026-08-08T23:47:57Z",
+          "updatedAt": "2026-08-09T20:06:00Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 62.49
         },
         {
           "id": 1326802583,
@@ -192,7 +270,7 @@
           "openIssues": 1,
           "language": "JavaScript",
           "createdAt": "2026-08-07T14:59:20Z",
-          "updatedAt": "2026-08-09T11:25:48Z",
+          "updatedAt": "2026-08-09T23:23:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -202,7 +280,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 64.32
+          "score": 59.13
         },
         {
           "id": 1327760772,
@@ -216,7 +294,7 @@
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-08-08T13:09:09Z",
-          "updatedAt": "2026-08-09T13:18:14Z",
+          "updatedAt": "2026-08-09T14:08:17Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -227,7 +305,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.56
+          "score": 58.75
         },
         {
           "id": 1328233224,
@@ -252,7 +330,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.06
+          "score": 55.87
         },
         {
           "id": 1326714312,
@@ -278,63 +356,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 59.37
-        },
-        {
-          "id": 1326748341,
-          "name": "ai-assurance-profile",
-          "fullName": "Krishita17/ai-assurance-profile",
-          "url": "https://github.com/Krishita17/ai-assurance-profile",
-          "homepage": "",
-          "description": "A runnable evaluation harness + procurement standard for AI system assurance: probes an LLM/agent for prompt-injection, jailbreak, data-leakage, refusal reliability, and auditability, and emits a machine-readable assurance report with a gated authorization decision mapped to NIST AI RMF, SP 800-53, FedRAMP, OWASP LLM Top 10, and MITRE ATLAS.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-07T14:08:04Z",
-          "updatedAt": "2026-08-08T01:18:30Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54.55
-        },
-        {
-          "id": 1326104549,
-          "name": "weaponAIzer",
-          "fullName": "urcuqui/weaponAIzer",
-          "url": "https://github.com/urcuqui/weaponAIzer",
-          "homepage": "",
-          "description": "Multi-agent framework for evidence-driven CVE research, exploitation, and validation.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-07T02:16:06Z",
-          "updatedAt": "2026-08-09T01:19:27Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 54.25
+          "score": 53.7
         },
         {
           "id": 1326281239,
@@ -343,12 +365,12 @@
           "url": "https://github.com/c-zerooo/AegisAgent",
           "homepage": "",
           "description": " Autonomous Multi-Agent Security Operations Center (SOC) powered by Agentic AI, FastAPI, and Orchestrated AI Agents.",
-          "stars": 3,
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-07T06:11:34Z",
-          "updatedAt": "2026-08-07T09:47:11Z",
+          "updatedAt": "2026-08-09T17:25:30Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -363,31 +385,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 51.46
-        },
-        {
-          "id": 1326991039,
-          "name": "network-traffic-analyzer",
-          "fullName": "krishbaloria11/network-traffic-analyzer",
-          "url": "https://github.com/krishbaloria11/network-traffic-analyzer",
-          "homepage": "",
-          "description": "Real-time network traffic monitoring dashboard built with Node.js and Server-Sent Events (SSE). Supports simulation and real-world modes using Suricata logs. Visualizes packets, detects threats, tracks source/destination activity, and delivers live cybersecurity insights for learning, analysis, and academic projects.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-07T17:42:20Z",
-          "updatedAt": "2026-08-09T10:33:04Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 49.69
+          "score": 51.38
         }
       ]
     },
@@ -399,43 +397,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-02",
-      "totalCandidates": 15,
+      "createdSince": "2026-08-03",
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 10,
+          "fetched": 11,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 5,
+          "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786284030"
+          "rateLimitReset": "1786331944"
         }
       ],
       "repositories": [
@@ -446,12 +444,12 @@
           "url": "https://github.com/darama22/Malware-Research-Hub",
           "homepage": "",
           "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 47,
-          "forks": 15,
+          "stars": 52,
+          "forks": 19,
           "openIssues": 0,
-          "language": "Python",
+          "language": "JavaScript",
           "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-09T07:10:40Z",
+          "updatedAt": "2026-08-10T01:43:58Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -463,34 +461,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 139.83
-        },
-        {
-          "id": 1323957541,
-          "name": "SentryLLM",
-          "fullName": "Sentry-LLM/SentryLLM",
-          "url": "https://github.com/Sentry-LLM/SentryLLM",
-          "homepage": "http://www.sentryllm.xyz/",
-          "description": "AI Security Monitor — Real-time threat detection, prompt injection defense, and behavioral analysis for LLM-powered systems",
-          "stars": 35,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-05T11:13:46Z",
-          "updatedAt": "2026-08-07T01:00:18Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "网络安全"
-          ],
-          "score": 108.49
+          "score": 141.72
         },
         {
           "id": 1326089811,
@@ -499,12 +470,12 @@
           "url": "https://github.com/pis10/TraceSurface",
           "homepage": "",
           "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-          "stars": 15,
+          "stars": 25,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-07T01:56:16Z",
-          "updatedAt": "2026-08-08T15:10:41Z",
+          "updatedAt": "2026-08-09T15:54:02Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -517,7 +488,59 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 106.53
+          "score": 118.28
+        },
+        {
+          "id": 1323957541,
+          "name": "SentryLLM",
+          "fullName": "Sentry-LLM/SentryLLM",
+          "url": "https://github.com/Sentry-LLM/SentryLLM",
+          "homepage": "http://www.sentryllm.xyz/",
+          "description": "AI Security Monitor — Real-time threat detection, prompt injection defense, and behavioral analysis for LLM-powered systems",
+          "stars": 36,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-05T11:13:46Z",
+          "updatedAt": "2026-08-09T18:33:43Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队",
+            "网络安全"
+          ],
+          "score": 107.12
+        },
+        {
+          "id": 1327587687,
+          "name": "live-agent-monitoring",
+          "fullName": "EternalBlue813/live-agent-monitoring",
+          "url": "https://github.com/EternalBlue813/live-agent-monitoring",
+          "homepage": "",
+          "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
+          "stars": 12,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-08T09:10:00Z",
+          "updatedAt": "2026-08-10T00:21:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 94.35
         },
         {
           "id": 1323490949,
@@ -543,7 +566,33 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 81.61
+          "score": 79.55
+        },
+        {
+          "id": 1325290208,
+          "name": "xai-attack-defense-framework",
+          "fullName": "mithinsagar/xai-attack-defense-framework",
+          "url": "https://github.com/mithinsagar/xai-attack-defense-framework",
+          "homepage": "",
+          "description": "Robustness analysis of post-hoc XAI explanations under adversarial perturbations — covering SHAP, LIME, and Integrated Gradients across phishing, intrusion detection, and fraud datasets, with four attack strategies and hybrid defense achieving 91.1% explanation drift reduction.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Jupyter Notebook",
+          "createdAt": "2026-08-06T13:39:35Z",
+          "updatedAt": "2026-08-09T15:48:16Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 75.39
         },
         {
           "id": 1326802583,
@@ -557,7 +606,7 @@
           "openIssues": 1,
           "language": "JavaScript",
           "createdAt": "2026-08-07T14:59:20Z",
-          "updatedAt": "2026-08-09T11:25:48Z",
+          "updatedAt": "2026-08-09T23:23:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -567,7 +616,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 74.8
+          "score": 72.57
         },
         {
           "id": 1321015213,
@@ -592,7 +641,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.41
+          "score": 69.69
         },
         {
           "id": 1323878328,
@@ -616,7 +665,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 70.81
+          "score": 68.75
         },
         {
           "id": 1322906687,
@@ -626,8 +675,8 @@
           "homepage": "",
           "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
           "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
+          "forks": 1,
+          "openIssues": 1,
           "language": "Unknown",
           "createdAt": "2026-08-04T12:08:59Z",
           "updatedAt": "2026-08-08T06:42:28Z",
@@ -641,7 +690,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 64.2
+          "score": 66.14
         },
         {
           "id": 1321841047,
@@ -668,7 +717,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 63.49
+          "score": 61.43
         },
         {
           "id": 1321115089,
@@ -698,7 +747,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 61.92
+          "score": 59.63
         },
         {
           "id": 1321917631,
@@ -725,7 +774,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 58.42
+          "score": 56.36
         },
         {
           "id": 1323050230,
@@ -751,7 +800,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 58.05
+          "score": 55.99
         },
         {
           "id": 1321097781,
@@ -777,7 +826,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 55.89
+          "score": 54
         }
       ]
     }
