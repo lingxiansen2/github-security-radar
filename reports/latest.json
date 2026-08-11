@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-10T14:32:13.684Z",
+  "generatedAt": "2026-08-11T03:10:26.535Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-07",
+      "createdSince": "2026-08-08",
       "totalCandidates": 25,
       "queryStats": [
         {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 7,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/iktok90-design/ai-smart-contract-auditor",
           "homepage": "",
           "description": "AuditSentry — AI-powered smart contract security auditor for Claude Code. Automated vulnerability detection, exploit PoCs, mainnet-fork simulation, and professional audit reports for Solidity & Vyper across all EVM chains.",
-          "stars": 70,
-          "forks": 1,
+          "stars": 75,
+          "forks": 3,
           "openIssues": 3,
           "language": "JavaScript",
           "createdAt": "2026-08-10T07:14:48Z",
-          "updatedAt": "2026-08-10T14:29:17Z",
+          "updatedAt": "2026-08-10T22:22:43Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -100,7 +100,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 138.43
+          "score": 139.61
         },
         {
           "id": 1329416756,
@@ -110,11 +110,11 @@
           "homepage": "",
           "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
           "stars": 30,
-          "forks": 1,
+          "forks": 2,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-10T04:24:41Z",
-          "updatedAt": "2026-08-10T13:56:07Z",
+          "updatedAt": "2026-08-10T22:24:45Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -126,34 +126,32 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 137.29
+          "score": 134.66
         },
         {
-          "id": 1326089811,
-          "name": "TraceSurface",
-          "fullName": "pis10/TraceSurface",
-          "url": "https://github.com/pis10/TraceSurface",
+          "id": 1329340682,
+          "name": "SimpleReconURL",
+          "fullName": "osintbrazuca/SimpleReconURL",
+          "url": "https://github.com/osintbrazuca/SimpleReconURL",
           "homepage": "",
-          "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-          "stars": 26,
-          "forks": 0,
+          "description": "Ferramenta de extração e descoberta de URLs para fluxos de OSINT e reconhecimento",
+          "stars": 10,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-07T01:56:16Z",
-          "updatedAt": "2026-08-10T08:59:15Z",
+          "createdAt": "2026-08-10T02:09:27Z",
+          "updatedAt": "2026-08-10T22:09:37Z",
           "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1,
-            1.18
+            1.08
           ],
           "tags": [
-            "通用安全",
+            "网络安全",
             "渗透 / 红队"
           ],
-          "score": 102.11
+          "score": 92.34
         },
         {
           "id": 1327587687,
@@ -178,32 +176,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 83.39
-        },
-        {
-          "id": 1329340682,
-          "name": "SimpleReconURL",
-          "fullName": "osintbrazuca/SimpleReconURL",
-          "url": "https://github.com/osintbrazuca/SimpleReconURL",
-          "homepage": "",
-          "description": "Ferramenta de extração e descoberta de URLs para fluxos de OSINT e reconhecimento",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-10T02:09:27Z",
-          "updatedAt": "2026-08-10T13:12:16Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 77.82
+          "score": 78.83
         },
         {
           "id": 1327988189,
@@ -212,12 +185,12 @@
           "url": "https://github.com/EvilFreelancer/secs",
           "homepage": "",
           "description": "SECS (SECurity aSsistant) turns an AI coding agent (Claude Code, Cursor, Codex) into an authorized information-security assistant - 35 security Agent Skills, a Debian/Ubuntu/Kali toolchain installer, and a local Metasploitable 3 practice lab, under strict rules of engagement.",
-          "stars": 5,
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Makefile",
           "createdAt": "2026-08-08T17:15:25Z",
-          "updatedAt": "2026-08-10T10:18:14Z",
+          "updatedAt": "2026-08-10T23:51:52Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -234,7 +207,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 71.01
+          "score": 73.33
         },
         {
           "id": 1328893828,
@@ -243,12 +216,12 @@
           "url": "https://github.com/MohamedSamy902/laravel-media-vault",
           "homepage": "",
           "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
-          "stars": 4,
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "PHP",
           "createdAt": "2026-08-09T14:39:00Z",
-          "updatedAt": "2026-08-10T11:59:23Z",
+          "updatedAt": "2026-08-10T19:15:10Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -259,7 +232,110 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 63.9
+          "score": 63.34
+        },
+        {
+          "id": 1329838647,
+          "name": "senior-securityengineer-cybersecuritybookmarks",
+          "fullName": "scottalt/senior-securityengineer-cybersecuritybookmarks",
+          "url": "https://github.com/scottalt/senior-securityengineer-cybersecuritybookmarks",
+          "homepage": "https://scottaltiparmak.com",
+          "description": "A senior security engineer's actual browser bookmarks. 40+ curated cybersecurity resources for recon, OSINT, exploitation, privilege escalation, and malware analysis.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-10T13:09:04Z",
+          "updatedAt": "2026-08-10T16:39:30Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 61.49
+        },
+        {
+          "id": 1329270991,
+          "name": "fscan-toolkit",
+          "fullName": "chu0119/fscan-toolkit",
+          "url": "https://github.com/chu0119/fscan-toolkit",
+          "homepage": "",
+          "description": "fscan 图形化管理工具套件 — 命令生成器 + 报告解析器，零依赖纯静态 HTML",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-09T23:35:59Z",
+          "updatedAt": "2026-08-11T03:04:21Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 61.41
+        },
+        {
+          "id": 1327994300,
+          "name": "wp2shell-Exploit-Waf-Bypass",
+          "fullName": "M4xSec/wp2shell-Exploit-Waf-Bypass",
+          "url": "https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass",
+          "homepage": "",
+          "description": "WordPress Pre-Auth RCE Exploit + Scanner + WAF Bypass | CVE-2026-63030 + CVE-2026-60137 | Go + Python + Metasploit modules + Docker lab",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-08-08T17:22:08Z",
+          "updatedAt": "2026-08-10T00:19:58Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 60.09
+        },
+        {
+          "id": 1330159477,
+          "name": "agent",
+          "fullName": "bomfather/agent",
+          "url": "https://github.com/bomfather/agent",
+          "homepage": "https://bomfather.dev/",
+          "description": "An eBPF based agent that block actions based on a policy",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-08-10T19:02:04Z",
+          "updatedAt": "2026-08-10T19:37:06Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 59.06
         },
         {
           "id": 1327530354,
@@ -283,98 +359,21 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 62.24
+          "score": 56.85
         },
         {
-          "id": 1327994300,
-          "name": "wp2shell-Exploit-Waf-Bypass",
-          "fullName": "M4xSec/wp2shell-Exploit-Waf-Bypass",
-          "url": "https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass",
+          "id": 1328625284,
+          "name": "DevSecOps-Roadmap",
+          "fullName": "siddhantbhattarai101/DevSecOps-Roadmap",
+          "url": "https://github.com/siddhantbhattarai101/DevSecOps-Roadmap",
           "homepage": "",
-          "description": "WordPress Pre-Auth RCE Exploit + Scanner + WAF Bypass | CVE-2026-63030 + CVE-2026-60137 | Go + Python + Metasploit modules + Docker lab",
+          "description": "DevSecOps Roadmap 2026 — a 22-step guide to becoming a DevSecOps engineer: curated resources, hands-on labs, portfolio projects, checklists, and working pipeline examples.",
           "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-08-08T17:22:08Z",
-          "updatedAt": "2026-08-10T00:19:58Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 60.75
-        },
-        {
-          "id": 1328264679,
-          "name": "cchia-skills",
-          "fullName": "argorixlabs/cchia-skills",
-          "url": "https://github.com/argorixlabs/cchia-skills",
-          "homepage": "",
-          "description": "CCHIA Security Compiler and read-only security checks for AI, cloud, IAM, Kubernetes and agents",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 4,
-          "language": "Python",
-          "createdAt": "2026-08-08T23:47:57Z",
-          "updatedAt": "2026-08-09T20:06:00Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 58.11
-        },
-        {
-          "id": 1326802583,
-          "name": "atlaslatino",
-          "fullName": "verovaleros/atlaslatino",
-          "url": "https://github.com/verovaleros/atlaslatino",
-          "homepage": "https://atlaslatino.org",
-          "description": "AtlasLatino is a grassroots effort to give visibility to the work of Latin American researchers and practitioners, across security, machine learning, data science, and more.",
-          "stars": 5,
-          "forks": 0,
+          "forks": 1,
           "openIssues": 1,
-          "language": "JavaScript",
-          "createdAt": "2026-08-07T14:59:20Z",
-          "updatedAt": "2026-08-09T23:23:30Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 54.75
-        },
-        {
-          "id": 1327760772,
-          "name": "Mekka",
-          "fullName": "yiaany/Mekka",
-          "url": "https://github.com/yiaany/Mekka",
-          "homepage": "",
-          "description": "The agent-native Supabase killer: SQLite speed today, distributed cloud next, without the PostgreSQL tax.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-08T13:09:09Z",
-          "updatedAt": "2026-08-09T14:08:17Z",
+          "language": "Python",
+          "createdAt": "2026-08-09T09:10:32Z",
+          "updatedAt": "2026-08-10T12:33:01Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -385,7 +384,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 54.7
+          "score": 56.63
         }
       ]
     },
@@ -397,43 +396,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-03",
-      "totalCandidates": 21,
+      "createdSince": "2026-08-04",
+      "totalCandidates": 19,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786372386"
+          "rateLimitReset": "1786417879"
         }
       ],
       "repositories": [
@@ -443,13 +442,13 @@
           "fullName": "darama22/Malware-Research-Hub",
           "url": "https://github.com/darama22/Malware-Research-Hub",
           "homepage": "",
-          "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,699 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 66,
-          "forks": 23,
+          "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,764 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
+          "stars": 80,
+          "forks": 28,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-10T14:30:11Z",
+          "updatedAt": "2026-08-11T00:51:20Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -461,7 +460,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 147.44
+          "score": 151.76
         },
         {
           "id": 1329535977,
@@ -470,12 +469,12 @@
           "url": "https://github.com/iktok90-design/ai-smart-contract-auditor",
           "homepage": "",
           "description": "AuditSentry — AI-powered smart contract security auditor for Claude Code. Automated vulnerability detection, exploit PoCs, mainnet-fork simulation, and professional audit reports for Solidity & Vyper across all EVM chains.",
-          "stars": 70,
-          "forks": 1,
+          "stars": 75,
+          "forks": 3,
           "openIssues": 3,
           "language": "JavaScript",
           "createdAt": "2026-08-10T07:14:48Z",
-          "updatedAt": "2026-08-10T14:29:17Z",
+          "updatedAt": "2026-08-10T22:22:43Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -490,7 +489,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 139.93
+          "score": 143.72
         },
         {
           "id": 1329416756,
@@ -500,11 +499,11 @@
           "homepage": "",
           "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
           "stars": 30,
-          "forks": 1,
+          "forks": 2,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-10T04:24:41Z",
-          "updatedAt": "2026-08-10T13:56:07Z",
+          "updatedAt": "2026-08-10T22:24:45Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -516,7 +515,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 139.75
+          "score": 140.2
         },
         {
           "id": 1326089811,
@@ -525,12 +524,12 @@
           "url": "https://github.com/pis10/TraceSurface",
           "homepage": "",
           "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-          "stars": 26,
+          "stars": 28,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-07T01:56:16Z",
-          "updatedAt": "2026-08-10T08:59:15Z",
+          "updatedAt": "2026-08-11T02:16:45Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -543,7 +542,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 117.34
+          "score": 117.15
         },
         {
           "id": 1323957541,
@@ -570,7 +569,32 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 105.38
+          "score": 103.42
+        },
+        {
+          "id": 1329340682,
+          "name": "SimpleReconURL",
+          "fullName": "osintbrazuca/SimpleReconURL",
+          "url": "https://github.com/osintbrazuca/SimpleReconURL",
+          "homepage": "",
+          "description": "Ferramenta de extração e descoberta de URLs para fluxos de OSINT e reconhecimento",
+          "stars": 10,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-10T02:09:27Z",
+          "updatedAt": "2026-08-10T22:09:37Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 97.91
         },
         {
           "id": 1327587687,
@@ -595,7 +619,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.4
+          "score": 92.45
         },
         {
           "id": 1327988189,
@@ -604,12 +628,12 @@
           "url": "https://github.com/EvilFreelancer/secs",
           "homepage": "",
           "description": "SECS (SECurity aSsistant) turns an AI coding agent (Claude Code, Cursor, Codex) into an authorized information-security assistant - 35 security Agent Skills, a Debian/Ubuntu/Kali toolchain installer, and a local Metasploitable 3 practice lab, under strict rules of engagement.",
-          "stars": 5,
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Makefile",
           "createdAt": "2026-08-08T17:15:25Z",
-          "updatedAt": "2026-08-10T10:18:14Z",
+          "updatedAt": "2026-08-10T23:51:52Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -626,7 +650,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 82.04
+          "score": 87.43
+        },
+        {
+          "id": 1322906687,
+          "name": "CkSKILLS",
+          "fullName": "zhaji2333/CkSKILLS",
+          "url": "https://github.com/zhaji2333/CkSKILLS",
+          "homepage": "",
+          "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
+          "stars": 13,
+          "forks": 3,
+          "openIssues": 1,
+          "language": "Unknown",
+          "createdAt": "2026-08-04T12:08:59Z",
+          "updatedAt": "2026-08-11T02:20:01Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.71
         },
         {
           "id": 1323490949,
@@ -652,7 +701,31 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 77.82
+          "score": 75.86
+        },
+        {
+          "id": 1326802583,
+          "name": "atlaslatino",
+          "fullName": "verovaleros/atlaslatino",
+          "url": "https://github.com/verovaleros/atlaslatino",
+          "homepage": "https://atlaslatino.org",
+          "description": "AtlasLatino is a grassroots effort to give visibility to the work of Latin American researchers and practitioners, across security, machine learning, data science, and more.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Nunjucks",
+          "createdAt": "2026-08-07T14:59:20Z",
+          "updatedAt": "2026-08-11T01:25:55Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 75.63
         },
         {
           "id": 1325290208,
@@ -678,56 +751,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 73.51
+          "score": 71.4
         },
         {
-          "id": 1326802583,
-          "name": "atlaslatino",
-          "fullName": "verovaleros/atlaslatino",
-          "url": "https://github.com/verovaleros/atlaslatino",
-          "homepage": "https://atlaslatino.org",
-          "description": "AtlasLatino is a grassroots effort to give visibility to the work of Latin American researchers and practitioners, across security, machine learning, data science, and more.",
+          "id": 1328893828,
+          "name": "laravel-media-vault",
+          "fullName": "MohamedSamy902/laravel-media-vault",
+          "url": "https://github.com/MohamedSamy902/laravel-media-vault",
+          "homepage": "",
+          "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
           "stars": 5,
           "forks": 0,
-          "openIssues": 1,
-          "language": "JavaScript",
-          "createdAt": "2026-08-07T14:59:20Z",
-          "updatedAt": "2026-08-09T23:23:30Z",
+          "openIssues": 0,
+          "language": "PHP",
+          "createdAt": "2026-08-09T14:39:00Z",
+          "updatedAt": "2026-08-10T19:15:10Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
+            "通用安全",
             "网络安全"
           ],
-          "score": 70.7
-        },
-        {
-          "id": 1321015213,
-          "name": "xorcise",
-          "fullName": "xorcise-ai/xorcise",
-          "url": "https://github.com/xorcise-ai/xorcise",
-          "homepage": "https://xorcise.ai",
-          "description": "Run cyber-AI agents against real missions in isolated environments. Record everything as OpenTelemetry evidence. Grade the evidence, not the claim.",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 12,
-          "language": "Python",
-          "createdAt": "2026-08-03T00:15:52Z",
-          "updatedAt": "2026-08-09T10:51:33Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 69.69
+          "score": 70.88
         },
         {
           "id": 1323878328,
@@ -751,166 +800,32 @@
           "tags": [
             "通用安全"
           ],
-          "score": 67.01
+          "score": 65.06
         },
         {
-          "id": 1322906687,
-          "name": "CkSKILLS",
-          "fullName": "zhaji2333/CkSKILLS",
-          "url": "https://github.com/zhaji2333/CkSKILLS",
+          "id": 1326946739,
+          "name": "Reconner",
+          "fullName": "rootdr-backup/Reconner",
+          "url": "https://github.com/rootdr-backup/Reconner",
           "homepage": "",
-          "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-08-04T12:08:59Z",
-          "updatedAt": "2026-08-08T06:42:28Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 64.4
-        },
-        {
-          "id": 1321841047,
-          "name": "securitycards",
-          "fullName": "Reware-Labs/securitycards",
-          "url": "https://github.com/Reware-Labs/securitycards",
-          "homepage": "https://securitycards.rewarelabs.com",
-          "description": "Security guidance based on library and version for developers and agents.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "TypeScript",
-          "createdAt": "2026-08-03T13:53:59Z",
-          "updatedAt": "2026-08-09T00:08:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "网络安全"
-          ],
-          "score": 59.79
-        },
-        {
-          "id": 1321115089,
-          "name": "awesome-security-agent-harnesses",
-          "fullName": "Ed-Marcavage/awesome-security-agent-harnesses",
-          "url": "https://github.com/Ed-Marcavage/awesome-security-agent-harnesses",
-          "homepage": "",
-          "description": "AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engineering — harnesses, sandboxes, security MCP servers, benchmarks, and evals.",
+          "description": "Self-hosted bug-bounty watchtower — web + network recon, DAST, continuous monitoring. Your data stays on your machine.",
           "stars": 5,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-03T02:33:32Z",
-          "updatedAt": "2026-08-09T03:34:11Z",
+          "language": "Go",
+          "createdAt": "2026-08-07T16:57:04Z",
+          "updatedAt": "2026-08-10T18:51:58Z",
           "matchedProfiles": [
-            "网络安全",
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
             "渗透 / 红队"
           ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 59.63
-        },
-        {
-          "id": 1321854441,
-          "name": "threat-actor-explorer",
-          "fullName": "adulau/threat-actor-explorer",
-          "url": "https://github.com/adulau/threat-actor-explorer",
-          "homepage": "https://foo.be/threat-actor-explorer/misp-threat-actor-explorer.html",
-          "description": "A Threat-Actor explorer (browser-local) from the MISP galaxy dataset",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-03T14:06:40Z",
-          "updatedAt": "2026-08-10T12:32:56Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 58.89
-        },
-        {
-          "id": 1321917631,
-          "name": "spotlight",
-          "fullName": "CMUL8/spotlight",
-          "url": "https://github.com/CMUL8/spotlight",
-          "homepage": "https://github.com/CMUL8/spotlight",
-          "description": "Autonomous AI security engineer — multi-agent swarm that scans, exploits, fixes, verifies, and attests. Open source (Apache 2.0).",
-          "stars": 6,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-03T15:06:25Z",
-          "updatedAt": "2026-08-10T13:36:32Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 58.09
-        },
-        {
-          "id": 1321097781,
-          "name": "kernel-security-check-bsod-fix",
-          "fullName": "LinkEmuBewitch/kernel-security-check-bsod-fix",
-          "url": "https://github.com/LinkEmuBewitch/kernel-security-check-bsod-fix",
-          "homepage": "https://kernel-security-check-bsod-fix.kolmods.com/",
-          "description": "Kernel Security Check BSOD Fix — Kernel Security Check BSOD Fix Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-03T02:14:12Z",
-          "updatedAt": "2026-08-07T10:23:05Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 54
+          "score": 63.81
         }
       ]
     }
