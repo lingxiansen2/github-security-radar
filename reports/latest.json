@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-11T03:10:26.535Z",
+  "generatedAt": "2026-08-11T14:31:53.137Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         }
       ],
       "repositories": [
@@ -100,7 +100,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 139.61
+          "score": 135.51
         },
         {
           "id": 1329416756,
@@ -109,12 +109,12 @@
           "url": "https://github.com/iktok90-design/btcpay-scanner",
           "homepage": "",
           "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
-          "stars": 30,
+          "stars": 32,
           "forks": 2,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-10T04:24:41Z",
-          "updatedAt": "2026-08-10T22:24:45Z",
+          "updatedAt": "2026-08-11T14:29:15Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -126,46 +126,21 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 134.66
+          "score": 131.68
         },
         {
-          "id": 1329340682,
-          "name": "SimpleReconURL",
-          "fullName": "osintbrazuca/SimpleReconURL",
-          "url": "https://github.com/osintbrazuca/SimpleReconURL",
-          "homepage": "",
-          "description": "Ferramenta de extração e descoberta de URLs para fluxos de OSINT e reconhecimento",
-          "stars": 10,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-10T02:09:27Z",
-          "updatedAt": "2026-08-10T22:09:37Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 92.34
-        },
-        {
-          "id": 1327587687,
-          "name": "live-agent-monitoring",
-          "fullName": "EternalBlue813/live-agent-monitoring",
-          "url": "https://github.com/EternalBlue813/live-agent-monitoring",
-          "homepage": "",
-          "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
-          "stars": 13,
+          "id": 1330510119,
+          "name": "toolpermit",
+          "fullName": "sunhao123456sun-svg/toolpermit",
+          "url": "https://github.com/sunhao123456sun-svg/toolpermit",
+          "homepage": "https://pypi.org/project/toolpermit/",
+          "description": "A local-first permission firewall and approval layer for AI agent tool calls.",
+          "stars": 33,
           "forks": 2,
-          "openIssues": 0,
+          "openIssues": 2,
           "language": "Python",
-          "createdAt": "2026-08-08T09:10:00Z",
-          "updatedAt": "2026-08-10T08:15:07Z",
+          "createdAt": "2026-08-11T04:58:04Z",
+          "updatedAt": "2026-08-11T13:52:48Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -176,7 +151,82 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 78.83
+          "score": 121.21
+        },
+        {
+          "id": 1329806020,
+          "name": "oss-maintainer-kit",
+          "fullName": "Kane-Wan/oss-maintainer-kit",
+          "url": "https://github.com/Kane-Wan/oss-maintainer-kit",
+          "homepage": "https://github.com/Kane-Wan/oss-maintainer-kit#readme",
+          "description": "Repo Steward AI: safety-conscious PR review, issue triage, release notes, and verifiable maintainer pilots with the OpenAI Responses API.",
+          "stars": 34,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-10T12:32:50Z",
+          "updatedAt": "2026-08-11T12:03:23Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 116.02
+        },
+        {
+          "id": 1329340682,
+          "name": "SimpleReconURL",
+          "fullName": "osintbrazuca/SimpleReconURL",
+          "url": "https://github.com/osintbrazuca/SimpleReconURL",
+          "homepage": "",
+          "description": "Ferramenta de extração e descoberta de URLs para fluxos de OSINT e reconhecimento",
+          "stars": 11,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-10T02:09:27Z",
+          "updatedAt": "2026-08-11T14:29:39Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 90.15
+        },
+        {
+          "id": 1327587687,
+          "name": "live-agent-monitoring",
+          "fullName": "EternalBlue813/live-agent-monitoring",
+          "url": "https://github.com/EternalBlue813/live-agent-monitoring",
+          "homepage": "",
+          "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
+          "stars": 14,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-08T09:10:00Z",
+          "updatedAt": "2026-08-11T06:13:26Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 78.34
         },
         {
           "id": 1327988189,
@@ -185,12 +235,12 @@
           "url": "https://github.com/EvilFreelancer/secs",
           "homepage": "",
           "description": "SECS (SECurity aSsistant) turns an AI coding agent (Claude Code, Cursor, Codex) into an authorized information-security assistant - 35 security Agent Skills, a Debian/Ubuntu/Kali toolchain installer, and a local Metasploitable 3 practice lab, under strict rules of engagement.",
-          "stars": 7,
-          "forks": 0,
+          "stars": 8,
+          "forks": 1,
           "openIssues": 0,
           "language": "Makefile",
           "createdAt": "2026-08-08T17:15:25Z",
-          "updatedAt": "2026-08-10T23:51:52Z",
+          "updatedAt": "2026-08-11T08:33:09Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -207,82 +257,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 73.33
-        },
-        {
-          "id": 1328893828,
-          "name": "laravel-media-vault",
-          "fullName": "MohamedSamy902/laravel-media-vault",
-          "url": "https://github.com/MohamedSamy902/laravel-media-vault",
-          "homepage": "",
-          "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-08-09T14:39:00Z",
-          "updatedAt": "2026-08-10T19:15:10Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 63.34
-        },
-        {
-          "id": 1329838647,
-          "name": "senior-securityengineer-cybersecuritybookmarks",
-          "fullName": "scottalt/senior-securityengineer-cybersecuritybookmarks",
-          "url": "https://github.com/scottalt/senior-securityengineer-cybersecuritybookmarks",
-          "homepage": "https://scottaltiparmak.com",
-          "description": "A senior security engineer's actual browser bookmarks. 40+ curated cybersecurity resources for recon, OSINT, exploitation, privilege escalation, and malware analysis.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-10T13:09:04Z",
-          "updatedAt": "2026-08-10T16:39:30Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 61.49
-        },
-        {
-          "id": 1329270991,
-          "name": "fscan-toolkit",
-          "fullName": "chu0119/fscan-toolkit",
-          "url": "https://github.com/chu0119/fscan-toolkit",
-          "homepage": "",
-          "description": "fscan 图形化管理工具套件 — 命令生成器 + 报告解析器，零依赖纯静态 HTML",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-09T23:35:59Z",
-          "updatedAt": "2026-08-11T03:04:21Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 61.41
+          "score": 76.44
         },
         {
           "id": 1327994300,
@@ -291,12 +266,12 @@
           "url": "https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass",
           "homepage": "",
           "description": "WordPress Pre-Auth RCE Exploit + Scanner + WAF Bypass | CVE-2026-63030 + CVE-2026-60137 | Go + Python + Metasploit modules + Docker lab",
-          "stars": 3,
+          "stars": 5,
           "forks": 1,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-08-08T17:22:08Z",
-          "updatedAt": "2026-08-10T00:19:58Z",
+          "updatedAt": "2026-08-11T14:30:09Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -310,70 +285,73 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 60.09
+          "score": 65.56
         },
         {
-          "id": 1330159477,
-          "name": "agent",
-          "fullName": "bomfather/agent",
-          "url": "https://github.com/bomfather/agent",
-          "homepage": "https://bomfather.dev/",
-          "description": "An eBPF based agent that block actions based on a policy",
-          "stars": 2,
+          "id": 1330095868,
+          "name": "huntdeck",
+          "fullName": "cruzamilcars/huntdeck",
+          "url": "https://github.com/cruzamilcars/huntdeck",
+          "homepage": "",
+          "description": "Hunt IOCs with a tactical terminal - Next.js + FastAPI orchestrating MCP providers, Supabase auth, daily quota and BYOK.",
+          "stars": 3,
           "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-08-10T19:02:04Z",
-          "updatedAt": "2026-08-10T19:37:06Z",
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-08-10T17:43:40Z",
+          "updatedAt": "2026-08-11T07:38:25Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
+            "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 59.06
+          "score": 65.11
         },
         {
-          "id": 1327530354,
-          "name": "PathHound",
-          "fullName": "Antcipher/PathHound",
-          "url": "https://github.com/Antcipher/PathHound",
-          "homepage": "https://antcipher.github.io/PathHound-Website/",
-          "description": "High-speed asynchronous web endpoint and directory discovery tool built with Python.",
-          "stars": 4,
+          "id": 1329270991,
+          "name": "fscan-toolkit",
+          "fullName": "chu0119/fscan-toolkit",
+          "url": "https://github.com/chu0119/fscan-toolkit",
+          "homepage": "",
+          "description": "fscan 图形化管理工具套件 — 命令生成器 + 报告解析器，零依赖纯静态 HTML",
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-08T07:44:40Z",
-          "updatedAt": "2026-08-08T17:09:58Z",
+          "language": "HTML",
+          "createdAt": "2026-08-09T23:35:59Z",
+          "updatedAt": "2026-08-11T07:18:14Z",
           "matchedProfiles": [
+            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1,
             1.18
           ],
           "tags": [
+            "通用安全",
             "渗透 / 红队"
           ],
-          "score": 56.85
+          "score": 63.41
         },
         {
-          "id": 1328625284,
-          "name": "DevSecOps-Roadmap",
-          "fullName": "siddhantbhattarai101/DevSecOps-Roadmap",
-          "url": "https://github.com/siddhantbhattarai101/DevSecOps-Roadmap",
+          "id": 1328893828,
+          "name": "laravel-media-vault",
+          "fullName": "MohamedSamy902/laravel-media-vault",
+          "url": "https://github.com/MohamedSamy902/laravel-media-vault",
           "homepage": "",
-          "description": "DevSecOps Roadmap 2026 — a 22-step guide to becoming a DevSecOps engineer: curated resources, hands-on labs, portfolio projects, checklists, and working pipeline examples.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-08-09T09:10:32Z",
-          "updatedAt": "2026-08-10T12:33:01Z",
+          "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PHP",
+          "createdAt": "2026-08-09T14:39:00Z",
+          "updatedAt": "2026-08-11T06:16:09Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -382,9 +360,35 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "网络安全"
           ],
-          "score": 56.63
+          "score": 62.71
+        },
+        {
+          "id": 1329838647,
+          "name": "senior-securityengineer-cybersecuritybookmarks",
+          "fullName": "scottalt/senior-securityengineer-cybersecuritybookmarks",
+          "url": "https://github.com/scottalt/senior-securityengineer-cybersecuritybookmarks",
+          "homepage": "https://scottaltiparmak.com",
+          "description": "A senior security engineer's actual browser bookmarks. 40+ curated cybersecurity resources for recon, OSINT, exploitation, privilege escalation, and malware analysis.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-10T13:09:04Z",
+          "updatedAt": "2026-08-11T03:51:13Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 57.06
         }
       ]
     },
@@ -397,42 +401,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-08-04",
-      "totalCandidates": 19,
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786417879"
+          "rateLimitReset": "1786458765"
         }
       ],
       "repositories": [
@@ -443,12 +447,12 @@
           "url": "https://github.com/darama22/Malware-Research-Hub",
           "homepage": "",
           "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,764 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 80,
-          "forks": 28,
+          "stars": 83,
+          "forks": 29,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-11T00:51:20Z",
+          "updatedAt": "2026-08-11T14:01:39Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -460,7 +464,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 151.76
+          "score": 151.08
         },
         {
           "id": 1329535977,
@@ -489,7 +493,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 143.72
+          "score": 141.96
         },
         {
           "id": 1329416756,
@@ -498,12 +502,12 @@
           "url": "https://github.com/iktok90-design/btcpay-scanner",
           "homepage": "",
           "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
-          "stars": 30,
+          "stars": 32,
           "forks": 2,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-10T04:24:41Z",
-          "updatedAt": "2026-08-10T22:24:45Z",
+          "updatedAt": "2026-08-11T14:29:15Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -515,7 +519,57 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 140.2
+          "score": 139.99
+        },
+        {
+          "id": 1330510119,
+          "name": "toolpermit",
+          "fullName": "sunhao123456sun-svg/toolpermit",
+          "url": "https://github.com/sunhao123456sun-svg/toolpermit",
+          "homepage": "https://pypi.org/project/toolpermit/",
+          "description": "A local-first permission firewall and approval layer for AI agent tool calls.",
+          "stars": 33,
+          "forks": 2,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-08-11T04:58:04Z",
+          "updatedAt": "2026-08-11T13:52:48Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 123.19
+        },
+        {
+          "id": 1329806020,
+          "name": "oss-maintainer-kit",
+          "fullName": "Kane-Wan/oss-maintainer-kit",
+          "url": "https://github.com/Kane-Wan/oss-maintainer-kit",
+          "homepage": "https://github.com/Kane-Wan/oss-maintainer-kit#readme",
+          "description": "Repo Steward AI: safety-conscious PR review, issue triage, release notes, and verifiable maintainer pilots with the OpenAI Responses API.",
+          "stars": 34,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-10T12:32:50Z",
+          "updatedAt": "2026-08-11T12:03:23Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 121.38
         },
         {
           "id": 1326089811,
@@ -542,7 +596,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 117.15
+          "score": 115.07
         },
         {
           "id": 1323957541,
@@ -556,7 +610,7 @@
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-08-05T11:13:46Z",
-          "updatedAt": "2026-08-09T18:33:43Z",
+          "updatedAt": "2026-08-11T07:12:31Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -569,7 +623,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 103.42
+          "score": 101.67
         },
         {
           "id": 1329340682,
@@ -578,12 +632,12 @@
           "url": "https://github.com/osintbrazuca/SimpleReconURL",
           "homepage": "",
           "description": "Ferramenta de extração e descoberta de URLs para fluxos de OSINT e reconhecimento",
-          "stars": 10,
+          "stars": 11,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-10T02:09:27Z",
-          "updatedAt": "2026-08-10T22:09:37Z",
+          "updatedAt": "2026-08-11T14:29:39Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -594,32 +648,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 97.91
-        },
-        {
-          "id": 1327587687,
-          "name": "live-agent-monitoring",
-          "fullName": "EternalBlue813/live-agent-monitoring",
-          "url": "https://github.com/EternalBlue813/live-agent-monitoring",
-          "homepage": "",
-          "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
-          "stars": 13,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-08T09:10:00Z",
-          "updatedAt": "2026-08-10T08:15:07Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 92.45
+          "score": 98.26
         },
         {
           "id": 1327988189,
@@ -628,12 +657,12 @@
           "url": "https://github.com/EvilFreelancer/secs",
           "homepage": "",
           "description": "SECS (SECurity aSsistant) turns an AI coding agent (Claude Code, Cursor, Codex) into an authorized information-security assistant - 35 security Agent Skills, a Debian/Ubuntu/Kali toolchain installer, and a local Metasploitable 3 practice lab, under strict rules of engagement.",
-          "stars": 7,
-          "forks": 0,
+          "stars": 8,
+          "forks": 1,
           "openIssues": 0,
           "language": "Makefile",
           "createdAt": "2026-08-08T17:15:25Z",
-          "updatedAt": "2026-08-10T23:51:52Z",
+          "updatedAt": "2026-08-11T08:33:09Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -650,21 +679,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 87.43
+          "score": 93.31
         },
         {
-          "id": 1322906687,
-          "name": "CkSKILLS",
-          "fullName": "zhaji2333/CkSKILLS",
-          "url": "https://github.com/zhaji2333/CkSKILLS",
+          "id": 1327587687,
+          "name": "live-agent-monitoring",
+          "fullName": "EternalBlue813/live-agent-monitoring",
+          "url": "https://github.com/EternalBlue813/live-agent-monitoring",
           "homepage": "",
-          "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
-          "stars": 13,
-          "forks": 3,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-08-04T12:08:59Z",
-          "updatedAt": "2026-08-11T02:20:01Z",
+          "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
+          "stars": 14,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-08T09:10:00Z",
+          "updatedAt": "2026-08-11T06:13:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -675,7 +704,109 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.71
+          "score": 92.37
+        },
+        {
+          "id": 1322906687,
+          "name": "CkSKILLS",
+          "fullName": "zhaji2333/CkSKILLS",
+          "url": "https://github.com/zhaji2333/CkSKILLS",
+          "homepage": "",
+          "description": "基于 Claude Code / Codex 的 SRC 漏洞挖掘 Agent 技能体系 —— 系统级提示词 + 13 个专项安全测试 Skill 知识库",
+          "stars": 21,
+          "forks": 4,
+          "openIssues": 1,
+          "language": "Unknown",
+          "createdAt": "2026-08-04T12:08:59Z",
+          "updatedAt": "2026-08-11T11:20:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 90.71
+        },
+        {
+          "id": 1327994300,
+          "name": "wp2shell-Exploit-Waf-Bypass",
+          "fullName": "M4xSec/wp2shell-Exploit-Waf-Bypass",
+          "url": "https://github.com/M4xSec/wp2shell-Exploit-Waf-Bypass",
+          "homepage": "",
+          "description": "WordPress Pre-Auth RCE Exploit + Scanner + WAF Bypass | CVE-2026-63030 + CVE-2026-60137 | Go + Python + Metasploit modules + Docker lab",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-08-08T17:22:08Z",
+          "updatedAt": "2026-08-11T14:30:09Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 82.4
+        },
+        {
+          "id": 1326946739,
+          "name": "Reconner",
+          "fullName": "rootdr-backup/Reconner",
+          "url": "https://github.com/rootdr-backup/Reconner",
+          "homepage": "",
+          "description": "Self-hosted bug-bounty watchtower — web + network recon, DAST, continuous monitoring. Your data stays on your machine.",
+          "stars": 10,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-08-07T16:57:04Z",
+          "updatedAt": "2026-08-11T14:29:38Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 80.05
+        },
+        {
+          "id": 1326741807,
+          "name": "PowerShell-for-Hackers",
+          "fullName": "christophercruz98112/PowerShell-for-Hackers",
+          "url": "https://github.com/christophercruz98112/PowerShell-for-Hackers",
+          "homepage": "",
+          "description": "This repository is a collection of powershell functions every hacker should know",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-08-07T14:01:31Z",
+          "updatedAt": "2026-08-11T09:52:50Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 77.4
         },
         {
           "id": 1323490949,
@@ -701,7 +832,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 75.86
+          "score": 74.1
         },
         {
           "id": 1326802583,
@@ -725,7 +856,32 @@
           "tags": [
             "网络安全"
           ],
-          "score": 75.63
+          "score": 73.73
+        },
+        {
+          "id": 1328893828,
+          "name": "laravel-media-vault",
+          "fullName": "MohamedSamy902/laravel-media-vault",
+          "url": "https://github.com/MohamedSamy902/laravel-media-vault",
+          "homepage": "",
+          "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PHP",
+          "createdAt": "2026-08-09T14:39:00Z",
+          "updatedAt": "2026-08-11T06:16:09Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 72.59
         },
         {
           "id": 1325290208,
@@ -751,81 +907,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 71.4
-        },
-        {
-          "id": 1328893828,
-          "name": "laravel-media-vault",
-          "fullName": "MohamedSamy902/laravel-media-vault",
-          "url": "https://github.com/MohamedSamy902/laravel-media-vault",
-          "homepage": "",
-          "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-08-09T14:39:00Z",
-          "updatedAt": "2026-08-10T19:15:10Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 70.88
-        },
-        {
-          "id": 1323878328,
-          "name": "happ-android-full-decompiled",
-          "fullName": "ded648238/happ-android-full-decompiled",
-          "url": "https://github.com/ded648238/happ-android-full-decompiled",
-          "homepage": "",
-          "description": "Full decompiled source of Happ Android proxy client (v4.0.1) — 2,252 Java + 11,583 Smali files, 100% complete. Includes DNSTT protocol, anti-filter, Xray config, JNI bridge.",
-          "stars": 6,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Smali",
-          "createdAt": "2026-08-05T09:39:54Z",
-          "updatedAt": "2026-08-06T03:02:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 65.06
-        },
-        {
-          "id": 1326946739,
-          "name": "Reconner",
-          "fullName": "rootdr-backup/Reconner",
-          "url": "https://github.com/rootdr-backup/Reconner",
-          "homepage": "",
-          "description": "Self-hosted bug-bounty watchtower — web + network recon, DAST, continuous monitoring. Your data stays on your machine.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-08-07T16:57:04Z",
-          "updatedAt": "2026-08-10T18:51:58Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 63.81
+          "score": 69.5
         }
       ]
     }
