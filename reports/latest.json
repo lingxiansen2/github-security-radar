@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-12T03:28:48.121Z",
+  "generatedAt": "2026-08-12T14:32:39.630Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-08-09",
-      "totalCandidates": 25,
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/iktok90-design/ai-smart-contract-auditor",
           "homepage": "",
           "description": "AuditSentry — AI-powered smart contract security auditor for Claude Code. Automated vulnerability detection, exploit PoCs, mainnet-fork simulation, and professional audit reports for Solidity & Vyper across all EVM chains.",
-          "stars": 75,
+          "stars": 49,
           "forks": 3,
           "openIssues": 3,
           "language": "JavaScript",
           "createdAt": "2026-08-10T07:14:48Z",
-          "updatedAt": "2026-08-10T22:22:43Z",
+          "updatedAt": "2026-08-12T11:54:12Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -100,33 +100,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 130.83
-        },
-        {
-          "id": 1329416756,
-          "name": "btcpay-scanner",
-          "fullName": "iktok90-design/btcpay-scanner",
-          "url": "https://github.com/iktok90-design/btcpay-scanner",
-          "homepage": "",
-          "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
-          "stars": 32,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-10T04:24:41Z",
-          "updatedAt": "2026-08-11T14:36:57Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 126.16
+          "score": 116.14
         },
         {
           "id": 1330510119,
@@ -151,7 +125,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 118.93
+          "score": 114.93
         },
         {
           "id": 1329806020,
@@ -176,7 +150,33 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 111.34
+          "score": 107.34
+        },
+        {
+          "id": 1329416756,
+          "name": "btcpay-scanner",
+          "fullName": "iktok90-design/btcpay-scanner",
+          "url": "https://github.com/iktok90-design/btcpay-scanner",
+          "homepage": "",
+          "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
+          "stars": 18,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-08-10T04:24:41Z",
+          "updatedAt": "2026-08-12T14:13:23Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 105.19
         },
         {
           "id": 1329340682,
@@ -185,12 +185,12 @@
           "url": "https://github.com/osintbrazuca/SimpleReconURL",
           "homepage": "",
           "description": "Ferramenta de extração e descoberta de URLs para fluxos de OSINT e reconhecimento",
-          "stars": 12,
+          "stars": 13,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-10T02:09:27Z",
-          "updatedAt": "2026-08-11T17:23:09Z",
+          "updatedAt": "2026-08-12T12:21:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -201,7 +201,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 87.18
+          "score": 84.8
         },
         {
           "id": 1331321569,
@@ -210,12 +210,141 @@
           "url": "https://github.com/000wq123/boundaryguard",
           "homepage": "",
           "description": "Detect and remove invisible Unicode security hazards. Trojan Source detection, CI checks, and safe RTL handling.",
-          "stars": 2,
+          "stars": 5,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-11T20:18:50Z",
-          "updatedAt": "2026-08-11T22:04:45Z",
+          "updatedAt": "2026-08-12T13:41:27Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 79.87
+        },
+        {
+          "id": 1331829898,
+          "name": "agentproof",
+          "fullName": "Zardron/agentproof",
+          "url": "https://github.com/Zardron/agentproof",
+          "homepage": "https://www.npmjs.com/package/agentproof-cli",
+          "description": "Local-first CI verification for Node/JS/TS diffs: checks, secrets, dependency risk, auth regressions. npm i -D agentproof-cli",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 7,
+          "language": "TypeScript",
+          "createdAt": "2026-08-12T09:09:25Z",
+          "updatedAt": "2026-08-12T13:51:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 70.58
+        },
+        {
+          "id": 1331657322,
+          "name": "security-knowledge-base",
+          "fullName": "dinosn/security-knowledge-base",
+          "url": "https://github.com/dinosn/security-knowledge-base",
+          "homepage": "",
+          "description": "Local-first, evidence-led security knowledge base with a model-neutral JSON CLI, immutable sources, and human-reviewed proposals.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-12T05:44:28Z",
+          "updatedAt": "2026-08-12T13:01:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 67.85
+        },
+        {
+          "id": 1329270991,
+          "name": "fscan-toolkit",
+          "fullName": "chu0119/fscan-toolkit",
+          "url": "https://github.com/chu0119/fscan-toolkit",
+          "homepage": "",
+          "description": "fscan 图形化管理工具套件 — 命令生成器 + 报告解析器，零依赖纯静态 HTML",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-09T23:35:59Z",
+          "updatedAt": "2026-08-12T07:27:30Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 67.58
+        },
+        {
+          "id": 1331176116,
+          "name": "k3sec",
+          "fullName": "mlab-sh/k3sec",
+          "url": "https://github.com/mlab-sh/k3sec",
+          "homepage": "https://mlab.sh",
+          "description": "Runtime security CLI for k3s clusters, written in Rust.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-08-11T17:18:08Z",
+          "updatedAt": "2026-08-12T12:08:07Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 64.86
+        },
+        {
+          "id": 1329926067,
+          "name": "Oryon-Pentest",
+          "fullName": "Guayamose/Oryon-Pentest",
+          "url": "https://github.com/Guayamose/Oryon-Pentest",
+          "homepage": "",
+          "description": "Autonomous pentesting runtime with explicit tool contracts and auditable evidence.",
+          "stars": 3,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-10T14:40:53Z",
+          "updatedAt": "2026-08-12T07:34:35Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -224,9 +353,9 @@
           ],
           "tags": [
             "网络安全",
-            "防守 / 蓝队"
+            "渗透 / 红队"
           ],
-          "score": 68.49
+          "score": 61.4
         },
         {
           "id": 1331421733,
@@ -252,135 +381,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 65.25
-        },
-        {
-          "id": 1329270991,
-          "name": "fscan-toolkit",
-          "fullName": "chu0119/fscan-toolkit",
-          "url": "https://github.com/chu0119/fscan-toolkit",
-          "homepage": "",
-          "description": "fscan 图形化管理工具套件 — 命令生成器 + 报告解析器，零依赖纯静态 HTML",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-09T23:35:59Z",
-          "updatedAt": "2026-08-12T00:57:59Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 63.48
-        },
-        {
-          "id": 1330095868,
-          "name": "huntdeck",
-          "fullName": "cruzamilcars/huntdeck",
-          "url": "https://github.com/cruzamilcars/huntdeck",
-          "homepage": "",
-          "description": "Hunt IOCs with a tactical terminal - Next.js + FastAPI orchestrating MCP providers, Supabase auth, daily quota and BYOK.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-08-10T17:43:40Z",
-          "updatedAt": "2026-08-11T07:38:25Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 60.06
-        },
-        {
-          "id": 1329838647,
-          "name": "senior-securityengineer-cybersecuritybookmarks",
-          "fullName": "scottalt/senior-securityengineer-cybersecuritybookmarks",
-          "url": "https://github.com/scottalt/senior-securityengineer-cybersecuritybookmarks",
-          "homepage": "https://scottaltiparmak.com",
-          "description": "A senior security engineer's actual browser bookmarks. 40+ curated cybersecurity resources for recon, OSINT, exploitation, privilege escalation, and malware analysis.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-10T13:09:04Z",
-          "updatedAt": "2026-08-11T15:20:10Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 58.27
-        },
-        {
-          "id": 1328893828,
-          "name": "laravel-media-vault",
-          "fullName": "MohamedSamy902/laravel-media-vault",
-          "url": "https://github.com/MohamedSamy902/laravel-media-vault",
-          "homepage": "",
-          "description": "A production-grade, security-hardened Laravel package for resumable chunked uploads, multi-source media management, SPA dashboard, and bulk deletion safety net.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-08-09T14:39:00Z",
-          "updatedAt": "2026-08-11T06:16:09Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 58.03
-        },
-        {
-          "id": 1329926067,
-          "name": "Oryon-Pentest",
-          "fullName": "Guayamose/Oryon-Pentest",
-          "url": "https://github.com/Guayamose/Oryon-Pentest",
-          "homepage": "",
-          "description": "Autonomous pentesting runtime with explicit tool contracts and auditable evidence.",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-10T14:40:53Z",
-          "updatedAt": "2026-08-11T22:31:21Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 56.93
+          "score": 60.93
         }
       ]
     },
@@ -393,42 +394,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-08-05",
-      "totalCandidates": 20,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786505381"
+          "rateLimitReset": "1786545212"
         }
       ],
       "repositories": [
@@ -439,12 +440,12 @@
           "url": "https://github.com/darama22/Malware-Research-Hub",
           "homepage": "",
           "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,764 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 106,
-          "forks": 33,
+          "stars": 162,
+          "forks": 46,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-12T03:00:08Z",
+          "updatedAt": "2026-08-12T14:25:58Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -456,7 +457,34 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 156.42
+          "score": 168.3
+        },
+        {
+          "id": 1326089811,
+          "name": "TraceSurface",
+          "fullName": "pis10/TraceSurface",
+          "url": "https://github.com/pis10/TraceSurface",
+          "homepage": "",
+          "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
+          "stars": 52,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-07T01:56:16Z",
+          "updatedAt": "2026-08-12T14:00:27Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 128.7
         },
         {
           "id": 1329535977,
@@ -465,12 +493,12 @@
           "url": "https://github.com/iktok90-design/ai-smart-contract-auditor",
           "homepage": "",
           "description": "AuditSentry — AI-powered smart contract security auditor for Claude Code. Automated vulnerability detection, exploit PoCs, mainnet-fork simulation, and professional audit reports for Solidity & Vyper across all EVM chains.",
-          "stars": 75,
+          "stars": 49,
           "forks": 3,
           "openIssues": 3,
           "language": "JavaScript",
           "createdAt": "2026-08-10T07:14:48Z",
-          "updatedAt": "2026-08-10T22:22:43Z",
+          "updatedAt": "2026-08-12T11:54:12Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -485,33 +513,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 139.96
-        },
-        {
-          "id": 1329416756,
-          "name": "btcpay-scanner",
-          "fullName": "iktok90-design/btcpay-scanner",
-          "url": "https://github.com/iktok90-design/btcpay-scanner",
-          "homepage": "",
-          "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
-          "stars": 32,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-10T04:24:41Z",
-          "updatedAt": "2026-08-11T14:36:57Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 137.62
+          "score": 127.55
         },
         {
           "id": 1330510119,
@@ -536,7 +538,33 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 123.57
+          "score": 121.86
+        },
+        {
+          "id": 1329416756,
+          "name": "btcpay-scanner",
+          "fullName": "iktok90-design/btcpay-scanner",
+          "url": "https://github.com/iktok90-design/btcpay-scanner",
+          "homepage": "",
+          "description": "Network scanner for BTCPay Server instances — version detection, SSRF CVE auditor (< 2.4.2), and Lightning node discovery",
+          "stars": 18,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-08-10T04:24:41Z",
+          "updatedAt": "2026-08-12T14:13:23Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 119.34
         },
         {
           "id": 1329806020,
@@ -561,34 +589,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 119.37
-        },
-        {
-          "id": 1326089811,
-          "name": "TraceSurface",
-          "fullName": "pis10/TraceSurface",
-          "url": "https://github.com/pis10/TraceSurface",
-          "homepage": "",
-          "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-          "stars": 28,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-07T01:56:16Z",
-          "updatedAt": "2026-08-11T02:16:45Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 112.71
+          "score": 117.66
         },
         {
           "id": 1323957541,
@@ -615,7 +616,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 99.66
+          "score": 98.46
         },
         {
           "id": 1329340682,
@@ -624,12 +625,12 @@
           "url": "https://github.com/osintbrazuca/SimpleReconURL",
           "homepage": "",
           "description": "Ferramenta de extração e descoberta de URLs para fluxos de OSINT e reconhecimento",
-          "stars": 12,
+          "stars": 13,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-10T02:09:27Z",
-          "updatedAt": "2026-08-11T17:23:09Z",
+          "updatedAt": "2026-08-12T12:21:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -640,7 +641,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 98.17
+          "score": 98.26
         },
         {
           "id": 1327988189,
@@ -671,7 +672,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 90.94
+          "score": 88.92
         },
         {
           "id": 1327587687,
@@ -696,7 +697,56 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 90.36
+          "score": 88.65
+        },
+        {
+          "id": 1331321569,
+          "name": "boundaryguard",
+          "fullName": "000wq123/boundaryguard",
+          "url": "https://github.com/000wq123/boundaryguard",
+          "homepage": "",
+          "description": "Detect and remove invisible Unicode security hazards. Trojan Source detection, CI checks, and safe RTL handling.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-11T20:18:50Z",
+          "updatedAt": "2026-08-12T13:41:27Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 83.93
+        },
+        {
+          "id": 1329270991,
+          "name": "fscan-toolkit",
+          "fullName": "chu0119/fscan-toolkit",
+          "url": "https://github.com/chu0119/fscan-toolkit",
+          "homepage": "",
+          "description": "fscan 图形化管理工具套件 — 命令生成器 + 报告解析器，零依赖纯静态 HTML",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-09T23:35:59Z",
+          "updatedAt": "2026-08-12T07:27:30Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 82.91
         },
         {
           "id": 1326946739,
@@ -705,12 +755,12 @@
           "url": "https://github.com/rootdr-backup/Reconner",
           "homepage": "",
           "description": "Self-hosted bug-bounty watchtower — web + network recon, DAST, continuous monitoring. Your data stays on your machine.",
-          "stars": 10,
+          "stars": 13,
           "forks": 1,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-08-07T16:57:04Z",
-          "updatedAt": "2026-08-11T14:37:03Z",
+          "updatedAt": "2026-08-12T11:34:48Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -721,7 +771,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 78.04
+          "score": 82.13
         },
         {
           "id": 1326741807,
@@ -745,7 +795,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 75.04
+          "score": 73.02
         },
         {
           "id": 1323490949,
@@ -785,7 +835,7 @@
           "openIssues": 1,
           "language": "Nunjucks",
           "createdAt": "2026-08-07T14:59:20Z",
-          "updatedAt": "2026-08-11T01:25:55Z",
+          "updatedAt": "2026-08-12T09:16:56Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -795,7 +845,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 71.57
+          "score": 69.72
         },
         {
           "id": 1328893828,
@@ -820,7 +870,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 70.59
+          "score": 68.87
         },
         {
           "id": 1325290208,
@@ -846,31 +896,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 67.34
-        },
-        {
-          "id": 1323878328,
-          "name": "happ-android-full-decompiled",
-          "fullName": "ded648238/happ-android-full-decompiled",
-          "url": "https://github.com/ded648238/happ-android-full-decompiled",
-          "homepage": "",
-          "description": "Full decompiled source of Happ Android proxy client (v4.0.1) — 2,252 Java + 11,583 Smali files, 100% complete. Includes DNSTT protocol, anti-filter, Xray config, JNI bridge.",
-          "stars": 6,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Smali",
-          "createdAt": "2026-08-05T09:39:54Z",
-          "updatedAt": "2026-08-06T03:02:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 61.3
+          "score": 65.49
         }
       ]
     }
