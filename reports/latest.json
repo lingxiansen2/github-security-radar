@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-12T14:32:39.630Z",
+  "generatedAt": "2026-08-13T03:32:31.756Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-09",
-      "totalCandidates": 24,
+      "createdSince": "2026-08-10",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 0,
+          "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         }
       ],
       "repositories": [
@@ -100,7 +100,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 116.14
+          "score": 111.44
         },
         {
           "id": 1330510119,
@@ -125,7 +125,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 114.93
+          "score": 110.24
         },
         {
           "id": 1329806020,
@@ -150,7 +150,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 107.34
+          "score": 102.65
         },
         {
           "id": 1329416756,
@@ -176,7 +176,55 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 105.19
+          "score": 99.65
+        },
+        {
+          "id": 1331657322,
+          "name": "security-knowledge-base",
+          "fullName": "dinosn/security-knowledge-base",
+          "url": "https://github.com/dinosn/security-knowledge-base",
+          "homepage": "",
+          "description": "Local-first, evidence-led security knowledge base with a model-neutral JSON CLI, immutable sources, and human-reviewed proposals.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-12T05:44:28Z",
+          "updatedAt": "2026-08-13T00:11:35Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 82.22
+        },
+        {
+          "id": 1331430804,
+          "name": "nexus-redfox",
+          "fullName": "shanduzgil/nexus-redfox",
+          "url": "https://github.com/shanduzgil/nexus-redfox",
+          "homepage": "https://github.com/shanduzgil/nexus-redfox",
+          "description": "NEXUS REDFOX — Local-first code intelligence and security analysis platform for developers and security researchers.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 5,
+          "language": "Python",
+          "createdAt": "2026-08-11T23:22:16Z",
+          "updatedAt": "2026-08-13T01:59:14Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 81.67
         },
         {
           "id": 1329340682,
@@ -201,7 +249,57 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 84.8
+          "score": 80.27
+        },
+        {
+          "id": 1332210415,
+          "name": "Bulwark-FlipperZero",
+          "fullName": "at0m-b0mb/Bulwark-FlipperZero",
+          "url": "https://github.com/at0m-b0mb/Bulwark-FlipperZero",
+          "homepage": "",
+          "description": "Bluetooth LE advertising-spam detector for the Flipper Zero, on the onboard radio. Hears the popup flood on 2402/2426/2480 MHz - and never claims to read it.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-08-12T16:02:55Z",
+          "updatedAt": "2026-08-13T02:58:12Z",
+          "matchedProfiles": [
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1.12
+          ],
+          "tags": [
+            "防守 / 蓝队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 76.58
+        },
+        {
+          "id": 1332335250,
+          "name": "canopy",
+          "fullName": "anytool-sh/canopy",
+          "url": "https://github.com/anytool-sh/canopy",
+          "homepage": "",
+          "description": "Agent-native subdomain discovery and attack surface mapping.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 2,
+          "language": "Go",
+          "createdAt": "2026-08-12T18:31:07Z",
+          "updatedAt": "2026-08-12T23:19:45Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 74.81
         },
         {
           "id": 1331321569,
@@ -229,97 +327,21 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 79.87
+          "score": 74.8
         },
         {
-          "id": 1331829898,
-          "name": "agentproof",
-          "fullName": "Zardron/agentproof",
-          "url": "https://github.com/Zardron/agentproof",
-          "homepage": "https://www.npmjs.com/package/agentproof-cli",
-          "description": "Local-first CI verification for Node/JS/TS diffs: checks, secrets, dependency risk, auth regressions. npm i -D agentproof-cli",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 7,
-          "language": "TypeScript",
-          "createdAt": "2026-08-12T09:09:25Z",
-          "updatedAt": "2026-08-12T13:51:21Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 70.58
-        },
-        {
-          "id": 1331657322,
-          "name": "security-knowledge-base",
-          "fullName": "dinosn/security-knowledge-base",
-          "url": "https://github.com/dinosn/security-knowledge-base",
+          "id": 1331672760,
+          "name": "dockerignore-audit",
+          "fullName": "Dtoxic28/dockerignore-audit",
+          "url": "https://github.com/Dtoxic28/dockerignore-audit",
           "homepage": "",
-          "description": "Local-first, evidence-led security knowledge base with a model-neutral JSON CLI, immutable sources, and human-reviewed proposals.",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-12T05:44:28Z",
-          "updatedAt": "2026-08-12T13:01:33Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 67.85
-        },
-        {
-          "id": 1329270991,
-          "name": "fscan-toolkit",
-          "fullName": "chu0119/fscan-toolkit",
-          "url": "https://github.com/chu0119/fscan-toolkit",
-          "homepage": "",
-          "description": "fscan 图形化管理工具套件 — 命令生成器 + 报告解析器，零依赖纯静态 HTML",
+          "description": "Audit Docker build contexts with Docker-compatible .dockerignore semantics.",
           "stars": 6,
           "forks": 0,
           "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-09T23:35:59Z",
-          "updatedAt": "2026-08-12T07:27:30Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 67.58
-        },
-        {
-          "id": 1331176116,
-          "name": "k3sec",
-          "fullName": "mlab-sh/k3sec",
-          "url": "https://github.com/mlab-sh/k3sec",
-          "homepage": "https://mlab.sh",
-          "description": "Runtime security CLI for k3s clusters, written in Rust.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-08-11T17:18:08Z",
-          "updatedAt": "2026-08-12T12:08:07Z",
+          "language": "JavaScript",
+          "createdAt": "2026-08-12T06:05:32Z",
+          "updatedAt": "2026-08-13T02:54:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -328,48 +350,23 @@
           ],
           "tags": [
             "通用安全",
-            "网络安全"
-          ],
-          "score": 64.86
-        },
-        {
-          "id": 1329926067,
-          "name": "Oryon-Pentest",
-          "fullName": "Guayamose/Oryon-Pentest",
-          "url": "https://github.com/Guayamose/Oryon-Pentest",
-          "homepage": "",
-          "description": "Autonomous pentesting runtime with explicit tool contracts and auditable evidence.",
-          "stars": 3,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-10T14:40:53Z",
-          "updatedAt": "2026-08-12T07:34:35Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
             "渗透 / 红队"
           ],
-          "score": 61.4
+          "score": 72.25
         },
         {
-          "id": 1331421733,
-          "name": "ctfscan",
-          "fullName": "Eldritch-Echo/ctfscan",
-          "url": "https://github.com/Eldritch-Echo/ctfscan",
-          "homepage": "https://github.com/Eldritch-Echo/ctfscan",
-          "description": "CTF reconnaissance automation for Linux",
-          "stars": 2,
+          "id": 1331513933,
+          "name": "RedPath",
+          "fullName": "Adam-Ghanem/RedPath",
+          "url": "https://github.com/Adam-Ghanem/RedPath",
+          "homepage": "https://redpath-sec.vercel.app",
+          "description": "Visualize Active Directory attack paths, map them to MITRE ATT&CK coverage, and expose detection gaps in a safe synthetic SOC demo.",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-08-11T23:05:34Z",
-          "updatedAt": "2026-08-12T00:41:36Z",
+          "language": "Python",
+          "createdAt": "2026-08-12T01:55:19Z",
+          "updatedAt": "2026-08-13T03:16:52Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -378,10 +375,9 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
+            "防守 / 蓝队"
           ],
-          "score": 60.93
+          "score": 68.34
         }
       ]
     },
@@ -393,7 +389,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-05",
+      "createdSince": "2026-08-06",
       "totalCandidates": 22,
       "queryStats": [
         {
@@ -401,64 +397,38 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786545212"
+          "rateLimitReset": "1786592004"
         }
       ],
       "repositories": [
-        {
-          "id": 1324518131,
-          "name": "Malware-Research-Hub",
-          "fullName": "darama22/Malware-Research-Hub",
-          "url": "https://github.com/darama22/Malware-Research-Hub",
-          "homepage": "",
-          "description": "Self-contained malware research hub: curated catalog of 80 families (1971-2024) + 2,764 real encrypted samples, indexed and searchable. Local Flask app, bilingual.",
-          "stars": 162,
-          "forks": 46,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-05T22:09:35Z",
-          "updatedAt": "2026-08-12T14:25:58Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 168.3
-        },
         {
           "id": 1326089811,
           "name": "TraceSurface",
@@ -466,12 +436,12 @@
           "url": "https://github.com/pis10/TraceSurface",
           "homepage": "",
           "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-          "stars": 52,
+          "stars": 53,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-07T01:56:16Z",
-          "updatedAt": "2026-08-12T14:00:27Z",
+          "updatedAt": "2026-08-13T02:30:19Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -484,7 +454,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 128.7
+          "score": 126.89
         },
         {
           "id": 1329535977,
@@ -513,7 +483,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 127.55
+          "score": 125.53
         },
         {
           "id": 1330510119,
@@ -538,7 +508,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 121.86
+          "score": 119.85
         },
         {
           "id": 1329416756,
@@ -564,7 +534,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 119.34
+          "score": 116.97
         },
         {
           "id": 1329806020,
@@ -589,34 +559,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 117.66
-        },
-        {
-          "id": 1323957541,
-          "name": "SentryLLM",
-          "fullName": "Sentry-LLM/SentryLLM",
-          "url": "https://github.com/Sentry-LLM/SentryLLM",
-          "homepage": "http://www.sentryllm.xyz/",
-          "description": "AI Security Monitor — Real-time threat detection, prompt injection defense, and behavioral analysis for LLM-powered systems",
-          "stars": 36,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-05T11:13:46Z",
-          "updatedAt": "2026-08-11T07:12:31Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "网络安全"
-          ],
-          "score": 98.46
+          "score": 115.65
         },
         {
           "id": 1329340682,
@@ -641,7 +584,107 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 98.26
+          "score": 96.08
+        },
+        {
+          "id": 1329270991,
+          "name": "fscan-toolkit",
+          "fullName": "chu0119/fscan-toolkit",
+          "url": "https://github.com/chu0119/fscan-toolkit",
+          "homepage": "",
+          "description": "fscan 图形化管理工具套件 — 命令生成器 + 报告解析器，零依赖纯静态 HTML",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-09T23:35:59Z",
+          "updatedAt": "2026-08-13T02:14:46Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 92.96
+        },
+        {
+          "id": 1327587687,
+          "name": "live-agent-monitoring",
+          "fullName": "EternalBlue813/live-agent-monitoring",
+          "url": "https://github.com/EternalBlue813/live-agent-monitoring",
+          "homepage": "",
+          "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
+          "stars": 14,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-08T09:10:00Z",
+          "updatedAt": "2026-08-11T06:13:26Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 88.3
+        },
+        {
+          "id": 1331430804,
+          "name": "nexus-redfox",
+          "fullName": "shanduzgil/nexus-redfox",
+          "url": "https://github.com/shanduzgil/nexus-redfox",
+          "homepage": "https://github.com/shanduzgil/nexus-redfox",
+          "description": "NEXUS REDFOX — Local-first code intelligence and security analysis platform for developers and security researchers.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 5,
+          "language": "Python",
+          "createdAt": "2026-08-11T23:22:16Z",
+          "updatedAt": "2026-08-13T01:59:14Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 87.95
+        },
+        {
+          "id": 1331657322,
+          "name": "security-knowledge-base",
+          "fullName": "dinosn/security-knowledge-base",
+          "url": "https://github.com/dinosn/security-knowledge-base",
+          "homepage": "",
+          "description": "Local-first, evidence-led security knowledge base with a model-neutral JSON CLI, immutable sources, and human-reviewed proposals.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-12T05:44:28Z",
+          "updatedAt": "2026-08-13T00:11:35Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 87.08
         },
         {
           "id": 1327988189,
@@ -672,32 +715,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 88.92
-        },
-        {
-          "id": 1327587687,
-          "name": "live-agent-monitoring",
-          "fullName": "EternalBlue813/live-agent-monitoring",
-          "url": "https://github.com/EternalBlue813/live-agent-monitoring",
-          "homepage": "",
-          "description": "Real-time web dashboard for AI-agent behavior monitoring, built on Perplexity's Numbat. Zero-dependency Python.",
-          "stars": 14,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-08T09:10:00Z",
-          "updatedAt": "2026-08-11T06:13:26Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 88.65
+          "score": 86.55
         },
         {
           "id": 1331321569,
@@ -722,31 +740,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 83.93
-        },
-        {
-          "id": 1329270991,
-          "name": "fscan-toolkit",
-          "fullName": "chu0119/fscan-toolkit",
-          "url": "https://github.com/chu0119/fscan-toolkit",
-          "homepage": "",
-          "description": "fscan 图形化管理工具套件 — 命令生成器 + 报告解析器，零依赖纯静态 HTML",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-08-09T23:35:59Z",
-          "updatedAt": "2026-08-12T07:27:30Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 82.91
+          "score": 81.76
         },
         {
           "id": 1326946739,
@@ -771,7 +765,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 82.13
+          "score": 80.11
         },
         {
           "id": 1326741807,
@@ -795,33 +789,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 73.02
-        },
-        {
-          "id": 1323490949,
-          "name": "internetcondom",
-          "fullName": "orlyjamie/internetcondom",
-          "url": "https://github.com/orlyjamie/internetcondom",
-          "homepage": "",
-          "description": "Protection against npm supply-chain attacks. One command: Socket Firewall on every package manager, minimum release age, ignore-scripts.",
-          "stars": 12,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-08-05T00:40:38Z",
-          "updatedAt": "2026-08-08T17:46:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 72.53
+          "score": 70.65
         },
         {
           "id": 1326802583,
@@ -845,7 +813,33 @@
           "tags": [
             "网络安全"
           ],
-          "score": 69.72
+          "score": 67.55
+        },
+        {
+          "id": 1329018595,
+          "name": "FSociety",
+          "fullName": "non-npc/FSociety",
+          "url": "https://github.com/non-npc/FSociety",
+          "homepage": "",
+          "description": "Portable decentralized, cyberpunk desktop messenger offering encrypted private chats, communities, and file sharing over Nostr and Blossom.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-09T17:04:02Z",
+          "updatedAt": "2026-08-12T22:36:31Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队",
+            "网络安全"
+          ],
+          "score": 67.24
         },
         {
           "id": 1328893828,
@@ -870,7 +864,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 68.87
+          "score": 66.86
         },
         {
           "id": 1325290208,
@@ -896,7 +890,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 65.49
+          "score": 63.31
         }
       ]
     }
