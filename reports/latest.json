@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-14T03:29:12.091Z",
+  "generatedAt": "2026-08-14T14:21:00.261Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-08-11",
-      "totalCandidates": 25,
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/DrHazemAli/enterprise-system-design",
           "homepage": "",
           "description": "A source-grounded course & reference for engineers designing systems that must survive real traffic, partial failure, security review, and changing requirements, spanning enterprise system design, distributed systems, AI systems, cybersecurity, reliability, cloud, HPC, edge, and mission-critical infrastructure.",
-          "stars": 127,
-          "forks": 31,
+          "stars": 311,
+          "forks": 62,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-12T04:03:15Z",
-          "updatedAt": "2026-08-14T03:26:50Z",
+          "updatedAt": "2026-08-14T14:18:14Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -96,7 +96,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 167.48
+          "score": 192.32
         },
         {
           "id": 1332935366,
@@ -105,12 +105,12 @@
           "url": "https://github.com/xyiqq/skilldoctor",
           "homepage": "",
           "description": "Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
-          "stars": 49,
-          "forks": 2,
-          "openIssues": 0,
+          "stars": 81,
+          "forks": 3,
+          "openIssues": 2,
           "language": "TypeScript",
           "createdAt": "2026-08-13T09:25:47Z",
-          "updatedAt": "2026-08-14T03:12:50Z",
+          "updatedAt": "2026-08-14T14:18:57Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,7 +122,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 127.92
+          "score": 138.31
         },
         {
           "id": 1330510119,
@@ -147,7 +147,56 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 101.59
+          "score": 101.06
+        },
+        {
+          "id": 1334114994,
+          "name": "BrokenMCP",
+          "fullName": "truststrikelabs/BrokenMCP",
+          "url": "https://github.com/truststrikelabs/BrokenMCP",
+          "homepage": "https://truststrikelabs.com/",
+          "description": "BrokenMCP is a vulnerable implementation of the Model Context Protocol (MCP) for educational purposes.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-14T11:34:19Z",
+          "updatedAt": "2026-08-14T14:14:57Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 84.4
+        },
+        {
+          "id": 1330538288,
+          "name": "ag-cyber-lab",
+          "fullName": "ahmetgulerpy/ag-cyber-lab",
+          "url": "https://github.com/ahmetgulerpy/ag-cyber-lab",
+          "homepage": "",
+          "description": "Open-source practical cybersecurity learning platform with structured lessons, guided labs, progress tracking, and a custom Lab Engine.",
+          "stars": 18,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-11T05:39:56Z",
+          "updatedAt": "2026-08-14T13:33:59Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 84.02
         },
         {
           "id": 1331430804,
@@ -171,7 +220,32 @@
           "tags": [
             "网络安全"
           ],
-          "score": 86.54
+          "score": 82.3
+        },
+        {
+          "id": 1331672760,
+          "name": "dockerignore-audit",
+          "fullName": "Dtoxic28/dockerignore-audit",
+          "url": "https://github.com/Dtoxic28/dockerignore-audit",
+          "homepage": "",
+          "description": "Audit Docker build contexts with Docker-compatible .dockerignore semantics.",
+          "stars": 12,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-08-12T06:05:32Z",
+          "updatedAt": "2026-08-14T06:56:11Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 80.56
         },
         {
           "id": 1332656690,
@@ -197,32 +271,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 83.26
-        },
-        {
-          "id": 1331672760,
-          "name": "dockerignore-audit",
-          "fullName": "Dtoxic28/dockerignore-audit",
-          "url": "https://github.com/Dtoxic28/dockerignore-audit",
-          "homepage": "",
-          "description": "Audit Docker build contexts with Docker-compatible .dockerignore semantics.",
-          "stars": 11,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-12T06:05:32Z",
-          "updatedAt": "2026-08-14T03:26:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 82.56
+          "score": 79.02
         },
         {
           "id": 1331657322,
@@ -246,7 +295,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 76.18
+          "score": 71.95
         },
         {
           "id": 1332335250,
@@ -271,7 +320,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.54
+          "score": 69.31
         },
         {
           "id": 1332210415,
@@ -280,12 +329,12 @@
           "url": "https://github.com/at0m-b0mb/Bulwark-FlipperZero",
           "homepage": "",
           "description": "Bluetooth LE advertising-spam detector for the Flipper Zero, on the onboard radio. Hears the popup flood on 2402/2426/2480 MHz - and never claims to read it.",
-          "stars": 4,
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-08-12T16:02:55Z",
-          "updatedAt": "2026-08-13T02:58:12Z",
+          "updatedAt": "2026-08-14T14:18:24Z",
           "matchedProfiles": [
             "防守 / 蓝队"
           ],
@@ -296,35 +345,7 @@
             "防守 / 蓝队",
             "AI 自动化 / Skill"
           ],
-          "score": 66.9
-        },
-        {
-          "id": 1331321569,
-          "name": "boundaryguard",
-          "fullName": "000wq123/boundaryguard",
-          "url": "https://github.com/000wq123/boundaryguard",
-          "homepage": "",
-          "description": "Detect and remove invisible Unicode security hazards. Trojan Source detection, CI checks, and safe RTL handling.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-11T20:18:50Z",
-          "updatedAt": "2026-08-12T13:41:27Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 65.46
+          "score": 66.99
         },
         {
           "id": 1333287573,
@@ -333,12 +354,12 @@
           "url": "https://github.com/at0m-b0mb/Pharos-ESP32S3",
           "homepage": "",
           "description": "Defensive, receive-only RF observatory for the Waveshare ESP32-S3-Touch-AMOLED-1.75C round AMOLED board. A lighthouse that listens: watches 2.4GHz, grades what it hears, and is honest about what it cannot. Red/blue training on the same engines. Never transmits.",
-          "stars": 2,
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-08-13T15:52:44Z",
-          "updatedAt": "2026-08-14T02:50:45Z",
+          "updatedAt": "2026-08-14T04:56:36Z",
           "matchedProfiles": [
             "网络安全",
             "防守 / 蓝队"
@@ -352,34 +373,7 @@
             "防守 / 蓝队",
             "AI 自动化 / Skill"
           ],
-          "score": 64.75
-        },
-        {
-          "id": 1331732980,
-          "name": "leandro",
-          "fullName": "SoulKyu/leandro",
-          "url": "https://github.com/SoulKyu/leandro",
-          "homepage": "",
-          "description": "AI SRE agent diagnosing Kubernetes incidents over Google Chat — security-first sandbox: NixOS VM, default-deny egress, hard tool denylist against prompt injection",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-12T07:17:09Z",
-          "updatedAt": "2026-08-13T21:53:41Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 64.04
+          "score": 66.84
         }
       ]
     },
@@ -392,42 +386,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-08-07",
-      "totalCandidates": 22,
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 0,
+          "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786678205"
+          "rateLimitReset": "1786717312"
         }
       ],
       "repositories": [
@@ -438,12 +432,12 @@
           "url": "https://github.com/DrHazemAli/enterprise-system-design",
           "homepage": "",
           "description": "A source-grounded course & reference for engineers designing systems that must survive real traffic, partial failure, security review, and changing requirements, spanning enterprise system design, distributed systems, AI systems, cybersecurity, reliability, cloud, HPC, edge, and mission-critical infrastructure.",
-          "stars": 127,
-          "forks": 31,
+          "stars": 311,
+          "forks": 62,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-12T04:03:15Z",
-          "updatedAt": "2026-08-14T03:26:50Z",
+          "updatedAt": "2026-08-14T14:18:14Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -454,7 +448,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 178.05
+          "score": 205.32
         },
         {
           "id": 1332935366,
@@ -463,12 +457,12 @@
           "url": "https://github.com/xyiqq/skilldoctor",
           "homepage": "",
           "description": "Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
-          "stars": 49,
-          "forks": 2,
-          "openIssues": 0,
+          "stars": 81,
+          "forks": 3,
+          "openIssues": 2,
           "language": "TypeScript",
           "createdAt": "2026-08-13T09:25:47Z",
-          "updatedAt": "2026-08-14T03:12:50Z",
+          "updatedAt": "2026-08-14T14:18:57Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -480,7 +474,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 131.65
+          "score": 144.27
         },
         {
           "id": 1326089811,
@@ -489,12 +483,12 @@
           "url": "https://github.com/pis10/TraceSurface",
           "homepage": "",
           "description": "发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-          "stars": 67,
+          "stars": 68,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-07T01:56:16Z",
-          "updatedAt": "2026-08-14T01:43:41Z",
+          "updatedAt": "2026-08-14T03:46:05Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -507,7 +501,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 129.75
+          "score": 130.19
         },
         {
           "id": 1329535977,
@@ -536,7 +530,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 116.16
+          "score": 114.48
         },
         {
           "id": 1330510119,
@@ -561,7 +555,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 116.15
+          "score": 114.46
         },
         {
           "id": 1329806020,
@@ -586,7 +580,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 111.94
+          "score": 110.26
         },
         {
           "id": 1329416756,
@@ -612,7 +606,55 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 103.78
+          "score": 101.8
+        },
+        {
+          "id": 1326741807,
+          "name": "PowerShell-for-Hackers",
+          "fullName": "christophercruz98112/PowerShell-for-Hackers",
+          "url": "https://github.com/christophercruz98112/PowerShell-for-Hackers",
+          "homepage": "",
+          "description": "This repository is a collection of powershell functions every hacker should know",
+          "stars": 21,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-08-07T14:01:31Z",
+          "updatedAt": "2026-08-14T13:11:41Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 100.8
+        },
+        {
+          "id": 1330538288,
+          "name": "ag-cyber-lab",
+          "fullName": "ahmetgulerpy/ag-cyber-lab",
+          "url": "https://github.com/ahmetgulerpy/ag-cyber-lab",
+          "homepage": "",
+          "description": "Open-source practical cybersecurity learning platform with structured lessons, guided labs, progress tracking, and a custom Lab Engine.",
+          "stars": 18,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-11T05:39:56Z",
+          "updatedAt": "2026-08-14T13:33:59Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 98.61
         },
         {
           "id": 1331430804,
@@ -636,7 +678,32 @@
           "tags": [
             "网络安全"
           ],
-          "score": 98.15
+          "score": 96.34
+        },
+        {
+          "id": 1331672760,
+          "name": "dockerignore-audit",
+          "fullName": "Dtoxic28/dockerignore-audit",
+          "url": "https://github.com/Dtoxic28/dockerignore-audit",
+          "homepage": "",
+          "description": "Audit Docker build contexts with Docker-compatible .dockerignore semantics.",
+          "stars": 12,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-08-12T06:05:32Z",
+          "updatedAt": "2026-08-14T06:56:11Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 92.17
         },
         {
           "id": 1329340682,
@@ -661,32 +728,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 92.08
-        },
-        {
-          "id": 1331672760,
-          "name": "dockerignore-audit",
-          "fullName": "Dtoxic28/dockerignore-audit",
-          "url": "https://github.com/Dtoxic28/dockerignore-audit",
-          "homepage": "",
-          "description": "Audit Docker build contexts with Docker-compatible .dockerignore semantics.",
-          "stars": 11,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-12T06:05:32Z",
-          "updatedAt": "2026-08-14T03:26:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 91.92
+          "score": 90.27
         },
         {
           "id": 1329270991,
@@ -713,7 +755,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 91.04
+          "score": 89.05
         },
         {
           "id": 1332656690,
@@ -739,7 +781,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 88.63
+          "score": 86.81
         },
         {
           "id": 1331657322,
@@ -763,7 +805,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 86.38
+          "score": 84.56
         },
         {
           "id": 1327587687,
@@ -788,7 +830,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 84.59
+          "score": 82.91
+        },
+        {
+          "id": 1326946739,
+          "name": "Reconner",
+          "fullName": "rootdr-backup/Reconner",
+          "url": "https://github.com/rootdr-backup/Reconner",
+          "homepage": "",
+          "description": "Self-hosted bug-bounty watchtower — web + network recon, DAST, continuous monitoring. Your data stays on your machine.",
+          "stars": 17,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-08-07T16:57:04Z",
+          "updatedAt": "2026-08-14T14:10:18Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 80.87
         },
         {
           "id": 1327988189,
@@ -804,96 +871,19 @@
           "createdAt": "2026-08-08T17:15:25Z",
           "updatedAt": "2026-08-11T08:33:09Z",
           "matchedProfiles": [
-            "通用安全",
             "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
             1.08,
             1.18
           ],
           "tags": [
-            "通用安全",
             "网络安全",
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 82.18
-        },
-        {
-          "id": 1332335250,
-          "name": "canopy",
-          "fullName": "anytool-sh/canopy",
-          "url": "https://github.com/anytool-sh/canopy",
-          "homepage": "",
-          "description": "Agent-native subdomain discovery and attack surface mapping.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 2,
-          "language": "Go",
-          "createdAt": "2026-08-12T18:31:07Z",
-          "updatedAt": "2026-08-13T18:14:19Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 80.89
-        },
-        {
-          "id": 1326741807,
-          "name": "PowerShell-for-Hackers",
-          "fullName": "christophercruz98112/PowerShell-for-Hackers",
-          "url": "https://github.com/christophercruz98112/PowerShell-for-Hackers",
-          "homepage": "",
-          "description": "This repository is a collection of powershell functions every hacker should know",
-          "stars": 9,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-08-07T14:01:31Z",
-          "updatedAt": "2026-08-13T20:29:17Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 80.12
-        },
-        {
-          "id": 1326946739,
-          "name": "Reconner",
-          "fullName": "rootdr-backup/Reconner",
-          "url": "https://github.com/rootdr-backup/Reconner",
-          "homepage": "",
-          "description": "Self-hosted bug-bounty watchtower — web + network recon, DAST, continuous monitoring. Your data stays on your machine.",
-          "stars": 15,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-08-07T16:57:04Z",
-          "updatedAt": "2026-08-13T13:07:14Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 79.66
+          "score": 80.19
         }
       ]
     }
