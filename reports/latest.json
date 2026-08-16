@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-16T02:34:08.159Z",
+  "generatedAt": "2026-08-16T13:45:53.765Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-08-13",
-      "totalCandidates": 20,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 9,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/xyiqq/skilldoctor",
           "homepage": "",
           "description": "Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
-          "stars": 243,
-          "forks": 9,
-          "openIssues": 2,
+          "stars": 375,
+          "forks": 12,
+          "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-08-13T09:25:47Z",
-          "updatedAt": "2026-08-16T00:01:51Z",
+          "updatedAt": "2026-08-16T13:40:46Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,7 +97,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 158.63
+          "score": 168.85
         },
         {
           "id": 1335198054,
@@ -106,12 +106,12 @@
           "url": "https://github.com/Dest1ny-Sec/dhunter",
           "homepage": "",
           "description": "AI 驱动的自主渗透测试平台：输入目标，AI agent 自动完成侦察→规划→主动测试→漏洞验证→报告生成。黑板引擎+多 worker+SRC 验收门禁。仅供学术与安全研究使用。",
-          "stars": 10,
+          "stars": 15,
           "forks": 1,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-08-15T15:28:31Z",
-          "updatedAt": "2026-08-16T01:53:13Z",
+          "updatedAt": "2026-08-16T10:45:42Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -128,7 +128,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 106.82
+          "score": 112.72
         },
         {
           "id": 1334129425,
@@ -137,12 +137,12 @@
           "url": "https://github.com/NOFireAI/ravel",
           "homepage": "",
           "description": "A distributed OpenTelemetry-native columnar datastore whose only backend is object storage.",
-          "stars": 27,
-          "forks": 0,
-          "openIssues": 122,
+          "stars": 28,
+          "forks": 1,
+          "openIssues": 137,
           "language": "Rust",
           "createdAt": "2026-08-14T11:52:50Z",
-          "updatedAt": "2026-08-15T22:13:23Z",
+          "updatedAt": "2026-08-16T13:32:06Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -153,7 +153,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 99.47
+          "score": 100.31
         },
         {
           "id": 1334214605,
@@ -162,12 +162,12 @@
           "url": "https://github.com/dhicoc/dsh-reverse-skill",
           "homepage": "",
           "description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
-          "stars": 16,
-          "forks": 4,
+          "stars": 19,
+          "forks": 5,
           "openIssues": 0,
           "language": "PowerShell",
           "createdAt": "2026-08-14T13:32:19Z",
-          "updatedAt": "2026-08-16T01:20:56Z",
+          "updatedAt": "2026-08-16T12:47:40Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -181,7 +181,32 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 96.97
+          "score": 97.99
+        },
+        {
+          "id": 1334709708,
+          "name": "dsh-full-remote",
+          "fullName": "JUANWANG-BUAA/dsh-full-remote",
+          "url": "https://github.com/JUANWANG-BUAA/dsh-full-remote",
+          "homepage": "",
+          "description": "dsh-plugin: Fix DeepSeek Harness 403s over tunnels. Token-gated reverse proxy restores settings.* / credentials.* / host.listDirectory remotely. Per-device sessions, WebSocket/SSE, mobile control panel.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 7,
+          "language": "TypeScript",
+          "createdAt": "2026-08-15T01:39:51Z",
+          "updatedAt": "2026-08-16T13:02:39Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 70.02
         },
         {
           "id": 1332656690,
@@ -207,7 +232,32 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 70.01
+          "score": 69.69
+        },
+        {
+          "id": 1335764245,
+          "name": "claude--jailbreak",
+          "fullName": "ahmed7307/claude--jailbreak",
+          "url": "https://github.com/ahmed7307/claude--jailbreak",
+          "homepage": "https://ahmed7307.github.io/claude--jailbreak/",
+          "description": "A complete breakdown of the Fable 5 constitutional AI jailbreak technique for Claude 4.8",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-16T08:56:30Z",
+          "updatedAt": "2026-08-16T09:54:25Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 65.08
         },
         {
           "id": 1334114994,
@@ -232,21 +282,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 68.97
+          "score": 64.2
         },
         {
-          "id": 1333850030,
-          "name": "dsh-plugins",
-          "fullName": "henlii/dsh-plugins",
-          "url": "https://github.com/henlii/dsh-plugins",
-          "homepage": "",
-          "description": "DSH plugin collection: password auth + trust for dsh web LAN/Tailscale access (dsh-web-auth) and more. Install per plugin via 'dsh plugin --profile web add' or all at once via the root cordis.patch.yml.",
-          "stars": 4,
-          "forks": 2,
-          "openIssues": 3,
-          "language": "JavaScript",
-          "createdAt": "2026-08-14T06:01:22Z",
-          "updatedAt": "2026-08-15T02:07:51Z",
+          "id": 1333875303,
+          "name": "dsh-passwords",
+          "fullName": "slywalker2006/dsh-passwords",
+          "url": "https://github.com/slywalker2006/dsh-passwords",
+          "homepage": "https://github.com/slywalker2006/dsh-passwords",
+          "description": "Server-grade gateway that turns DeepSeek Harness into a multi-tenant platform: remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth, audit log.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-14T06:35:16Z",
+          "updatedAt": "2026-08-16T13:17:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -255,9 +305,35 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "漏洞研究 / 攻防"
           ],
-          "score": 62.78
+          "score": 64.08
+        },
+        {
+          "id": 1335602128,
+          "name": "PhantomTap",
+          "fullName": "Krishita17/PhantomTap",
+          "url": "https://github.com/Krishita17/PhantomTap",
+          "homepage": "",
+          "description": "A Flipper Zero that stops guessing and starts reasoning: ML-guided RFID/NFC fuzzing & access-control auditing that turns raw card reads into a prioritized, explainable security assessment. Defensive-use only.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-16T03:50:52Z",
+          "updatedAt": "2026-08-16T04:38:46Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 63.09
         },
         {
           "id": 1333866451,
@@ -283,7 +359,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.17
+          "score": 56.4
         },
         {
           "id": 1333287573,
@@ -311,81 +387,7 @@
             "防守 / 蓝队",
             "AI 自动化 / Skill"
           ],
-          "score": 57.5
-        },
-        {
-          "id": 1333875303,
-          "name": "dsh-passwords",
-          "fullName": "slywalker2006/dsh-passwords",
-          "url": "https://github.com/slywalker2006/dsh-passwords",
-          "homepage": "https://github.com/slywalker2006/dsh-passwords",
-          "description": "Server-grade gateway that turns DeepSeek Harness into a multi-tenant platform: remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth, audit log.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-14T06:35:16Z",
-          "updatedAt": "2026-08-16T00:10:38Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 56.65
-        },
-        {
-          "id": 1333770539,
-          "name": "dsh-plugin-audit",
-          "fullName": "jkrandom-sudo/dsh-plugin-audit",
-          "url": "https://github.com/jkrandom-sudo/dsh-plugin-audit",
-          "homepage": "",
-          "description": "Security audit for DeepSeek Harness plugins: static permission profile with file/line evidence + a runtime sentinel gating credential access and unknown-host egress · DSH 插件安全审计：静态权限画像（附文件/行号证据）+ 运行时哨兵，触及凭证或向未知主机外发数据时先请你批准",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-14T03:58:05Z",
-          "updatedAt": "2026-08-15T04:54:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 55.7
-        },
-        {
-          "id": 1334549631,
-          "name": "abdal-4iproto-proxy",
-          "fullName": "ebrasha/abdal-4iproto-proxy",
-          "url": "https://github.com/ebrasha/abdal-4iproto-proxy",
-          "homepage": "",
-          "description": "Abdal 4iProto Proxy — High-performance TCP/UDP Layer-4 proxy with Multi-Hop routing, RAW UDP relay, traffic forwarding, access control, and network security features. Developed by Ebrahim Shafiei (EbraSha) | Abdal Security Group.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-08-14T20:20:57Z",
-          "updatedAt": "2026-08-14T23:13:01Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 55.17
+          "score": 52.97
         }
       ]
     },
@@ -405,35 +407,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 10,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1786847701"
+          "rateLimitReset": "1786888007"
         }
       ],
       "repositories": [
@@ -444,12 +446,12 @@
           "url": "https://github.com/DrHazemAli/enterprise-system-design",
           "homepage": "",
           "description": "A source-grounded course & reference for engineers designing systems that must survive real traffic, partial failure, security review, and changing requirements, spanning enterprise system design, distributed systems, AI systems, cybersecurity, reliability, cloud, HPC, edge, and mission-critical infrastructure.",
-          "stars": 494,
-          "forks": 104,
+          "stars": 512,
+          "forks": 109,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-12T04:03:15Z",
-          "updatedAt": "2026-08-16T01:51:51Z",
+          "updatedAt": "2026-08-16T13:31:37Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -460,7 +462,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 215.36
+          "score": 214.78
         },
         {
           "id": 1332935366,
@@ -469,12 +471,12 @@
           "url": "https://github.com/xyiqq/skilldoctor",
           "homepage": "",
           "description": "Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
-          "stars": 243,
-          "forks": 9,
-          "openIssues": 2,
+          "stars": 375,
+          "forks": 12,
+          "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-08-13T09:25:47Z",
-          "updatedAt": "2026-08-16T00:01:51Z",
+          "updatedAt": "2026-08-16T13:40:46Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -486,7 +488,63 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 172.07
+          "score": 183.04
+        },
+        {
+          "id": 1335198054,
+          "name": "dhunter",
+          "fullName": "Dest1ny-Sec/dhunter",
+          "url": "https://github.com/Dest1ny-Sec/dhunter",
+          "homepage": "",
+          "description": "AI 驱动的自主渗透测试平台：输入目标，AI agent 自动完成侦察→规划→主动测试→漏洞验证→报告生成。黑板引擎+多 worker+SRC 验收门禁。仅供学术与安全研究使用。",
+          "stars": 15,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-08-15T15:28:31Z",
+          "updatedAt": "2026-08-16T10:45:42Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 118.15
+        },
+        {
+          "id": 1334129425,
+          "name": "ravel",
+          "fullName": "NOFireAI/ravel",
+          "url": "https://github.com/NOFireAI/ravel",
+          "homepage": "",
+          "description": "A distributed OpenTelemetry-native columnar datastore whose only backend is object storage.",
+          "stars": 28,
+          "forks": 1,
+          "openIssues": 137,
+          "language": "Rust",
+          "createdAt": "2026-08-14T11:52:50Z",
+          "updatedAt": "2026-08-16T13:32:06Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 110.6
         },
         {
           "id": 1329535977,
@@ -515,60 +573,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 110.16
-        },
-        {
-          "id": 1335198054,
-          "name": "dhunter",
-          "fullName": "Dest1ny-Sec/dhunter",
-          "url": "https://github.com/Dest1ny-Sec/dhunter",
-          "homepage": "",
-          "description": "AI 驱动的自主渗透测试平台：输入目标，AI agent 自动完成侦察→规划→主动测试→漏洞验证→报告生成。黑板引擎+多 worker+SRC 验收门禁。仅供学术与安全研究使用。",
-          "stars": 10,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-08-15T15:28:31Z",
-          "updatedAt": "2026-08-16T01:53:13Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 109.52
-        },
-        {
-          "id": 1334129425,
-          "name": "ravel",
-          "fullName": "NOFireAI/ravel",
-          "url": "https://github.com/NOFireAI/ravel",
-          "homepage": "",
-          "description": "A distributed OpenTelemetry-native columnar datastore whose only backend is object storage.",
-          "stars": 27,
-          "forks": 0,
-          "openIssues": 122,
-          "language": "Rust",
-          "createdAt": "2026-08-14T11:52:50Z",
-          "updatedAt": "2026-08-15T22:13:23Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 107.46
+          "score": 108.43
         },
         {
           "id": 1334214605,
@@ -577,12 +582,12 @@
           "url": "https://github.com/dhicoc/dsh-reverse-skill",
           "homepage": "",
           "description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
-          "stars": 16,
-          "forks": 4,
+          "stars": 19,
+          "forks": 5,
           "openIssues": 0,
           "language": "PowerShell",
           "createdAt": "2026-08-14T13:32:19Z",
-          "updatedAt": "2026-08-16T01:20:56Z",
+          "updatedAt": "2026-08-16T12:47:40Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -596,7 +601,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 104.62
+          "score": 107.94
         },
         {
           "id": 1330510119,
@@ -621,7 +626,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 101.39
+          "score": 99.66
         },
         {
           "id": 1330538288,
@@ -630,12 +635,12 @@
           "url": "https://github.com/ahmetgulerpy/ag-cyber-lab",
           "homepage": "",
           "description": "Open-source practical cybersecurity learning platform with structured lessons, guided labs, progress tracking, and a custom Lab Engine.",
-          "stars": 21,
+          "stars": 22,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-08-11T05:39:56Z",
-          "updatedAt": "2026-08-15T13:08:08Z",
+          "updatedAt": "2026-08-16T07:30:11Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -645,7 +650,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 96.48
+          "score": 95.8
         },
         {
           "id": 1329416756,
@@ -671,7 +676,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 95.18
+          "score": 93.14
         },
         {
           "id": 1331430804,
@@ -695,7 +700,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 90.28
+          "score": 88.41
         },
         {
           "id": 1329270991,
@@ -722,32 +727,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 88.8
-        },
-        {
-          "id": 1331672760,
-          "name": "dockerignore-audit",
-          "fullName": "Dtoxic28/dockerignore-audit",
-          "url": "https://github.com/Dtoxic28/dockerignore-audit",
-          "homepage": "",
-          "description": "Audit Docker build contexts with Docker-compatible .dockerignore semantics.",
-          "stars": 13,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-12T06:05:32Z",
-          "updatedAt": "2026-08-15T02:24:58Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 88.35
+          "score": 86.76
         },
         {
           "id": 1329806020,
@@ -772,7 +752,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 87.05
+          "score": 85.32
         },
         {
           "id": 1332656690,
@@ -798,7 +778,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 85.87
+          "score": 84
         },
         {
           "id": 1329340682,
@@ -823,7 +803,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 84.21
+          "score": 82.34
         },
         {
           "id": 1331657322,
@@ -847,7 +827,32 @@
           "tags": [
             "网络安全"
           ],
-          "score": 81.46
+          "score": 79.59
+        },
+        {
+          "id": 1332239605,
+          "name": "quiz-sql",
+          "fullName": "leo-gomes-dev/quiz-sql",
+          "url": "https://github.com/leo-gomes-dev/quiz-sql",
+          "homepage": "",
+          "description": "Simulado acadêmico interativo focado na vulnerabilidade de SQL Injection.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-08-12T16:34:59Z",
+          "updatedAt": "2026-08-16T12:38:01Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 71.4
         },
         {
           "id": 1332210415,
@@ -872,32 +877,32 @@
             "防守 / 蓝队",
             "AI 自动化 / Skill"
           ],
-          "score": 71.41
+          "score": 69.47
         },
         {
-          "id": 1329526588,
-          "name": "dsh-security-audit",
-          "fullName": "omdsh-dev/dsh-security-audit",
-          "url": "https://github.com/omdsh-dev/dsh-security-audit",
+          "id": 1331321569,
+          "name": "boundaryguard",
+          "fullName": "000wq123/boundaryguard",
+          "url": "https://github.com/000wq123/boundaryguard",
           "homepage": "",
-          "description": "DSH 本机安全审计插件：配置/插件来源/会话/网络暴露面，只读脱敏风险报告",
-          "stars": 11,
-          "forks": 0,
+          "description": "Detect and remove invisible Unicode security hazards. Trojan Source detection, CI checks, and safe RTL handling.",
+          "stars": 5,
+          "forks": 1,
           "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-10T07:02:52Z",
-          "updatedAt": "2026-08-15T16:21:39Z",
+          "language": "Python",
+          "createdAt": "2026-08-11T20:18:50Z",
+          "updatedAt": "2026-08-12T13:41:27Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
             "网络安全"
           ],
-          "score": 71.02
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 68.01
         }
       ]
     }
