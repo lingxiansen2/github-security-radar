@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-19T02:30:48.345Z",
+  "generatedAt": "2026-08-19T13:58:41.899Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-08-16",
-      "totalCandidates": 22,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/sanjarbiy/bugbountyrules",
           "homepage": "",
           "description": "Behavioral-discipline skill turning an AI agent into a methodical, non-robotic bug-bounty & pentest hunter - 42 always-on rules: scope, coverage, no false positives, never quits early.",
-          "stars": 22,
-          "forks": 6,
+          "stars": 26,
+          "forks": 7,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-08-17T18:15:38Z",
-          "updatedAt": "2026-08-19T00:45:14Z",
+          "updatedAt": "2026-08-19T09:44:35Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -99,7 +99,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 127.57
+          "score": 128.32
         },
         {
           "id": 1338836274,
@@ -108,12 +108,12 @@
           "url": "https://github.com/truthfuleuph/nordvpn-windows-11-setup",
           "homepage": "",
           "description": "NordVPN fully configured for Windows 11 with auto-connect, kill switch, and threat protection pre-enabled. Includes 6-month activation key.",
-          "stars": 18,
+          "stars": 21,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-18T21:03:05Z",
-          "updatedAt": "2026-08-19T01:50:26Z",
+          "updatedAt": "2026-08-19T09:11:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -123,7 +123,32 @@
           "tags": [
             "通用安全"
           ],
-          "score": 101.82
+          "score": 101.31
+        },
+        {
+          "id": 1336388573,
+          "name": "RepoRelay",
+          "fullName": "Lukie-81/RepoRelay",
+          "url": "https://github.com/Lukie-81/RepoRelay",
+          "homepage": "",
+          "description": "Secure MCP access to local repositories — without shell, Git, or arbitrary writes.",
+          "stars": 11,
+          "forks": 5,
+          "openIssues": 3,
+          "language": "TypeScript",
+          "createdAt": "2026-08-16T21:43:35Z",
+          "updatedAt": "2026-08-19T13:48:33Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.75
         },
         {
           "id": 1335602128,
@@ -150,21 +175,21 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 77.29
+          "score": 76.75
         },
         {
-          "id": 1336388573,
-          "name": "RepoRelay",
-          "fullName": "Lukie-81/RepoRelay",
-          "url": "https://github.com/Lukie-81/RepoRelay",
+          "id": 1338154075,
+          "name": "dshscan",
+          "fullName": "shaoshi20/dshscan",
+          "url": "https://github.com/shaoshi20/dshscan",
           "homepage": "",
-          "description": "Secure MCP access to local repositories — without shell, Git, or arbitrary writes.",
-          "stars": 8,
-          "forks": 3,
+          "description": "DShScan - DSH plugin security scanner inspired by NVIDIA SkillSpector",
+          "stars": 7,
+          "forks": 1,
           "openIssues": 0,
           "language": "TypeScript",
-          "createdAt": "2026-08-16T21:43:35Z",
-          "updatedAt": "2026-08-19T02:29:36Z",
+          "createdAt": "2026-08-18T08:23:26Z",
+          "updatedAt": "2026-08-19T10:54:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -173,9 +198,35 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 74.73
+          "score": 76.37
+        },
+        {
+          "id": 1336836450,
+          "name": "meridian",
+          "fullName": "s1d9e/meridian",
+          "url": "https://github.com/s1d9e/meridian",
+          "homepage": "",
+          "description": "Modular C2 framework for authorized red team operations — Python server, Go implant, HTTP(S)/DNS transports",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-17T07:41:05Z",
+          "updatedAt": "2026-08-19T05:44:22Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 67.45
         },
         {
           "id": 1338203650,
@@ -201,21 +252,21 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 70.27
+          "score": 66.13
         },
         {
-          "id": 1336836450,
-          "name": "meridian",
-          "fullName": "s1d9e/meridian",
-          "url": "https://github.com/s1d9e/meridian",
+          "id": 1336139189,
+          "name": "dsh-tailscale-gateway",
+          "fullName": "TiantianFlow/dsh-tailscale-gateway",
+          "url": "https://github.com/TiantianFlow/dsh-tailscale-gateway",
           "homepage": "",
-          "description": "Modular C2 framework for authorized red team operations — Python server, Go implant, HTTP(S)/DNS transports",
-          "stars": 6,
-          "forks": 1,
+          "description": "Private Tailscale access for DeepSeek Harness Web: exact user allowlists, loopback-only gateway, and guarded Serve setup",
+          "stars": 9,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-17T07:41:05Z",
-          "updatedAt": "2026-08-18T00:43:29Z",
+          "language": "JavaScript",
+          "createdAt": "2026-08-16T16:34:09Z",
+          "updatedAt": "2026-08-19T06:32:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -224,9 +275,9 @@
           ],
           "tags": [
             "通用安全",
-            "渗透 / 红队"
+            "AI 自动化 / Skill"
           ],
-          "score": 68.53
+          "score": 63.21
         },
         {
           "id": 1336446867,
@@ -251,83 +302,35 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.99
+          "score": 62.52
         },
         {
-          "id": 1335864397,
-          "name": "skillhawk",
-          "fullName": "Berserk-hub150/skillhawk",
-          "url": "https://github.com/Berserk-hub150/skillhawk",
+          "id": 1335517307,
+          "name": "bonsai-ninja",
+          "fullName": "gromhacks/bonsai-ninja",
+          "url": "https://github.com/gromhacks/bonsai-ninja",
           "homepage": "",
-          "description": "Catch dangerous AI agent skills before they catch you. Zero-dependency security scanner for Agent Skills, SKILL.md and MCP configs.",
+          "description": "🥷 Give your codebase a black belt. Local code intelligence, security analysis, and compiler-backed facts for humans and AI.",
           "stars": 5,
-          "forks": 6,
-          "openIssues": 34,
-          "language": "JavaScript",
-          "createdAt": "2026-08-16T11:35:23Z",
-          "updatedAt": "2026-08-19T01:54:52Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 65.04
-        },
-        {
-          "id": 1336139189,
-          "name": "dsh-tailscale-gateway",
-          "fullName": "TiantianFlow/dsh-tailscale-gateway",
-          "url": "https://github.com/TiantianFlow/dsh-tailscale-gateway",
-          "homepage": "",
-          "description": "Private Tailscale access for DeepSeek Harness Web: exact user allowlists, loopback-only gateway, and guarded Serve setup",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-16T16:34:09Z",
-          "updatedAt": "2026-08-18T02:23:15Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 64.87
-        },
-        {
-          "id": 1336493632,
-          "name": "agentleaks",
-          "fullName": "Thomas-E-Lewis/agentleaks",
-          "url": "https://github.com/Thomas-E-Lewis/agentleaks",
-          "homepage": "",
-          "description": "Find and scrub secrets from AI coding agent session logs and configs: Claude Code, Codex, Gemini CLI, aider, Cursor and more",
-          "stars": 5,
-          "forks": 1,
+          "forks": 2,
           "openIssues": 0,
           "language": "Rust",
-          "createdAt": "2026-08-17T00:31:18Z",
-          "updatedAt": "2026-08-18T12:23:46Z",
+          "createdAt": "2026-08-16T00:21:47Z",
+          "updatedAt": "2026-08-19T13:38:48Z",
           "matchedProfiles": [
-            "通用安全"
+            "通用安全",
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1,
+            1.08
           ],
           "tags": [
             "通用安全",
+            "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.48
+          "score": 61.42
         },
         {
           "id": 1337771981,
@@ -354,32 +357,32 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 61.66
+          "score": 56.77
         },
         {
-          "id": 1335517307,
-          "name": "bonsai-ninja",
-          "fullName": "gromhacks/bonsai-ninja",
-          "url": "https://github.com/gromhacks/bonsai-ninja",
+          "id": 1335768403,
+          "name": "unmarkk",
+          "fullName": "Dhirenderchoudhary/unmarkk",
+          "url": "https://github.com/Dhirenderchoudhary/unmarkk",
           "homepage": "",
-          "description": "🥷 Give your codebase a black belt. Local code intelligence, security analysis, and compiler-backed facts for humans and AI.",
-          "stars": 5,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-08-16T00:21:47Z",
-          "updatedAt": "2026-08-18T17:49:44Z",
+          "description": "Privacy-first watermark and metadata remover. Strips identifying metadata, AI provenance manifests, and invisible Unicode carriers from your files entirely locally with zero dependencies.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 6,
+          "language": "TypeScript",
+          "createdAt": "2026-08-16T09:03:15Z",
+          "updatedAt": "2026-08-18T13:44:14Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
+            "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.42
+          "score": 54
         }
       ]
     },
@@ -399,35 +402,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 11,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1787106701"
+          "rateLimitReset": "1787147974"
         }
       ],
       "repositories": [
@@ -438,12 +441,12 @@
           "url": "https://github.com/DrHazemAli/enterprise-system-design",
           "homepage": "",
           "description": "A source-grounded course & reference for engineers designing systems that must survive real traffic, partial failure, security review, and changing requirements, spanning enterprise system design, distributed systems, AI systems, cybersecurity, reliability, cloud, HPC, edge, and mission-critical infrastructure.",
-          "stars": 554,
-          "forks": 114,
+          "stars": 555,
+          "forks": 115,
           "openIssues": 3,
           "language": "Unknown",
           "createdAt": "2026-08-12T04:03:15Z",
-          "updatedAt": "2026-08-19T00:33:06Z",
+          "updatedAt": "2026-08-19T13:00:23Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -454,7 +457,35 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 207.1
+          "score": 206.95
+        },
+        {
+          "id": 1337498625,
+          "name": "bugbountyrules",
+          "fullName": "sanjarbiy/bugbountyrules",
+          "url": "https://github.com/sanjarbiy/bugbountyrules",
+          "homepage": "",
+          "description": "Behavioral-discipline skill turning an AI agent into a methodical, non-robotic bug-bounty & pentest hunter - 42 always-on rules: scope, coverage, no false positives, never quits early.",
+          "stars": 26,
+          "forks": 7,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-08-17T18:15:38Z",
+          "updatedAt": "2026-08-19T09:44:35Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 138.96
         },
         {
           "id": 1335198054,
@@ -465,7 +496,7 @@
           "description": "AI 驱动的自主渗透测试平台：输入目标，AI agent 自动完成侦察→规划→主动测试→漏洞验证→报告生成。黑板引擎+多 worker+SRC 验收门禁。仅供学术与安全研究使用。",
           "stars": 39,
           "forks": 4,
-          "openIssues": 1,
+          "openIssues": 2,
           "language": "Go",
           "createdAt": "2026-08-15T15:28:31Z",
           "updatedAt": "2026-08-19T00:46:57Z",
@@ -485,35 +516,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 140.27
-        },
-        {
-          "id": 1337498625,
-          "name": "bugbountyrules",
-          "fullName": "sanjarbiy/bugbountyrules",
-          "url": "https://github.com/sanjarbiy/bugbountyrules",
-          "homepage": "",
-          "description": "Behavioral-discipline skill turning an AI agent into a methodical, non-robotic bug-bounty & pentest hunter - 42 always-on rules: scope, coverage, no false positives, never quits early.",
-          "stars": 22,
-          "forks": 6,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-08-17T18:15:38Z",
-          "updatedAt": "2026-08-19T00:45:14Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 135.43
+          "score": 138.18
         },
         {
           "id": 1334214605,
@@ -522,12 +525,12 @@
           "url": "https://github.com/dhicoc/dsh-reverse-skill",
           "homepage": "",
           "description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
-          "stars": 38,
-          "forks": 7,
+          "stars": 41,
+          "forks": 8,
           "openIssues": 1,
           "language": "PowerShell",
           "createdAt": "2026-08-14T13:32:19Z",
-          "updatedAt": "2026-08-19T01:21:39Z",
+          "updatedAt": "2026-08-19T12:32:55Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -541,7 +544,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 116.93
+          "score": 117.71
         },
         {
           "id": 1334129425,
@@ -550,12 +553,12 @@
           "url": "https://github.com/NOFireAI/ravel",
           "homepage": "",
           "description": "A distributed OpenTelemetry-native columnar datastore whose only backend is object storage.",
-          "stars": 33,
+          "stars": 38,
           "forks": 1,
-          "openIssues": 129,
+          "openIssues": 142,
           "language": "Rust",
           "createdAt": "2026-08-14T11:52:50Z",
-          "updatedAt": "2026-08-19T00:43:46Z",
+          "updatedAt": "2026-08-19T13:46:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -566,7 +569,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 105.21
+          "score": 106.9
         },
         {
           "id": 1338836274,
@@ -575,12 +578,12 @@
           "url": "https://github.com/truthfuleuph/nordvpn-windows-11-setup",
           "homepage": "",
           "description": "NordVPN fully configured for Windows 11 with auto-connect, kill switch, and threat protection pre-enabled. Includes 6-month activation key.",
-          "stars": 18,
+          "stars": 21,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-18T21:03:05Z",
-          "updatedAt": "2026-08-19T01:50:26Z",
+          "updatedAt": "2026-08-19T09:11:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -590,7 +593,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 102.95
+          "score": 104.8
         },
         {
           "id": 1335002300,
@@ -617,7 +620,32 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 96.16
+          "score": 94.07
+        },
+        {
+          "id": 1336388573,
+          "name": "RepoRelay",
+          "fullName": "Lukie-81/RepoRelay",
+          "url": "https://github.com/Lukie-81/RepoRelay",
+          "homepage": "",
+          "description": "Secure MCP access to local repositories — without shell, Git, or arbitrary writes.",
+          "stars": 11,
+          "forks": 5,
+          "openIssues": 3,
+          "language": "TypeScript",
+          "createdAt": "2026-08-16T21:43:35Z",
+          "updatedAt": "2026-08-19T13:48:33Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 93
         },
         {
           "id": 1335602128,
@@ -644,7 +672,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 93.62
+          "score": 91.64
         },
         {
           "id": 1333875303,
@@ -653,12 +681,12 @@
           "url": "https://github.com/slywalker2006/dsh-passwords",
           "homepage": "https://github.com/slywalker2006/dsh-passwords",
           "description": "Server-grade gateway that turns DeepSeek Harness into a multi-tenant platform: remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth, audit log.",
-          "stars": 11,
-          "forks": 3,
+          "stars": 14,
+          "forks": 5,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-08-14T06:35:16Z",
-          "updatedAt": "2026-08-18T20:00:58Z",
+          "updatedAt": "2026-08-19T13:23:30Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -669,7 +697,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 82.67
+          "score": 88.62
         },
         {
           "id": 1334114994,
@@ -678,12 +706,12 @@
           "url": "https://github.com/truststrikelabs/BrokenMCP",
           "homepage": "https://truststrikelabs.com/",
           "description": "BrokenMCP is a vulnerable implementation of the Model Context Protocol (MCP) for educational purposes.",
-          "stars": 8,
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-14T11:34:19Z",
-          "updatedAt": "2026-08-18T12:07:58Z",
+          "updatedAt": "2026-08-19T11:21:31Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -694,32 +722,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 80.98
-        },
-        {
-          "id": 1336446867,
-          "name": "master-iam-skills",
-          "fullName": "Sefyu24/master-iam-skills",
-          "url": "https://github.com/Sefyu24/master-iam-skills",
-          "homepage": "masteriam.com/skills",
-          "description": "The best IAM skills for career planning, practical learning, and access-control review",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-16T23:15:43Z",
-          "updatedAt": "2026-08-19T02:28:55Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 78.41
+          "score": 81.8
         },
         {
           "id": 1331672760,
@@ -744,7 +747,32 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 77.22
+          "score": 76.66
+        },
+        {
+          "id": 1336446867,
+          "name": "master-iam-skills",
+          "fullName": "Sefyu24/master-iam-skills",
+          "url": "https://github.com/Sefyu24/master-iam-skills",
+          "homepage": "masteriam.com/skills",
+          "description": "The best IAM skills for career planning, practical learning, and access-control review",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-16T23:15:43Z",
+          "updatedAt": "2026-08-19T02:28:55Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 76.49
         },
         {
           "id": 1335517307,
@@ -758,7 +786,7 @@
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-16T00:21:47Z",
-          "updatedAt": "2026-08-18T17:49:44Z",
+          "updatedAt": "2026-08-19T13:38:48Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -769,7 +797,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 77.11
+          "score": 75.19
         },
         {
           "id": 1332656690,
@@ -795,7 +823,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 76.09
+          "score": 74.18
         },
         {
           "id": 1331657322,
@@ -819,7 +847,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 71.96
+          "score": 71.43
         },
         {
           "id": 1331732980,
@@ -846,7 +874,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 69.27
+          "score": 68.53
         },
         {
           "id": 1332239605,
@@ -871,32 +899,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 61.25
-        },
-        {
-          "id": 1332210415,
-          "name": "Bulwark-FlipperZero",
-          "fullName": "at0m-b0mb/Bulwark-FlipperZero",
-          "url": "https://github.com/at0m-b0mb/Bulwark-FlipperZero",
-          "homepage": "",
-          "description": "Bluetooth LE advertising-spam detector for the Flipper Zero, on the onboard radio. Hears the popup flood on 2402/2426/2480 MHz - and never claims to read it.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-08-12T16:02:55Z",
-          "updatedAt": "2026-08-14T14:18:24Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 58.94
+          "score": 59.33
         }
       ]
     }
