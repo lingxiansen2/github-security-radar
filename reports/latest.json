@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-20T14:00:37.053Z",
+  "generatedAt": "2026-08-21T02:36:17.206Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-17",
-      "totalCandidates": 24,
+      "createdSince": "2026-08-18",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 8,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Zyrexnn/Cybermes",
           "homepage": "",
           "description": "Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.",
-          "stars": 28,
+          "stars": 41,
           "forks": 4,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-19T13:25:08Z",
-          "updatedAt": "2026-08-20T13:44:43Z",
+          "updatedAt": "2026-08-21T02:12:25Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -100,35 +100,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 135.38
-        },
-        {
-          "id": 1337498625,
-          "name": "bugbountyrules",
-          "fullName": "sanjarbiy/bugbountyrules",
-          "url": "https://github.com/sanjarbiy/bugbountyrules",
-          "homepage": "",
-          "description": "Behavioral-discipline skill turning an AI agent into a methodical, non-robotic bug-bounty & pentest hunter - 42 always-on rules: scope, coverage, no false positives, never quits early.",
-          "stars": 28,
-          "forks": 7,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-08-17T18:15:38Z",
-          "updatedAt": "2026-08-19T16:54:01Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 120.19
+          "score": 141.05
         },
         {
           "id": 1340043037,
@@ -137,12 +109,12 @@
           "url": "https://github.com/armourinfosec/Offensive-Linux-Privilege-Escalation",
           "homepage": "https://www.armourinfosec.com",
           "description": "Offensive Linux Privilege Escalation — hands-on study notes: enumeration, sudo/SUID/capabilities, cron & systemd timers, kernel LPEs (DirtyPipe/OverlayFS/PwnKit), container & namespace escapes, and credential mining. Each technique with detection & defenses. CC BY 4.0.",
-          "stars": 7,
-          "forks": 2,
+          "stars": 8,
+          "forks": 3,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-19T21:35:17Z",
-          "updatedAt": "2026-08-20T13:40:50Z",
+          "updatedAt": "2026-08-20T18:29:04Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -156,7 +128,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 98.49
+          "score": 98.31
         },
         {
           "id": 1339980051,
@@ -165,12 +137,12 @@
           "url": "https://github.com/armourinfosec/Offensive-Windows-Privilege-Escalation",
           "homepage": "https://www.armourinfosec.com",
           "description": "Offensive Windows Privilege Escalation — hands-on study notes: enumeration & methodology, service/scheduled-task misconfigs, UAC bypass, token-privilege abuse, the potato family, kernel exploits, and credential mining. Each technique with detection & defenses. CC BY 4.0.",
-          "stars": 7,
-          "forks": 2,
+          "stars": 8,
+          "forks": 3,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-19T20:01:54Z",
-          "updatedAt": "2026-08-20T13:40:45Z",
+          "updatedAt": "2026-08-20T18:29:22Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -185,7 +157,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 97.83
+          "score": 97.65
         },
         {
           "id": 1339951060,
@@ -194,12 +166,12 @@
           "url": "https://github.com/armourinfosec/Offensive-File-Transfer-Techniques",
           "homepage": "https://www.armourinfosec.com",
           "description": "Offensive File Transfer Techniques — hands-on study notes on moving files to and from a target during an engagement across every channel: HTTP/SMB/FTP/TFTP/WebDAV, netcat/socat, scp/rsync, LOLBAS/GTFOBins, base64 no-egress, Meterpreter, plus detection. CC BY 4.0.",
-          "stars": 5,
-          "forks": 2,
+          "stars": 7,
+          "forks": 3,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-19T19:23:07Z",
-          "updatedAt": "2026-08-20T13:40:57Z",
+          "updatedAt": "2026-08-20T19:52:46Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -214,7 +186,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 89.85
+          "score": 94.15
         },
         {
           "id": 1339920291,
@@ -223,12 +195,12 @@
           "url": "https://github.com/armourinfosec/Python-for-Security-Professionals",
           "homepage": "https://www.armourinfosec.com",
           "description": "Python for Security Professionals — lab-driven study notes: language fundamentals, the standard library, concurrency and packaging, then building port scanners, log analysers, and recon tooling. 14 modules, 8 labs, 16 projects, 138 flashcards. CC BY 4.0.",
-          "stars": 5,
-          "forks": 2,
+          "stars": 6,
+          "forks": 3,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-19T18:46:38Z",
-          "updatedAt": "2026-08-20T13:40:31Z",
+          "updatedAt": "2026-08-20T18:27:04Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -241,7 +213,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 89.59
+          "score": 90.28
         },
         {
           "id": 1338793701,
@@ -250,12 +222,12 @@
           "url": "https://github.com/KBT096/windows-secure-toolkit",
           "homepage": "",
           "description": "Local Windows security auditing and reversible hardening with a C#/.NET Framework 4.8 core and CMD/BAT entry points.",
-          "stars": 12,
-          "forks": 1,
+          "stars": 13,
+          "forks": 2,
           "openIssues": 0,
           "language": "C#",
           "createdAt": "2026-08-18T20:01:50Z",
-          "updatedAt": "2026-08-20T13:33:34Z",
+          "updatedAt": "2026-08-20T15:42:12Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -266,33 +238,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 83.37
-        },
-        {
-          "id": 1338154075,
-          "name": "dshscan",
-          "fullName": "shaoshi20/dshscan",
-          "url": "https://github.com/shaoshi20/dshscan",
-          "homepage": "",
-          "description": "DShScan - DSH plugin security scanner inspired by NVIDIA SkillSpector",
-          "stars": 8,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-18T08:23:26Z",
-          "updatedAt": "2026-08-20T05:23:43Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 70.43
+          "score": 82.96
         },
         {
           "id": 1340517263,
@@ -301,12 +247,12 @@
           "url": "https://github.com/kyos-public/keycloak-cve-2026-18963-hunt",
           "homepage": "",
           "description": "Hunt for CVE-2026-18963 exploitation traces (Keycloak unauthenticated account takeover) in the Keycloak database",
-          "stars": 3,
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-20T09:25:27Z",
-          "updatedAt": "2026-08-20T11:45:46Z",
+          "updatedAt": "2026-08-20T21:13:55Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -318,7 +264,82 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 66.14
+          "score": 66.33
+        },
+        {
+          "id": 1338154075,
+          "name": "dshscan",
+          "fullName": "shaoshi20/dshscan",
+          "url": "https://github.com/shaoshi20/dshscan",
+          "homepage": "",
+          "description": "Security scanner for DSH plugins: static and semantic passes over plugin source, DSH-specific attack-surface rules, npm audit, batch scanning, and an HTML report with per-finding severity and evidence.",
+          "stars": 8,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-18T08:23:26Z",
+          "updatedAt": "2026-08-20T16:43:08Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 65.88
+        },
+        {
+          "id": 1340520266,
+          "name": "WebScan",
+          "fullName": "hctorfrrs17-tech/WebScan",
+          "url": "https://github.com/hctorfrrs17-tech/WebScan",
+          "homepage": "",
+          "description": "15 Defensive web security agents that test and improve your website's security extreme to extreme.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-20T09:28:40Z",
+          "updatedAt": "2026-08-20T19:25:19Z",
+          "matchedProfiles": [
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1.12
+          ],
+          "tags": [
+            "防守 / 蓝队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 62.51
+        },
+        {
+          "id": 1340725945,
+          "name": "Al-Kantara-Security-Extension",
+          "fullName": "urbanyl/Al-Kantara-Security-Extension",
+          "url": "https://github.com/urbanyl/Al-Kantara-Security-Extension",
+          "homepage": "",
+          "description": "",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-08-20T13:22:04Z",
+          "updatedAt": "2026-08-20T16:40:12Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 61.8
         },
         {
           "id": 1339563526,
@@ -346,58 +367,33 @@
             "防守 / 蓝队",
             "AI 自动化 / Skill"
           ],
-          "score": 65.66
+          "score": 60.56
         },
         {
-          "id": 1336836450,
-          "name": "meridian",
-          "fullName": "s1d9e/meridian",
-          "url": "https://github.com/s1d9e/meridian",
+          "id": 1339889324,
+          "name": "security_log-triage-practice",
+          "fullName": "Sumanthsrianand/security_log-triage-practice",
+          "url": "https://github.com/Sumanthsrianand/security_log-triage-practice",
           "homepage": "",
-          "description": "Modular C2 framework for authorized red team operations — Python server, Go implant, HTTP(S)/DNS transports",
-          "stars": 7,
+          "description": "Real-data SOC alert triage engine & training package. Multi-format log parser, attack-chain correlation, FP heuristics & MITRE mapping — pure Python stdlib, zero dependencies.",
+          "stars": 2,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-17T07:41:05Z",
-          "updatedAt": "2026-08-19T05:44:22Z",
+          "createdAt": "2026-08-19T18:10:34Z",
+          "updatedAt": "2026-08-20T17:59:09Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 61.06
-        },
-        {
-          "id": 1339215142,
-          "name": "vuln-card",
-          "fullName": "runtimepoet/vuln-card",
-          "url": "https://github.com/runtimepoet/vuln-card",
-          "homepage": "",
-          "description": "Security audit of SimpleCard: unauthenticated order-query IDOR chain, default credential pitfalls, JWT defaults - real findings, repro steps, fixes.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-19T07:04:24Z",
-          "updatedAt": "2026-08-20T08:52:16Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 59.98
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 58.63
         }
       ]
     },
@@ -409,7 +405,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-13",
+      "createdSince": "2026-08-14",
       "totalCandidates": 26,
       "queryStats": [
         {
@@ -417,35 +413,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 9,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1787234489"
+          "rateLimitReset": "1787279829"
         }
       ],
       "repositories": [
@@ -456,12 +452,12 @@
           "url": "https://github.com/Zyrexnn/Cybermes",
           "homepage": "",
           "description": "Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.",
-          "stars": 28,
+          "stars": 41,
           "forks": 4,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-19T13:25:08Z",
-          "updatedAt": "2026-08-20T13:44:43Z",
+          "updatedAt": "2026-08-21T02:12:25Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -476,7 +472,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 141.37
+          "score": 150.1
         },
         {
           "id": 1337498625,
@@ -485,12 +481,12 @@
           "url": "https://github.com/sanjarbiy/bugbountyrules",
           "homepage": "",
           "description": "Behavioral-discipline skill turning an AI agent into a methodical, non-robotic bug-bounty & pentest hunter - 42 always-on rules: scope, coverage, no false positives, never quits early.",
-          "stars": 28,
-          "forks": 7,
+          "stars": 29,
+          "forks": 6,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-08-17T18:15:38Z",
-          "updatedAt": "2026-08-19T16:54:01Z",
+          "updatedAt": "2026-08-21T01:30:56Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -504,7 +500,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 136.69
+          "score": 134.49
         },
         {
           "id": 1335198054,
@@ -514,7 +510,7 @@
           "homepage": "",
           "description": "AI 驱动的自主渗透测试平台：输入目标，AI agent 自动完成侦察→规划→主动测试→漏洞验证→报告生成。黑板引擎+多 worker+SRC 验收门禁。仅供学术与安全研究使用。",
           "stars": 40,
-          "forks": 4,
+          "forks": 5,
           "openIssues": 2,
           "language": "Go",
           "createdAt": "2026-08-15T15:28:31Z",
@@ -535,7 +531,33 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 134.53
+          "score": 133.47
+        },
+        {
+          "id": 1335722570,
+          "name": "procoder",
+          "fullName": "azrtydxb/procoder",
+          "url": "https://github.com/azrtydxb/procoder",
+          "homepage": "https://procoder.azrty.com/",
+          "description": "Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality controllers that refuse to call unfinished work done, and a lessons loop that closes each escaped bug's class. One Go binary, no runtime deps, works with 20+ agents.",
+          "stars": 80,
+          "forks": 5,
+          "openIssues": 17,
+          "language": "Go",
+          "createdAt": "2026-08-16T07:47:17Z",
+          "updatedAt": "2026-08-21T02:29:43Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 133.01
         },
         {
           "id": 1334214605,
@@ -544,12 +566,12 @@
           "url": "https://github.com/dhicoc/dsh-reverse-skill",
           "homepage": "",
           "description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
-          "stars": 53,
-          "forks": 8,
+          "stars": 54,
+          "forks": 9,
           "openIssues": 1,
           "language": "PowerShell",
           "createdAt": "2026-08-14T13:32:19Z",
-          "updatedAt": "2026-08-20T13:56:10Z",
+          "updatedAt": "2026-08-20T17:48:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -563,32 +585,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 120.39
-        },
-        {
-          "id": 1334129425,
-          "name": "ravel",
-          "fullName": "NOFireAI/ravel",
-          "url": "https://github.com/NOFireAI/ravel",
-          "homepage": "",
-          "description": "A distributed OpenTelemetry-native columnar datastore whose only backend is object storage.",
-          "stars": 41,
-          "forks": 1,
-          "openIssues": 127,
-          "language": "Rust",
-          "createdAt": "2026-08-14T11:52:50Z",
-          "updatedAt": "2026-08-20T13:59:34Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 105.06
+          "score": 119.51
         },
         {
           "id": 1340043037,
@@ -597,12 +594,12 @@
           "url": "https://github.com/armourinfosec/Offensive-Linux-Privilege-Escalation",
           "homepage": "https://www.armourinfosec.com",
           "description": "Offensive Linux Privilege Escalation — hands-on study notes: enumeration, sudo/SUID/capabilities, cron & systemd timers, kernel LPEs (DirtyPipe/OverlayFS/PwnKit), container & namespace escapes, and credential mining. Each technique with detection & defenses. CC BY 4.0.",
-          "stars": 7,
-          "forks": 2,
+          "stars": 8,
+          "forks": 3,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-19T21:35:17Z",
-          "updatedAt": "2026-08-20T13:40:50Z",
+          "updatedAt": "2026-08-20T18:29:04Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -616,7 +613,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 102.49
+          "score": 105.38
         },
         {
           "id": 1339980051,
@@ -625,12 +622,12 @@
           "url": "https://github.com/armourinfosec/Offensive-Windows-Privilege-Escalation",
           "homepage": "https://www.armourinfosec.com",
           "description": "Offensive Windows Privilege Escalation — hands-on study notes: enumeration & methodology, service/scheduled-task misconfigs, UAC bypass, token-privilege abuse, the potato family, kernel exploits, and credential mining. Each technique with detection & defenses. CC BY 4.0.",
-          "stars": 7,
-          "forks": 2,
+          "stars": 8,
+          "forks": 3,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-19T20:01:54Z",
-          "updatedAt": "2026-08-20T13:40:45Z",
+          "updatedAt": "2026-08-20T18:29:22Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -645,21 +642,21 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 102.21
+          "score": 105.09
         },
         {
-          "id": 1336388573,
-          "name": "RepoRelay",
-          "fullName": "Lukie-81/RepoRelay",
-          "url": "https://github.com/Lukie-81/RepoRelay",
+          "id": 1334129425,
+          "name": "ravel",
+          "fullName": "NOFireAI/ravel",
+          "url": "https://github.com/NOFireAI/ravel",
           "homepage": "",
-          "description": "Secure MCP access to local repositories — without shell, Git, or arbitrary writes.",
-          "stars": 17,
-          "forks": 7,
-          "openIssues": 3,
-          "language": "TypeScript",
-          "createdAt": "2026-08-16T21:43:35Z",
-          "updatedAt": "2026-08-20T12:10:46Z",
+          "description": "A distributed OpenTelemetry-native columnar datastore whose only backend is object storage.",
+          "stars": 41,
+          "forks": 1,
+          "openIssues": 145,
+          "language": "Rust",
+          "createdAt": "2026-08-14T11:52:50Z",
+          "updatedAt": "2026-08-21T02:19:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -670,7 +667,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 100.8
+          "score": 103.11
+        },
+        {
+          "id": 1336388573,
+          "name": "RepoRelay",
+          "fullName": "Lukie-81/RepoRelay",
+          "url": "https://github.com/Lukie-81/RepoRelay",
+          "homepage": "https://lukie-81.github.io/RepoRelay/",
+          "description": "Secure MCP access to local repositories — without shell, Git, or arbitrary writes.",
+          "stars": 19,
+          "forks": 9,
+          "openIssues": 3,
+          "language": "TypeScript",
+          "createdAt": "2026-08-16T21:43:35Z",
+          "updatedAt": "2026-08-21T02:32:57Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 102.74
         },
         {
           "id": 1339951060,
@@ -679,12 +701,12 @@
           "url": "https://github.com/armourinfosec/Offensive-File-Transfer-Techniques",
           "homepage": "https://www.armourinfosec.com",
           "description": "Offensive File Transfer Techniques — hands-on study notes on moving files to and from a target during an engagement across every channel: HTTP/SMB/FTP/TFTP/WebDAV, netcat/socat, scp/rsync, LOLBAS/GTFOBins, base64 no-egress, Meterpreter, plus detection. CC BY 4.0.",
-          "stars": 5,
-          "forks": 2,
+          "stars": 7,
+          "forks": 3,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-19T19:23:07Z",
-          "updatedAt": "2026-08-20T13:40:57Z",
+          "updatedAt": "2026-08-20T19:52:46Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -699,7 +721,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 94.39
+          "score": 101.75
         },
         {
           "id": 1339920291,
@@ -708,12 +730,12 @@
           "url": "https://github.com/armourinfosec/Python-for-Security-Professionals",
           "homepage": "https://www.armourinfosec.com",
           "description": "Python for Security Professionals — lab-driven study notes: language fundamentals, the standard library, concurrency and packaging, then building port scanners, log analysers, and recon tooling. 14 modules, 8 labs, 16 projects, 138 flashcards. CC BY 4.0.",
-          "stars": 5,
-          "forks": 2,
+          "stars": 6,
+          "forks": 3,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-19T18:46:38Z",
-          "updatedAt": "2026-08-20T13:40:31Z",
+          "updatedAt": "2026-08-20T18:27:04Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -726,7 +748,32 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 94.28
+          "score": 98.03
+        },
+        {
+          "id": 1338793701,
+          "name": "windows-secure-toolkit",
+          "fullName": "KBT096/windows-secure-toolkit",
+          "url": "https://github.com/KBT096/windows-secure-toolkit",
+          "homepage": "",
+          "description": "Local Windows security auditing and reversible hardening with a C#/.NET Framework 4.8 core and CMD/BAT entry points.",
+          "stars": 13,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "C#",
+          "createdAt": "2026-08-18T20:01:50Z",
+          "updatedAt": "2026-08-20T15:42:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 94.22
         },
         {
           "id": 1335002300,
@@ -753,32 +800,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 92.6
-        },
-        {
-          "id": 1338793701,
-          "name": "windows-secure-toolkit",
-          "fullName": "KBT096/windows-secure-toolkit",
-          "url": "https://github.com/KBT096/windows-secure-toolkit",
-          "homepage": "",
-          "description": "Local Windows security auditing and reversible hardening with a C#/.NET Framework 4.8 core and CMD/BAT entry points.",
-          "stars": 12,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-08-18T20:01:50Z",
-          "updatedAt": "2026-08-20T13:33:34Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 92.04
+          "score": 90.3
         },
         {
           "id": 1335602128,
@@ -787,12 +809,12 @@
           "url": "https://github.com/Krishita17/PhantomTap",
           "homepage": "",
           "description": "A Flipper Zero that stops guessing and starts reasoning: ML-guided RFID/NFC fuzzing & access-control auditing that turns raw card reads into a prioritized, explainable security assessment. Defensive-use only.",
-          "stars": 10,
+          "stars": 11,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-16T03:50:52Z",
-          "updatedAt": "2026-08-18T23:00:05Z",
+          "updatedAt": "2026-08-20T17:49:02Z",
           "matchedProfiles": [
             "防守 / 蓝队"
           ],
@@ -805,7 +827,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 87.47
+          "score": 87.62
         },
         {
           "id": 1333875303,
@@ -816,10 +838,10 @@
           "description": "Server-grade gateway that turns DeepSeek Harness into a multi-tenant platform: remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth, audit log.",
           "stars": 15,
           "forks": 6,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-08-14T06:35:16Z",
-          "updatedAt": "2026-08-20T05:44:03Z",
+          "updatedAt": "2026-08-20T15:17:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -830,7 +852,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 87.37
+          "score": 85.42
         },
         {
           "id": 1334114994,
@@ -855,59 +877,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 84.81
-        },
-        {
-          "id": 1335722570,
-          "name": "procoder",
-          "fullName": "azrtydxb/procoder",
-          "url": "https://github.com/azrtydxb/procoder",
-          "homepage": "https://procoder.azrty.com/",
-          "description": "Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality controllers that refuse to call unfinished work done, and a lessons loop that closes each escaped bug's class. One Go binary, no runtime deps, works with 20+ agents.",
-          "stars": 13,
-          "forks": 0,
-          "openIssues": 6,
-          "language": "Go",
-          "createdAt": "2026-08-16T07:47:17Z",
-          "updatedAt": "2026-08-20T13:39:09Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 80.5
-        },
-        {
-          "id": 1332656690,
-          "name": "KageTarget",
-          "fullName": "basriakkaya/KageTarget",
-          "url": "https://github.com/basriakkaya/KageTarget",
-          "homepage": "",
-          "description": "Privacy-first Chrome extension for fast, user-initiated web reconnaissance and page inspection.",
-          "stars": 15,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-13T03:22:44Z",
-          "updatedAt": "2026-08-20T13:12:15Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 79.46
+          "score": 82.51
         },
         {
           "id": 1336446867,
@@ -921,7 +891,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-16T23:15:43Z",
-          "updatedAt": "2026-08-19T15:26:27Z",
+          "updatedAt": "2026-08-21T01:23:31Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -932,7 +902,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 76.22
+          "score": 74.12
+        },
+        {
+          "id": 1335517307,
+          "name": "bonsai-ninja",
+          "fullName": "gromhacks/bonsai-ninja",
+          "url": "https://github.com/gromhacks/bonsai-ninja",
+          "homepage": "",
+          "description": "🥷 Give your codebase a black belt. Local code intelligence, security analysis, and compiler-backed facts for humans and AI.",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-08-16T00:21:47Z",
+          "updatedAt": "2026-08-20T04:24:21Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 69.07
         }
       ]
     }
