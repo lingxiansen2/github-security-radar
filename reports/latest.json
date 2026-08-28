@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-28T12:45:02.667Z",
+  "generatedAt": "2026-08-28T23:03:35.609Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         }
       ],
       "repositories": [
@@ -96,33 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 129.08
-        },
-        {
-          "id": 1346337684,
-          "name": "researchVault",
-          "fullName": "SagarBiswas-MultiHAT/researchVault",
-          "url": "https://github.com/SagarBiswas-MultiHAT/researchVault",
-          "homepage": "https://sagarbiswas-multihat.github.io/",
-          "description": "Open-source research hub featuring data-backed social timing analytics (BST), a 5-phase SWE & cybersecurity career roadmap (2026–2030), and the PRISM study system for CSE students. Covers web security, bug bounty, AI engineering, system design, and daily focus protocols.",
-          "stars": 21,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-25T15:54:18Z",
-          "updatedAt": "2026-08-26T19:01:42Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 89.17
+          "score": 125.36
         },
         {
           "id": 1349146728,
@@ -131,12 +105,12 @@
           "url": "https://github.com/VibRev/ida-headless-mcp",
           "homepage": "",
           "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 3,
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-28T03:02:03Z",
-          "updatedAt": "2026-08-28T11:56:52Z",
+          "updatedAt": "2026-08-28T14:47:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -148,7 +122,33 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 83.19
+          "score": 85.44
+        },
+        {
+          "id": 1349655760,
+          "name": "72stack-sec",
+          "fullName": "Little-H-lying-flat/72stack-sec",
+          "url": "https://github.com/Little-H-lying-flat/72stack-sec",
+          "homepage": "",
+          "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘工作流 skill：19 攻击类 playbook、305 结构化 payload、176 WAF 绕过、2887 H1 案例、8.8 万 WooYun 统计、2026 一线方法论",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-28T13:49:37Z",
+          "updatedAt": "2026-08-28T16:06:10Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 77.2
         },
         {
           "id": 1346525246,
@@ -157,12 +157,12 @@
           "url": "https://github.com/m4vic/bug-hunting",
           "homepage": "",
           "description": "Bug bounty hunting & penetration testing skills for Claude, Codex, and any agentic coding tool.",
-          "stars": 5,
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-25T19:03:10Z",
-          "updatedAt": "2026-08-28T11:49:40Z",
+          "updatedAt": "2026-08-28T19:49:53Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -173,7 +173,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 62.31
+          "score": 67.33
         },
         {
           "id": 1347597978,
@@ -197,7 +197,33 @@
           "tags": [
             "网络安全"
           ],
-          "score": 56.25
+          "score": 52.23
+        },
+        {
+          "id": 1346337684,
+          "name": "researchVault",
+          "fullName": "SagarBiswas-MultiHAT/researchVault",
+          "url": "https://github.com/SagarBiswas-MultiHAT/researchVault",
+          "homepage": "https://sagarbiswas-multihat.github.io/",
+          "description": "Open-source research hub featuring data-backed social timing analytics (BST), a 5-phase SWE & cybersecurity career roadmap (2026–2030), and the PRISM study system for CSE students. Covers web security, bug bounty, AI engineering, system design, and daily focus protocols.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-25T15:54:18Z",
+          "updatedAt": "2026-08-28T17:58:40Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 50.25
         },
         {
           "id": 1348225179,
@@ -222,7 +248,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 51.64
+          "score": 47.92
         },
         {
           "id": 1347692891,
@@ -246,7 +272,33 @@
           "tags": [
             "网络安全"
           ],
-          "score": 50.65
+          "score": 46.63
+        },
+        {
+          "id": 1345568438,
+          "name": "FreeAI_AI_Inference_Workstation",
+          "fullName": "ProjectZeroDays/FreeAI_AI_Inference_Workstation",
+          "url": "https://github.com/ProjectZeroDays/FreeAI_AI_Inference_Workstation",
+          "homepage": "https://projectzerodays.github.io/FreeAI_AI_Inference_Workstation/",
+          "description": "FreeAI: Unified AI Inference Workstation — local LLMs, autonomous agents, full SDLC automation, security tools, and multi-provider routing. One self-hosted stack.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-25T01:44:37Z",
+          "updatedAt": "2026-08-28T22:33:33Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 45.79
         },
         {
           "id": 1346867083,
@@ -272,7 +324,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 47.18
+          "score": 43.46
         },
         {
           "id": 1346851215,
@@ -297,7 +349,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 47.02
+          "score": 43.3
         },
         {
           "id": 1347670813,
@@ -322,58 +374,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 46.74
-        },
-        {
-          "id": 1345568438,
-          "name": "FreeAI_AI_Inference_Workstation",
-          "fullName": "ProjectZeroDays/FreeAI_AI_Inference_Workstation",
-          "url": "https://github.com/ProjectZeroDays/FreeAI_AI_Inference_Workstation",
-          "homepage": "https://projectzerodays.github.io/FreeAI_AI_Inference_Workstation/",
-          "description": "FreeAI: Unified AI Inference Workstation — local LLMs, autonomous agents, full SDLC automation, security tools, and multi-provider routing. One self-hosted stack.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-25T01:44:37Z",
-          "updatedAt": "2026-08-28T12:38:45Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 45.79
-        },
-        {
-          "id": 1346701019,
-          "name": "tyrnex-ai-public",
-          "fullName": "geofreaks/tyrnex-ai-public",
-          "url": "https://github.com/geofreaks/tyrnex-ai-public",
-          "homepage": "https://github.com/geofreaks/tyrnex-ai-public",
-          "description": "Local cyber assessment, triage, topology, and remediation reporting runtime for authorized security reviews.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-25T23:01:14Z",
-          "updatedAt": "2026-08-28T06:06:42Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 42.89
+          "score": 43.02
         }
       ]
     },
@@ -391,37 +392,37 @@
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 7,
+          "fetched": 8,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1787921156"
+          "rateLimitReset": "1787958268"
         }
       ],
       "repositories": [
@@ -432,12 +433,12 @@
           "url": "https://github.com/ADScanPro/Claude-AD",
           "homepage": "https://adscanpro.com",
           "description": "Active Directory pentest methodology for Claude Code: skills, agents and slash commands for internal AD red-team work (Kerberoasting, ADCS ESC1-17, DCSync, ACL abuse, NTLM relay, delegation), with per-technique OPSEC/telemetry notes. Drives netexec, impacket, certipy, bloodyAD, BloodHound CE.",
-          "stars": 134,
+          "stars": 137,
           "forks": 21,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-24T18:13:22Z",
-          "updatedAt": "2026-08-28T12:37:15Z",
+          "updatedAt": "2026-08-28T18:44:35Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -449,7 +450,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 185.73
+          "score": 184.52
         },
         {
           "id": 1348782744,
@@ -474,7 +475,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 132.99
+          "score": 131.4
         },
         {
           "id": 1342134139,
@@ -483,12 +484,12 @@
           "url": "https://github.com/DavidCarliez/cover",
           "homepage": "",
           "description": "Keep private data, internal infrastructure and secrets out of cloud coding agents without breaking your workflow.",
-          "stars": 43,
+          "stars": 44,
           "forks": 4,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-08-21T18:56:30Z",
-          "updatedAt": "2026-08-27T13:37:28Z",
+          "updatedAt": "2026-08-28T21:08:06Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -499,33 +500,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 109.1
-        },
-        {
-          "id": 1346337684,
-          "name": "researchVault",
-          "fullName": "SagarBiswas-MultiHAT/researchVault",
-          "url": "https://github.com/SagarBiswas-MultiHAT/researchVault",
-          "homepage": "https://sagarbiswas-multihat.github.io/",
-          "description": "Open-source research hub featuring data-backed social timing analytics (BST), a 5-phase SWE & cybersecurity career roadmap (2026–2030), and the PRISM study system for CSE students. Covers web security, bug bounty, AI engineering, system design, and daily focus protocols.",
-          "stars": 21,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-25T15:54:18Z",
-          "updatedAt": "2026-08-26T19:01:42Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 104.51
+          "score": 108.71
         },
         {
           "id": 1344265699,
@@ -551,7 +526,33 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 94.3
+          "score": 92.71
+        },
+        {
+          "id": 1349146728,
+          "name": "ida-headless-mcp",
+          "fullName": "VibRev/ida-headless-mcp",
+          "url": "https://github.com/VibRev/ida-headless-mcp",
+          "homepage": "",
+          "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-08-28T03:02:03Z",
+          "updatedAt": "2026-08-28T14:47:30Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 89.9
         },
         {
           "id": 1341716416,
@@ -585,12 +586,12 @@
           "url": "https://github.com/pie-script/llm-agent-testbed",
           "homepage": "",
           "description": "An empirical security testbed evaluating prompt injection, confused-deputy vulnerabilities, and tool-calling defenses in LLM agents.",
-          "stars": 12,
+          "stars": 13,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-23T17:22:23Z",
-          "updatedAt": "2026-08-28T06:46:33Z",
+          "updatedAt": "2026-08-28T16:26:08Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -601,33 +602,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 87.13
+          "score": 87.34
         },
         {
-          "id": 1349146728,
-          "name": "ida-headless-mcp",
-          "fullName": "VibRev/ida-headless-mcp",
-          "url": "https://github.com/VibRev/ida-headless-mcp",
+          "id": 1346525246,
+          "name": "bug-hunting",
+          "fullName": "m4vic/bug-hunting",
+          "url": "https://github.com/m4vic/bug-hunting",
           "homepage": "",
-          "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 3,
-          "language": "Rust",
-          "createdAt": "2026-08-28T03:02:03Z",
-          "updatedAt": "2026-08-28T11:56:52Z",
+          "description": "Bug bounty hunting & penetration testing skills for Claude, Codex, and any agentic coding tool.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-25T19:03:10Z",
+          "updatedAt": "2026-08-28T19:49:53Z",
           "matchedProfiles": [
-            "网络安全"
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
+            1.18
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
           ],
-          "score": 85.35
+          "score": 84.13
         },
         {
           "id": 1344301286,
@@ -652,32 +652,33 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 83.78
+          "score": 82.06
         },
         {
-          "id": 1346525246,
-          "name": "bug-hunting",
-          "fullName": "m4vic/bug-hunting",
-          "url": "https://github.com/m4vic/bug-hunting",
+          "id": 1349655760,
+          "name": "72stack-sec",
+          "fullName": "Little-H-lying-flat/72stack-sec",
+          "url": "https://github.com/Little-H-lying-flat/72stack-sec",
           "homepage": "",
-          "description": "Bug bounty hunting & penetration testing skills for Claude, Codex, and any agentic coding tool.",
+          "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘工作流 skill：19 攻击类 playbook、305 结构化 payload、176 WAF 绕过、2887 H1 案例、8.8 万 WooYun 统计、2026 一线方法论",
           "stars": 5,
-          "forks": 0,
+          "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-08-25T19:03:10Z",
-          "updatedAt": "2026-08-28T11:49:40Z",
+          "createdAt": "2026-08-28T13:49:37Z",
+          "updatedAt": "2026-08-28T16:06:10Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 78.31
+          "score": 79.1
         },
         {
           "id": 1342443879,
@@ -702,32 +703,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 76.66
-        },
-        {
-          "id": 1343477351,
-          "name": "AI-PENTEST",
-          "fullName": "F0ran9/AI-PENTEST",
-          "url": "https://github.com/F0ran9/AI-PENTEST",
-          "homepage": "",
-          "description": "AI 驱动的多 Agent 自动化渗透测试平台：LLM 协调员+监察员编排专项子 Agent，授权边界内自动完成侦察→漏洞检测→利用验证→取证报告。Web 渗透 + C2 双作业线，45+ 原生工具，Docker 一键部署",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-23T07:06:10Z",
-          "updatedAt": "2026-08-28T12:44:08Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 71.45
+          "score": 74.93
         },
         {
           "id": 1341459592,
@@ -738,7 +714,7 @@
           "description": "Fast, cross-platform CLI for finding secrets and sensitive data across filesystems, SMB, Active Directory, Microsoft 365, Slack, Jira and Confluence.",
           "stars": 8,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 5,
           "language": "C#",
           "createdAt": "2026-08-21T06:05:02Z",
           "updatedAt": "2026-08-28T03:37:03Z",
@@ -753,6 +729,55 @@
             "网络安全"
           ],
           "score": 70.56
+        },
+        {
+          "id": 1343477351,
+          "name": "AI-PENTEST",
+          "fullName": "F0ran9/AI-PENTEST",
+          "url": "https://github.com/F0ran9/AI-PENTEST",
+          "homepage": "",
+          "description": "AI 驱动的多 Agent 自动化渗透测试平台：LLM 协调员+监察员编排专项子 Agent，授权边界内自动完成侦察→漏洞检测→利用验证→取证报告。Web 渗透 + C2 双作业线，45+ 原生工具，Docker 一键部署",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-23T07:06:10Z",
+          "updatedAt": "2026-08-28T22:14:54Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 69.57
+        },
+        {
+          "id": 1343188618,
+          "name": "telegram-webproxy-installer",
+          "fullName": "MNSH-Nexo/telegram-webproxy-installer",
+          "url": "https://github.com/MNSH-Nexo/telegram-webproxy-installer",
+          "homepage": "",
+          "description": "One-click multi-instance Telegram web proxy installer (MTProxy + Caddy) for Debian/Ubuntu servers.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-08-22T21:41:35Z",
+          "updatedAt": "2026-08-28T16:54:54Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 68.03
         },
         {
           "id": 1343236819,
@@ -777,31 +802,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 67.42
-        },
-        {
-          "id": 1343188618,
-          "name": "telegram-webproxy-installer",
-          "fullName": "MNSH-Nexo/telegram-webproxy-installer",
-          "url": "https://github.com/MNSH-Nexo/telegram-webproxy-installer",
-          "homepage": "",
-          "description": "One-click multi-instance Telegram web proxy installer (MTProxy + Caddy) for Debian/Ubuntu servers.",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-08-22T21:41:35Z",
-          "updatedAt": "2026-08-23T21:48:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 67.37
+          "score": 65.7
         },
         {
           "id": 1345137241,
@@ -828,7 +829,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 65.63
+          "score": 64.03
         },
         {
           "id": 1343311521,
@@ -853,7 +854,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 60.89
+          "score": 59.17
         },
         {
           "id": 1342237304,
@@ -879,7 +880,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 56.04
+          "score": 54.57
         }
       ]
     }
