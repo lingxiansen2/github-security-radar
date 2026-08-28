@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-27T22:58:23.662Z",
+  "generatedAt": "2026-08-28T12:45:02.667Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,72 +33,46 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-24",
-      "totalCandidates": 27,
+      "createdSince": "2026-08-25",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         }
       ],
       "repositories": [
-        {
-          "id": 1345267734,
-          "name": "Claude-AD",
-          "fullName": "ADScanPro/Claude-AD",
-          "url": "https://github.com/ADScanPro/Claude-AD",
-          "homepage": "https://adscanpro.com",
-          "description": "Active Directory pentest methodology for Claude Code: skills, agents and slash commands for internal AD red-team work (Kerberoasting, ADCS ESC1-17, DCSync, ACL abuse, NTLM relay, delegation), with per-technique OPSEC/telemetry notes. Drives netexec, impacket, certipy, bloodyAD, BloodHound CE.",
-          "stars": 126,
-          "forks": 21,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-24T18:13:22Z",
-          "updatedAt": "2026-08-27T22:25:52Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 169.73
-        },
         {
           "id": 1348782744,
           "name": "SigDeck",
@@ -106,12 +80,12 @@
           "url": "https://github.com/Realaoleep/SigDeck",
           "homepage": "",
           "description": "Offline Ed25519 signing toolkit - sign files, verify signatures, exchange keys via QR. Pure-Python RFC 8032, scrypt passphrases, ASCII armor. Air-gapped signing playground.",
-          "stars": 39,
+          "stars": 52,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-27T17:47:09Z",
-          "updatedAt": "2026-08-27T21:34:11Z",
+          "updatedAt": "2026-08-28T06:58:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 126.9
+          "score": 129.08
         },
         {
           "id": 1346337684,
@@ -148,7 +122,58 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 94.54
+          "score": 89.17
+        },
+        {
+          "id": 1349146728,
+          "name": "ida-headless-mcp",
+          "fullName": "VibRev/ida-headless-mcp",
+          "url": "https://github.com/VibRev/ida-headless-mcp",
+          "homepage": "",
+          "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 3,
+          "language": "Rust",
+          "createdAt": "2026-08-28T03:02:03Z",
+          "updatedAt": "2026-08-28T11:56:52Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 83.19
+        },
+        {
+          "id": 1346525246,
+          "name": "bug-hunting",
+          "fullName": "m4vic/bug-hunting",
+          "url": "https://github.com/m4vic/bug-hunting",
+          "homepage": "",
+          "description": "Bug bounty hunting & penetration testing skills for Claude, Codex, and any agentic coding tool.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-25T19:03:10Z",
+          "updatedAt": "2026-08-28T11:49:40Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 62.31
         },
         {
           "id": 1347597978,
@@ -172,32 +197,32 @@
           "tags": [
             "网络安全"
           ],
-          "score": 61.62
+          "score": 56.25
         },
         {
-          "id": 1346525246,
-          "name": "bug-hunting",
-          "fullName": "m4vic/bug-hunting",
-          "url": "https://github.com/m4vic/bug-hunting",
-          "homepage": "",
-          "description": "Bug bounty hunting & penetration testing skills for Claude, Codex, and any agentic coding tool.",
-          "stars": 3,
+          "id": 1348225179,
+          "name": "octowatch-mcp-server",
+          "fullName": "extralabs/octowatch-mcp-server",
+          "url": "https://github.com/extralabs/octowatch-mcp-server",
+          "homepage": "https://octowatchdlp.com/",
+          "description": "Read-only MCP server for OctoWatch DLP Cloud (Risks, Anomalies, users, activity, productivity, reports and employee monitoring for Cursor, Claude, and VS Code).",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-25T19:03:10Z",
-          "updatedAt": "2026-08-27T22:37:04Z",
+          "language": "Python",
+          "createdAt": "2026-08-27T08:03:36Z",
+          "updatedAt": "2026-08-27T11:35:46Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队",
+            "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 57.87
+          "score": 51.64
         },
         {
           "id": 1347692891,
@@ -221,34 +246,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 56.02
-        },
-        {
-          "id": 1345137241,
-          "name": "vibe-check-security",
-          "fullName": "jdj40211/vibe-check-security",
-          "url": "https://github.com/jdj40211/vibe-check-security",
-          "homepage": "",
-          "description": "Prueba de seguridad, con Claude Code, a esa app que hiciste con IA. 20 fallas comunes, scanners gratis, prompts y blindaje.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-08-24T15:52:49Z",
-          "updatedAt": "2026-08-27T10:19:20Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "网络安全"
-          ],
-          "score": 54
+          "score": 50.65
         },
         {
           "id": 1346867083,
@@ -274,7 +272,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 52.15
+          "score": 47.18
         },
         {
           "id": 1346851215,
@@ -288,7 +286,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-26T03:13:57Z",
-          "updatedAt": "2026-08-27T20:45:22Z",
+          "updatedAt": "2026-08-27T23:46:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -299,7 +297,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 52
+          "score": 47.02
         },
         {
           "id": 1347670813,
@@ -324,31 +322,33 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 51.72
+          "score": 46.74
         },
         {
-          "id": 1345064892,
-          "name": "PentestDHS-Harness",
-          "fullName": "SnCorn/PentestDHS-Harness",
-          "url": "https://github.com/SnCorn/PentestDHS-Harness",
-          "homepage": "",
-          "description": "PentestDHS: Pentest somehow. You don't get it? Neither do I. Just chill :)",
+          "id": 1345568438,
+          "name": "FreeAI_AI_Inference_Workstation",
+          "fullName": "ProjectZeroDays/FreeAI_AI_Inference_Workstation",
+          "url": "https://github.com/ProjectZeroDays/FreeAI_AI_Inference_Workstation",
+          "homepage": "https://projectzerodays.github.io/FreeAI_AI_Inference_Workstation/",
+          "description": "FreeAI: Unified AI Inference Workstation — local LLMs, autonomous agents, full SDLC automation, security tools, and multi-provider routing. One self-hosted stack.",
           "stars": 3,
-          "forks": 0,
-          "openIssues": 5,
-          "language": "TypeScript",
-          "createdAt": "2026-08-24T14:42:12Z",
-          "updatedAt": "2026-08-27T14:27:20Z",
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-25T01:44:37Z",
+          "updatedAt": "2026-08-28T12:38:45Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队"
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 49.32
+          "score": 45.79
         },
         {
           "id": 1346701019,
@@ -362,7 +362,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-25T23:01:14Z",
-          "updatedAt": "2026-08-27T20:58:27Z",
+          "updatedAt": "2026-08-28T06:06:42Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -373,7 +373,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 48.26
+          "score": 42.89
         }
       ]
     },
@@ -385,43 +385,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-20",
-      "totalCandidates": 21,
+      "createdSince": "2026-08-21",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 9,
+          "fetched": 7,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1787871556"
+          "rateLimitReset": "1787921156"
         }
       ],
       "repositories": [
@@ -432,12 +432,12 @@
           "url": "https://github.com/ADScanPro/Claude-AD",
           "homepage": "https://adscanpro.com",
           "description": "Active Directory pentest methodology for Claude Code: skills, agents and slash commands for internal AD red-team work (Kerberoasting, ADCS ESC1-17, DCSync, ACL abuse, NTLM relay, delegation), with per-technique OPSEC/telemetry notes. Drives netexec, impacket, certipy, bloodyAD, BloodHound CE.",
-          "stars": 126,
+          "stars": 134,
           "forks": 21,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-24T18:13:22Z",
-          "updatedAt": "2026-08-27T22:25:52Z",
+          "updatedAt": "2026-08-28T12:37:15Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -449,7 +449,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 186.39
+          "score": 185.73
         },
         {
           "id": 1348782744,
@@ -458,12 +458,12 @@
           "url": "https://github.com/Realaoleep/SigDeck",
           "homepage": "",
           "description": "Offline Ed25519 signing toolkit - sign files, verify signatures, exchange keys via QR. Pure-Python RFC 8032, scrypt passphrases, ASCII armor. Air-gapped signing playground.",
-          "stars": 39,
+          "stars": 52,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-27T17:47:09Z",
-          "updatedAt": "2026-08-27T21:34:11Z",
+          "updatedAt": "2026-08-28T06:58:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -474,35 +474,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 127.97
-        },
-        {
-          "id": 1341176364,
-          "name": "CVE-2026-18963-Exploit",
-          "fullName": "Snizi/CVE-2026-18963-Exploit",
-          "url": "https://github.com/Snizi/CVE-2026-18963-Exploit",
-          "homepage": "",
-          "description": "Exploit for KeyCloak CVE-2026-18963",
-          "stars": 33,
-          "forks": 9,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-20T22:01:11Z",
-          "updatedAt": "2026-08-27T08:17:58Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 124.63
+          "score": 132.99
         },
         {
           "id": 1342134139,
@@ -527,7 +499,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 111.23
+          "score": 109.1
         },
         {
           "id": 1346337684,
@@ -553,32 +525,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 106.81
-        },
-        {
-          "id": 1340997719,
-          "name": "redteam-skill",
-          "fullName": "pale-knight/redteam-skill",
-          "url": "https://github.com/pale-knight/redteam-skill",
-          "homepage": "",
-          "description": "Redteam / Pentest Skill Pack — semi-automated workflow + on-demand module selection + real-world attack chains | Kali + Claude Code 红队/渗透/技能包 - 半自动工作流 + 按需点选模块 + 实战利用链 | 基于 Kali 与 Claude Code",
-          "stars": 25,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-20T17:59:27Z",
-          "updatedAt": "2026-08-27T22:36:50Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 105.71
+          "score": 104.51
         },
         {
           "id": 1344265699,
@@ -587,12 +534,12 @@
           "url": "https://github.com/PrismorSec/patchbot",
           "homepage": "https://pypi.org/project/patchbot/",
           "description": "Vulnerability scanning with your own scanners and threat feeds, plus a coding agent that opens the fix PR. CLI, GitHub Action, or scheduled Managed Agents deployment.",
-          "stars": 18,
+          "stars": 19,
           "forks": 2,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-08-23T22:15:34Z",
-          "updatedAt": "2026-08-26T15:58:16Z",
+          "updatedAt": "2026-08-28T06:54:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -604,7 +551,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 95.17
+          "score": 94.3
         },
         {
           "id": 1341716416,
@@ -629,7 +576,58 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 91.3
+          "score": 89.42
+        },
+        {
+          "id": 1344027867,
+          "name": "llm-agent-testbed",
+          "fullName": "pie-script/llm-agent-testbed",
+          "url": "https://github.com/pie-script/llm-agent-testbed",
+          "homepage": "",
+          "description": "An empirical security testbed evaluating prompt injection, confused-deputy vulnerabilities, and tool-calling defenses in LLM agents.",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-23T17:22:23Z",
+          "updatedAt": "2026-08-28T06:46:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 87.13
+        },
+        {
+          "id": 1349146728,
+          "name": "ida-headless-mcp",
+          "fullName": "VibRev/ida-headless-mcp",
+          "url": "https://github.com/VibRev/ida-headless-mcp",
+          "homepage": "",
+          "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 3,
+          "language": "Rust",
+          "createdAt": "2026-08-28T03:02:03Z",
+          "updatedAt": "2026-08-28T11:56:52Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 85.35
         },
         {
           "id": 1344301286,
@@ -643,7 +641,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-23T23:10:14Z",
-          "updatedAt": "2026-08-27T18:59:57Z",
+          "updatedAt": "2026-08-28T07:55:33Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -654,32 +652,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 86.08
+          "score": 83.78
         },
         {
-          "id": 1344027867,
-          "name": "llm-agent-testbed",
-          "fullName": "pie-script/llm-agent-testbed",
-          "url": "https://github.com/pie-script/llm-agent-testbed",
+          "id": 1346525246,
+          "name": "bug-hunting",
+          "fullName": "m4vic/bug-hunting",
+          "url": "https://github.com/m4vic/bug-hunting",
           "homepage": "",
-          "description": "An empirical security testbed evaluating prompt injection, confused-deputy vulnerabilities, and tool-calling defenses in LLM agents.",
-          "stars": 9,
-          "forks": 1,
+          "description": "Bug bounty hunting & penetration testing skills for Claude, Codex, and any agentic coding tool.",
+          "stars": 5,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-23T17:22:23Z",
-          "updatedAt": "2026-08-27T15:14:11Z",
+          "language": "Unknown",
+          "createdAt": "2026-08-25T19:03:10Z",
+          "updatedAt": "2026-08-28T11:49:40Z",
           "matchedProfiles": [
-            "网络安全"
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
+            1.18
           ],
           "tags": [
-            "网络安全",
+            "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 82.67
+          "score": 78.31
         },
         {
           "id": 1342443879,
@@ -704,33 +702,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 78.96
-        },
-        {
-          "id": 1340517263,
-          "name": "keycloak-cve-2026-18963-hunt",
-          "fullName": "kyos-public/keycloak-cve-2026-18963-hunt",
-          "url": "https://github.com/kyos-public/keycloak-cve-2026-18963-hunt",
-          "homepage": "",
-          "description": "Hunt for CVE-2026-18963 exploitation traces (Keycloak unauthenticated account takeover) in the Keycloak database",
-          "stars": 14,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-20T09:25:27Z",
-          "updatedAt": "2026-08-27T20:14:30Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 76
+          "score": 76.66
         },
         {
           "id": 1343477351,
@@ -739,12 +711,12 @@
           "url": "https://github.com/F0ran9/AI-PENTEST",
           "homepage": "",
           "description": "AI 驱动的多 Agent 自动化渗透测试平台：LLM 协调员+监察员编排专项子 Agent，授权边界内自动完成侦察→漏洞检测→利用验证→取证报告。Web 渗透 + C2 双作业线，45+ 原生工具，Docker 一键部署",
-          "stars": 5,
+          "stars": 6,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-23T07:06:10Z",
-          "updatedAt": "2026-08-27T22:11:47Z",
+          "updatedAt": "2026-08-28T12:44:08Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -755,7 +727,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 69.88
+          "score": 71.45
+        },
+        {
+          "id": 1341459592,
+          "name": "Sift",
+          "fullName": "Stratus-Security/Sift",
+          "url": "https://github.com/Stratus-Security/Sift",
+          "homepage": "https://www.stratussecurity.com",
+          "description": "Fast, cross-platform CLI for finding secrets and sensitive data across filesystems, SMB, Active Directory, Microsoft 365, Slack, Jira and Confluence.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C#",
+          "createdAt": "2026-08-21T06:05:02Z",
+          "updatedAt": "2026-08-28T03:37:03Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 70.56
         },
         {
           "id": 1343236819,
@@ -780,7 +777,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 69.73
+          "score": 67.42
         },
         {
           "id": 1343188618,
@@ -804,32 +801,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 69.5
-        },
-        {
-          "id": 1341459592,
-          "name": "Sift",
-          "fullName": "Stratus-Security/Sift",
-          "url": "https://github.com/Stratus-Security/Sift",
-          "homepage": "https://www.stratussecurity.com",
-          "description": "Fast, cross-platform CLI for finding secrets and sensitive data across filesystems, SMB, Active Directory, Microsoft 365, Slack, Jira and Confluence.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-08-21T06:05:02Z",
-          "updatedAt": "2026-08-27T15:41:00Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 68.63
+          "score": 67.37
         },
         {
           "id": 1345137241,
@@ -856,7 +828,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 67.76
+          "score": 65.63
         },
         {
           "id": 1343311521,
@@ -881,7 +853,33 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.2
+          "score": 60.89
+        },
+        {
+          "id": 1342237304,
+          "name": "Dork",
+          "fullName": "Naqaab50/Dork",
+          "url": "https://github.com/Naqaab50/Dork",
+          "homepage": "",
+          "description": "A curated collection of advanced Google Dork search patterns built for modern security auditing, OSINT, and bug bounty recon. Covers sensitive file leaks, misconfigured cloud storage, unlinked API endpoints, vector database exposures, and IoT infrastructure. Designed to cut search noise and deliver high-impact reconnaissance. Educational use only.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-21T21:31:16Z",
+          "updatedAt": "2026-08-27T22:33:49Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 56.04
         }
       ]
     }
