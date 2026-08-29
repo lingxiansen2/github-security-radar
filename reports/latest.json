@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-28T23:03:35.609Z",
+  "generatedAt": "2026-08-29T07:51:21.367Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-25",
-      "totalCandidates": 21,
+      "createdSince": "2026-08-26",
+      "totalCandidates": 16,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 4,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 0,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         }
       ],
       "repositories": [
@@ -96,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 125.36
+          "score": 122.18
         },
         {
           "id": 1349146728,
@@ -110,7 +110,7 @@
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-28T03:02:03Z",
-          "updatedAt": "2026-08-28T14:47:30Z",
+          "updatedAt": "2026-08-29T06:54:47Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -122,7 +122,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 85.44
+          "score": 82.01
         },
         {
           "id": 1349655760,
@@ -148,32 +148,109 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 77.2
+          "score": 74.02
         },
         {
-          "id": 1346525246,
-          "name": "bug-hunting",
-          "fullName": "m4vic/bug-hunting",
-          "url": "https://github.com/m4vic/bug-hunting",
-          "homepage": "",
-          "description": "Bug bounty hunting & penetration testing skills for Claude, Codex, and any agentic coding tool.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-25T19:03:10Z",
-          "updatedAt": "2026-08-28T19:49:53Z",
+          "id": 1348731665,
+          "name": "ai-shipcheck",
+          "fullName": "sinceaihq/ai-shipcheck",
+          "url": "https://github.com/sinceaihq/ai-shipcheck",
+          "homepage": "https://sinceai.ai/",
+          "description": "Know if your AI-built app is actually ready to ship. Local-first production readiness scanner for security, auth, reliability, tests, observability, performance and accessibility.",
+          "stars": 4,
+          "forks": 2,
+          "openIssues": 6,
+          "language": "TypeScript",
+          "createdAt": "2026-08-27T16:56:31Z",
+          "updatedAt": "2026-08-29T01:20:02Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队",
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 64.82
+        },
+        {
+          "id": 1349964145,
+          "name": "saas-cybersecurity",
+          "fullName": "YankielDBC2/saas-cybersecurity",
+          "url": "https://github.com/YankielDBC2/saas-cybersecurity",
+          "homepage": "",
+          "description": "Provider-aware Agent Skill for evidence-based SaaS security audits and regression-safe hardening",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-08-28T19:25:26Z",
+          "updatedAt": "2026-08-29T00:38:00Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 62.11
+        },
+        {
+          "id": 1350124408,
+          "name": "deskmcp",
+          "fullName": "edmen12/deskmcp",
+          "url": "https://github.com/edmen12/deskmcp",
+          "homepage": "",
+          "description": "Open-source local desktop bridge for ChatGPT on Windows.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 6,
+          "language": "C#",
+          "createdAt": "2026-08-28T23:45:00Z",
+          "updatedAt": "2026-08-29T07:07:06Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.33
+          "score": 59.07
+        },
+        {
+          "id": 1348517383,
+          "name": "SBSQL",
+          "fullName": "An-sbkaifazhe/SBSQL",
+          "url": "https://github.com/An-sbkaifazhe/SBSQL",
+          "homepage": "",
+          "description": "Read-only, zero-trust, filesystem-backed \"database\" (just txt files). It judges your SQL.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-27T13:20:51Z",
+          "updatedAt": "2026-08-29T06:51:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 52.44
         },
         {
           "id": 1347597978,
@@ -197,47 +274,21 @@
           "tags": [
             "网络安全"
           ],
-          "score": 52.23
+          "score": 48.8
         },
         {
-          "id": 1346337684,
-          "name": "researchVault",
-          "fullName": "SagarBiswas-MultiHAT/researchVault",
-          "url": "https://github.com/SagarBiswas-MultiHAT/researchVault",
-          "homepage": "https://sagarbiswas-multihat.github.io/",
-          "description": "Open-source research hub featuring data-backed social timing analytics (BST), a 5-phase SWE & cybersecurity career roadmap (2026–2030), and the PRISM study system for CSE students. Covers web security, bug bounty, AI engineering, system design, and daily focus protocols.",
-          "stars": 4,
+          "id": 1347682911,
+          "name": "secure-browser-mcp",
+          "fullName": "tkhq/secure-browser-mcp",
+          "url": "https://github.com/tkhq/secure-browser-mcp",
+          "homepage": "",
+          "description": "Agentic browser with Turnkey backed secret injection.",
+          "stars": 3,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-25T15:54:18Z",
-          "updatedAt": "2026-08-28T17:58:40Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 50.25
-        },
-        {
-          "id": 1348225179,
-          "name": "octowatch-mcp-server",
-          "fullName": "extralabs/octowatch-mcp-server",
-          "url": "https://github.com/extralabs/octowatch-mcp-server",
-          "homepage": "https://octowatchdlp.com/",
-          "description": "Read-only MCP server for OctoWatch DLP Cloud (Risks, Anomalies, users, activity, productivity, reports and employee monitoring for Cursor, Claude, and VS Code).",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-27T08:03:36Z",
-          "updatedAt": "2026-08-27T11:35:46Z",
+          "openIssues": 2,
+          "language": "TypeScript",
+          "createdAt": "2026-08-26T18:43:24Z",
+          "updatedAt": "2026-08-28T23:26:55Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -248,7 +299,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 47.92
+          "score": 45.72
+        },
+        {
+          "id": 1347670813,
+          "name": "kernellens",
+          "fullName": "ojas-2003/kernellens",
+          "url": "https://github.com/ojas-2003/kernellens",
+          "homepage": "https://github.com/ojas-2003/kernellens",
+          "description": "Real-time syscall observability powered by eBPF. Latency tracking, anomaly detection, live dashboard, Prometheus metrics. <1% overhead.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-08-26T18:29:39Z",
+          "updatedAt": "2026-08-29T04:23:52Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 45.64
         },
         {
           "id": 1347692891,
@@ -272,59 +348,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 46.63
-        },
-        {
-          "id": 1345568438,
-          "name": "FreeAI_AI_Inference_Workstation",
-          "fullName": "ProjectZeroDays/FreeAI_AI_Inference_Workstation",
-          "url": "https://github.com/ProjectZeroDays/FreeAI_AI_Inference_Workstation",
-          "homepage": "https://projectzerodays.github.io/FreeAI_AI_Inference_Workstation/",
-          "description": "FreeAI: Unified AI Inference Workstation — local LLMs, autonomous agents, full SDLC automation, security tools, and multi-provider routing. One self-hosted stack.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-25T01:44:37Z",
-          "updatedAt": "2026-08-28T22:33:33Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 45.79
-        },
-        {
-          "id": 1346867083,
-          "name": "millieskills",
-          "fullName": "cassielxyz/millieskills",
-          "url": "https://github.com/cassielxyz/millieskills",
-          "homepage": "",
-          "description": "Research-driven universal AI Agent Skills for UI/UX, code repair, security, testing, architecture, backend/APIs, databases, mobile, DevOps, docs, debugging, refactoring, optimization, planning, verification, and project auditing across major coding agents.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-26T03:39:33Z",
-          "updatedAt": "2026-08-27T05:43:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 43.46
+          "score": 43.2
         },
         {
           "id": 1346851215,
@@ -349,32 +373,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 43.3
-        },
-        {
-          "id": 1347670813,
-          "name": "kernellens",
-          "fullName": "ojas-2003/kernellens",
-          "url": "https://github.com/ojas-2003/kernellens",
-          "homepage": "https://github.com/ojas-2003/kernellens",
-          "description": "Real-time syscall observability powered by eBPF. Latency tracking, anomaly detection, live dashboard, Prometheus metrics. <1% overhead.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-08-26T18:29:39Z",
-          "updatedAt": "2026-08-27T16:01:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 43.02
+          "score": 41.79
         }
       ]
     },
@@ -386,43 +385,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-21",
-      "totalCandidates": 20,
+      "createdSince": "2026-08-22",
+      "totalCandidates": 15,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 8,
+          "fetched": 6,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 6,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1787958268"
+          "rateLimitReset": "1787989935"
         }
       ],
       "repositories": [
@@ -450,7 +449,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 184.52
+          "score": 182.91
         },
         {
           "id": 1348782744,
@@ -475,32 +474,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 131.4
-        },
-        {
-          "id": 1342134139,
-          "name": "cover",
-          "fullName": "DavidCarliez/cover",
-          "url": "https://github.com/DavidCarliez/cover",
-          "homepage": "",
-          "description": "Keep private data, internal infrastructure and secrets out of cloud coding agents without breaking your workflow.",
-          "stars": 44,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-08-21T18:56:30Z",
-          "updatedAt": "2026-08-28T21:08:06Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 108.71
+          "score": 130.04
         },
         {
           "id": 1344265699,
@@ -526,7 +500,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 92.71
+          "score": 91.34
         },
         {
           "id": 1349146728,
@@ -540,7 +514,7 @@
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-28T03:02:03Z",
-          "updatedAt": "2026-08-28T14:47:30Z",
+          "updatedAt": "2026-08-29T06:54:47Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -552,32 +526,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 89.9
-        },
-        {
-          "id": 1341716416,
-          "name": "ai-agent-hacking-writeups",
-          "fullName": "shoebpate1/ai-agent-hacking-writeups",
-          "url": "https://github.com/shoebpate1/ai-agent-hacking-writeups",
-          "homepage": "https://research.shoebpatel.com/how-to-hack-ai-agents/",
-          "description": "A collection of public writeups on attacks against AI agents: prompt injection, tool abuse, memory poisoning, and data exfiltration.",
-          "stars": 21,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-21T11:07:12Z",
-          "updatedAt": "2026-08-25T07:27:26Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 89.42
+          "score": 88.43
         },
         {
           "id": 1344027867,
@@ -602,7 +551,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 87.34
+          "score": 85.87
         },
         {
           "id": 1346525246,
@@ -627,7 +576,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 84.13
+          "score": 82.52
         },
         {
           "id": 1344301286,
@@ -652,7 +601,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.06
+          "score": 80.59
         },
         {
           "id": 1349655760,
@@ -678,7 +627,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 79.1
+          "score": 77.74
         },
         {
           "id": 1342443879,
@@ -703,32 +652,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 74.93
-        },
-        {
-          "id": 1341459592,
-          "name": "Sift",
-          "fullName": "Stratus-Security/Sift",
-          "url": "https://github.com/Stratus-Security/Sift",
-          "homepage": "https://www.stratussecurity.com",
-          "description": "Fast, cross-platform CLI for finding secrets and sensitive data across filesystems, SMB, Active Directory, Microsoft 365, Slack, Jira and Confluence.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 5,
-          "language": "C#",
-          "createdAt": "2026-08-21T06:05:02Z",
-          "updatedAt": "2026-08-28T03:37:03Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 70.56
+          "score": 74.01
         },
         {
           "id": 1343477351,
@@ -738,11 +662,11 @@
           "homepage": "",
           "description": "AI 驱动的多 Agent 自动化渗透测试平台：LLM 协调员+监察员编排专项子 Agent，授权边界内自动完成侦察→漏洞检测→利用验证→取证报告。Web 渗透 + C2 双作业线，45+ 原生工具，Docker 一键部署",
           "stars": 6,
-          "forks": 0,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-23T07:06:10Z",
-          "updatedAt": "2026-08-28T22:14:54Z",
+          "updatedAt": "2026-08-29T00:23:15Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -753,7 +677,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 69.57
+          "score": 72.69
         },
         {
           "id": 1343188618,
@@ -777,7 +701,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 68.03
+          "score": 66.67
         },
         {
           "id": 1343236819,
@@ -802,7 +726,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 65.7
+          "score": 64.23
         },
         {
           "id": 1345137241,
@@ -829,7 +753,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 64.03
+          "score": 62.67
         },
         {
           "id": 1343311521,
@@ -854,33 +778,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 59.17
-        },
-        {
-          "id": 1342237304,
-          "name": "Dork",
-          "fullName": "Naqaab50/Dork",
-          "url": "https://github.com/Naqaab50/Dork",
-          "homepage": "",
-          "description": "A curated collection of advanced Google Dork search patterns built for modern security auditing, OSINT, and bug bounty recon. Covers sensitive file leaks, misconfigured cloud storage, unlinked API endpoints, vector database exposures, and IoT infrastructure. Designed to cut search noise and deliver high-impact reconnaissance. Educational use only.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-21T21:31:16Z",
-          "updatedAt": "2026-08-27T22:33:49Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 54.57
+          "score": 57.7
         }
       ]
     }
