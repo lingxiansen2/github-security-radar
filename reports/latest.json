@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-30T06:37:15.681Z",
+  "generatedAt": "2026-08-30T17:31:10.967Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,50 +34,50 @@
         "maxItems": 12
       },
       "createdSince": "2026-08-27",
-      "totalCandidates": 18,
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 5,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         }
       ],
       "repositories": [
         {
           "id": 1348782744,
-          "name": "SigDeck",
-          "fullName": "Realaoleep/SigDeck",
-          "url": "https://github.com/Realaoleep/SigDeck",
+          "name": "OfflinePainter",
+          "fullName": "jvmi7/OfflinePainter",
+          "url": "https://github.com/jvmi7/OfflinePainter",
           "homepage": "",
           "description": "Offline Ed25519 signing toolkit - sign files, verify signatures, exchange keys via QR. Pure-Python RFC 8032, scrypt passphrases, ASCII armor. Air-gapped signing playground.",
           "stars": 52,
@@ -85,7 +85,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-27T17:47:09Z",
-          "updatedAt": "2026-08-29T16:58:10Z",
+          "updatedAt": "2026-08-30T14:21:06Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 113.96
+          "score": 110.02
         },
         {
           "id": 1349146728,
@@ -105,12 +105,12 @@
           "url": "https://github.com/VibRev/ida-headless-mcp",
           "homepage": "",
           "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
-          "stars": 7,
+          "stars": 8,
           "forks": 4,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-28T03:02:03Z",
-          "updatedAt": "2026-08-29T17:06:26Z",
+          "updatedAt": "2026-08-30T07:02:25Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -122,7 +122,32 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 79.62
+          "score": 78.32
+        },
+        {
+          "id": 1351194830,
+          "name": "flyntor",
+          "fullName": "flyntor/flyntor",
+          "url": "https://github.com/flyntor/flyntor",
+          "homepage": "https://www.npmjs.com/package/flyntor",
+          "description": "Open-source CLI that recovers a web app’s shipped source, rebuilds its tree, and exposes what crawlers miss. For authorized security research.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-30T07:28:27Z",
+          "updatedAt": "2026-08-30T14:33:59Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 68.9
         },
         {
           "id": 1349655760,
@@ -136,7 +161,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-28T13:49:37Z",
-          "updatedAt": "2026-08-30T06:36:30Z",
+          "updatedAt": "2026-08-30T16:18:52Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -148,7 +173,33 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 65.8
+          "score": 61.87
+        },
+        {
+          "id": 1348250884,
+          "name": "pre-production-checklist",
+          "fullName": "FarzamHabibi/pre-production-checklist",
+          "url": "https://github.com/FarzamHabibi/pre-production-checklist",
+          "homepage": "https://prodcheck.pages.dev",
+          "description": "Pre-production checklists for solo founders. 4,337 items, 88% portable to any stack, 26 stack supplements — plus AI/agent security and the bugs AI coding assistants actually write.",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 2,
+          "language": "JavaScript",
+          "createdAt": "2026-08-27T08:30:03Z",
+          "updatedAt": "2026-08-30T16:24:32Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 61.06
         },
         {
           "id": 1350573642,
@@ -162,7 +213,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-29T12:41:00Z",
-          "updatedAt": "2026-08-30T03:02:56Z",
+          "updatedAt": "2026-08-30T15:05:02Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -174,7 +225,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 65.52
+          "score": 60.87
         },
         {
           "id": 1350530155,
@@ -199,7 +250,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 59.52
+          "score": 55.27
         },
         {
           "id": 1348731665,
@@ -225,7 +276,56 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 58.26
+          "score": 54.53
+        },
+        {
+          "id": 1348532486,
+          "name": "whatileaked",
+          "fullName": "selan-ai/whatileaked",
+          "url": "https://github.com/selan-ai/whatileaked",
+          "homepage": "https://selan.ai",
+          "description": "Find credentials your coding agent already sent. Scans local Claude Code and Codex transcripts against the gitleaks rule set. No network, no telemetry, zero dependencies.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-27T13:36:36Z",
+          "updatedAt": "2026-08-30T12:39:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 54
+        },
+        {
+          "id": 1350402103,
+          "name": "AdminPathFinder",
+          "fullName": "Muhammaad-Bilal/AdminPathFinder",
+          "url": "https://github.com/Muhammaad-Bilal/AdminPathFinder",
+          "homepage": "",
+          "description": "A fast, lightweight Python tool designed to detect administrative panels and hidden login interfaces during web security assessments using an optimized wordlist of ~395 unique paths.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-29T08:15:31Z",
+          "updatedAt": "2026-08-30T12:50:59Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 53.99
         },
         {
           "id": 1350390438,
@@ -239,7 +339,7 @@
           "openIssues": 0,
           "language": "Java",
           "createdAt": "2026-08-29T07:56:59Z",
-          "updatedAt": "2026-08-30T03:33:05Z",
+          "updatedAt": "2026-08-30T16:21:37Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -250,21 +350,21 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 58.12
+          "score": 53.87
         },
         {
-          "id": 1350027707,
-          "name": "AI-Operations-SOC-HomeLab",
-          "fullName": "AYOUBnsr/AI-Operations-SOC-HomeLab",
-          "url": "https://github.com/AYOUBnsr/AI-Operations-SOC-HomeLab",
-          "homepage": "",
-          "description": "A self-built home SOC: Wazuh + NetAlertX + Grafana, with an AI security analyst in the loop",
+          "id": 1350382724,
+          "name": "defendking",
+          "fullName": "Barman-Zarei/defendking",
+          "url": "https://github.com/Barman-Zarei/defendking",
+          "homepage": "https://github.com/Barman-Zarei/defendking.git",
+          "description": "it is a package for defend from cyber attack",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-28T20:55:34Z",
-          "updatedAt": "2026-08-29T16:08:10Z",
+          "createdAt": "2026-08-29T07:45:10Z",
+          "updatedAt": "2026-08-30T08:52:56Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -272,113 +372,9 @@
             1.08
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 53.82
-        },
-        {
-          "id": 1349964145,
-          "name": "saas-cybersecurity",
-          "fullName": "YankielDBC2/saas-cybersecurity",
-          "url": "https://github.com/YankielDBC2/saas-cybersecurity",
-          "homepage": "",
-          "description": "Provider-aware Agent Skill for evidence-based SaaS security audits and regression-safe hardening",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-28T19:25:26Z",
-          "updatedAt": "2026-08-29T00:38:00Z",
-          "matchedProfiles": [
             "网络安全"
           ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 53.23
-        },
-        {
-          "id": 1350124408,
-          "name": "deskmcp",
-          "fullName": "edmen12/deskmcp",
-          "url": "https://github.com/edmen12/deskmcp",
-          "homepage": "",
-          "description": "Open-source Windows MCP policy gateway for controlled ChatGPT access to local files and terminal sessions.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 6,
-          "language": "C#",
-          "createdAt": "2026-08-28T23:45:00Z",
-          "updatedAt": "2026-08-29T15:18:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 50.85
-        },
-        {
-          "id": 1348532486,
-          "name": "whatileaked",
-          "fullName": "selan-ai/whatileaked",
-          "url": "https://github.com/selan-ai/whatileaked",
-          "homepage": "https://selan.ai",
-          "description": "Find credentials your coding agent already sent. Scans local Claude Code and Codex transcripts against the gitleaks rule set. No network, no telemetry, zero dependencies.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-27T13:36:36Z",
-          "updatedAt": "2026-08-29T20:07:10Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 49.05
-        },
-        {
-          "id": 1349898574,
-          "name": "MacOptimizer",
-          "fullName": "Codifya/MacOptimizer",
-          "url": "https://github.com/Codifya/MacOptimizer",
-          "homepage": "",
-          "description": "⚡ Security-First, Open-Source, Native macOS System Health & Optimization Toolkit built with SwiftUI, Darwin Mach Kernel APIs, and Multi-Provider AI.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Swift",
-          "createdAt": "2026-08-28T18:02:37Z",
-          "updatedAt": "2026-08-29T18:42:04Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 48.79
+          "score": 53.79
         }
       ]
     },
@@ -391,42 +387,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-08-23",
-      "totalCandidates": 15,
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 7,
+          "fetched": 10,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 5,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1788071888"
+          "rateLimitReset": "1788111124"
         }
       ],
       "repositories": [
@@ -454,13 +450,13 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 178.76
+          "score": 176.77
         },
         {
           "id": 1348782744,
-          "name": "SigDeck",
-          "fullName": "Realaoleep/SigDeck",
-          "url": "https://github.com/Realaoleep/SigDeck",
+          "name": "OfflinePainter",
+          "fullName": "jvmi7/OfflinePainter",
+          "url": "https://github.com/jvmi7/OfflinePainter",
           "homepage": "",
           "description": "Offline Ed25519 signing toolkit - sign files, verify signatures, exchange keys via QR. Pure-Python RFC 8032, scrypt passphrases, ASCII armor. Air-gapped signing playground.",
           "stars": 52,
@@ -468,7 +464,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-27T17:47:09Z",
-          "updatedAt": "2026-08-29T16:58:10Z",
+          "updatedAt": "2026-08-30T14:21:06Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -479,7 +475,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 126.51
+          "score": 124.83
         },
         {
           "id": 1345961176,
@@ -493,7 +489,7 @@
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-08-25T10:03:02Z",
-          "updatedAt": "2026-08-30T06:27:56Z",
+          "updatedAt": "2026-08-30T12:39:27Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -504,7 +500,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 112.95
+          "score": 111.26
         },
         {
           "id": 1343477351,
@@ -513,12 +509,12 @@
           "url": "https://github.com/F0ran9/AI-PENTEST",
           "homepage": "",
           "description": "AI 驱动的多 Agent 自动化渗透测试平台：LLM 协调员+监察员编排专项子 Agent，授权边界内自动完成侦察→漏洞检测→利用验证→取证报告。Web 渗透 + C2 双作业线，45+ 原生工具，Docker 一键部署",
-          "stars": 13,
+          "stars": 14,
           "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-23T07:06:10Z",
-          "updatedAt": "2026-08-30T06:18:44Z",
+          "updatedAt": "2026-08-30T16:40:06Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -529,7 +525,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 92.51
+          "score": 94.4
         },
         {
           "id": 1349146728,
@@ -538,12 +534,12 @@
           "url": "https://github.com/VibRev/ida-headless-mcp",
           "homepage": "",
           "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
-          "stars": 7,
+          "stars": 8,
           "forks": 4,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-28T03:02:03Z",
-          "updatedAt": "2026-08-29T17:06:26Z",
+          "updatedAt": "2026-08-30T07:02:25Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -555,7 +551,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 91.11
+          "score": 92.24
         },
         {
           "id": 1344265699,
@@ -581,7 +577,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 89.48
+          "score": 87.8
         },
         {
           "id": 1344027867,
@@ -606,7 +602,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.07
+          "score": 80.27
         },
         {
           "id": 1346525246,
@@ -631,7 +627,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 81.59
+          "score": 79.6
         },
         {
           "id": 1344301286,
@@ -656,21 +652,21 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 76.78
+          "score": 74.96
         },
         {
-          "id": 1349655760,
-          "name": "72stack-sec",
-          "fullName": "Little-H-lying-flat/72stack-sec",
-          "url": "https://github.com/Little-H-lying-flat/72stack-sec",
-          "homepage": "",
-          "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘工作流 skill：19 攻击类 playbook、305 结构化 payload、176 WAF 绕过、2887 H1 案例、8.8 万 WooYun 统计、2026 一线方法论",
-          "stars": 5,
+          "id": 1348250884,
+          "name": "pre-production-checklist",
+          "fullName": "FarzamHabibi/pre-production-checklist",
+          "url": "https://github.com/FarzamHabibi/pre-production-checklist",
+          "homepage": "https://prodcheck.pages.dev",
+          "description": "Pre-production checklists for solo founders. 4,337 items, 88% portable to any stack, 26 stack supplements — plus AI/agent security and the bugs AI coding assistants actually write.",
+          "stars": 7,
           "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-28T13:49:37Z",
-          "updatedAt": "2026-08-30T06:36:30Z",
+          "openIssues": 2,
+          "language": "JavaScript",
+          "createdAt": "2026-08-27T08:30:03Z",
+          "updatedAt": "2026-08-30T16:24:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -680,9 +676,9 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "渗透 / 红队"
+            "网络安全"
           ],
-          "score": 74.22
+          "score": 74.52
         },
         {
           "id": 1343474843,
@@ -707,7 +703,83 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 74.09
+          "score": 74.01
+        },
+        {
+          "id": 1349655760,
+          "name": "72stack-sec",
+          "fullName": "Little-H-lying-flat/72stack-sec",
+          "url": "https://github.com/Little-H-lying-flat/72stack-sec",
+          "homepage": "",
+          "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘工作流 skill：19 攻击类 playbook、305 结构化 payload、176 WAF 绕过、2887 H1 案例、8.8 万 WooYun 统计、2026 一线方法论",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-28T13:49:37Z",
+          "updatedAt": "2026-08-30T16:18:52Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 72.53
+        },
+        {
+          "id": 1348532486,
+          "name": "whatileaked",
+          "fullName": "selan-ai/whatileaked",
+          "url": "https://github.com/selan-ai/whatileaked",
+          "homepage": "https://selan.ai",
+          "description": "Find credentials your coding agent already sent. Scans local Claude Code and Codex transcripts against the gitleaks rule set. No network, no telemetry, zero dependencies.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-27T13:36:36Z",
+          "updatedAt": "2026-08-30T12:39:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.25
+        },
+        {
+          "id": 1345247964,
+          "name": "lockkeeper",
+          "fullName": "Hannay001/lockkeeper",
+          "url": "https://github.com/Hannay001/lockkeeper",
+          "homepage": "",
+          "description": "The capability router for AI coding agents. Route any task to a bounded skill portfolio across Claude Code, Codex, Cursor, Jcode, Hermes and more — with a built-in prompt-injection firewall.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-24T17:51:47Z",
+          "updatedAt": "2026-08-30T17:12:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 63.56
         },
         {
           "id": 1345137241,
@@ -734,7 +806,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 62.21
+          "score": 60.52
         },
         {
           "id": 1345568438,
@@ -748,7 +820,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-25T01:44:37Z",
-          "updatedAt": "2026-08-30T06:31:21Z",
+          "updatedAt": "2026-08-30T09:55:22Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -760,7 +832,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.21
+          "score": 59.52
         },
         {
           "id": 1343311521,
