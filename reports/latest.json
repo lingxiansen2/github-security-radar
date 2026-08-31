@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-31T07:01:04.823Z",
+  "generatedAt": "2026-08-31T19:30:43.775Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/KorekKayu/IKONA-Security",
           "homepage": "",
           "description": "🛡️ Comprehensive Cybersecurity Arsenal, Bug Bounty Payloads & Security Audit Tools by IKONA ONI",
-          "stars": 111,
+          "stars": 115,
           "forks": 61,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-30T18:49:02Z",
-          "updatedAt": "2026-08-31T04:53:44Z",
+          "updatedAt": "2026-08-31T15:19:35Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -98,7 +98,33 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 198.45
+          "score": 194.19
+        },
+        {
+          "id": 1351461667,
+          "name": "cratera",
+          "fullName": "cratera-project/cratera",
+          "url": "https://github.com/cratera-project/cratera",
+          "homepage": "https://cratera.org",
+          "description": "Bare-metal microVM execution engine in Rust. Sub-5ms snapshot restores, Zero-NIC network isolation, and 30 built-in language toolchains for AI code sandboxes & online judges.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-08-30T14:25:10Z",
+          "updatedAt": "2026-08-31T18:28:46Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 82.1
         },
         {
           "id": 1351449289,
@@ -123,7 +149,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 84.25
+          "score": 79.74
         },
         {
           "id": 1349146728,
@@ -174,33 +200,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 77.29
-        },
-        {
-          "id": 1351461667,
-          "name": "cratera",
-          "fullName": "cratera-project/cratera",
-          "url": "https://github.com/cratera-project/cratera",
-          "homepage": "https://cratera.org",
-          "description": "Bare-metal microVM execution engine in Rust. Sub-5ms snapshot restores, Zero-NIC network isolation, and 30 built-in language toolchains for AI code sandboxes & online judges.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-08-30T14:25:10Z",
-          "updatedAt": "2026-08-31T06:46:49Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 70.54
+          "score": 72.78
         },
         {
           "id": 1351680961,
@@ -209,12 +209,12 @@
           "url": "https://github.com/jacobpowaza/launchify-skills",
           "homepage": "",
           "description": "🚀 Production-readiness skill suite for AI coding agents — 58 commands, 24 security categories, audit/fix/verify across Claude Code, OpenCode, and Codex",
-          "stars": 2,
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-30T19:13:06Z",
-          "updatedAt": "2026-08-31T06:46:00Z",
+          "updatedAt": "2026-08-31T08:46:05Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -226,21 +226,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 57.74
+          "score": 63.76
         },
         {
-          "id": 1349655760,
-          "name": "72stack-sec",
-          "fullName": "Little-H-lying-flat/72stack-sec",
-          "url": "https://github.com/Little-H-lying-flat/72stack-sec",
+          "id": 1352139596,
+          "name": "jss-skill",
+          "fullName": "ZeroTu1/jss-skill",
+          "url": "https://github.com/ZeroTu1/jss-skill",
           "homepage": "",
-          "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘工作流 skill：19 攻击类 playbook、305 结构化 payload、176 WAF 绕过、2887 H1 案例、8.8 万 WooYun 统计、2026 一线方法论",
-          "stars": 5,
-          "forks": 1,
+          "description": "The most complete AI-powered JavaScript recon skill - orchestrates katana + waymore + jsluice + hae into one AI agent pipeline. Tools do the breadth, AI does the depth.",
+          "stars": 3,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-28T13:49:37Z",
-          "updatedAt": "2026-08-31T06:57:46Z",
+          "createdAt": "2026-08-31T07:46:30Z",
+          "updatedAt": "2026-08-31T12:08:54Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -252,7 +252,59 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 56.99
+          "score": 63.56
+        },
+        {
+          "id": 1349655760,
+          "name": "72stack-sec",
+          "fullName": "Little-H-lying-flat/72stack-sec",
+          "url": "https://github.com/Little-H-lying-flat/72stack-sec",
+          "homepage": "",
+          "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘工作流 skill：19 攻击类 playbook、305 结构化 payload、176 WAF 绕过、2887 H1 案例、8.8 万 WooYun 统计、2026 一线方法论",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-28T13:49:37Z",
+          "updatedAt": "2026-08-31T13:01:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 56.87
+        },
+        {
+          "id": 1349644441,
+          "name": "ogl-mini",
+          "fullName": "DevsDaddy/ogl-mini",
+          "url": "https://github.com/DevsDaddy/ogl-mini",
+          "homepage": "https://huggingface.co/devsdaddy/ogl-mini",
+          "description": "Open Guard Layer (OGL-Mini): a full-featured, fast and lightweight security model for AI agents with ready-to-use TypeScript / Python / Go modules. Use this layer to protect your prompts in AI agents and applications.",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 2,
+          "language": "TypeScript",
+          "createdAt": "2026-08-28T13:39:46Z",
+          "updatedAt": "2026-08-31T18:18:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 50.53
         },
         {
           "id": 1350573642,
@@ -278,46 +330,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 55.12
+          "score": 49.8
         },
         {
-          "id": 1351234467,
-          "name": "hackerone-disclosed-reports",
-          "fullName": "Kushalkhemka/hackerone-disclosed-reports",
-          "url": "https://github.com/Kushalkhemka/hackerone-disclosed-reports",
-          "homepage": "https://kushalkhemka.github.io/hackerone-disclosed-reports/",
-          "description": "Searchable corpus of 12,447 public HackerOne disclosures, classified into 32 attack classes with body availability, CSV/JSON exports, and a research console.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-08-30T08:36:20Z",
-          "updatedAt": "2026-08-30T19:10:15Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 53.91
-        },
-        {
-          "id": 1350937904,
-          "name": "k8s-review-toolkit",
-          "fullName": "mohityadav8/k8s-review-toolkit",
-          "url": "https://github.com/mohityadav8/k8s-review-toolkit",
-          "homepage": "",
-          "description": "Kubernetes review campaign: RBAC escalation paths, pod security, reliability, drift. 28 agents, 9 commands, findings classified FIX / CONSIDER / POLICY / ACCEPTABLE.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-29T22:02:11Z",
-          "updatedAt": "2026-08-30T13:09:33Z",
+          "id": 1350132609,
+          "name": "curebox",
+          "fullName": "macch-ai/curebox",
+          "url": "https://github.com/macch-ai/curebox",
+          "homepage": "https://macch.ai/tvbox/",
+          "description": "CureBox identifica y repara TV Boxes vulnerables para cerrar de raíz los accesos que permiten instalar malware.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 2,
+          "language": "TypeScript",
+          "createdAt": "2026-08-29T00:02:17Z",
+          "updatedAt": "2026-08-31T16:54:57Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -327,9 +354,9 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "网络安全"
+            "防守 / 蓝队"
           ],
-          "score": 50.09
+          "score": 47.43
         },
         {
           "id": 1350530155,
@@ -343,7 +370,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-29T11:32:16Z",
-          "updatedAt": "2026-08-30T04:44:02Z",
+          "updatedAt": "2026-08-31T09:47:08Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -354,31 +381,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 50
-        },
-        {
-          "id": 1350402103,
-          "name": "AdminPathFinder",
-          "fullName": "Muhammaad-Bilal/AdminPathFinder",
-          "url": "https://github.com/Muhammaad-Bilal/AdminPathFinder",
-          "homepage": "",
-          "description": "A fast, lightweight Python tool designed to detect administrative panels and hidden login interfaces during web security assessments using an optimized wordlist of ~395 unique paths.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-29T08:15:31Z",
-          "updatedAt": "2026-08-30T12:50:59Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 48.72
+          "score": 45.13
         }
       ]
     },
@@ -391,42 +394,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-08-24",
-      "totalCandidates": 16,
+      "totalCandidates": 17,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1788159717"
+          "rateLimitReset": "1788204696"
         }
       ],
       "repositories": [
@@ -437,12 +440,12 @@
           "url": "https://github.com/KorekKayu/IKONA-Security",
           "homepage": "",
           "description": "🛡️ Comprehensive Cybersecurity Arsenal, Bug Bounty Payloads & Security Audit Tools by IKONA ONI",
-          "stars": 111,
+          "stars": 115,
           "forks": 61,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-08-30T18:49:02Z",
-          "updatedAt": "2026-08-31T04:53:44Z",
+          "updatedAt": "2026-08-31T15:19:35Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -455,7 +458,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 201.42
+          "score": 200.2
         },
         {
           "id": 1345267734,
@@ -481,7 +484,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 175.33
+          "score": 173.29
         },
         {
           "id": 1348782744,
@@ -506,7 +509,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 122.74
+          "score": 120.8
         },
         {
           "id": 1345961176,
@@ -520,7 +523,7 @@
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-08-25T10:03:02Z",
-          "updatedAt": "2026-08-31T03:28:16Z",
+          "updatedAt": "2026-08-31T18:31:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -531,7 +534,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 109.18
+          "score": 107.24
         },
         {
           "id": 1349146728,
@@ -557,7 +560,33 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 95.1
+          "score": 93.01
+        },
+        {
+          "id": 1351461667,
+          "name": "cratera",
+          "fullName": "cratera-project/cratera",
+          "url": "https://github.com/cratera-project/cratera",
+          "homepage": "https://cratera.org",
+          "description": "Bare-metal microVM execution engine in Rust. Sub-5ms snapshot restores, Zero-NIC network isolation, and 30 built-in language toolchains for AI code sandboxes & online judges.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-08-30T14:25:10Z",
+          "updatedAt": "2026-08-31T18:28:46Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 88.11
         },
         {
           "id": 1351449289,
@@ -582,7 +611,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 87.73
+          "score": 85.8
         },
         {
           "id": 1351194830,
@@ -607,7 +636,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 82.15
+          "score": 80.22
         },
         {
           "id": 1348250884,
@@ -616,12 +645,12 @@
           "url": "https://github.com/FarzamHabibi/pre-production-checklist",
           "homepage": "https://prodcheck.pages.dev",
           "description": "Pre-production checklists for solo founders. 4,337 items, 88% portable to any stack, 26 stack supplements — plus AI/agent security and the bugs AI coding assistants actually write.",
-          "stars": 9,
+          "stars": 10,
           "forks": 1,
           "openIssues": 2,
           "language": "JavaScript",
           "createdAt": "2026-08-27T08:30:03Z",
-          "updatedAt": "2026-08-30T21:00:52Z",
+          "updatedAt": "2026-08-31T09:26:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -633,7 +662,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 77.64
+          "score": 77.97
+        },
+        {
+          "id": 1348859674,
+          "name": "memaudit",
+          "fullName": "mem-audit/memaudit",
+          "url": "https://github.com/mem-audit/memaudit",
+          "homepage": "https://ansh200516.github.io/memaudit-site/",
+          "description": "Training-data memorization auditor for fine-tuned LLMs — Trainer/TRL plugin, canary MIA + regurgitation audit, Apache-2.0",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-27T19:12:41Z",
+          "updatedAt": "2026-08-31T14:46:40Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.7
         },
         {
           "id": 1346525246,
@@ -658,21 +712,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 77.14
+          "score": 74.86
         },
         {
-          "id": 1348859674,
-          "name": "memaudit",
-          "fullName": "mem-audit/memaudit",
-          "url": "https://github.com/mem-audit/memaudit",
-          "homepage": "https://ansh200516.github.io/memaudit-site/",
-          "description": "Training-data memorization auditor for fine-tuned LLMs — Trainer/TRL plugin, canary MIA + regurgitation audit, Apache-2.0",
-          "stars": 9,
+          "id": 1345247964,
+          "name": "lockkeeper",
+          "fullName": "Hannay001/lockkeeper",
+          "url": "https://github.com/Hannay001/lockkeeper",
+          "homepage": "",
+          "description": "The capability router for AI coding agents. Route any task to a bounded skill portfolio across Claude Code, Codex, Cursor, Jcode, Hermes and more — with a built-in prompt-injection firewall.",
+          "stars": 13,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-27T19:12:41Z",
-          "updatedAt": "2026-08-31T06:57:37Z",
+          "createdAt": "2026-08-24T17:51:47Z",
+          "updatedAt": "2026-08-31T08:20:20Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -683,21 +737,45 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.3
+          "score": 70.32
         },
         {
-          "id": 1348731665,
-          "name": "ai-shipcheck",
-          "fullName": "sinceaihq/ai-shipcheck",
-          "url": "https://github.com/sinceaihq/ai-shipcheck",
-          "homepage": "https://sinceai.ai/",
-          "description": "Know if your AI-built app is actually ready to ship. Local-first production readiness scanner for security, auth, reliability, tests, observability, performance and accessibility.",
-          "stars": 5,
-          "forks": 3,
-          "openIssues": 7,
-          "language": "TypeScript",
-          "createdAt": "2026-08-27T16:56:31Z",
-          "updatedAt": "2026-08-30T22:24:50Z",
+          "id": 1346237489,
+          "name": "claude-osint-deploy",
+          "fullName": "soxoj/claude-osint-deploy",
+          "url": "https://github.com/soxoj/claude-osint-deploy",
+          "homepage": "",
+          "description": "Install, run and verify OSINT tools from GitHub automatically, on any OS",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-25T14:29:56Z",
+          "updatedAt": "2026-08-31T12:15:59Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 61.49
+        },
+        {
+          "id": 1347376090,
+          "name": "sandbox",
+          "fullName": "satishbabariya/sandbox",
+          "url": "https://github.com/satishbabariya/sandbox",
+          "homepage": "",
+          "description": "Run coding agents in Apple Virtualization VMs whose network egress they cannot bypass. Enforcement lives outside the guest, so it holds even against root with every capability.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Swift",
+          "createdAt": "2026-08-26T13:31:46Z",
+          "updatedAt": "2026-08-31T17:49:30Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -707,59 +785,9 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "网络安全"
+            "漏洞研究 / 攻防"
           ],
-          "score": 71.21
-        },
-        {
-          "id": 1345247964,
-          "name": "lockkeeper",
-          "fullName": "Hannay001/lockkeeper",
-          "url": "https://github.com/Hannay001/lockkeeper",
-          "homepage": "",
-          "description": "The capability router for AI coding agents. Route any task to a bounded skill portfolio across Claude Code, Codex, Cursor, Jcode, Hermes and more — with a built-in prompt-injection firewall.",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-24T17:51:47Z",
-          "updatedAt": "2026-08-30T22:01:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 70.21
-        },
-        {
-          "id": 1348532486,
-          "name": "whatileaked",
-          "fullName": "selan-ai/whatileaked",
-          "url": "https://github.com/selan-ai/whatileaked",
-          "homepage": "https://selan.ai",
-          "description": "Find credentials your coding agent already sent. Scans local Claude Code and Codex transcripts against the gitleaks rule set. No network, no telemetry, zero dependencies.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-27T13:36:36Z",
-          "updatedAt": "2026-08-30T19:59:16Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.16
+          "score": 60.5
         },
         {
           "id": 1345137241,
@@ -786,21 +814,21 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 58.43
+          "score": 57.06
         },
         {
-          "id": 1345568438,
-          "name": "FreeAI_AI_Inference_Workstation",
-          "fullName": "ProjectZeroDays/FreeAI_AI_Inference_Workstation",
-          "url": "https://github.com/ProjectZeroDays/FreeAI_AI_Inference_Workstation",
-          "homepage": "https://projectzerodays.github.io/FreeAI_AI_Inference_Workstation/",
-          "description": "FreeAI: Unified AI Inference Workstation — local LLMs, autonomous agents, full SDLC automation, security tools, and multi-provider routing. One self-hosted stack.",
-          "stars": 5,
-          "forks": 1,
+          "id": 1345420645,
+          "name": "shim-guard",
+          "fullName": "GetSHIM/shim-guard",
+          "url": "https://github.com/GetSHIM/shim-guard",
+          "homepage": "https://getshim.tech",
+          "description": "Local pre-submit privacy protection for coding-agent CLIs",
+          "stars": 6,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-25T01:44:37Z",
-          "updatedAt": "2026-08-31T06:32:51Z",
+          "createdAt": "2026-08-24T21:27:11Z",
+          "updatedAt": "2026-08-31T14:51:58Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -809,10 +837,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
+            "AI 自动化 / Skill"
           ],
-          "score": 57.43
+          "score": 54.3
         }
       ]
     }
