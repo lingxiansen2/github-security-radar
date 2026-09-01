@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-08-31T19:30:43.775Z",
+  "generatedAt": "2026-09-01T06:13:47.009Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-28",
-      "totalCandidates": 25,
+      "createdSince": "2026-08-29",
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 9,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         }
       ],
       "repositories": [
@@ -98,7 +98,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 194.19
+          "score": 189.62
         },
         {
           "id": 1351461667,
@@ -107,12 +107,12 @@
           "url": "https://github.com/cratera-project/cratera",
           "homepage": "https://cratera.org",
           "description": "Bare-metal microVM execution engine in Rust. Sub-5ms snapshot restores, Zero-NIC network isolation, and 30 built-in language toolchains for AI code sandboxes & online judges.",
-          "stars": 11,
+          "stars": 14,
           "forks": 0,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-30T14:25:10Z",
-          "updatedAt": "2026-08-31T18:28:46Z",
+          "updatedAt": "2026-08-31T23:16:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -124,7 +124,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 82.1
+          "score": 83.62
         },
         {
           "id": 1351449289,
@@ -149,33 +149,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.74
-        },
-        {
-          "id": 1349146728,
-          "name": "ida-headless-mcp",
-          "fullName": "VibRev/ida-headless-mcp",
-          "url": "https://github.com/VibRev/ida-headless-mcp",
-          "homepage": "",
-          "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
-          "stars": 10,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-08-28T03:02:03Z",
-          "updatedAt": "2026-08-31T05:49:50Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 79.72
+          "score": 75.87
         },
         {
           "id": 1351194830,
@@ -200,7 +174,35 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 72.78
+          "score": 68.91
+        },
+        {
+          "id": 1352702428,
+          "name": "Lattice-AI",
+          "fullName": "pyconly/Lattice-AI",
+          "url": "https://github.com/pyconly/Lattice-AI",
+          "homepage": "",
+          "description": "Local, single-user AI-assisted security testing workflow engine: visual DAG orchestration, deterministic execution, evidence-proof findings. 本地单用户的 AI 辅助安全测试工作流引擎。",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-31T17:50:42Z",
+          "updatedAt": "2026-09-01T02:34:55Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 67.88
         },
         {
           "id": 1351680961,
@@ -209,12 +211,12 @@
           "url": "https://github.com/jacobpowaza/launchify-skills",
           "homepage": "",
           "description": "🚀 Production-readiness skill suite for AI coding agents — 58 commands, 24 security categories, audit/fix/verify across Claude Code, OpenCode, and Codex",
-          "stars": 4,
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-30T19:13:06Z",
-          "updatedAt": "2026-08-31T08:46:05Z",
+          "updatedAt": "2026-09-01T01:22:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -226,7 +228,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 63.76
+          "score": 63.89
         },
         {
           "id": 1352139596,
@@ -252,85 +254,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 63.56
-        },
-        {
-          "id": 1349655760,
-          "name": "72stack-sec",
-          "fullName": "Little-H-lying-flat/72stack-sec",
-          "url": "https://github.com/Little-H-lying-flat/72stack-sec",
-          "homepage": "",
-          "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘工作流 skill：19 攻击类 playbook、305 结构化 payload、176 WAF 绕过、2887 H1 案例、8.8 万 WooYun 统计、2026 一线方法论",
-          "stars": 5,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-28T13:49:37Z",
-          "updatedAt": "2026-08-31T13:01:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 56.87
-        },
-        {
-          "id": 1349644441,
-          "name": "ogl-mini",
-          "fullName": "DevsDaddy/ogl-mini",
-          "url": "https://github.com/DevsDaddy/ogl-mini",
-          "homepage": "https://huggingface.co/devsdaddy/ogl-mini",
-          "description": "Open Guard Layer (OGL-Mini): a full-featured, fast and lightweight security model for AI agents with ready-to-use TypeScript / Python / Go modules. Use this layer to protect your prompts in AI agents and applications.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 2,
-          "language": "TypeScript",
-          "createdAt": "2026-08-28T13:39:46Z",
-          "updatedAt": "2026-08-31T18:18:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 50.53
-        },
-        {
-          "id": 1350573642,
-          "name": "ravage",
-          "fullName": "duriantaco/ravage",
-          "url": "https://github.com/duriantaco/ravage",
-          "homepage": "",
-          "description": "AI powered web security testing for authorized targets",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-08-29T12:41:00Z",
-          "updatedAt": "2026-08-31T04:26:03Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 49.8
+          "score": 59.69
         },
         {
           "id": 1350132609,
@@ -356,7 +280,33 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 47.43
+          "score": 45.79
+        },
+        {
+          "id": 1350573642,
+          "name": "ravage",
+          "fullName": "duriantaco/ravage",
+          "url": "https://github.com/duriantaco/ravage",
+          "homepage": "",
+          "description": "AI powered web security testing for authorized targets",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-08-29T12:41:00Z",
+          "updatedAt": "2026-08-31T04:26:03Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 45.23
         },
         {
           "id": 1350530155,
@@ -381,7 +331,56 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 45.13
+          "score": 40.95
+        },
+        {
+          "id": 1350402103,
+          "name": "AdminPathFinder",
+          "fullName": "Muhammaad-Bilal/AdminPathFinder",
+          "url": "https://github.com/Muhammaad-Bilal/AdminPathFinder",
+          "homepage": "",
+          "description": "A fast, lightweight Python tool designed to detect administrative panels and hidden login interfaces during web security assessments using an optimized wordlist of ~395 unique paths.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-08-29T08:15:31Z",
+          "updatedAt": "2026-08-30T12:50:59Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 39.67
+        },
+        {
+          "id": 1350390438,
+          "name": "honeypot-management-system",
+          "fullName": "Adityathube/honeypot-management-system",
+          "url": "https://github.com/Adityathube/honeypot-management-system",
+          "homepage": "",
+          "description": "A Java-based distributed honeypot system for network traffic monitoring, abnormal traffic detection, and decoy-server analysis.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Java",
+          "createdAt": "2026-08-29T07:56:59Z",
+          "updatedAt": "2026-08-30T16:21:37Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 39.55
         }
       ]
     },
@@ -393,43 +392,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-24",
-      "totalCandidates": 17,
+      "createdSince": "2026-08-25",
+      "totalCandidates": 16,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1788204696"
+          "rateLimitReset": "1788243280"
         }
       ],
       "repositories": [
@@ -458,33 +457,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 200.2
-        },
-        {
-          "id": 1345267734,
-          "name": "Claude-AD",
-          "fullName": "ADScanPro/Claude-AD",
-          "url": "https://github.com/ADScanPro/Claude-AD",
-          "homepage": "https://adscanpro.com",
-          "description": "Active Directory pentest methodology for Claude Code: skills, agents and slash commands for internal AD red-team work (Kerberoasting, ADCS ESC1-17, DCSync, ACL abuse, NTLM relay, delegation), with per-technique OPSEC/telemetry notes. Drives netexec, impacket, certipy, bloodyAD, BloodHound CE.",
-          "stars": 139,
-          "forks": 23,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-24T18:13:22Z",
-          "updatedAt": "2026-08-31T01:43:07Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 173.29
+          "score": 198.24
         },
         {
           "id": 1348782744,
@@ -509,7 +482,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 120.8
+          "score": 119.14
         },
         {
           "id": 1345961176,
@@ -523,7 +496,7 @@
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-08-25T10:03:02Z",
-          "updatedAt": "2026-08-31T18:31:42Z",
+          "updatedAt": "2026-09-01T02:05:48Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -534,7 +507,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 107.24
+          "score": 105.58
         },
         {
           "id": 1349146728,
@@ -543,12 +516,12 @@
           "url": "https://github.com/VibRev/ida-headless-mcp",
           "homepage": "",
           "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
-          "stars": 10,
+          "stars": 11,
           "forks": 4,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-28T03:02:03Z",
-          "updatedAt": "2026-08-31T05:49:50Z",
+          "updatedAt": "2026-09-01T02:03:07Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -560,7 +533,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 93.01
+          "score": 93.47
         },
         {
           "id": 1351461667,
@@ -569,12 +542,12 @@
           "url": "https://github.com/cratera-project/cratera",
           "homepage": "https://cratera.org",
           "description": "Bare-metal microVM execution engine in Rust. Sub-5ms snapshot restores, Zero-NIC network isolation, and 30 built-in language toolchains for AI code sandboxes & online judges.",
-          "stars": 11,
+          "stars": 14,
           "forks": 0,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-30T14:25:10Z",
-          "updatedAt": "2026-08-31T18:28:46Z",
+          "updatedAt": "2026-08-31T23:16:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -586,7 +559,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 88.11
+          "score": 91.84
         },
         {
           "id": 1351449289,
@@ -611,7 +584,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 85.8
+          "score": 84.14
         },
         {
           "id": 1351194830,
@@ -636,7 +609,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 80.22
+          "score": 78.56
         },
         {
           "id": 1348250884,
@@ -662,7 +635,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 77.97
+          "score": 76.31
         },
         {
           "id": 1348859674,
@@ -687,7 +660,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 77.7
+          "score": 76.05
         },
         {
           "id": 1346525246,
@@ -712,21 +685,45 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 74.86
+          "score": 72.9
         },
         {
-          "id": 1345247964,
-          "name": "lockkeeper",
-          "fullName": "Hannay001/lockkeeper",
-          "url": "https://github.com/Hannay001/lockkeeper",
+          "id": 1346237489,
+          "name": "claude-osint-deploy",
+          "fullName": "soxoj/claude-osint-deploy",
+          "url": "https://github.com/soxoj/claude-osint-deploy",
           "homepage": "",
-          "description": "The capability router for AI coding agents. Route any task to a bounded skill portfolio across Claude Code, Codex, Cursor, Jcode, Hermes and more — with a built-in prompt-injection firewall.",
-          "stars": 13,
+          "description": "Install, run and verify OSINT tools from GitHub automatically, on any OS",
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-08-24T17:51:47Z",
-          "updatedAt": "2026-08-31T08:20:20Z",
+          "createdAt": "2026-08-25T14:29:56Z",
+          "updatedAt": "2026-08-31T19:59:05Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 63.01
+        },
+        {
+          "id": 1348532486,
+          "name": "whatileaked",
+          "fullName": "selan-ai/whatileaked",
+          "url": "https://github.com/selan-ai/whatileaked",
+          "homepage": "https://selan.ai",
+          "description": "Find credentials your coding agent already sent. Scans local Claude Code and Codex transcripts against the gitleaks rule set. No network, no telemetry, zero dependencies.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-08-27T13:36:36Z",
+          "updatedAt": "2026-08-30T19:59:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -737,31 +734,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.32
-        },
-        {
-          "id": 1346237489,
-          "name": "claude-osint-deploy",
-          "fullName": "soxoj/claude-osint-deploy",
-          "url": "https://github.com/soxoj/claude-osint-deploy",
-          "homepage": "",
-          "description": "Install, run and verify OSINT tools from GitHub automatically, on any OS",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-25T14:29:56Z",
-          "updatedAt": "2026-08-31T12:15:59Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 61.49
+          "score": 62.57
         },
         {
           "id": 1347376090,
@@ -787,21 +760,21 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 60.5
+          "score": 58.84
         },
         {
-          "id": 1345137241,
-          "name": "vibe-check-security",
-          "fullName": "jdj40211/vibe-check-security",
-          "url": "https://github.com/jdj40211/vibe-check-security",
-          "homepage": "",
-          "description": "Prueba de seguridad, con Claude Code, a esa app que hiciste con IA. 20 fallas comunes, scanners gratis, prompts y blindaje.",
-          "stars": 7,
-          "forks": 0,
+          "id": 1345568438,
+          "name": "FreeAI_AI_Inference_Workstation",
+          "fullName": "ProjectZeroDays/FreeAI_AI_Inference_Workstation",
+          "url": "https://github.com/ProjectZeroDays/FreeAI_AI_Inference_Workstation",
+          "homepage": "https://projectzerodays.github.io/FreeAI_AI_Inference_Workstation/",
+          "description": "FreeAI: Unified AI Inference Workstation — local LLMs, autonomous agents, full SDLC automation, security tools, and multi-provider routing. One self-hosted stack.",
+          "stars": 5,
+          "forks": 1,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-08-24T15:52:49Z",
-          "updatedAt": "2026-08-29T15:15:05Z",
+          "language": "Python",
+          "createdAt": "2026-08-25T01:44:37Z",
+          "updatedAt": "2026-09-01T05:52:09Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -811,35 +784,9 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 57.06
-        },
-        {
-          "id": 1345420645,
-          "name": "shim-guard",
-          "fullName": "GetSHIM/shim-guard",
-          "url": "https://github.com/GetSHIM/shim-guard",
-          "homepage": "https://getshim.tech",
-          "description": "Local pre-submit privacy protection for coding-agent CLIs",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-24T21:27:11Z",
-          "updatedAt": "2026-08-31T14:51:58Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54.3
+          "score": 54.53
         }
       ]
     }
