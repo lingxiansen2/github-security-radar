@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-04T05:51:29.551Z",
+  "generatedAt": "2026-09-04T16:52:48.017Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-01",
-      "totalCandidates": 15,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 3,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
           "homepage": "",
           "description": "CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
-          "stars": 56,
+          "stars": 66,
           "forks": 5,
           "openIssues": 0,
           "language": "Objective-C",
           "createdAt": "2026-09-02T20:12:10Z",
-          "updatedAt": "2026-09-04T05:48:38Z",
+          "updatedAt": "2026-09-04T13:28:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,110 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 129.63
+          "score": 129.78
+        },
+        {
+          "id": 1355378705,
+          "name": "vulnometry",
+          "fullName": "san3ncrypt3d/vulnometry",
+          "url": "https://github.com/san3ncrypt3d/vulnometry",
+          "homepage": "",
+          "description": "Measure what a vulnerability is worth to your business, not how severe it is in the abstract. Business Exposure Index scoring over NVD, EPSS, CISA KEV, OSV and GHSA.",
+          "stars": 23,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-03T01:04:32Z",
+          "updatedAt": "2026-09-04T16:52:18Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 99.22
+        },
+        {
+          "id": 1356989931,
+          "name": "cybersecurity-career-roadmap",
+          "fullName": "SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
+          "url": "https://github.com/SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
+          "homepage": "https://sagarbiswas-multihat.github.io/premium-notebooks/viewer.html?book=choose-your-cybersecurity-path-wisely",
+          "description": "A comprehensive cybersecurity career roadmap and handbook covering 35 roles across Offensive, Defensive, and GRC, 100+ tools, cert paths, and 10 architectures.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-04T10:10:45Z",
+          "updatedAt": "2026-09-04T14:41:33Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 95.15
+        },
+        {
+          "id": 1355562491,
+          "name": "2fa-app",
+          "fullName": "dev3Masud/2fa-app",
+          "url": "https://github.com/dev3Masud/2fa-app",
+          "homepage": "https://2fa-aam.vercel.app/",
+          "description": "🔒 Secure, zero-knowledge self-hosted 2FA (TOTP/HOTP) authenticator vault with modern dark UI, QR scanner, and custom groups.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-09-03T05:46:00Z",
+          "updatedAt": "2026-09-04T09:14:08Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 77.85
+        },
+        {
+          "id": 1353016641,
+          "name": "agent-bypass",
+          "fullName": "1837620622/agent-bypass",
+          "url": "https://github.com/1837620622/agent-bypass",
+          "homepage": "",
+          "description": "AgentBypass — Omni Operator LLM Agent Skill (Cknb): Turn any LLM into RE / Pwn / CTF / Pentest / Protocol / Crypto / Mobile / Forensics operator. 20 modules, zero-dependency, all agents.",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-01T01:36:14Z",
+          "updatedAt": "2026-09-04T15:20:28Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 71.2
         },
         {
           "id": 1354818023,
@@ -105,12 +208,12 @@
           "url": "https://github.com/0xyoozy/xss-image-payloads",
           "homepage": "",
           "description": "Image-based XSS proof-of-concept payloads (SVG onload, EXIF metadata, JPEG/HTML polyglot) for authorized security testing and bug-bounty research.",
-          "stars": 3,
+          "stars": 4,
           "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-02T13:46:34Z",
-          "updatedAt": "2026-09-02T19:25:06Z",
+          "updatedAt": "2026-09-04T13:58:00Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -124,7 +227,135 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 67.64
+          "score": 68.53
+        },
+        {
+          "id": 1353540374,
+          "name": "NmapScanningTool",
+          "fullName": "SagarBiswas-MultiHAT/NmapScanningTool",
+          "url": "https://github.com/SagarBiswas-MultiHAT/NmapScanningTool",
+          "homepage": "",
+          "description": "A secure, production-ready Python CLI wrapper for Nmap that makes powerful scans easy and repeatable. Includes 12 built-in profiles (SYN, aggressive, OS detection, vulnerability/NSE checks), interactive and non-interactive modes, strict input validation, Docker support, CI, and script-friendly flags for automation.",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-01T12:21:02Z",
+          "updatedAt": "2026-09-04T14:41:43Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 65.94
+        },
+        {
+          "id": 1357171793,
+          "name": "SentinelScan",
+          "fullName": "sukeshd-me/SentinelScan",
+          "url": "https://github.com/sukeshd-me/SentinelScan",
+          "homepage": "",
+          "description": "SentinelScan — File Safety & Malware Analysis Platform. Real open-source static analysis and defensive cybersecurity platform.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-09-04T13:27:56Z",
+          "updatedAt": "2026-09-04T16:02:41Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 65.63
+        },
+        {
+          "id": 1355757265,
+          "name": "CORS-X",
+          "fullName": "coolORANGE3/CORS-X",
+          "url": "https://github.com/coolORANGE3/CORS-X",
+          "homepage": "",
+          "description": "A fast and automated CORS misconfiguration scanner designed to detect broken Access-Control-Allow-Origin policies and origin reflection vulnerabilities.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-03T09:12:22Z",
+          "updatedAt": "2026-09-04T14:15:21Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 64.38
+        },
+        {
+          "id": 1356679251,
+          "name": "secsentry",
+          "fullName": "umeraamir69/secsentry",
+          "url": "https://github.com/umeraamir69/secsentry",
+          "homepage": "https://github.com/umeraamir69/secsentry/releases",
+          "description": "Git incident scanner for leaked secrets. Working tree and history, masked case files, no vendor verify.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-09-04T04:03:51Z",
+          "updatedAt": "2026-09-04T16:12:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 63.17
+        },
+        {
+          "id": 1356776608,
+          "name": "beginners-cybersecurity-roadmap",
+          "fullName": "initchirag/beginners-cybersecurity-roadmap",
+          "url": "https://github.com/initchirag/beginners-cybersecurity-roadmap",
+          "homepage": "",
+          "description": "beginner friendly cybersecurity roadmap",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-04T06:25:14Z",
+          "updatedAt": "2026-09-04T06:34:08Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 62.88
         },
         {
           "id": 1355982011,
@@ -149,240 +380,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 66.64
-        },
-        {
-          "id": 1353540374,
-          "name": "NmapScanningTool",
-          "fullName": "SagarBiswas-MultiHAT/NmapScanningTool",
-          "url": "https://github.com/SagarBiswas-MultiHAT/NmapScanningTool",
-          "homepage": "",
-          "description": "A secure, production-ready Python CLI wrapper for Nmap that makes powerful scans easy and repeatable. Includes 12 built-in profiles (SYN, aggressive, OS detection, vulnerability/NSE checks), interactive and non-interactive modes, strict input validation, Docker support, CI, and script-friendly flags for automation.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-01T12:21:02Z",
-          "updatedAt": "2026-09-02T17:20:56Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 61.43
-        },
-        {
-          "id": 1355190281,
-          "name": "CVE-2026-65330",
-          "fullName": "ByteV0rtex/CVE-2026-65330",
-          "url": "https://github.com/ByteV0rtex/CVE-2026-65330",
-          "homepage": "",
-          "description": "CVE-2026-65330 PoC — setxattr PAC bypass via fixed #0x307a diversifier (iOS 26.6 / 23G71)",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-09-02T20:11:53Z",
-          "updatedAt": "2026-09-04T05:26:52Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 60.37
-        },
-        {
-          "id": 1355189694,
-          "name": "CVE-2026-64788",
-          "fullName": "ByteV0rtex/CVE-2026-64788",
-          "url": "https://github.com/ByteV0rtex/CVE-2026-64788",
-          "homepage": "",
-          "description": "CVE-2026-64788 PoC — IOGPUFamily Use-After-Free (iOS 26.6 / 23G71)",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Objective-C",
-          "createdAt": "2026-09-02T20:11:13Z",
-          "updatedAt": "2026-09-03T10:29:46Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 59.64
-        },
-        {
-          "id": 1353016641,
-          "name": "Agent-Bypass",
-          "fullName": "1837620622/Agent-Bypass",
-          "url": "https://github.com/1837620622/Agent-Bypass",
-          "homepage": "",
-          "description": "AgentBypass — Omni Operator LLM Agent Skill (Cknb): Turn any LLM into RE / Pwn / CTF / Pentest / Protocol / Crypto / Mobile / Forensics operator. 20 modules, zero-dependency, all agents.",
-          "stars": 3,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-01T01:36:14Z",
-          "updatedAt": "2026-09-02T03:51:51Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 56.8
-        },
-        {
-          "id": 1355190799,
-          "name": "CVE-2026-65349",
-          "fullName": "ByteV0rtex/CVE-2026-65349",
-          "url": "https://github.com/ByteV0rtex/CVE-2026-65349",
-          "homepage": "",
-          "description": "CVE-2026-65349 PoC — getattrlist OOB write in vfs_attr_pack_internal (iOS 26.6 / 23G71)",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-09-02T20:12:31Z",
-          "updatedAt": "2026-09-03T10:30:07Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 53.85
-        },
-        {
-          "id": 1354134153,
-          "name": "MOABile",
-          "fullName": "bertifrancesco/MOABile",
-          "url": "https://github.com/bertifrancesco/MOABile",
-          "homepage": "",
-          "description": "A multi-device TUI for mobile app penetration testing (Android & iOS), orchestrating Frida, Objection, device mirroring, and dual-pane file transfer.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-01T23:58:31Z",
-          "updatedAt": "2026-09-02T09:03:03Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 50.2
-        },
-        {
-          "id": 1355166370,
-          "name": "secret.airat.top",
-          "fullName": "AiratTop/secret.airat.top",
-          "url": "https://github.com/AiratTop/secret.airat.top",
-          "homepage": "https://secret.airat.top",
-          "description": "Share secrets with self-destructing links. Encrypted in the browser; the key lives in the URL fragment and never reaches the server. Cloudflare Workers + D1. Published at https://secret.airat.top",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-09-02T19:43:03Z",
-          "updatedAt": "2026-09-03T09:39:35Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 49.67
-        },
-        {
-          "id": 1353545090,
-          "name": "ghostpkg",
-          "fullName": "M1rwana12/ghostpkg",
-          "url": "https://github.com/M1rwana12/ghostpkg",
-          "homepage": "https://pypi.org/project/ghostpkg/",
-          "description": "Catch AI-hallucinated package names before you install them",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 4,
-          "language": "Python",
-          "createdAt": "2026-09-01T12:26:14Z",
-          "updatedAt": "2026-09-02T18:30:30Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 44.17
-        },
-        {
-          "id": 1353428595,
-          "name": "pibash",
-          "fullName": "darkLabz001/pibash",
-          "url": "https://github.com/darkLabz001/pibash",
-          "homepage": "",
-          "description": "PiBunny / pibash: Hak5 Bash Bunny firmware ported to Raspberry Pi Zero 2 W — full Duckyscript 1.0-3.0 engine, configfs USB HID keyboard / mass storage / ethernet gadget, retro neon on-device payload menu",
-          "stars": 2,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-01T10:18:44Z",
-          "updatedAt": "2026-09-02T03:32:57Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 43.95
+          "score": 62.34
         }
       ]
     },
@@ -395,42 +393,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-08-28",
-      "totalCandidates": 15,
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1788501143"
+          "rateLimitReset": "1788540821"
         }
       ],
       "repositories": [
@@ -459,7 +457,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 185.9
+          "score": 183.89
         },
         {
           "id": 1355190514,
@@ -468,12 +466,12 @@
           "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
           "homepage": "",
           "description": "CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
-          "stars": 56,
+          "stars": 66,
           "forks": 5,
           "openIssues": 0,
           "language": "Objective-C",
           "createdAt": "2026-09-02T20:12:10Z",
-          "updatedAt": "2026-09-04T05:48:38Z",
+          "updatedAt": "2026-09-04T13:28:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -484,7 +482,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 136.57
+          "score": 139
         },
         {
           "id": 1351654011,
@@ -493,12 +491,12 @@
           "url": "https://github.com/armourinfosec/Offensive-Web-Application-Security",
           "homepage": "",
           "description": "A lab-driven course on breaking web applications and explaining how to fix them — 491 notes, 36 reproducible labs, mapped to OWASP WSTG and the PortSwigger Top 10 Web Hacking Techniques.",
-          "stars": 14,
+          "stars": 15,
           "forks": 7,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-30T18:32:43Z",
-          "updatedAt": "2026-09-04T05:20:21Z",
+          "updatedAt": "2026-09-04T07:07:38Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -511,7 +509,32 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 110.2
+          "score": 110.05
+        },
+        {
+          "id": 1355378705,
+          "name": "vulnometry",
+          "fullName": "san3ncrypt3d/vulnometry",
+          "url": "https://github.com/san3ncrypt3d/vulnometry",
+          "homepage": "",
+          "description": "Measure what a vulnerability is worth to your business, not how severe it is in the abstract. Business Exposure Index scoring over NVD, EPSS, CISA KEV, OSV and GHSA.",
+          "stars": 25,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-03T01:04:32Z",
+          "updatedAt": "2026-09-04T16:52:43Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 109.43
         },
         {
           "id": 1350573642,
@@ -520,12 +543,12 @@
           "url": "https://github.com/duriantaco/ravage",
           "homepage": "",
           "description": "AI powered web security testing for authorized targets",
-          "stars": 18,
+          "stars": 21,
           "forks": 0,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-08-29T12:41:00Z",
-          "updatedAt": "2026-09-03T21:39:44Z",
+          "updatedAt": "2026-09-04T14:56:10Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -537,7 +560,61 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 97.43
+          "score": 99.7
+        },
+        {
+          "id": 1356989931,
+          "name": "cybersecurity-career-roadmap",
+          "fullName": "SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
+          "url": "https://github.com/SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
+          "homepage": "https://sagarbiswas-multihat.github.io/premium-notebooks/viewer.html?book=choose-your-cybersecurity-path-wisely",
+          "description": "A comprehensive cybersecurity career roadmap and handbook covering 35 roles across Offensive, Defensive, and GRC, 100+ tools, cert paths, and 10 architectures.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-04T10:10:45Z",
+          "updatedAt": "2026-09-04T14:41:33Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 96.79
+        },
+        {
+          "id": 1349146728,
+          "name": "ida-headless-mcp",
+          "fullName": "VibRev/ida-headless-mcp",
+          "url": "https://github.com/VibRev/ida-headless-mcp",
+          "homepage": "",
+          "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
+          "stars": 15,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-08-28T03:02:03Z",
+          "updatedAt": "2026-09-04T15:14:36Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 90.63
         },
         {
           "id": 1351461667,
@@ -563,33 +640,57 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 89.02
+          "score": 87.32
         },
         {
-          "id": 1349146728,
-          "name": "ida-headless-mcp",
-          "fullName": "VibRev/ida-headless-mcp",
-          "url": "https://github.com/VibRev/ida-headless-mcp",
+          "id": 1353016641,
+          "name": "agent-bypass",
+          "fullName": "1837620622/agent-bypass",
+          "url": "https://github.com/1837620622/agent-bypass",
           "homepage": "",
-          "description": "Rust-native, multi-session headless IDA Pro MCP server with isolated workers and stdio or Streamable HTTP transports.",
-          "stars": 14,
-          "forks": 5,
+          "description": "AgentBypass — Omni Operator LLM Agent Skill (Cknb): Turn any LLM into RE / Pwn / CTF / Pentest / Protocol / Crypto / Mobile / Forensics operator. 20 modules, zero-dependency, all agents.",
+          "stars": 6,
+          "forks": 2,
           "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-08-28T03:02:03Z",
-          "updatedAt": "2026-09-02T17:36:34Z",
+          "language": "Unknown",
+          "createdAt": "2026-09-01T01:36:14Z",
+          "updatedAt": "2026-09-04T15:20:28Z",
           "matchedProfiles": [
-            "网络安全"
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
+            1.18
           ],
           "tags": [
-            "网络安全",
+            "渗透 / 红队",
             "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "防守 / 蓝队"
           ],
-          "score": 88.93
+          "score": 85.94
+        },
+        {
+          "id": 1355562491,
+          "name": "2fa-app",
+          "fullName": "dev3Masud/2fa-app",
+          "url": "https://github.com/dev3Masud/2fa-app",
+          "homepage": "https://2fa-aam.vercel.app/",
+          "description": "🔒 Secure, zero-knowledge self-hosted 2FA (TOTP/HOTP) authenticator vault with modern dark UI, QR scanner, and custom groups.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-09-03T05:46:00Z",
+          "updatedAt": "2026-09-04T09:14:08Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 85.1
         },
         {
           "id": 1353540374,
@@ -598,12 +699,12 @@
           "url": "https://github.com/SagarBiswas-MultiHAT/NmapScanningTool",
           "homepage": "",
           "description": "A secure, production-ready Python CLI wrapper for Nmap that makes powerful scans easy and repeatable. Includes 12 built-in profiles (SYN, aggressive, OS detection, vulnerability/NSE checks), interactive and non-interactive modes, strict input validation, Docker support, CI, and script-friendly flags for automation.",
-          "stars": 5,
+          "stars": 7,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-01T12:21:02Z",
-          "updatedAt": "2026-09-02T17:20:56Z",
+          "updatedAt": "2026-09-04T14:41:43Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -620,7 +721,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 76.03
+          "score": 81.23
         },
         {
           "id": 1351449289,
@@ -645,7 +746,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.05
+          "score": 71.35
         },
         {
           "id": 1352334000,
@@ -670,7 +771,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 71.81
+          "score": 70.11
         },
         {
           "id": 1351194830,
@@ -695,33 +796,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 71.47
-        },
-        {
-          "id": 1351680961,
-          "name": "launchify-skills",
-          "fullName": "jacobpowaza/launchify-skills",
-          "url": "https://github.com/jacobpowaza/launchify-skills",
-          "homepage": "",
-          "description": "🚀 Production-readiness skill suite for AI coding agents — 58 commands, 24 security categories, audit/fix/verify across Claude Code, OpenCode, and Codex",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-30T19:13:06Z",
-          "updatedAt": "2026-09-01T01:22:38Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 60.03
+          "score": 69.77
         },
         {
           "id": 1349644441,
@@ -747,7 +822,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 59.21
+          "score": 58
         }
       ]
     }
