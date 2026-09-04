@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-03T17:03:19.825Z",
+  "generatedAt": "2026-09-04T05:51:29.551Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-08-31",
-      "totalCandidates": 25,
+      "createdSince": "2026-09-01",
+      "totalCandidates": 15,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 3,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 7,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
           "homepage": "",
           "description": "CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
-          "stars": 30,
-          "forks": 4,
+          "stars": 56,
+          "forks": 5,
           "openIssues": 0,
           "language": "Objective-C",
           "createdAt": "2026-09-02T20:12:10Z",
-          "updatedAt": "2026-09-03T16:58:14Z",
+          "updatedAt": "2026-09-04T05:48:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 117.76
+          "score": 129.63
         },
         {
           "id": 1354818023,
@@ -106,7 +106,7 @@
           "homepage": "",
           "description": "Image-based XSS proof-of-concept payloads (SVG onload, EXIF metadata, JPEG/HTML polyglot) for authorized security testing and bug-bounty research.",
           "stars": 3,
-          "forks": 0,
+          "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-02T13:46:34Z",
@@ -124,7 +124,32 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 68.37
+          "score": 67.64
+        },
+        {
+          "id": 1355982011,
+          "name": "refract",
+          "fullName": "00x127/refract",
+          "url": "https://github.com/00x127/refract",
+          "homepage": "",
+          "description": "Recover an API's hidden request schema from its own validation errors",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-03T12:59:46Z",
+          "updatedAt": "2026-09-03T18:06:23Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 66.64
         },
         {
           "id": 1353540374,
@@ -155,32 +180,32 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 66.42
+          "score": 61.43
         },
         {
-          "id": 1355982011,
-          "name": "refract",
-          "fullName": "00x127/refract",
-          "url": "https://github.com/00x127/refract",
+          "id": 1355190281,
+          "name": "CVE-2026-65330",
+          "fullName": "ByteV0rtex/CVE-2026-65330",
+          "url": "https://github.com/ByteV0rtex/CVE-2026-65330",
           "homepage": "",
-          "description": "Recover an API's hidden request schema from its own validation errors",
-          "stars": 2,
+          "description": "CVE-2026-65330 PoC — setxattr PAC bypass via fixed #0x307a diversifier (iOS 26.6 / 23G71)",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-03T12:59:46Z",
-          "updatedAt": "2026-09-03T13:11:11Z",
+          "language": "C",
+          "createdAt": "2026-09-02T20:11:53Z",
+          "updatedAt": "2026-09-04T05:26:52Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "逆向 / 恶意代码"
+            "通用安全",
+            "漏洞研究 / 攻防"
           ],
-          "score": 65.38
+          "score": 60.37
         },
         {
           "id": 1355189694,
@@ -205,7 +230,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 64.26
+          "score": 59.64
         },
         {
           "id": 1353016641,
@@ -231,21 +256,21 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 60.44
+          "score": 56.8
         },
         {
-          "id": 1355190281,
-          "name": "CVE-2026-65330",
-          "fullName": "ByteV0rtex/CVE-2026-65330",
-          "url": "https://github.com/ByteV0rtex/CVE-2026-65330",
+          "id": 1355190799,
+          "name": "CVE-2026-65349",
+          "fullName": "ByteV0rtex/CVE-2026-65349",
+          "url": "https://github.com/ByteV0rtex/CVE-2026-65349",
           "homepage": "",
-          "description": "CVE-2026-65330 PoC — setxattr PAC bypass via fixed #0x307a diversifier (iOS 26.6 / 23G71)",
-          "stars": 3,
-          "forks": 0,
+          "description": "CVE-2026-65349 PoC — getattrlist OOB write in vfs_attr_pack_internal (iOS 26.6 / 23G71)",
+          "stars": 2,
+          "forks": 1,
           "openIssues": 0,
           "language": "C",
-          "createdAt": "2026-09-02T20:11:53Z",
-          "updatedAt": "2026-09-03T16:24:45Z",
+          "createdAt": "2026-09-02T20:12:31Z",
+          "updatedAt": "2026-09-03T10:30:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -256,58 +281,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 60.26
-        },
-        {
-          "id": 1352334000,
-          "name": "url-metadata-social-fetcher",
-          "fullName": "vpicciuolo/url-metadata-social-fetcher",
-          "url": "https://github.com/vpicciuolo/url-metadata-social-fetcher",
-          "homepage": "https://behot.now",
-          "description": "Production-ready TypeScript URL metadata & social profile fetcher. Extract Open Graph, SEO metadata, titles, descriptions, images, social links, follower counts and more with SSRF-safe fetching for Node.js, Bun, Deno and Edge.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 8,
-          "language": "TypeScript",
-          "createdAt": "2026-08-31T11:30:10Z",
-          "updatedAt": "2026-09-02T20:09:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 59.79
-        },
-        {
-          "id": 1354901473,
-          "name": "QuickLogger",
-          "fullName": "dwarf-porumbel/QuickLogger",
-          "url": "https://github.com/dwarf-porumbel/QuickLogger",
-          "homepage": "",
-          "description": "⚡ QuickLogger – Advanced Python Keylogger (Real-time automatic password/email/username/domain pattern detection)",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-02T15:02:06Z",
-          "updatedAt": "2026-09-03T15:28:40Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 56.81
+          "score": 53.85
         },
         {
           "id": 1354134153,
@@ -332,62 +306,83 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 55.66
+          "score": 50.2
         },
         {
-          "id": 1352745804,
-          "name": "AdPentestAI-Python",
-          "fullName": "netanelcyber/AdPentestAI-Python",
-          "url": "https://github.com/netanelcyber/AdPentestAI-Python",
-          "homepage": "",
-          "description": "",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 18,
-          "language": "Python",
-          "createdAt": "2026-08-31T18:39:36Z",
-          "updatedAt": "2026-09-03T15:32:42Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 55.59
-        },
-        {
-          "id": 1351883420,
-          "name": "awesome-security-bounty",
-          "fullName": "XiaomingX/awesome-security-bounty",
-          "url": "https://github.com/XiaomingX/awesome-security-bounty",
-          "homepage": "https://github.com/XiaomingX/awesome-security-bounty",
-          "description": "A curated list of influential bug bounty & vulnerability disclosure programs in China and worldwide — international platforms, vendor SRCs, Web3, and Chinese SRCs.",
-          "stars": 3,
+          "id": 1355166370,
+          "name": "secret.airat.top",
+          "fullName": "AiratTop/secret.airat.top",
+          "url": "https://github.com/AiratTop/secret.airat.top",
+          "homepage": "https://secret.airat.top",
+          "description": "Share secrets with self-destructing links. Encrypted in the browser; the key lives in the URL fragment and never reaches the server. Cloudflare Workers + D1. Published at https://secret.airat.top",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-08-31T01:46:33Z",
-          "updatedAt": "2026-09-02T13:23:00Z",
+          "language": "JavaScript",
+          "createdAt": "2026-09-02T19:43:03Z",
+          "updatedAt": "2026-09-03T09:39:35Z",
           "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1,
-            1.18
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 49.67
+        },
+        {
+          "id": 1353545090,
+          "name": "ghostpkg",
+          "fullName": "M1rwana12/ghostpkg",
+          "url": "https://github.com/M1rwana12/ghostpkg",
+          "homepage": "https://pypi.org/project/ghostpkg/",
+          "description": "Catch AI-hallucinated package names before you install them",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 4,
+          "language": "Python",
+          "createdAt": "2026-09-01T12:26:14Z",
+          "updatedAt": "2026-09-02T18:30:30Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 44.17
+        },
+        {
+          "id": 1353428595,
+          "name": "pibash",
+          "fullName": "darkLabz001/pibash",
+          "url": "https://github.com/darkLabz001/pibash",
+          "homepage": "",
+          "description": "PiBunny / pibash: Hak5 Bash Bunny firmware ported to Raspberry Pi Zero 2 W — full Duckyscript 1.0-3.0 engine, configfs USB HID keyboard / mass storage / ethernet gadget, retro neon on-device payload menu",
+          "stars": 2,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-01T10:18:44Z",
+          "updatedAt": "2026-09-02T03:32:57Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
           ],
           "tags": [
             "通用安全",
             "渗透 / 红队",
-            "漏洞研究 / 攻防",
-            "网络安全"
+            "逆向 / 恶意代码"
           ],
-          "score": 49.32
+          "score": 43.95
         }
       ]
     },
@@ -399,43 +394,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-27",
-      "totalCandidates": 17,
+      "createdSince": "2026-08-28",
+      "totalCandidates": 15,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 12,
+          "fetched": 11,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1788455052"
+          "rateLimitReset": "1788501143"
         }
       ],
       "repositories": [
@@ -464,7 +459,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 188.24
+          "score": 185.9
         },
         {
           "id": 1355190514,
@@ -473,12 +468,12 @@
           "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
           "homepage": "",
           "description": "CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
-          "stars": 30,
-          "forks": 4,
+          "stars": 56,
+          "forks": 5,
           "openIssues": 0,
           "language": "Objective-C",
           "createdAt": "2026-09-02T20:12:10Z",
-          "updatedAt": "2026-09-03T16:58:14Z",
+          "updatedAt": "2026-09-04T05:48:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -489,7 +484,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 122.06
+          "score": 136.57
         },
         {
           "id": 1351654011,
@@ -498,12 +493,12 @@
           "url": "https://github.com/armourinfosec/Offensive-Web-Application-Security",
           "homepage": "",
           "description": "A lab-driven course on breaking web applications and explaining how to fix them — 491 notes, 36 reproducible labs, mapped to OWASP WSTG and the PortSwigger Top 10 Web Hacking Techniques.",
-          "stars": 13,
+          "stars": 14,
           "forks": 7,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-08-30T18:32:43Z",
-          "updatedAt": "2026-09-03T09:19:53Z",
+          "updatedAt": "2026-09-04T05:20:21Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -516,32 +511,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 110.56
-        },
-        {
-          "id": 1348782744,
-          "name": "OfflinePainter",
-          "fullName": "jvmi7/OfflinePainter",
-          "url": "https://github.com/jvmi7/OfflinePainter",
-          "homepage": "",
-          "description": "Offline Ed25519 signing toolkit - sign files, verify signatures, exchange keys via QR. Pure-Python RFC 8032, scrypt passphrases, ASCII armor. Air-gapped signing playground.",
-          "stars": 52,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-27T17:47:09Z",
-          "updatedAt": "2026-08-30T14:21:06Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 110.04
+          "score": 110.2
         },
         {
           "id": 1350573642,
@@ -550,12 +520,12 @@
           "url": "https://github.com/duriantaco/ravage",
           "homepage": "",
           "description": "AI powered web security testing for authorized targets",
-          "stars": 16,
+          "stars": 18,
           "forks": 0,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-08-29T12:41:00Z",
-          "updatedAt": "2026-09-03T02:40:23Z",
+          "updatedAt": "2026-09-03T21:39:44Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -567,7 +537,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 96.54
+          "score": 97.43
         },
         {
           "id": 1351461667,
@@ -593,7 +563,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 91
+          "score": 89.02
         },
         {
           "id": 1349146728,
@@ -619,7 +589,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 90.59
+          "score": 88.93
         },
         {
           "id": 1353540374,
@@ -635,19 +605,22 @@
           "createdAt": "2026-09-01T12:21:02Z",
           "updatedAt": "2026-09-02T17:20:56Z",
           "matchedProfiles": [
+            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
+            1,
             1.08
           ],
           "tags": [
+            "通用安全",
             "网络安全",
             "AI 自动化 / Skill",
             "防守 / 蓝队",
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 78.17
+          "score": 76.03
         },
         {
           "id": 1351449289,
@@ -672,7 +645,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.03
+          "score": 73.05
         },
         {
           "id": 1352334000,
@@ -697,7 +670,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 73.79
+          "score": 71.81
         },
         {
           "id": 1351194830,
@@ -722,21 +695,21 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 73.45
+          "score": 71.47
         },
         {
-          "id": 1348250884,
-          "name": "pre-production-checklist",
-          "fullName": "FarzamHabibi/pre-production-checklist",
-          "url": "https://github.com/FarzamHabibi/pre-production-checklist",
-          "homepage": "https://prodcheck.pages.dev",
-          "description": "Pre-production checklists for solo founders. 4,349 items, 88% portable to any stack, 26 stack supplements — plus AI/agent security and the bugs AI coding assistants actually write.",
-          "stars": 10,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "JavaScript",
-          "createdAt": "2026-08-27T08:30:03Z",
-          "updatedAt": "2026-09-03T13:23:11Z",
+          "id": 1351680961,
+          "name": "launchify-skills",
+          "fullName": "jacobpowaza/launchify-skills",
+          "url": "https://github.com/jacobpowaza/launchify-skills",
+          "homepage": "",
+          "description": "🚀 Production-readiness skill suite for AI coding agents — 58 commands, 24 security categories, audit/fix/verify across Claude Code, OpenCode, and Codex",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-08-30T19:13:06Z",
+          "updatedAt": "2026-09-01T01:22:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -748,32 +721,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 68.53
-        },
-        {
-          "id": 1348859674,
-          "name": "memaudit",
-          "fullName": "mem-audit/memaudit",
-          "url": "https://github.com/mem-audit/memaudit",
-          "homepage": "https://ansh200516.github.io/memaudit-site/",
-          "description": "Training-data memorization auditor for fine-tuned LLMs — Trainer/TRL plugin, canary MIA + regurgitation audit, Apache-2.0",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-08-27T19:12:41Z",
-          "updatedAt": "2026-08-31T14:46:40Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.94
+          "score": 60.03
         },
         {
           "id": 1349644441,
@@ -799,7 +747,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.19
+          "score": 59.21
         }
       ]
     }
