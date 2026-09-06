@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-06T05:55:52.289Z",
+  "generatedAt": "2026-09-06T16:18:25.784Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-03",
-      "totalCandidates": 18,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 9,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         }
       ],
       "repositories": [
@@ -105,12 +105,12 @@
           "url": "https://github.com/disrex-group/stylesmuggler-mitigation",
           "homepage": "",
           "description": "Emergency mitigation for StyleSmuggler, the unpatched Magento/Adobe Commerce RCE (Sansec, 2026-09-05). Web-server rules + CLI guard + compromise scanner.",
-          "stars": 10,
+          "stars": 14,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-05T13:03:44Z",
-          "updatedAt": "2026-09-06T04:40:12Z",
+          "updatedAt": "2026-09-06T12:02:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -121,7 +121,159 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 84.44
+          "score": 88.16
+        },
+        {
+          "id": 1359216925,
+          "name": "genpark-pii-secret-redaction-masking-skill",
+          "fullName": "Alpha-Park/genpark-pii-secret-redaction-masking-skill",
+          "url": "https://github.com/Alpha-Park/genpark-pii-secret-redaction-masking-skill",
+          "homepage": "",
+          "description": "GenPark AI Agent Skill - High-speed PII and secret redaction engine with reversible token vault and credential sanitization.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-06T14:23:15Z",
+          "updatedAt": "2026-09-06T14:23:39Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 85.1
+        },
+        {
+          "id": 1359215406,
+          "name": "genpark-pii-secret-redaction-masking-skill",
+          "fullName": "alphaparkinc/genpark-pii-secret-redaction-masking-skill",
+          "url": "https://github.com/alphaparkinc/genpark-pii-secret-redaction-masking-skill",
+          "homepage": "",
+          "description": "GenPark AI Agent Skill - High-speed PII and secret redaction engine with reversible token vault and credential sanitization.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-06T14:21:14Z",
+          "updatedAt": "2026-09-06T14:23:17Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 85.09
+        },
+        {
+          "id": 1359215086,
+          "name": "genpark-prompt-injection-jailbreak-detector-skill",
+          "fullName": "Alpha-Park/genpark-prompt-injection-jailbreak-detector-skill",
+          "url": "https://github.com/Alpha-Park/genpark-prompt-injection-jailbreak-detector-skill",
+          "homepage": "",
+          "description": "GenPark AI Agent Skill - Heuristic and statistical prompt injection and jailbreak detector with semantic delimiter protection and adversarial pattern scoring.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-06T14:20:48Z",
+          "updatedAt": "2026-09-06T14:22:49Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 85.09
+        },
+        {
+          "id": 1359214777,
+          "name": "genpark-prompt-injection-jailbreak-detector-skill",
+          "fullName": "alphaparkinc/genpark-prompt-injection-jailbreak-detector-skill",
+          "url": "https://github.com/alphaparkinc/genpark-prompt-injection-jailbreak-detector-skill",
+          "homepage": "",
+          "description": "GenPark AI Agent Skill - Heuristic and statistical prompt injection and jailbreak detector with semantic delimiter protection and adversarial pattern scoring.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-06T14:20:24Z",
+          "updatedAt": "2026-09-06T14:22:26Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 85.08
+        },
+        {
+          "id": 1359172856,
+          "name": "genpark-semgrep-security-ast-pattern-matcher-skill",
+          "fullName": "Alpha-Park/genpark-semgrep-security-ast-pattern-matcher-skill",
+          "url": "https://github.com/Alpha-Park/genpark-semgrep-security-ast-pattern-matcher-skill",
+          "homepage": "",
+          "description": "GenPark AI Agent Skill - AST security pattern matcher for injection vulnerabilities, insecure deserialization, secret leakage, and safe code rewrite synthesis.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-06T13:35:01Z",
+          "updatedAt": "2026-09-06T13:35:27Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 84.81
+        },
+        {
+          "id": 1359172531,
+          "name": "genpark-semgrep-security-ast-pattern-matcher-skill",
+          "fullName": "alphaparkinc/genpark-semgrep-security-ast-pattern-matcher-skill",
+          "url": "https://github.com/alphaparkinc/genpark-semgrep-security-ast-pattern-matcher-skill",
+          "homepage": "",
+          "description": "GenPark AI Agent Skill - AST security pattern matcher for injection vulnerabilities, insecure deserialization, secret leakage, and safe code rewrite synthesis.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-06T13:34:35Z",
+          "updatedAt": "2026-09-06T13:35:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 84.81
         },
         {
           "id": 1356989931,
@@ -130,12 +282,12 @@
           "url": "https://github.com/SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
           "homepage": "https://sagarbiswas-multihat.github.io/premium-notebooks/viewer.html?book=choose-your-cybersecurity-path-wisely",
           "description": "A comprehensive cybersecurity career roadmap and handbook covering 35 roles across Offensive, Defensive, and GRC, 100+ tools, cert paths, and 10 architectures.",
-          "stars": 8,
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-04T10:10:45Z",
-          "updatedAt": "2026-09-05T09:26:55Z",
+          "updatedAt": "2026-09-06T14:49:40Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -149,7 +301,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 82.59
+          "score": 81.09
         },
         {
           "id": 1355757265,
@@ -173,7 +325,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 69.84
+          "score": 68.44
         },
         {
           "id": 1355562491,
@@ -200,96 +352,18 @@
           "score": 64.53
         },
         {
-          "id": 1357485570,
-          "name": "intermcp",
-          "fullName": "Bharathcoorg/intermcp",
-          "url": "https://github.com/Bharathcoorg/intermcp",
-          "homepage": "https://github.com/Bharathcoorg/intermcp#readme",
-          "description": "Ultra-fast, safe Model Context Protocol (MCP) engine and multiplexing hub in pure Rust, built for Interlayer Blockchain and open for all",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-04T18:42:19Z",
-          "updatedAt": "2026-09-06T04:35:54Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 55.07
-        },
-        {
-          "id": 1357658976,
-          "name": "excalibur",
-          "fullName": "Dev-next-gen/excalibur",
-          "url": "https://github.com/Dev-next-gen/excalibur",
-          "homepage": "https://excalibur.nextgen-labs.net",
-          "description": "Active-defense deception middleware for SaaS APIs: serves booby-trapped fake data to attackers, logs and geolocates them. Rust SDK + ML control plane (PASS/CANARY/DECEIVE) + canary tracer + SOC dashboard. Live demo included.",
+          "id": 1358851757,
+          "name": "base64-text-encoder-decoder-python",
+          "fullName": "ShakalBhau0001/base64-text-encoder-decoder-python",
+          "url": "https://github.com/ShakalBhau0001/base64-text-encoder-decoder-python",
+          "homepage": "",
+          "description": "A Python-based Base64 encoder and decoder for learning encoding concepts and practicing CTF challenges.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-04T23:00:32Z",
-          "updatedAt": "2026-09-05T21:49:04Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 54.9
-        },
-        {
-          "id": 1356733433,
-          "name": "dropvault",
-          "fullName": "red4711/dropvault",
-          "url": "https://github.com/red4711/dropvault",
-          "homepage": "",
-          "description": "Vaultwarden-backed secret source + dashboard drop-in for Hermes Agent — drop secrets in a browser, values never enter LLM context.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-04T05:32:05Z",
-          "updatedAt": "2026-09-06T00:22:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54.32
-        },
-        {
-          "id": 1357171793,
-          "name": "SentinelScan",
-          "fullName": "sukeshd-me/SentinelScan",
-          "url": "https://github.com/sukeshd-me/SentinelScan",
-          "homepage": "",
-          "description": "SentinelScan — File Safety & Malware Analysis Platform. Real open-source static analysis and defensive cybersecurity platform.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-09-04T13:27:56Z",
-          "updatedAt": "2026-09-04T16:02:41Z",
+          "createdAt": "2026-09-06T06:24:08Z",
+          "updatedAt": "2026-09-06T10:32:38Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -298,83 +372,9 @@
           ],
           "tags": [
             "网络安全",
-            "防守 / 蓝队"
+            "渗透 / 红队"
           ],
-          "score": 51.18
-        },
-        {
-          "id": 1356679251,
-          "name": "secsentry",
-          "fullName": "umeraamir69/secsentry",
-          "url": "https://github.com/umeraamir69/secsentry",
-          "homepage": "https://github.com/umeraamir69/secsentry/releases",
-          "description": "Git incident scanner for leaked secrets. Working tree and history, masked case files, no vendor verify.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-09-04T04:03:51Z",
-          "updatedAt": "2026-09-04T16:12:58Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 49.79
-        },
-        {
-          "id": 1355982011,
-          "name": "refract",
-          "fullName": "00x127/refract",
-          "url": "https://github.com/00x127/refract",
-          "homepage": "",
-          "description": "Recover an API's hidden request schema from its own validation errors",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-03T12:59:46Z",
-          "updatedAt": "2026-09-03T18:06:23Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 47.89
-        },
-        {
-          "id": 1357230026,
-          "name": "forge-vault-action",
-          "fullName": "danny134/forge-vault-action",
-          "url": "https://github.com/danny134/forge-vault-action",
-          "homepage": "",
-          "description": "GitHub Action for ForgeVault CRA product-security readiness checks",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-09-04T14:22:00Z",
-          "updatedAt": "2026-09-05T22:52:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 47.71
+          "score": 63.1
         }
       ]
     },
@@ -387,42 +387,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-08-30",
-      "totalCandidates": 19,
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 7,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1788674205"
+          "rateLimitReset": "1788711559"
         }
       ],
       "repositories": [
@@ -451,7 +451,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 177.12
+          "score": 175.22
         },
         {
           "id": 1355190514,
@@ -460,12 +460,12 @@
           "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
           "homepage": "",
           "description": "CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
-          "stars": 69,
+          "stars": 70,
           "forks": 5,
           "openIssues": 0,
           "language": "Objective-C",
           "createdAt": "2026-09-02T20:12:10Z",
-          "updatedAt": "2026-09-05T23:12:45Z",
+          "updatedAt": "2026-09-06T07:19:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -476,7 +476,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 134.39
+          "score": 133.14
         },
         {
           "id": 1355378705,
@@ -501,7 +501,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 130.78
+          "score": 129.17
         },
         {
           "id": 1351654011,
@@ -528,7 +528,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 108.21
+          "score": 106.31
         },
         {
           "id": 1356989931,
@@ -537,12 +537,12 @@
           "url": "https://github.com/SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
           "homepage": "https://sagarbiswas-multihat.github.io/premium-notebooks/viewer.html?book=choose-your-cybersecurity-path-wisely",
           "description": "A comprehensive cybersecurity career roadmap and handbook covering 35 roles across Offensive, Defensive, and GRC, 100+ tools, cert paths, and 10 architectures.",
-          "stars": 8,
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-04T10:10:45Z",
-          "updatedAt": "2026-09-05T09:26:55Z",
+          "updatedAt": "2026-09-06T14:49:40Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -556,7 +556,32 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 93.25
+          "score": 94.27
+        },
+        {
+          "id": 1358198137,
+          "name": "stylesmuggler-mitigation",
+          "fullName": "disrex-group/stylesmuggler-mitigation",
+          "url": "https://github.com/disrex-group/stylesmuggler-mitigation",
+          "homepage": "",
+          "description": "Emergency mitigation for StyleSmuggler, the unpatched Magento/Adobe Commerce RCE (Sansec, 2026-09-05). Web-server rules + CLI guard + compromise scanner.",
+          "stars": 14,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-05T13:03:44Z",
+          "updatedAt": "2026-09-06T12:02:59Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 93.78
         },
         {
           "id": 1354818023,
@@ -572,33 +597,30 @@
           "createdAt": "2026-09-02T13:46:34Z",
           "updatedAt": "2026-09-05T06:37:16Z",
           "matchedProfiles": [
-            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
             1.18
           ],
           "tags": [
-            "通用安全",
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 89.86
+          "score": 87.96
         },
         {
-          "id": 1358198137,
-          "name": "stylesmuggler-mitigation",
-          "fullName": "disrex-group/stylesmuggler-mitigation",
-          "url": "https://github.com/disrex-group/stylesmuggler-mitigation",
+          "id": 1359172856,
+          "name": "genpark-semgrep-security-ast-pattern-matcher-skill",
+          "fullName": "Alpha-Park/genpark-semgrep-security-ast-pattern-matcher-skill",
+          "url": "https://github.com/Alpha-Park/genpark-semgrep-security-ast-pattern-matcher-skill",
           "homepage": "",
-          "description": "Emergency mitigation for StyleSmuggler, the unpatched Magento/Adobe Commerce RCE (Sansec, 2026-09-05). Web-server rules + CLI guard + compromise scanner.",
-          "stars": 10,
+          "description": "GenPark AI Agent Skill - AST security pattern matcher for injection vulnerabilities, insecure deserialization, secret leakage, and safe code rewrite synthesis.",
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-05T13:03:44Z",
-          "updatedAt": "2026-09-06T04:40:12Z",
+          "language": "Python",
+          "createdAt": "2026-09-06T13:35:01Z",
+          "updatedAt": "2026-09-06T13:35:27Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -607,9 +629,36 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 87.92
+          "score": 85.37
+        },
+        {
+          "id": 1359172531,
+          "name": "genpark-semgrep-security-ast-pattern-matcher-skill",
+          "fullName": "alphaparkinc/genpark-semgrep-security-ast-pattern-matcher-skill",
+          "url": "https://github.com/alphaparkinc/genpark-semgrep-security-ast-pattern-matcher-skill",
+          "homepage": "",
+          "description": "GenPark AI Agent Skill - AST security pattern matcher for injection vulnerabilities, insecure deserialization, secret leakage, and safe code rewrite synthesis.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-06T13:34:35Z",
+          "updatedAt": "2026-09-06T13:35:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 85.37
         },
         {
           "id": 1355757265,
@@ -633,7 +682,33 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 86.57
+          "score": 84.67
+        },
+        {
+          "id": 1353016641,
+          "name": "agent-bypass",
+          "fullName": "1837620622/agent-bypass",
+          "url": "https://github.com/1837620622/agent-bypass",
+          "homepage": "",
+          "description": "AgentBypass — Omni Operator LLM Agent Skill (Cknb): Turn any LLM into RE / Pwn / CTF / Pentest / Protocol / Crypto / Mobile / Forensics operator. 20 modules, zero-dependency, all agents.",
+          "stars": 8,
+          "forks": 2,
+          "openIssues": 1,
+          "language": "Unknown",
+          "createdAt": "2026-09-01T01:36:14Z",
+          "updatedAt": "2026-09-06T15:03:02Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 84.12
         },
         {
           "id": 1351461667,
@@ -647,7 +722,7 @@
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-08-30T14:25:10Z",
-          "updatedAt": "2026-09-02T18:58:01Z",
+          "updatedAt": "2026-09-06T13:15:10Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -659,7 +734,38 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 81.58
+          "score": 80.27
+        },
+        {
+          "id": 1353540374,
+          "name": "NmapScanningTool",
+          "fullName": "SagarBiswas-MultiHAT/NmapScanningTool",
+          "url": "https://github.com/SagarBiswas-MultiHAT/NmapScanningTool",
+          "homepage": "",
+          "description": "A secure, production-ready Python CLI wrapper for Nmap that makes powerful scans easy and repeatable. Includes 12 built-in profiles (SYN, aggressive, OS detection, vulnerability/NSE checks), interactive and non-interactive modes, strict input validation, Docker support, CI, and script-friendly flags for automation.",
+          "stars": 9,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-01T12:21:02Z",
+          "updatedAt": "2026-09-06T14:49:41Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 78.93
         },
         {
           "id": 1355562491,
@@ -683,64 +789,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 79.36
-        },
-        {
-          "id": 1353016641,
-          "name": "agent-bypass",
-          "fullName": "1837620622/agent-bypass",
-          "url": "https://github.com/1837620622/agent-bypass",
-          "homepage": "",
-          "description": "AgentBypass — Omni Operator LLM Agent Skill (Cknb): Turn any LLM into RE / Pwn / CTF / Pentest / Protocol / Crypto / Mobile / Forensics operator. 20 modules, zero-dependency, all agents.",
-          "stars": 6,
-          "forks": 2,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-09-01T01:36:14Z",
-          "updatedAt": "2026-09-05T02:08:31Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 79.18
-        },
-        {
-          "id": 1353540374,
-          "name": "NmapScanningTool",
-          "fullName": "SagarBiswas-MultiHAT/NmapScanningTool",
-          "url": "https://github.com/SagarBiswas-MultiHAT/NmapScanningTool",
-          "homepage": "",
-          "description": "A secure, production-ready Python CLI wrapper for Nmap that makes powerful scans easy and repeatable. Includes 12 built-in profiles (SYN, aggressive, OS detection, vulnerability/NSE checks), interactive and non-interactive modes, strict input validation, Docker support, CI, and script-friendly flags for automation.",
-          "stars": 8,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-01T12:21:02Z",
-          "updatedAt": "2026-09-05T09:27:00Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 77.99
+          "score": 77.76
         },
         {
           "id": 1352745804,
@@ -754,7 +803,7 @@
           "openIssues": 41,
           "language": "Python",
           "createdAt": "2026-08-31T18:39:36Z",
-          "updatedAt": "2026-09-04T17:03:25Z",
+          "updatedAt": "2026-09-06T15:47:00Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -766,7 +815,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 71.06
+          "score": 69.16
         },
         {
           "id": 1352334000,
@@ -791,32 +840,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 64.37
-        },
-        {
-          "id": 1351194830,
-          "name": "flyntor",
-          "fullName": "flyntor/flyntor",
-          "url": "https://github.com/flyntor/flyntor",
-          "homepage": "https://www.npmjs.com/package/flyntor",
-          "description": "Open-source CLI that recovers a web app’s shipped source, rebuilds its tree, and exposes what crawlers miss. For authorized security research.",
-          "stars": 8,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-08-30T07:28:27Z",
-          "updatedAt": "2026-09-02T06:11:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 64.03
+          "score": 62.77
         },
         {
           "id": 1351484983,
@@ -843,7 +867,7 @@
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
-          "score": 62.92
+          "score": 61.42
         }
       ]
     }
