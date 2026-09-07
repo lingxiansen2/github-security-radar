@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-07T06:04:50.285Z",
+  "generatedAt": "2026-09-07T18:15:28.826Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-04",
-      "totalCandidates": 19,
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/disrex-group/stylesmuggler-mitigation",
           "homepage": "",
           "description": "Emergency mitigation for StyleSmuggler, the unpatched Magento/Adobe Commerce RCE (Sansec, 2026-09-05). Web-server rules + CLI guard + compromise scanner.",
-          "stars": 14,
+          "stars": 20,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-05T13:03:44Z",
-          "updatedAt": "2026-09-06T12:02:59Z",
+          "updatedAt": "2026-09-07T18:04:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,58 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 83.19
+          "score": 87.06
+        },
+        {
+          "id": 1359819145,
+          "name": "StyleSmuggler-Helper-Scripts",
+          "fullName": "muench-dev/StyleSmuggler-Helper-Scripts",
+          "url": "https://github.com/muench-dev/StyleSmuggler-Helper-Scripts",
+          "homepage": "",
+          "description": "Collection of information and scripts around the Magento StyleSmuggler security issue",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-09-07T05:54:39Z",
+          "updatedAt": "2026-09-07T17:18:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 82.6
+        },
+        {
+          "id": 1359407767,
+          "name": "satellite",
+          "fullName": "OrbSec/satellite",
+          "url": "https://github.com/OrbSec/satellite",
+          "homepage": "https://orb44.com",
+          "description": "Orb44 Watch satellite — inside pulse from your VPS (load, listeners, hardening). Pairs with https://orb44.com",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-09-06T18:19:45Z",
+          "updatedAt": "2026-09-07T16:51:44Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.63
         },
         {
           "id": 1359216925,
@@ -121,7 +172,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.13
+          "score": 75.73
         },
         {
           "id": 1359215406,
@@ -146,7 +197,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.12
+          "score": 75.72
         },
         {
           "id": 1359215086,
@@ -171,7 +222,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.11
+          "score": 75.72
         },
         {
           "id": 1359214777,
@@ -196,7 +247,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.11
+          "score": 75.71
         },
         {
           "id": 1359172856,
@@ -222,7 +273,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 79.84
+          "score": 75.44
         },
         {
           "id": 1359172531,
@@ -248,7 +299,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 79.84
+          "score": 75.44
         },
         {
           "id": 1356989931,
@@ -276,46 +327,21 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 75.23
+          "score": 73.48
         },
         {
-          "id": 1359140847,
-          "name": "Pentest-AI-BurpSuite",
-          "fullName": "S1N6H/Pentest-AI-BurpSuite",
-          "url": "https://github.com/S1N6H/Pentest-AI-BurpSuite",
+          "id": 1358912285,
+          "name": "Arbitera",
+          "fullName": "Ali-Adel-Nour/Arbitera",
+          "url": "https://github.com/Ali-Adel-Nour/Arbitera",
           "homepage": "",
-          "description": "Pentest AI — an AI penetration-testing agent that lives inside Burp Suite. Dark professional UI, BYO OpenAI-compatible/Anthropic model, tool-driven over your proxy history. Created by Harinder Singh.",
-          "stars": 2,
+          "description": "The AI-operated escrow court and reputation protocol for the agentic economy.",
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-06T12:53:51Z",
-          "updatedAt": "2026-09-07T03:02:18Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 65.84
-        },
-        {
-          "id": 1358509658,
-          "name": "unveil",
-          "fullName": "henio828/unveil",
-          "url": "https://github.com/henio828/unveil",
-          "homepage": "",
-          "description": "Find text that hides from humans but speaks to machines. Defensive scanner for indirect prompt injection in untrusted content.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-05T19:43:30Z",
-          "updatedAt": "2026-09-06T20:09:10Z",
+          "language": "Solidity",
+          "createdAt": "2026-09-06T07:56:01Z",
+          "updatedAt": "2026-09-07T17:07:47Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -326,57 +352,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 60.12
+          "score": 73.4
         },
         {
-          "id": 1358851757,
-          "name": "base64-text-encoder-decoder-python",
-          "fullName": "ShakalBhau0001/base64-text-encoder-decoder-python",
-          "url": "https://github.com/ShakalBhau0001/base64-text-encoder-decoder-python",
+          "id": 1359140847,
+          "name": "Pentest-AI-BurpSuite",
+          "fullName": "S1N6H/Pentest-AI-BurpSuite",
+          "url": "https://github.com/S1N6H/Pentest-AI-BurpSuite",
           "homepage": "",
-          "description": "A Python-based Base64 encoder and decoder for learning encoding concepts and practicing CTF challenges.",
-          "stars": 2,
+          "description": "Pentest AI — an AI penetration-testing agent that lives inside Burp Suite. Dark professional UI, BYO OpenAI-compatible/Anthropic model, tool-driven over your proxy history. Created by Harinder Singh.",
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-06T06:24:08Z",
-          "updatedAt": "2026-09-06T10:32:38Z",
+          "language": "Unknown",
+          "createdAt": "2026-09-06T12:53:51Z",
+          "updatedAt": "2026-09-07T12:27:32Z",
           "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
             "渗透 / 红队"
           ],
-          "score": 57.73
-        },
-        {
-          "id": 1358776461,
-          "name": "API-Security-Scanner",
-          "fullName": "realsandeep1271-ui/API-Security-Scanner",
-          "url": "https://github.com/realsandeep1271-ui/API-Security-Scanner",
-          "homepage": "",
-          "description": "Enterprise-grade API security testing platform with React GUI, multi-tenant support, and SIEM integration",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-09-06T04:10:51Z",
-          "updatedAt": "2026-09-06T12:35:00Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
           "profileWeights": [
-            1.08
+            1.18
           ],
           "tags": [
-            "网络安全",
-            "防守 / 蓝队"
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
           ],
-          "score": 56.86
+          "score": 67.49
         }
       ]
     },
@@ -389,42 +390,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-08-31",
-      "totalCandidates": 17,
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1788761143"
+          "rateLimitReset": "1788804982"
         }
       ],
       "repositories": [
@@ -435,12 +436,12 @@
           "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
           "homepage": "",
           "description": "CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
-          "stars": 70,
+          "stars": 72,
           "forks": 5,
           "openIssues": 0,
           "language": "Objective-C",
           "createdAt": "2026-09-02T20:12:10Z",
-          "updatedAt": "2026-09-07T03:13:42Z",
+          "updatedAt": "2026-09-07T15:42:00Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -451,7 +452,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 131.01
+          "score": 129.84
         },
         {
           "id": 1355378705,
@@ -476,7 +477,32 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 127.04
+          "score": 125.16
+        },
+        {
+          "id": 1358198137,
+          "name": "stylesmuggler-mitigation",
+          "fullName": "disrex-group/stylesmuggler-mitigation",
+          "url": "https://github.com/disrex-group/stylesmuggler-mitigation",
+          "homepage": "",
+          "description": "Emergency mitigation for StyleSmuggler, the unpatched Magento/Adobe Commerce RCE (Sansec, 2026-09-05). Web-server rules + CLI guard + compromise scanner.",
+          "stars": 20,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-05T13:03:44Z",
+          "updatedAt": "2026-09-07T18:04:44Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 98.04
         },
         {
           "id": 1356989931,
@@ -504,21 +530,45 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 91.76
+          "score": 89.53
         },
         {
-          "id": 1358198137,
-          "name": "stylesmuggler-mitigation",
-          "fullName": "disrex-group/stylesmuggler-mitigation",
-          "url": "https://github.com/disrex-group/stylesmuggler-mitigation",
+          "id": 1355757265,
+          "name": "CORS-X",
+          "fullName": "coolORANGE3/CORS-X",
+          "url": "https://github.com/coolORANGE3/CORS-X",
           "homepage": "",
-          "description": "Emergency mitigation for StyleSmuggler, the unpatched Magento/Adobe Commerce RCE (Sansec, 2026-09-05). Web-server rules + CLI guard + compromise scanner.",
-          "stars": 14,
+          "description": "A fast and automated CORS misconfiguration scanner designed to detect broken Access-Control-Allow-Origin policies and origin reflection vulnerabilities.",
+          "stars": 6,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-03T09:12:22Z",
+          "updatedAt": "2026-09-06T02:38:04Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 84.66
+        },
+        {
+          "id": 1359407767,
+          "name": "satellite",
+          "fullName": "OrbSec/satellite",
+          "url": "https://github.com/OrbSec/satellite",
+          "homepage": "https://orb44.com",
+          "description": "Orb44 Watch satellite — inside pulse from your VPS (load, listeners, hardening). Pairs with https://orb44.com",
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-05T13:03:44Z",
-          "updatedAt": "2026-09-06T12:02:59Z",
+          "language": "JavaScript",
+          "createdAt": "2026-09-06T18:19:45Z",
+          "updatedAt": "2026-09-07T16:51:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -529,7 +579,33 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 91.65
+          "score": 84.57
+        },
+        {
+          "id": 1353016641,
+          "name": "agent-bypass",
+          "fullName": "1837620622/agent-bypass",
+          "url": "https://github.com/1837620622/agent-bypass",
+          "homepage": "",
+          "description": "AgentBypass — Omni Operator LLM Agent Skill (Cknb): Turn any LLM into RE / Pwn / CTF / Pentest / Protocol / Crypto / Mobile / Forensics operator. 20 modules, zero-dependency, all agents.",
+          "stars": 9,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-01T01:36:14Z",
+          "updatedAt": "2026-09-07T14:12:50Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 84.26
         },
         {
           "id": 1354818023,
@@ -545,43 +621,41 @@
           "createdAt": "2026-09-02T13:46:34Z",
           "updatedAt": "2026-09-05T06:37:16Z",
           "matchedProfiles": [
-            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
             1.18
           ],
           "tags": [
-            "通用安全",
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 85.45
+          "score": 83.22
         },
         {
-          "id": 1355757265,
-          "name": "CORS-X",
-          "fullName": "coolORANGE3/CORS-X",
-          "url": "https://github.com/coolORANGE3/CORS-X",
+          "id": 1359216925,
+          "name": "genpark-pii-secret-redaction-masking-skill",
+          "fullName": "Alpha-Park/genpark-pii-secret-redaction-masking-skill",
+          "url": "https://github.com/Alpha-Park/genpark-pii-secret-redaction-masking-skill",
           "homepage": "",
-          "description": "A fast and automated CORS misconfiguration scanner designed to detect broken Access-Control-Allow-Origin policies and origin reflection vulnerabilities.",
-          "stars": 6,
-          "forks": 2,
+          "description": "GenPark AI Agent Skill - High-speed PII and secret redaction engine with reversible token vault and credential sanitization.",
+          "stars": 8,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-03T09:12:22Z",
-          "updatedAt": "2026-09-06T02:38:04Z",
+          "createdAt": "2026-09-06T14:23:15Z",
+          "updatedAt": "2026-09-06T14:23:39Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 84.92
+          "score": 81.48
         },
         {
           "id": 1359172856,
@@ -607,7 +681,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 83.24
+          "score": 81.36
         },
         {
           "id": 1359172531,
@@ -633,33 +707,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 83.24
-        },
-        {
-          "id": 1353016641,
-          "name": "agent-bypass",
-          "fullName": "1837620622/agent-bypass",
-          "url": "https://github.com/1837620622/agent-bypass",
-          "homepage": "",
-          "description": "AgentBypass — Omni Operator LLM Agent Skill (Cknb): Turn any LLM into RE / Pwn / CTF / Pentest / Protocol / Crypto / Mobile / Forensics operator. 20 modules, zero-dependency, all agents.",
-          "stars": 8,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-01T01:36:14Z",
-          "updatedAt": "2026-09-07T00:13:20Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 81.6
+          "score": 81.36
         },
         {
           "id": 1353540374,
@@ -690,7 +738,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 79.07
+          "score": 77.04
         },
         {
           "id": 1355562491,
@@ -714,7 +762,7 @@
           "tags": [
             "通用安全"
           ],
-          "score": 75.62
+          "score": 73.74
         },
         {
           "id": 1355830075,
@@ -739,7 +787,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 74.2
+          "score": 72.16
         },
         {
           "id": 1352745804,
@@ -765,32 +813,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 66.65
-        },
-        {
-          "id": 1352334000,
-          "name": "url-metadata-social-fetcher",
-          "fullName": "vpicciuolo/url-metadata-social-fetcher",
-          "url": "https://github.com/vpicciuolo/url-metadata-social-fetcher",
-          "homepage": "https://behot.now",
-          "description": "Production-ready TypeScript URL metadata & social profile fetcher. Extract Open Graph, SEO metadata, titles, descriptions, images, social links, follower counts and more with SSRF-safe fetching for Node.js, Bun, Deno and Edge.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 8,
-          "language": "TypeScript",
-          "createdAt": "2026-08-31T11:30:10Z",
-          "updatedAt": "2026-09-02T20:09:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 60.63
+          "score": 64.42
         }
       ]
     }
