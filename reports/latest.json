@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-07T18:15:28.826Z",
+  "generatedAt": "2026-09-08T05:56:24.091Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-09-04",
-      "totalCandidates": 21,
+      "createdSince": "2026-09-05",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 7,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         }
       ],
       "repositories": [
@@ -85,7 +85,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-05T13:03:44Z",
-          "updatedAt": "2026-09-07T18:04:44Z",
+          "updatedAt": "2026-09-08T05:47:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 87.06
+          "score": 82.84
         },
         {
           "id": 1359819145,
@@ -110,7 +110,7 @@
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-09-07T05:54:39Z",
-          "updatedAt": "2026-09-07T17:18:21Z",
+          "updatedAt": "2026-09-07T21:33:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,7 +122,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 82.6
+          "score": 78.38
         },
         {
           "id": 1359407767,
@@ -136,7 +136,7 @@
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-09-06T18:19:45Z",
-          "updatedAt": "2026-09-07T16:51:44Z",
+          "updatedAt": "2026-09-07T20:13:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -147,7 +147,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.63
+          "score": 75.41
         },
         {
           "id": 1359216925,
@@ -172,7 +172,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.73
+          "score": 71.51
         },
         {
           "id": 1359215406,
@@ -197,7 +197,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.72
+          "score": 71.5
         },
         {
           "id": 1359215086,
@@ -222,7 +222,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.72
+          "score": 71.5
         },
         {
           "id": 1359214777,
@@ -247,7 +247,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.71
+          "score": 71.5
         },
         {
           "id": 1359172856,
@@ -273,7 +273,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 75.44
+          "score": 71.22
         },
         {
           "id": 1359172531,
@@ -299,35 +299,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 75.44
-        },
-        {
-          "id": 1356989931,
-          "name": "cybersecurity-career-roadmap",
-          "fullName": "SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
-          "url": "https://github.com/SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
-          "homepage": "https://sagarbiswas-multihat.github.io/premium-notebooks/viewer.html?book=choose-your-cybersecurity-path-wisely",
-          "description": "A comprehensive cybersecurity career roadmap and handbook covering 35 roles across Offensive, Defensive, and GRC, 100+ tools, cert paths, and 10 architectures.",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-04T10:10:45Z",
-          "updatedAt": "2026-09-06T14:49:40Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 73.48
+          "score": 71.22
         },
         {
           "id": 1358912285,
@@ -352,7 +324,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.4
+          "score": 69.18
         },
         {
           "id": 1359140847,
@@ -377,7 +349,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 67.49
+          "score": 62.51
+        },
+        {
+          "id": 1359555865,
+          "name": "lusion.co",
+          "fullName": "DDW-X/lusion.co",
+          "url": "https://github.com/DDW-X/lusion.co",
+          "homepage": "https://ddw-x.github.io/lusion.co",
+          "description": "https://lusion-1to1.vercel.app/ _ _ _ Comprehensive reverse engineering & mathematical deconstruction of lusion.co: Custom GLSL Liquid Glass, GPGPU Particles, V8 Zero-GC Engine, and 120 FPS Architecture. Authored by DDW-X.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-09-06T22:35:28Z",
+          "updatedAt": "2026-09-08T02:02:06Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 59.05
         }
       ]
     },
@@ -389,7 +386,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-08-31",
+      "createdSince": "2026-09-01",
       "totalCandidates": 18,
       "queryStats": [
         {
@@ -397,35 +394,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1788804982"
+          "rateLimitReset": "1788847037"
         }
       ],
       "repositories": [
@@ -452,7 +449,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 129.84
+          "score": 128.03
         },
         {
           "id": 1355378705,
@@ -477,7 +474,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 125.16
+          "score": 123.35
         },
         {
           "id": 1358198137,
@@ -491,7 +488,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-05T13:03:44Z",
-          "updatedAt": "2026-09-07T18:04:44Z",
+          "updatedAt": "2026-09-08T05:47:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -502,13 +499,13 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 98.04
+          "score": 96.23
         },
         {
           "id": 1356989931,
-          "name": "cybersecurity-career-roadmap",
-          "fullName": "SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
-          "url": "https://github.com/SagarBiswas-MultiHAT/cybersecurity-career-roadmap",
+          "name": "awsume-cybersecurity-paths",
+          "fullName": "SagarBiswas-MultiHAT/awsume-cybersecurity-paths",
+          "url": "https://github.com/SagarBiswas-MultiHAT/awsume-cybersecurity-paths",
           "homepage": "https://sagarbiswas-multihat.github.io/premium-notebooks/viewer.html?book=choose-your-cybersecurity-path-wisely",
           "description": "A comprehensive cybersecurity career roadmap and handbook covering 35 roles across Offensive, Defensive, and GRC, 100+ tools, cert paths, and 10 architectures.",
           "stars": 9,
@@ -516,7 +513,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-04T10:10:45Z",
-          "updatedAt": "2026-09-06T14:49:40Z",
+          "updatedAt": "2026-09-08T01:55:36Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -530,7 +527,58 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 89.53
+          "score": 87.4
+        },
+        {
+          "id": 1353016641,
+          "name": "agent-bypass",
+          "fullName": "1837620622/agent-bypass",
+          "url": "https://github.com/1837620622/agent-bypass",
+          "homepage": "",
+          "description": "AgentBypass — Omni Operator LLM Agent Skill (Cknb): Turn any LLM into RE / Pwn / CTF / Pentest / Protocol / Crypto / Mobile / Forensics operator. 20 modules, zero-dependency, all agents.",
+          "stars": 10,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-01T01:36:14Z",
+          "updatedAt": "2026-09-08T02:32:53Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 85.58
+        },
+        {
+          "id": 1359407767,
+          "name": "satellite",
+          "fullName": "OrbSec/satellite",
+          "url": "https://github.com/OrbSec/satellite",
+          "homepage": "https://orb44.com",
+          "description": "Orb44 Watch satellite — inside pulse from your VPS (load, listeners, hardening). Pairs with https://orb44.com",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-09-06T18:19:45Z",
+          "updatedAt": "2026-09-07T20:13:18Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 82.76
         },
         {
           "id": 1355757265,
@@ -554,58 +602,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 84.66
-        },
-        {
-          "id": 1359407767,
-          "name": "satellite",
-          "fullName": "OrbSec/satellite",
-          "url": "https://github.com/OrbSec/satellite",
-          "homepage": "https://orb44.com",
-          "description": "Orb44 Watch satellite — inside pulse from your VPS (load, listeners, hardening). Pairs with https://orb44.com",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-09-06T18:19:45Z",
-          "updatedAt": "2026-09-07T16:51:44Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 84.57
-        },
-        {
-          "id": 1353016641,
-          "name": "agent-bypass",
-          "fullName": "1837620622/agent-bypass",
-          "url": "https://github.com/1837620622/agent-bypass",
-          "homepage": "",
-          "description": "AgentBypass — Omni Operator LLM Agent Skill (Cknb): Turn any LLM into RE / Pwn / CTF / Pentest / Protocol / Crypto / Mobile / Forensics operator. 20 modules, zero-dependency, all agents.",
-          "stars": 9,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-01T01:36:14Z",
-          "updatedAt": "2026-09-07T14:12:50Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 84.26
+          "score": 82.52
         },
         {
           "id": 1354818023,
@@ -630,7 +627,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 83.22
+          "score": 81.09
         },
         {
           "id": 1359216925,
@@ -655,7 +652,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 81.48
+          "score": 79.67
         },
         {
           "id": 1359172856,
@@ -681,7 +678,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 81.36
+          "score": 79.55
         },
         {
           "id": 1359172531,
@@ -707,7 +704,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 81.36
+          "score": 79.55
+        },
+        {
+          "id": 1358912285,
+          "name": "Arbitera",
+          "fullName": "Ali-Adel-Nour/Arbitera",
+          "url": "https://github.com/Ali-Adel-Nour/Arbitera",
+          "homepage": "",
+          "description": "The AI-operated escrow court and reputation protocol for the agentic economy.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Solidity",
+          "createdAt": "2026-09-06T07:56:01Z",
+          "updatedAt": "2026-09-07T17:07:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 78.67
         },
         {
           "id": 1353540374,
@@ -738,7 +760,32 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.04
+          "score": 75.08
+        },
+        {
+          "id": 1355830075,
+          "name": "prompt-injection-detector",
+          "fullName": "tg-mitra/prompt-injection-detector",
+          "url": "https://github.com/tg-mitra/prompt-injection-detector",
+          "homepage": "",
+          "description": "Lightweight prompt injection detector for LLM, RAG and AI agent applications using Sentence Transformers + scikit-learn.",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-03T10:30:25Z",
+          "updatedAt": "2026-09-07T22:39:01Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 73.95
         },
         {
           "id": 1355562491,
@@ -762,46 +809,21 @@
           "tags": [
             "通用安全"
           ],
-          "score": 73.74
+          "score": 71.93
         },
         {
-          "id": 1355830075,
-          "name": "prompt-injection-detector",
-          "fullName": "tg-mitra/prompt-injection-detector",
-          "url": "https://github.com/tg-mitra/prompt-injection-detector",
+          "id": 1354134153,
+          "name": "MOABile",
+          "fullName": "bertifrancesco/MOABile",
+          "url": "https://github.com/bertifrancesco/MOABile",
           "homepage": "",
-          "description": "Lightweight prompt injection detector for LLM, RAG and AI agent applications using Sentence Transformers + scikit-learn.",
+          "description": "A multi-device TUI for mobile app penetration testing (Android & iOS), orchestrating Frida, Objection, device mirroring, and dual-pane file transfer.",
           "stars": 5,
-          "forks": 2,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-03T10:30:25Z",
-          "updatedAt": "2026-09-06T20:22:27Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 72.16
-        },
-        {
-          "id": 1352745804,
-          "name": "AdPentestAI-Python",
-          "fullName": "netanelcyber/AdPentestAI-Python",
-          "url": "https://github.com/netanelcyber/AdPentestAI-Python",
-          "homepage": "",
-          "description": "",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 41,
-          "language": "Python",
-          "createdAt": "2026-08-31T18:39:36Z",
-          "updatedAt": "2026-09-06T20:28:16Z",
+          "createdAt": "2026-09-01T23:58:31Z",
+          "updatedAt": "2026-09-07T20:42:46Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -810,10 +832,9 @@
           ],
           "tags": [
             "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "网络安全"
+            "逆向 / 恶意代码"
           ],
-          "score": 64.42
+          "score": 62.92
         }
       ]
     }
