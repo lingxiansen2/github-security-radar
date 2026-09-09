@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-09T05:57:48.098Z",
+  "generatedAt": "2026-09-09T17:10:00.177Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,58 +34,86 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-06",
-      "totalCandidates": 21,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 9,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         }
       ],
       "repositories": [
+        {
+          "id": 1362314598,
+          "name": "PentestPi",
+          "fullName": "weidutech/PentestPi",
+          "url": "https://github.com/weidutech/PentestPi",
+          "homepage": "",
+          "description": "Autonomous Penetration Testing Agent Framework with External State Memory & Anti-False-Falsification Guardrails.",
+          "stars": 10,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-09T06:51:08Z",
+          "updatedAt": "2026-09-09T16:12:52Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 107.15
+        },
         {
           "id": 1359407767,
           "name": "satellite",
           "fullName": "OrbSec/satellite",
           "url": "https://github.com/OrbSec/satellite",
           "homepage": "https://orb44.com",
-          "description": "Orb44 Watch satellite — inside pulse from your VPS (load, listeners, hardening). Pairs with https://orb44.com",
+          "description": "Orb44 Watch satellite - inside pulse from your VPS (load, listeners, hardening). Pairs with https://orb44.com",
           "stars": 23,
           "forks": 0,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-09-06T18:19:45Z",
-          "updatedAt": "2026-09-09T03:27:03Z",
+          "updatedAt": "2026-09-09T09:39:48Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +124,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 88.06
+          "score": 84.01
         },
         {
           "id": 1359819145,
@@ -122,7 +150,85 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 72.44
+          "score": 68.4
+        },
+        {
+          "id": 1359876281,
+          "name": "exploit-mikrotik-2026",
+          "fullName": "BlackHatExploitation/exploit-mikrotik-2026",
+          "url": "https://github.com/BlackHatExploitation/exploit-mikrotik-2026",
+          "homepage": "",
+          "description": "CVE-2026-67276 MikroTik RouterOS SSH Authentication Bypass Exploit",
+          "stars": 4,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-07T06:56:34Z",
+          "updatedAt": "2026-09-09T16:47:17Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 68.26
+        },
+        {
+          "id": 1362302807,
+          "name": "Rshell-client-rust",
+          "fullName": "Rubby2001/Rshell-client-rust",
+          "url": "https://github.com/Rubby2001/Rshell-client-rust",
+          "homepage": "",
+          "description": "Rust 重写的 Rshell 跨平台多协议 C2 客户端",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-09-09T06:40:38Z",
+          "updatedAt": "2026-09-09T08:33:59Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 62.87
+        },
+        {
+          "id": 1358912285,
+          "name": "Arbitra",
+          "fullName": "Ali-Adel-Nour/Arbitra",
+          "url": "https://github.com/Ali-Adel-Nour/Arbitra",
+          "homepage": "",
+          "description": "The AI-operated escrow court and reputation protocol for the agentic economy.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-06T07:56:01Z",
+          "updatedAt": "2026-09-09T15:18:16Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 59.79
         },
         {
           "id": 1359216925,
@@ -147,7 +253,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.84
+          "score": 59.79
         },
         {
           "id": 1359215406,
@@ -172,7 +278,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.82
+          "score": 59.79
         },
         {
           "id": 1359215086,
@@ -197,7 +303,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.82
+          "score": 59.79
         },
         {
           "id": 1359214777,
@@ -222,7 +328,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.82
+          "score": 59.79
         },
         {
           "id": 1359172856,
@@ -248,7 +354,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 62.55
+          "score": 59.79
         },
         {
           "id": 1359172531,
@@ -274,106 +380,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 62.54
-        },
-        {
-          "id": 1359555865,
-          "name": "lusion.co",
-          "fullName": "DDW-X/lusion.co",
-          "url": "https://github.com/DDW-X/lusion.co",
-          "homepage": "https://ddw-x.github.io/lusion.co",
-          "description": "https://lusion-1to1.vercel.app/ _ _ _ Comprehensive reverse engineering & mathematical deconstruction of lusion.co: Custom GLSL Liquid Glass, GPGPU Particles, V8 Zero-GC Engine, and 120 FPS Architecture. Authored by DDW-X.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-09-06T22:35:28Z",
-          "updatedAt": "2026-09-08T15:08:55Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 61.06
-        },
-        {
-          "id": 1361486696,
-          "name": "Research-Project-The-Hidden-Side-of-Cybercrime-A-Study-of-Dark-Web-Activities-and-Threats",
-          "fullName": "Heisenberg7876/Research-Project-The-Hidden-Side-of-Cybercrime-A-Study-of-Dark-Web-Activities-and-Threats",
-          "url": "https://github.com/Heisenberg7876/Research-Project-The-Hidden-Side-of-Cybercrime-A-Study-of-Dark-Web-Activities-and-Threats",
-          "homepage": "",
-          "description": "Research project on Dark Web activities, cybercrime ecosystems, documented cases, and cybersecurity threats.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-08T14:21:44Z",
-          "updatedAt": "2026-09-08T16:42:59Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 60.88
-        },
-        {
-          "id": 1358912285,
-          "name": "Arbitera",
-          "fullName": "Ali-Adel-Nour/Arbitera",
-          "url": "https://github.com/Ali-Adel-Nour/Arbitera",
-          "homepage": "",
-          "description": "The AI-operated escrow court and reputation protocol for the agentic economy.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-06T07:56:01Z",
-          "updatedAt": "2026-09-09T05:02:29Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 60.51
-        },
-        {
-          "id": 1359876281,
-          "name": "exploit-mikrotik-2026",
-          "fullName": "BlackHatExploitation/exploit-mikrotik-2026",
-          "url": "https://github.com/BlackHatExploitation/exploit-mikrotik-2026",
-          "homepage": "",
-          "description": "CVE-2026-67276 MikroTik RouterOS SSH Authentication Bypass Exploit",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-07T06:56:34Z",
-          "updatedAt": "2026-09-08T08:15:11Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 57.84
+          "score": 59.79
         }
       ]
     },
@@ -386,42 +393,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-09-02",
-      "totalCandidates": 17,
+      "totalCandidates": 19,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 4,
+          "fetched": 6,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1788933521"
+          "rateLimitReset": "1788973853"
         }
       ],
       "repositories": [
@@ -448,7 +455,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 125.2
+          "score": 123.47
         },
         {
           "id": 1355378705,
@@ -462,7 +469,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-03T01:04:32Z",
-          "updatedAt": "2026-09-06T02:56:45Z",
+          "updatedAt": "2026-09-09T16:03:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -473,7 +480,35 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 119.63
+          "score": 117.9
+        },
+        {
+          "id": 1362314598,
+          "name": "PentestPi",
+          "fullName": "weidutech/PentestPi",
+          "url": "https://github.com/weidutech/PentestPi",
+          "homepage": "",
+          "description": "Autonomous Penetration Testing Agent Framework with External State Memory & Anti-False-Falsification Guardrails.",
+          "stars": 10,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-09T06:51:08Z",
+          "updatedAt": "2026-09-09T16:12:52Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 109.66
         },
         {
           "id": 1359407767,
@@ -481,13 +516,13 @@
           "fullName": "OrbSec/satellite",
           "url": "https://github.com/OrbSec/satellite",
           "homepage": "https://orb44.com",
-          "description": "Orb44 Watch satellite — inside pulse from your VPS (load, listeners, hardening). Pairs with https://orb44.com",
+          "description": "Orb44 Watch satellite - inside pulse from your VPS (load, listeners, hardening). Pairs with https://orb44.com",
           "stars": 23,
           "forks": 0,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-09-06T18:19:45Z",
-          "updatedAt": "2026-09-09T03:27:03Z",
+          "updatedAt": "2026-09-09T09:39:48Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -498,7 +533,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 100.36
+          "score": 98.63
+        },
+        {
+          "id": 1358198137,
+          "name": "stylesmuggler-mitigation",
+          "fullName": "disrex-group/stylesmuggler-mitigation",
+          "url": "https://github.com/disrex-group/stylesmuggler-mitigation",
+          "homepage": "",
+          "description": "Emergency mitigation for StyleSmuggler, the unpatched Magento/Adobe Commerce RCE (Sansec, 2026-09-05). Web-server rules + CLI guard + compromise scanner.",
+          "stars": 23,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Unknown",
+          "createdAt": "2026-09-05T13:03:44Z",
+          "updatedAt": "2026-09-09T09:31:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 94.1
         },
         {
           "id": 1357658976,
@@ -526,32 +586,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 94.89
-        },
-        {
-          "id": 1358198137,
-          "name": "stylesmuggler-mitigation",
-          "fullName": "disrex-group/stylesmuggler-mitigation",
-          "url": "https://github.com/disrex-group/stylesmuggler-mitigation",
-          "homepage": "",
-          "description": "Emergency mitigation for StyleSmuggler, the unpatched Magento/Adobe Commerce RCE (Sansec, 2026-09-05). Web-server rules + CLI guard + compromise scanner.",
-          "stars": 22,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-09-05T13:03:44Z",
-          "updatedAt": "2026-09-08T15:34:41Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 94.77
+          "score": 93.02
         },
         {
           "id": 1355757265,
@@ -575,7 +610,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 86.49
+          "score": 84.45
         },
         {
           "id": 1356989931,
@@ -603,7 +638,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 83.01
+          "score": 80.97
         },
         {
           "id": 1359819145,
@@ -629,7 +664,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 82.36
+          "score": 80.62
         },
         {
           "id": 1354818023,
@@ -654,32 +689,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 76.7
-        },
-        {
-          "id": 1359216925,
-          "name": "genpark-pii-secret-redaction-masking-skill",
-          "fullName": "Alpha-Park/genpark-pii-secret-redaction-masking-skill",
-          "url": "https://github.com/Alpha-Park/genpark-pii-secret-redaction-masking-skill",
-          "homepage": "",
-          "description": "GenPark AI Agent Skill - High-speed PII and secret redaction engine with reversible token vault and credential sanitization.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-06T14:23:15Z",
-          "updatedAt": "2026-09-06T14:23:39Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 75.96
+          "score": 75.28
         },
         {
           "id": 1359172856,
@@ -705,7 +715,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 75.83
+          "score": 74.1
         },
         {
           "id": 1359172531,
@@ -731,7 +741,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 75.83
+          "score": 74.1
+        },
+        {
+          "id": 1358912285,
+          "name": "Arbitra",
+          "fullName": "Ali-Adel-Nour/Arbitra",
+          "url": "https://github.com/Ali-Adel-Nour/Arbitra",
+          "homepage": "",
+          "description": "The AI-operated escrow court and reputation protocol for the agentic economy.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-06T07:56:01Z",
+          "updatedAt": "2026-09-09T15:18:16Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 73.22
         },
         {
           "id": 1356408467,
@@ -756,7 +791,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.71
+          "score": 71.83
         },
         {
           "id": 1355830075,
@@ -781,7 +816,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 69.94
+          "score": 68.07
         },
         {
           "id": 1355562491,
@@ -805,7 +840,33 @@
           "tags": [
             "通用安全"
           ],
-          "score": 68.21
+          "score": 66.48
+        },
+        {
+          "id": 1356192902,
+          "name": "openlabs",
+          "fullName": "duckurity/openlabs",
+          "url": "https://github.com/duckurity/openlabs",
+          "homepage": "http://openlabs.duckurity.com/",
+          "description": "Open-source cybersecurity training instruments designed for hands-on technical analysis, vulnerability identification, and skill verification.  ",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 9,
+          "language": "TypeScript",
+          "createdAt": "2026-09-03T16:31:12Z",
+          "updatedAt": "2026-09-09T15:00:01Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 62.8
         }
       ]
     }
