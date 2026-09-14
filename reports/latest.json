@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-13T16:58:20.613Z",
+  "generatedAt": "2026-09-14T06:14:52.624Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-09-10",
-      "totalCandidates": 27,
+      "createdSince": "2026-09-11",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC",
           "homepage": "https://zerodayevil.github.io",
           "description": "CVE-2026-41089 Netlogon RCE PoC — security research, vulnerability validation & defensive testing.",
-          "stars": 93,
+          "stars": 104,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-11T10:34:35Z",
-          "updatedAt": "2026-09-13T16:43:45Z",
+          "updatedAt": "2026-09-14T04:53:01Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -103,7 +103,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 147.05
+          "score": 144.75
         },
         {
           "id": 1367972934,
@@ -133,34 +133,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 103.22
-        },
-        {
-          "id": 1363844227,
-          "name": "ai-security-tool",
-          "fullName": "ZeroDayEvil/ai-security-tool",
-          "url": "https://github.com/ZeroDayEvil/ai-security-tool",
-          "homepage": "https://zerodayevil.cloud",
-          "description": "🛡️ Free open-source AI-powered security terminal & vulnerability scanner (CVE, SBOM). Supports SSH, SFTP, RDP, VNC, Serial, and 12+ autonomous AI agents (DeepSeek, OpenAI) for automated security workflows, CTF & DevSecOps. Cross-platform & Web UI.",
-          "stars": 17,
-          "forks": 8,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-09-10T09:38:49Z",
-          "updatedAt": "2026-09-12T01:32:43Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 96.27
+          "score": 97.57
         },
         {
           "id": 1366128623,
@@ -187,7 +160,57 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 89.07
+          "score": 84.27
+        },
+        {
+          "id": 1367344793,
+          "name": "netprobe-ir",
+          "fullName": "cumakurt/netprobe-ir",
+          "url": "https://github.com/cumakurt/netprobe-ir",
+          "homepage": "https://github.com/cumakurt/netprobe-ir#readme",
+          "description": "Linux network forensics, runtime observability, native IDS, PCAP evidence and SOC investigation console.",
+          "stars": 6,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-09-12T13:55:18Z",
+          "updatedAt": "2026-09-13T20:17:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 79.31
+        },
+        {
+          "id": 1366403257,
+          "name": "hermes-seagull",
+          "fullName": "laoshu666/hermes-seagull",
+          "url": "https://github.com/laoshu666/hermes-seagull",
+          "homepage": "https://hermes-agent.nousresearch.com",
+          "description": "🦅 Seagull Profile - Unrestricted CTF/Red-team AI personality for Hermes Agent | 海鸥破甲人格",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-09-11T16:02:02Z",
+          "updatedAt": "2026-09-14T04:11:10Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 71.28
         },
         {
           "id": 1365684044,
@@ -212,32 +235,33 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.49
+          "score": 68.7
         },
         {
-          "id": 1366403257,
-          "name": "hermes-seagull",
-          "fullName": "laoshu666/hermes-seagull",
-          "url": "https://github.com/laoshu666/hermes-seagull",
-          "homepage": "https://hermes-agent.nousresearch.com",
-          "description": "🦅 Seagull Profile - Unrestricted CTF/Red-team AI personality for Hermes Agent | 海鸥破甲人格",
-          "stars": 4,
-          "forks": 2,
+          "id": 1368534590,
+          "name": "ctf-agent-playbook",
+          "fullName": "ab2836304651/ctf-agent-playbook",
+          "url": "https://github.com/ab2836304651/ctf-agent-playbook",
+          "homepage": "",
+          "description": "多 Agent 协作打 CTF 实战手册：协作体系 / 纪律卡 / 技术套路库 / 已判死清单 / 实战复盘",
+          "stars": 3,
+          "forks": 0,
           "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-09-11T16:02:02Z",
-          "updatedAt": "2026-09-13T15:37:43Z",
+          "language": "Unknown",
+          "createdAt": "2026-09-13T15:41:48Z",
+          "updatedAt": "2026-09-14T02:59:14Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1.18
+            1.08
           ],
           "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 72.21
+          "score": 67.54
         },
         {
           "id": 1367644373,
@@ -251,7 +275,7 @@
           "openIssues": 0,
           "language": "C++",
           "createdAt": "2026-09-12T19:52:39Z",
-          "updatedAt": "2026-09-13T09:59:48Z",
+          "updatedAt": "2026-09-13T21:56:40Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -261,32 +285,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 71.01
-        },
-        {
-          "id": 1367344793,
-          "name": "netprobe-ir",
-          "fullName": "cumakurt/netprobe-ir",
-          "url": "https://github.com/cumakurt/netprobe-ir",
-          "homepage": "https://github.com/cumakurt/netprobe-ir#readme",
-          "description": "Linux network forensics, runtime observability, native IDS, PCAP evidence and SOC investigation console.",
-          "stars": 3,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-09-12T13:55:18Z",
-          "updatedAt": "2026-09-13T11:34:51Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 69.52
+          "score": 65.35
         },
         {
           "id": 1366876050,
@@ -313,7 +312,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 69.44
+          "score": 64.26
         },
         {
           "id": 1367289948,
@@ -338,7 +337,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.33
+          "score": 62.15
         },
         {
           "id": 1368395976,
@@ -364,33 +363,37 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 65.46
+          "score": 60.29
         },
         {
-          "id": 1364959459,
-          "name": "CVE-2026-41089-Netlogon",
-          "fullName": "ZeroDayVPN/CVE-2026-41089-Netlogon",
-          "url": "https://github.com/ZeroDayVPN/CVE-2026-41089-Netlogon",
-          "homepage": "https://zerodayevil.cloud",
-          "description": "🛡️ Official AI Security Tool diagnostic module for CVE-2026-41089 (Windows Netlogon Stack Buffer Overflow RCE). Features technical writeup, attack architecture, IoCs, and mitigation strategy.",
-          "stars": 5,
-          "forks": 3,
+          "id": 1367266329,
+          "name": "blitzstrike",
+          "fullName": "shinthink/blitzstrike",
+          "url": "https://github.com/shinthink/blitzstrike",
+          "homepage": "https://github.com/shinthink/blitzstrike",
+          "description": "⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack-surface mapping, source-to-sink analysis, and live validation. 57 escalation chains, 130-tool catalog, intelligence data layer. One server, every agent.",
+          "stars": 3,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-10T21:39:19Z",
-          "updatedAt": "2026-09-11T21:50:35Z",
+          "language": "TypeScript",
+          "createdAt": "2026-09-12T12:13:09Z",
+          "updatedAt": "2026-09-14T06:12:16Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全",
+            "防守 / 蓝队"
           ],
           "profileWeights": [
-            1.08
+            1,
+            1.12
           ],
           "tags": [
-            "网络安全",
+            "通用安全",
+            "防守 / 蓝队",
             "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
+            "渗透 / 红队",
+            "逆向 / 恶意代码"
           ],
-          "score": 65.04
+          "score": 58.93
         }
       ]
     },
@@ -402,43 +405,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-06",
-      "totalCandidates": 24,
+      "createdSince": "2026-09-07",
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 6,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1789318753"
+          "rateLimitReset": "1789366546"
         }
       ],
       "repositories": [
@@ -449,12 +452,12 @@
           "url": "https://github.com/SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC",
           "homepage": "https://zerodayevil.github.io",
           "description": "CVE-2026-41089 Netlogon RCE PoC — security research, vulnerability validation & defensive testing.",
-          "stars": 93,
+          "stars": 104,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-11T10:34:35Z",
-          "updatedAt": "2026-09-13T16:43:45Z",
+          "updatedAt": "2026-09-14T04:53:01Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -472,7 +475,32 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 160.29
+          "score": 161.22
+        },
+        {
+          "id": 1362493329,
+          "name": "codex-armor-toolkit",
+          "fullName": "xiaoguai009/codex-armor-toolkit",
+          "url": "https://github.com/xiaoguai009/codex-armor-toolkit",
+          "homepage": "https://t.me/XGYYDS789",
+          "description": "Codex 全破甲｜面向 GPT-6 Astra 的指令配置工具，适用于渗透测试、逆向分析与开发工作流。",
+          "stars": 29,
+          "forks": 6,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-09-09T09:47:27Z",
+          "updatedAt": "2026-09-14T06:00:20Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 127.89
         },
         {
           "id": 1363844227,
@@ -499,7 +527,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 111.1
+          "score": 108.88
         },
         {
           "id": 1367972934,
@@ -529,7 +557,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 106.45
+          "score": 104.03
         },
         {
           "id": 1360918247,
@@ -538,12 +566,12 @@
           "url": "https://github.com/kevincouton/awesome-rust-migrations",
           "homepage": "",
           "description": "The curated hub for migrating to Rust and eliminating memory-safety vulnerabilities: AI-assisted rewrites, C2Rust case studies, production adoptions at scale, interop tooling, and the evidence behind it. Originally based on malisper/awesome-ai-rust-rewrites (CC0).",
-          "stars": 36,
+          "stars": 37,
           "forks": 1,
           "openIssues": 1,
           "language": "Unknown",
           "createdAt": "2026-09-08T04:26:07Z",
-          "updatedAt": "2026-09-13T16:37:53Z",
+          "updatedAt": "2026-09-14T03:36:14Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -555,7 +583,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 103.95
+          "score": 102.57
         },
         {
           "id": 1362314598,
@@ -583,7 +611,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 102.84
+          "score": 100.41
         },
         {
           "id": 1366128623,
@@ -610,21 +638,46 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 99.77
+          "score": 97.71
         },
         {
-          "id": 1362493329,
-          "name": "codex-armor-toolkit",
-          "fullName": "xiaoguai009/codex-armor-toolkit",
-          "url": "https://github.com/xiaoguai009/codex-armor-toolkit",
-          "homepage": "https://t.me/XGYYDS789",
-          "description": "Codex 全破甲｜面向 GPT-6 Astra 的指令配置工具，适用于渗透测试、逆向分析与开发工作流。",
-          "stars": 10,
-          "forks": 1,
+          "id": 1367344793,
+          "name": "netprobe-ir",
+          "fullName": "cumakurt/netprobe-ir",
+          "url": "https://github.com/cumakurt/netprobe-ir",
+          "homepage": "https://github.com/cumakurt/netprobe-ir#readme",
+          "description": "Linux network forensics, runtime observability, native IDS, PCAP evidence and SOC investigation console.",
+          "stars": 6,
+          "forks": 3,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-09T09:47:27Z",
-          "updatedAt": "2026-09-13T16:52:54Z",
+          "language": "Go",
+          "createdAt": "2026-09-12T13:55:18Z",
+          "updatedAt": "2026-09-13T20:17:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 88.3
+        },
+        {
+          "id": 1366403257,
+          "name": "hermes-seagull",
+          "fullName": "laoshu666/hermes-seagull",
+          "url": "https://github.com/laoshu666/hermes-seagull",
+          "homepage": "https://hermes-agent.nousresearch.com",
+          "description": "🦅 Seagull Profile - Unrestricted CTF/Red-team AI personality for Hermes Agent | 海鸥破甲人格",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-09-11T16:02:02Z",
+          "updatedAt": "2026-09-14T04:11:10Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -635,46 +688,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 92.7
+          "score": 86.43
         },
         {
-          "id": 1359407767,
-          "name": "satellite",
-          "fullName": "OrbSec/satellite",
-          "url": "https://github.com/OrbSec/satellite",
-          "homepage": "https://orb44.com",
-          "description": "Orb44 Watch satellite - inside pulse from your VPS (load, listeners, hardening). Pairs with https://orb44.com",
-          "stars": 22,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "JavaScript",
-          "createdAt": "2026-09-06T18:19:45Z",
-          "updatedAt": "2026-09-13T08:31:03Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 86.74
-        },
-        {
-          "id": 1358726306,
-          "name": "telegram-mcp-readonly",
-          "fullName": "mshykhov/telegram-mcp-readonly",
-          "url": "https://github.com/mshykhov/telegram-mcp-readonly",
+          "id": 1365684044,
+          "name": "Bug-Bounty-Skills",
+          "fullName": "S1N6H/Bug-Bounty-Skills",
+          "url": "https://github.com/S1N6H/Bug-Bounty-Skills",
           "homepage": "",
-          "description": "Read-only Telegram MCP server. Search chats, read messages, and download attachments from any MCP client.",
-          "stars": 20,
-          "forks": 1,
-          "openIssues": 3,
+          "description": "Every great bug bounty skill on GitHub, one repo, refreshed daily — auto-harvested, deduplicated, and credited to every source author",
+          "stars": 8,
+          "forks": 3,
+          "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-06T02:38:45Z",
-          "updatedAt": "2026-09-13T13:15:30Z",
+          "createdAt": "2026-09-11T08:44:50Z",
+          "updatedAt": "2026-09-12T07:36:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -685,7 +713,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 84.27
+          "score": 83.04
         },
         {
           "id": 1364959459,
@@ -711,7 +739,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 80.04
+          "score": 77.82
         },
         {
           "id": 1364647994,
@@ -737,7 +765,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 77.21
+          "score": 75.16
         },
         {
           "id": 1359876281,
@@ -762,7 +790,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 73.75
+          "score": 71.33
         },
         {
           "id": 1362302807,
@@ -788,21 +816,21 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 71.94
+          "score": 69.72
         },
         {
-          "id": 1358912285,
-          "name": "Arbitra",
-          "fullName": "Ali-Adel-Nour/Arbitra",
-          "url": "https://github.com/Ali-Adel-Nour/Arbitra",
+          "id": 1359819145,
+          "name": "StyleSmuggler-Helper-Scripts",
+          "fullName": "muench-dev/StyleSmuggler-Helper-Scripts",
+          "url": "https://github.com/muench-dev/StyleSmuggler-Helper-Scripts",
           "homepage": "",
-          "description": "The AI-operated escrow court and reputation protocol for the agentic economy.",
-          "stars": 11,
+          "description": "Collection of information and scripts around the Magento StyleSmuggler security issue",
+          "stars": 9,
           "forks": 1,
           "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-06T07:56:01Z",
-          "updatedAt": "2026-09-13T10:01:15Z",
+          "language": "Shell",
+          "createdAt": "2026-09-07T05:54:39Z",
+          "updatedAt": "2026-09-12T07:40:21Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -811,83 +839,36 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 70.61
-        },
-        {
-          "id": 1359545142,
-          "name": "ciso-simulator",
-          "fullName": "eppser/ciso-simulator",
-          "url": "https://github.com/eppser/ciso-simulator",
-          "homepage": "https://game.zerodayclock.com",
-          "description": "A CISO tower-defense game. Build firewall routes, stop malware, survive board meetings. Play in your desktop browser — or bring your own threat data.",
-          "stars": 6,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-09-06T22:12:04Z",
-          "updatedAt": "2026-09-12T07:49:41Z",
-          "matchedProfiles": [
+            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 63.51
+          "score": 66.27
         },
         {
-          "id": 1359555865,
-          "name": "lusion.co",
-          "fullName": "DDW-X/lusion.co",
-          "url": "https://github.com/DDW-X/lusion.co",
-          "homepage": "https://ddw-x.github.io/lusion.co/",
-          "description": "Comprehensive reverse engineering & mathematical deconstruction of lusion.co: Custom GLSL Liquid Glass, GPGPU Particles, V8 Zero-GC Engine, and 120 FPS Architecture. Authored by DDW-X.",
-          "stars": 5,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-09-06T22:35:28Z",
-          "updatedAt": "2026-09-11T19:39:44Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 62.36
-        },
-        {
-          "id": 1358658654,
-          "name": "JellyBox",
-          "fullName": "Hacka-Gotchi/JellyBox",
-          "url": "https://github.com/Hacka-Gotchi/JellyBox",
+          "id": 1360179971,
+          "name": "AegisAI",
+          "fullName": "bai-yi-meng/AegisAI",
+          "url": "https://github.com/bai-yi-meng/AegisAI",
           "homepage": "",
-          "description": "Pocket-sized Raspberry Pi network diagnostics and security-testing toolbox with a 128×128 hardware interface.",
-          "stars": 5,
+          "description": "基于大模型的网络安全渗透测试系统 · LLM-driven automated penetration testing platform",
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-06T00:19:50Z",
-          "updatedAt": "2026-09-10T17:09:27Z",
+          "createdAt": "2026-09-07T12:06:11Z",
+          "updatedAt": "2026-09-11T11:41:23Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全"
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 54.57
+          "score": 57.96
         }
       ]
     }
