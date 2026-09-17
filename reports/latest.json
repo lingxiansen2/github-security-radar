@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-17T06:07:48.397Z",
+  "generatedAt": "2026-09-17T17:38:17.488Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-14",
-      "totalCandidates": 21,
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Matthew0822/ToolReplay",
           "homepage": "http://quartzjer.github.io/pennybank/",
           "description": "Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. Dependency-free Python CLI.",
-          "stars": 173,
-          "forks": 19,
+          "stars": 174,
+          "forks": 20,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-09-14T10:11:00Z",
-          "updatedAt": "2026-09-16T15:31:54Z",
+          "updatedAt": "2026-09-17T14:34:31Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 152.87
+          "score": 151.84
         },
         {
           "id": 1371381105,
@@ -121,7 +121,31 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 119.72
+          "score": 115.24
+        },
+        {
+          "id": 1373915794,
+          "name": "awesome-cissp",
+          "fullName": "vitalsecurity/awesome-cissp",
+          "url": "https://github.com/vitalsecurity/awesome-cissp",
+          "homepage": "",
+          "description": "A last-mile CISSP guide for security architects: the business side of cyber (risk, governance, law, and the manager mindset)",
+          "stars": 15,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-17T04:15:38Z",
+          "updatedAt": "2026-09-17T17:35:57Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 113.49
         },
         {
           "id": 1369368058,
@@ -130,12 +154,12 @@
           "url": "https://github.com/Ethan-Andrews/ThreatIntel-Aggregator",
           "homepage": "",
           "description": "Self-hosted threat intelligence platform — feed aggregation, AI triage, MITRE ATT&CK coverage, and Sentinel-integrated detection engineering. Runs standalone or fully Azure-integrated.",
-          "stars": 39,
+          "stars": 40,
           "forks": 3,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-14T06:07:22Z",
-          "updatedAt": "2026-09-17T05:49:37Z",
+          "updatedAt": "2026-09-17T12:33:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -147,7 +171,35 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 104.44
+          "score": 105.06
+        },
+        {
+          "id": 1371562330,
+          "name": "paranoid",
+          "fullName": "kulchankas/paranoid",
+          "url": "https://github.com/kulchankas/paranoid",
+          "homepage": "",
+          "description": "Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.",
+          "stars": 10,
+          "forks": 2,
+          "openIssues": 3,
+          "language": "Python",
+          "createdAt": "2026-09-15T13:53:39Z",
+          "updatedAt": "2026-09-17T17:06:00Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 92.26
         },
         {
           "id": 1373620723,
@@ -174,35 +226,32 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 93.31
+          "score": 88.82
         },
         {
-          "id": 1371562330,
-          "name": "paranoid",
-          "fullName": "kulchankas/paranoid",
-          "url": "https://github.com/kulchankas/paranoid",
-          "homepage": "",
-          "description": "Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-09-15T13:53:39Z",
-          "updatedAt": "2026-09-17T05:42:10Z",
+          "id": 1372895358,
+          "name": "easy-unlocker",
+          "fullName": "cyancity/easy-unlocker",
+          "url": "https://github.com/cyancity/easy-unlocker",
+          "homepage": "https://easy-unlocker.pages.dev",
+          "description": "Secrets management for AI agents: approve API keys and credentials on your phone with biometrics, delivered end-to-end encrypted into the target process. Plaintext never enters the chat, logs, or relay.",
+          "stars": 10,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Kotlin",
+          "createdAt": "2026-09-16T10:53:15Z",
+          "updatedAt": "2026-09-17T10:34:52Z",
           "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1,
-            1.18
+            1
           ],
           "tags": [
             "通用安全",
-            "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 80.86
+          "score": 83.43
         },
         {
           "id": 1369771755,
@@ -227,7 +276,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 78.3
+          "score": 76.53
         },
         {
           "id": 1370275466,
@@ -236,12 +285,12 @@
           "url": "https://github.com/awarexone/AXguard",
           "homepage": "https://awarexone.com",
           "description": "Open-source AI security tool to scan and fix vulnerabilities in your vibe-coded projects before you ship. AXguard by AwareXone.",
-          "stars": 8,
+          "stars": 11,
           "forks": 2,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-09-14T17:05:31Z",
-          "updatedAt": "2026-09-17T04:15:58Z",
+          "updatedAt": "2026-09-17T13:36:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -253,7 +302,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 70.09
+          "score": 72.95
+        },
+        {
+          "id": 1373576600,
+          "name": "Orthrus-CardputerAdv",
+          "fullName": "at0m-b0mb/Orthrus-CardputerAdv",
+          "url": "https://github.com/at0m-b0mb/Orthrus-CardputerAdv",
+          "homepage": "",
+          "description": "Handheld LoRaWAN security assessment for the M5Stack Cardputer-Adv. Every other LoRaWAN pentest tool needs a laptop, an SDR or a gateway; this one fits in your pocket.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C++",
+          "createdAt": "2026-09-16T19:54:59Z",
+          "updatedAt": "2026-09-17T13:55:31Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 63.9
         },
         {
           "id": 1372053214,
@@ -262,12 +336,12 @@
           "url": "https://github.com/s4ntrx/S4ntrx-Bot",
           "homepage": "",
           "description": "The project is a multi-user cybersecurity education chatbot built with Flask, aimed at a school/classroom project.",
-          "stars": 3,
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-15T20:05:34Z",
-          "updatedAt": "2026-09-16T12:08:45Z",
+          "updatedAt": "2026-09-17T11:16:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -278,7 +352,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 59.94
+          "score": 60.57
         },
         {
           "id": 1369603910,
@@ -292,7 +366,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-14T08:49:47Z",
-          "updatedAt": "2026-09-17T06:04:56Z",
+          "updatedAt": "2026-09-17T09:23:05Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -304,81 +378,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 54.98
-        },
-        {
-          "id": 1372604882,
-          "name": "ngx-ipblock-fastlite",
-          "fullName": "CrazyXi/ngx-ipblock-fastlite",
-          "url": "https://github.com/CrazyXi/ngx-ipblock-fastlite",
-          "homepage": "",
-          "description": "Fast, lightweight in-memory IPv4 blocklist for Nginx with ngx_lua, using a compact /16 prefix index and binary search; blocked requests are closed with Nginx 444.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-09-16T06:15:55Z",
-          "updatedAt": "2026-09-16T06:31:16Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 53.38
-        },
-        {
-          "id": 1370733536,
-          "name": "mysterious-cyclopus",
-          "fullName": "Iankulani/mysterious-cyclopus",
-          "url": "https://github.com/Iankulani/mysterious-cyclopus",
-          "homepage": "https://iankulani.github.io/Mysterious-cylopus-Doc/",
-          "description": "Mysterious Cyclopus is an advanced, multi-platform cybersecurity command-and-control (C2) framework engineered by Accurate Cyber Defense for controlled penetration testing, red team operations, and large-scale cyber defense drills. Designed with stealth, modularity, and operational flexibility at its core, Cyclopus empowers security professionals t",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-15T01:31:46Z",
-          "updatedAt": "2026-09-16T17:13:01Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 52.7
-        },
-        {
-          "id": 1370731832,
-          "name": "vanta_hacker_edition",
-          "fullName": "cybermaksx/vanta_hacker_edition",
-          "url": "https://github.com/cybermaksx/vanta_hacker_edition",
-          "homepage": "",
-          "description": "a terminal system dashboard that also tells you what's currently on fire",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-15T01:29:13Z",
-          "updatedAt": "2026-09-16T12:39:26Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 52.69
+          "score": 54
         }
       ]
     },
@@ -398,38 +398,68 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 7,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1789625321"
+          "rateLimitReset": "1789666749"
         }
       ],
       "repositories": [
+        {
+          "id": 1367266329,
+          "name": "blitzstrike",
+          "fullName": "shinthink/blitzstrike",
+          "url": "https://github.com/shinthink/blitzstrike",
+          "homepage": "https://github.com/shinthink/blitzstrike",
+          "description": "⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack-surface mapping, source-to-sink analysis, and live validation. 57 escalation chains, 130-tool catalog, intelligence data layer. One server, every agent.",
+          "stars": 634,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-12T12:13:09Z",
+          "updatedAt": "2026-09-17T13:05:34Z",
+          "matchedProfiles": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1,
+            1.12
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 195.13
+        },
         {
           "id": 1369710615,
           "name": "ToolReplay",
@@ -437,12 +467,12 @@
           "url": "https://github.com/Matthew0822/ToolReplay",
           "homepage": "http://quartzjer.github.io/pennybank/",
           "description": "Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. Dependency-free Python CLI.",
-          "stars": 173,
-          "forks": 19,
+          "stars": 174,
+          "forks": 20,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-09-14T10:11:00Z",
-          "updatedAt": "2026-09-16T15:31:54Z",
+          "updatedAt": "2026-09-17T14:34:31Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -453,7 +483,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 166.89
+          "score": 165.54
         },
         {
           "id": 1365867810,
@@ -462,12 +492,12 @@
           "url": "https://github.com/SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC",
           "homepage": "https://zerodayevil.github.io",
           "description": "CVE-2026-41089 Netlogon RCE PoC — security research, vulnerability validation & defensive testing.",
-          "stars": 87,
+          "stars": 97,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-11T10:34:35Z",
-          "updatedAt": "2026-09-17T05:39:06Z",
+          "updatedAt": "2026-09-17T17:34:31Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -485,7 +515,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 142.74
+          "score": 143.9
         },
         {
           "id": 1365584949,
@@ -494,12 +524,12 @@
           "url": "https://github.com/CassiopeiaCode/CosyRedactGateway",
           "homepage": "",
           "description": "Lightweight, stateless privacy gateway for LLM APIs — redact secrets before OpenAI/Anthropic upstreams and restore them transparently in SSE and tool calls.",
-          "stars": 70,
-          "forks": 13,
+          "stars": 77,
+          "forks": 17,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-09-11T07:43:28Z",
-          "updatedAt": "2026-09-17T05:43:08Z",
+          "updatedAt": "2026-09-17T15:25:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -510,7 +540,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 130.25
+          "score": 132.33
         },
         {
           "id": 1371381105,
@@ -535,33 +565,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 129.14
-        },
-        {
-          "id": 1369368058,
-          "name": "ThreatIntel-Aggregator",
-          "fullName": "Ethan-Andrews/ThreatIntel-Aggregator",
-          "url": "https://github.com/Ethan-Andrews/ThreatIntel-Aggregator",
-          "homepage": "",
-          "description": "Self-hosted threat intelligence platform — feed aggregation, AI triage, MITRE ATT&CK coverage, and Sentinel-integrated detection engineering. Runs standalone or fully Azure-integrated.",
-          "stars": 39,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-14T06:07:22Z",
-          "updatedAt": "2026-09-17T05:49:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 119.29
+          "score": 127.21
         },
         {
           "id": 1363844227,
@@ -570,12 +574,12 @@
           "url": "https://github.com/ZeroDayEvil/ai-security-tool",
           "homepage": "https://zerodayevil.cloud",
           "description": "🛡️ Free open-source AI-powered security terminal & vulnerability scanner (CVE, SBOM). Supports SSH, SFTP, RDP, VNC, Serial, and 12+ autonomous AI agents (DeepSeek, OpenAI) for automated security workflows, CTF & DevSecOps. Cross-platform & Web UI.",
-          "stars": 33,
+          "stars": 51,
           "forks": 8,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-09-10T09:38:49Z",
-          "updatedAt": "2026-09-16T23:02:47Z",
+          "updatedAt": "2026-09-17T17:01:25Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -588,7 +592,82 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 114
+          "score": 125.04
+        },
+        {
+          "id": 1369368058,
+          "name": "ThreatIntel-Aggregator",
+          "fullName": "Ethan-Andrews/ThreatIntel-Aggregator",
+          "url": "https://github.com/Ethan-Andrews/ThreatIntel-Aggregator",
+          "homepage": "",
+          "description": "Self-hosted threat intelligence platform — feed aggregation, AI triage, MITRE ATT&CK coverage, and Sentinel-integrated detection engineering. Runs standalone or fully Azure-integrated.",
+          "stars": 40,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-14T06:07:22Z",
+          "updatedAt": "2026-09-17T12:33:42Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 118.14
+        },
+        {
+          "id": 1373915794,
+          "name": "awesome-cissp",
+          "fullName": "vitalsecurity/awesome-cissp",
+          "url": "https://github.com/vitalsecurity/awesome-cissp",
+          "homepage": "",
+          "description": "A last-mile CISSP guide for security architects: the business side of cyber (risk, governance, law, and the manager mindset)",
+          "stars": 15,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-17T04:15:38Z",
+          "updatedAt": "2026-09-17T17:35:57Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 116.47
+        },
+        {
+          "id": 1371562330,
+          "name": "paranoid",
+          "fullName": "kulchankas/paranoid",
+          "url": "https://github.com/kulchankas/paranoid",
+          "homepage": "",
+          "description": "Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.",
+          "stars": 10,
+          "forks": 2,
+          "openIssues": 3,
+          "language": "Python",
+          "createdAt": "2026-09-15T13:53:39Z",
+          "updatedAt": "2026-09-17T17:06:00Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 104.86
         },
         {
           "id": 1368924149,
@@ -597,12 +676,12 @@
           "url": "https://github.com/Shalimov04/mcp-airlock",
           "homepage": "https://pypi.org/project/mcp-airlock/",
           "description": "Stateless governance proxy for MCP (2026-07-28): policy, dry-run, human confirmation, audit, tracing",
-          "stars": 24,
+          "stars": 25,
           "forks": 2,
           "openIssues": 3,
           "language": "Python",
           "createdAt": "2026-09-13T21:34:47Z",
-          "updatedAt": "2026-09-16T15:38:17Z",
+          "updatedAt": "2026-09-17T12:28:37Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -613,7 +692,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 104.48
+          "score": 103.68
         },
         {
           "id": 1373620723,
@@ -640,7 +719,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 95.41
+          "score": 93.48
         },
         {
           "id": 1367972934,
@@ -654,7 +733,7 @@
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-09-13T03:41:51Z",
-          "updatedAt": "2026-09-17T01:18:29Z",
+          "updatedAt": "2026-09-17T08:56:02Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -670,7 +749,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 93.57
+          "score": 91.47
         },
         {
           "id": 1366128623,
@@ -697,7 +776,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 92.56
+          "score": 90.78
         },
         {
           "id": 1368344087,
@@ -711,7 +790,7 @@
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-09-13T12:00:04Z",
-          "updatedAt": "2026-09-17T05:33:55Z",
+          "updatedAt": "2026-09-17T14:14:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -722,32 +801,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.48
-        },
-        {
-          "id": 1371562330,
-          "name": "paranoid",
-          "fullName": "kulchankas/paranoid",
-          "url": "https://github.com/kulchankas/paranoid",
-          "homepage": "",
-          "description": "Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-09-15T13:53:39Z",
-          "updatedAt": "2026-09-17T05:42:10Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 90.66
+          "score": 90.55
         },
         {
           "id": 1367996381,
@@ -775,7 +829,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 86.29
+          "score": 84.19
         },
         {
           "id": 1366403257,
@@ -800,7 +854,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 86.19
+          "score": 84.09
         },
         {
           "id": 1367344793,
@@ -825,7 +879,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 79.59
+          "score": 77.67
         },
         {
           "id": 1365915697,
@@ -839,7 +893,7 @@
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-11T11:03:51Z",
-          "updatedAt": "2026-09-17T02:24:57Z",
+          "updatedAt": "2026-09-17T14:20:14Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -854,58 +908,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 73.72
-        },
-        {
-          "id": 1367266329,
-          "name": "blitzstrike",
-          "fullName": "shinthink/blitzstrike",
-          "url": "https://github.com/shinthink/blitzstrike",
-          "homepage": "https://github.com/shinthink/blitzstrike",
-          "description": "⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack-surface mapping, source-to-sink analysis, and live validation. 57 escalation chains, 130-tool catalog, intelligence data layer. One server, every agent.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-12T12:13:09Z",
-          "updatedAt": "2026-09-17T05:14:48Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 73.28
-        },
-        {
-          "id": 1364387461,
-          "name": "dsh-redteam-mode",
-          "fullName": "Jueze-2019/dsh-redteam-mode",
-          "url": "https://github.com/Jueze-2019/dsh-redteam-mode",
-          "homepage": "",
-          "description": "DSH RedTeam 模式：把 DeepSeek Harness 变成红队作战指挥台——一个靶标名称拉起信息收集/漏洞检测/漏洞利用/内网渗透四个角色，资产与战果实时落入本地 SQLite 事实库（仅供已授权测试）",
-          "stars": 5,
-          "forks": 2,
-          "openIssues": 1,
-          "language": "JavaScript",
-          "createdAt": "2026-09-10T14:54:03Z",
-          "updatedAt": "2026-09-17T05:57:20Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 68.71
+          "score": 71.62
         }
       ]
     }
