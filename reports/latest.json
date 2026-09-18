@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-18T05:53:47.396Z",
+  "generatedAt": "2026-09-18T17:05:44.524Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-15",
-      "totalCandidates": 17,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 8,
+          "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 9,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/vitalsecurity/awesome-cissp",
           "homepage": "",
           "description": "A last-mile CISSP guide for security architects: the business side of cyber (risk, governance, law, and the manager mindset)",
-          "stars": 20,
+          "stars": 21,
           "forks": 6,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-17T04:15:38Z",
-          "updatedAt": "2026-09-18T02:40:55Z",
+          "updatedAt": "2026-09-18T14:27:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -95,7 +95,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 116.9
+          "score": 113.78
         },
         {
           "id": 1371381105,
@@ -104,12 +104,12 @@
           "url": "https://github.com/shaheeryasirofficial/SmuggleMyPayload",
           "homepage": "",
           "description": "SmuggleMyPayload generates HTML pages that embed and reconstruct files client-side using JavaScript. The toolkit offers multiple HTML Smuggling techniques, payload encoding options, JavaScript variations, and pre-built HTML templates.",
-          "stars": 35,
+          "stars": 36,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-15T11:53:05Z",
-          "updatedAt": "2026-09-17T03:24:09Z",
+          "updatedAt": "2026-09-18T14:58:25Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -120,7 +120,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 110.45
+          "score": 108.87
         },
         {
           "id": 1371562330,
@@ -131,10 +131,10 @@
           "description": "Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.",
           "stars": 11,
           "forks": 2,
-          "openIssues": 2,
+          "openIssues": 3,
           "language": "Python",
           "createdAt": "2026-09-15T13:53:39Z",
-          "updatedAt": "2026-09-17T23:18:31Z",
+          "updatedAt": "2026-09-18T08:14:12Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -148,7 +148,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 89.49
+          "score": 86.08
+        },
+        {
+          "id": 1373039122,
+          "name": "LLM-OWASP-LAB",
+          "fullName": "riteshs4hu/LLM-OWASP-LAB",
+          "url": "https://github.com/riteshs4hu/LLM-OWASP-LAB",
+          "homepage": "",
+          "description": "Vulnerable AI applications and hands-on labs for learning the OWASP Top 10 for Large Language Model Applications.",
+          "stars": 11,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "CSS",
+          "createdAt": "2026-09-16T12:57:34Z",
+          "updatedAt": "2026-09-18T11:12:50Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 81.78
         },
         {
           "id": 1373620723,
@@ -175,7 +200,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 84.04
+          "score": 79.67
         },
         {
           "id": 1372895358,
@@ -189,7 +214,7 @@
           "openIssues": 0,
           "language": "Kotlin",
           "createdAt": "2026-09-16T10:53:15Z",
-          "updatedAt": "2026-09-17T22:37:41Z",
+          "updatedAt": "2026-09-18T10:49:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -200,7 +225,56 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79
+          "score": 74.95
+        },
+        {
+          "id": 1375631657,
+          "name": "Vic-Stealer",
+          "fullName": "miraimo/Vic-Stealer",
+          "url": "https://github.com/miraimo/Vic-Stealer",
+          "homepage": "",
+          "description": "VicStealer is tool for cyber security use",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-18T09:08:08Z",
+          "updatedAt": "2026-09-18T12:38:21Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 70.11
+        },
+        {
+          "id": 1374916454,
+          "name": "username-scout",
+          "fullName": "RahmaanQuresh/username-scout",
+          "url": "https://github.com/RahmaanQuresh/username-scout",
+          "homepage": "",
+          "description": "See where a username exists across 15 public sites - honest OSINT, zero dependencies, one file",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-17T18:42:06Z",
+          "updatedAt": "2026-09-18T09:27:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 53.91
         },
         {
           "id": 1373576600,
@@ -225,7 +299,32 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 58.68
+          "score": 53.91
+        },
+        {
+          "id": 1374583864,
+          "name": "jev-guard",
+          "fullName": "leepokai/jev-guard",
+          "url": "https://github.com/leepokai/jev-guard",
+          "homepage": "",
+          "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-09-17T14:39:28Z",
+          "updatedAt": "2026-09-18T14:01:07Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 52.45
         },
         {
           "id": 1372053214,
@@ -250,48 +349,21 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 55.79
+          "score": 51.42
         },
         {
-          "id": 1373862553,
-          "name": "Whetstone",
-          "fullName": "at0m-b0mb/Whetstone",
-          "url": "https://github.com/at0m-b0mb/Whetstone",
-          "homepage": "https://at0m-b0mb.github.io/Whetstone/",
-          "description": "A purple-team agent runtime where every attack names the detection that should catch it — and a small cybersecurity model pretrained from scratch to drive it.",
+          "id": 1373410505,
+          "name": "agent-assurance",
+          "fullName": "kunko-ai-labs/agent-assurance",
+          "url": "https://github.com/kunko-ai-labs/agent-assurance",
+          "homepage": "https://github.com/kunko-ai-labs/agent-assurance#readme",
+          "description": "Declare what your AI agent may do. Verify it on every edit, PR and release — MCP configs, Claude Code permissions, tool definitions. Deterministic, OWASP-mapped, signed evidence.",
           "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
+          "forks": 1,
+          "openIssues": 5,
           "language": "Python",
-          "createdAt": "2026-09-17T03:01:45Z",
-          "updatedAt": "2026-09-18T03:59:45Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "网络安全"
-          ],
-          "score": 52.3
-        },
-        {
-          "id": 1373855642,
-          "name": "jev-shield",
-          "fullName": "caiovicentino/jev-shield",
-          "url": "https://github.com/caiovicentino/jev-shield",
-          "homepage": "",
-          "description": "Semantic MCP firewall powered by Jev — screens every tool call, tool result, and tool description with calibrated System One verification. 94% block recall, 0 false positives, ~$0.00002/check.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-09-17T02:51:54Z",
-          "updatedAt": "2026-09-17T18:37:38Z",
+          "createdAt": "2026-09-16T17:23:20Z",
+          "updatedAt": "2026-09-18T16:36:46Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -302,81 +374,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 52.24
-        },
-        {
-          "id": 1370733536,
-          "name": "mysterious-cyclopus",
-          "fullName": "Iankulani/mysterious-cyclopus",
-          "url": "https://github.com/Iankulani/mysterious-cyclopus",
-          "homepage": "https://iankulani.github.io/Mysterious-cylopus-Doc/",
-          "description": "Mysterious Cyclopus is an advanced, multi-platform cybersecurity command-and-control (C2) framework engineered by Accurate Cyber Defense for controlled penetration testing, red team operations, and large-scale cyber defense drills. Designed with stealth, modularity, and operational flexibility at its core, Cyclopus empowers security professionals t",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-15T01:31:46Z",
-          "updatedAt": "2026-09-16T17:13:01Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 45.14
-        },
-        {
-          "id": 1370731832,
-          "name": "vanta_hacker_edition",
-          "fullName": "cybermaksx/vanta_hacker_edition",
-          "url": "https://github.com/cybermaksx/vanta_hacker_edition",
-          "homepage": "",
-          "description": "a terminal system dashboard that also tells you what's currently on fire",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-15T01:29:13Z",
-          "updatedAt": "2026-09-16T12:39:26Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 45.14
-        },
-        {
-          "id": 1372604882,
-          "name": "ngx-ipblock-fastlite",
-          "fullName": "CrazyXi/ngx-ipblock-fastlite",
-          "url": "https://github.com/CrazyXi/ngx-ipblock-fastlite",
-          "homepage": "",
-          "description": "Fast, lightweight in-memory IPv4 blocklist for Nginx with ngx_lua, using a compact /16 prefix index and binary search; blocked requests are closed with Nginx 444.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-09-16T06:15:55Z",
-          "updatedAt": "2026-09-16T06:31:16Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 44.8
+          "score": 48.77
         }
       ]
     },
@@ -396,35 +394,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 11,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 6,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1789710881"
+          "rateLimitReset": "1789751197"
         }
       ],
       "repositories": [
@@ -435,12 +433,12 @@
           "url": "https://github.com/shinthink/blitzstrike",
           "homepage": "https://github.com/shinthink/blitzstrike",
           "description": "⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack-surface mapping, source-to-sink analysis, and live validation. 57 escalation chains, 130-tool catalog, intelligence data layer. One server, every agent.",
-          "stars": 634,
+          "stars": 635,
           "forks": 1,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-12T12:13:09Z",
-          "updatedAt": "2026-09-17T13:05:34Z",
+          "updatedAt": "2026-09-18T14:00:41Z",
           "matchedProfiles": [
             "通用安全",
             "防守 / 蓝队"
@@ -456,7 +454,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 197.48
+          "score": 195.59
         },
         {
           "id": 1369710615,
@@ -465,12 +463,12 @@
           "url": "https://github.com/Matthew0822/ToolReplay",
           "homepage": "http://quartzjer.github.io/pennybank/",
           "description": "Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. Dependency-free Python CLI.",
-          "stars": 179,
+          "stars": 180,
           "forks": 21,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-09-14T10:11:00Z",
-          "updatedAt": "2026-09-17T23:35:00Z",
+          "updatedAt": "2026-09-18T16:34:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -481,7 +479,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 164.64
+          "score": 163.05
         },
         {
           "id": 1365867810,
@@ -513,7 +511,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 141.97
+          "score": 141.12
         },
         {
           "id": 1365584949,
@@ -522,12 +520,12 @@
           "url": "https://github.com/CassiopeiaCode/CosyRedactGateway",
           "homepage": "",
           "description": "Lightweight, stateless privacy gateway for LLM APIs — redact secrets before OpenAI/Anthropic upstreams and restore them transparently in SSE and tool calls.",
-          "stars": 80,
-          "forks": 17,
-          "openIssues": 2,
+          "stars": 84,
+          "forks": 19,
+          "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-09-11T07:43:28Z",
-          "updatedAt": "2026-09-18T02:58:19Z",
+          "updatedAt": "2026-09-18T17:01:33Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -538,7 +536,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 131.4
+          "score": 132.96
         },
         {
           "id": 1371381105,
@@ -547,12 +545,12 @@
           "url": "https://github.com/shaheeryasirofficial/SmuggleMyPayload",
           "homepage": "",
           "description": "SmuggleMyPayload generates HTML pages that embed and reconstruct files client-side using JavaScript. The toolkit offers multiple HTML Smuggling techniques, payload encoding options, JavaScript variations, and pre-built HTML templates.",
-          "stars": 35,
+          "stars": 36,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-15T11:53:05Z",
-          "updatedAt": "2026-09-17T03:24:09Z",
+          "updatedAt": "2026-09-18T14:58:25Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -563,7 +561,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 125.17
+          "score": 124.04
         },
         {
           "id": 1373915794,
@@ -572,12 +570,12 @@
           "url": "https://github.com/vitalsecurity/awesome-cissp",
           "homepage": "",
           "description": "A last-mile CISSP guide for security architects: the business side of cyber (risk, governance, law, and the manager mindset)",
-          "stars": 20,
+          "stars": 21,
           "forks": 6,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-17T04:15:38Z",
-          "updatedAt": "2026-09-18T02:40:55Z",
+          "updatedAt": "2026-09-18T14:27:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -587,7 +585,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 122.61
+          "score": 121.99
         },
         {
           "id": 1369368058,
@@ -596,12 +594,12 @@
           "url": "https://github.com/Ethan-Andrews/ThreatIntel-Aggregator",
           "homepage": "",
           "description": "Self-hosted threat intelligence platform — feed aggregation, AI triage, MITRE ATT&CK coverage, and Sentinel-integrated detection engineering. Runs standalone or fully Azure-integrated.",
-          "stars": 41,
+          "stars": 42,
           "forks": 4,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-14T06:07:22Z",
-          "updatedAt": "2026-09-17T17:45:06Z",
+          "updatedAt": "2026-09-18T15:04:54Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -613,7 +611,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 118.14
+          "score": 117
         },
         {
           "id": 1371562330,
@@ -624,10 +622,10 @@
           "description": "Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.",
           "stars": 11,
           "forks": 2,
-          "openIssues": 2,
+          "openIssues": 3,
           "language": "Python",
           "createdAt": "2026-09-15T13:53:39Z",
-          "updatedAt": "2026-09-17T23:18:31Z",
+          "updatedAt": "2026-09-18T08:14:12Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -638,7 +636,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 105.07
+          "score": 103.03
         },
         {
           "id": 1368924149,
@@ -663,7 +661,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 101.78
+          "score": 100.05
         },
         {
           "id": 1370275466,
@@ -677,7 +675,7 @@
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-09-14T17:05:31Z",
-          "updatedAt": "2026-09-17T21:35:43Z",
+          "updatedAt": "2026-09-18T10:30:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -689,7 +687,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 92.49
+          "score": 90.75
+        },
+        {
+          "id": 1366403257,
+          "name": "hermes-seagull",
+          "fullName": "laoshu666/hermes-seagull",
+          "url": "https://github.com/laoshu666/hermes-seagull",
+          "homepage": "https://hermes-agent.nousresearch.com",
+          "description": "🦅 Seagull Profile - Unrestricted CTF/Red-team AI personality for Hermes Agent | 海鸥破甲人格",
+          "stars": 11,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-09-11T16:02:02Z",
+          "updatedAt": "2026-09-18T15:16:34Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 89.56
         },
         {
           "id": 1373620723,
@@ -716,7 +739,34 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 91.43
+          "score": 89.56
+        },
+        {
+          "id": 1366128623,
+          "name": "strata",
+          "fullName": "m0m0x01d/strata",
+          "url": "https://github.com/m0m0x01d/strata",
+          "homepage": "",
+          "description": "See why a web vulnerability works, not just how to trigger it — a single-file, zero-dependency security lab that renders a vulnerable app as a 7-layer cross-section. 17 labs, attacker & defender modes, AI-authorable.",
+          "stars": 21,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-09-11T13:06:26Z",
+          "updatedAt": "2026-09-16T08:58:27Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 87.76
         },
         {
           "id": 1367972934,
@@ -746,34 +796,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 89.23
-        },
-        {
-          "id": 1366128623,
-          "name": "strata",
-          "fullName": "m0m0x01d/strata",
-          "url": "https://github.com/m0m0x01d/strata",
-          "homepage": "",
-          "description": "See why a web vulnerability works, not just how to trigger it — a single-file, zero-dependency security lab that renders a vulnerable app as a 7-layer cross-section. 17 labs, attacker & defender modes, AI-authorable.",
-          "stars": 21,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-09-11T13:06:26Z",
-          "updatedAt": "2026-09-16T08:58:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 88.88
+          "score": 87.18
         },
         {
           "id": 1368344087,
@@ -798,32 +821,36 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 88.5
+          "score": 86.63
         },
         {
-          "id": 1366403257,
-          "name": "hermes-seagull",
-          "fullName": "laoshu666/hermes-seagull",
-          "url": "https://github.com/laoshu666/hermes-seagull",
-          "homepage": "https://hermes-agent.nousresearch.com",
-          "description": "🦅 Seagull Profile - Unrestricted CTF/Red-team AI personality for Hermes Agent | 海鸥破甲人格",
-          "stars": 9,
-          "forks": 3,
+          "id": 1365915697,
+          "name": "Atlas",
+          "fullName": "MingyiSecLab/Atlas",
+          "url": "https://github.com/MingyiSecLab/Atlas",
+          "homepage": "",
+          "description": "Open-source local AI Agent desktop app for authorized security assessment — Electron + Mastra-powered runtime, visual pentest workflow, Kali sandbox, multi-provider LLM routing. 本地 AI 安全评估智能体桌面应用",
+          "stars": 11,
+          "forks": 1,
           "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-09-11T16:02:02Z",
-          "updatedAt": "2026-09-18T04:45:22Z",
+          "language": "TypeScript",
+          "createdAt": "2026-09-11T11:03:51Z",
+          "updatedAt": "2026-09-18T15:07:05Z",
           "matchedProfiles": [
+            "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1.08,
             1.18
           ],
           "tags": [
+            "网络安全",
             "渗透 / 红队",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
           ],
-          "score": 84.77
+          "score": 83.32
         },
         {
           "id": 1367996381,
@@ -851,7 +878,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 81.95
+          "score": 79.9
         },
         {
           "id": 1367344793,
@@ -876,36 +903,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 75.62
-        },
-        {
-          "id": 1365915697,
-          "name": "Atlas",
-          "fullName": "MingyiSecLab/Atlas",
-          "url": "https://github.com/MingyiSecLab/Atlas",
-          "homepage": "",
-          "description": "Open-source local AI Agent desktop app for authorized security assessment — Electron + Mastra-powered runtime, visual pentest workflow, Kali sandbox, multi-provider LLM routing. 本地 AI 安全评估智能体桌面应用",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-11T11:03:51Z",
-          "updatedAt": "2026-09-18T02:45:24Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 72.99
+          "score": 73.74
         }
       ]
     }
