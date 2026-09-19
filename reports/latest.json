@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-19T05:51:02.886Z",
+  "generatedAt": "2026-09-19T16:31:21.794Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-16",
-      "totalCandidates": 16,
+      "totalCandidates": 19,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 4,
+          "fetched": 7,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         }
       ],
       "repositories": [
@@ -95,7 +95,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 108.81
+          "score": 104.64
         },
         {
           "id": 1373039122,
@@ -104,12 +104,12 @@
           "url": "https://github.com/riteshs4hu/LLM-OWASP-LAB",
           "homepage": "",
           "description": "Vulnerable AI applications and hands-on labs for learning the OWASP Top 10 for Large Language Model Applications.",
-          "stars": 12,
+          "stars": 13,
           "forks": 6,
           "openIssues": 0,
           "language": "CSS",
           "createdAt": "2026-09-16T12:57:34Z",
-          "updatedAt": "2026-09-19T00:38:40Z",
+          "updatedAt": "2026-09-19T14:59:29Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -120,7 +120,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.33
+          "score": 81.55
         },
         {
           "id": 1374583864,
@@ -129,12 +129,12 @@
           "url": "https://github.com/leepokai/jev-guard",
           "homepage": "",
           "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
-          "stars": 8,
+          "stars": 9,
           "forks": 1,
-          "openIssues": 1,
+          "openIssues": 2,
           "language": "JavaScript",
           "createdAt": "2026-09-17T14:39:28Z",
-          "updatedAt": "2026-09-19T01:32:23Z",
+          "updatedAt": "2026-09-19T11:36:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -145,7 +145,58 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.64
+          "score": 74.26
+        },
+        {
+          "id": 1376682874,
+          "name": "Awesome-Malware-Analysis-Sandbox",
+          "fullName": "ishandutta2007/Awesome-Malware-Analysis-Sandbox",
+          "url": "https://github.com/ishandutta2007/Awesome-Malware-Analysis-Sandbox",
+          "homepage": "",
+          "description": "Top Malware Analysis Sandbox (Opensource) 🌟 Star if you like it! 🌟",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Unknown",
+          "createdAt": "2026-09-19T03:34:37Z",
+          "updatedAt": "2026-09-19T12:05:24Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 73.28
+        },
+        {
+          "id": 1377170143,
+          "name": "Jammox",
+          "fullName": "berat8027/Jammox",
+          "url": "https://github.com/berat8027/Jammox",
+          "homepage": "",
+          "description": "Jammox — Ultra-Optimized nRF24L01+PA+LNA 2.4GHz RF Noise Generator & Jammer Firmware",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C++",
+          "createdAt": "2026-09-19T13:10:49Z",
+          "updatedAt": "2026-09-19T14:25:06Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 71.92
         },
         {
           "id": 1373620723,
@@ -172,7 +223,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 74.7
+          "score": 70.54
         },
         {
           "id": 1372895358,
@@ -197,7 +248,35 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.35
+          "score": 68.53
+        },
+        {
+          "id": 1376852077,
+          "name": "click2shell",
+          "fullName": "HackfutSecRoot/click2shell",
+          "url": "https://github.com/HackfutSecRoot/click2shell",
+          "homepage": "https://github.com/HackfutSecRoot/click2shell",
+          "description": "Click2Shell — WordPress Pre-Auth RCE Chain (PoC)",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-19T07:11:20Z",
+          "updatedAt": "2026-09-19T11:46:02Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 63.32
         },
         {
           "id": 1375631657,
@@ -211,7 +290,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-18T09:08:08Z",
-          "updatedAt": "2026-09-18T23:55:06Z",
+          "updatedAt": "2026-09-19T14:18:37Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -222,7 +301,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.14
+          "score": 60.98
         },
         {
           "id": 1374026154,
@@ -248,70 +327,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 55.39
+          "score": 51.53
         },
         {
-          "id": 1374916454,
-          "name": "username-scout",
-          "fullName": "RahmaanQuresh/username-scout",
-          "url": "https://github.com/RahmaanQuresh/username-scout",
+          "id": 1373399541,
+          "name": "Capgate",
+          "fullName": "jersonboydmilan/Capgate",
+          "url": "https://github.com/jersonboydmilan/Capgate",
           "homepage": "",
-          "description": "See where a username exists across 15 public sites - honest OSINT, zero dependencies, one file",
-          "stars": 2,
+          "description": "Capgate — runtime authority boundary for autonomous AI agents: the agent proposes, the harness authorizes, the executor acts. Deny-by-default policy, non-transitive delegation, tamper-evident audit, MCP gateway, containerised isolation.",
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-17T18:42:06Z",
-          "updatedAt": "2026-09-18T09:27:36Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 49.31
-        },
-        {
-          "id": 1373576600,
-          "name": "Orthrus-CardputerAdv",
-          "fullName": "at0m-b0mb/Orthrus-CardputerAdv",
-          "url": "https://github.com/at0m-b0mb/Orthrus-CardputerAdv",
-          "homepage": "",
-          "description": "Handheld LoRaWAN security assessment for the M5Stack Cardputer-Adv. Every other LoRaWAN pentest tool needs a laptop, an SDR or a gateway; this one fits in your pocket.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C++",
-          "createdAt": "2026-09-16T19:54:59Z",
-          "updatedAt": "2026-09-17T13:55:31Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 48.47
-        },
-        {
-          "id": 1373410505,
-          "name": "agent-assurance",
-          "fullName": "kunko-ai-labs/agent-assurance",
-          "url": "https://github.com/kunko-ai-labs/agent-assurance",
-          "homepage": "https://github.com/kunko-ai-labs/agent-assurance#readme",
-          "description": "Declare what your AI agent may do. Verify it on every edit, PR and release — MCP configs, Claude Code permissions, tool definitions. Deterministic, OWASP-mapped, signed evidence.",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 5,
-          "language": "Python",
-          "createdAt": "2026-09-16T17:23:20Z",
-          "updatedAt": "2026-09-18T16:36:46Z",
+          "createdAt": "2026-09-16T17:15:05Z",
+          "updatedAt": "2026-09-19T11:51:27Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -322,48 +352,21 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 44.17
+          "score": 50.8
         },
         {
-          "id": 1373862553,
-          "name": "Whetstone",
-          "fullName": "at0m-b0mb/Whetstone",
-          "url": "https://github.com/at0m-b0mb/Whetstone",
-          "homepage": "https://at0m-b0mb.github.io/Whetstone/",
-          "description": "A purple-team agent runtime where every attack names the detection that should catch it — and a small cybersecurity model pretrained from scratch to drive it.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-17T03:01:45Z",
-          "updatedAt": "2026-09-18T14:19:08Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "网络安全"
-          ],
-          "score": 43.65
-        },
-        {
-          "id": 1373855642,
-          "name": "jev-shield",
-          "fullName": "caiovicentino/jev-shield",
-          "url": "https://github.com/caiovicentino/jev-shield",
+          "id": 1375652137,
+          "name": "leash",
+          "fullName": "getArbor-dev/leash",
+          "url": "https://github.com/getArbor-dev/leash",
           "homepage": "",
-          "description": "Semantic MCP firewall powered by Jev — screens every tool call, tool result, and tool description with calibrated System One verification. 94% block recall, 0 false positives, ~$0.00002/check.",
+          "description": "Budgeted context for coding agents. Out-of-radius patches don't land.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-09-17T02:51:54Z",
-          "updatedAt": "2026-09-17T18:37:38Z",
+          "language": "Rust",
+          "createdAt": "2026-09-18T09:28:42Z",
+          "updatedAt": "2026-09-19T15:56:49Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -374,7 +377,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 43.59
+          "score": 50.79
         }
       ]
     },
@@ -394,35 +397,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1789797116"
+          "rateLimitReset": "1789835535"
         }
       ],
       "repositories": [
@@ -433,12 +436,12 @@
           "url": "https://github.com/shinthink/blitzstrike",
           "homepage": "https://github.com/shinthink/blitzstrike",
           "description": "⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack-surface mapping, source-to-sink analysis, and live validation. 57 escalation chains, 130-tool catalog, intelligence data layer. One server, every agent.",
-          "stars": 636,
+          "stars": 637,
           "forks": 1,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-12T12:13:09Z",
-          "updatedAt": "2026-09-18T18:02:23Z",
+          "updatedAt": "2026-09-19T11:27:47Z",
           "matchedProfiles": [
             "通用安全",
             "防守 / 蓝队"
@@ -454,7 +457,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 193.42
+          "score": 192.36
         },
         {
           "id": 1369710615,
@@ -479,7 +482,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 161.08
+          "score": 159.43
         },
         {
           "id": 1371381105,
@@ -504,7 +507,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 121.91
+          "score": 120.13
         },
         {
           "id": 1373915794,
@@ -528,7 +531,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 119.86
+          "score": 118.07
         },
         {
           "id": 1369368058,
@@ -538,11 +541,11 @@
           "homepage": "",
           "description": "Self-hosted threat intelligence platform — feed aggregation, AI triage, MITRE ATT&CK coverage, and Sentinel-integrated detection engineering. Runs standalone or fully Azure-integrated.",
           "stars": 43,
-          "forks": 5,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-14T06:07:22Z",
-          "updatedAt": "2026-09-19T05:13:33Z",
+          "updatedAt": "2026-09-19T14:19:00Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -554,7 +557,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 116.66
+          "score": 115.9
         },
         {
           "id": 1371562330,
@@ -565,10 +568,10 @@
           "description": "Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.",
           "stars": 11,
           "forks": 2,
-          "openIssues": 3,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-09-15T13:53:39Z",
-          "updatedAt": "2026-09-18T08:14:12Z",
+          "updatedAt": "2026-09-19T09:02:19Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -582,7 +585,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 100.7
+          "score": 98.75
         },
         {
           "id": 1368924149,
@@ -607,7 +610,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 98.08
+          "score": 96.42
         },
         {
           "id": 1373039122,
@@ -616,12 +619,12 @@
           "url": "https://github.com/riteshs4hu/LLM-OWASP-LAB",
           "homepage": "",
           "description": "Vulnerable AI applications and hands-on labs for learning the OWASP Top 10 for Large Language Model Applications.",
-          "stars": 12,
+          "stars": 13,
           "forks": 6,
           "openIssues": 0,
           "language": "CSS",
           "createdAt": "2026-09-16T12:57:34Z",
-          "updatedAt": "2026-09-19T00:38:40Z",
+          "updatedAt": "2026-09-19T14:59:29Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -632,7 +635,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 95.72
+          "score": 95.86
         },
         {
           "id": 1370275466,
@@ -642,7 +645,7 @@
           "homepage": "https://awarexone.com",
           "description": "Open-source AI security tool to scan and fix vulnerabilities in your vibe-coded projects before you ship. AXguard by AwareXone.",
           "stars": 14,
-          "forks": 4,
+          "forks": 5,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-09-14T17:05:31Z",
@@ -658,7 +661,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 90.46
+          "score": 89.86
         },
         {
           "id": 1373620723,
@@ -685,7 +688,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 87.43
+          "score": 85.65
         },
         {
           "id": 1368344087,
@@ -699,7 +702,7 @@
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-09-13T12:00:04Z",
-          "updatedAt": "2026-09-19T02:39:09Z",
+          "updatedAt": "2026-09-19T15:51:49Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -710,7 +713,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 86.1
+          "score": 84.32
         },
         {
           "id": 1369771755,
@@ -735,7 +738,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 84.76
+          "score": 83.11
         },
         {
           "id": 1372895358,
@@ -760,7 +763,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 84.17
+          "score": 82.51
         },
         {
           "id": 1367580648,
@@ -774,7 +777,7 @@
           "openIssues": 3,
           "language": "TypeScript",
           "createdAt": "2026-09-12T18:24:42Z",
-          "updatedAt": "2026-09-19T03:48:25Z",
+          "updatedAt": "2026-09-19T16:25:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -785,7 +788,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 78.89
+          "score": 77.24
         },
         {
           "id": 1367996381,
@@ -813,7 +816,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.57
+          "score": 75.63
         },
         {
           "id": 1367344793,
@@ -838,7 +841,33 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 71.61
+          "score": 70.26
+        },
+        {
+          "id": 1367773355,
+          "name": "package-doctor",
+          "fullName": "binuka200/package-doctor",
+          "url": "https://github.com/binuka200/package-doctor",
+          "homepage": "https://pypi.org/project/package-doctor/",
+          "description": "Scan Python dependencies for exploited CVEs and abandoned packages that handle untrusted input, ranked by CISA KEV and EPSS. Runs in CI and as a Claude Code hook.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-12T22:55:20Z",
+          "updatedAt": "2026-09-19T14:43:25Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 63.26
         },
         {
           "id": 1367475789,
@@ -862,33 +891,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 63.18
-        },
-        {
-          "id": 1367773355,
-          "name": "package-doctor",
-          "fullName": "binuka200/package-doctor",
-          "url": "https://github.com/binuka200/package-doctor",
-          "homepage": "https://pypi.org/project/package-doctor/",
-          "description": "Scan Python dependencies for exploited CVEs and abandoned packages that handle untrusted input, ranked by CISA KEV and EPSS. Runs in CI and as a Claude Code hook.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-12T22:55:20Z",
-          "updatedAt": "2026-09-19T00:55:39Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 62.44
+          "score": 61.42
         }
       ]
     }
