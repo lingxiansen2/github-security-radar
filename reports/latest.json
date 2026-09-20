@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-20T06:12:52.251Z",
+  "generatedAt": "2026-09-20T16:49:17.092Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-17",
-      "totalCandidates": 16,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 6,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 0,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         }
       ],
       "repositories": [
@@ -104,12 +104,12 @@
           "url": "https://github.com/leepokai/jev-guard",
           "homepage": "",
           "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
-          "stars": 11,
+          "stars": 12,
           "forks": 1,
-          "openIssues": 2,
+          "openIssues": 3,
           "language": "JavaScript",
           "createdAt": "2026-09-17T14:39:28Z",
-          "updatedAt": "2026-09-20T05:53:35Z",
+          "updatedAt": "2026-09-20T09:51:30Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -120,7 +120,57 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.66
+          "score": 72.53
+        },
+        {
+          "id": 1378221825,
+          "name": "chatgpt-codex-handoff",
+          "fullName": "nftstillup/chatgpt-codex-handoff",
+          "url": "https://github.com/nftstillup/chatgpt-codex-handoff",
+          "homepage": "",
+          "description": "A restricted, auditable handoff bridge between ChatGPT-compatible MCP clients and Codex-oriented local workers.",
+          "stars": 3,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-20T10:36:22Z",
+          "updatedAt": "2026-09-20T12:43:24Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 71.89
+        },
+        {
+          "id": 1377626696,
+          "name": "Golang-REVoid",
+          "fullName": "NIKJOO/Golang-REVoid",
+          "url": "https://github.com/NIKJOO/Golang-REVoid",
+          "homepage": "",
+          "description": "Go_VM — Delphi Go Source Virtualizer & Obfuscator",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Pascal",
+          "createdAt": "2026-09-19T21:25:02Z",
+          "updatedAt": "2026-09-20T16:13:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 69.53
         },
         {
           "id": 1377735633,
@@ -144,7 +194,33 @@
           "tags": [
             "防守 / 蓝队"
           ],
-          "score": 73.58
+          "score": 69.29
+        },
+        {
+          "id": 1378309036,
+          "name": "elastic-security-infrastructure",
+          "fullName": "KhanFaiz5426/elastic-security-infrastructure",
+          "url": "https://github.com/KhanFaiz5426/elastic-security-infrastructure",
+          "homepage": "",
+          "description": "Automated Elastic Security SIEM/EDR infrastructure with TLS, Fleet orchestration, endpoint telemetry, ATT&CK-aligned detection, and Zeek integration.  Website",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-09-20T12:25:21Z",
+          "updatedAt": "2026-09-20T13:33:58Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 65.24
         },
         {
           "id": 1376682874,
@@ -170,7 +246,32 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 67.94
+          "score": 63.81
+        },
+        {
+          "id": 1378012349,
+          "name": "aegisnexus",
+          "fullName": "Nikhil-creat/aegisnexus",
+          "url": "https://github.com/Nikhil-creat/aegisnexus",
+          "homepage": "https://nikhil-creat.github.io/aegisnexus/",
+          "description": "Agentic AI security operations copilot: RAG over MITRE ATT&CK, CNN and Isolation Forest models, human-approved responses, a live 3D threat lab, FastAPI and Docker.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 10,
+          "language": "Python",
+          "createdAt": "2026-09-20T06:32:27Z",
+          "updatedAt": "2026-09-20T14:51:07Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 62.95
         },
         {
           "id": 1377719085,
@@ -197,7 +298,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 66.9
+          "score": 62.61
         },
         {
           "id": 1377170143,
@@ -222,7 +323,32 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 66.58
+          "score": 62.44
+        },
+        {
+          "id": 1377754317,
+          "name": "sentinel-x",
+          "fullName": "Nikhil-creat/sentinel-x",
+          "url": "https://github.com/Nikhil-creat/sentinel-x",
+          "homepage": "https://nikhil-creat.github.io/sentinel-x/",
+          "description": "AI cyber defense platform with Agentic AI, RAG, CNN, LLM and Docker, plus a responsive 3D dashboard. Designed and developed by NIKHIL CHARY SRIRAMOJU....",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-09-20T00:55:52Z",
+          "updatedAt": "2026-09-20T14:51:15Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 60.76
         },
         {
           "id": 1377719223,
@@ -246,136 +372,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 64.51
-        },
-        {
-          "id": 1377351964,
-          "name": "NETEEN-esp32",
-          "fullName": "deauthme/NETEEN-esp32",
-          "url": "https://github.com/deauthme/NETEEN-esp32",
-          "homepage": "",
-          "description": "ESP32 fake AP + captive portal for WiFi security testing. Offline, joystick-controlled, logs to LittleFS, admin panel.",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "C++",
-          "createdAt": "2026-09-19T16:03:12Z",
-          "updatedAt": "2026-09-19T20:55:04Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 60.89
-        },
-        {
-          "id": 1376852077,
-          "name": "click2shell",
-          "fullName": "HackfutSecRoot/click2shell",
-          "url": "https://github.com/HackfutSecRoot/click2shell",
-          "homepage": "https://github.com/HackfutSecRoot/click2shell",
-          "description": "Click2Shell — WordPress Pre-Auth RCE Chain (PoC)",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-19T07:11:20Z",
-          "updatedAt": "2026-09-19T11:46:02Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 57.98
-        },
-        {
-          "id": 1376490543,
-          "name": "construct-auto-classifier",
-          "fullName": "godspede/construct-auto-classifier",
-          "url": "https://github.com/godspede/construct-auto-classifier",
-          "homepage": "https://famelos.com/jev/auto-classifier-certification/",
-          "description": "Effect-based safety gate for AI coding agents' shell commands (OpenCode, Antigravity): fast structural rules, then TypeSafe's Jev or a chat model judges what a command does. Certified with Jev at zero dangerous commands allowed.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-18T22:27:03Z",
-          "updatedAt": "2026-09-20T04:45:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 50.53
-        },
-        {
-          "id": 1374026154,
-          "name": "honey",
-          "fullName": "tikket1/honey",
-          "url": "https://github.com/tikket1/honey",
-          "homepage": "",
-          "description": "A typed language for eBPF security probes that compiles straight to BPF bytecode; if it typechecks, the verifier accepts it",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-17T06:22:34Z",
-          "updatedAt": "2026-09-19T01:39:19Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 46.59
-        },
-        {
-          "id": 1375652137,
-          "name": "leash",
-          "fullName": "getArbor-dev/leash",
-          "url": "https://github.com/getArbor-dev/leash",
-          "homepage": "",
-          "description": "Budgeted context for coding agents. Out-of-radius patches don't land.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-18T09:28:42Z",
-          "updatedAt": "2026-09-19T15:56:49Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 45.85
+          "score": 60.38
         }
       ]
     },
@@ -395,35 +392,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 5,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1789884825"
+          "rateLimitReset": "1789923010"
         }
       ],
       "repositories": [
@@ -434,12 +431,12 @@
           "url": "https://github.com/Matthew0822/ToolReplay",
           "homepage": "http://quartzjer.github.io/pennybank/",
           "description": "Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. Dependency-free Python CLI.",
-          "stars": 180,
+          "stars": 181,
           "forks": 21,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-09-14T10:11:00Z",
-          "updatedAt": "2026-09-18T16:34:26Z",
+          "updatedAt": "2026-09-20T16:44:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -450,7 +447,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 157.31
+          "score": 155.81
         },
         {
           "id": 1371381105,
@@ -475,7 +472,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 117.84
+          "score": 116.06
         },
         {
           "id": 1373915794,
@@ -499,7 +496,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 116.98
+          "score": 115.21
         },
         {
           "id": 1369368058,
@@ -508,12 +505,12 @@
           "url": "https://github.com/Ethan-Andrews/ThreatIntel-Aggregator",
           "homepage": "",
           "description": "Self-hosted threat intelligence platform — feed aggregation, AI triage, MITRE ATT&CK coverage, and Sentinel-integrated detection engineering. Runs standalone or fully Azure-integrated.",
-          "stars": 43,
+          "stars": 44,
           "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-14T06:07:22Z",
-          "updatedAt": "2026-09-19T14:19:00Z",
+          "updatedAt": "2026-09-20T12:13:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -525,7 +522,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 113.78
+          "score": 112.71
         },
         {
           "id": 1371562330,
@@ -534,12 +531,12 @@
           "url": "https://github.com/kulchankas/paranoid",
           "homepage": "",
           "description": "Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.",
-          "stars": 11,
+          "stars": 12,
           "forks": 2,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-09-15T13:53:39Z",
-          "updatedAt": "2026-09-19T09:02:19Z",
+          "updatedAt": "2026-09-20T13:28:58Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -553,7 +550,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 96.25
+          "score": 96.58
         },
         {
           "id": 1373039122,
@@ -578,7 +575,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.51
+          "score": 92.87
         },
         {
           "id": 1368924149,
@@ -603,7 +600,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.31
+          "score": 92.66
+        },
+        {
+          "id": 1374583864,
+          "name": "jev-guard",
+          "fullName": "leepokai/jev-guard",
+          "url": "https://github.com/leepokai/jev-guard",
+          "homepage": "",
+          "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 3,
+          "language": "JavaScript",
+          "createdAt": "2026-09-17T14:39:28Z",
+          "updatedAt": "2026-09-20T09:51:30Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 87.05
         },
         {
           "id": 1370275466,
@@ -629,32 +651,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 87.74
-        },
-        {
-          "id": 1374583864,
-          "name": "jev-guard",
-          "fullName": "leepokai/jev-guard",
-          "url": "https://github.com/leepokai/jev-guard",
-          "homepage": "",
-          "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
-          "stars": 11,
-          "forks": 1,
-          "openIssues": 2,
-          "language": "JavaScript",
-          "createdAt": "2026-09-17T14:39:28Z",
-          "updatedAt": "2026-09-20T05:53:35Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 86.77
+          "score": 86.1
         },
         {
           "id": 1373620723,
@@ -681,7 +678,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 83.36
+          "score": 81.59
         },
         {
           "id": 1368344087,
@@ -695,7 +692,7 @@
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-09-13T12:00:04Z",
-          "updatedAt": "2026-09-20T03:29:34Z",
+          "updatedAt": "2026-09-20T16:05:16Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -706,7 +703,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.03
+          "score": 81.06
         },
         {
           "id": 1369771755,
@@ -731,7 +728,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.99
+          "score": 79.35
         },
         {
           "id": 1372895358,
@@ -756,7 +753,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.4
+          "score": 78.75
         },
         {
           "id": 1367996381,
@@ -787,6 +784,31 @@
           "score": 73.48
         },
         {
+          "id": 1368352242,
+          "name": "zcode-gatekeeper",
+          "fullName": "luoxiaoxin123/zcode-gatekeeper",
+          "url": "https://github.com/luoxiaoxin123/zcode-gatekeeper",
+          "homepage": "",
+          "description": "对标 Claude Code auto mode 的 ZCode 外置审批员：任务感知 LLM 审查、灾难命令确定性拦截、防提示注入、approve 逃生舱",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-09-13T12:11:56Z",
+          "updatedAt": "2026-09-17T08:01:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 57.06
+        },
+        {
           "id": 1369603910,
           "name": "Who-Let-The-Agents-Act",
           "fullName": "rewanthtammana/Who-Let-The-Agents-Act",
@@ -810,32 +832,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 58.12
-        },
-        {
-          "id": 1368352242,
-          "name": "zcode-gatekeeper",
-          "fullName": "luoxiaoxin123/zcode-gatekeeper",
-          "url": "https://github.com/luoxiaoxin123/zcode-gatekeeper",
-          "homepage": "",
-          "description": "对标 Claude Code auto mode 的 ZCode 外置审批员：任务感知 LLM 审查、灾难命令确定性拦截、防提示注入、approve 逃生舱",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-09-13T12:11:56Z",
-          "updatedAt": "2026-09-17T08:01:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 57.98
+          "score": 56.48
         },
         {
           "id": 1369458865,
@@ -861,7 +858,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 54.42
+          "score": 52.78
         }
       ]
     }
