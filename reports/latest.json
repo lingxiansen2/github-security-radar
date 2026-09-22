@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-21T18:43:56.871Z",
+  "generatedAt": "2026-09-22T06:11:32.455Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-09-18",
-      "totalCandidates": 24,
+      "createdSince": "2026-09-19",
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         }
       ],
       "repositories": [
@@ -96,7 +96,58 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 96.16
+          "score": 92.02
+        },
+        {
+          "id": 1377735633,
+          "name": "leak-scan",
+          "fullName": "Krishita17/leak-scan",
+          "url": "https://github.com/Krishita17/leak-scan",
+          "homepage": "",
+          "description": "🛡️ LeakScan — passive personal wireless-footprint auditor for Flipper Zero. See what your own devices broadcast and how trackable you are. Never transmits. Sole contributor: Krishita Sanjay Choksi.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-20T00:24:52Z",
+          "updatedAt": "2026-09-22T03:30:56Z",
+          "matchedProfiles": [
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1.12
+          ],
+          "tags": [
+            "防守 / 蓝队"
+          ],
+          "score": 63.97
+        },
+        {
+          "id": 1377719085,
+          "name": "skim-guard",
+          "fullName": "Krishita17/skim-guard",
+          "url": "https://github.com/Krishita17/skim-guard",
+          "homepage": "",
+          "description": "SkimGuard: a passive 13.56 MHz NFC reader (skimmer) detector for Flipper Zero. Receive-only, never transmits. Sole contributor: Krishita Sanjay Choksi.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-19T23:56:11Z",
+          "updatedAt": "2026-09-22T03:30:54Z",
+          "matchedProfiles": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.12
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 63.77
         },
         {
           "id": 1378221825,
@@ -121,58 +172,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.27
-        },
-        {
-          "id": 1377735633,
-          "name": "leak-scan",
-          "fullName": "Krishita17/leak-scan",
-          "url": "https://github.com/Krishita17/leak-scan",
-          "homepage": "",
-          "description": "🛡️ LeakScan — passive personal wireless-footprint auditor for Flipper Zero. See what your own devices broadcast and how trackable you are. Never transmits. Sole contributor: Krishita Sanjay Choksi.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-20T00:24:52Z",
-          "updatedAt": "2026-09-21T17:37:29Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队"
-          ],
-          "score": 64.12
-        },
-        {
-          "id": 1377719085,
-          "name": "skim-guard",
-          "fullName": "Krishita17/skim-guard",
-          "url": "https://github.com/Krishita17/skim-guard",
-          "homepage": "",
-          "description": "SkimGuard: a passive 13.56 MHz NFC reader (skimmer) detector for Flipper Zero. Receive-only, never transmits. Sole contributor: Krishita Sanjay Choksi.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-19T23:56:11Z",
-          "updatedAt": "2026-09-21T17:37:02Z",
-          "matchedProfiles": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.12
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 63.92
+          "score": 63.13
         },
         {
           "id": 1377626696,
@@ -197,32 +197,7 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 63.64
-        },
-        {
-          "id": 1378799271,
-          "name": "weplay-scam-investigation",
-          "fullName": "sarwa4c0/weplay-scam-investigation",
-          "url": "https://github.com/sarwa4c0/weplay-scam-investigation",
-          "homepage": "https://github.com/sarwa4c0/weplay-scam-investigation/blob/main/full-writeup.md",
-          "description": "Deep-dive analysis and SOC-style ticket for a live credential phishing kit. Includes multi-tier infrastructure tracking (Tier 1-3), indicator collection (IoCs), and defensive mapping.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-20T21:40:59Z",
-          "updatedAt": "2026-09-21T15:19:15Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 58.75
+          "score": 59.5
         },
         {
           "id": 1379419591,
@@ -247,21 +222,21 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 58.57
+          "score": 54.43
         },
         {
-          "id": 1378749477,
-          "name": "Clavigil",
-          "fullName": "abedellah/Clavigil",
-          "url": "https://github.com/abedellah/Clavigil",
-          "homepage": "",
-          "description": "Identity lifecycle governance: JML provisioning, reconciliation, SoD checks and access recertification (OpenLDAP + Keycloak + PostgreSQL)",
+          "id": 1378799271,
+          "name": "weplay-scam-investigation",
+          "fullName": "sarwa4c0/weplay-scam-investigation",
+          "url": "https://github.com/sarwa4c0/weplay-scam-investigation",
+          "homepage": "https://github.com/sarwa4c0/weplay-scam-investigation/blob/main/full-writeup.md",
+          "description": "Deep-dive analysis and SOC-style ticket for a live credential phishing kit. Includes multi-tier infrastructure tracking (Tier 1-3), indicator collection (IoCs), and defensive mapping.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-20T20:27:43Z",
-          "updatedAt": "2026-09-21T10:47:47Z",
+          "language": "Unknown",
+          "createdAt": "2026-09-20T21:40:59Z",
+          "updatedAt": "2026-09-21T15:19:15Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -270,9 +245,9 @@
           ],
           "tags": [
             "网络安全",
-            "渗透 / 红队"
+            "防守 / 蓝队"
           ],
-          "score": 58.27
+          "score": 54.28
         },
         {
           "id": 1378708601,
@@ -298,7 +273,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 57.91
+          "score": 53.44
         },
         {
           "id": 1377719223,
@@ -322,7 +297,32 @@
           "tags": [
             "网络安全"
           ],
-          "score": 56.53
+          "score": 52.06
+        },
+        {
+          "id": 1376780621,
+          "name": "farhand",
+          "fullName": "CogFlux/farhand",
+          "url": "https://github.com/CogFlux/farhand",
+          "homepage": "farhand.cogflux.io",
+          "description": "Remote hands for coding agents: an MCP server that runs OpenCode / Claude Code / Codex work on a remote host over SSH, keeps credentials and the local machine closed, and audits everything",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-09-19T05:46:43Z",
+          "updatedAt": "2026-09-22T02:21:04Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 50.53
         },
         {
           "id": 1376682874,
@@ -348,34 +348,35 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 53.7
+          "score": 50.25
         },
         {
-          "id": 1377606480,
-          "name": "awesome-cybersecurity-roadmap",
-          "fullName": "Lucebrallc/awesome-cybersecurity-roadmap",
-          "url": "https://github.com/Lucebrallc/awesome-cybersecurity-roadmap",
-          "homepage": "https://www.lucebra.com/topic/cybersecurity",
-          "description": "Structured cybersecurity learning paths covering OWASP, penetration testing, GRC compliance, and incident response.",
-          "stars": 2,
-          "forks": 0,
+          "id": 1376852077,
+          "name": "click2shell",
+          "fullName": "HackfutSecRoot/click2shell",
+          "url": "https://github.com/HackfutSecRoot/click2shell",
+          "homepage": "https://github.com/HackfutSecRoot/click2shell",
+          "description": "Click2Shell — WordPress Pre-Auth RCE Chain (PoC)",
+          "stars": 3,
+          "forks": 1,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-19T20:54:43Z",
-          "updatedAt": "2026-09-21T09:51:50Z",
+          "language": "Python",
+          "createdAt": "2026-09-19T07:11:20Z",
+          "updatedAt": "2026-09-21T21:22:57Z",
           "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
+            "通用安全",
+            "网络安全"
           ],
           "profileWeights": [
-            1.08,
-            1.18
+            1,
+            1.08
           ],
           "tags": [
+            "通用安全",
             "网络安全",
-            "渗透 / 红队"
+            "AI 自动化 / Skill"
           ],
-          "score": 53.64
+          "score": 49.85
         }
       ]
     },
@@ -387,97 +388,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-14",
+      "createdSince": "2026-09-15",
       "totalCandidates": 15,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 12,
+          "fetched": 10,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 0,
+          "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790016289"
+          "rateLimitReset": "1790057546"
         }
       ],
       "repositories": [
-        {
-          "id": 1369710615,
-          "name": "ToolReplay",
-          "fullName": "Matthew0822/ToolReplay",
-          "url": "https://github.com/Matthew0822/ToolReplay",
-          "homepage": "http://quartzjer.github.io/pennybank/",
-          "description": "Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. Dependency-free Python CLI.",
-          "stars": 182,
-          "forks": 21,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-09-14T10:11:00Z",
-          "updatedAt": "2026-09-21T06:56:32Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 153.26
-        },
-        {
-          "id": 1369368058,
-          "name": "ThreatIntel-Aggregator",
-          "fullName": "Ethan-Andrews/ThreatIntel-Aggregator",
-          "url": "https://github.com/Ethan-Andrews/ThreatIntel-Aggregator",
-          "homepage": "",
-          "description": "Self-hosted threat intelligence platform — feed aggregation, AI triage, MITRE ATT&CK coverage, and Sentinel-integrated detection engineering. Runs standalone or fully Azure-integrated.",
-          "stars": 49,
-          "forks": 7,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-14T06:07:22Z",
-          "updatedAt": "2026-09-21T17:44:21Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 114.1
-        },
         {
           "id": 1373915794,
           "name": "awesome-cissp",
@@ -500,7 +450,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 112.02
+          "score": 110.1
         },
         {
           "id": 1371381105,
@@ -525,7 +475,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 111.73
+          "score": 109.82
         },
         {
           "id": 1377739225,
@@ -550,7 +500,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 104.87
+          "score": 103.1
         },
         {
           "id": 1374583864,
@@ -559,12 +509,12 @@
           "url": "https://github.com/leepokai/jev-guard",
           "homepage": "",
           "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
-          "stars": 18,
+          "stars": 21,
           "forks": 2,
           "openIssues": 3,
           "language": "JavaScript",
           "createdAt": "2026-09-17T14:39:28Z",
-          "updatedAt": "2026-09-21T08:46:11Z",
+          "updatedAt": "2026-09-22T06:09:49Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -575,7 +525,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.65
+          "score": 96.5
         },
         {
           "id": 1371562330,
@@ -584,12 +534,12 @@
           "url": "https://github.com/kulchankas/paranoid",
           "homepage": "",
           "description": "Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.",
-          "stars": 13,
+          "stars": 14,
           "forks": 2,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-09-15T13:53:39Z",
-          "updatedAt": "2026-09-21T13:28:39Z",
+          "updatedAt": "2026-09-22T02:27:13Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -603,7 +553,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 93.96
+          "score": 93.85
         },
         {
           "id": 1373039122,
@@ -628,33 +578,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 88.86
-        },
-        {
-          "id": 1370275466,
-          "name": "AXguard",
-          "fullName": "awarexone/AXguard",
-          "url": "https://github.com/awarexone/AXguard",
-          "homepage": "https://awarexone.com",
-          "description": "Open-source AI security tool to scan and fix vulnerabilities in your vibe-coded projects before you ship. AXguard by AwareXone.",
-          "stars": 15,
-          "forks": 5,
-          "openIssues": 2,
-          "language": "Python",
-          "createdAt": "2026-09-14T17:05:31Z",
-          "updatedAt": "2026-09-21T12:14:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 83.91
+          "score": 87.09
         },
         {
           "id": 1373620723,
@@ -681,32 +605,58 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 82.45
+          "score": 80.54
         },
         {
-          "id": 1369771755,
-          "name": "AiGuard",
-          "fullName": "Technicalflight/AiGuard",
-          "url": "https://github.com/Technicalflight/AiGuard",
-          "homepage": "https://technicalflight.github.io/AiGuard/",
-          "description": "AiGuard —— 本地优先的 AI 流量安全网关：本机 MITM 代理只接管 AI 域名，请求侧脱敏、响应侧流式还原，并识别七类风险信号。原文不落盘、不上传。（注意如果你需要模型直接使用token或者其他密钥进行操作，请放入白名单或关闭该功能！！！！）",
-          "stars": 13,
-          "forks": 3,
+          "id": 1377735633,
+          "name": "leak-scan",
+          "fullName": "Krishita17/leak-scan",
+          "url": "https://github.com/Krishita17/leak-scan",
+          "homepage": "",
+          "description": "🛡️ LeakScan — passive personal wireless-footprint auditor for Flipper Zero. See what your own devices broadcast and how trackable you are. Never transmits. Sole contributor: Krishita Sanjay Choksi.",
+          "stars": 5,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-14T11:00:45Z",
-          "updatedAt": "2026-09-21T02:36:21Z",
+          "language": "Python",
+          "createdAt": "2026-09-20T00:24:52Z",
+          "updatedAt": "2026-09-22T03:30:56Z",
           "matchedProfiles": [
-            "通用安全"
+            "防守 / 蓝队"
           ],
           "profileWeights": [
-            1
+            1.12
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
+            "防守 / 蓝队"
           ],
-          "score": 78.32
+          "score": 76.39
+        },
+        {
+          "id": 1377719085,
+          "name": "skim-guard",
+          "fullName": "Krishita17/skim-guard",
+          "url": "https://github.com/Krishita17/skim-guard",
+          "homepage": "",
+          "description": "SkimGuard: a passive 13.56 MHz NFC reader (skimmer) detector for Flipper Zero. Receive-only, never transmits. Sole contributor: Krishita Sanjay Choksi.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-19T23:56:11Z",
+          "updatedAt": "2026-09-22T03:30:54Z",
+          "matchedProfiles": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.12
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 76.31
         },
         {
           "id": 1372895358,
@@ -731,7 +681,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 74.74
+          "score": 72.97
         },
         {
           "id": 1377626696,
@@ -756,47 +706,21 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 72.99
+          "score": 71.21
         },
         {
-          "id": 1369603910,
-          "name": "Who-Let-The-Agents-Act",
-          "fullName": "rewanthtammana/Who-Let-The-Agents-Act",
-          "url": "https://github.com/rewanthtammana/Who-Let-The-Agents-Act",
-          "homepage": "https://rewanthtammana.com/who-let-the-agents-act/",
-          "description": "Who Let the Agents Act? is an interactive agentic-security lab exploring how AI agents use tools, access data, and make decisions. Compare vulnerable, prompt-only, and hardened agents to see why prompts are not security boundaries and how authorization, least privilege, data projection, output controls, etc. keep agents safe.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-14T08:49:47Z",
-          "updatedAt": "2026-09-21T10:48:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 57.06
-        },
-        {
-          "id": 1369458865,
-          "name": "Strix-Ai",
-          "fullName": "Violet-Rebel4654/Strix-Ai",
-          "url": "https://github.com/Violet-Rebel4654/Strix-Ai",
-          "homepage": "",
-          "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+          "id": 1376780621,
+          "name": "farhand",
+          "fullName": "CogFlux/farhand",
+          "url": "https://github.com/CogFlux/farhand",
+          "homepage": "farhand.cogflux.io",
+          "description": "Remote hands for coding agents: an MCP server that runs OpenCode / Claude Code / Codex work on a remote host over SSH, keeps credentials and the local machine closed, and audits everything",
           "stars": 5,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-14T07:18:50Z",
-          "updatedAt": "2026-09-14T07:25:23Z",
+          "language": "Rust",
+          "createdAt": "2026-09-19T05:46:43Z",
+          "updatedAt": "2026-09-22T02:21:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -805,10 +729,34 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
+            "AI 自动化 / Skill"
           ],
-          "score": 50.53
+          "score": 65.33
+        },
+        {
+          "id": 1373399541,
+          "name": "Capgate",
+          "fullName": "jersonboydmilan/Capgate",
+          "url": "https://github.com/jersonboydmilan/Capgate",
+          "homepage": "",
+          "description": "Capgate — runtime authority boundary for autonomous AI agents: the agent proposes, the harness authorizes, the executor acts. Deny-by-default policy, non-transitive delegation, tamper-evident audit, MCP gateway, containerised isolation.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-16T17:15:05Z",
+          "updatedAt": "2026-09-21T02:45:52Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 55.96
         }
       ]
     }
