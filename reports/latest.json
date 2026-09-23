@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-23T05:56:44.694Z",
+  "generatedAt": "2026-09-23T17:51:46.265Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-20",
-      "totalCandidates": 24,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         }
       ],
       "repositories": [
@@ -97,7 +97,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 107.17
+          "score": 102.87
         },
         {
           "id": 1382159140,
@@ -106,12 +106,12 @@
           "url": "https://github.com/ressl/cve-2026-87902-poc",
           "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
           "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 9,
+          "stars": 16,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-23T04:10:59Z",
+          "updatedAt": "2026-09-23T17:11:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,7 +122,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 84.2
+          "score": 92.69
         },
         {
           "id": 1377739225,
@@ -156,23 +156,26 @@
           "url": "https://github.com/5h4d0wn1k/cybersecurity-framework",
           "homepage": "https://5h4d0wn1k.github.io/cybersecurity-framework/",
           "description": "Interactive map of everything in cybersecurity: 27 domains, 776 categories, 1067 curated offensive & defensive tools with effort ratings and when-to-use guidance.",
-          "stars": 3,
+          "stars": 4,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 6,
           "language": "Python",
           "createdAt": "2026-09-22T07:07:32Z",
-          "updatedAt": "2026-09-22T17:25:41Z",
+          "updatedAt": "2026-09-23T17:16:08Z",
           "matchedProfiles": [
+            "通用安全",
             "网络安全",
             "渗透 / 红队",
             "防守 / 蓝队"
           ],
           "profileWeights": [
+            1,
             1.08,
             1.18,
             1.12
           ],
           "tags": [
+            "通用安全",
             "网络安全",
             "渗透 / 红队",
             "防守 / 蓝队",
@@ -180,7 +183,57 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 70.27
+          "score": 70.78
+        },
+        {
+          "id": 1381899085,
+          "name": "wdk-staking-kit",
+          "fullName": "FlashyLabs/wdk-staking-kit",
+          "url": "https://github.com/FlashyLabs/wdk-staking-kit",
+          "homepage": "https://flashygroup.com",
+          "description": "⚡ A reference staking primitive for wallets on Tether's WDK: a lock earmarks a balance at a published rate, no on-chain contract required — only yield, paid on close, ever moves. Apache-2.0 — npm install @flashy/wdk-staking-kit. The terms are open; the balance they lock is not.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 3,
+          "language": "JavaScript",
+          "createdAt": "2026-09-22T16:09:25Z",
+          "updatedAt": "2026-09-23T16:10:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 63.25
+        },
+        {
+          "id": 1381898187,
+          "name": "wdk-policy-guard",
+          "fullName": "FlashyLabs/wdk-policy-guard",
+          "url": "https://github.com/FlashyLabs/wdk-policy-guard",
+          "homepage": "https://flashygroup.com",
+          "description": "⚡ A spending-policy layer for wallets on Tether's WDK: per-agent envelopes graded before anything signs — asset, destination, per-transaction and daily caps. Three verdicts, always with a reason: ALLOW, ESCALATE, DENY. Apache-2.0 — npm install @flashy/wdk-policy-guard. The policy is open; the money it guards is not.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 3,
+          "language": "JavaScript",
+          "createdAt": "2026-09-22T16:08:56Z",
+          "updatedAt": "2026-09-23T16:10:32Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 63.24
         },
         {
           "id": 1382648156,
@@ -204,107 +257,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 65.86
-        },
-        {
-          "id": 1381162988,
-          "name": "ByteRescue",
-          "fullName": "CodingJeffRoblox/ByteRescue",
-          "url": "https://github.com/CodingJeffRoblox/ByteRescue",
-          "homepage": "",
-          "description": "ByteRescue — Storage analysis and data recovery tool for analyzing drives, files, and recovering available deleted data.",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T09:00:08Z",
-          "updatedAt": "2026-09-23T03:39:16Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 63.11
-        },
-        {
-          "id": 1381899085,
-          "name": "wdk-staking-kit",
-          "fullName": "FlashyLabs/wdk-staking-kit",
-          "url": "https://github.com/FlashyLabs/wdk-staking-kit",
-          "homepage": "https://flashygroup.com",
-          "description": "⚡ A reference staking primitive for wallets on Tether's WDK: a lock earmarks a balance at a published rate, no on-chain contract required — only yield, paid on close, ever moves. Apache-2.0 — npm install @flashy/wdk-staking-kit. The terms are open; the balance they lock is not.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 3,
-          "language": "JavaScript",
-          "createdAt": "2026-09-22T16:09:25Z",
-          "updatedAt": "2026-09-23T04:37:36Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 62.82
-        },
-        {
-          "id": 1381898187,
-          "name": "wdk-policy-guard",
-          "fullName": "FlashyLabs/wdk-policy-guard",
-          "url": "https://github.com/FlashyLabs/wdk-policy-guard",
-          "homepage": "https://flashygroup.com",
-          "description": "⚡ A spending-policy layer for wallets on Tether's WDK: per-agent envelopes graded before anything signs — asset, destination, per-transaction and daily caps. Three verdicts, always with a reason: ALLOW, ESCALATE, DENY. Apache-2.0 — npm install @flashy/wdk-policy-guard. The policy is open; the money it guards is not.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 3,
-          "language": "JavaScript",
-          "createdAt": "2026-09-22T16:08:56Z",
-          "updatedAt": "2026-09-23T04:37:48Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 62.81
-        },
-        {
-          "id": 1381311704,
-          "name": "agent-safe-tools",
-          "fullName": "wangke-112/agent-safe-tools",
-          "url": "https://github.com/wangke-112/agent-safe-tools",
-          "homepage": "",
-          "description": "Ask your AI coding agent, in natural language, to search production logs or inspect a database — safely. Two drop-in MCP servers (MySQL, SSH logs) keep safety red lines in code: read-only by default, dangerous SQL/shell blocked, production disabled, no stored credentials. A recommended Skill layer teaches the model when and how to use them.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T10:51:18Z",
-          "updatedAt": "2026-09-23T05:53:40Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 60.9
+          "score": 61.21
         },
         {
           "id": 1380600000,
@@ -314,7 +267,7 @@
           "homepage": "https://jev-ids.github.io",
           "description": "Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev.",
           "stars": 3,
-          "forks": 0,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-21T22:21:35Z",
@@ -329,7 +282,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 60.9
+          "score": 60.57
         },
         {
           "id": 1377735633,
@@ -356,6 +309,56 @@
           "score": 60.48
         },
         {
+          "id": 1381162988,
+          "name": "ByteRescue",
+          "fullName": "CodingJeffRoblox/ByteRescue",
+          "url": "https://github.com/CodingJeffRoblox/ByteRescue",
+          "homepage": "",
+          "description": "ByteRescue — Storage analysis and data recovery tool for analyzing drives, files, and recovering available deleted data.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T09:00:08Z",
+          "updatedAt": "2026-09-23T03:39:16Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 58.46
+        },
+        {
+          "id": 1381311704,
+          "name": "agent-safe-tools",
+          "fullName": "wangke-112/agent-safe-tools",
+          "url": "https://github.com/wangke-112/agent-safe-tools",
+          "homepage": "",
+          "description": "Ask your AI coding agent, in natural language, to search production logs or inspect a database — safely. Two drop-in MCP servers (MySQL, SSH logs) keep safety red lines in code: read-only by default, dangerous SQL/shell blocked, production disabled, no stored credentials. A recommended Skill layer teaches the model when and how to use them.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T10:51:18Z",
+          "updatedAt": "2026-09-23T05:53:40Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 56.6
+        },
+        {
           "id": 1378221825,
           "name": "chatgpt-codex-handoff",
           "fullName": "nftstillup/chatgpt-codex-handoff",
@@ -378,7 +381,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 54.55
+          "score": 52.87
         }
       ]
     },
@@ -398,35 +401,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 5,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 0,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790143058"
+          "rateLimitReset": "1790185959"
         }
       ],
       "repositories": [
@@ -454,7 +457,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 110.28
+          "score": 108.43
         },
         {
           "id": 1373915794,
@@ -478,7 +481,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 104.99
+          "score": 103
         },
         {
           "id": 1374583864,
@@ -487,12 +490,12 @@
           "url": "https://github.com/leepokai/jev-guard",
           "homepage": "",
           "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
-          "stars": 27,
+          "stars": 28,
           "forks": 4,
           "openIssues": 4,
           "language": "JavaScript",
           "createdAt": "2026-09-17T14:39:28Z",
-          "updatedAt": "2026-09-23T04:55:04Z",
+          "updatedAt": "2026-09-23T15:44:19Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -503,7 +506,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 101.79
+          "score": 100.83
+        },
+        {
+          "id": 1382159140,
+          "name": "cve-2026-87902-poc",
+          "fullName": "ressl/cve-2026-87902-poc",
+          "url": "https://github.com/ressl/cve-2026-87902-poc",
+          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
+          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
+          "stars": 16,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T18:40:26Z",
+          "updatedAt": "2026-09-23T17:11:39Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 97.47
         },
         {
           "id": 1377739225,
@@ -528,7 +556,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 98.15
+          "score": 96.31
         },
         {
           "id": 1376238661,
@@ -538,11 +566,11 @@
           "homepage": "https://agentchaperone.dev",
           "description": "Screens an AI agent's tool calls before they run and tool results before the agent reads them. An MCP proxy plus a hooks adapter for a client's built-in tools.",
           "stars": 20,
-          "forks": 2,
-          "openIssues": 7,
+          "forks": 3,
+          "openIssues": 8,
           "language": "TypeScript",
           "createdAt": "2026-09-18T17:52:36Z",
-          "updatedAt": "2026-09-22T20:33:40Z",
+          "updatedAt": "2026-09-23T15:48:34Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -553,32 +581,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 95.88
-        },
-        {
-          "id": 1382159140,
-          "name": "cve-2026-87902-poc",
-          "fullName": "ressl/cve-2026-87902-poc",
-          "url": "https://github.com/ressl/cve-2026-87902-poc",
-          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
-          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-23T04:10:59Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 86.53
+          "score": 95.7
         },
         {
           "id": 1373039122,
@@ -603,7 +606,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 83.41
+          "score": 82.32
         },
         {
           "id": 1377719085,
@@ -630,7 +633,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 79.5
+          "score": 77.44
         },
         {
           "id": 1373620723,
@@ -657,7 +660,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 76.57
+          "score": 74.58
         },
         {
           "id": 1377735633,
@@ -681,7 +684,7 @@
           "tags": [
             "防守 / 蓝队"
           ],
-          "score": 76.16
+          "score": 74.1
         },
         {
           "id": 1372895358,
@@ -706,7 +709,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 69.29
+          "score": 68.53
+        },
+        {
+          "id": 1376780621,
+          "name": "farhand",
+          "fullName": "CogFlux/farhand",
+          "url": "https://github.com/CogFlux/farhand",
+          "homepage": "farhand.cogflux.io",
+          "description": "Remote hands for coding agents: an MCP server that runs OpenCode / Claude Code / Codex work on a remote host over SSH, keeps credentials and the local machine closed, and audits everything",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-09-19T05:46:43Z",
+          "updatedAt": "2026-09-23T15:08:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 66.33
         },
         {
           "id": 1377626696,
@@ -731,21 +759,21 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 67.54
+          "score": 65.69
         },
         {
-          "id": 1376780621,
-          "name": "farhand",
-          "fullName": "CogFlux/farhand",
-          "url": "https://github.com/CogFlux/farhand",
-          "homepage": "farhand.cogflux.io",
-          "description": "Remote hands for coding agents: an MCP server that runs OpenCode / Claude Code / Codex work on a remote host over SSH, keeps credentials and the local machine closed, and audits everything",
-          "stars": 6,
+          "id": 1374311929,
+          "name": "libsp",
+          "fullName": "Flatpack-sonc/libsp",
+          "url": "https://github.com/Flatpack-sonc/libsp",
+          "homepage": "https://github.com/Flatpack-sonc/libsp",
+          "description": "C11 UTF-8 arena strings and lexical paths: join-under against traversal, NUL, and PATH_MAX bugs.",
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-19T05:46:43Z",
-          "updatedAt": "2026-09-23T04:45:40Z",
+          "language": "C",
+          "createdAt": "2026-09-17T11:12:47Z",
+          "updatedAt": "2026-09-23T14:52:55Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -756,21 +784,21 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.12
+          "score": 64.95
         },
         {
-          "id": 1374026154,
-          "name": "honey",
-          "fullName": "tikket1/honey",
-          "url": "https://github.com/tikket1/honey",
+          "id": 1373399541,
+          "name": "Capgate",
+          "fullName": "jersonboydmilan/Capgate",
+          "url": "https://github.com/jersonboydmilan/Capgate",
           "homepage": "",
-          "description": "A typed language for eBPF security probes that compiles straight to BPF bytecode; if it typechecks, the verifier accepts it",
+          "description": "Capgate — runtime authority boundary for autonomous AI agents: the agent proposes, the harness authorizes, the executor acts. Deny-by-default policy, non-transitive delegation, tamper-evident audit, MCP gateway, containerised isolation.",
           "stars": 5,
           "forks": 0,
           "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-17T06:22:34Z",
-          "updatedAt": "2026-09-22T21:42:43Z",
+          "language": "Python",
+          "createdAt": "2026-09-16T17:15:05Z",
+          "updatedAt": "2026-09-21T02:45:52Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -779,10 +807,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
+            "AI 自动化 / Skill"
           ],
-          "score": 54.31
+          "score": 50.53
         }
       ]
     }
