@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-23T17:51:46.265Z",
+  "generatedAt": "2026-09-24T06:09:05.855Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,46 +33,71 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-09-20",
-      "totalCandidates": 23,
+      "createdSince": "2026-09-21",
+      "totalCandidates": 16,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 5,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         }
       ],
       "repositories": [
+        {
+          "id": 1382159140,
+          "name": "cve-2026-87902-poc",
+          "fullName": "ressl/cve-2026-87902-poc",
+          "url": "https://github.com/ressl/cve-2026-87902-poc",
+          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
+          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
+          "stars": 26,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T18:40:26Z",
+          "updatedAt": "2026-09-24T03:34:24Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 107.72
+        },
         {
           "id": 1381755166,
           "name": "MCPBastion",
@@ -97,46 +122,46 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 102.87
+          "score": 98.43
         },
         {
-          "id": 1382159140,
-          "name": "cve-2026-87902-poc",
-          "fullName": "ressl/cve-2026-87902-poc",
-          "url": "https://github.com/ressl/cve-2026-87902-poc",
-          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
-          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 16,
+          "id": 1382868003,
+          "name": "funkmykali",
+          "fullName": "arif-offsec/funkmykali",
+          "url": "https://github.com/arif-offsec/funkmykali",
+          "homepage": "",
+          "description": "Full Kali Linux tool installer for HTB CPTS, OffSec OSCP, TCM Security PNPT/PJPT, INE eJPT/eCPPT, and TryHackMe PT1/PT2. Covers all 28 HTB Academy Penetration Tester Path modules. System-wide, zero-error, community-sourced — 100+ pentesting tools from a single command.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-09-23T06:14:56Z",
+          "updatedAt": "2026-09-24T05:49:09Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 74.53
+        },
+        {
+          "id": 1380956148,
+          "name": "hetzner-cloud-audit-skills",
+          "fullName": "jpolec/hetzner-cloud-audit-skills",
+          "url": "https://github.com/jpolec/hetzner-cloud-audit-skills",
+          "homepage": "",
+          "description": "Evidence-backed attack paths, drift, and cost auditing for Hetzner Cloud.",
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-23T17:11:39Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 92.69
-        },
-        {
-          "id": 1377739225,
-          "name": "footprint-osint",
-          "fullName": "BillyBobMcgee/footprint-osint",
-          "url": "https://github.com/BillyBobMcgee/footprint-osint",
-          "homepage": "",
-          "description": "Defensive OSINT exposure checker: see what an email, password, domain or username leaks in public breach data. No API keys. CLI + local web GUI.",
-          "stars": 18,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-20T00:31:20Z",
-          "updatedAt": "2026-09-22T16:59:42Z",
+          "createdAt": "2026-09-22T06:05:46Z",
+          "updatedAt": "2026-09-23T22:14:34Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -147,7 +172,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 84.13
+          "score": 65.71
         },
         {
           "id": 1381024510,
@@ -158,7 +183,7 @@
           "description": "Interactive map of everything in cybersecurity: 27 domains, 776 categories, 1067 curated offensive & defensive tools with effort ratings and when-to-use guidance.",
           "stars": 4,
           "forks": 0,
-          "openIssues": 6,
+          "openIssues": 7,
           "language": "Python",
           "createdAt": "2026-09-22T07:07:32Z",
           "updatedAt": "2026-09-23T17:16:08Z",
@@ -183,21 +208,21 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 70.78
+          "score": 65.55
         },
         {
-          "id": 1381899085,
-          "name": "wdk-staking-kit",
-          "fullName": "FlashyLabs/wdk-staking-kit",
-          "url": "https://github.com/FlashyLabs/wdk-staking-kit",
-          "homepage": "https://flashygroup.com",
-          "description": "⚡ A reference staking primitive for wallets on Tether's WDK: a lock earmarks a balance at a published rate, no on-chain contract required — only yield, paid on close, ever moves. Apache-2.0 — npm install @flashy/wdk-staking-kit. The terms are open; the balance they lock is not.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 3,
-          "language": "JavaScript",
-          "createdAt": "2026-09-22T16:09:25Z",
-          "updatedAt": "2026-09-23T16:10:36Z",
+          "id": 1382927828,
+          "name": "pyntra",
+          "fullName": "prnvv2/pyntra",
+          "url": "https://github.com/prnvv2/pyntra",
+          "homepage": "",
+          "description": "AI-native security testing platform — multi-agent orchestration over MCP, for authorized pentesting. Go + Eino.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-09-23T07:01:19Z",
+          "updatedAt": "2026-09-23T17:50:31Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -206,9 +231,11 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "网络安全"
           ],
-          "score": 63.25
+          "score": 63.44
         },
         {
           "id": 1381898187,
@@ -217,12 +244,12 @@
           "url": "https://github.com/FlashyLabs/wdk-policy-guard",
           "homepage": "https://flashygroup.com",
           "description": "⚡ A spending-policy layer for wallets on Tether's WDK: per-agent envelopes graded before anything signs — asset, destination, per-transaction and daily caps. Three verdicts, always with a reason: ALLOW, ESCALATE, DENY. Apache-2.0 — npm install @flashy/wdk-policy-guard. The policy is open; the money it guards is not.",
-          "stars": 4,
+          "stars": 5,
           "forks": 0,
           "openIssues": 3,
           "language": "JavaScript",
           "createdAt": "2026-09-22T16:08:56Z",
-          "updatedAt": "2026-09-23T16:10:32Z",
+          "updatedAt": "2026-09-23T21:30:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -233,7 +260,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.24
+          "score": 62.81
+        },
+        {
+          "id": 1381899085,
+          "name": "wdk-staking-kit",
+          "fullName": "FlashyLabs/wdk-staking-kit",
+          "url": "https://github.com/FlashyLabs/wdk-staking-kit",
+          "homepage": "https://flashygroup.com",
+          "description": "⚡ A reference staking primitive for wallets on Tether's WDK: a lock earmarks a balance at a published rate, no on-chain contract required — only yield, paid on close, ever moves. Apache-2.0 — npm install @flashy/wdk-staking-kit. The terms are open; the balance they lock is not.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 3,
+          "language": "JavaScript",
+          "createdAt": "2026-09-22T16:09:25Z",
+          "updatedAt": "2026-09-23T21:30:01Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 62.81
         },
         {
           "id": 1382648156,
@@ -257,7 +309,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 61.21
+          "score": 56.42
         },
         {
           "id": 1380600000,
@@ -282,31 +334,32 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 60.57
+          "score": 55.78
         },
         {
-          "id": 1377735633,
-          "name": "leak-scan",
-          "fullName": "Krishita17/leak-scan",
-          "url": "https://github.com/Krishita17/leak-scan",
-          "homepage": "",
-          "description": "🛡️ LeakScan — passive personal wireless-footprint auditor for Flipper Zero. See what your own devices broadcast and how trackable you are. Never transmits. Sole contributor: Krishita Sanjay Choksi.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
+          "id": 1382393551,
+          "name": "tokenguard",
+          "fullName": "umutgungorr/tokenguard",
+          "url": "https://github.com/umutgungorr/tokenguard",
+          "homepage": "https://github.com/marketplace/actions/tokenguard-secret-scanner",
+          "description": "🛡️ Fast, zero-dependency Git pre-commit secret & API key scanner CLI. Detects AWS, GitHub, Slack, OpenAI tokens and high-entropy secrets.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 2,
           "language": "Python",
-          "createdAt": "2026-09-20T00:24:52Z",
-          "updatedAt": "2026-09-22T15:42:09Z",
+          "createdAt": "2026-09-22T21:47:55Z",
+          "updatedAt": "2026-09-23T19:43:38Z",
           "matchedProfiles": [
-            "防守 / 蓝队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.12
+            1
           ],
           "tags": [
-            "防守 / 蓝队"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 60.48
+          "score": 54.32
         },
         {
           "id": 1381162988,
@@ -317,10 +370,10 @@
           "description": "ByteRescue — Storage analysis and data recovery tool for analyzing drives, files, and recovering available deleted data.",
           "stars": 2,
           "forks": 1,
-          "openIssues": 0,
+          "openIssues": 15,
           "language": "Python",
           "createdAt": "2026-09-22T09:00:08Z",
-          "updatedAt": "2026-09-23T03:39:16Z",
+          "updatedAt": "2026-09-23T18:13:59Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -331,57 +384,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 58.46
-        },
-        {
-          "id": 1381311704,
-          "name": "agent-safe-tools",
-          "fullName": "wangke-112/agent-safe-tools",
-          "url": "https://github.com/wangke-112/agent-safe-tools",
-          "homepage": "",
-          "description": "Ask your AI coding agent, in natural language, to search production logs or inspect a database — safely. Two drop-in MCP servers (MySQL, SSH logs) keep safety red lines in code: read-only by default, dangerous SQL/shell blocked, production disabled, no stored credentials. A recommended Skill layer teaches the model when and how to use them.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T10:51:18Z",
-          "updatedAt": "2026-09-23T05:53:40Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 56.6
-        },
-        {
-          "id": 1378221825,
-          "name": "chatgpt-codex-handoff",
-          "fullName": "nftstillup/chatgpt-codex-handoff",
-          "url": "https://github.com/nftstillup/chatgpt-codex-handoff",
-          "homepage": "",
-          "description": "A restricted, auditable handoff bridge between ChatGPT-compatible MCP clients and Codex-oriented local workers.",
-          "stars": 4,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-20T10:36:22Z",
-          "updatedAt": "2026-09-21T15:36:46Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 52.87
+          "score": 53.67
         }
       ]
     },
@@ -393,46 +396,71 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-16",
-      "totalCandidates": 18,
+      "createdSince": "2026-09-17",
+      "totalCandidates": 17,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 5,
+          "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 0,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790185959"
+          "rateLimitReset": "1790230199"
         }
       ],
       "repositories": [
+        {
+          "id": 1382159140,
+          "name": "cve-2026-87902-poc",
+          "fullName": "ressl/cve-2026-87902-poc",
+          "url": "https://github.com/ressl/cve-2026-87902-poc",
+          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
+          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
+          "stars": 26,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T18:40:26Z",
+          "updatedAt": "2026-09-24T03:34:24Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 115.04
+        },
         {
           "id": 1381755166,
           "name": "MCPBastion",
@@ -457,7 +485,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 108.43
+          "score": 106.53
         },
         {
           "id": 1373915794,
@@ -481,7 +509,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 103
+          "score": 101.26
         },
         {
           "id": 1374583864,
@@ -490,12 +518,12 @@
           "url": "https://github.com/leepokai/jev-guard",
           "homepage": "",
           "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
-          "stars": 28,
+          "stars": 30,
           "forks": 4,
           "openIssues": 4,
           "language": "JavaScript",
           "createdAt": "2026-09-17T14:39:28Z",
-          "updatedAt": "2026-09-23T15:44:19Z",
+          "updatedAt": "2026-09-24T04:50:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -506,32 +534,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 100.83
-        },
-        {
-          "id": 1382159140,
-          "name": "cve-2026-87902-poc",
-          "fullName": "ressl/cve-2026-87902-poc",
-          "url": "https://github.com/ressl/cve-2026-87902-poc",
-          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
-          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 16,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-23T17:11:39Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 97.47
+          "score": 100.6
         },
         {
           "id": 1377739225,
@@ -556,7 +559,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 96.31
+          "score": 94.41
         },
         {
           "id": 1376238661,
@@ -581,21 +584,21 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 95.7
+          "score": 93.8
         },
         {
-          "id": 1373039122,
-          "name": "LLM-OWASP-LAB",
-          "fullName": "riteshs4hu/LLM-OWASP-LAB",
-          "url": "https://github.com/riteshs4hu/LLM-OWASP-LAB",
+          "id": 1380956148,
+          "name": "hetzner-cloud-audit-skills",
+          "fullName": "jpolec/hetzner-cloud-audit-skills",
+          "url": "https://github.com/jpolec/hetzner-cloud-audit-skills",
           "homepage": "",
-          "description": "Vulnerable AI applications and hands-on labs for learning the OWASP Top 10 for Large Language Model Applications.",
-          "stars": 13,
-          "forks": 7,
+          "description": "Evidence-backed attack paths, drift, and cost auditing for Hetzner Cloud.",
+          "stars": 7,
+          "forks": 0,
           "openIssues": 0,
-          "language": "CSS",
-          "createdAt": "2026-09-16T12:57:34Z",
-          "updatedAt": "2026-09-23T05:31:42Z",
+          "language": "Python",
+          "createdAt": "2026-09-22T06:05:46Z",
+          "updatedAt": "2026-09-23T22:14:34Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -606,7 +609,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.32
+          "score": 75.62
         },
         {
           "id": 1377719085,
@@ -620,7 +623,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-19T23:56:11Z",
-          "updatedAt": "2026-09-22T20:21:53Z",
+          "updatedAt": "2026-09-23T19:38:54Z",
           "matchedProfiles": [
             "网络安全",
             "防守 / 蓝队"
@@ -633,34 +636,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 77.44
-        },
-        {
-          "id": 1373620723,
-          "name": "dev101x-pentest-lab",
-          "fullName": "DevCop95/dev101x-pentest-lab",
-          "url": "https://github.com/DevCop95/dev101x-pentest-lab",
-          "homepage": "",
-          "description": "Self-contained Docker Pro Lab for pentest practice: boolean blind SQLi + hashcat cracking, web path traversal, command injection, internal network pivoting and SUID PATH-hijack privesc — with live flag validation and completion certificate. No VPN needed.",
-          "stars": 9,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-16T20:43:31Z",
-          "updatedAt": "2026-09-21T14:35:49Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 74.58
+          "score": 75.31
         },
         {
           "id": 1377735633,
@@ -684,21 +660,21 @@
           "tags": [
             "防守 / 蓝队"
           ],
-          "score": 74.1
+          "score": 71.97
         },
         {
-          "id": 1372895358,
-          "name": "easy-unlocker",
-          "fullName": "cyancity/easy-unlocker",
-          "url": "https://github.com/cyancity/easy-unlocker",
-          "homepage": "https://easy-unlocker.pages.dev",
-          "description": "Secrets management for AI agents: approve API keys and credentials on your phone with biometrics, delivered end-to-end encrypted into the target process. Plaintext never enters the chat, logs, or relay.",
-          "stars": 10,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Kotlin",
-          "createdAt": "2026-09-16T10:53:15Z",
-          "updatedAt": "2026-09-18T10:49:23Z",
+          "id": 1381898187,
+          "name": "wdk-policy-guard",
+          "fullName": "FlashyLabs/wdk-policy-guard",
+          "url": "https://github.com/FlashyLabs/wdk-policy-guard",
+          "homepage": "https://flashygroup.com",
+          "description": "⚡ A spending-policy layer for wallets on Tether's WDK: per-agent envelopes graded before anything signs — asset, destination, per-transaction and daily caps. Three verdicts, always with a reason: ALLOW, ESCALATE, DENY. Apache-2.0 — npm install @flashy/wdk-policy-guard. The policy is open; the money it guards is not.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 3,
+          "language": "JavaScript",
+          "createdAt": "2026-09-22T16:08:56Z",
+          "updatedAt": "2026-09-23T21:30:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -709,7 +685,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 68.53
+          "score": 70.65
         },
         {
           "id": 1376780621,
@@ -718,12 +694,12 @@
           "url": "https://github.com/CogFlux/farhand",
           "homepage": "farhand.cogflux.io",
           "description": "Remote hands for coding agents: an MCP server that runs OpenCode / Claude Code / Codex work on a remote host over SSH, keeps credentials and the local machine closed, and audits everything",
-          "stars": 7,
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-09-19T05:46:43Z",
-          "updatedAt": "2026-09-23T15:08:47Z",
+          "updatedAt": "2026-09-24T03:17:25Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -734,7 +710,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.33
+          "score": 69.64
         },
         {
           "id": 1377626696,
@@ -759,7 +735,7 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 65.69
+          "score": 63.79
         },
         {
           "id": 1374311929,
@@ -784,32 +760,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 64.95
-        },
-        {
-          "id": 1373399541,
-          "name": "Capgate",
-          "fullName": "jersonboydmilan/Capgate",
-          "url": "https://github.com/jersonboydmilan/Capgate",
-          "homepage": "",
-          "description": "Capgate — runtime authority boundary for autonomous AI agents: the agent proposes, the harness authorizes, the executor acts. Deny-by-default policy, non-transitive delegation, tamper-evident audit, MCP gateway, containerised isolation.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-16T17:15:05Z",
-          "updatedAt": "2026-09-21T02:45:52Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 50.53
+          "score": 63.05
         }
       ]
     }
