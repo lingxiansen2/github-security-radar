@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-24T17:52:05.092Z",
+  "generatedAt": "2026-09-25T06:09:03.220Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-09-21",
+      "createdSince": "2026-09-22",
       "totalCandidates": 20,
       "queryStats": [
         {
@@ -41,63 +41,38 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         }
       ],
       "repositories": [
-        {
-          "id": 1382159140,
-          "name": "cve-2026-87902-poc",
-          "fullName": "ressl/cve-2026-87902-poc",
-          "url": "https://github.com/ressl/cve-2026-87902-poc",
-          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
-          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 29,
-          "forks": 5,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-24T11:48:18Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 108.47
-        },
         {
           "id": 1381282828,
           "name": "capped-fetch",
@@ -105,12 +80,12 @@
           "url": "https://github.com/agentscope-ai-java/capped-fetch",
           "homepage": "",
           "description": "Node fetch with hard size, compression-ratio and time limits. Stops gzip bombs mid-stream.",
-          "stars": 32,
+          "stars": 49,
           "forks": 2,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-22T10:31:16Z",
-          "updatedAt": "2026-09-24T17:08:25Z",
+          "updatedAt": "2026-09-25T05:12:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -121,7 +96,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 103.93
+          "score": 110.02
+        },
+        {
+          "id": 1382159140,
+          "name": "cve-2026-87902-poc",
+          "fullName": "ressl/cve-2026-87902-poc",
+          "url": "https://github.com/ressl/cve-2026-87902-poc",
+          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
+          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
+          "stars": 30,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T18:40:26Z",
+          "updatedAt": "2026-09-25T01:45:19Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 104.86
         },
         {
           "id": 1381755166,
@@ -147,7 +147,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 94.2
+          "score": 89.76
         },
         {
           "id": 1382868003,
@@ -156,12 +156,12 @@
           "url": "https://github.com/arif-offsec/funkmykali",
           "homepage": "",
           "description": "Full Kali Linux tool installer for HTB CPTS, OffSec OSCP, TCM Security PNPT/PJPT, INE eJPT/eCPPT, and TryHackMe PT1/PT2. Covers all 28 HTB Academy Penetration Tester Path modules. System-wide, zero-error, community-sourced — 100+ pentesting tools from a single command.",
-          "stars": 5,
+          "stars": 9,
           "forks": 1,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-09-23T06:14:56Z",
-          "updatedAt": "2026-09-24T15:09:42Z",
+          "updatedAt": "2026-09-25T05:28:27Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -172,7 +172,58 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 79.85
+          "score": 88.47
+        },
+        {
+          "id": 1385167327,
+          "name": "keelflow",
+          "fullName": "Perruer/keelflow",
+          "url": "https://github.com/Perruer/keelflow",
+          "homepage": "https://github.com/Perruer/keelflow#quick-start",
+          "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "TypeScript",
+          "createdAt": "2026-09-24T09:31:18Z",
+          "updatedAt": "2026-09-25T06:00:07Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 83.08
+        },
+        {
+          "id": 1380956148,
+          "name": "hetzner-cloud-audit-skills",
+          "fullName": "jpolec/hetzner-cloud-audit-skills",
+          "url": "https://github.com/jpolec/hetzner-cloud-audit-skills",
+          "homepage": "",
+          "description": "Evidence-backed attack paths, drift, and cost auditing for Hetzner Cloud.",
+          "stars": 11,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T06:05:46Z",
+          "updatedAt": "2026-09-25T04:51:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 70.61
         },
         {
           "id": 1385480414,
@@ -199,7 +250,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 70.97
+          "score": 65.74
         },
         {
           "id": 1382927828,
@@ -213,7 +264,7 @@
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-09-23T07:01:19Z",
-          "updatedAt": "2026-09-24T13:58:32Z",
+          "updatedAt": "2026-09-25T05:04:29Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -226,32 +277,34 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 67.95
+          "score": 63.51
         },
         {
-          "id": 1380956148,
-          "name": "hetzner-cloud-audit-skills",
-          "fullName": "jpolec/hetzner-cloud-audit-skills",
-          "url": "https://github.com/jpolec/hetzner-cloud-audit-skills",
+          "id": 1384788540,
+          "name": "cybershield2026",
+          "fullName": "Xnuvers007/cybershield2026",
+          "url": "https://github.com/Xnuvers007/cybershield2026",
           "homepage": "",
-          "description": "Evidence-backed attack paths, drift, and cost auditing for Hetzner Cloud.",
-          "stars": 9,
+          "description": "CYBERSHIELD 2026: Lab Praktik Keamanan Web Interaktif berbasis OWASP Top 10. Mempelajari celah keamanan web (SQLi, XSS, IDOR, RCE, dll) dari sudut pandang penyerang (Vuln) dan developer (Secure Coding). Dibuat khusus untuk tujuan edukasi.",
+          "stars": 2,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T06:05:46Z",
-          "updatedAt": "2026-09-24T11:16:17Z",
+          "openIssues": 1,
+          "language": "PHP",
+          "createdAt": "2026-09-24T05:53:39Z",
+          "updatedAt": "2026-09-25T00:46:55Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1
+            1.08,
+            1.18
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
+            "网络安全",
+            "渗透 / 红队"
           ],
-          "score": 66.69
+          "score": 62.82
         },
         {
           "id": 1384598800,
@@ -277,7 +330,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 61.5
+          "score": 56.71
         },
         {
           "id": 1381024510,
@@ -313,32 +366,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 60.55
-        },
-        {
-          "id": 1381898187,
-          "name": "wdk-policy-guard",
-          "fullName": "FlashyLabs/wdk-policy-guard",
-          "url": "https://github.com/FlashyLabs/wdk-policy-guard",
-          "homepage": "https://flashygroup.com",
-          "description": "⚡ A spending-policy layer for wallets on Tether's WDK: per-agent envelopes graded before anything signs — asset, destination, per-transaction and daily caps. Three verdicts, always with a reason: ALLOW, ESCALATE, DENY. Apache-2.0 — npm install @flashy/wdk-policy-guard. The policy is open; the money it guards is not.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 3,
-          "language": "JavaScript",
-          "createdAt": "2026-09-22T16:08:56Z",
-          "updatedAt": "2026-09-23T21:30:04Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 58.58
+          "score": 55.32
         },
         {
           "id": 1381899085,
@@ -363,32 +391,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 58.58
-        },
-        {
-          "id": 1383259298,
-          "name": "SycoTool",
-          "fullName": "hex0user/SycoTool",
-          "url": "https://github.com/hex0user/SycoTool",
-          "homepage": "https://t.me/mylinuxlife",
-          "description": "Automated APK payload builder for security testing. Exfiltrates device photos to Telegram, supports custom redirect URLs, icon/name rebranding, and full sign/align pipeline. Kali Linux & NetHunter.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-09-23T10:58:22Z",
-          "updatedAt": "2026-09-24T14:54:36Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 54.91
+          "score": 54.15
         }
       ]
     },
@@ -400,71 +403,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-17",
-      "totalCandidates": 18,
+      "createdSince": "2026-09-18",
+      "totalCandidates": 17,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790272378"
+          "rateLimitReset": "1790316596"
         }
       ],
       "repositories": [
-        {
-          "id": 1382159140,
-          "name": "cve-2026-87902-poc",
-          "fullName": "ressl/cve-2026-87902-poc",
-          "url": "https://github.com/ressl/cve-2026-87902-poc",
-          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
-          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 29,
-          "forks": 5,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-24T11:48:18Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 118.21
-        },
         {
           "id": 1381282828,
           "name": "capped-fetch",
@@ -472,12 +450,12 @@
           "url": "https://github.com/agentscope-ai-java/capped-fetch",
           "homepage": "",
           "description": "Node fetch with hard size, compression-ratio and time limits. Stops gzip bombs mid-stream.",
-          "stars": 32,
+          "stars": 49,
           "forks": 2,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-22T10:31:16Z",
-          "updatedAt": "2026-09-24T17:08:25Z",
+          "updatedAt": "2026-09-25T05:12:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -488,7 +466,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 115.35
+          "score": 123.98
+        },
+        {
+          "id": 1382159140,
+          "name": "cve-2026-87902-poc",
+          "fullName": "ressl/cve-2026-87902-poc",
+          "url": "https://github.com/ressl/cve-2026-87902-poc",
+          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
+          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
+          "stars": 30,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T18:40:26Z",
+          "updatedAt": "2026-09-25T01:45:19Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 117.14
         },
         {
           "id": 1381755166,
@@ -514,56 +517,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 104.72
+          "score": 102.82
         },
         {
-          "id": 1374583864,
-          "name": "jev-guard",
-          "fullName": "leepokai/jev-guard",
-          "url": "https://github.com/leepokai/jev-guard",
+          "id": 1382868003,
+          "name": "funkmykali",
+          "fullName": "arif-offsec/funkmykali",
+          "url": "https://github.com/arif-offsec/funkmykali",
           "homepage": "",
-          "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
-          "stars": 33,
-          "forks": 4,
+          "description": "Full Kali Linux tool installer for HTB CPTS, OffSec OSCP, TCM Security PNPT/PJPT, INE eJPT/eCPPT, and TryHackMe PT1/PT2. Covers all 28 HTB Academy Penetration Tester Path modules. System-wide, zero-error, community-sourced — 100+ pentesting tools from a single command.",
+          "stars": 9,
+          "forks": 1,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-09-17T14:39:28Z",
-          "updatedAt": "2026-09-24T17:26:35Z",
+          "language": "Shell",
+          "createdAt": "2026-09-23T06:14:56Z",
+          "updatedAt": "2026-09-25T05:28:27Z",
           "matchedProfiles": [
-            "通用安全"
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1
+            1.18
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 101.61
-        },
-        {
-          "id": 1373915794,
-          "name": "awesome-cissp",
-          "fullName": "vitalsecurity/awesome-cissp",
-          "url": "https://github.com/vitalsecurity/awesome-cissp",
-          "homepage": "",
-          "description": "A last-mile CISSP guide for security architects: the business side of cyber (risk, governance, law, and the manager mindset)",
-          "stars": 22,
-          "forks": 6,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-17T04:15:38Z",
-          "updatedAt": "2026-09-23T05:31:42Z",
-          "matchedProfiles": [
+            "渗透 / 红队",
             "网络安全"
           ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 101.26
+          "score": 100.13
         },
         {
           "id": 1377739225,
@@ -588,7 +567,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.59
+          "score": 90.69
         },
         {
           "id": 1376238661,
@@ -613,32 +592,33 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 91.99
+          "score": 90.08
         },
         {
-          "id": 1382868003,
-          "name": "funkmykali",
-          "fullName": "arif-offsec/funkmykali",
-          "url": "https://github.com/arif-offsec/funkmykali",
-          "homepage": "",
-          "description": "Full Kali Linux tool installer for HTB CPTS, OffSec OSCP, TCM Security PNPT/PJPT, INE eJPT/eCPPT, and TryHackMe PT1/PT2. Covers all 28 HTB Academy Penetration Tester Path modules. System-wide, zero-error, community-sourced — 100+ pentesting tools from a single command.",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-09-23T06:14:56Z",
-          "updatedAt": "2026-09-24T15:09:42Z",
+          "id": 1385167327,
+          "name": "keelflow",
+          "fullName": "Perruer/keelflow",
+          "url": "https://github.com/Perruer/keelflow",
+          "homepage": "https://github.com/Perruer/keelflow#quick-start",
+          "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "TypeScript",
+          "createdAt": "2026-09-24T09:31:18Z",
+          "updatedAt": "2026-09-25T06:00:07Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队",
+            "通用安全",
+            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 88.52
+          "score": 87.34
         },
         {
           "id": 1380956148,
@@ -647,12 +627,12 @@
           "url": "https://github.com/jpolec/hetzner-cloud-audit-skills",
           "homepage": "",
           "description": "Evidence-backed attack paths, drift, and cost auditing for Hetzner Cloud.",
-          "stars": 9,
-          "forks": 0,
+          "stars": 11,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-22T06:05:46Z",
-          "updatedAt": "2026-09-24T11:16:17Z",
+          "updatedAt": "2026-09-25T04:51:21Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -663,7 +643,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.02
+          "score": 85.46
+        },
+        {
+          "id": 1376780621,
+          "name": "farhand",
+          "fullName": "CogFlux/farhand",
+          "url": "https://github.com/CogFlux/farhand",
+          "homepage": "farhand.cogflux.io",
+          "description": "Remote hands for coding agents: an MCP server that runs OpenCode / Claude Code / Codex work on a remote host over SSH, keeps credentials and the local machine closed, and audits everything",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-09-19T05:46:43Z",
+          "updatedAt": "2026-09-25T05:03:17Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 72.19
         },
         {
           "id": 1377719085,
@@ -690,32 +695,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 73.28
-        },
-        {
-          "id": 1376780621,
-          "name": "farhand",
-          "fullName": "CogFlux/farhand",
-          "url": "https://github.com/CogFlux/farhand",
-          "homepage": "farhand.cogflux.io",
-          "description": "Remote hands for coding agents: an MCP server that runs OpenCode / Claude Code / Codex work on a remote host over SSH, keeps credentials and the local machine closed, and audits everything",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-19T05:46:43Z",
-          "updatedAt": "2026-09-24T16:11:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 70.09
+          "score": 71.15
         },
         {
           "id": 1377735633,
@@ -739,21 +719,21 @@
           "tags": [
             "防守 / 蓝队"
           ],
-          "score": 69.93
+          "score": 67.81
         },
         {
-          "id": 1374311929,
-          "name": "libsp",
-          "fullName": "Flatpack-sonc/libsp",
-          "url": "https://github.com/Flatpack-sonc/libsp",
-          "homepage": "https://github.com/Flatpack-sonc/libsp",
-          "description": "C11 UTF-8 arena strings and lexical paths: join-under against traversal, NUL, and PATH_MAX bugs.",
-          "stars": 9,
+          "id": 1381898187,
+          "name": "wdk-policy-guard",
+          "fullName": "FlashyLabs/wdk-policy-guard",
+          "url": "https://github.com/FlashyLabs/wdk-policy-guard",
+          "homepage": "https://flashygroup.com",
+          "description": "⚡ A spending-policy layer for wallets on Tether's WDK: per-agent envelopes graded before anything signs — asset, destination, per-transaction and daily caps. Three verdicts, always with a reason: ALLOW, ESCALATE, DENY. Apache-2.0 — npm install @flashy/wdk-policy-guard. The policy is open; the money it guards is not.",
+          "stars": 5,
           "forks": 0,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-09-17T11:12:47Z",
-          "updatedAt": "2026-09-23T14:52:55Z",
+          "openIssues": 3,
+          "language": "JavaScript",
+          "createdAt": "2026-09-22T16:08:56Z",
+          "updatedAt": "2026-09-23T21:30:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -764,7 +744,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.27
+          "score": 66.94
+        },
+        {
+          "id": 1377626696,
+          "name": "Golang-REVoid",
+          "fullName": "NIKJOO/Golang-REVoid",
+          "url": "https://github.com/NIKJOO/Golang-REVoid",
+          "homepage": "",
+          "description": "Go_VM — Delphi Go Source Virtualizer & Obfuscator",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Pascal",
+          "createdAt": "2026-09-19T21:25:02Z",
+          "updatedAt": "2026-09-24T21:08:25Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 63.14
         }
       ]
     }
