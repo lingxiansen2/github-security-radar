@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-26T06:09:17.710Z",
+  "generatedAt": "2026-09-26T17:12:31.116Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -41,102 +41,51 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         }
       ],
       "repositories": [
-        {
-          "id": 1385252572,
-          "name": "json-guard",
-          "fullName": "agentscope-ai-java/json-guard",
-          "url": "https://github.com/agentscope-ai-java/json-guard",
-          "homepage": "",
-          "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
-          "stars": 54,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-24T10:30:02Z",
-          "updatedAt": "2026-09-26T06:01:36Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 114.77
-        },
-        {
-          "id": 1385167327,
-          "name": "keelflow",
-          "fullName": "Perruer/keelflow",
-          "url": "https://github.com/Perruer/keelflow",
-          "homepage": "https://github.com/Perruer/keelflow#quick-start",
-          "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
-          "stars": 32,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "TypeScript",
-          "createdAt": "2026-09-24T09:31:18Z",
-          "updatedAt": "2026-09-26T04:19:46Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 105.46
-        },
         {
           "id": 1388193962,
           "name": "The-BlackHAT-roadmap",
           "fullName": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
           "url": "https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
           "homepage": "",
-          "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources.",
-          "stars": 7,
+          "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines, 150+ Diagram across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources",
+          "stars": 17,
           "forks": 2,
           "openIssues": 0,
           "language": "C",
           "createdAt": "2026-09-25T21:12:58Z",
-          "updatedAt": "2026-09-26T00:28:54Z",
+          "updatedAt": "2026-09-26T16:57:55Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -154,7 +103,58 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 101.68
+          "score": 119.87
+        },
+        {
+          "id": 1385252572,
+          "name": "json-guard",
+          "fullName": "agentscope-ai-java/json-guard",
+          "url": "https://github.com/agentscope-ai-java/json-guard",
+          "homepage": "",
+          "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
+          "stars": 68,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-24T10:30:02Z",
+          "updatedAt": "2026-09-26T15:52:46Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 116.57
+        },
+        {
+          "id": 1385167327,
+          "name": "keelflow",
+          "fullName": "Perruer/keelflow",
+          "url": "https://github.com/Perruer/keelflow",
+          "homepage": "https://github.com/Perruer/keelflow#quick-start",
+          "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
+          "stars": 33,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "TypeScript",
+          "createdAt": "2026-09-24T09:31:18Z",
+          "updatedAt": "2026-09-26T08:28:40Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 102.22
         },
         {
           "id": 1387401857,
@@ -180,7 +180,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 99.7
+          "score": 95.7
         },
         {
           "id": 1382868003,
@@ -205,7 +205,32 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 78.24
+          "score": 78.2
+        },
+        {
+          "id": 1389356520,
+          "name": "egressmap",
+          "fullName": "VibhorGautam/egressmap",
+          "url": "https://github.com/VibhorGautam/egressmap",
+          "homepage": "https://www.npmjs.com/package/egressmap",
+          "description": "See every server your AI coding agent talks to, live on a 3D globe. Block the ones you didn't allow.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-09-26T14:47:12Z",
+          "updatedAt": "2026-09-26T16:46:39Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 71.66
         },
         {
           "id": 1385270810,
@@ -219,7 +244,7 @@
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-09-24T10:44:19Z",
-          "updatedAt": "2026-09-25T09:44:47Z",
+          "updatedAt": "2026-09-26T11:00:06Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -229,21 +254,21 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 71.81
+          "score": 67.1
         },
         {
           "id": 1386662624,
           "name": "labloop",
           "fullName": "cloudcell/labloop",
           "url": "https://github.com/cloudcell/labloop",
-          "homepage": "https://loop.cloudcell.workers.dev",
+          "homepage": "https://loop.cloudcell.workers.dev/docs",
           "description": "Secure, reproducible KVM lab for agent-driven ML research: per-user VMs with driver / trusted / hostile zone isolation, plus five standalone scientific-state MCP servers",
           "stars": 4,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-25T03:18:48Z",
-          "updatedAt": "2026-09-26T00:19:08Z",
+          "updatedAt": "2026-09-26T16:45:27Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -254,7 +279,59 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 69.18
+          "score": 65.19
+        },
+        {
+          "id": 1386852595,
+          "name": "android-bugbounty-class-notes-notion",
+          "fullName": "Raunaksplanet/android-bugbounty-class-notes-notion",
+          "url": "https://github.com/Raunaksplanet/android-bugbounty-class-notes-notion",
+          "homepage": "",
+          "description": "Android bug bounty & pentesting class notes — emulator setup, APK analysis, Burp Suite interception, SSL pinning & root-detection bypass, intents & deeplinks.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-25T05:50:03Z",
+          "updatedAt": "2026-09-26T12:44:35Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 64.92
+        },
+        {
+          "id": 1388186051,
+          "name": "Falcon-Toolkit",
+          "fullName": "0xf9o/Falcon-Toolkit",
+          "url": "https://github.com/0xf9o/Falcon-Toolkit",
+          "homepage": "",
+          "description": "Standalone, concurrent network auditing & surface mapping framework in Go with a Cyberpunk TUI, dynamic YAML signatures, and local graph storage.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-09-25T21:03:12Z",
+          "updatedAt": "2026-09-26T16:04:06Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 59.1
         },
         {
           "id": 1387047227,
@@ -278,7 +355,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 63.67
+          "score": 58.96
         },
         {
           "id": 1388112292,
@@ -303,86 +380,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.86
-        },
-        {
-          "id": 1386852595,
-          "name": "android-bugbounty-class-notes-notion",
-          "fullName": "Raunaksplanet/android-bugbounty-class-notes-notion",
-          "url": "https://github.com/Raunaksplanet/android-bugbounty-class-notes-notion",
-          "homepage": "",
-          "description": "Android bug bounty & pentesting class notes — emulator setup, APK analysis, Burp Suite interception, SSL pinning & root-detection bypass, intents & deeplinks.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-25T05:50:03Z",
-          "updatedAt": "2026-09-26T00:59:48Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 62.8
-        },
-        {
-          "id": 1386081334,
-          "name": "lsass_tooling_analysis",
-          "fullName": "HackingLZ/lsass_tooling_analysis",
-          "url": "https://github.com/HackingLZ/lsass_tooling_analysis",
-          "homepage": "",
-          "description": "Source-only LSASS tooling analysis, AI-generated .NET research artifacts, and defensive detection coverage.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-09-24T17:48:16Z",
-          "updatedAt": "2026-09-25T13:59:30Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 59.04
-        },
-        {
-          "id": 1387163350,
-          "name": "practical-chatgpt-skills",
-          "fullName": "armando71988padilla-cloud/practical-chatgpt-skills",
-          "url": "https://github.com/armando71988padilla-cloud/practical-chatgpt-skills",
-          "homepage": "",
-          "description": "Open-source ChatGPT Skills for safer development, debugging, Git, architecture, security, and system administration.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-25T09:08:40Z",
-          "updatedAt": "2026-09-25T13:40:36Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 58.77
+          "score": 58.55
         }
       ]
     },
@@ -395,42 +393,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-09-19",
-      "totalCandidates": 19,
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790403011"
+          "rateLimitReset": "1790442804"
         }
       ],
       "repositories": [
@@ -457,7 +455,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 130.62
+          "score": 128.91
         },
         {
           "id": 1385252572,
@@ -466,12 +464,12 @@
           "url": "https://github.com/agentscope-ai-java/json-guard",
           "homepage": "",
           "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
-          "stars": 54,
+          "stars": 68,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-24T10:30:02Z",
-          "updatedAt": "2026-09-26T06:01:36Z",
+          "updatedAt": "2026-09-26T15:52:46Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -482,7 +480,39 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 123.78
+          "score": 127.86
+        },
+        {
+          "id": 1388193962,
+          "name": "The-BlackHAT-roadmap",
+          "fullName": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+          "url": "https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+          "homepage": "",
+          "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines, 150+ Diagram across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources",
+          "stars": 17,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-09-25T21:12:58Z",
+          "updatedAt": "2026-09-26T16:57:55Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 124.74
         },
         {
           "id": 1385167327,
@@ -491,12 +521,12 @@
           "url": "https://github.com/Perruer/keelflow",
           "homepage": "https://github.com/Perruer/keelflow#quick-start",
           "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
-          "stars": 32,
+          "stars": 33,
           "forks": 1,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-09-24T09:31:18Z",
-          "updatedAt": "2026-09-26T04:19:46Z",
+          "updatedAt": "2026-09-26T08:28:40Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -508,7 +538,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 114.67
+          "score": 113.71
         },
         {
           "id": 1382159140,
@@ -533,36 +563,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 114.22
-        },
-        {
-          "id": 1388193962,
-          "name": "The-BlackHAT-roadmap",
-          "fullName": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
-          "url": "https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
-          "homepage": "",
-          "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources.",
-          "stars": 7,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-09-25T21:12:58Z",
-          "updatedAt": "2026-09-26T00:28:54Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 103.86
+          "score": 112.51
         },
         {
           "id": 1387401857,
@@ -588,7 +589,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 103.45
+          "score": 101.74
         },
         {
           "id": 1381755166,
@@ -614,7 +615,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 99.1
+          "score": 97.39
         },
         {
           "id": 1382868003,
@@ -639,7 +640,32 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 95.75
+          "score": 93.73
+        },
+        {
+          "id": 1380956148,
+          "name": "hetzner-cloud-audit-skills",
+          "fullName": "jpolec/hetzner-cloud-audit-skills",
+          "url": "https://github.com/jpolec/hetzner-cloud-audit-skills",
+          "homepage": "",
+          "description": "Evidence-backed attack paths, drift, and cost auditing for Hetzner Cloud.",
+          "stars": 15,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T06:05:46Z",
+          "updatedAt": "2026-09-26T17:00:41Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 87
         },
         {
           "id": 1377739225,
@@ -664,32 +690,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 86.98
-        },
-        {
-          "id": 1380956148,
-          "name": "hetzner-cloud-audit-skills",
-          "fullName": "jpolec/hetzner-cloud-audit-skills",
-          "url": "https://github.com/jpolec/hetzner-cloud-audit-skills",
-          "homepage": "",
-          "description": "Evidence-backed attack paths, drift, and cost auditing for Hetzner Cloud.",
-          "stars": 12,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T06:05:46Z",
-          "updatedAt": "2026-09-25T06:12:04Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 83.67
+          "score": 85.27
         },
         {
           "id": 1385270810,
@@ -703,7 +704,7 @@
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-09-24T10:44:19Z",
-          "updatedAt": "2026-09-25T09:44:47Z",
+          "updatedAt": "2026-09-26T11:00:06Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -713,7 +714,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 82.38
+          "score": 80.36
         },
         {
           "id": 1376780621,
@@ -722,12 +723,12 @@
           "url": "https://github.com/CogFlux/farhand",
           "homepage": "farhand.cogflux.io",
           "description": "Remote hands for coding agents: an MCP server that runs OpenCode / Claude Code / Codex work on a remote host over SSH, keeps credentials and the local machine closed, and audits everything",
-          "stars": 14,
+          "stars": 15,
           "forks": 0,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-09-19T05:46:43Z",
-          "updatedAt": "2026-09-25T17:22:21Z",
+          "updatedAt": "2026-09-26T11:09:01Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -738,7 +739,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72
+          "score": 73.57
         },
         {
           "id": 1377719085,
@@ -765,7 +766,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 66.99
+          "score": 65.07
         },
         {
           "id": 1377735633,
@@ -789,7 +790,7 @@
           "tags": [
             "防守 / 蓝队"
           ],
-          "score": 63.64
+          "score": 61.73
         },
         {
           "id": 1377626696,
@@ -814,7 +815,7 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 62.16
+          "score": 60.45
         }
       ]
     }
