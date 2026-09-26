@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-25T17:57:36.910Z",
+  "generatedAt": "2026-09-26T06:09:17.710Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,71 +33,46 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-09-22",
-      "totalCandidates": 26,
+      "createdSince": "2026-09-23",
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         }
       ],
       "repositories": [
-        {
-          "id": 1381282828,
-          "name": "capped-fetch",
-          "fullName": "agentscope-ai-java/capped-fetch",
-          "url": "https://github.com/agentscope-ai-java/capped-fetch",
-          "homepage": "",
-          "description": "Node fetch with hard size, compression-ratio and time limits. Stops gzip bombs mid-stream.",
-          "stars": 74,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-22T10:31:16Z",
-          "updatedAt": "2026-09-25T16:04:01Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 118.8
-        },
         {
           "id": 1385252572,
           "name": "json-guard",
@@ -105,12 +80,12 @@
           "url": "https://github.com/agentscope-ai-java/json-guard",
           "homepage": "",
           "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
-          "stars": 42,
+          "stars": 54,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-24T10:30:02Z",
-          "updatedAt": "2026-09-25T16:53:20Z",
+          "updatedAt": "2026-09-26T06:01:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -121,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 112.91
+          "score": 114.77
         },
         {
           "id": 1385167327,
@@ -130,12 +105,12 @@
           "url": "https://github.com/Perruer/keelflow",
           "homepage": "https://github.com/Perruer/keelflow#quick-start",
           "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
-          "stars": 28,
+          "stars": 32,
           "forks": 1,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-09-24T09:31:18Z",
-          "updatedAt": "2026-09-25T17:24:34Z",
+          "updatedAt": "2026-09-26T04:19:46Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -147,7 +122,39 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 106.61
+          "score": 105.46
+        },
+        {
+          "id": 1388193962,
+          "name": "The-BlackHAT-roadmap",
+          "fullName": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+          "url": "https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+          "homepage": "",
+          "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources.",
+          "stars": 7,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-09-25T21:12:58Z",
+          "updatedAt": "2026-09-26T00:28:54Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 101.68
         },
         {
           "id": 1387401857,
@@ -173,58 +180,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 104.1
-        },
-        {
-          "id": 1382159140,
-          "name": "cve-2026-87902-poc",
-          "fullName": "ressl/cve-2026-87902-poc",
-          "url": "https://github.com/ressl/cve-2026-87902-poc",
-          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
-          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 30,
-          "forks": 5,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-25T01:45:19Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 100.6
-        },
-        {
-          "id": 1381755166,
-          "name": "MCPBastion",
-          "fullName": "Matthew0822/MCPBastion",
-          "url": "https://github.com/Matthew0822/MCPBastion",
-          "homepage": "",
-          "description": "Zero-trust security gateway between AI agents and MCP servers: scoped capabilities, redaction, rate and cost limits, and verifiable session logs.",
-          "stars": 20,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-22T14:52:43Z",
-          "updatedAt": "2026-09-22T18:09:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 86.61
+          "score": 99.7
         },
         {
           "id": 1382868003,
@@ -249,7 +205,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 83.44
+          "score": 78.24
         },
         {
           "id": 1385270810,
@@ -273,32 +229,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 77
-        },
-        {
-          "id": 1380956148,
-          "name": "hetzner-cloud-audit-skills",
-          "fullName": "jpolec/hetzner-cloud-audit-skills",
-          "url": "https://github.com/jpolec/hetzner-cloud-audit-skills",
-          "homepage": "",
-          "description": "Evidence-backed attack paths, drift, and cost auditing for Hetzner Cloud.",
-          "stars": 12,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T06:05:46Z",
-          "updatedAt": "2026-09-25T06:12:04Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 72.53
+          "score": 71.81
         },
         {
           "id": 1386662624,
@@ -308,11 +239,11 @@
           "homepage": "https://loop.cloudcell.workers.dev",
           "description": "Secure, reproducible KVM lab for agent-driven ML research: per-user VMs with driver / trusted / hostile zone isolation, plus five standalone scientific-state MCP servers",
           "stars": 4,
-          "forks": 1,
+          "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-25T03:18:48Z",
-          "updatedAt": "2026-09-25T13:09:10Z",
+          "updatedAt": "2026-09-26T00:19:08Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -323,7 +254,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.24
+          "score": 69.18
         },
         {
           "id": 1387047227,
@@ -347,7 +278,60 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 68.86
+          "score": 63.67
+        },
+        {
+          "id": 1388112292,
+          "name": "PasswordGuardian",
+          "fullName": "faizi-cybsec/PasswordGuardian",
+          "url": "https://github.com/faizi-cybsec/PasswordGuardian",
+          "homepage": "https://faizi-cybsec.github.io/",
+          "description": "C++ cybersecurity toolkit for password strength analysis, entropy and crack-time estimation, secure password generation, and privacy-preserving breach checking.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C++",
+          "createdAt": "2026-09-25T19:38:26Z",
+          "updatedAt": "2026-09-25T20:43:56Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 62.86
+        },
+        {
+          "id": 1386852595,
+          "name": "android-bugbounty-class-notes-notion",
+          "fullName": "Raunaksplanet/android-bugbounty-class-notes-notion",
+          "url": "https://github.com/Raunaksplanet/android-bugbounty-class-notes-notion",
+          "homepage": "",
+          "description": "Android bug bounty & pentesting class notes — emulator setup, APK analysis, Burp Suite interception, SSL pinning & root-detection bypass, intents & deeplinks.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-25T05:50:03Z",
+          "updatedAt": "2026-09-26T00:59:48Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "防守 / 蓝队"
+          ],
+          "score": 62.8
         },
         {
           "id": 1386081334,
@@ -373,7 +357,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 63.8
+          "score": 59.04
+        },
+        {
+          "id": 1387163350,
+          "name": "practical-chatgpt-skills",
+          "fullName": "armando71988padilla-cloud/practical-chatgpt-skills",
+          "url": "https://github.com/armando71988padilla-cloud/practical-chatgpt-skills",
+          "homepage": "",
+          "description": "Open-source ChatGPT Skills for safer development, debugging, Git, architecture, security, and system administration.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-25T09:08:40Z",
+          "updatedAt": "2026-09-25T13:40:36Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 58.77
         }
       ]
     },
@@ -385,43 +394,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-18",
-      "totalCandidates": 18,
+      "createdSince": "2026-09-19",
+      "totalCandidates": 19,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790359109"
+          "rateLimitReset": "1790403011"
         }
       ],
       "repositories": [
@@ -448,7 +457,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 132.51
+          "score": 130.62
         },
         {
           "id": 1385252572,
@@ -457,12 +466,12 @@
           "url": "https://github.com/agentscope-ai-java/json-guard",
           "homepage": "",
           "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
-          "stars": 42,
+          "stars": 54,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-24T10:30:02Z",
-          "updatedAt": "2026-09-25T16:53:20Z",
+          "updatedAt": "2026-09-26T06:01:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -473,32 +482,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 119.4
-        },
-        {
-          "id": 1382159140,
-          "name": "cve-2026-87902-poc",
-          "fullName": "ressl/cve-2026-87902-poc",
-          "url": "https://github.com/ressl/cve-2026-87902-poc",
-          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
-          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 30,
-          "forks": 5,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-25T01:45:19Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 115.31
+          "score": 123.78
         },
         {
           "id": 1385167327,
@@ -507,12 +491,12 @@
           "url": "https://github.com/Perruer/keelflow",
           "homepage": "https://github.com/Perruer/keelflow#quick-start",
           "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
-          "stars": 28,
+          "stars": 32,
           "forks": 1,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-09-24T09:31:18Z",
-          "updatedAt": "2026-09-25T17:24:34Z",
+          "updatedAt": "2026-09-26T04:19:46Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -524,7 +508,61 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 113.3
+          "score": 114.67
+        },
+        {
+          "id": 1382159140,
+          "name": "cve-2026-87902-poc",
+          "fullName": "ressl/cve-2026-87902-poc",
+          "url": "https://github.com/ressl/cve-2026-87902-poc",
+          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
+          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
+          "stars": 31,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T18:40:26Z",
+          "updatedAt": "2026-09-26T00:40:19Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 114.22
+        },
+        {
+          "id": 1388193962,
+          "name": "The-BlackHAT-roadmap",
+          "fullName": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+          "url": "https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+          "homepage": "",
+          "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources.",
+          "stars": 7,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-09-25T21:12:58Z",
+          "updatedAt": "2026-09-26T00:28:54Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 103.86
         },
         {
           "id": 1387401857,
@@ -550,7 +588,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 105.34
+          "score": 103.45
         },
         {
           "id": 1381755166,
@@ -576,7 +614,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 100.99
+          "score": 99.1
         },
         {
           "id": 1382868003,
@@ -601,32 +639,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 97.97
-        },
-        {
-          "id": 1376238661,
-          "name": "agent-chaperone",
-          "fullName": "agent-chaperone/agent-chaperone",
-          "url": "https://github.com/agent-chaperone/agent-chaperone",
-          "homepage": "https://agentchaperone.dev",
-          "description": "Screens an AI agent's tool calls before they run and tool results before the agent reads them. An MCP proxy plus a hooks adapter for a client's built-in tools.",
-          "stars": 21,
-          "forks": 4,
-          "openIssues": 8,
-          "language": "TypeScript",
-          "createdAt": "2026-09-18T17:52:36Z",
-          "updatedAt": "2026-09-25T07:32:03Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 90.71
+          "score": 95.75
         },
         {
           "id": 1377739225,
@@ -651,7 +664,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 88.86
+          "score": 86.98
         },
         {
           "id": 1380956148,
@@ -676,7 +689,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 85.55
+          "score": 83.67
         },
         {
           "id": 1385270810,
@@ -700,7 +713,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 84.61
+          "score": 82.38
         },
         {
           "id": 1376780621,
@@ -725,7 +738,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.83
+          "score": 72
         },
         {
           "id": 1377719085,
@@ -752,7 +765,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 69.1
+          "score": 66.99
         },
         {
           "id": 1377735633,
@@ -776,7 +789,7 @@
           "tags": [
             "防守 / 蓝队"
           ],
-          "score": 65.76
+          "score": 63.64
         },
         {
           "id": 1377626696,
@@ -801,7 +814,7 @@
             "通用安全",
             "逆向 / 恶意代码"
           ],
-          "score": 64.04
+          "score": 62.16
         }
       ]
     }
