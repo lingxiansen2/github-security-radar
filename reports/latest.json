@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-27T06:35:46.400Z",
+  "generatedAt": "2026-09-27T17:46:16.435Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,70 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-24",
-      "totalCandidates": 26,
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         }
       ],
       "repositories": [
+        {
+          "id": 1385252572,
+          "name": "json-guard",
+          "fullName": "agentscope-ai-java/json-guard",
+          "url": "https://github.com/agentscope-ai-java/json-guard",
+          "homepage": "",
+          "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
+          "stars": 79,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-24T10:30:02Z",
+          "updatedAt": "2026-09-27T15:20:40Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 114.12
+        },
         {
           "id": 1388193962,
           "name": "The-BlackHAT-roadmap",
@@ -103,32 +128,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 118.66
-        },
-        {
-          "id": 1385252572,
-          "name": "json-guard",
-          "fullName": "agentscope-ai-java/json-guard",
-          "url": "https://github.com/agentscope-ai-java/json-guard",
-          "homepage": "",
-          "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
-          "stars": 76,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-24T10:30:02Z",
-          "updatedAt": "2026-09-27T05:42:38Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 114.55
+          "score": 113.89
         },
         {
           "id": 1385167327,
@@ -154,7 +154,31 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 97.38
+          "score": 96.33
+        },
+        {
+          "id": 1390659260,
+          "name": "CyberCodex",
+          "fullName": "prox0959/CyberCodex",
+          "url": "https://github.com/prox0959/CyberCodex",
+          "homepage": "",
+          "description": "Autonomous 22-Source Zero-Cost OSINT, Data Breach/Leak, Infostealer & Threat Intelligence CLI Engine + Unbiased Cyber Warfare Encyclopedia (11 Languages, Zero Dependencies) (by @prox0959).",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-27T10:57:00Z",
+          "updatedAt": "2026-09-27T16:34:15Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 90
         },
         {
           "id": 1387401857,
@@ -180,32 +204,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 90.87
-        },
-        {
-          "id": 1386679206,
-          "name": "deno-lockfile-diff",
-          "fullName": "agentscope-ai-java/deno-lockfile-diff",
-          "url": "https://github.com/agentscope-ai-java/deno-lockfile-diff",
-          "homepage": "",
-          "description": "Turn a deno.lock diff into prioritised supply-chain signals — new raw-URL imports, integrity changes, registry moves.",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-25T03:31:32Z",
-          "updatedAt": "2026-09-27T05:27:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 87.83
+          "score": 86.83
         },
         {
           "id": 1386680481,
@@ -230,7 +229,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 87.83
+          "score": 83.8
+        },
+        {
+          "id": 1386679206,
+          "name": "deno-lockfile-diff",
+          "fullName": "agentscope-ai-java/deno-lockfile-diff",
+          "url": "https://github.com/agentscope-ai-java/deno-lockfile-diff",
+          "homepage": "",
+          "description": "Turn a deno.lock diff into prioritised supply-chain signals — new raw-URL imports, integrity changes, registry moves.",
+          "stars": 20,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-25T03:31:32Z",
+          "updatedAt": "2026-09-27T05:27:42Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 83.79
         },
         {
           "id": 1390008864,
@@ -244,7 +268,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-27T02:57:22Z",
-          "updatedAt": "2026-09-27T04:44:27Z",
+          "updatedAt": "2026-09-27T12:25:59Z",
           "matchedProfiles": [
             "防守 / 蓝队"
           ],
@@ -255,32 +279,7 @@
             "防守 / 蓝队",
             "AI 自动化 / Skill"
           ],
-          "score": 74.46
-        },
-        {
-          "id": 1389356520,
-          "name": "egressmap",
-          "fullName": "VibhorGautam/egressmap",
-          "url": "https://github.com/VibhorGautam/egressmap",
-          "homepage": "https://www.npmjs.com/package/egressmap",
-          "description": "See every server your AI coding agent talks to, live on a 3D globe. Block the ones you didn't allow.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-09-26T14:47:12Z",
-          "updatedAt": "2026-09-26T16:46:39Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.82
+          "score": 69.94
         },
         {
           "id": 1386662624,
@@ -289,12 +288,12 @@
           "url": "https://github.com/cloudcell/labloop",
           "homepage": "https://loop.cloudcell.workers.dev/docs",
           "description": "Secure, reproducible KVM lab for agent-driven ML research: per-user VMs with driver / trusted / hostile zone isolation, plus five standalone scientific-state MCP servers",
-          "stars": 5,
+          "stars": 6,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-25T03:18:48Z",
-          "updatedAt": "2026-09-27T05:06:38Z",
+          "updatedAt": "2026-09-27T15:00:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -305,7 +304,60 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 64.35
+          "score": 63.79
+        },
+        {
+          "id": 1389675320,
+          "name": "centauri-aegis",
+          "fullName": "muzel7024-netizen/centauri-aegis",
+          "url": "https://github.com/muzel7024-netizen/centauri-aegis",
+          "homepage": "",
+          "description": "Automated LLM red-teaming, prompt injection testing, and adversarial security evaluation suite with zero-overhead heuristic scoring, adaptive mutations, and SARIF/executive reporting.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-26T18:51:44Z",
+          "updatedAt": "2026-09-27T06:57:24Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 63.4
+        },
+        {
+          "id": 1386406717,
+          "name": "opencode-seatbelt",
+          "fullName": "ssmirr/opencode-seatbelt",
+          "url": "https://github.com/ssmirr/opencode-seatbelt",
+          "homepage": "",
+          "description": "A real kernel sandbox for OpenCode on macOS 🛡️",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-24T21:51:09Z",
+          "updatedAt": "2026-09-27T12:09:24Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 61.27
         },
         {
           "id": 1385270810,
@@ -329,59 +381,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 61.39
-        },
-        {
-          "id": 1388186051,
-          "name": "Falcon-Toolkit",
-          "fullName": "0xf9o/Falcon-Toolkit",
-          "url": "https://github.com/0xf9o/Falcon-Toolkit",
-          "homepage": "",
-          "description": "Standalone, concurrent network auditing & surface mapping framework in Go with a Cyberpunk TUI, dynamic YAML signatures, and local graph storage.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-09-25T21:03:12Z",
-          "updatedAt": "2026-09-27T05:30:10Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 60.14
-        },
-        {
-          "id": 1386852595,
-          "name": "android-bugbounty-class-notes-notion",
-          "fullName": "Raunaksplanet/android-bugbounty-class-notes-notion",
-          "url": "https://github.com/Raunaksplanet/android-bugbounty-class-notes-notion",
-          "homepage": "",
-          "description": "Android bug bounty & pentesting class notes — emulator setup, APK analysis, Burp Suite interception, SSL pinning & root-detection bypass, intents & deeplinks.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-25T05:50:03Z",
-          "updatedAt": "2026-09-26T12:44:35Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 59.22
+          "score": 59.63
         }
       ]
     },
@@ -394,42 +394,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-09-20",
-      "totalCandidates": 19,
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 5,
+          "fetched": 6,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790490999"
+          "rateLimitReset": "1790531229"
         }
       ],
       "repositories": [
@@ -440,12 +440,12 @@
           "url": "https://github.com/agentscope-ai-java/json-guard",
           "homepage": "",
           "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
-          "stars": 76,
+          "stars": 79,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-24T10:30:02Z",
-          "updatedAt": "2026-09-27T05:42:38Z",
+          "updatedAt": "2026-09-27T15:20:40Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -456,7 +456,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 128.6
+          "score": 127.85
         },
         {
           "id": 1381282828,
@@ -481,7 +481,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 126.84
+          "score": 125.11
         },
         {
           "id": 1388193962,
@@ -513,7 +513,32 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 126.78
+          "score": 124.74
+        },
+        {
+          "id": 1382159140,
+          "name": "cve-2026-87902-poc",
+          "fullName": "ressl/cve-2026-87902-poc",
+          "url": "https://github.com/ressl/cve-2026-87902-poc",
+          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
+          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
+          "stars": 32,
+          "forks": 6,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-22T18:40:26Z",
+          "updatedAt": "2026-09-27T16:10:55Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 110.37
         },
         {
           "id": 1385167327,
@@ -539,32 +564,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 111.64
-        },
-        {
-          "id": 1382159140,
-          "name": "cve-2026-87902-poc",
-          "fullName": "ressl/cve-2026-87902-poc",
-          "url": "https://github.com/ressl/cve-2026-87902-poc",
-          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
-          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 31,
-          "forks": 5,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-26T00:40:19Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 110.44
+          "score": 109.91
         },
         {
           "id": 1387401857,
@@ -590,7 +590,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 99.67
+          "score": 97.94
         },
         {
           "id": 1386679206,
@@ -615,7 +615,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 98.37
+          "score": 96.64
         },
         {
           "id": 1386680481,
@@ -640,7 +640,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 98.37
+          "score": 96.64
         },
         {
           "id": 1381755166,
@@ -666,7 +666,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 95.32
+          "score": 93.59
         },
         {
           "id": 1382868003,
@@ -691,7 +691,56 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 93.95
+          "score": 91.91
+        },
+        {
+          "id": 1390659260,
+          "name": "CyberCodex",
+          "fullName": "prox0959/CyberCodex",
+          "url": "https://github.com/prox0959/CyberCodex",
+          "homepage": "",
+          "description": "Autonomous 22-Source Zero-Cost OSINT, Data Breach/Leak, Infostealer & Threat Intelligence CLI Engine + Unbiased Cyber Warfare Encyclopedia (11 Languages, Zero Dependencies) (by @prox0959).",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-27T10:57:00Z",
+          "updatedAt": "2026-09-27T16:34:15Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 91.52
+        },
+        {
+          "id": 1377739225,
+          "name": "footprint-osint",
+          "fullName": "BillyBobMcgee/footprint-osint",
+          "url": "https://github.com/BillyBobMcgee/footprint-osint",
+          "homepage": "",
+          "description": "Defensive OSINT exposure checker: see what an email, password, domain or username leaks in public breach data. No API keys. CLI + local web GUI.",
+          "stars": 19,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-20T00:31:20Z",
+          "updatedAt": "2026-09-27T17:20:10Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 85.4
         },
         {
           "id": 1380956148,
@@ -705,7 +754,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-22T06:05:46Z",
-          "updatedAt": "2026-09-26T19:04:52Z",
+          "updatedAt": "2026-09-27T09:59:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -716,32 +765,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 86.41
-        },
-        {
-          "id": 1377739225,
-          "name": "footprint-osint",
-          "fullName": "BillyBobMcgee/footprint-osint",
-          "url": "https://github.com/BillyBobMcgee/footprint-osint",
-          "homepage": "",
-          "description": "Defensive OSINT exposure checker: see what an email, password, domain or username leaks in public breach data. No API keys. CLI + local web GUI.",
-          "stars": 18,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-20T00:31:20Z",
-          "updatedAt": "2026-09-22T16:59:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 84.13
+          "score": 84.68
         },
         {
           "id": 1385270810,
@@ -765,7 +789,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 77.92
+          "score": 75.88
         },
         {
           "id": 1381024510,
@@ -798,7 +822,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 68.49
+          "score": 66.45
         },
         {
           "id": 1377735633,
