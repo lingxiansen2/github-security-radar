@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-28T06:50:29.321Z",
+  "generatedAt": "2026-09-28T20:07:51.547Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,70 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-25",
-      "totalCandidates": 26,
+      "totalCandidates": 28,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         }
       ],
       "repositories": [
+        {
+          "id": 1392971873,
+          "name": "action-dist-verify",
+          "fullName": "kofiadeyemiq/action-dist-verify",
+          "url": "https://github.com/kofiadeyemiq/action-dist-verify",
+          "homepage": "",
+          "description": "Rebuild the JavaScript GitHub Actions your workflows pin and check that their committed dist matches the source.",
+          "stars": 13,
+          "forks": 10,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-28T14:43:40Z",
+          "updatedAt": "2026-09-28T20:00:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 108.21
+        },
         {
           "id": 1388193962,
           "name": "The-BlackHAT-roadmap",
@@ -103,7 +128,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 108.32
+          "score": 102.66
         },
         {
           "id": 1390659260,
@@ -112,12 +137,12 @@
           "url": "https://github.com/prox0959/CyberCodex",
           "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
           "description": "Autonomous 23-Source Zero-Cost OSINT, Binary Image Forensics (EXIF/GPS/Stego), Data Breach/Leak & Threat Intelligence Engine in Pure Python",
-          "stars": 11,
+          "stars": 20,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-27T10:57:00Z",
-          "updatedAt": "2026-09-28T00:06:26Z",
+          "updatedAt": "2026-09-28T18:59:47Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -129,7 +154,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 92.26
+          "score": 101.83
         },
         {
           "id": 1391734033,
@@ -155,7 +180,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 88.5
+          "score": 83.32
         },
         {
           "id": 1391733190,
@@ -181,191 +206,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 88.5
-        },
-        {
-          "id": 1387401857,
-          "name": "importmap-lint",
-          "fullName": "agentscope-ai-java/importmap-lint",
-          "url": "https://github.com/agentscope-ai-java/importmap-lint",
-          "homepage": "",
-          "description": "Validate import maps against the HTML spec resolution algorithm, and flag unversioned CDN entries.",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-25T11:56:54Z",
-          "updatedAt": "2026-09-25T15:01:28Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 82.11
-        },
-        {
-          "id": 1391732072,
-          "name": "genpark-constant-time-crypto-validator-skill",
-          "fullName": "Alpha-Park/genpark-constant-time-crypto-validator-skill",
-          "url": "https://github.com/Alpha-Park/genpark-constant-time-crypto-validator-skill",
-          "homepage": "",
-          "description": "Side-channel timing attack defense primitive providing constant-time bitwise and string digest comparison for agent security credentials.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T03:44:44Z",
-          "updatedAt": "2026-09-28T03:45:18Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 81.94
-        },
-        {
-          "id": 1391731026,
-          "name": "genpark-constant-time-crypto-validator-skill",
-          "fullName": "alphaparkinc/genpark-constant-time-crypto-validator-skill",
-          "url": "https://github.com/alphaparkinc/genpark-constant-time-crypto-validator-skill",
-          "homepage": "",
-          "description": "Side-channel timing attack defense primitive providing constant-time bitwise and string digest comparison for agent security credentials.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T03:44:07Z",
-          "updatedAt": "2026-09-28T03:44:43Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 81.94
-        },
-        {
-          "id": 1391730050,
-          "name": "genpark-schnorr-zero-knowledge-prover-skill",
-          "fullName": "Alpha-Park/genpark-schnorr-zero-knowledge-prover-skill",
-          "url": "https://github.com/Alpha-Park/genpark-schnorr-zero-knowledge-prover-skill",
-          "homepage": "",
-          "description": "Interactive Schnorr Zero-Knowledge Identification (ZKP) protocol proving private key knowledge via 3-pass commitment, challenge, and response.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T03:43:35Z",
-          "updatedAt": "2026-09-28T03:44:06Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 81.93
-        },
-        {
-          "id": 1391729112,
-          "name": "genpark-schnorr-zero-knowledge-prover-skill",
-          "fullName": "alphaparkinc/genpark-schnorr-zero-knowledge-prover-skill",
-          "url": "https://github.com/alphaparkinc/genpark-schnorr-zero-knowledge-prover-skill",
-          "homepage": "",
-          "description": "Interactive Schnorr Zero-Knowledge Identification (ZKP) protocol proving private key knowledge via 3-pass commitment, challenge, and response.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T03:43:04Z",
-          "updatedAt": "2026-09-28T03:43:33Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 81.93
-        },
-        {
-          "id": 1391728133,
-          "name": "genpark-jwt-hmac-sha256-token-attestation-skill",
-          "fullName": "Alpha-Park/genpark-jwt-hmac-sha256-token-attestation-skill",
-          "url": "https://github.com/Alpha-Park/genpark-jwt-hmac-sha256-token-attestation-skill",
-          "homepage": "",
-          "description": "Cryptographic JSON Web Token (JWT) engine with RFC 7519 HMAC-SHA256 signature verification, claims validation, and expiration enforcement.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T03:42:29Z",
-          "updatedAt": "2026-09-28T03:43:02Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 81.93
-        },
-        {
-          "id": 1391727408,
-          "name": "genpark-jwt-hmac-sha256-token-attestation-skill",
-          "fullName": "alphaparkinc/genpark-jwt-hmac-sha256-token-attestation-skill",
-          "url": "https://github.com/alphaparkinc/genpark-jwt-hmac-sha256-token-attestation-skill",
-          "homepage": "",
-          "description": "Cryptographic JSON Web Token (JWT) engine with RFC 7519 HMAC-SHA256 signature verification, claims validation, and expiration enforcement.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T03:41:55Z",
-          "updatedAt": "2026-09-28T03:42:26Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 81.92
+          "score": 83.32
         },
         {
           "id": 1386679206,
@@ -391,6 +232,157 @@
             "AI 自动化 / Skill"
           ],
           "score": 80.27
+        },
+        {
+          "id": 1386680481,
+          "name": "duckdb-extension-audit",
+          "fullName": "agentscope-ai-java/duckdb-extension-audit",
+          "url": "https://github.com/agentscope-ai-java/duckdb-extension-audit",
+          "homepage": "",
+          "description": "Audit which DuckDB extensions a project loads, their origin and signature state, and flag unsigned loading.",
+          "stars": 20,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-25T03:32:27Z",
+          "updatedAt": "2026-09-26T19:19:03Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 80.27
+        },
+        {
+          "id": 1387401857,
+          "name": "importmap-lint",
+          "fullName": "agentscope-ai-java/importmap-lint",
+          "url": "https://github.com/agentscope-ai-java/importmap-lint",
+          "homepage": "",
+          "description": "Validate import maps against the HTML spec resolution algorithm, and flag unversioned CDN entries.",
+          "stars": 20,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-25T11:56:54Z",
+          "updatedAt": "2026-09-25T15:01:28Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 80.27
+        },
+        {
+          "id": 1392359960,
+          "name": "genpark-pedersen-commitment-homomorphic-skill",
+          "fullName": "Alpha-Park/genpark-pedersen-commitment-homomorphic-skill",
+          "url": "https://github.com/Alpha-Park/genpark-pedersen-commitment-homomorphic-skill",
+          "homepage": "",
+          "description": "Homomorphic cryptographic Pedersen commitments with blinding factors and additive verification",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-28T09:52:45Z",
+          "updatedAt": "2026-09-28T09:53:16Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.36
+        },
+        {
+          "id": 1392358077,
+          "name": "genpark-schnorr-signature-discrete-log-skill",
+          "fullName": "Alpha-Park/genpark-schnorr-signature-discrete-log-skill",
+          "url": "https://github.com/Alpha-Park/genpark-schnorr-signature-discrete-log-skill",
+          "homepage": "",
+          "description": "Schnorr signature scheme and non-interactive zero-knowledge identification verification",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-28T09:51:37Z",
+          "updatedAt": "2026-09-28T09:52:04Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.35
+        },
+        {
+          "id": 1392355728,
+          "name": "genpark-diffie-hellman-key-exchange-rfc3526-skill",
+          "fullName": "alphaparkinc/genpark-diffie-hellman-key-exchange-rfc3526-skill",
+          "url": "https://github.com/alphaparkinc/genpark-diffie-hellman-key-exchange-rfc3526-skill",
+          "homepage": "",
+          "description": "Diffie-Hellman key agreement with RFC 3526 2048-bit MODP groups and HKDF derivation",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-28T09:50:11Z",
+          "updatedAt": "2026-09-28T09:50:37Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.34
+        },
+        {
+          "id": 1392353517,
+          "name": "genpark-elliptic-curve-secp256k1-point-math-skill",
+          "fullName": "Alpha-Park/genpark-elliptic-curve-secp256k1-point-math-skill",
+          "url": "https://github.com/Alpha-Park/genpark-elliptic-curve-secp256k1-point-math-skill",
+          "homepage": "",
+          "description": "Weierstrass elliptic curve arithmetic, affine point addition, and double-and-add scalar multiplication",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-28T09:48:48Z",
+          "updatedAt": "2026-09-28T09:49:15Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 79.33
         }
       ]
     },
@@ -403,42 +395,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-09-21",
-      "totalCandidates": 22,
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 10,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790578282"
+          "rateLimitReset": "1790626124"
         }
       ],
       "repositories": [
@@ -449,12 +441,12 @@
           "url": "https://github.com/agentscope-ai-java/json-guard",
           "homepage": "",
           "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
-          "stars": 80,
+          "stars": 85,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-24T10:30:02Z",
-          "updatedAt": "2026-09-27T19:19:25Z",
+          "updatedAt": "2026-09-28T17:08:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -465,7 +457,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 126.15
+          "score": 125.63
         },
         {
           "id": 1381282828,
@@ -490,7 +482,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 123.09
+          "score": 121.03
         },
         {
           "id": 1388193962,
@@ -522,7 +514,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 122.36
+          "score": 119.93
         },
         {
           "id": 1382159140,
@@ -531,12 +523,12 @@
           "url": "https://github.com/ressl/cve-2026-87902-poc",
           "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
           "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 35,
-          "forks": 7,
+          "stars": 37,
+          "forks": 8,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-28T06:49:26Z",
+          "updatedAt": "2026-09-28T19:54:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -547,7 +539,83 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 111.32
+          "score": 111.31
+        },
+        {
+          "id": 1392971873,
+          "name": "action-dist-verify",
+          "fullName": "kofiadeyemiq/action-dist-verify",
+          "url": "https://github.com/kofiadeyemiq/action-dist-verify",
+          "homepage": "",
+          "description": "Rebuild the JavaScript GitHub Actions your workflows pin and check that their committed dist matches the source.",
+          "stars": 13,
+          "forks": 10,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-28T14:43:40Z",
+          "updatedAt": "2026-09-28T20:00:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 109.33
+        },
+        {
+          "id": 1390659260,
+          "name": "CyberCodex",
+          "fullName": "prox0959/CyberCodex",
+          "url": "https://github.com/prox0959/CyberCodex",
+          "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
+          "description": "Autonomous 23-Source Zero-Cost OSINT, Binary Image Forensics (EXIF/GPS/Stego), Data Breach/Leak & Threat Intelligence Engine in Pure Python",
+          "stars": 20,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-27T10:57:00Z",
+          "updatedAt": "2026-09-28T18:59:47Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 109.23
+        },
+        {
+          "id": 1382868003,
+          "name": "funkmykali",
+          "fullName": "arif-offsec/funkmykali",
+          "url": "https://github.com/arif-offsec/funkmykali",
+          "homepage": "",
+          "description": "Full Kali Linux tool installer for HTB CPTS, OffSec OSCP, TCM Security PNPT/PJPT, INE eJPT/eCPPT, and TryHackMe PT1/PT2. Covers all 28 HTB Academy Penetration Tester Path modules. System-wide, zero-error, community-sourced — 100+ pentesting tools from a single command.",
+          "stars": 19,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-09-23T06:14:56Z",
+          "updatedAt": "2026-09-28T15:46:13Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 107
         },
         {
           "id": 1385167327,
@@ -573,58 +641,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 107.88
-        },
-        {
-          "id": 1382868003,
-          "name": "funkmykali",
-          "fullName": "arif-offsec/funkmykali",
-          "url": "https://github.com/arif-offsec/funkmykali",
-          "homepage": "",
-          "description": "Full Kali Linux tool installer for HTB CPTS, OffSec OSCP, TCM Security PNPT/PJPT, INE eJPT/eCPPT, and TryHackMe PT1/PT2. Covers all 28 HTB Academy Penetration Tester Path modules. System-wide, zero-error, community-sourced — 100+ pentesting tools from a single command.",
-          "stars": 13,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-09-23T06:14:56Z",
-          "updatedAt": "2026-09-28T04:19:41Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 99.12
-        },
-        {
-          "id": 1390659260,
-          "name": "CyberCodex",
-          "fullName": "prox0959/CyberCodex",
-          "url": "https://github.com/prox0959/CyberCodex",
-          "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
-          "description": "Autonomous 23-Source Zero-Cost OSINT, Binary Image Forensics (EXIF/GPS/Stego), Data Breach/Leak & Threat Intelligence Engine in Pure Python",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-27T10:57:00Z",
-          "updatedAt": "2026-09-28T00:06:26Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 96.69
+          "score": 105.83
         },
         {
           "id": 1387401857,
@@ -650,32 +667,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 95.92
-        },
-        {
-          "id": 1386680481,
-          "name": "duckdb-extension-audit",
-          "fullName": "agentscope-ai-java/duckdb-extension-audit",
-          "url": "https://github.com/agentscope-ai-java/duckdb-extension-audit",
-          "homepage": "",
-          "description": "Audit which DuckDB extensions a project loads, their origin and signature state, and flag unsigned loading.",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-25T03:32:27Z",
-          "updatedAt": "2026-09-26T19:19:03Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 94.62
+          "score": 93.86
         },
         {
           "id": 1386679206,
@@ -700,7 +692,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 94.61
+          "score": 92.56
+        },
+        {
+          "id": 1386680481,
+          "name": "duckdb-extension-audit",
+          "fullName": "agentscope-ai-java/duckdb-extension-audit",
+          "url": "https://github.com/agentscope-ai-java/duckdb-extension-audit",
+          "homepage": "",
+          "description": "Audit which DuckDB extensions a project loads, their origin and signature state, and flag unsigned loading.",
+          "stars": 20,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-25T03:32:27Z",
+          "updatedAt": "2026-09-26T19:19:03Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 92.56
         },
         {
           "id": 1381755166,
@@ -726,7 +743,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 91.57
+          "score": 89.51
         },
         {
           "id": 1391734033,
@@ -752,7 +769,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 89.19
+          "score": 86.97
         },
         {
           "id": 1391733190,
@@ -778,7 +795,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 89.19
+          "score": 86.97
         },
         {
           "id": 1380956148,
@@ -803,7 +820,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.66
+          "score": 80.6
+        },
+        {
+          "id": 1390008864,
+          "name": "jailbreak-archive",
+          "fullName": "qtjg/jailbreak-archive",
+          "url": "https://github.com/qtjg/jailbreak-archive",
+          "homepage": "https://github.com/qtjg/jailbreak-archive",
+          "description": "A structured, versioned, and reproducible archive of adversarial prompt engineering techniques against Large Language Models. For AI safety research, red-teaming, and defensive hardening.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-27T02:57:22Z",
+          "updatedAt": "2026-09-28T15:09:08Z",
+          "matchedProfiles": [
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1.12
+          ],
+          "tags": [
+            "防守 / 蓝队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 78.58
         },
         {
           "id": 1385270810,
@@ -827,32 +869,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 77.58
-        },
-        {
-          "id": 1386406717,
-          "name": "opencode-seatbelt",
-          "fullName": "ssmirr/opencode-seatbelt",
-          "url": "https://github.com/ssmirr/opencode-seatbelt",
-          "homepage": "",
-          "description": "A real kernel sandbox for OpenCode on macOS 🛡️",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-24T21:51:09Z",
-          "updatedAt": "2026-09-27T12:09:24Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 73.26
+          "score": 75.15
         },
         {
           "id": 1381024510,
@@ -885,7 +902,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 64.06
+          "score": 61.64
         }
       ]
     }
