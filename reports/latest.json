@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-28T20:07:51.547Z",
+  "generatedAt": "2026-09-29T06:52:44.524Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-09-25",
-      "totalCandidates": 28,
+      "createdSince": "2026-09-26",
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 7,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         }
       ],
       "repositories": [
@@ -96,39 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 108.21
-        },
-        {
-          "id": 1388193962,
-          "name": "The-BlackHAT-roadmap",
-          "fullName": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
-          "url": "https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
-          "homepage": "",
-          "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines, 150+ Diagram across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources",
-          "stars": 20,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-09-25T21:12:58Z",
-          "updatedAt": "2026-09-26T17:53:45Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 102.66
+          "score": 104.33
         },
         {
           "id": 1390659260,
@@ -137,12 +105,12 @@
           "url": "https://github.com/prox0959/CyberCodex",
           "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
           "description": "Autonomous 23-Source Zero-Cost OSINT, Binary Image Forensics (EXIF/GPS/Stego), Data Breach/Leak & Threat Intelligence Engine in Pure Python",
-          "stars": 20,
+          "stars": 22,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-27T10:57:00Z",
-          "updatedAt": "2026-09-28T18:59:47Z",
+          "updatedAt": "2026-09-29T01:36:44Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -154,7 +122,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 101.83
+          "score": 100.08
         },
         {
           "id": 1391734033,
@@ -180,7 +148,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 83.32
+          "score": 79.13
         },
         {
           "id": 1391733190,
@@ -206,83 +174,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 83.32
-        },
-        {
-          "id": 1386679206,
-          "name": "deno-lockfile-diff",
-          "fullName": "agentscope-ai-java/deno-lockfile-diff",
-          "url": "https://github.com/agentscope-ai-java/deno-lockfile-diff",
-          "homepage": "",
-          "description": "Turn a deno.lock diff into prioritised supply-chain signals — new raw-URL imports, integrity changes, registry moves.",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-25T03:31:32Z",
-          "updatedAt": "2026-09-27T05:27:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 80.27
-        },
-        {
-          "id": 1386680481,
-          "name": "duckdb-extension-audit",
-          "fullName": "agentscope-ai-java/duckdb-extension-audit",
-          "url": "https://github.com/agentscope-ai-java/duckdb-extension-audit",
-          "homepage": "",
-          "description": "Audit which DuckDB extensions a project loads, their origin and signature state, and flag unsigned loading.",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-25T03:32:27Z",
-          "updatedAt": "2026-09-26T19:19:03Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 80.27
-        },
-        {
-          "id": 1387401857,
-          "name": "importmap-lint",
-          "fullName": "agentscope-ai-java/importmap-lint",
-          "url": "https://github.com/agentscope-ai-java/importmap-lint",
-          "homepage": "",
-          "description": "Validate import maps against the HTML spec resolution algorithm, and flag unversioned CDN entries.",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-25T11:56:54Z",
-          "updatedAt": "2026-09-25T15:01:28Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 80.27
+          "score": 79.13
         },
         {
           "id": 1392359960,
@@ -307,7 +199,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.36
+          "score": 75.48
         },
         {
           "id": 1392358077,
@@ -332,7 +224,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.35
+          "score": 75.47
         },
         {
           "id": 1392355728,
@@ -357,7 +249,57 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.34
+          "score": 75.46
+        },
+        {
+          "id": 1392354978,
+          "name": "genpark-shamir-secret-sharing-polynomial-skill",
+          "fullName": "Alpha-Park/genpark-shamir-secret-sharing-polynomial-skill",
+          "url": "https://github.com/Alpha-Park/genpark-shamir-secret-sharing-polynomial-skill",
+          "homepage": "",
+          "description": "Shamir (k, n) threshold secret sharing via Lagrange polynomial interpolation over finite fields",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-28T09:49:43Z",
+          "updatedAt": "2026-09-28T09:50:10Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 75.46
+        },
+        {
+          "id": 1392354358,
+          "name": "genpark-shamir-secret-sharing-polynomial-skill",
+          "fullName": "alphaparkinc/genpark-shamir-secret-sharing-polynomial-skill",
+          "url": "https://github.com/alphaparkinc/genpark-shamir-secret-sharing-polynomial-skill",
+          "homepage": "",
+          "description": "Shamir (k, n) threshold secret sharing via Lagrange polynomial interpolation over finite fields",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-28T09:49:16Z",
+          "updatedAt": "2026-09-28T09:49:50Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 75.45
         },
         {
           "id": 1392353517,
@@ -382,7 +324,59 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 79.33
+          "score": 75.45
+        },
+        {
+          "id": 1392330051,
+          "name": "genpark-dns-wire-protocol-parser-skill",
+          "fullName": "Alpha-Park/genpark-dns-wire-protocol-parser-skill",
+          "url": "https://github.com/Alpha-Park/genpark-dns-wire-protocol-parser-skill",
+          "homepage": "",
+          "description": "DNS binary wire format packet builder, label compression reader, and header parser",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-28T09:34:43Z",
+          "updatedAt": "2026-09-28T09:35:09Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 75.37
+        },
+        {
+          "id": 1392329321,
+          "name": "genpark-dns-wire-protocol-parser-skill",
+          "fullName": "alphaparkinc/genpark-dns-wire-protocol-parser-skill",
+          "url": "https://github.com/alphaparkinc/genpark-dns-wire-protocol-parser-skill",
+          "homepage": "",
+          "description": "DNS binary wire format packet builder, label compression reader, and header parser",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-28T09:34:15Z",
+          "updatedAt": "2026-09-28T09:34:42Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 75.36
         }
       ]
     },
@@ -394,43 +388,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-21",
-      "totalCandidates": 24,
+      "createdSince": "2026-09-22",
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790626124"
+          "rateLimitReset": "1790664817"
         }
       ],
       "repositories": [
@@ -441,12 +435,12 @@
           "url": "https://github.com/agentscope-ai-java/json-guard",
           "homepage": "",
           "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
-          "stars": 85,
+          "stars": 86,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-24T10:30:02Z",
-          "updatedAt": "2026-09-28T17:08:32Z",
+          "updatedAt": "2026-09-28T22:27:49Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -457,7 +451,39 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 125.63
+          "score": 124.26
+        },
+        {
+          "id": 1388193962,
+          "name": "The-BlackHAT-roadmap",
+          "fullName": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+          "url": "https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+          "homepage": "",
+          "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines, 150+ Diagram across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources",
+          "stars": 21,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-09-25T21:12:58Z",
+          "updatedAt": "2026-09-29T03:00:15Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 121.29
         },
         {
           "id": 1381282828,
@@ -482,39 +508,58 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 121.03
+          "score": 119.37
         },
         {
-          "id": 1388193962,
-          "name": "The-BlackHAT-roadmap",
-          "fullName": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
-          "url": "https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
-          "homepage": "",
-          "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines, 150+ Diagram across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources",
-          "stars": 20,
-          "forks": 2,
+          "id": 1390659260,
+          "name": "CyberCodex",
+          "fullName": "prox0959/CyberCodex",
+          "url": "https://github.com/prox0959/CyberCodex",
+          "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
+          "description": "Autonomous 23-Source Zero-Cost OSINT, Binary Image Forensics (EXIF/GPS/Stego), Data Breach/Leak & Threat Intelligence Engine in Pure Python",
+          "stars": 22,
+          "forks": 0,
           "openIssues": 0,
-          "language": "C",
-          "createdAt": "2026-09-25T21:12:58Z",
-          "updatedAt": "2026-09-26T17:53:45Z",
+          "language": "Python",
+          "createdAt": "2026-09-27T10:57:00Z",
+          "updatedAt": "2026-09-29T01:36:44Z",
           "matchedProfiles": [
-            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
             "网络安全",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 109.87
+        },
+        {
+          "id": 1382868003,
+          "name": "funkmykali",
+          "fullName": "arif-offsec/funkmykali",
+          "url": "https://github.com/arif-offsec/funkmykali",
+          "homepage": "",
+          "description": "Full Kali Linux tool installer for HTB CPTS, OffSec OSCP, TCM Security PNPT/PJPT, INE eJPT/eCPPT, and TryHackMe PT1/PT2. Covers all 28 HTB Academy Penetration Tester Path modules. System-wide, zero-error, community-sourced — 100+ pentesting tools from a single command.",
+          "stars": 21,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-09-23T06:14:56Z",
+          "updatedAt": "2026-09-29T02:45:33Z",
+          "matchedProfiles": [
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
-            1.08,
             1.18
           ],
           "tags": [
-            "通用安全",
-            "网络安全",
             "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "网络安全"
           ],
-          "score": 119.93
+          "score": 109.79
         },
         {
           "id": 1382159140,
@@ -539,7 +584,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 111.31
+          "score": 109.64
         },
         {
           "id": 1392971873,
@@ -564,58 +609,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 109.33
-        },
-        {
-          "id": 1390659260,
-          "name": "CyberCodex",
-          "fullName": "prox0959/CyberCodex",
-          "url": "https://github.com/prox0959/CyberCodex",
-          "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
-          "description": "Autonomous 23-Source Zero-Cost OSINT, Binary Image Forensics (EXIF/GPS/Stego), Data Breach/Leak & Threat Intelligence Engine in Pure Python",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-27T10:57:00Z",
-          "updatedAt": "2026-09-28T18:59:47Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 109.23
-        },
-        {
-          "id": 1382868003,
-          "name": "funkmykali",
-          "fullName": "arif-offsec/funkmykali",
-          "url": "https://github.com/arif-offsec/funkmykali",
-          "homepage": "",
-          "description": "Full Kali Linux tool installer for HTB CPTS, OffSec OSCP, TCM Security PNPT/PJPT, INE eJPT/eCPPT, and TryHackMe PT1/PT2. Covers all 28 HTB Academy Penetration Tester Path modules. System-wide, zero-error, community-sourced — 100+ pentesting tools from a single command.",
-          "stars": 19,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-09-23T06:14:56Z",
-          "updatedAt": "2026-09-28T15:46:13Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 107
+          "score": 107.66
         },
         {
           "id": 1385167327,
@@ -624,12 +618,12 @@
           "url": "https://github.com/Perruer/keelflow",
           "homepage": "https://github.com/Perruer/keelflow#quick-start",
           "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
-          "stars": 33,
+          "stars": 34,
           "forks": 1,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-09-24T09:31:18Z",
-          "updatedAt": "2026-09-26T08:28:40Z",
+          "updatedAt": "2026-09-29T02:58:37Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -641,7 +635,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 105.83
+          "score": 104.9
         },
         {
           "id": 1387401857,
@@ -667,32 +661,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 93.86
-        },
-        {
-          "id": 1386679206,
-          "name": "deno-lockfile-diff",
-          "fullName": "agentscope-ai-java/deno-lockfile-diff",
-          "url": "https://github.com/agentscope-ai-java/deno-lockfile-diff",
-          "homepage": "",
-          "description": "Turn a deno.lock diff into prioritised supply-chain signals — new raw-URL imports, integrity changes, registry moves.",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-25T03:31:32Z",
-          "updatedAt": "2026-09-27T05:27:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 92.56
+          "score": 92.2
         },
         {
           "id": 1386680481,
@@ -717,7 +686,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.56
+          "score": 90.9
+        },
+        {
+          "id": 1386679206,
+          "name": "deno-lockfile-diff",
+          "fullName": "agentscope-ai-java/deno-lockfile-diff",
+          "url": "https://github.com/agentscope-ai-java/deno-lockfile-diff",
+          "homepage": "",
+          "description": "Turn a deno.lock diff into prioritised supply-chain signals — new raw-URL imports, integrity changes, registry moves.",
+          "stars": 20,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-25T03:31:32Z",
+          "updatedAt": "2026-09-27T05:27:42Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 90.89
         },
         {
           "id": 1381755166,
@@ -743,7 +737,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 89.51
+          "score": 87.85
         },
         {
           "id": 1391734033,
@@ -769,7 +763,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 86.97
+          "score": 85.17
         },
         {
           "id": 1391733190,
@@ -795,7 +789,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 86.97
+          "score": 85.17
         },
         {
           "id": 1380956148,
@@ -820,7 +814,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.6
+          "score": 79.06
         },
         {
           "id": 1390008864,
@@ -834,7 +828,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-27T02:57:22Z",
-          "updatedAt": "2026-09-28T15:09:08Z",
+          "updatedAt": "2026-09-29T04:15:17Z",
           "matchedProfiles": [
             "防守 / 蓝队"
           ],
@@ -845,7 +839,32 @@
             "防守 / 蓝队",
             "AI 自动化 / Skill"
           ],
-          "score": 78.58
+          "score": 76.72
+        },
+        {
+          "id": 1387039204,
+          "name": "OmniTriage",
+          "fullName": "prox0959/OmniTriage",
+          "url": "https://github.com/prox0959/OmniTriage",
+          "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
+          "description": "Zero-dependency, sub-second Windows live digital forensics & incident response (DFIR) triage engine for USB responders (by @prox0959).",
+          "stars": 5,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-25T07:47:19Z",
+          "updatedAt": "2026-09-29T06:20:56Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 73.61
         },
         {
           "id": 1385270810,
@@ -869,40 +888,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 75.15
-        },
-        {
-          "id": 1381024510,
-          "name": "cybersecurity-framework",
-          "fullName": "5h4d0wn1k/cybersecurity-framework",
-          "url": "https://github.com/5h4d0wn1k/cybersecurity-framework",
-          "homepage": "https://5h4d0wn1k.github.io/cybersecurity-framework/",
-          "description": "Interactive map of everything in cybersecurity: 27 domains, 776 categories, 1067 curated offensive & defensive tools with effort ratings and when-to-use guidance.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 8,
-          "language": "Python",
-          "createdAt": "2026-09-22T07:07:32Z",
-          "updatedAt": "2026-09-26T17:52:34Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18,
-            1.12
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 61.64
+          "score": 73.19
         }
       ]
     }
