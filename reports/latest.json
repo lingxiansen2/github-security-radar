@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-30T06:40:38.190Z",
+  "generatedAt": "2026-09-30T18:27:18.670Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-27",
-      "totalCandidates": 25,
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         }
       ],
       "repositories": [
@@ -96,33 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 115.41
-        },
-        {
-          "id": 1390659260,
-          "name": "CyberCodex",
-          "fullName": "prox0959/CyberCodex",
-          "url": "https://github.com/prox0959/CyberCodex",
-          "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
-          "description": "Autonomous 23-Source Zero-Cost OSINT, Binary Image Forensics (EXIF/GPS/Stego), Data Breach/Leak & Threat Intelligence Engine in Pure Python",
-          "stars": 29,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-27T10:57:00Z",
-          "updatedAt": "2026-09-29T10:55:33Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 97.98
+          "score": 111.16
         },
         {
           "id": 1394603303,
@@ -131,12 +105,12 @@
           "url": "https://github.com/pkhabazi/SentinelToXDR",
           "homepage": "",
           "description": "Assess, convert and deploy Microsoft Sentinel analytics rules as Defender XDR custom detections",
-          "stars": 10,
-          "forks": 0,
+          "stars": 12,
+          "forks": 1,
           "openIssues": 0,
           "language": "PowerShell",
           "createdAt": "2026-09-29T07:16:53Z",
-          "updatedAt": "2026-09-30T04:59:52Z",
+          "updatedAt": "2026-09-30T13:41:22Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -147,7 +121,32 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 82.08
+          "score": 85.83
+        },
+        {
+          "id": 1397292246,
+          "name": "jailbreak-archives",
+          "fullName": "e2sy/jailbreak-archives",
+          "url": "https://github.com/e2sy/jailbreak-archives",
+          "homepage": "https://www.youtube.com/@indiancybersecurity",
+          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Roff",
+          "createdAt": "2026-09-30T07:34:14Z",
+          "updatedAt": "2026-09-30T16:15:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 85.46
         },
         {
           "id": 1395919528,
@@ -156,12 +155,12 @@
           "url": "https://github.com/yeet-src/agentcap",
           "homepage": "https://yeet.cx",
           "description": "eBPF Prometheus exporter for AI-agent activity — per-agent tools, domains, ports, files, CPU & network — with a Grafana dashboard. A yeet service.",
-          "stars": 7,
+          "stars": 8,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-29T16:14:23Z",
-          "updatedAt": "2026-09-30T04:48:21Z",
+          "updatedAt": "2026-09-30T17:27:33Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -172,7 +171,33 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 77.85
+          "score": 76.33
+        },
+        {
+          "id": 1395774256,
+          "name": "phonsint",
+          "fullName": "kaifcodec/phonsint",
+          "url": "https://github.com/kaifcodec/phonsint",
+          "homepage": "",
+          "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-29T15:32:42Z",
+          "updatedAt": "2026-09-30T14:10:07Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 72.16
         },
         {
           "id": 1394823063,
@@ -198,7 +223,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 75.39
+          "score": 71.13
         },
         {
           "id": 1394822295,
@@ -224,7 +249,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 75.38
+          "score": 71.13
         },
         {
           "id": 1392202525,
@@ -249,7 +274,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 73.79
+          "score": 69.54
         },
         {
           "id": 1391734033,
@@ -275,7 +300,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 69.85
+          "score": 65.25
         },
         {
           "id": 1391733190,
@@ -301,7 +326,33 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 69.84
+          "score": 65.25
+        },
+        {
+          "id": 1396216220,
+          "name": "LogSentinel",
+          "fullName": "abinjoyal/LogSentinel",
+          "url": "https://github.com/abinjoyal/LogSentinel",
+          "homepage": "",
+          "description": "High-performance Python security scanner for Nginx, Apache & SSH logs. Detects brute-force attacks, web payloads (SQLi, XSS, LFI) & rate anomalies with interactive Leaflet world maps, Fail2Ban configs, real-time watcher & REST API.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-29T17:48:50Z",
+          "updatedAt": "2026-09-30T18:16:27Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 63.61
         },
         {
           "id": 1396125508,
@@ -325,57 +376,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 67.99
-        },
-        {
-          "id": 1392358077,
-          "name": "genpark-schnorr-signature-discrete-log-skill",
-          "fullName": "Alpha-Park/genpark-schnorr-signature-discrete-log-skill",
-          "url": "https://github.com/Alpha-Park/genpark-schnorr-signature-discrete-log-skill",
-          "homepage": "",
-          "description": "Schnorr signature scheme and non-interactive zero-knowledge identification verification",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T09:51:37Z",
-          "updatedAt": "2026-09-28T09:52:04Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.88
-        },
-        {
-          "id": 1392355728,
-          "name": "genpark-diffie-hellman-key-exchange-rfc3526-skill",
-          "fullName": "alphaparkinc/genpark-diffie-hellman-key-exchange-rfc3526-skill",
-          "url": "https://github.com/alphaparkinc/genpark-diffie-hellman-key-exchange-rfc3526-skill",
-          "homepage": "",
-          "description": "Diffie-Hellman key agreement with RFC 3526 2048-bit MODP groups and HKDF derivation",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T09:50:11Z",
-          "updatedAt": "2026-09-28T09:50:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 66.87
+          "score": 63.4
         }
       ]
     },
@@ -388,42 +389,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-09-23",
-      "totalCandidates": 21,
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790750490"
+          "rateLimitReset": "1790792891"
         }
       ],
       "repositories": [
@@ -434,12 +435,12 @@
           "url": "https://github.com/devZero-Security/redStackPRO",
           "homepage": "",
           "description": "A canvas for red team infrastructure and cyber ranges. Compose a topology, export runnable Terraform and Ansible, and deploy it yourself. Your cloud credentials never leave your machine.",
-          "stars": 75,
-          "forks": 7,
+          "stars": 96,
+          "forks": 8,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-25T16:39:59Z",
-          "updatedAt": "2026-09-30T06:21:14Z",
+          "updatedAt": "2026-09-30T18:25:47Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -450,7 +451,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 144.48
+          "score": 150.01
         },
         {
           "id": 1392971873,
@@ -475,7 +476,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 123.66
+          "score": 121.83
         },
         {
           "id": 1385252572,
@@ -484,12 +485,12 @@
           "url": "https://github.com/agentscope-ai-java/json-guard",
           "homepage": "",
           "description": "JSON.parse with hard limits on nesting depth, key count, string length and input size. Refuses parser bombs before they are allocated.",
-          "stars": 86,
+          "stars": 90,
           "forks": 0,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-09-24T10:30:02Z",
-          "updatedAt": "2026-09-28T22:27:49Z",
+          "updatedAt": "2026-09-30T13:58:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -500,7 +501,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 120.58
+          "score": 119.91
         },
         {
           "id": 1388193962,
@@ -532,33 +533,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 116.94
-        },
-        {
-          "id": 1390659260,
-          "name": "CyberCodex",
-          "fullName": "prox0959/CyberCodex",
-          "url": "https://github.com/prox0959/CyberCodex",
-          "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
-          "description": "Autonomous 23-Source Zero-Cost OSINT, Binary Image Forensics (EXIF/GPS/Stego), Data Breach/Leak & Threat Intelligence Engine in Pure Python",
-          "stars": 29,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-27T10:57:00Z",
-          "updatedAt": "2026-09-29T10:55:33Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 113.07
+          "score": 114.79
         },
         {
           "id": 1382868003,
@@ -567,12 +542,12 @@
           "url": "https://github.com/arif-offsec/funkmykali",
           "homepage": "",
           "description": "Full Kali Linux tool installer for HTB CPTS, OffSec OSCP, TCM Security PNPT/PJPT, INE eJPT/eCPPT, and TryHackMe PT1/PT2. Covers all 28 HTB Academy Penetration Tester Path modules. System-wide, zero-error, community-sourced — 100+ pentesting tools from a single command.",
-          "stars": 21,
+          "stars": 22,
           "forks": 3,
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-09-23T06:14:56Z",
-          "updatedAt": "2026-09-30T02:40:47Z",
+          "updatedAt": "2026-09-30T07:28:26Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -583,7 +558,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 105.52
+          "score": 106.82
         },
         {
           "id": 1385167327,
@@ -592,12 +567,12 @@
           "url": "https://github.com/Perruer/keelflow",
           "homepage": "https://github.com/Perruer/keelflow#quick-start",
           "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
-          "stars": 35,
+          "stars": 36,
           "forks": 1,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-09-24T09:31:18Z",
-          "updatedAt": "2026-09-29T19:23:42Z",
+          "updatedAt": "2026-09-30T11:55:37Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -609,7 +584,57 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 101.92
+          "score": 100.79
+        },
+        {
+          "id": 1394603303,
+          "name": "SentinelToXDR",
+          "fullName": "pkhabazi/SentinelToXDR",
+          "url": "https://github.com/pkhabazi/SentinelToXDR",
+          "homepage": "",
+          "description": "Assess, convert and deploy Microsoft Sentinel analytics rules as Defender XDR custom detections",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-09-29T07:16:53Z",
+          "updatedAt": "2026-09-30T13:41:22Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 93.09
+        },
+        {
+          "id": 1397292246,
+          "name": "jailbreak-archives",
+          "fullName": "e2sy/jailbreak-archives",
+          "url": "https://github.com/e2sy/jailbreak-archives",
+          "homepage": "https://www.youtube.com/@indiancybersecurity",
+          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Roff",
+          "createdAt": "2026-09-30T07:34:14Z",
+          "updatedAt": "2026-09-30T16:15:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 87.88
         },
         {
           "id": 1387401857,
@@ -635,7 +660,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 88.51
+          "score": 86.69
         },
         {
           "id": 1386679206,
@@ -660,7 +685,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 87.21
+          "score": 85.39
         },
         {
           "id": 1386680481,
@@ -685,32 +710,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 87.21
-        },
-        {
-          "id": 1394603303,
-          "name": "SentinelToXDR",
-          "fullName": "pkhabazi/SentinelToXDR",
-          "url": "https://github.com/pkhabazi/SentinelToXDR",
-          "homepage": "",
-          "description": "Assess, convert and deploy Microsoft Sentinel analytics rules as Defender XDR custom detections",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-09-29T07:16:53Z",
-          "updatedAt": "2026-09-30T04:59:52Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 86.91
+          "score": 85.39
         },
         {
           "id": 1392202525,
@@ -735,7 +735,33 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 83.36
+          "score": 81.53
+        },
+        {
+          "id": 1388516087,
+          "name": "awesome-llmsecops",
+          "fullName": "ARUNAGIRINATHAN-K/awesome-llmsecops",
+          "url": "https://github.com/ARUNAGIRINATHAN-K/awesome-llmsecops",
+          "homepage": "",
+          "description": "✨LLM Security Operations for securing AI systems throughout their lifecycle.",
+          "stars": 10,
+          "forks": 2,
+          "openIssues": 1,
+          "language": "Unknown",
+          "createdAt": "2026-09-26T04:36:23Z",
+          "updatedAt": "2026-09-30T11:46:46Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 79.87
         },
         {
           "id": 1391734033,
@@ -761,7 +787,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 81.19
+          "score": 79.23
         },
         {
           "id": 1391733190,
@@ -787,72 +813,21 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 81.19
+          "score": 79.22
         },
         {
-          "id": 1388516087,
-          "name": "awesome-llmsecops",
-          "fullName": "ARUNAGIRINATHAN-K/awesome-llmsecops",
-          "url": "https://github.com/ARUNAGIRINATHAN-K/awesome-llmsecops",
+          "id": 1395774256,
+          "name": "phonsint",
+          "fullName": "kaifcodec/phonsint",
+          "url": "https://github.com/kaifcodec/phonsint",
           "homepage": "",
-          "description": "✨LLM Security Operations for securing AI systems throughout their lifecycle.",
-          "stars": 9,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-09-26T04:36:23Z",
-          "updatedAt": "2026-09-30T06:28:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 77.09
-        },
-        {
-          "id": 1387197278,
-          "name": "ravenpass",
-          "fullName": "dortanes/ravenpass",
-          "url": "https://github.com/dortanes/ravenpass",
-          "homepage": "https://ravenpass.org",
-          "description": "Local-first, end-to-end encrypted manager for passwords, passkeys, TOTP, cards and notes. Native autofill on macOS and Android, plus a browser extension. Built with Go, React, and Wails.",
-          "stars": 9,
-          "forks": 1,
-          "openIssues": 4,
-          "language": "Go",
-          "createdAt": "2026-09-25T09:33:45Z",
-          "updatedAt": "2026-09-30T06:10:01Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 74.14
-        },
-        {
-          "id": 1384012199,
-          "name": "CryptoClipGuard",
-          "fullName": "prox0959/CryptoClipGuard",
-          "url": "https://github.com/prox0959/CryptoClipGuard",
-          "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
-          "description": "CryptoClipGuard security utility (by @prox0959).",
-          "stars": 9,
+          "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-23T18:29:19Z",
-          "updatedAt": "2026-09-30T01:58:54Z",
+          "createdAt": "2026-09-29T15:32:42Z",
+          "updatedAt": "2026-09-30T14:10:07Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -860,9 +835,11 @@
             1.08
           ],
           "tags": [
-            "网络安全"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 69.23
+          "score": 78.16
         },
         {
           "id": 1385270810,
@@ -886,7 +863,32 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 68.84
+          "score": 66.69
+        },
+        {
+          "id": 1386406717,
+          "name": "opencode-seatbelt",
+          "fullName": "ssmirr/opencode-seatbelt",
+          "url": "https://github.com/ssmirr/opencode-seatbelt",
+          "homepage": "",
+          "description": "A real kernel sandbox for OpenCode on macOS 🛡️",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-24T21:51:09Z",
+          "updatedAt": "2026-09-28T20:31:07Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 66.51
         }
       ]
     }
