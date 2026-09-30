@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-09-29T18:39:17.677Z",
+  "generatedAt": "2026-09-30T06:40:38.190Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-09-26",
-      "totalCandidates": 26,
+      "createdSince": "2026-09-27",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         }
       ],
       "repositories": [
@@ -96,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 119.75
+          "score": 115.41
         },
         {
           "id": 1390659260,
@@ -122,7 +122,57 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 102.67
+          "score": 97.98
+        },
+        {
+          "id": 1394603303,
+          "name": "SentinelToXDR",
+          "fullName": "pkhabazi/SentinelToXDR",
+          "url": "https://github.com/pkhabazi/SentinelToXDR",
+          "homepage": "",
+          "description": "Assess, convert and deploy Microsoft Sentinel analytics rules as Defender XDR custom detections",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-09-29T07:16:53Z",
+          "updatedAt": "2026-09-30T04:59:52Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 82.08
+        },
+        {
+          "id": 1395919528,
+          "name": "agentcap",
+          "fullName": "yeet-src/agentcap",
+          "url": "https://github.com/yeet-src/agentcap",
+          "homepage": "https://yeet.cx",
+          "description": "eBPF Prometheus exporter for AI-agent activity — per-agent tools, domains, ports, files, CPU & network — with a Grafana dashboard. A yeet service.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-29T16:14:23Z",
+          "updatedAt": "2026-09-30T04:48:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.85
         },
         {
           "id": 1394823063,
@@ -148,7 +198,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 79.73
+          "score": 75.39
         },
         {
           "id": 1394822295,
@@ -174,7 +224,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 79.73
+          "score": 75.38
         },
         {
           "id": 1392202525,
@@ -183,12 +233,12 @@
           "url": "https://github.com/lupingQAQ/dotnet-memshell",
           "homepage": "",
           "description": "Three .NET memory shells at three distinct insertion positions - HttpModule pipeline, WebSocket connection takeover, Remoting URI registration. Zero impact on unmarked traffic, no new port, no web.config change, no file drop. 三个插入位互不相同、业务无感的 .NET 内存马。",
-          "stars": 9,
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
           "language": "C#",
           "createdAt": "2026-09-28T08:19:42Z",
-          "updatedAt": "2026-09-29T17:51:38Z",
+          "updatedAt": "2026-09-30T04:02:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -199,7 +249,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 75.87
+          "score": 73.79
         },
         {
           "id": 1391734033,
@@ -225,7 +275,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 74.54
+          "score": 69.85
         },
         {
           "id": 1391733190,
@@ -251,57 +301,31 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 74.53
+          "score": 69.84
         },
         {
-          "id": 1390008864,
-          "name": "jailbreak-archive",
-          "fullName": "qtjg/jailbreak-archive",
-          "url": "https://github.com/qtjg/jailbreak-archive",
-          "homepage": "https://github.com/qtjg/jailbreak-archive",
-          "description": "A structured, versioned, and reproducible archive of adversarial prompt engineering techniques against Large Language Models. For AI safety research, red-teaming, and defensive hardening.",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-27T02:57:22Z",
-          "updatedAt": "2026-09-29T14:07:29Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 71.74
-        },
-        {
-          "id": 1392359960,
-          "name": "genpark-pedersen-commitment-homomorphic-skill",
-          "fullName": "Alpha-Park/genpark-pedersen-commitment-homomorphic-skill",
-          "url": "https://github.com/Alpha-Park/genpark-pedersen-commitment-homomorphic-skill",
+          "id": 1396125508,
+          "name": "DerpSec",
+          "fullName": "oftcer/DerpSec",
+          "url": "https://github.com/oftcer/DerpSec",
           "homepage": "",
-          "description": "Homomorphic cryptographic Pedersen commitments with blinding factors and additive verification",
-          "stars": 7,
+          "description": "Proxy de interceptacao HTTP/HTTPS open source (estilo Burp Suite) em Python + Tkinter, com bancada web e navegador virtual",
+          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-28T09:52:45Z",
-          "updatedAt": "2026-09-28T09:53:16Z",
+          "createdAt": "2026-09-29T17:16:37Z",
+          "updatedAt": "2026-09-29T23:44:55Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
+            "网络安全"
           ],
-          "score": 71.22
+          "score": 67.99
         },
         {
           "id": 1392358077,
@@ -326,7 +350,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.22
+          "score": 66.88
         },
         {
           "id": 1392355728,
@@ -351,32 +375,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.21
-        },
-        {
-          "id": 1392353517,
-          "name": "genpark-elliptic-curve-secp256k1-point-math-skill",
-          "fullName": "Alpha-Park/genpark-elliptic-curve-secp256k1-point-math-skill",
-          "url": "https://github.com/Alpha-Park/genpark-elliptic-curve-secp256k1-point-math-skill",
-          "homepage": "",
-          "description": "Weierstrass elliptic curve arithmetic, affine point addition, and double-and-add scalar multiplication",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T09:48:48Z",
-          "updatedAt": "2026-09-28T09:49:15Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 71.2
+          "score": 66.87
         }
       ]
     },
@@ -388,43 +387,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-22",
-      "totalCandidates": 24,
+      "createdSince": "2026-09-23",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 2,
+          "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790707210"
+          "rateLimitReset": "1790750490"
         }
       ],
       "repositories": [
@@ -435,12 +434,12 @@
           "url": "https://github.com/devZero-Security/redStackPRO",
           "homepage": "",
           "description": "A canvas for red team infrastructure and cyber ranges. Compose a topology, export runnable Terraform and Ansible, and deploy it yourself. Your cloud credentials never leave your machine.",
-          "stars": 48,
-          "forks": 4,
+          "stars": 75,
+          "forks": 7,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-25T16:39:59Z",
-          "updatedAt": "2026-09-29T18:33:59Z",
+          "updatedAt": "2026-09-30T06:21:14Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -451,7 +450,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 131.45
+          "score": 144.48
         },
         {
           "id": 1392971873,
@@ -476,7 +475,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 125.52
+          "score": 123.66
         },
         {
           "id": 1385252572,
@@ -501,7 +500,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 122.44
+          "score": 120.58
         },
         {
           "id": 1388193962,
@@ -533,7 +532,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 119.14
+          "score": 116.94
         },
         {
           "id": 1390659260,
@@ -559,32 +558,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 115.08
-        },
-        {
-          "id": 1382159140,
-          "name": "cve-2026-87902-poc",
-          "fullName": "ressl/cve-2026-87902-poc",
-          "url": "https://github.com/ressl/cve-2026-87902-poc",
-          "homepage": "https://ressl.ch/blog/cve-2026-87902-wordpress/",
-          "description": "PoC for CVE-2026-87902 — unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-          "stars": 38,
-          "forks": 8,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T18:40:26Z",
-          "updatedAt": "2026-09-29T09:27:35Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 108.48
+          "score": 113.07
         },
         {
           "id": 1382868003,
@@ -598,7 +572,7 @@
           "openIssues": 0,
           "language": "Shell",
           "createdAt": "2026-09-23T06:14:56Z",
-          "updatedAt": "2026-09-29T02:45:33Z",
+          "updatedAt": "2026-09-30T02:40:47Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -609,32 +583,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 107.64
-        },
-        {
-          "id": 1381282828,
-          "name": "capped-fetch",
-          "fullName": "agentscope-ai-java/capped-fetch",
-          "url": "https://github.com/agentscope-ai-java/capped-fetch",
-          "homepage": "",
-          "description": "Node fetch with hard size, compression-ratio and time limits. Stops gzip bombs mid-stream.",
-          "stars": 56,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-22T10:31:16Z",
-          "updatedAt": "2026-09-29T09:21:31Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 105.44
+          "score": 105.52
         },
         {
           "id": 1385167327,
@@ -643,12 +592,12 @@
           "url": "https://github.com/Perruer/keelflow",
           "homepage": "https://github.com/Perruer/keelflow#quick-start",
           "description": "Build AI agents and LLM workflows visually. Security-maintained continuation of Flowise: security fixes, Apache-2.0 only, drop-in for your existing flows and data.",
-          "stars": 34,
+          "stars": 35,
           "forks": 1,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-09-24T09:31:18Z",
-          "updatedAt": "2026-09-29T02:58:37Z",
+          "updatedAt": "2026-09-29T19:23:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -660,7 +609,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 103.07
+          "score": 101.92
         },
         {
           "id": 1387401857,
@@ -686,7 +635,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 90.37
+          "score": 88.51
         },
         {
           "id": 1386679206,
@@ -711,7 +660,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 89.07
+          "score": 87.21
         },
         {
           "id": 1386680481,
@@ -736,21 +685,21 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 89.07
+          "score": 87.21
         },
         {
-          "id": 1381755166,
-          "name": "MCPBastion",
-          "fullName": "Matthew0822/MCPBastion",
-          "url": "https://github.com/Matthew0822/MCPBastion",
+          "id": 1394603303,
+          "name": "SentinelToXDR",
+          "fullName": "pkhabazi/SentinelToXDR",
+          "url": "https://github.com/pkhabazi/SentinelToXDR",
           "homepage": "",
-          "description": "Zero-trust security gateway between AI agents and MCP servers: scoped capabilities, redaction, rate and cost limits, and verifiable session logs.",
-          "stars": 20,
-          "forks": 2,
+          "description": "Assess, convert and deploy Microsoft Sentinel analytics rules as Defender XDR custom detections",
+          "stars": 10,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-09-22T14:52:43Z",
-          "updatedAt": "2026-09-22T18:09:47Z",
+          "language": "PowerShell",
+          "createdAt": "2026-09-29T07:16:53Z",
+          "updatedAt": "2026-09-30T04:59:52Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -759,35 +708,34 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 86.61
-        },
-        {
-          "id": 1390008864,
-          "name": "jailbreak-archive",
-          "fullName": "qtjg/jailbreak-archive",
-          "url": "https://github.com/qtjg/jailbreak-archive",
-          "homepage": "https://github.com/qtjg/jailbreak-archive",
-          "description": "A structured, versioned, and reproducible archive of adversarial prompt engineering techniques against Large Language Models. For AI safety research, red-teaming, and defensive hardening.",
-          "stars": 7,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-27T02:57:22Z",
-          "updatedAt": "2026-09-29T14:07:29Z",
-          "matchedProfiles": [
             "防守 / 蓝队"
           ],
+          "score": 86.91
+        },
+        {
+          "id": 1392202525,
+          "name": "dotnet-memshell",
+          "fullName": "lupingQAQ/dotnet-memshell",
+          "url": "https://github.com/lupingQAQ/dotnet-memshell",
+          "homepage": "",
+          "description": "Three .NET memory shells at three distinct insertion positions - HttpModule pipeline, WebSocket connection takeover, Remoting URI registration. Zero impact on unmarked traffic, no new port, no web.config change, no file drop. 三个插入位互不相同、业务无感的 .NET 内存马。",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C#",
+          "createdAt": "2026-09-28T08:19:42Z",
+          "updatedAt": "2026-09-30T04:02:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
           "profileWeights": [
-            1.12
+            1
           ],
           "tags": [
-            "防守 / 蓝队",
-            "AI 自动化 / Skill"
+            "通用安全",
+            "防守 / 蓝队"
           ],
-          "score": 86.46
+          "score": 83.36
         },
         {
           "id": 1391734033,
@@ -813,7 +761,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 83.2
+          "score": 81.19
         },
         {
           "id": 1391733190,
@@ -839,21 +787,47 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 83.2
+          "score": 81.19
         },
         {
-          "id": 1380956148,
-          "name": "hetzner-cloud-audit-skills",
-          "fullName": "jpolec/hetzner-cloud-audit-skills",
-          "url": "https://github.com/jpolec/hetzner-cloud-audit-skills",
+          "id": 1388516087,
+          "name": "awesome-llmsecops",
+          "fullName": "ARUNAGIRINATHAN-K/awesome-llmsecops",
+          "url": "https://github.com/ARUNAGIRINATHAN-K/awesome-llmsecops",
           "homepage": "",
-          "description": "Evidence-backed attack paths, drift, and cost auditing for Hetzner Cloud.",
-          "stars": 17,
+          "description": "✨LLM Security Operations for securing AI systems throughout their lifecycle.",
+          "stars": 9,
           "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-22T06:05:46Z",
-          "updatedAt": "2026-09-29T09:21:44Z",
+          "openIssues": 1,
+          "language": "Unknown",
+          "createdAt": "2026-09-26T04:36:23Z",
+          "updatedAt": "2026-09-30T06:28:37Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 77.09
+        },
+        {
+          "id": 1387197278,
+          "name": "ravenpass",
+          "fullName": "dortanes/ravenpass",
+          "url": "https://github.com/dortanes/ravenpass",
+          "homepage": "https://ravenpass.org",
+          "description": "Local-first, end-to-end encrypted manager for passwords, passkeys, TOTP, cards and notes. Native autofill on macOS and Android, plus a browser extension. Built with Go, React, and Wails.",
+          "stars": 9,
+          "forks": 1,
+          "openIssues": 4,
+          "language": "Go",
+          "createdAt": "2026-09-25T09:33:45Z",
+          "updatedAt": "2026-09-30T06:10:01Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -864,7 +838,31 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.46
+          "score": 74.14
+        },
+        {
+          "id": 1384012199,
+          "name": "CryptoClipGuard",
+          "fullName": "prox0959/CryptoClipGuard",
+          "url": "https://github.com/prox0959/CryptoClipGuard",
+          "homepage": "https://prox0959.github.io/ProxSuite-PRO/",
+          "description": "CryptoClipGuard security utility (by @prox0959).",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-23T18:29:19Z",
+          "updatedAt": "2026-09-30T01:58:54Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 69.23
         },
         {
           "id": 1385270810,
@@ -888,7 +886,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 71.04
+          "score": 68.84
         }
       ]
     }
