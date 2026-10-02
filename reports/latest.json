@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-02T06:59:13.483Z",
+  "generatedAt": "2026-10-02T18:26:14.653Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-09-29",
-      "totalCandidates": 24,
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         }
       ],
       "repositories": [
@@ -96,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 106.21
+          "score": 102.07
         },
         {
           "id": 1400015949,
@@ -121,7 +121,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 88.39
+          "score": 83.93
         },
         {
           "id": 1400014910,
@@ -147,7 +147,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 85.72
+          "score": 81.25
         },
         {
           "id": 1400015731,
@@ -171,7 +171,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 85.72
+          "score": 81.25
         },
         {
           "id": 1398478150,
@@ -196,7 +196,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 80.42
+          "score": 75.95
         },
         {
           "id": 1400015433,
@@ -221,7 +221,32 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 79.46
+          "score": 74.99
+        },
+        {
+          "id": 1397292246,
+          "name": "jailbreak-archives",
+          "fullName": "e2sy/jailbreak-archives",
+          "url": "https://github.com/e2sy/jailbreak-archives",
+          "homepage": "https://www.youtube.com/@indiancybersecurity",
+          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Roff",
+          "createdAt": "2026-09-30T07:34:14Z",
+          "updatedAt": "2026-10-02T16:11:03Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 74.81
         },
         {
           "id": 1398479171,
@@ -245,32 +270,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 77.75
-        },
-        {
-          "id": 1397292246,
-          "name": "jailbreak-archives",
-          "fullName": "e2sy/jailbreak-archives",
-          "url": "https://github.com/e2sy/jailbreak-archives",
-          "homepage": "https://www.youtube.com/@indiancybersecurity",
-          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Roff",
-          "createdAt": "2026-09-30T07:34:14Z",
-          "updatedAt": "2026-10-01T15:31:55Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 76.84
+          "score": 73.28
         },
         {
           "id": 1394603303,
@@ -295,7 +295,59 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 72.64
+          "score": 72.53
+        },
+        {
+          "id": 1401406896,
+          "name": "OpenRod",
+          "fullName": "OpenRod/OpenRod",
+          "url": "https://github.com/OpenRod/OpenRod",
+          "homepage": "",
+          "description": "One-click sandboxes for AI agents, with egress policy, MCPs, skills and audit. Built on NVIDIA OpenShell.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "JavaScript",
+          "createdAt": "2026-10-02T08:49:40Z",
+          "updatedAt": "2026-10-02T16:35:34Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 69.06
+        },
+        {
+          "id": 1395774256,
+          "name": "phonsint",
+          "fullName": "kaifcodec/phonsint",
+          "url": "https://github.com/kaifcodec/phonsint",
+          "homepage": "",
+          "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
+          "stars": 8,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-29T15:32:42Z",
+          "updatedAt": "2026-10-02T00:38:45Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 68.9
         },
         {
           "id": 1398471288,
@@ -320,58 +372,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.45
-        },
-        {
-          "id": 1395919528,
-          "name": "agentcap",
-          "fullName": "yeet-src/agentcap",
-          "url": "https://github.com/yeet-src/agentcap",
-          "homepage": "https://yeet.cx",
-          "description": "eBPF Prometheus exporter for AI-agent activity — per-agent tools, domains, ports, files, CPU & network — with a Grafana dashboard. A yeet service.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-29T16:14:23Z",
-          "updatedAt": "2026-10-01T04:22:43Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 69.95
-        },
-        {
-          "id": 1395774256,
-          "name": "phonsint",
-          "fullName": "kaifcodec/phonsint",
-          "url": "https://github.com/kaifcodec/phonsint",
-          "homepage": "",
-          "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-29T15:32:42Z",
-          "updatedAt": "2026-10-02T00:38:45Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 67.92
+          "score": 66.98
         }
       ]
     },
@@ -391,35 +392,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1790924406"
+          "rateLimitReset": "1790965627"
         }
       ],
       "repositories": [
@@ -430,12 +431,12 @@
           "url": "https://github.com/devZero-Security/redStackPRO",
           "homepage": "",
           "description": "A canvas for red team infrastructure and cyber ranges. Compose a topology, export runnable Terraform and Ansible, and deploy it yourself. Your cloud credentials never leave your machine.",
-          "stars": 126,
+          "stars": 130,
           "forks": 13,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-25T16:39:59Z",
-          "updatedAt": "2026-10-02T05:45:48Z",
+          "updatedAt": "2026-10-02T15:27:06Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -446,7 +447,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 154.15
+          "score": 153.39
         },
         {
           "id": 1392971873,
@@ -471,7 +472,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 116.18
+          "score": 114.41
         },
         {
           "id": 1400039535,
@@ -496,7 +497,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 109.82
+          "score": 108.05
         },
         {
           "id": 1388193962,
@@ -528,7 +529,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 109.42
+          "score": 107.33
         },
         {
           "id": 1400015949,
@@ -553,7 +554,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.36
+          "score": 90.44
+        },
+        {
+          "id": 1397292246,
+          "name": "jailbreak-archives",
+          "fullName": "e2sy/jailbreak-archives",
+          "url": "https://github.com/e2sy/jailbreak-archives",
+          "homepage": "https://www.youtube.com/@indiancybersecurity",
+          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Roff",
+          "createdAt": "2026-09-30T07:34:14Z",
+          "updatedAt": "2026-10-02T16:11:03Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 87.93
         },
         {
           "id": 1400014910,
@@ -579,7 +605,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 89.68
+          "score": 87.77
         },
         {
           "id": 1400015731,
@@ -603,7 +629,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 89.68
+          "score": 87.77
         },
         {
           "id": 1398478150,
@@ -628,7 +654,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 88.94
+          "score": 87.03
         },
         {
           "id": 1394603303,
@@ -653,21 +679,21 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 87.44
+          "score": 85.66
         },
         {
-          "id": 1397292246,
-          "name": "jailbreak-archives",
-          "fullName": "e2sy/jailbreak-archives",
-          "url": "https://github.com/e2sy/jailbreak-archives",
-          "homepage": "https://www.youtube.com/@indiancybersecurity",
-          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
-          "stars": 9,
-          "forks": 0,
+          "id": 1395774256,
+          "name": "phonsint",
+          "fullName": "kaifcodec/phonsint",
+          "url": "https://github.com/kaifcodec/phonsint",
+          "homepage": "",
+          "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
+          "stars": 8,
+          "forks": 1,
           "openIssues": 0,
-          "language": "Roff",
-          "createdAt": "2026-09-30T07:34:14Z",
-          "updatedAt": "2026-10-01T15:31:55Z",
+          "language": "Python",
+          "createdAt": "2026-09-29T15:32:42Z",
+          "updatedAt": "2026-10-02T00:38:45Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -676,9 +702,10 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 87.41
+          "score": 84.46
         },
         {
           "id": 1398479171,
@@ -702,7 +729,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 86.27
+          "score": 84.35
         },
         {
           "id": 1395919528,
@@ -716,7 +743,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-29T16:14:23Z",
-          "updatedAt": "2026-10-01T04:22:43Z",
+          "updatedAt": "2026-10-02T13:59:15Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -727,59 +754,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.9
-        },
-        {
-          "id": 1395774256,
-          "name": "phonsint",
-          "fullName": "kaifcodec/phonsint",
-          "url": "https://github.com/kaifcodec/phonsint",
-          "homepage": "",
-          "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-29T15:32:42Z",
-          "updatedAt": "2026-10-02T00:38:45Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 82.05
-        },
-        {
-          "id": 1387401857,
-          "name": "importmap-lint",
-          "fullName": "agentscope-ai-java/importmap-lint",
-          "url": "https://github.com/agentscope-ai-java/importmap-lint",
-          "homepage": "",
-          "description": "Validate import maps against the HTML spec resolution algorithm, and flag unversioned CDN entries.",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-25T11:56:54Z",
-          "updatedAt": "2026-09-25T15:01:28Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 81.04
+          "score": 81.12
         },
         {
           "id": 1386679206,
@@ -832,6 +807,57 @@
           "score": 80.27
         },
         {
+          "id": 1387401857,
+          "name": "importmap-lint",
+          "fullName": "agentscope-ai-java/importmap-lint",
+          "url": "https://github.com/agentscope-ai-java/importmap-lint",
+          "homepage": "",
+          "description": "Validate import maps against the HTML spec resolution algorithm, and flag unversioned CDN entries.",
+          "stars": 20,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-09-25T11:56:54Z",
+          "updatedAt": "2026-09-25T15:01:28Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 80.27
+        },
+        {
+          "id": 1392202525,
+          "name": "dotnet-memshell",
+          "fullName": "lupingQAQ/dotnet-memshell",
+          "url": "https://github.com/lupingQAQ/dotnet-memshell",
+          "homepage": "",
+          "description": "Three .NET memory shells at three distinct insertion positions - HttpModule pipeline, WebSocket connection takeover, Remoting URI registration. Zero impact on unmarked traffic, no new port, no web.config change, no file drop. 三个插入位互不相同、业务无感的 .NET 内存马。",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "C#",
+          "createdAt": "2026-09-28T08:19:42Z",
+          "updatedAt": "2026-10-02T14:07:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 78.11
+        },
+        {
           "id": 1388516087,
           "name": "awesome-llmsecops",
           "fullName": "ARUNAGIRINATHAN-K/awesome-llmsecops",
@@ -855,32 +881,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 79.88
-        },
-        {
-          "id": 1392202525,
-          "name": "dotnet-memshell",
-          "fullName": "lupingQAQ/dotnet-memshell",
-          "url": "https://github.com/lupingQAQ/dotnet-memshell",
-          "homepage": "",
-          "description": "Three .NET memory shells at three distinct insertion positions - HttpModule pipeline, WebSocket connection takeover, Remoting URI registration. Zero impact on unmarked traffic, no new port, no web.config change, no file drop. 三个插入位互不相同、业务无感的 .NET 内存马。",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-09-28T08:19:42Z",
-          "updatedAt": "2026-09-30T04:02:36Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 75.88
+          "score": 78.11
         }
       ]
     }
