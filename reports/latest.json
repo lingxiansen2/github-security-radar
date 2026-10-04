@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-03T17:18:19.250Z",
+  "generatedAt": "2026-10-04T06:48:58.559Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,73 +33,70 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-09-30",
-      "totalCandidates": 26,
+      "createdSince": "2026-10-01",
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 9,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         }
       ],
       "repositories": [
         {
-          "id": 1397088773,
-          "name": "bug-bounty-hunting-prompts",
-          "fullName": "mdpsec/bug-bounty-hunting-prompts",
-          "url": "https://github.com/mdpsec/bug-bounty-hunting-prompts",
-          "homepage": "https://mdpsec.com",
-          "description": "Reusable prompts for a structured, evidence-first bug bounty hunting workflow",
-          "stars": 116,
-          "forks": 42,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-09-30T05:43:35Z",
-          "updatedAt": "2026-10-03T17:17:22Z",
+          "id": 1400284027,
+          "name": "Snitch",
+          "fullName": "aixisstudio/Snitch",
+          "url": "https://github.com/aixisstudio/Snitch",
+          "homepage": "https://aixisstudio.github.io/Snitch/",
+          "description": "Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.",
+          "stars": 25,
+          "forks": 2,
+          "openIssues": 4,
+          "language": "Python",
+          "createdAt": "2026-10-01T15:47:55Z",
+          "updatedAt": "2026-10-04T06:44:52Z",
           "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1.08,
-            1.18
+            1.08
           ],
           "tags": [
             "网络安全",
-            "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 171.8
+          "score": 102.79
         },
         {
           "id": 1400039535,
@@ -124,7 +121,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 93.81
+          "score": 88.93
         },
         {
           "id": 1400015949,
@@ -149,7 +146,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.01
+          "score": 69.74
         },
         {
           "id": 1401406896,
@@ -175,7 +172,59 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 74.07
+          "score": 69.19
+        },
+        {
+          "id": 1403603215,
+          "name": "Centauri-CyberSuite",
+          "fullName": "muzel7024-netizen/Centauri-CyberSuite",
+          "url": "https://github.com/muzel7024-netizen/Centauri-CyberSuite",
+          "homepage": "",
+          "description": "Centauri CyberSuite — a Chromium-based browser security toolkit for web security, reconnaissance, OSINT, privacy, browser protection, and threat intelligence workflows.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-03T20:16:28Z",
+          "updatedAt": "2026-10-04T06:11:56Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.67
+        },
+        {
+          "id": 1400015731,
+          "name": "linux-security-hardening",
+          "fullName": "emmanuelygr/linux-security-hardening",
+          "url": "https://github.com/emmanuelygr/linux-security-hardening",
+          "homepage": "",
+          "description": "Beginner-friendly Bash script to audit and recommend Linux system security improvements.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-10-01T13:11:35Z",
+          "updatedAt": "2026-10-01T13:32:03Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 67.07
         },
         {
           "id": 1400014910,
@@ -201,56 +250,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 72.33
-        },
-        {
-          "id": 1400015731,
-          "name": "linux-security-hardening",
-          "fullName": "emmanuelygr/linux-security-hardening",
-          "url": "https://github.com/emmanuelygr/linux-security-hardening",
-          "homepage": "",
-          "description": "Beginner-friendly Bash script to audit and recommend Linux system security improvements.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-10-01T13:11:35Z",
-          "updatedAt": "2026-10-01T13:32:03Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 72.33
-        },
-        {
-          "id": 1397292246,
-          "name": "jailbreak-archives",
-          "fullName": "e2sy/jailbreak-archives",
-          "url": "https://github.com/e2sy/jailbreak-archives",
-          "homepage": "https://www.youtube.com/@indiancybersecurity",
-          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Roff",
-          "createdAt": "2026-09-30T07:34:14Z",
-          "updatedAt": "2026-10-03T16:13:12Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 71.94
+          "score": 67.06
         },
         {
           "id": 1403166209,
@@ -275,32 +275,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 71.5
-        },
-        {
-          "id": 1398478150,
-          "name": "lockwatch",
-          "fullName": "Secx1/lockwatch",
-          "url": "https://github.com/Secx1/lockwatch",
-          "homepage": "",
-          "description": "Offline lockfile vulnerability triage with optional OSV output",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-30T16:44:37Z",
-          "updatedAt": "2026-10-02T03:27:03Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 67.25
+          "score": 66.23
         },
         {
           "id": 1400015433,
@@ -325,45 +300,47 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 66.08
+          "score": 60.81
         },
         {
-          "id": 1398479171,
-          "name": "headerlint",
-          "fullName": "Secx1/headerlint",
-          "url": "https://github.com/Secx1/headerlint",
+          "id": 1402669106,
+          "name": "rowan",
+          "fullName": "hedgerow-dev/rowan",
+          "url": "https://github.com/hedgerow-dev/rowan",
           "homepage": "",
-          "description": "Safe HTTP security header auditing with JSON and SARIF output",
-          "stars": 8,
+          "description": "Static security scanner for AI applications: source code, model files, dependencies and agent/MCP config, with evidence for every finding.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-10-03T04:45:17Z",
+          "updatedAt": "2026-10-03T19:45:38Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 58.38
+        },
+        {
+          "id": 1402895508,
+          "name": "NetReconAI",
+          "fullName": "HexMindAI/NetReconAI",
+          "url": "https://github.com/HexMindAI/NetReconAI",
+          "homepage": "",
+          "description": "AI-assisted defensive domain security and network reconnaissance tool built with Python.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-30T16:45:31Z",
-          "updatedAt": "2026-10-02T03:07:23Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 64.58
-        },
-        {
-          "id": 1400284027,
-          "name": "Snitch",
-          "fullName": "aixisstudio/Snitch",
-          "url": "https://github.com/aixisstudio/Snitch",
-          "homepage": "https://aixisstudio.github.io/Snitch/",
-          "description": "Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 4,
-          "language": "Python",
-          "createdAt": "2026-10-01T15:47:55Z",
-          "updatedAt": "2026-10-03T16:30:11Z",
+          "createdAt": "2026-10-03T08:36:11Z",
+          "updatedAt": "2026-10-03T17:26:14Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -372,9 +349,35 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 63.34
+          "score": 58.3
+        },
+        {
+          "id": 1401385935,
+          "name": "InfraPulse-Core",
+          "fullName": "vighnesh91/InfraPulse-Core",
+          "url": "https://github.com/vighnesh91/InfraPulse-Core",
+          "homepage": "",
+          "description": "A high-fidelity, read-only internal network security assessment toolkit for Linux and Windows infrastructure. Employs a zero-mutation, default-deny architecture to safely capture and structure risk telemetry without system modifications.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Batchfile",
+          "createdAt": "2026-10-02T08:31:52Z",
+          "updatedAt": "2026-10-02T19:40:22Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 53.44
         }
       ]
     },
@@ -386,43 +389,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-26",
-      "totalCandidates": 24,
+      "createdSince": "2026-09-27",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1791047951"
+          "rateLimitReset": "1791096592"
         }
       ],
       "repositories": [
@@ -433,12 +436,12 @@
           "url": "https://github.com/mdpsec/bug-bounty-hunting-prompts",
           "homepage": "https://mdpsec.com",
           "description": "Reusable prompts for a structured, evidence-first bug bounty hunting workflow",
-          "stars": 116,
-          "forks": 42,
+          "stars": 166,
+          "forks": 55,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-30T05:43:35Z",
-          "updatedAt": "2026-10-03T17:17:22Z",
+          "updatedAt": "2026-10-04T06:42:53Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -452,7 +455,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 187.22
+          "score": 197.37
+        },
+        {
+          "id": 1400284027,
+          "name": "Snitch",
+          "fullName": "aixisstudio/Snitch",
+          "url": "https://github.com/aixisstudio/Snitch",
+          "homepage": "https://aixisstudio.github.io/Snitch/",
+          "description": "Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.",
+          "stars": 25,
+          "forks": 2,
+          "openIssues": 4,
+          "language": "Python",
+          "createdAt": "2026-10-01T15:47:55Z",
+          "updatedAt": "2026-10-04T06:44:52Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 116.83
         },
         {
           "id": 1392971873,
@@ -477,7 +505,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 110.87
+          "score": 108.78
         },
         {
           "id": 1400039535,
@@ -502,7 +530,58 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 104.51
+          "score": 102.42
+        },
+        {
+          "id": 1397292246,
+          "name": "jailbreak-archives",
+          "fullName": "e2sy/jailbreak-archives",
+          "url": "https://github.com/e2sy/jailbreak-archives",
+          "homepage": "https://www.youtube.com/@indiancybersecurity",
+          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Roff",
+          "createdAt": "2026-09-30T07:34:14Z",
+          "updatedAt": "2026-10-04T01:56:05Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 86.18
+        },
+        {
+          "id": 1395774256,
+          "name": "phonsint",
+          "fullName": "kaifcodec/phonsint",
+          "url": "https://github.com/kaifcodec/phonsint",
+          "homepage": "",
+          "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
+          "stars": 11,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-29T15:32:42Z",
+          "updatedAt": "2026-10-04T06:08:09Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 85.74
         },
         {
           "id": 1400015949,
@@ -527,58 +606,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 86.62
-        },
-        {
-          "id": 1397292246,
-          "name": "jailbreak-archives",
-          "fullName": "e2sy/jailbreak-archives",
-          "url": "https://github.com/e2sy/jailbreak-archives",
-          "homepage": "https://www.youtube.com/@indiancybersecurity",
-          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Roff",
-          "createdAt": "2026-09-30T07:34:14Z",
-          "updatedAt": "2026-10-03T16:13:12Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 86.36
-        },
-        {
-          "id": 1395774256,
-          "name": "phonsint",
-          "fullName": "kaifcodec/phonsint",
-          "url": "https://github.com/kaifcodec/phonsint",
-          "homepage": "",
-          "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
-          "stars": 10,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-29T15:32:42Z",
-          "updatedAt": "2026-10-03T15:19:04Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 85.75
+          "score": 84.36
         },
         {
           "id": 1394603303,
@@ -603,7 +631,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 85.59
+          "score": 83.5
         },
         {
           "id": 1400014910,
@@ -629,7 +657,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 83.95
+          "score": 81.69
         },
         {
           "id": 1400015731,
@@ -653,7 +681,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 83.95
+          "score": 81.69
         },
         {
           "id": 1395919528,
@@ -678,7 +706,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 83.51
+          "score": 81.42
         },
         {
           "id": 1398478150,
@@ -703,7 +731,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 83.2
+          "score": 80.94
         },
         {
           "id": 1401406896,
@@ -729,7 +757,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 80.77
+          "score": 78.68
         },
         {
           "id": 1398479171,
@@ -753,33 +781,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 80.53
-        },
-        {
-          "id": 1388516087,
-          "name": "awesome-llmsecops",
-          "fullName": "ARUNAGIRINATHAN-K/awesome-llmsecops",
-          "url": "https://github.com/ARUNAGIRINATHAN-K/awesome-llmsecops",
-          "homepage": "",
-          "description": "✨LLM Security Operations for securing AI systems throughout their lifecycle.",
-          "stars": 12,
-          "forks": 3,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-09-26T04:36:23Z",
-          "updatedAt": "2026-10-02T02:00:30Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 76.53
+          "score": 78.27
         },
         {
           "id": 1392202525,
@@ -804,7 +806,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 74.57
+          "score": 72.48
         },
         {
           "id": 1398471288,
@@ -829,31 +831,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 74.26
-        },
-        {
-          "id": 1396125508,
-          "name": "DerpSec",
-          "fullName": "oftcer/DerpSec",
-          "url": "https://github.com/oftcer/DerpSec",
-          "homepage": "",
-          "description": "Proxy de interceptacao HTTP/HTTPS open source (estilo Burp Suite) em Python + Tkinter, com bancada web e navegador virtual",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-29T17:16:37Z",
-          "updatedAt": "2026-10-03T06:34:48Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 70.35
+          "score": 72
         },
         {
           "id": 1391734033,
@@ -879,7 +857,33 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 67.38
+          "score": 65.12
+        },
+        {
+          "id": 1391733190,
+          "name": "genpark-nonce-replay-attack-guard-skill",
+          "fullName": "alphaparkinc/genpark-nonce-replay-attack-guard-skill",
+          "url": "https://github.com/alphaparkinc/genpark-nonce-replay-attack-guard-skill",
+          "homepage": "",
+          "description": "Sliding-window nonce ledger and replay attack detector invalidating duplicated agent API requests and token reflections.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-28T03:45:20Z",
+          "updatedAt": "2026-09-28T03:45:52Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 65.12
         }
       ]
     }
