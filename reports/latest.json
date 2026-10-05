@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-05T07:00:13.579Z",
+  "generatedAt": "2026-10-05T21:12:06.423Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,45 +34,96 @@
         "maxItems": 12
       },
       "createdSince": "2026-10-02",
-      "totalCandidates": 20,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         }
       ],
       "repositories": [
+        {
+          "id": 1405850231,
+          "name": "Cyber-Frost-Harness",
+          "fullName": "Blackfrost-AI/Cyber-Frost-Harness",
+          "url": "https://github.com/Blackfrost-AI/Cyber-Frost-Harness",
+          "homepage": "",
+          "description": "Native red, blue, and purple security-agent harness for CYBER-FROST",
+          "stars": 11,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-05T13:53:31Z",
+          "updatedAt": "2026-10-05T20:40:02Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 104.01
+        },
+        {
+          "id": 1401406896,
+          "name": "OpenRod",
+          "fullName": "OpenRod/OpenRod",
+          "url": "https://github.com/OpenRod/OpenRod",
+          "homepage": "",
+          "description": "One-click sandboxes for AI agents, with egress policy, MCPs, skills and audit. Built on NVIDIA OpenShell.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "JavaScript",
+          "createdAt": "2026-10-02T08:49:40Z",
+          "updatedAt": "2026-10-05T18:34:54Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 66.61
+        },
         {
           "id": 1404912606,
           "name": "agentguardai-pro",
@@ -96,21 +147,21 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.99
+          "score": 58.45
         },
         {
-          "id": 1401406896,
-          "name": "OpenRod",
-          "fullName": "OpenRod/OpenRod",
-          "url": "https://github.com/OpenRod/OpenRod",
+          "id": 1405092161,
+          "name": "ajar",
+          "fullName": "ReazGan/ajar",
+          "url": "https://github.com/ReazGan/ajar",
           "homepage": "",
-          "description": "One-click sandboxes for AI agents, with egress policy, MCPs, skills and audit. Built on NVIDIA OpenShell.",
-          "stars": 8,
+          "description": "Find exposed, unauthenticated local AI services (Ollama, ComfyUI, SD WebUI, vLLM, ...). Single binary, Go.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-02T08:49:40Z",
-          "updatedAt": "2026-10-03T16:37:06Z",
+          "language": "Go",
+          "createdAt": "2026-10-05T03:56:27Z",
+          "updatedAt": "2026-10-05T17:46:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -120,9 +171,61 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
+            "逆向 / 恶意代码"
           ],
-          "score": 60.45
+          "score": 55.77
+        },
+        {
+          "id": 1404994139,
+          "name": "agent-zero-windows",
+          "fullName": "JPChoom/agent-zero-windows",
+          "url": "https://github.com/JPChoom/agent-zero-windows",
+          "homepage": "",
+          "description": "Unofficial native-Windows fork of Agent Zero: no Docker or WSL, security-hardened, new WebUI. Not affiliated with Agent Zero, s.r.o.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-05T02:01:11Z",
+          "updatedAt": "2026-10-05T10:42:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 55.07
+        },
+        {
+          "id": 1402669106,
+          "name": "rowan",
+          "fullName": "hedgerow-dev/rowan",
+          "url": "https://github.com/hedgerow-dev/rowan",
+          "homepage": "",
+          "description": "Static security scanner for AI applications: source code, model files, dependencies and agent/MCP config, with evidence for every finding.",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 6,
+          "language": "Python",
+          "createdAt": "2026-10-03T04:45:17Z",
+          "updatedAt": "2026-10-05T12:16:21Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 53.26
         },
         {
           "id": 1404162414,
@@ -147,7 +250,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 58.32
+          "score": 52.79
         },
         {
           "id": 1403166209,
@@ -172,21 +275,21 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 56.79
+          "score": 51.26
         },
         {
-          "id": 1402669106,
-          "name": "rowan",
-          "fullName": "hedgerow-dev/rowan",
-          "url": "https://github.com/hedgerow-dev/rowan",
-          "homepage": "",
-          "description": "Static security scanner for AI applications: source code, model files, dependencies and agent/MCP config, with evidence for every finding.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 7,
-          "language": "Python",
-          "createdAt": "2026-10-03T04:45:17Z",
-          "updatedAt": "2026-10-03T19:45:38Z",
+          "id": 1401219750,
+          "name": "openqodex",
+          "fullName": "openqodex/openqodex",
+          "url": "https://github.com/openqodex/openqodex",
+          "homepage": "https://qodex.ai/openqodex",
+          "description": "Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, lint) on the lines you changed, then a separate reviewer process that checks every scanner finding and is given every changed line. No other API key.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 10,
+          "language": "TypeScript",
+          "createdAt": "2026-10-02T06:19:06Z",
+          "updatedAt": "2026-10-05T10:30:53Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -195,10 +298,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
+            "AI 自动化 / Skill"
           ],
-          "score": 53.65
+          "score": 50.53
         },
         {
           "id": 1403339465,
@@ -223,7 +325,33 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 51.51
+          "score": 45.97
+        },
+        {
+          "id": 1403312368,
+          "name": "cyber-portfolio",
+          "fullName": "Emanuel-Walker/cyber-portfolio",
+          "url": "https://github.com/Emanuel-Walker/cyber-portfolio",
+          "homepage": "",
+          "description": "My cyber + AI builder portfolio. Six projects, six months. The thought partner side: Obsidian second brain + AI agent setups (Claude Code, Codex, Grok, Muse, Dot). The security side: detection-as-code, hardened LLM triage, crown jewel triage, AWS IR lab, agent skills. Plain-English walkthroughs.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-03T14:55:10Z",
+          "updatedAt": "2026-10-05T13:24:40Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 45.79
         },
         {
           "id": 1402895508,
@@ -249,106 +377,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 48.86
-        },
-        {
-          "id": 1401219750,
-          "name": "openqodex",
-          "fullName": "openqodex/openqodex",
-          "url": "https://github.com/openqodex/openqodex",
-          "homepage": "https://qodex.ai/openqodex",
-          "description": "Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, lint) on the lines you changed, then a separate reviewer process that checks every scanner finding and is given every changed line. No other API key.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 6,
-          "language": "TypeScript",
-          "createdAt": "2026-10-02T06:19:06Z",
-          "updatedAt": "2026-10-05T02:27:38Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 46.53
-        },
-        {
-          "id": 1401385935,
-          "name": "InfraPulse-Core",
-          "fullName": "vighnesh91/InfraPulse-Core",
-          "url": "https://github.com/vighnesh91/InfraPulse-Core",
-          "homepage": "",
-          "description": "A high-fidelity, read-only internal network security assessment toolkit for Linux and Windows infrastructure. Employs a zero-mutation, default-deny architecture to safely capture and structure risk telemetry without system modifications.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Batchfile",
-          "createdAt": "2026-10-02T08:31:52Z",
-          "updatedAt": "2026-10-02T19:40:22Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 43.13
-        },
-        {
-          "id": 1401775230,
-          "name": "portfolio-grand-line-3d",
-          "fullName": "DATAdotPDF/portfolio-grand-line-3d",
-          "url": "https://github.com/DATAdotPDF/portfolio-grand-line-3d",
-          "homepage": "https://dotpdf.dev",
-          "description": "Interactive 3D nautical portfolio built in Godot 4 (WebGL 2) - sail a pirate sloop across the Grand Line to explore my résumé.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "GDScript",
-          "createdAt": "2026-10-02T13:24:06Z",
-          "updatedAt": "2026-10-04T18:40:33Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 41.38
-        },
-        {
-          "id": 1402359338,
-          "name": "Alecto-OSINT",
-          "fullName": "alectoaa/Alecto-OSINT",
-          "url": "https://github.com/alectoaa/Alecto-OSINT",
-          "homepage": "",
-          "description": "OSINT tool for breach monitoring",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-02T21:10:02Z",
-          "updatedAt": "2026-10-04T17:23:48Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全"
-          ],
-          "score": 41.11
+          "score": 43.33
         }
       ]
     },
@@ -361,42 +390,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-09-28",
-      "totalCandidates": 24,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1791183666"
+          "rateLimitReset": "1791234778"
         }
       ],
       "repositories": [
@@ -407,12 +436,12 @@
           "url": "https://github.com/mdpsec/bug-bounty-hunting-prompts",
           "homepage": "https://mdpsec.com",
           "description": "Reusable prompts for a structured, evidence-first bug bounty hunting workflow",
-          "stars": 312,
-          "forks": 98,
+          "stars": 376,
+          "forks": 108,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-30T05:43:35Z",
-          "updatedAt": "2026-10-05T06:46:17Z",
+          "updatedAt": "2026-10-05T20:59:08Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -426,7 +455,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 216
+          "score": 219.75
         },
         {
           "id": 1400284027,
@@ -435,12 +464,12 @@
           "url": "https://github.com/aixisstudio/Snitch",
           "homepage": "https://aixisstudio.github.io/Snitch/",
           "description": "Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.",
-          "stars": 56,
+          "stars": 63,
           "forks": 4,
-          "openIssues": 4,
+          "openIssues": 5,
           "language": "Python",
           "createdAt": "2026-10-01T15:47:55Z",
-          "updatedAt": "2026-10-05T05:05:12Z",
+          "updatedAt": "2026-10-05T18:10:03Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -451,7 +480,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 137.41
+          "score": 138.24
         },
         {
           "id": 1392971873,
@@ -476,7 +505,57 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 125.36
+          "score": 124.16
+        },
+        {
+          "id": 1405850231,
+          "name": "Cyber-Frost-Harness",
+          "fullName": "Blackfrost-AI/Cyber-Frost-Harness",
+          "url": "https://github.com/Blackfrost-AI/Cyber-Frost-Harness",
+          "homepage": "",
+          "description": "Native red, blue, and purple security-agent harness for CYBER-FROST",
+          "stars": 11,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-05T13:53:31Z",
+          "updatedAt": "2026-10-05T20:40:02Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 105.64
+        },
+        {
+          "id": 1397292246,
+          "name": "jailbreak-archives",
+          "fullName": "e2sy/jailbreak-archives",
+          "url": "https://github.com/e2sy/jailbreak-archives",
+          "homepage": "https://www.youtube.com/@indiancybersecurity",
+          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
+          "stars": 22,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Roff",
+          "createdAt": "2026-09-30T07:34:14Z",
+          "updatedAt": "2026-10-05T17:04:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 99.2
         },
         {
           "id": 1400039535,
@@ -501,32 +580,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 98.68
-        },
-        {
-          "id": 1397292246,
-          "name": "jailbreak-archives",
-          "fullName": "e2sy/jailbreak-archives",
-          "url": "https://github.com/e2sy/jailbreak-archives",
-          "homepage": "https://www.youtube.com/@indiancybersecurity",
-          "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
-          "stars": 18,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Roff",
-          "createdAt": "2026-09-30T07:34:14Z",
-          "updatedAt": "2026-10-05T03:58:14Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 96.46
+          "score": 96.48
         },
         {
           "id": 1395774256,
@@ -535,12 +589,12 @@
           "url": "https://github.com/kaifcodec/phonsint",
           "homepage": "",
           "description": "🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars and  uncovers cross-platform account registrations, and enriches identity footprints with zero SMS alerts.",
-          "stars": 13,
-          "forks": 1,
+          "stars": 14,
+          "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-09-29T15:32:42Z",
-          "updatedAt": "2026-10-04T12:14:50Z",
+          "updatedAt": "2026-10-05T15:59:07Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -552,7 +606,88 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 85.71
+          "score": 87.67
+        },
+        {
+          "id": 1398651698,
+          "name": "cybersecurity-roadmap-2026",
+          "fullName": "tariqsumatri82/cybersecurity-roadmap-2026",
+          "url": "https://github.com/tariqsumatri82/cybersecurity-roadmap-2026",
+          "homepage": "",
+          "description": "Complete step-by-step roadmap to become a Cybersecurity Professional from zero to job ready. Free resources included.",
+          "stars": 8,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-09-30T19:27:37Z",
+          "updatedAt": "2026-10-05T20:10:24Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 83.73
+        },
+        {
+          "id": 1401406896,
+          "name": "OpenRod",
+          "fullName": "OpenRod/OpenRod",
+          "url": "https://github.com/OpenRod/OpenRod",
+          "homepage": "",
+          "description": "One-click sandboxes for AI agents, with egress policy, MCPs, skills and audit. Built on NVIDIA OpenShell.",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "JavaScript",
+          "createdAt": "2026-10-02T08:49:40Z",
+          "updatedAt": "2026-10-05T18:34:54Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 79.55
+        },
+        {
+          "id": 1394603303,
+          "name": "SentinelToXDR",
+          "fullName": "pkhabazi/SentinelToXDR",
+          "url": "https://github.com/pkhabazi/SentinelToXDR",
+          "homepage": "",
+          "description": "Assess, convert and deploy Microsoft Sentinel analytics rules as Defender XDR custom detections",
+          "stars": 15,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-09-29T07:16:53Z",
+          "updatedAt": "2026-10-05T10:12:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 79.13
         },
         {
           "id": 1400015949,
@@ -577,32 +712,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.32
-        },
-        {
-          "id": 1394603303,
-          "name": "SentinelToXDR",
-          "fullName": "pkhabazi/SentinelToXDR",
-          "url": "https://github.com/pkhabazi/SentinelToXDR",
-          "homepage": "",
-          "description": "Assess, convert and deploy Microsoft Sentinel analytics rules as Defender XDR custom detections",
-          "stars": 14,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-09-29T07:16:53Z",
-          "updatedAt": "2026-10-03T03:51:53Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 79.76
+          "score": 77.95
         },
         {
           "id": 1395919528,
@@ -627,7 +737,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 77.68
+          "score": 75.48
         },
         {
           "id": 1400014910,
@@ -653,7 +763,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 77.65
+          "score": 75.27
         },
         {
           "id": 1400015731,
@@ -677,7 +787,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 77.65
+          "score": 75.27
         },
         {
           "id": 1398478150,
@@ -702,33 +812,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 76.9
-        },
-        {
-          "id": 1401406896,
-          "name": "OpenRod",
-          "fullName": "OpenRod/OpenRod",
-          "url": "https://github.com/OpenRod/OpenRod",
-          "homepage": "",
-          "description": "One-click sandboxes for AI agents, with egress policy, MCPs, skills and audit. Built on NVIDIA OpenShell.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-02T08:49:40Z",
-          "updatedAt": "2026-10-03T16:37:06Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 74.93
+          "score": 74.53
         },
         {
           "id": 1398479171,
@@ -752,7 +836,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 74.23
+          "score": 71.86
         },
         {
           "id": 1392202525,
@@ -777,58 +861,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 68.74
-        },
-        {
-          "id": 1398471288,
-          "name": "dnswatch",
-          "fullName": "Secx1/dnswatch",
-          "url": "https://github.com/Secx1/dnswatch",
-          "homepage": "",
-          "description": "Offline, explainable heuristics for Zeek DNS logs",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-30T16:38:37Z",
-          "updatedAt": "2026-10-01T22:12:14Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 67.95
-        },
-        {
-          "id": 1391734033,
-          "name": "genpark-nonce-replay-attack-guard-skill",
-          "fullName": "Alpha-Park/genpark-nonce-replay-attack-guard-skill",
-          "url": "https://github.com/Alpha-Park/genpark-nonce-replay-attack-guard-skill",
-          "homepage": "",
-          "description": "Sliding-window nonce ledger and replay attack detector invalidating duplicated agent API requests and token reflections.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-28T03:45:53Z",
-          "updatedAt": "2026-09-28T03:46:26Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 61.62
+          "score": 68.53
         },
         {
           "id": 1391733190,
