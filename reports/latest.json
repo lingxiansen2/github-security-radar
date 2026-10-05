@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-04T17:36:11.641Z",
+  "generatedAt": "2026-10-05T07:00:13.579Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,109 +33,59 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-01",
-      "totalCandidates": 22,
+      "createdSince": "2026-10-02",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         }
       ],
       "repositories": [
         {
-          "id": 1400284027,
-          "name": "Snitch",
-          "fullName": "aixisstudio/Snitch",
-          "url": "https://github.com/aixisstudio/Snitch",
-          "homepage": "https://aixisstudio.github.io/Snitch/",
-          "description": "Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.",
-          "stars": 47,
-          "forks": 3,
-          "openIssues": 4,
-          "language": "Python",
-          "createdAt": "2026-10-01T15:47:55Z",
-          "updatedAt": "2026-10-04T17:13:13Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 117.79
-        },
-        {
-          "id": 1400039535,
-          "name": "witness-vault",
-          "fullName": "Hamidooh/witness-vault",
-          "url": "https://github.com/Hamidooh/witness-vault",
-          "homepage": "https://github.com/Hamidooh/witness-vault",
-          "description": "Zero-install, air-gapped, self-decrypting HTML vaults using AES-256-GCM and native WebCrypto.",
-          "stars": 26,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-01T13:28:07Z",
-          "updatedAt": "2026-10-02T04:00:06Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 86.53
-        },
-        {
-          "id": 1400015949,
-          "name": "password-security-lab",
-          "fullName": "emmanuelygr/password-security-lab",
-          "url": "https://github.com/emmanuelygr/password-security-lab",
+          "id": 1404912606,
+          "name": "agentguardai-pro",
+          "fullName": "furkanulusoy/agentguardai-pro",
+          "url": "https://github.com/furkanulusoy/agentguardai-pro",
           "homepage": "",
-          "description": "Interactive Python CLI demonstrating secure password hashing, salting, and authentication workflows.",
-          "stars": 9,
+          "description": "Self-hosted control plane for AI agent actions, human approvals, scoped connectors, and audit trails.",
+          "stars": 2,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 3,
           "language": "Python",
-          "createdAt": "2026-10-01T13:11:45Z",
-          "updatedAt": "2026-10-01T13:32:28Z",
+          "createdAt": "2026-10-04T23:23:06Z",
+          "updatedAt": "2026-10-05T00:10:04Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -146,7 +96,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.25
+          "score": 63.99
         },
         {
           "id": 1401406896,
@@ -172,57 +122,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 65.29
-        },
-        {
-          "id": 1400014910,
-          "name": "network-recon-toolkit",
-          "fullName": "emmanuelygr/network-recon-toolkit",
-          "url": "https://github.com/emmanuelygr/network-recon-toolkit",
-          "homepage": "",
-          "description": "Beginner-friendly network reconnaissance tool using Python and Nmap for educational port scanning.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-01T13:11:04Z",
-          "updatedAt": "2026-10-01T13:32:48Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 64.58
-        },
-        {
-          "id": 1400015731,
-          "name": "linux-security-hardening",
-          "fullName": "emmanuelygr/linux-security-hardening",
-          "url": "https://github.com/emmanuelygr/linux-security-hardening",
-          "homepage": "",
-          "description": "Beginner-friendly Bash script to audit and recommend Linux system security improvements.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-10-01T13:11:35Z",
-          "updatedAt": "2026-10-01T13:32:03Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 64.58
+          "score": 60.45
         },
         {
           "id": 1404162414,
@@ -247,7 +147,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.55
+          "score": 58.32
         },
         {
           "id": 1403166209,
@@ -272,7 +172,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 62.02
+          "score": 56.79
         },
         {
           "id": 1402669106,
@@ -283,7 +183,7 @@
           "description": "Static security scanner for AI applications: source code, model files, dependencies and agent/MCP config, with evidence for every finding.",
           "stars": 3,
           "forks": 1,
-          "openIssues": 1,
+          "openIssues": 7,
           "language": "Python",
           "createdAt": "2026-10-03T04:45:17Z",
           "updatedAt": "2026-10-03T19:45:38Z",
@@ -298,21 +198,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 58.49
+          "score": 53.65
         },
         {
-          "id": 1400015433,
-          "name": "mini-siem-log-analyzer",
-          "fullName": "emmanuelygr/mini-siem-log-analyzer",
-          "url": "https://github.com/emmanuelygr/mini-siem-log-analyzer",
+          "id": 1403339465,
+          "name": "CVE-2026-4480-samba-print-command-injection-rce",
+          "fullName": "AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce",
+          "url": "https://github.com/AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce",
           "homepage": "",
-          "description": "Miniature SIEM tool for parsing Linux security logs and identifying suspicious authentication activities.",
-          "stars": 6,
+          "description": "",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-01T13:11:24Z",
-          "updatedAt": "2026-10-01T13:31:07Z",
+          "createdAt": "2026-10-03T15:23:16Z",
+          "updatedAt": "2026-10-04T21:03:31Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -321,9 +221,9 @@
           ],
           "tags": [
             "网络安全",
-            "防守 / 蓝队"
+            "漏洞研究 / 攻防"
           ],
-          "score": 58.32
+          "score": 51.51
         },
         {
           "id": 1402895508,
@@ -349,21 +249,21 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 54.09
+          "score": 48.86
         },
         {
-          "id": 1402790111,
-          "name": "ida-tools",
-          "fullName": "hypeblock26/ida-tools",
-          "url": "https://github.com/hypeblock26/ida-tools",
-          "homepage": "",
-          "description": " An IDAPython script designed to assist with IDA Pro licensing, registration, and patching routines.",
-          "stars": 2,
+          "id": 1401219750,
+          "name": "openqodex",
+          "fullName": "openqodex/openqodex",
+          "url": "https://github.com/openqodex/openqodex",
+          "homepage": "https://qodex.ai/openqodex",
+          "description": "Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, lint) on the lines you changed, then a separate reviewer process that checks every scanner finding and is given every changed line. No other API key.",
+          "stars": 4,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-03T07:00:30Z",
-          "updatedAt": "2026-10-04T03:12:15Z",
+          "openIssues": 6,
+          "language": "TypeScript",
+          "createdAt": "2026-10-02T06:19:06Z",
+          "updatedAt": "2026-10-05T02:27:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -372,9 +272,83 @@
           ],
           "tags": [
             "通用安全",
-            "逆向 / 恶意代码"
+            "AI 自动化 / Skill"
           ],
-          "score": 49.51
+          "score": 46.53
+        },
+        {
+          "id": 1401385935,
+          "name": "InfraPulse-Core",
+          "fullName": "vighnesh91/InfraPulse-Core",
+          "url": "https://github.com/vighnesh91/InfraPulse-Core",
+          "homepage": "",
+          "description": "A high-fidelity, read-only internal network security assessment toolkit for Linux and Windows infrastructure. Employs a zero-mutation, default-deny architecture to safely capture and structure risk telemetry without system modifications.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Batchfile",
+          "createdAt": "2026-10-02T08:31:52Z",
+          "updatedAt": "2026-10-02T19:40:22Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 43.13
+        },
+        {
+          "id": 1401775230,
+          "name": "portfolio-grand-line-3d",
+          "fullName": "DATAdotPDF/portfolio-grand-line-3d",
+          "url": "https://github.com/DATAdotPDF/portfolio-grand-line-3d",
+          "homepage": "https://dotpdf.dev",
+          "description": "Interactive 3D nautical portfolio built in Godot 4 (WebGL 2) - sail a pirate sloop across the Grand Line to explore my résumé.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "GDScript",
+          "createdAt": "2026-10-02T13:24:06Z",
+          "updatedAt": "2026-10-04T18:40:33Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 41.38
+        },
+        {
+          "id": 1402359338,
+          "name": "Alecto-OSINT",
+          "fullName": "alectoaa/Alecto-OSINT",
+          "url": "https://github.com/alectoaa/Alecto-OSINT",
+          "homepage": "",
+          "description": "OSINT tool for breach monitoring",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-02T21:10:02Z",
+          "updatedAt": "2026-10-04T17:23:48Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 41.11
         }
       ]
     },
@@ -386,43 +360,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-27",
-      "totalCandidates": 25,
+      "createdSince": "2026-09-28",
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1791135424"
+          "rateLimitReset": "1791183666"
         }
       ],
       "repositories": [
@@ -433,12 +407,12 @@
           "url": "https://github.com/mdpsec/bug-bounty-hunting-prompts",
           "homepage": "https://mdpsec.com",
           "description": "Reusable prompts for a structured, evidence-first bug bounty hunting workflow",
-          "stars": 225,
-          "forks": 75,
-          "openIssues": 1,
+          "stars": 312,
+          "forks": 98,
+          "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-30T05:43:35Z",
-          "updatedAt": "2026-10-04T17:30:45Z",
+          "updatedAt": "2026-10-05T06:46:17Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -452,7 +426,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 206.71
+          "score": 216
         },
         {
           "id": 1400284027,
@@ -461,12 +435,12 @@
           "url": "https://github.com/aixisstudio/Snitch",
           "homepage": "https://aixisstudio.github.io/Snitch/",
           "description": "Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.",
-          "stars": 47,
-          "forks": 3,
+          "stars": 56,
+          "forks": 4,
           "openIssues": 4,
           "language": "Python",
           "createdAt": "2026-10-01T15:47:55Z",
-          "updatedAt": "2026-10-04T17:13:13Z",
+          "updatedAt": "2026-10-05T05:05:12Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -477,7 +451,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 133.53
+          "score": 137.41
         },
         {
           "id": 1392971873,
@@ -502,7 +476,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 127.43
+          "score": 125.36
         },
         {
           "id": 1400039535,
@@ -527,7 +501,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 100.75
+          "score": 98.68
         },
         {
           "id": 1397292246,
@@ -536,12 +510,12 @@
           "url": "https://github.com/e2sy/jailbreak-archives",
           "homepage": "https://www.youtube.com/@indiancybersecurity",
           "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
-          "stars": 17,
+          "stars": 18,
           "forks": 1,
           "openIssues": 0,
           "language": "Roff",
           "createdAt": "2026-09-30T07:34:14Z",
-          "updatedAt": "2026-10-04T15:36:14Z",
+          "updatedAt": "2026-10-05T03:58:14Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -552,7 +526,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 97.26
+          "score": 96.46
         },
         {
           "id": 1395774256,
@@ -578,7 +552,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 87.95
+          "score": 85.71
         },
         {
           "id": 1400015949,
@@ -603,7 +577,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.56
+          "score": 80.32
         },
         {
           "id": 1394603303,
@@ -628,7 +602,32 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 81.83
+          "score": 79.76
+        },
+        {
+          "id": 1395919528,
+          "name": "agentcap",
+          "fullName": "yeet-src/agentcap",
+          "url": "https://github.com/yeet-src/agentcap",
+          "homepage": "https://yeet.cx",
+          "description": "eBPF Prometheus exporter for AI-agent activity — per-agent tools, domains, ports, files, CPU & network — with a Grafana dashboard. A yeet service.",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-29T16:14:23Z",
+          "updatedAt": "2026-10-02T23:40:56Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.68
         },
         {
           "id": 1400014910,
@@ -654,7 +653,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 79.89
+          "score": 77.65
         },
         {
           "id": 1400015731,
@@ -678,32 +677,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 79.89
-        },
-        {
-          "id": 1395919528,
-          "name": "agentcap",
-          "fullName": "yeet-src/agentcap",
-          "url": "https://github.com/yeet-src/agentcap",
-          "homepage": "https://yeet.cx",
-          "description": "eBPF Prometheus exporter for AI-agent activity — per-agent tools, domains, ports, files, CPU & network — with a Grafana dashboard. A yeet service.",
-          "stars": 12,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-09-29T16:14:23Z",
-          "updatedAt": "2026-10-02T23:40:56Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 79.75
+          "score": 77.65
         },
         {
           "id": 1398478150,
@@ -728,7 +702,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 79.14
+          "score": 76.9
         },
         {
           "id": 1401406896,
@@ -754,7 +728,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.01
+          "score": 74.93
         },
         {
           "id": 1398479171,
@@ -778,7 +752,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 76.47
+          "score": 74.23
         },
         {
           "id": 1392202525,
@@ -803,7 +777,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 70.81
+          "score": 68.74
         },
         {
           "id": 1398471288,
@@ -828,56 +802,59 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 70.19
+          "score": 67.95
         },
         {
-          "id": 1390097669,
-          "name": "SeeNoEvil",
-          "fullName": "Albatany/SeeNoEvil",
-          "url": "https://github.com/Albatany/SeeNoEvil",
+          "id": 1391734033,
+          "name": "genpark-nonce-replay-attack-guard-skill",
+          "fullName": "Alpha-Park/genpark-nonce-replay-attack-guard-skill",
+          "url": "https://github.com/Alpha-Park/genpark-nonce-replay-attack-guard-skill",
           "homepage": "",
-          "description": "See no evil. A tool for scanning websites and automating penetration testing. detect websites cms & auto exploit",
-          "stars": 5,
-          "forks": 1,
+          "description": "Sliding-window nonce ledger and replay attack detector invalidating duplicated agent API requests and token reflections.",
+          "stars": 7,
+          "forks": 0,
           "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-09-27T04:14:43Z",
-          "updatedAt": "2026-10-04T06:30:02Z",
+          "language": "Python",
+          "createdAt": "2026-09-28T03:45:53Z",
+          "updatedAt": "2026-09-28T03:46:26Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1.18
+            1.08
           ],
           "tags": [
-            "渗透 / 红队"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
           ],
-          "score": 64.35
+          "score": 61.62
         },
         {
-          "id": 1390775583,
-          "name": "LogsTotal",
-          "fullName": "wagga40/LogsTotal",
-          "url": "https://github.com/wagga40/LogsTotal",
-          "homepage": "https://wagga40.github.io/LogsTotal/",
-          "description": "Self-hosted multi-engine Sigma detection for event logs",
-          "stars": 8,
-          "forks": 1,
-          "openIssues": 7,
+          "id": 1391733190,
+          "name": "genpark-nonce-replay-attack-guard-skill",
+          "fullName": "alphaparkinc/genpark-nonce-replay-attack-guard-skill",
+          "url": "https://github.com/alphaparkinc/genpark-nonce-replay-attack-guard-skill",
+          "homepage": "",
+          "description": "Sliding-window nonce ledger and replay attack detector invalidating duplicated agent API requests and token reflections.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-27T12:21:21Z",
-          "updatedAt": "2026-10-03T09:19:19Z",
+          "createdAt": "2026-09-28T03:45:20Z",
+          "updatedAt": "2026-09-28T03:45:52Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "防守 / 蓝队"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
           ],
-          "score": 63.79
+          "score": 61.62
         }
       ]
     }
