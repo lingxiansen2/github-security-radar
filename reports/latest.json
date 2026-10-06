@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-05T21:12:06.423Z",
+  "generatedAt": "2026-10-06T07:31:55.876Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-02",
-      "totalCandidates": 23,
+      "createdSince": "2026-10-03",
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Blackfrost-AI/Cyber-Frost-Harness",
           "homepage": "",
           "description": "Native red, blue, and purple security-agent harness for CYBER-FROST",
-          "stars": 11,
-          "forks": 2,
+          "stars": 40,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-05T13:53:31Z",
-          "updatedAt": "2026-10-05T20:40:02Z",
+          "updatedAt": "2026-10-06T07:03:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -96,21 +96,95 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 104.01
+          "score": 138.16
         },
         {
-          "id": 1401406896,
-          "name": "OpenRod",
-          "fullName": "OpenRod/OpenRod",
-          "url": "https://github.com/OpenRod/OpenRod",
+          "id": 1405994809,
+          "name": "RIXON-Windows-Remote-Administration-Tool",
+          "fullName": "jungsuxx/RIXON-Windows-Remote-Administration-Tool",
+          "url": "https://github.com/jungsuxx/RIXON-Windows-Remote-Administration-Tool",
           "homepage": "",
-          "description": "One-click sandboxes for AI agents, with egress policy, MCPs, skills and audit. Built on NVIDIA OpenShell.",
-          "stars": 11,
+          "description": "Windows Remote Administration Tool — Built for Red Team Operations",
+          "stars": 2,
           "forks": 0,
-          "openIssues": 1,
-          "language": "JavaScript",
-          "createdAt": "2026-10-02T08:49:40Z",
-          "updatedAt": "2026-10-05T18:34:54Z",
+          "openIssues": 0,
+          "language": "C++",
+          "createdAt": "2026-10-05T15:35:12Z",
+          "updatedAt": "2026-10-05T21:24:32Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 66.37
+        },
+        {
+          "id": 1406253050,
+          "name": "autonomous-ai-agent-security-incidents-2026",
+          "fullName": "mars2021y-gif/autonomous-ai-agent-security-incidents-2026",
+          "url": "https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026",
+          "homepage": "https://doi.org/10.5281/zenodo.22737862",
+          "description": "Autonomous AI Agent Security Incidents of 2026: Benchmark dataset (109 incidents), falsification matrix, 2-page executive summary, and multi-agent privilege attenuation harness (100% EPR).",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-10-05T18:56:13Z",
+          "updatedAt": "2026-10-06T06:14:35Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 62.05
+        },
+        {
+          "id": 1405972258,
+          "name": "gangmu",
+          "fullName": "GANGMU-SBOM/gangmu",
+          "url": "https://github.com/GANGMU-SBOM/gangmu",
+          "homepage": "",
+          "description": "Generate a CycloneDX or SPDX SBOM for embedded C/C++ firmware from the build's compile database and linker map.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-05T15:20:05Z",
+          "updatedAt": "2026-10-06T07:12:27Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "逆向 / 恶意代码"
+          ],
+          "score": 56.15
+        },
+        {
+          "id": 1402669106,
+          "name": "rowan",
+          "fullName": "hedgerow-dev/rowan",
+          "url": "https://github.com/hedgerow-dev/rowan",
+          "homepage": "",
+          "description": "Static security scanner for AI applications: source code, model files, dependencies and agent/MCP config, with evidence for every finding.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 6,
+          "language": "Python",
+          "createdAt": "2026-10-03T04:45:17Z",
+          "updatedAt": "2026-10-06T00:13:41Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -120,9 +194,9 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
+            "网络安全"
           ],
-          "score": 66.61
+          "score": 54.53
         },
         {
           "id": 1404912606,
@@ -147,7 +221,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 58.45
+          "score": 54.42
         },
         {
           "id": 1405092161,
@@ -173,7 +247,32 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 55.77
+          "score": 52.04
+        },
+        {
+          "id": 1405073884,
+          "name": "cicheck",
+          "fullName": "ReazGan/cicheck",
+          "url": "https://github.com/ReazGan/cicheck",
+          "homepage": "",
+          "description": "Security linter for non-GitHub CI pipelines: GitLab CI, CircleCI, Azure Pipelines, Bitbucket, Drone, Travis.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-05T03:36:41Z",
+          "updatedAt": "2026-10-05T17:46:24Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 51.92
         },
         {
           "id": 1404994139,
@@ -199,33 +298,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 55.07
-        },
-        {
-          "id": 1402669106,
-          "name": "rowan",
-          "fullName": "hedgerow-dev/rowan",
-          "url": "https://github.com/hedgerow-dev/rowan",
-          "homepage": "",
-          "description": "Static security scanner for AI applications: source code, model files, dependencies and agent/MCP config, with evidence for every finding.",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 6,
-          "language": "Python",
-          "createdAt": "2026-10-03T04:45:17Z",
-          "updatedAt": "2026-10-05T12:16:21Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 53.26
+          "score": 51.34
         },
         {
           "id": 1404162414,
@@ -250,7 +323,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 52.79
+          "score": 48.76
         },
         {
           "id": 1403166209,
@@ -275,46 +348,21 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 51.26
+          "score": 47.23
         },
         {
-          "id": 1401219750,
-          "name": "openqodex",
-          "fullName": "openqodex/openqodex",
-          "url": "https://github.com/openqodex/openqodex",
-          "homepage": "https://qodex.ai/openqodex",
-          "description": "Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, lint) on the lines you changed, then a separate reviewer process that checks every scanner finding and is given every changed line. No other API key.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 10,
-          "language": "TypeScript",
-          "createdAt": "2026-10-02T06:19:06Z",
-          "updatedAt": "2026-10-05T10:30:53Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 50.53
-        },
-        {
-          "id": 1403339465,
-          "name": "CVE-2026-4480-samba-print-command-injection-rce",
-          "fullName": "AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce",
-          "url": "https://github.com/AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce",
-          "homepage": "",
-          "description": "",
+          "id": 1403657364,
+          "name": "-GOTENBERG-RCE-CHAIN",
+          "fullName": "HackfutSecRoot/-GOTENBERG-RCE-CHAIN",
+          "url": "https://github.com/HackfutSecRoot/-GOTENBERG-RCE-CHAIN",
+          "homepage": "https://github.com/HackfutSecRoot/-GOTENBERG-RCE-CHAIN",
+          "description": "Gotenberg RCE Chain — CVE-2026-42589 + CVE-2026-40281",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-03T15:23:16Z",
-          "updatedAt": "2026-10-04T21:03:31Z",
+          "createdAt": "2026-10-03T21:40:17Z",
+          "updatedAt": "2026-10-05T23:39:13Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -323,61 +371,10 @@
           ],
           "tags": [
             "网络安全",
+            "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 45.97
-        },
-        {
-          "id": 1403312368,
-          "name": "cyber-portfolio",
-          "fullName": "Emanuel-Walker/cyber-portfolio",
-          "url": "https://github.com/Emanuel-Walker/cyber-portfolio",
-          "homepage": "",
-          "description": "My cyber + AI builder portfolio. Six projects, six months. The thought partner side: Obsidian second brain + AI agent setups (Claude Code, Codex, Grok, Muse, Dot). The security side: detection-as-code, hardened LLM triage, crown jewel triage, AWS IR lab, agent skills. Plain-English walkthroughs.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-03T14:55:10Z",
-          "updatedAt": "2026-10-05T13:24:40Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 45.79
-        },
-        {
-          "id": 1402895508,
-          "name": "NetReconAI",
-          "fullName": "HexMindAI/NetReconAI",
-          "url": "https://github.com/HexMindAI/NetReconAI",
-          "homepage": "",
-          "description": "AI-assisted defensive domain security and network reconnaissance tool built with Python.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-03T08:36:11Z",
-          "updatedAt": "2026-10-03T17:26:14Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 43.33
+          "score": 44.39
         }
       ]
     },
@@ -389,7 +386,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-09-28",
+      "createdSince": "2026-09-29",
       "totalCandidates": 23,
       "queryStats": [
         {
@@ -397,35 +394,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1791234778"
+          "rateLimitReset": "1791271969"
         }
       ],
       "repositories": [
@@ -436,12 +433,12 @@
           "url": "https://github.com/mdpsec/bug-bounty-hunting-prompts",
           "homepage": "https://mdpsec.com",
           "description": "Reusable prompts for a structured, evidence-first bug bounty hunting workflow",
-          "stars": 376,
+          "stars": 403,
           "forks": 108,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-30T05:43:35Z",
-          "updatedAt": "2026-10-05T20:59:08Z",
+          "updatedAt": "2026-10-06T07:27:49Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -455,57 +452,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 219.75
-        },
-        {
-          "id": 1400284027,
-          "name": "Snitch",
-          "fullName": "aixisstudio/Snitch",
-          "url": "https://github.com/aixisstudio/Snitch",
-          "homepage": "https://aixisstudio.github.io/Snitch/",
-          "description": "Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.",
-          "stars": 63,
-          "forks": 4,
-          "openIssues": 5,
-          "language": "Python",
-          "createdAt": "2026-10-01T15:47:55Z",
-          "updatedAt": "2026-10-05T18:10:03Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 138.24
-        },
-        {
-          "id": 1392971873,
-          "name": "action-dist-verify",
-          "fullName": "kofiadeyemiq/action-dist-verify",
-          "url": "https://github.com/kofiadeyemiq/action-dist-verify",
-          "homepage": "",
-          "description": "Rebuild the JavaScript GitHub Actions your workflows pin and check that their committed dist matches the source.",
-          "stars": 68,
-          "forks": 10,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-09-28T14:43:40Z",
-          "updatedAt": "2026-10-04T13:53:03Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 124.16
+          "score": 219.98
         },
         {
           "id": 1405850231,
@@ -514,12 +461,12 @@
           "url": "https://github.com/Blackfrost-AI/Cyber-Frost-Harness",
           "homepage": "",
           "description": "Native red, blue, and purple security-agent harness for CYBER-FROST",
-          "stars": 11,
-          "forks": 2,
+          "stars": 40,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-05T13:53:31Z",
-          "updatedAt": "2026-10-05T20:40:02Z",
+          "updatedAt": "2026-10-06T07:03:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -530,7 +477,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 105.64
+          "score": 142.09
+        },
+        {
+          "id": 1400284027,
+          "name": "Snitch",
+          "fullName": "aixisstudio/Snitch",
+          "url": "https://github.com/aixisstudio/Snitch",
+          "homepage": "https://aixisstudio.github.io/Snitch/",
+          "description": "Real-time network traffic visualizer — see every connection your computer makes. Privacy-first, 100% local. / Visualiseur de trafic réseau en temps réel, 100% local.",
+          "stars": 64,
+          "forks": 4,
+          "openIssues": 5,
+          "language": "Python",
+          "createdAt": "2026-10-01T15:47:55Z",
+          "updatedAt": "2026-10-06T02:56:17Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 136.94
         },
         {
           "id": 1397292246,
@@ -539,12 +511,12 @@
           "url": "https://github.com/e2sy/jailbreak-archives",
           "homepage": "https://www.youtube.com/@indiancybersecurity",
           "description": "A structured, versioned archive of adversarial prompt engineering techniques against Large Language Models — for AI safety research, red-teaming, and defensive hardening.",
-          "stars": 22,
+          "stars": 23,
           "forks": 1,
           "openIssues": 0,
           "language": "Roff",
           "createdAt": "2026-09-30T07:34:14Z",
-          "updatedAt": "2026-10-05T17:04:33Z",
+          "updatedAt": "2026-10-06T00:58:26Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -555,7 +527,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 99.2
+          "score": 98.61
         },
         {
           "id": 1400039535,
@@ -580,7 +552,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 96.48
+          "score": 94.88
         },
         {
           "id": 1395774256,
@@ -606,7 +578,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 87.67
+          "score": 85.95
         },
         {
           "id": 1398651698,
@@ -615,12 +587,12 @@
           "url": "https://github.com/tariqsumatri82/cybersecurity-roadmap-2026",
           "homepage": "",
           "description": "Complete step-by-step roadmap to become a Cybersecurity Professional from zero to job ready. Free resources included.",
-          "stars": 8,
+          "stars": 9,
           "forks": 1,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-09-30T19:27:37Z",
-          "updatedAt": "2026-10-05T20:10:24Z",
+          "updatedAt": "2026-10-06T07:08:50Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全",
@@ -636,7 +608,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 83.73
+          "score": 84.76
         },
         {
           "id": 1401406896,
@@ -645,12 +617,12 @@
           "url": "https://github.com/OpenRod/OpenRod",
           "homepage": "",
           "description": "One-click sandboxes for AI agents, with egress policy, MCPs, skills and audit. Built on NVIDIA OpenShell.",
-          "stars": 11,
+          "stars": 12,
           "forks": 0,
-          "openIssues": 1,
+          "openIssues": 3,
           "language": "JavaScript",
           "createdAt": "2026-10-02T08:49:40Z",
-          "updatedAt": "2026-10-05T18:34:54Z",
+          "updatedAt": "2026-10-06T07:24:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -662,7 +634,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 79.55
+          "score": 79.88
         },
         {
           "id": 1394603303,
@@ -687,7 +659,7 @@
             "通用安全",
             "防守 / 蓝队"
           ],
-          "score": 79.13
+          "score": 77.57
         },
         {
           "id": 1400015949,
@@ -712,7 +684,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 77.95
+          "score": 76.22
         },
         {
           "id": 1395919528,
@@ -737,7 +709,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.48
+          "score": 73.88
         },
         {
           "id": 1400014910,
@@ -763,7 +735,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 75.27
+          "score": 73.55
         },
         {
           "id": 1400015731,
@@ -787,7 +759,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 75.27
+          "score": 73.55
         },
         {
           "id": 1398478150,
@@ -812,7 +784,7 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 74.53
+          "score": 72.8
         },
         {
           "id": 1398479171,
@@ -836,46 +808,21 @@
           "tags": [
             "网络安全"
           ],
-          "score": 71.86
+          "score": 70.13
         },
         {
-          "id": 1392202525,
-          "name": "dotnet-memshell",
-          "fullName": "lupingQAQ/dotnet-memshell",
-          "url": "https://github.com/lupingQAQ/dotnet-memshell",
+          "id": 1398471288,
+          "name": "dnswatch",
+          "fullName": "Secx1/dnswatch",
+          "url": "https://github.com/Secx1/dnswatch",
           "homepage": "",
-          "description": "Three .NET memory shells at three distinct insertion positions - HttpModule pipeline, WebSocket connection takeover, Remoting URI registration. Zero impact on unmarked traffic, no new port, no web.config change, no file drop. 三个插入位互不相同、业务无感的 .NET 内存马。",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "C#",
-          "createdAt": "2026-09-28T08:19:42Z",
-          "updatedAt": "2026-10-02T14:07:45Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "防守 / 蓝队"
-          ],
-          "score": 68.53
-        },
-        {
-          "id": 1391733190,
-          "name": "genpark-nonce-replay-attack-guard-skill",
-          "fullName": "alphaparkinc/genpark-nonce-replay-attack-guard-skill",
-          "url": "https://github.com/alphaparkinc/genpark-nonce-replay-attack-guard-skill",
-          "homepage": "",
-          "description": "Sliding-window nonce ledger and replay attack detector invalidating duplicated agent API requests and token reflections.",
-          "stars": 7,
+          "description": "Offline, explainable heuristics for Zeek DNS logs",
+          "stars": 6,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-09-28T03:45:20Z",
-          "updatedAt": "2026-09-28T03:45:52Z",
+          "createdAt": "2026-09-30T16:38:37Z",
+          "updatedAt": "2026-10-01T22:12:14Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -884,10 +831,61 @@
           ],
           "tags": [
             "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 63.85
+        },
+        {
+          "id": 1395156198,
+          "name": "genpark-sql-syntax-abstract-syntax-tree-validator-skill",
+          "fullName": "Alpha-Park/genpark-sql-syntax-abstract-syntax-tree-validator-skill",
+          "url": "https://github.com/Alpha-Park/genpark-sql-syntax-abstract-syntax-tree-validator-skill",
+          "homepage": "",
+          "description": "In-memory recursive SQL query validator checking syntax safety and blocking dangerous DDL/DML injection commands",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-29T12:08:33Z",
+          "updatedAt": "2026-09-29T12:09:08Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 61.62
+          "score": 57.77
+        },
+        {
+          "id": 1395154535,
+          "name": "genpark-sql-syntax-abstract-syntax-tree-validator-skill",
+          "fullName": "alphaparkinc/genpark-sql-syntax-abstract-syntax-tree-validator-skill",
+          "url": "https://github.com/alphaparkinc/genpark-sql-syntax-abstract-syntax-tree-validator-skill",
+          "homepage": "",
+          "description": "In-memory recursive SQL query validator checking syntax safety and blocking dangerous DDL/DML injection commands",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-09-29T12:07:56Z",
+          "updatedAt": "2026-09-29T12:08:30Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 57.77
         }
       ]
     }
