@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-10T17:52:22.828Z",
+  "generatedAt": "2026-10-11T07:09:51.473Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-07",
-      "totalCandidates": 22,
+      "createdSince": "2026-10-08",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Sequester-AG/bug-bounty-triage",
           "homepage": "",
           "description": "Agent skill for rigorous bug bounty report triage, validation, severity escalation, and submission-ready reporting.",
-          "stars": 80,
-          "forks": 11,
+          "stars": 99,
+          "forks": 14,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-09T19:27:46Z",
-          "updatedAt": "2026-10-10T16:53:51Z",
+          "updatedAt": "2026-10-11T06:34:37Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,7 +97,35 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 146.68
+          "score": 148.58
+        },
+        {
+          "id": 1411744700,
+          "name": "artex-ko-plus",
+          "fullName": "bdg9412/artex-ko-plus",
+          "url": "https://github.com/bdg9412/artex-ko-plus",
+          "homepage": "",
+          "description": "ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+          "stars": 54,
+          "forks": 47,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-10-09T11:36:03Z",
+          "updatedAt": "2026-10-11T06:56:46Z",
+          "matchedProfiles": [
+            "通用安全",
+            "网络安全"
+          ],
+          "profileWeights": [
+            1,
+            1.08
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 148.11
         },
         {
           "id": 1412022658,
@@ -106,12 +134,12 @@
           "url": "https://github.com/morluto/awesome-reverse-engineering",
           "homepage": "",
           "description": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-          "stars": 48,
-          "forks": 7,
+          "stars": 64,
+          "forks": 9,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-09T14:58:20Z",
-          "updatedAt": "2026-10-10T16:59:17Z",
+          "updatedAt": "2026-10-11T06:40:21Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -125,7 +153,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 140.27
+          "score": 144.26
         },
         {
           "id": 1409828070,
@@ -134,12 +162,12 @@
           "url": "https://github.com/MorDavid/NucleiSniper",
           "homepage": "https://mordavid.com",
           "description": "AI-powered Nuclei template prioritization using deep target fingerprinting and TypeSafe Jev to surface relevant security findings faster.",
-          "stars": 14,
-          "forks": 5,
+          "stars": 16,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-08T06:10:52Z",
-          "updatedAt": "2026-10-10T14:58:20Z",
+          "updatedAt": "2026-10-10T20:15:36Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -150,7 +178,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 93.73
+          "score": 93.19
         },
         {
           "id": 1409971361,
@@ -174,7 +202,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 77.52
+          "score": 72.34
         },
         {
           "id": 1411630016,
@@ -183,12 +211,12 @@
           "url": "https://github.com/MohammadThabetHassan/web-posture-check",
           "homepage": "",
           "description": "Command-line security posture checker for websites: security headers, cookies, CORS, TLS certificate and protocols, CAA, security.txt, SPF/DMARC/DKIM and the HTTPS redirect, with a score, Markdown/JSON reports and a GitHub Action.",
-          "stars": 5,
+          "stars": 6,
           "forks": 0,
-          "openIssues": 1,
+          "openIssues": 3,
           "language": "Python",
           "createdAt": "2026-10-09T09:54:29Z",
-          "updatedAt": "2026-10-10T15:30:52Z",
+          "updatedAt": "2026-10-11T00:44:43Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -201,7 +229,85 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 70.19
+          "score": 68.75
+        },
+        {
+          "id": 1413728889,
+          "name": "awesome_emu",
+          "fullName": "Iankulani/awesome_emu",
+          "url": "https://github.com/Iankulani/awesome_emu",
+          "homepage": "https://iankulani.github.io/Awesome-Emu-Doc/",
+          "description": " Awesome Emu is an offensive cybersecurity platform designed to support security professionals, penetration testers, ethical hackers, and cybersecurity researchers in assessing digital systems, identifying vulnerabilities, and improving security defenses. The platform provides a centralized environment for running authorized cybersecurity commands ",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-10T22:40:07Z",
+          "updatedAt": "2026-10-11T01:55:19Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 63.65
+        },
+        {
+          "id": 1413585108,
+          "name": "sieve",
+          "fullName": "casareanderson/sieve",
+          "url": "https://github.com/casareanderson/sieve",
+          "homepage": "https://github.com/casareanderson/warden",
+          "description": "Find the CVEs that matter on a Linux box and its running containers. Reads the package lists already there, asks OSV.dev, ranks by CISA KEV and EPSS. No scanner binary, no database, no server.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-10T19:26:54Z",
+          "updatedAt": "2026-10-11T02:37:53Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 63.56
+        },
+        {
+          "id": 1413509049,
+          "name": "TrustGuard",
+          "fullName": "Yash150406/TrustGuard",
+          "url": "https://github.com/Yash150406/TrustGuard",
+          "homepage": "",
+          "description": "Cyber-risk investigation platform and browser extension. Correlates URL, domain, DNS, TLS, redirect, page and reputation evidence into an explainable risk score.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Unknown",
+          "createdAt": "2026-10-10T18:04:31Z",
+          "updatedAt": "2026-10-11T06:17:13Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 61.86
         },
         {
           "id": 1411559899,
@@ -227,33 +333,33 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 64.63
+          "score": 59.83
         },
         {
-          "id": 1408342363,
-          "name": "wine-quarantine",
-          "fullName": "Deathxknight/wine-quarantine",
-          "url": "https://github.com/Deathxknight/wine-quarantine",
+          "id": 1412894156,
+          "name": "scam-guard",
+          "fullName": "soham5454/scam-guard",
+          "url": "https://github.com/soham5454/scam-guard",
           "homepage": "",
-          "description": "Linux bash scripts to isolate untrusted Windows game EXEs in a networkless Firejail sandbox with behavioral monitoring",
-          "stars": 10,
+          "description": "AI-powered scam detection app: Flutter + FastAPI. Flags phishing SMS/WhatsApp messages and malicious links with regional-language voice warnings.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-10-07T06:19:26Z",
-          "updatedAt": "2026-10-10T17:42:18Z",
+          "language": "Python",
+          "createdAt": "2026-10-10T07:18:31Z",
+          "updatedAt": "2026-10-10T08:17:41Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
+            "网络安全",
             "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
+            "防守 / 蓝队"
           ],
-          "score": 64.53
+          "score": 57.66
         },
         {
           "id": 1411758618,
@@ -267,121 +373,21 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-09T11:46:58Z",
-          "updatedAt": "2026-10-10T12:03:59Z",
+          "updatedAt": "2026-10-11T02:31:22Z",
           "matchedProfiles": [
+            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
+            1,
             1.08
           ],
           "tags": [
+            "通用安全",
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.48
-        },
-        {
-          "id": 1409043354,
-          "name": "snow_crab_v1",
-          "fullName": "Iankulani/snow_crab_v1",
-          "url": "https://github.com/Iankulani/snow_crab_v1",
-          "homepage": "https://iankulani.github.io/Snow-Crab-Doc/",
-          "description": "Snow Crab is an offensive cybersecurity tool developed by Accurate Cyber Defense to support security professionals, penetration testers, cybersecurity researchers, red teams, and organizations conducting authorized security assessments. The platform is designed to provide a centralized way to execute cybersecurity commands and coordinate security-t",
-          "stars": 4,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-07T15:59:03Z",
-          "updatedAt": "2026-10-10T01:42:40Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 60.28
-        },
-        {
-          "id": 1411744700,
-          "name": "artex-ko-plus",
-          "fullName": "bdg9412/artex-ko-plus",
-          "url": "https://github.com/bdg9412/artex-ko-plus",
-          "homepage": "",
-          "description": "ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-10-09T11:36:03Z",
-          "updatedAt": "2026-10-10T13:23:39Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 59.47
-        },
-        {
-          "id": 1411368624,
-          "name": "CVE-2026-80428",
-          "fullName": "HackfutSecRoot/CVE-2026-80428",
-          "url": "https://github.com/HackfutSecRoot/CVE-2026-80428",
-          "homepage": "https://github.com/HackfutSecRoot/CVE-2026-80428",
-          "description": "ILIAS ≤ 9.21 / 10.9 / 11.2 — Unauthenticated PHP Object Injection (RCE)",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-09T06:02:44Z",
-          "updatedAt": "2026-10-09T15:57:39Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 57.31
-        },
-        {
-          "id": 1408977344,
-          "name": "knossos",
-          "fullName": "pentest-tv/knossos",
-          "url": "https://github.com/pentest-tv/knossos",
-          "homepage": "https://pentest.tv",
-          "description": "Docker-based penetration testing lab and companion to Professional Penetration Testing (3rd Ed.). One command deploys three network zones of vulnerable targets with auto-planted flags and a local scoreboard.",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-07T15:03:42Z",
-          "updatedAt": "2026-10-10T01:54:38Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 54.04
+          "score": 56.3
         }
       ]
     },
@@ -393,76 +399,73 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-10-03",
-      "totalCandidates": 19,
+      "createdSince": "2026-10-04",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1791654796"
+          "rateLimitReset": "1791702645"
         }
       ],
       "repositories": [
         {
-          "id": 1403307052,
-          "name": "artex-ko",
-          "fullName": "jiwoochris/artex-ko",
-          "url": "https://github.com/jiwoochris/artex-ko",
+          "id": 1411744700,
+          "name": "artex-ko-plus",
+          "fullName": "bdg9412/artex-ko-plus",
+          "url": "https://github.com/bdg9412/artex-ko-plus",
           "homepage": "",
-          "description": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
-          "stars": 942,
-          "forks": 881,
-          "openIssues": 8,
+          "description": "ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+          "stars": 54,
+          "forks": 47,
+          "openIssues": 0,
           "language": "Go",
-          "createdAt": "2026-10-03T14:49:48Z",
-          "updatedAt": "2026-10-10T17:51:27Z",
+          "createdAt": "2026-10-09T11:36:03Z",
+          "updatedAt": "2026-10-11T06:56:46Z",
           "matchedProfiles": [
             "通用安全",
-            "网络安全",
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
             1,
-            1.08,
-            1.18
+            1.08
           ],
           "tags": [
             "通用安全",
             "网络安全",
-            "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 256.09
+          "score": 157.82
         },
         {
           "id": 1412357738,
@@ -471,12 +474,12 @@
           "url": "https://github.com/Sequester-AG/bug-bounty-triage",
           "homepage": "",
           "description": "Agent skill for rigorous bug bounty report triage, validation, severity escalation, and submission-ready reporting.",
-          "stars": 80,
-          "forks": 11,
+          "stars": 99,
+          "forks": 14,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-09T19:27:46Z",
-          "updatedAt": "2026-10-10T16:53:51Z",
+          "updatedAt": "2026-10-11T06:34:37Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -488,7 +491,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 151.31
+          "score": 155.95
         },
         {
           "id": 1412022658,
@@ -497,12 +500,12 @@
           "url": "https://github.com/morluto/awesome-reverse-engineering",
           "homepage": "",
           "description": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-          "stars": 48,
-          "forks": 7,
+          "stars": 64,
+          "forks": 9,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-09T14:58:20Z",
-          "updatedAt": "2026-10-10T16:59:17Z",
+          "updatedAt": "2026-10-11T06:40:21Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -516,7 +519,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 146.26
+          "score": 153.22
         },
         {
           "id": 1407258819,
@@ -541,7 +544,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 138.06
+          "score": 136.01
         },
         {
           "id": 1405850231,
@@ -566,7 +569,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 131.13
+          "score": 128.91
         },
         {
           "id": 1409828070,
@@ -575,12 +578,12 @@
           "url": "https://github.com/MorDavid/NucleiSniper",
           "homepage": "https://mordavid.com",
           "description": "AI-powered Nuclei template prioritization using deep target fingerprinting and TypeSafe Jev to surface relevant security findings faster.",
-          "stars": 14,
-          "forks": 5,
+          "stars": 16,
+          "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-08T06:10:52Z",
-          "updatedAt": "2026-10-10T14:58:20Z",
+          "updatedAt": "2026-10-10T20:15:36Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -591,7 +594,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 107.03
+          "score": 109.07
         },
         {
           "id": 1407072843,
@@ -600,12 +603,12 @@
           "url": "https://github.com/Hamidooh/securify",
           "homepage": "https://securify-wyvc.onrender.com",
           "description": "High-speed web security auditor & DevSecOps dashboard for SSL, HTTP headers, DNS defenses, and port exposure.",
-          "stars": 22,
+          "stars": 24,
           "forks": 2,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-10-06T10:00:48Z",
-          "updatedAt": "2026-10-10T07:05:25Z",
+          "updatedAt": "2026-10-10T19:34:20Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -616,7 +619,31 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 98.8
+          "score": 98.82
+        },
+        {
+          "id": 1404901445,
+          "name": "WebHawk",
+          "fullName": "glask1d/WebHawk",
+          "url": "https://github.com/glask1d/WebHawk",
+          "homepage": "https://x.com/glask1d",
+          "description": "The WebHawk Framework is a tool used for authorized enumeration and exploitation of webservers.",
+          "stars": 11,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-04T23:00:08Z",
+          "updatedAt": "2026-10-11T06:24:22Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 90.93
         },
         {
           "id": 1409971361,
@@ -640,7 +667,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 90.38
+          "score": 88.16
         },
         {
           "id": 1406064429,
@@ -665,7 +692,31 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 85.54
+          "score": 83.32
+        },
+        {
+          "id": 1411630016,
+          "name": "web-posture-check",
+          "fullName": "MohammadThabetHassan/web-posture-check",
+          "url": "https://github.com/MohammadThabetHassan/web-posture-check",
+          "homepage": "",
+          "description": "Command-line security posture checker for websites: security headers, cookies, CORS, TLS certificate and protocols, CAA, security.txt, SPF/DMARC/DKIM and the HTTPS redirect, with a score, Markdown/JSON reports and a GitHub Action.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 3,
+          "language": "Python",
+          "createdAt": "2026-10-09T09:54:29Z",
+          "updatedAt": "2026-10-11T00:44:43Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 78.84
         },
         {
           "id": 1408342363,
@@ -691,56 +742,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.6
-        },
-        {
-          "id": 1411630016,
-          "name": "web-posture-check",
-          "fullName": "MohammadThabetHassan/web-posture-check",
-          "url": "https://github.com/MohammadThabetHassan/web-posture-check",
-          "homepage": "",
-          "description": "Command-line security posture checker for websites: security headers, cookies, CORS, TLS certificate and protocols, CAA, security.txt, SPF/DMARC/DKIM and the HTTPS redirect, with a score, Markdown/JSON reports and a GitHub Action.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-10-09T09:54:29Z",
-          "updatedAt": "2026-10-10T15:30:52Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 77.31
-        },
-        {
-          "id": 1407294702,
-          "name": "moveit-download",
-          "fullName": "soulstreamstimulate/moveit-download",
-          "url": "https://github.com/soulstreamstimulate/moveit-download",
-          "homepage": "https://softgit.pro/p/moveit",
-          "description": "MOVEit — Security SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "stars": 10,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-06T12:48:48Z",
-          "updatedAt": "2026-10-06T14:34:02Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 74.89
+          "score": 75.54
         },
         {
           "id": 1407085863,
@@ -765,7 +767,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 74.49
+          "score": 72.43
         },
         {
           "id": 1407057464,
@@ -790,7 +792,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.32
+          "score": 71.1
         },
         {
           "id": 1406253050,
@@ -815,7 +817,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.52
+          "score": 64.3
         }
       ]
     }
