@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-13T19:52:25.865Z",
+  "generatedAt": "2026-10-14T06:07:15.656Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,59 +33,59 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-10",
-      "totalCandidates": 24,
+      "createdSince": "2026-10-11",
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 8,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 0,
+          "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         }
       ],
       "repositories": [
         {
-          "id": 1413903108,
-          "name": "laya-guard",
-          "fullName": "scs0209/laya-guard",
-          "url": "https://github.com/scs0209/laya-guard",
-          "homepage": "",
-          "description": "Free local guardrail for AI coding agents: every tool_call judged on-device (regex + Laya), allow/review/block",
-          "stars": 25,
-          "forks": 2,
-          "openIssues": 11,
-          "language": "Python",
-          "createdAt": "2026-10-11T03:55:14Z",
-          "updatedAt": "2026-10-13T14:08:09Z",
+          "id": 1417809913,
+          "name": "csp-forge",
+          "fullName": "MrLouisWright/csp-forge",
+          "url": "https://github.com/MrLouisWright/csp-forge",
+          "homepage": "https://www.npmjs.com/package/csp-forge",
+          "description": "Scan a built static site (dist/, build/, out/) or live URL and generate a tight Content-Security-Policy with sha256 hashes for inline code. Outputs header, meta, Nginx, Apache, Netlify, Vercel, Helmet, JSON; --check mode for CI.",
+          "stars": 27,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-10-13T19:16:58Z",
+          "updatedAt": "2026-10-14T00:32:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -94,51 +94,23 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "网络安全"
           ],
-          "score": 94.83
+          "score": 113.53
         },
         {
-          "id": 1413519402,
-          "name": "pentest-projects-discovery",
-          "fullName": "Sahil-Hossain-1429/pentest-projects-discovery",
-          "url": "https://github.com/Sahil-Hossain-1429/pentest-projects-discovery",
-          "homepage": "",
-          "description": "An automated way to discover practical, hands on penetration testing projects using Claude, with structured learning roadmaps, relevant security tools, and progressive challenges to build real world cybersecurity skills.",
-          "stars": 18,
+          "id": 1417712374,
+          "name": "header-sentinel",
+          "fullName": "MrLouisWright/header-sentinel",
+          "url": "https://github.com/MrLouisWright/header-sentinel",
+          "homepage": "https://www.npmjs.com/package/header-sentinel",
+          "description": "CI-friendly CLI and API that fails builds when deployed URLs are missing or misconfigure HTTP security headers (HSTS, CSP, COOP, cookies...) with specific fixes. JSON & SARIF output.",
+          "stars": 27,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-10T18:15:15Z",
-          "updatedAt": "2026-10-12T19:38:50Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 91.8
-        },
-        {
-          "id": 1413585108,
-          "name": "sieve",
-          "fullName": "casareanderson/sieve",
-          "url": "https://github.com/casareanderson/sieve",
-          "homepage": "https://github.com/casareanderson/warden",
-          "description": "Find the CVEs that matter on a Linux box and its running containers. Reads the package lists already there, asks OSV.dev, ranks by CISA KEV and EPSS. No scanner binary, no database, no server.",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-10T19:26:54Z",
-          "updatedAt": "2026-10-12T21:42:43Z",
+          "language": "JavaScript",
+          "createdAt": "2026-10-13T18:25:40Z",
+          "updatedAt": "2026-10-14T00:36:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -148,10 +120,34 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
+            "网络安全"
           ],
-          "score": 68.53
+          "score": 109.22
+        },
+        {
+          "id": 1413903108,
+          "name": "laya-guard",
+          "fullName": "scs0209/laya-guard",
+          "url": "https://github.com/scs0209/laya-guard",
+          "homepage": "",
+          "description": "Free local guardrail for AI coding agents: every tool_call judged on-device (regex + Laya), allow/review/block",
+          "stars": 27,
+          "forks": 3,
+          "openIssues": 15,
+          "language": "Python",
+          "createdAt": "2026-10-11T03:55:14Z",
+          "updatedAt": "2026-10-14T04:14:37Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 95.44
         },
         {
           "id": 1416818659,
@@ -160,12 +156,12 @@
           "url": "https://github.com/ronitgupta138/rev-core",
           "homepage": "https://crates.io/crates/rev-core",
           "description": "⚡ Autonomous reverse engineering engine & Model Context Protocol (MCP) server for binaries and applications in Systems Rust",
-          "stars": 3,
+          "stars": 4,
           "forks": 0,
           "openIssues": 7,
           "language": "Rust",
           "createdAt": "2026-10-13T10:04:28Z",
-          "updatedAt": "2026-10-13T14:52:32Z",
+          "updatedAt": "2026-10-14T00:37:07Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -177,21 +173,21 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 64.26
+          "score": 65.29
         },
         {
-          "id": 1415410401,
-          "name": "password",
-          "fullName": "crc22sy9m5-commits/password",
-          "url": "https://github.com/crc22sy9m5-commits/password",
-          "homepage": "https://github.com/crc22sy9m5-commits",
-          "description": "Password related tools and notes",
-          "stars": 3,
+          "id": 1417905850,
+          "name": "avant-garde",
+          "fullName": "Alexandre-LPZ/avant-garde",
+          "url": "https://github.com/Alexandre-LPZ/avant-garde",
+          "homepage": "",
+          "description": "Think before you build. Guard before you ship. A Claude skill: 6 foundation docs + a security gate before any vibe-coded app.",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-10-12T10:06:31Z",
-          "updatedAt": "2026-10-13T01:58:32Z",
+          "createdAt": "2026-10-13T20:11:05Z",
+          "updatedAt": "2026-10-14T02:18:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -200,9 +196,34 @@
           ],
           "tags": [
             "通用安全",
-            "渗透 / 红队"
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 55.6
+          "score": 58.41
+        },
+        {
+          "id": 1416160482,
+          "name": "SyscallPredator",
+          "fullName": "SilentisVox/SyscallPredator",
+          "url": "https://github.com/SilentisVox/SyscallPredator",
+          "homepage": "",
+          "description": "Implementation and documentation of detecting direct syscalls via ETW",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "PowerShell",
+          "createdAt": "2026-10-12T21:43:55Z",
+          "updatedAt": "2026-10-14T00:36:52Z",
+          "matchedProfiles": [
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1.12
+          ],
+          "tags": [
+            "防守 / 蓝队"
+          ],
+          "score": 56.34
         },
         {
           "id": 1414719312,
@@ -226,7 +247,58 @@
           "tags": [
             "网络安全"
           ],
-          "score": 54.51
+          "score": 50.51
+        },
+        {
+          "id": 1414359316,
+          "name": "Cybersecurity-portfolio",
+          "fullName": "amrix-eg/Cybersecurity-portfolio",
+          "url": "https://github.com/amrix-eg/Cybersecurity-portfolio",
+          "homepage": "https://cybersecurity-portfolio1.vercel.app/",
+          "description": "",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-10-11T13:17:25Z",
+          "updatedAt": "2026-10-13T22:04:19Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 47.93
+        },
+        {
+          "id": 1414587394,
+          "name": "NEXOVAR",
+          "fullName": "sylhetyhackvenger/NEXOVAR",
+          "url": "https://github.com/sylhetyhackvenger/NEXOVAR",
+          "homepage": "",
+          "description": "NEXOVAR is a multiprotocol hacking tool designed for cybersecurity research, penetration testing, and network security assessment. Built for security enthusiasts and ethical hackers, it aims to streamline security testing workflows and support vulnerability analysis in controlled environments. Use responsibly and only on authorized systems.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-11T17:17:31Z",
+          "updatedAt": "2026-10-14T03:40:41Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防",
+            "网络安全"
+          ],
+          "score": 47.24
         },
         {
           "id": 1414750455,
@@ -251,101 +323,21 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 50.73
+          "score": 47.03
         },
         {
-          "id": 1413266231,
-          "name": "oracle",
-          "fullName": "darkblightHQ/oracle",
-          "url": "https://github.com/darkblightHQ/oracle",
-          "homepage": "",
-          "description": "Repository security scanner: secrets, deps, SAST, hygiene, history",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-10T14:09:21Z",
-          "updatedAt": "2026-10-13T09:02:38Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 50.25
-        },
-        {
-          "id": 1412754373,
-          "name": "Website-Vulnerability-Scanner",
-          "fullName": "RanaKhan77/Website-Vulnerability-Scanner",
-          "url": "https://github.com/RanaKhan77/Website-Vulnerability-Scanner",
-          "homepage": "https://2mny.com",
-          "description": "Open-source web vulnerability scanner & hacking toolkit — 200 deterministic scanner modules: XSS, SQLi, SSRF, subdomain takeover, OWASP Top 10, WordPress & AI/LLM surfaces. CVSS-scored evidence, HTML/PDF pentest reports, continuous hack monitoring. Zero AI, self-hosted, Docker.",
+          "id": 1414700727,
+          "name": "TGDetect-V3",
+          "fullName": "Pratham2511/TGDetect-V3",
+          "url": "https://github.com/Pratham2511/TGDetect-V3",
+          "homepage": "https://tgdetect-v3.vercel.app",
+          "description": "Temporal graph threat detection and investigation with a FastAPI backend and Next.js workspace.",
           "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "PHP",
-          "createdAt": "2026-10-10T04:35:47Z",
-          "updatedAt": "2026-10-13T18:18:54Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 47.2
-        },
-        {
-          "id": 1412928171,
-          "name": "social-supermarket_il-sole",
-          "fullName": "CieriS/social-supermarket_il-sole",
-          "url": "https://github.com/CieriS/social-supermarket_il-sole",
-          "homepage": "",
-          "description": "Back-office web app that ranks the families applying to a social supermarket: applications, scoring against the evaluation grid, shopping cards. Vanilla PHP and MariaDB, no framework. Started as a 2021 high-school exam project, completed with tests, CI and security hardening. Demo data only.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 2,
-          "language": "PHP",
-          "createdAt": "2026-10-10T07:58:58Z",
-          "updatedAt": "2026-10-12T15:55:53Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "网络安全"
-          ],
-          "score": 46.53
-        },
-        {
-          "id": 1413728889,
-          "name": "awesome_emu",
-          "fullName": "Iankulani/awesome_emu",
-          "url": "https://github.com/Iankulani/awesome_emu",
-          "homepage": "https://iankulani.github.io/Awesome-Emu-Doc/",
-          "description": " Awesome Emu is an offensive cybersecurity platform designed to support security professionals, penetration testers, ethical hackers, and cybersecurity researchers in assessing digital systems, identifying vulnerabilities, and improving security defenses. The platform provides a centralized environment for running authorized cybersecurity commands ",
-          "stars": 3,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-10T22:40:07Z",
-          "updatedAt": "2026-10-11T08:24:07Z",
+          "createdAt": "2026-10-11T19:29:59Z",
+          "updatedAt": "2026-10-12T17:59:16Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -354,34 +346,34 @@
           ],
           "tags": [
             "网络安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
+            "防守 / 蓝队"
           ],
-          "score": 46.23
+          "score": 44.1
         },
         {
-          "id": 1413345810,
-          "name": "rust-port-scanner",
-          "fullName": "uspokoysa1007/rust-port-scanner",
-          "url": "https://github.com/uspokoysa1007/rust-port-scanner",
-          "homepage": "",
-          "description": "? High-performance asynchronous TCP port scanner built with Tokio in Rust",
-          "stars": 3,
+          "id": 1414683874,
+          "name": "OpenCyberAcademy",
+          "fullName": "hiagokinlevi/OpenCyberAcademy",
+          "url": "https://github.com/hiagokinlevi/OpenCyberAcademy",
+          "homepage": "https://opencyber.academy",
+          "description": "OpenCyber Academy — free public cybersecurity courses, books, labs, and AI learning resources in Markdown.",
+          "stars": 2,
           "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-10-10T15:23:05Z",
-          "updatedAt": "2026-10-11T16:36:30Z",
+          "openIssues": 3,
+          "language": "Python",
+          "createdAt": "2026-10-11T19:08:33Z",
+          "updatedAt": "2026-10-14T03:49:00Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全"
+            "网络安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 41.79
+          "score": 43.96
         }
       ]
     },
@@ -393,7 +385,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-10-06",
+      "createdSince": "2026-10-07",
       "totalCandidates": 23,
       "queryStats": [
         {
@@ -401,35 +393,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1791921197"
+          "rateLimitReset": "1791958088"
         }
       ],
       "repositories": [
@@ -440,12 +432,12 @@
           "url": "https://github.com/morluto/awesome-reverse-engineering",
           "homepage": "",
           "description": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-          "stars": 402,
-          "forks": 86,
+          "stars": 442,
+          "forks": 90,
           "openIssues": 1,
           "language": "Unknown",
           "createdAt": "2026-10-09T14:58:20Z",
-          "updatedAt": "2026-10-13T19:47:50Z",
+          "updatedAt": "2026-10-14T06:05:49Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -459,7 +451,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 207.36
+          "score": 208.58
         },
         {
           "id": 1411744700,
@@ -468,12 +460,12 @@
           "url": "https://github.com/bdg9412/artex-ko-plus",
           "homepage": "",
           "description": "ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
-          "stars": 173,
-          "forks": 152,
+          "stars": 180,
+          "forks": 159,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-10-09T11:36:03Z",
-          "updatedAt": "2026-10-13T12:53:43Z",
+          "updatedAt": "2026-10-14T05:40:30Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -487,7 +479,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 186.85
+          "score": 186.52
         },
         {
           "id": 1412357738,
@@ -513,21 +505,21 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 156.03
+          "score": 154.45
         },
         {
-          "id": 1407258819,
-          "name": "1password-download",
-          "fullName": "Sightarbreed/1password-download",
-          "url": "https://github.com/Sightarbreed/1password-download",
-          "homepage": "https://softgit.pro/p/1password",
-          "description": "1Password — Security SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
-          "stars": 136,
-          "forks": 0,
+          "id": 1417809913,
+          "name": "csp-forge",
+          "fullName": "MrLouisWright/csp-forge",
+          "url": "https://github.com/MrLouisWright/csp-forge",
+          "homepage": "https://www.npmjs.com/package/csp-forge",
+          "description": "Scan a built static site (dist/, build/, out/) or live URL and generate a tight Content-Security-Policy with sha256 hashes for inline code. Outputs header, meta, Nginx, Apache, Netlify, Vercel, Helmet, JSON; --check mode for CI.",
+          "stars": 27,
+          "forks": 1,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-06T12:25:15Z",
-          "updatedAt": "2026-10-11T16:51:33Z",
+          "language": "JavaScript",
+          "createdAt": "2026-10-13T19:16:58Z",
+          "updatedAt": "2026-10-14T00:32:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -538,7 +530,86 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 127.95
+          "score": 115.77
+        },
+        {
+          "id": 1417712374,
+          "name": "header-sentinel",
+          "fullName": "MrLouisWright/header-sentinel",
+          "url": "https://github.com/MrLouisWright/header-sentinel",
+          "homepage": "https://www.npmjs.com/package/header-sentinel",
+          "description": "CI-friendly CLI and API that fails builds when deployed URLs are missing or misconfigure HTTP security headers (HSTS, CSP, COOP, cookies...) with specific fixes. JSON & SARIF output.",
+          "stars": 27,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-10-13T18:25:40Z",
+          "updatedAt": "2026-10-14T00:36:18Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 111.63
+        },
+        {
+          "id": 1413903108,
+          "name": "laya-guard",
+          "fullName": "scs0209/laya-guard",
+          "url": "https://github.com/scs0209/laya-guard",
+          "homepage": "",
+          "description": "Free local guardrail for AI coding agents: every tool_call judged on-device (regex + Laya), allow/review/block",
+          "stars": 27,
+          "forks": 3,
+          "openIssues": 15,
+          "language": "Python",
+          "createdAt": "2026-10-11T03:55:14Z",
+          "updatedAt": "2026-10-14T04:14:37Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 109.96
+        },
+        {
+          "id": 1413519402,
+          "name": "pentest-projects-discovery",
+          "fullName": "Sahil-Hossain-1429/pentest-projects-discovery",
+          "url": "https://github.com/Sahil-Hossain-1429/pentest-projects-discovery",
+          "homepage": "",
+          "description": "An automated way to discover practical, hands on penetration testing projects using Claude, with structured learning roadmaps, relevant security tools, and progressive challenges to build real world cybersecurity skills.",
+          "stars": 19,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-10T18:15:15Z",
+          "updatedAt": "2026-10-14T03:20:45Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 108.66
         },
         {
           "id": 1409828070,
@@ -563,85 +634,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 109.7
+          "score": 107.99
         },
         {
-          "id": 1413519402,
-          "name": "pentest-projects-discovery",
-          "fullName": "Sahil-Hossain-1429/pentest-projects-discovery",
-          "url": "https://github.com/Sahil-Hossain-1429/pentest-projects-discovery",
+          "id": 1410953343,
+          "name": "jshound",
+          "fullName": "AmbitSecurity/jshound",
+          "url": "https://github.com/AmbitSecurity/jshound",
           "homepage": "",
-          "description": "An automated way to discover practical, hands on penetration testing projects using Claude, with structured learning roadmaps, relevant security tools, and progressive challenges to build real world cybersecurity skills.",
-          "stars": 18,
-          "forks": 0,
+          "description": "Find every API request a web app makes, from the JavaScript it ships: method, URL, body, headers and GraphQL operations. One command.",
+          "stars": 8,
+          "forks": 1,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-10T18:15:15Z",
-          "updatedAt": "2026-10-12T19:38:50Z",
+          "language": "Python",
+          "createdAt": "2026-10-08T21:05:06Z",
+          "updatedAt": "2026-10-13T09:10:39Z",
           "matchedProfiles": [
-            "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08,
             1.18
           ],
           "tags": [
-            "网络安全",
             "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 109.03
-        },
-        {
-          "id": 1413903108,
-          "name": "laya-guard",
-          "fullName": "scs0209/laya-guard",
-          "url": "https://github.com/scs0209/laya-guard",
-          "homepage": "",
-          "description": "Free local guardrail for AI coding agents: every tool_call judged on-device (regex + Laya), allow/review/block",
-          "stars": 25,
-          "forks": 2,
-          "openIssues": 11,
-          "language": "Python",
-          "createdAt": "2026-10-11T03:55:14Z",
-          "updatedAt": "2026-10-13T14:08:09Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 108.03
-        },
-        {
-          "id": 1407072843,
-          "name": "securify",
-          "fullName": "Hamidooh/securify",
-          "url": "https://github.com/Hamidooh/securify",
-          "homepage": "https://securify-wyvc.onrender.com",
-          "description": "High-speed web security auditor & DevSecOps dashboard for SSL, HTTP headers, DNS defenses, and port exposure.",
-          "stars": 26,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-10-06T10:00:48Z",
-          "updatedAt": "2026-10-13T10:40:06Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
             "网络安全"
           ],
-          "score": 92.87
+          "score": 82.39
         },
         {
           "id": 1413585108,
@@ -668,7 +686,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 83.32
+          "score": 81.74
         },
         {
           "id": 1411559899,
@@ -694,32 +712,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 81.45
+          "score": 79.86
         },
         {
-          "id": 1410953343,
-          "name": "jshound",
-          "fullName": "AmbitSecurity/jshound",
-          "url": "https://github.com/AmbitSecurity/jshound",
+          "id": 1413082850,
+          "name": "hack_cameraWeb",
+          "fullName": "cleonaia/hack_cameraWeb",
+          "url": "https://github.com/cleonaia/hack_cameraWeb",
           "homepage": "",
-          "description": "Find every API request a web app makes, from the JavaScript it ships: method, URL, body, headers and GraphQL operations. One command.",
+          "description": "This project is used analyzing my own webcam’s network traffic from Kali Linux. The workflow uses Ettercap for an ARP MiTM demonstration, Wireshark for traffic analysis and Metasploit as an external lab tool. This repository also includes camera discovery and authenticated RTSP playback.",
           "stars": 8,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-08T21:05:06Z",
-          "updatedAt": "2026-10-13T09:10:39Z",
+          "createdAt": "2026-10-10T11:00:50Z",
+          "updatedAt": "2026-10-14T00:39:59Z",
           "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
             "网络安全"
           ],
-          "score": 79.54
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.43
         },
         {
           "id": 1409971361,
@@ -743,7 +761,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 78.01
+          "score": 76.3
         },
         {
           "id": 1408977344,
@@ -770,7 +788,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 76.66
+          "score": 74.79
         },
         {
           "id": 1411630016,
@@ -794,7 +812,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 68.69
+          "score": 66.98
         },
         {
           "id": 1408342363,
@@ -819,7 +837,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 68.23
+          "score": 66.64
         },
         {
           "id": 1409043354,
@@ -845,7 +863,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 67.97
+          "score": 66.25
         },
         {
           "id": 1411970676,
@@ -870,32 +888,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 65.69
-        },
-        {
-          "id": 1407057464,
-          "name": "DigitalAlibi",
-          "fullName": "yottajunaid/DigitalAlibi",
-          "url": "https://github.com/yottajunaid/DigitalAlibi",
-          "homepage": "https://yottajunaid.github.io/DigitalAlibi/",
-          "description": "A cross-platform cryptographic ambient sensing framework for forensic temporal and spatial verification.",
-          "stars": 6,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-06T09:47:15Z",
-          "updatedAt": "2026-10-07T11:05:57Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 62.64
+          "score": 63.98
         }
       ]
     }
