@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-15T05:52:50.671Z",
+  "generatedAt": "2026-10-15T17:47:01.915Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,83 +34,134 @@
         "maxItems": 12
       },
       "createdSince": "2026-10-12",
-      "totalCandidates": 18,
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 4,
+          "fetched": 7,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         }
       ],
       "repositories": [
         {
-          "id": 1417809913,
-          "name": "csp-forge",
-          "fullName": "MrLouisWright/csp-forge",
-          "url": "https://github.com/MrLouisWright/csp-forge",
-          "homepage": "https://mrlouiswright.github.io/csp-forge/",
-          "description": "Scan a built static site (dist/, build/, out/) or live URL and generate a tight Content-Security-Policy with sha256 hashes for inline code. Outputs header, meta, Nginx, Apache, Netlify, Vercel, Helmet, JSON; --check mode for CI.",
-          "stars": 27,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-13T19:16:58Z",
-          "updatedAt": "2026-10-14T10:54:49Z",
+          "id": 1420823415,
+          "name": "hwid-spoofer-changer",
+          "fullName": "Handcuffaosewer/hwid-spoofer-changer",
+          "url": "https://github.com/Handcuffaosewer/hwid-spoofer-changer",
+          "homepage": "",
+          "description": "hwid-spoofer-changer, bypass hardware ID detection, enhance privacy, prevent bans",
+          "stars": 88,
+          "forks": 95,
+          "openIssues": 95,
+          "language": "Unknown",
+          "createdAt": "2026-10-15T14:02:06Z",
+          "updatedAt": "2026-10-15T14:37:59Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
             "网络安全"
           ],
-          "score": 104.95
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 181.27
         },
         {
-          "id": 1417712374,
-          "name": "header-sentinel",
-          "fullName": "MrLouisWright/header-sentinel",
-          "url": "https://github.com/MrLouisWright/header-sentinel",
-          "homepage": "https://mrlouiswright.github.io/header-sentinel/",
-          "description": "CI-friendly CLI and API that fails builds when deployed URLs are missing or misconfigure HTTP security headers (HSTS, CSP, COOP, cookies...) with specific fixes. JSON & SARIF output.",
-          "stars": 27,
+          "id": 1420353277,
+          "name": "tracetrust-network-forensics",
+          "fullName": "fatyagum-lgtm/tracetrust-network-forensics",
+          "url": "https://github.com/fatyagum-lgtm/tracetrust-network-forensics",
+          "homepage": "",
+          "description": "C++20 network forensics and explainable threat detection platform",
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-13T18:25:40Z",
-          "updatedAt": "2026-10-14T10:55:31Z",
+          "language": "C++",
+          "createdAt": "2026-10-15T07:39:47Z",
+          "updatedAt": "2026-10-15T16:24:00Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 93.82
+        },
+        {
+          "id": 1420052920,
+          "name": "machine-learning-for-cybersecurity",
+          "fullName": "aalbata/machine-learning-for-cybersecurity",
+          "url": "https://github.com/aalbata/machine-learning-for-cybersecurity",
+          "homepage": "https://aalbata.github.io/machine-learning-for-cybersecurity/",
+          "description": "A free course on machine learning for cybersecurity and the security of machine learning, with lessons, runnable labs, exercises and quizzes. By Dr. Ali Al Bataineh, Higher Colleges of Technology.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Jupyter Notebook",
+          "createdAt": "2026-10-15T02:01:22Z",
+          "updatedAt": "2026-10-15T17:13:29Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 91.63
+        },
+        {
+          "id": 1419077444,
+          "name": "ai-service-indicators",
+          "fullName": "synapticcybersecurity/ai-service-indicators",
+          "url": "https://github.com/synapticcybersecurity/ai-service-indicators",
+          "homepage": "",
+          "description": "DNS hostnames of generative-AI services, classified by role (chat app, API, agent, web, auth, CDN, telemetry) for measuring observed AI usage.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-14T14:04:44Z",
+          "updatedAt": "2026-10-15T15:23:08Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,7 +173,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 100.64
+          "score": 70.53
         },
         {
           "id": 1419478914,
@@ -130,13 +181,13 @@
           "fullName": "SLP-DEV1/PenX",
           "url": "https://github.com/SLP-DEV1/PenX",
           "homepage": "",
-          "description": "PenX is an open-source Windows security reconnaissance toolkit powered by Nmap, Nikto, WhatWeb, DNS, WHOIS, and local AI analysis with Ollama or LM Studio.",
+          "description": "PenX Open-source Windows-first security reconnaissance with 12 scanner options, local AI, and HTML/PDF/SARIF reports.",
           "stars": 2,
           "forks": 1,
-          "openIssues": 2,
+          "openIssues": 6,
           "language": "Python",
           "createdAt": "2026-10-14T16:58:57Z",
-          "updatedAt": "2026-10-15T01:44:43Z",
+          "updatedAt": "2026-10-15T17:44:19Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -150,21 +201,72 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 72.38
+          "score": 67.31
         },
         {
-          "id": 1419077444,
-          "name": "ai-service-indicators",
-          "fullName": "synapticcybersecurity/ai-service-indicators",
-          "url": "https://github.com/synapticcybersecurity/ai-service-indicators",
+          "id": 1420920398,
+          "name": "vulnerator-ai",
+          "fullName": "irraz/vulnerator-ai",
+          "url": "https://github.com/irraz/vulnerator-ai",
           "homepage": "",
-          "description": "DNS hostnames of generative-AI services, classified by role (chat app, API, agent, web, auth, CDN, telemetry) for measuring observed AI usage.",
-          "stars": 4,
-          "forks": 1,
+          "description": "Autonomous OODA-loop pentesting agent — Hermes brain, Kali + Playwright tools over MCP, ATT&CK as the Orient language.",
+          "stars": 3,
+          "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-14T14:04:44Z",
-          "updatedAt": "2026-10-14T20:21:09Z",
+          "createdAt": "2026-10-15T15:07:57Z",
+          "updatedAt": "2026-10-15T16:04:51Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 66.84
+        },
+        {
+          "id": 1419763635,
+          "name": "straznica-soc",
+          "fullName": "podatnosci/straznica-soc",
+          "url": "https://github.com/podatnosci/straznica-soc",
+          "homepage": "https://www.linkedin.com/in/pesiek/",
+          "description": "Polski SIEM i system obsługi incydentów z gotowymi zgłoszeniami NIS2/KSC",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-14T19:48:06Z",
+          "updatedAt": "2026-10-15T11:26:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 64.65
+        },
+        {
+          "id": 1420133951,
+          "name": "vesper",
+          "fullName": "Jdrg4/vesper",
+          "url": "https://github.com/Jdrg4/vesper",
+          "homepage": "",
+          "description": "AI agent that watches your GitHub repos and opens pull requests for security, quality, deps, performance and docs. Bring your own model key (174 providers). Self-hosted.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-15T03:46:02Z",
+          "updatedAt": "2026-10-15T16:32:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -176,7 +278,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 70.82
+          "score": 62.73
         },
         {
           "id": 1418702407,
@@ -201,32 +303,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 64.68
-        },
-        {
-          "id": 1419763635,
-          "name": "straznica-soc",
-          "fullName": "podatnosci/straznica-soc",
-          "url": "https://github.com/podatnosci/straznica-soc",
-          "homepage": "https://www.linkedin.com/in/pesiek/",
-          "description": "Polski SIEM i system obsługi incydentów z gotowymi zgłoszeniami NIS2/KSC",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-14T19:48:06Z",
-          "updatedAt": "2026-10-15T05:39:06Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 63.03
+          "score": 59.61
         },
         {
           "id": 1418875915,
@@ -252,21 +329,21 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.52
+          "score": 57.22
         },
         {
-          "id": 1416818659,
-          "name": "rev-core",
-          "fullName": "ronitgupta138/rev-core",
-          "url": "https://github.com/ronitgupta138/rev-core",
-          "homepage": "https://crates.io/crates/rev-core",
-          "description": "⚡ Autonomous reverse engineering engine & Model Context Protocol (MCP) server for binaries and applications in Systems Rust",
+          "id": 1417809913,
+          "name": "csp-forge",
+          "fullName": "MrLouisWright/csp-forge",
+          "url": "https://github.com/MrLouisWright/csp-forge",
+          "homepage": "https://mrlouiswright.github.io/csp-forge/",
+          "description": "Scan a built static site (dist/, build/, out/) or live URL and generate a tight Content-Security-Policy with sha256 hashes for inline code. Outputs header, meta, Nginx, Apache, Netlify, Vercel, Helmet, JSON; --check mode for CI.",
           "stars": 4,
           "forks": 0,
-          "openIssues": 7,
-          "language": "Rust",
-          "createdAt": "2026-10-13T10:04:28Z",
-          "updatedAt": "2026-10-14T00:37:07Z",
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-10-13T19:16:58Z",
+          "updatedAt": "2026-10-15T09:50:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -275,24 +352,23 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "网络安全"
           ],
-          "score": 56.71
+          "score": 55.74
         },
         {
-          "id": 1417905850,
-          "name": "avant-garde",
-          "fullName": "Alexandre-LPZ/avant-garde",
-          "url": "https://github.com/Alexandre-LPZ/avant-garde",
-          "homepage": "",
-          "description": "Think before you build. Guard before you ship. A Claude skill: 6 foundation docs + a security gate before any vibe-coded app.",
-          "stars": 2,
+          "id": 1417712374,
+          "name": "header-sentinel",
+          "fullName": "MrLouisWright/header-sentinel",
+          "url": "https://github.com/MrLouisWright/header-sentinel",
+          "homepage": "https://mrlouiswright.github.io/header-sentinel/",
+          "description": "CI-friendly CLI and API that fails builds when deployed URLs are missing or misconfigure HTTP security headers (HSTS, CSP, COOP, cookies...) with specific fixes. JSON & SARIF output.",
+          "stars": 4,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-13T20:11:05Z",
-          "updatedAt": "2026-10-14T02:18:16Z",
+          "language": "JavaScript",
+          "createdAt": "2026-10-13T18:25:40Z",
+          "updatedAt": "2026-10-15T09:51:58Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -304,56 +380,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 49.83
-        },
-        {
-          "id": 1416160482,
-          "name": "SyscallPredator",
-          "fullName": "SilentisVox/SyscallPredator",
-          "url": "https://github.com/SilentisVox/SyscallPredator",
-          "homepage": "",
-          "description": "Implementation and documentation of detecting direct syscalls via ETW",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "PowerShell",
-          "createdAt": "2026-10-12T21:43:55Z",
-          "updatedAt": "2026-10-14T00:36:52Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队"
-          ],
-          "score": 46.73
-        },
-        {
-          "id": 1416602207,
-          "name": "evm-patterns",
-          "fullName": "AstraeusZhao/evm-patterns",
-          "url": "https://github.com/AstraeusZhao/evm-patterns",
-          "homepage": "",
-          "description": "Collection of Solidity smart contract patterns and security audit examples, built with Foundry",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Solidity",
-          "createdAt": "2026-10-13T07:00:38Z",
-          "updatedAt": "2026-10-14T15:02:34Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 45.08
+          "score": 55.43
         }
       ]
     },
@@ -366,42 +393,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-10-08",
-      "totalCandidates": 21,
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1792043623"
+          "rateLimitReset": "1792086474"
         }
       ],
       "repositories": [
@@ -412,12 +439,12 @@
           "url": "https://github.com/morluto/awesome-reverse-engineering",
           "homepage": "",
           "description": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-          "stars": 520,
-          "forks": 107,
+          "stars": 550,
+          "forks": 119,
           "openIssues": 1,
           "language": "Unknown",
           "createdAt": "2026-10-09T14:58:20Z",
-          "updatedAt": "2026-10-15T05:49:49Z",
+          "updatedAt": "2026-10-15T17:41:57Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -431,7 +458,32 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 210.21
+          "score": 210.45
+        },
+        {
+          "id": 1420823415,
+          "name": "hwid-spoofer-changer",
+          "fullName": "Handcuffaosewer/hwid-spoofer-changer",
+          "url": "https://github.com/Handcuffaosewer/hwid-spoofer-changer",
+          "homepage": "",
+          "description": "hwid-spoofer-changer, bypass hardware ID detection, enhance privacy, prevent bans",
+          "stars": 88,
+          "forks": 95,
+          "openIssues": 95,
+          "language": "Unknown",
+          "createdAt": "2026-10-15T14:02:06Z",
+          "updatedAt": "2026-10-15T14:37:59Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 182.1
         },
         {
           "id": 1411744700,
@@ -441,7 +493,7 @@
           "homepage": "",
           "description": "ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
           "stars": 185,
-          "forks": 159,
+          "forks": 161,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-10-09T11:36:03Z",
@@ -459,7 +511,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 183.31
+          "score": 181.4
         },
         {
           "id": 1412357738,
@@ -468,12 +520,12 @@
           "url": "https://github.com/Sequester-AG/bug-bounty-triage",
           "homepage": "",
           "description": "Agent skill for rigorous bug bounty report triage, validation, severity escalation, and submission-ready reporting.",
-          "stars": 135,
+          "stars": 136,
           "forks": 20,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-09T19:27:46Z",
-          "updatedAt": "2026-10-15T04:00:56Z",
+          "updatedAt": "2026-10-15T13:43:23Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -485,58 +537,62 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 151.15
+          "score": 149.5
         },
         {
-          "id": 1417809913,
-          "name": "csp-forge",
-          "fullName": "MrLouisWright/csp-forge",
-          "url": "https://github.com/MrLouisWright/csp-forge",
-          "homepage": "https://mrlouiswright.github.io/csp-forge/",
-          "description": "Scan a built static site (dist/, build/, out/) or live URL and generate a tight Content-Security-Policy with sha256 hashes for inline code. Outputs header, meta, Nginx, Apache, Netlify, Vercel, Helmet, JSON; --check mode for CI.",
-          "stars": 27,
-          "forks": 1,
+          "id": 1414470888,
+          "name": "skills",
+          "fullName": "zero-lab-ai/skills",
+          "url": "https://github.com/zero-lab-ai/skills",
+          "homepage": "https://zero-lab.ai",
+          "description": "Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing, detection engineering, and engagement operations.",
+          "stars": 39,
+          "forks": 12,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-13T19:16:58Z",
-          "updatedAt": "2026-10-14T10:54:49Z",
+          "language": "Python",
+          "createdAt": "2026-10-11T15:14:54Z",
+          "updatedAt": "2026-10-15T17:40:59Z",
           "matchedProfiles": [
-            "通用安全"
+            "通用安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1
+            1,
+            1.18
           ],
           "tags": [
             "通用安全",
-            "网络安全"
-          ],
-          "score": 112.09
-        },
-        {
-          "id": 1417712374,
-          "name": "header-sentinel",
-          "fullName": "MrLouisWright/header-sentinel",
-          "url": "https://github.com/MrLouisWright/header-sentinel",
-          "homepage": "https://mrlouiswright.github.io/header-sentinel/",
-          "description": "CI-friendly CLI and API that fails builds when deployed URLs are missing or misconfigure HTTP security headers (HSTS, CSP, COOP, cookies...) with specific fixes. JSON & SARIF output.",
-          "stars": 27,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-13T18:25:40Z",
-          "updatedAt": "2026-10-14T10:55:31Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
+            "渗透 / 红队",
             "AI 自动化 / Skill",
+            "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 107.96
+          "score": 143.95
+        },
+        {
+          "id": 1409828070,
+          "name": "NucleiSniper",
+          "fullName": "MorDavid/NucleiSniper",
+          "url": "https://github.com/MorDavid/NucleiSniper",
+          "homepage": "https://mordavid.com",
+          "description": "AI-powered Nuclei template prioritization using deep target fingerprinting and TypeSafe Jev to surface relevant security findings faster.",
+          "stars": 26,
+          "forks": 9,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-08T06:10:52Z",
+          "updatedAt": "2026-10-15T11:01:06Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 107.81
         },
         {
           "id": 1413903108,
@@ -561,32 +617,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 107.57
-        },
-        {
-          "id": 1409828070,
-          "name": "NucleiSniper",
-          "fullName": "MorDavid/NucleiSniper",
-          "url": "https://github.com/MorDavid/NucleiSniper",
-          "homepage": "https://mordavid.com",
-          "description": "AI-powered Nuclei template prioritization using deep target fingerprinting and TypeSafe Jev to surface relevant security findings faster.",
-          "stars": 24,
-          "forks": 9,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-08T06:10:52Z",
-          "updatedAt": "2026-10-15T03:39:17Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 105.78
+          "score": 105.73
         },
         {
           "id": 1413519402,
@@ -614,46 +645,47 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 104.32
+          "score": 102.14
         },
         {
-          "id": 1410953343,
-          "name": "jshound",
-          "fullName": "AmbitSecurity/jshound",
-          "url": "https://github.com/AmbitSecurity/jshound",
+          "id": 1420353277,
+          "name": "tracetrust-network-forensics",
+          "fullName": "fatyagum-lgtm/tracetrust-network-forensics",
+          "url": "https://github.com/fatyagum-lgtm/tracetrust-network-forensics",
           "homepage": "",
-          "description": "Find every API request a web app makes, from the JavaScript it ships: method, URL, body, headers and GraphQL operations. One command.",
-          "stars": 11,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-08T21:05:06Z",
-          "updatedAt": "2026-10-15T01:43:53Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "网络安全"
-          ],
-          "score": 88.85
-        },
-        {
-          "id": 1413082850,
-          "name": "hack_cameraWeb",
-          "fullName": "cleonaia/hack_cameraWeb",
-          "url": "https://github.com/cleonaia/hack_cameraWeb",
-          "homepage": "",
-          "description": "This project is used analyzing my own webcam’s network traffic from Kali Linux. The workflow uses Ettercap for an ARP MiTM demonstration, Wireshark for traffic analysis and Metasploit as an external lab tool. This repository also includes camera discovery and authenticated RTSP playback.",
+          "description": "C++20 network forensics and explainable threat detection platform",
           "stars": 10,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-10T11:00:50Z",
-          "updatedAt": "2026-10-15T00:50:00Z",
+          "language": "C++",
+          "createdAt": "2026-10-15T07:39:47Z",
+          "updatedAt": "2026-10-15T16:24:00Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 96.08
+        },
+        {
+          "id": 1420052920,
+          "name": "machine-learning-for-cybersecurity",
+          "fullName": "aalbata/machine-learning-for-cybersecurity",
+          "url": "https://github.com/aalbata/machine-learning-for-cybersecurity",
+          "homepage": "https://aalbata.github.io/machine-learning-for-cybersecurity/",
+          "description": "A free course on machine learning for cybersecurity and the security of machine learning, with lessons, runnable labs, exercises and quizzes. By Dr. Ali Al Bataineh, Higher Colleges of Technology.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Jupyter Notebook",
+          "createdAt": "2026-10-15T02:01:22Z",
+          "updatedAt": "2026-10-15T17:13:29Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -664,7 +696,57 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 78.57
+          "score": 95.14
+        },
+        {
+          "id": 1410953343,
+          "name": "jshound",
+          "fullName": "AmbitSecurity/jshound",
+          "url": "https://github.com/AmbitSecurity/jshound",
+          "homepage": "",
+          "description": "Find every API request a web app makes, from the JavaScript it ships: method, URL, body, headers and GraphQL operations. One command.",
+          "stars": 12,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-08T21:05:06Z",
+          "updatedAt": "2026-10-15T16:59:47Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "网络安全"
+          ],
+          "score": 88.95
+        },
+        {
+          "id": 1413082850,
+          "name": "hack_cameraWeb",
+          "fullName": "cleonaia/hack_cameraWeb",
+          "url": "https://github.com/cleonaia/hack_cameraWeb",
+          "homepage": "",
+          "description": "This project is used analyzing my own webcam’s network traffic from Kali Linux. The workflow uses Ettercap for an ARP MiTM demonstration, Wireshark for traffic analysis and Metasploit as an external lab tool. This repository also includes camera discovery and authenticated RTSP playback.",
+          "stars": 13,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-10T11:00:50Z",
+          "updatedAt": "2026-10-15T12:48:41Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 82.84
         },
         {
           "id": 1413585108,
@@ -675,10 +757,10 @@
           "description": "Find the CVEs that matter on a Linux box and its running containers. Reads the package lists already there, asks OSV.dev, ranks by CISA KEV and EPSS. No scanner binary, no database, no server.",
           "stars": 12,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-10T19:26:54Z",
-          "updatedAt": "2026-10-12T21:42:43Z",
+          "updatedAt": "2026-10-15T16:46:09Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -691,7 +773,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 78.06
+          "score": 76.22
         },
         {
           "id": 1411559899,
@@ -717,7 +799,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 76.18
+          "score": 74.34
         },
         {
           "id": 1409971361,
@@ -741,34 +823,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 72.32
-        },
-        {
-          "id": 1411630016,
-          "name": "web-posture-check",
-          "fullName": "MohammadThabetHassan/web-posture-check",
-          "url": "https://github.com/MohammadThabetHassan/web-posture-check",
-          "homepage": "",
-          "description": "Command-line security posture checker for websites: security headers, cookies, CORS, TLS certificate and protocols, CAA, security.txt, SPF/DMARC/DKIM and the HTTPS redirect, with a score, Markdown/JSON reports and a GitHub Action.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-09T09:54:29Z",
-          "updatedAt": "2026-10-11T08:56:24Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 63
+          "score": 71.94
         },
         {
           "id": 1410404402,
@@ -793,32 +848,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 62.26
+          "score": 61.06
         },
         {
-          "id": 1411970676,
-          "name": "Prooflink",
-          "fullName": "Hamna-Munir/Prooflink",
-          "url": "https://github.com/Hamna-Munir/Prooflink",
-          "homepage": "https://prooflink-opal.vercel.app",
-          "description": "ProofLink checks suspicious messages, links and screenshots for scams and phishing. It gives a verdict, a risk score and the evidence behind it, with optional AI review and a 3D investigation graph.",
-          "stars": 5,
+          "id": 1411630016,
+          "name": "web-posture-check",
+          "fullName": "MohammadThabetHassan/web-posture-check",
+          "url": "https://github.com/MohammadThabetHassan/web-posture-check",
+          "homepage": "",
+          "description": "Command-line security posture checker for websites: security headers, cookies, CORS, TLS certificate and protocols, CAA, security.txt, SPF/DMARC/DKIM and the HTTPS redirect, with a score, Markdown/JSON reports and a GitHub Action.",
+          "stars": 6,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-09T14:22:45Z",
-          "updatedAt": "2026-10-11T17:11:51Z",
+          "createdAt": "2026-10-09T09:54:29Z",
+          "updatedAt": "2026-10-11T08:56:24Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
+            "通用安全",
+            "网络安全"
           ],
-          "score": 60.01
+          "score": 56.5
         }
       ]
     }
