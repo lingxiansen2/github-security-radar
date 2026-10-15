@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-14T18:01:14.187Z",
+  "generatedAt": "2026-10-15T05:52:50.671Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-11",
-      "totalCandidates": 23,
+      "createdSince": "2026-10-12",
+      "totalCandidates": 18,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 8,
+          "fetched": 4,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         }
       ],
       "repositories": [
@@ -96,7 +96,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 109.23
+          "score": 104.95
         },
         {
           "id": 1417712374,
@@ -122,32 +122,35 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 104.92
+          "score": 100.64
         },
         {
-          "id": 1413903108,
-          "name": "laya-guard",
-          "fullName": "scs0209/laya-guard",
-          "url": "https://github.com/scs0209/laya-guard",
+          "id": 1419478914,
+          "name": "PenX",
+          "fullName": "SLP-DEV1/PenX",
+          "url": "https://github.com/SLP-DEV1/PenX",
           "homepage": "",
-          "description": "Free local guardrail for AI coding agents: every tool_call judged on-device (regex + Laya), allow/review/block",
-          "stars": 27,
-          "forks": 4,
-          "openIssues": 16,
+          "description": "PenX is an open-source Windows security reconnaissance toolkit powered by Nmap, Nikto, WhatWeb, DNS, WHOIS, and local AI analysis with Ollama or LM Studio.",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 2,
           "language": "Python",
-          "createdAt": "2026-10-11T03:55:14Z",
-          "updatedAt": "2026-10-14T04:14:37Z",
+          "createdAt": "2026-10-14T16:58:57Z",
+          "updatedAt": "2026-10-15T01:44:43Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1
+            1.08,
+            1.18
           ],
           "tags": [
-            "通用安全",
+            "网络安全",
+            "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 96.73
+          "score": 72.38
         },
         {
           "id": 1419077444,
@@ -156,12 +159,12 @@
           "url": "https://github.com/synapticcybersecurity/ai-service-indicators",
           "homepage": "",
           "description": "DNS hostnames of generative-AI services, classified by role (chat app, API, agent, web, auth, CDN, telemetry) for measuring observed AI usage.",
-          "stars": 3,
+          "stars": 4,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-14T14:04:44Z",
-          "updatedAt": "2026-10-14T15:25:44Z",
+          "updatedAt": "2026-10-14T20:21:09Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -173,7 +176,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 70.37
+          "score": 70.82
         },
         {
           "id": 1418702407,
@@ -198,7 +201,32 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 69.74
+          "score": 64.68
+        },
+        {
+          "id": 1419763635,
+          "name": "straznica-soc",
+          "fullName": "podatnosci/straznica-soc",
+          "url": "https://github.com/podatnosci/straznica-soc",
+          "homepage": "https://www.linkedin.com/in/pesiek/",
+          "description": "Polski SIEM i system obsługi incydentów z gotowymi zgłoszeniami NIS2/KSC",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-14T19:48:06Z",
+          "updatedAt": "2026-10-15T05:39:06Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 63.03
         },
         {
           "id": 1418875915,
@@ -224,7 +252,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 65.8
+          "score": 61.52
         },
         {
           "id": 1416818659,
@@ -250,7 +278,33 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 60.99
+          "score": 56.71
+        },
+        {
+          "id": 1417905850,
+          "name": "avant-garde",
+          "fullName": "Alexandre-LPZ/avant-garde",
+          "url": "https://github.com/Alexandre-LPZ/avant-garde",
+          "homepage": "",
+          "description": "Think before you build. Guard before you ship. A Claude skill: 6 foundation docs + a security gate before any vibe-coded app.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-13T20:11:05Z",
+          "updatedAt": "2026-10-14T02:18:16Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 49.83
         },
         {
           "id": 1416160482,
@@ -274,69 +328,21 @@
           "tags": [
             "防守 / 蓝队"
           ],
-          "score": 51.53
+          "score": 46.73
         },
         {
-          "id": 1414719312,
-          "name": "cyberthreats-report",
-          "fullName": "njp-o2/cyberthreats-report",
-          "url": "https://github.com/njp-o2/cyberthreats-report",
+          "id": 1416602207,
+          "name": "evm-patterns",
+          "fullName": "AstraeusZhao/evm-patterns",
+          "url": "https://github.com/AstraeusZhao/evm-patterns",
           "homepage": "",
-          "description": "Годишен анализ на киберзаплахите, тенденциите и рисковете за 2026г.",
-          "stars": 3,
+          "description": "Collection of Solidity smart contract patterns and security audit examples, built with Foundry",
+          "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-11T19:54:02Z",
-          "updatedAt": "2026-10-13T06:47:49Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 45.87
-        },
-        {
-          "id": 1414359316,
-          "name": "Cybersecurity-portfolio",
-          "fullName": "amrix-eg/Cybersecurity-portfolio",
-          "url": "https://github.com/amrix-eg/Cybersecurity-portfolio",
-          "homepage": "https://cybersecurity-portfolio1.vercel.app/",
-          "description": "",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-11T13:17:25Z",
-          "updatedAt": "2026-10-13T22:04:19Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 45.14
-        },
-        {
-          "id": 1414750455,
-          "name": "K8s-Auditor",
-          "fullName": "Gurmeta/K8s-Auditor",
-          "url": "https://github.com/Gurmeta/K8s-Auditor",
-          "homepage": "https://gurmeta.github.io/K8s-Auditor/",
-          "description": "Browser-based Kubernetes manifest security linter: 22 rules, a 0-100 score and a comment-preserving Auto-Fix. No backend, nothing uploaded.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-10-11T20:36:32Z",
-          "updatedAt": "2026-10-12T20:39:15Z",
+          "language": "Solidity",
+          "createdAt": "2026-10-13T07:00:38Z",
+          "updatedAt": "2026-10-14T15:02:34Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -347,34 +353,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 42.73
-        },
-        {
-          "id": 1414587394,
-          "name": "NEXOVAR",
-          "fullName": "sylhetyhackvenger/NEXOVAR",
-          "url": "https://github.com/sylhetyhackvenger/NEXOVAR",
-          "homepage": "",
-          "description": "NEXOVAR is a multiprotocol hacking tool designed for cybersecurity research, penetration testing, and network security assessment. Built for security enthusiasts and ethical hackers, it aims to streamline security testing workflows and support vulnerability analysis in controlled environments. Use responsibly and only on authorized systems.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-11T17:17:31Z",
-          "updatedAt": "2026-10-14T03:40:41Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防",
-            "网络安全"
-          ],
-          "score": 42.48
+          "score": 45.08
         }
       ]
     },
@@ -386,43 +365,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-10-07",
-      "totalCandidates": 23,
+      "createdSince": "2026-10-08",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 11,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1792000926"
+          "rateLimitReset": "1792043623"
         }
       ],
       "repositories": [
@@ -433,12 +412,12 @@
           "url": "https://github.com/morluto/awesome-reverse-engineering",
           "homepage": "",
           "description": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-          "stars": 487,
-          "forks": 97,
+          "stars": 520,
+          "forks": 107,
           "openIssues": 1,
           "language": "Unknown",
           "createdAt": "2026-10-09T14:58:20Z",
-          "updatedAt": "2026-10-14T17:56:09Z",
+          "updatedAt": "2026-10-15T05:49:49Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -452,7 +431,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 209.76
+          "score": 210.21
         },
         {
           "id": 1411744700,
@@ -461,12 +440,12 @@
           "url": "https://github.com/bdg9412/artex-ko-plus",
           "homepage": "",
           "description": "ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
-          "stars": 184,
-          "forks": 160,
+          "stars": 185,
+          "forks": 159,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-10-09T11:36:03Z",
-          "updatedAt": "2026-10-14T14:42:44Z",
+          "updatedAt": "2026-10-15T04:54:49Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -480,7 +459,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 185.18
+          "score": 183.31
         },
         {
           "id": 1412357738,
@@ -489,12 +468,12 @@
           "url": "https://github.com/Sequester-AG/bug-bounty-triage",
           "homepage": "",
           "description": "Agent skill for rigorous bug bounty report triage, validation, severity escalation, and submission-ready reporting.",
-          "stars": 134,
+          "stars": 135,
           "forks": 20,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-09T19:27:46Z",
-          "updatedAt": "2026-10-14T13:18:53Z",
+          "updatedAt": "2026-10-15T04:00:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -506,7 +485,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 152.8
+          "score": 151.15
         },
         {
           "id": 1417809913,
@@ -531,7 +510,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 113.92
+          "score": 112.09
         },
         {
           "id": 1417712374,
@@ -557,7 +536,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 109.79
+          "score": 107.96
         },
         {
           "id": 1413903108,
@@ -568,10 +547,10 @@
           "description": "Free local guardrail for AI coding agents: every tool_call judged on-device (regex + Laya), allow/review/block",
           "stars": 27,
           "forks": 4,
-          "openIssues": 16,
+          "openIssues": 15,
           "language": "Python",
           "createdAt": "2026-10-11T03:55:14Z",
-          "updatedAt": "2026-10-14T04:14:37Z",
+          "updatedAt": "2026-10-15T05:27:25Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -582,7 +561,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 109.41
+          "score": 107.57
         },
         {
           "id": 1409828070,
@@ -591,12 +570,12 @@
           "url": "https://github.com/MorDavid/NucleiSniper",
           "homepage": "https://mordavid.com",
           "description": "AI-powered Nuclei template prioritization using deep target fingerprinting and TypeSafe Jev to surface relevant security findings faster.",
-          "stars": 23,
+          "stars": 24,
           "forks": 9,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-08T06:10:52Z",
-          "updatedAt": "2026-10-13T17:52:05Z",
+          "updatedAt": "2026-10-15T03:39:17Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -607,7 +586,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 106.66
+          "score": 105.78
         },
         {
           "id": 1413519402,
@@ -635,7 +614,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 106.48
+          "score": 104.32
         },
         {
           "id": 1410953343,
@@ -644,12 +623,12 @@
           "url": "https://github.com/AmbitSecurity/jshound",
           "homepage": "",
           "description": "Find every API request a web app makes, from the JavaScript it ships: method, URL, body, headers and GraphQL operations. One command.",
-          "stars": 9,
-          "forks": 1,
+          "stars": 11,
+          "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-08T21:05:06Z",
-          "updatedAt": "2026-10-14T08:30:17Z",
+          "updatedAt": "2026-10-15T01:43:53Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -660,7 +639,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 83.14
+          "score": 88.85
         },
         {
           "id": 1413082850,
@@ -674,7 +653,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-10T11:00:50Z",
-          "updatedAt": "2026-10-14T08:45:49Z",
+          "updatedAt": "2026-10-15T00:50:00Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -685,7 +664,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.55
+          "score": 78.57
         },
         {
           "id": 1413585108,
@@ -712,7 +691,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 79.9
+          "score": 78.06
         },
         {
           "id": 1411559899,
@@ -738,7 +717,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 78.02
+          "score": 76.18
         },
         {
           "id": 1409971361,
@@ -762,59 +741,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 74.31
-        },
-        {
-          "id": 1408977344,
-          "name": "knossos",
-          "fullName": "pentest-tv/knossos",
-          "url": "https://github.com/pentest-tv/knossos",
-          "homepage": "https://pentest.tv",
-          "description": "Docker-based penetration testing lab and companion to Professional Penetration Testing (3rd Ed.). One command deploys three network zones of vulnerable targets with auto-planted flags and a local scoreboard.",
-          "stars": 6,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-07T15:03:42Z",
-          "updatedAt": "2026-10-13T00:19:41Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 73.16
-        },
-        {
-          "id": 1408342363,
-          "name": "wine-quarantine",
-          "fullName": "Deathxknight/wine-quarantine",
-          "url": "https://github.com/Deathxknight/wine-quarantine",
-          "homepage": "",
-          "description": "Run games from sources you don’t fully trust on Linux. Sandboxed per game, offline by default, watched while they run. Windows (via Proton) and native.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-07T06:19:26Z",
-          "updatedAt": "2026-10-13T11:31:15Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 66.61
+          "score": 72.32
         },
         {
           "id": 1411630016,
@@ -830,15 +757,43 @@
           "createdAt": "2026-10-09T09:54:29Z",
           "updatedAt": "2026-10-11T08:56:24Z",
           "matchedProfiles": [
+            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
+            1,
             1.08
           ],
           "tags": [
+            "通用安全",
             "网络安全"
           ],
-          "score": 64.99
+          "score": 63
+        },
+        {
+          "id": 1410404402,
+          "name": "openwrt-integrity",
+          "fullName": "himanshu-mahendra-jain/openwrt-integrity",
+          "url": "https://github.com/himanshu-mahendra-jain/openwrt-integrity",
+          "homepage": "",
+          "description": "Scripts to create known-good baselines and verify the integrity of OpenWrt routers.",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-10-08T13:39:58Z",
+          "updatedAt": "2026-10-12T03:00:15Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 62.26
         },
         {
           "id": 1411970676,
@@ -863,7 +818,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.99
+          "score": 60.01
         }
       ]
     }
