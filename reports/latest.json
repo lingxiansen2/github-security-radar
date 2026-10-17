@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-16T17:26:22.726Z",
+  "generatedAt": "2026-10-17T05:34:07.922Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-13",
-      "totalCandidates": 22,
+      "createdSince": "2026-10-14",
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/aalbata/machine-learning-for-cybersecurity",
           "homepage": "https://aalbata.github.io/machine-learning-for-cybersecurity/",
           "description": "A free course on machine learning for cybersecurity and the security of machine learning, with lessons, runnable labs, exercises and quizzes. By Dr. Ali Al Bataineh, Higher Colleges of Technology.",
-          "stars": 17,
-          "forks": 1,
+          "stars": 19,
+          "forks": 2,
           "openIssues": 0,
           "language": "Jupyter Notebook",
           "createdAt": "2026-10-15T02:01:22Z",
-          "updatedAt": "2026-10-16T07:41:00Z",
+          "updatedAt": "2026-10-17T04:45:35Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -96,7 +96,33 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 99.61
+          "score": 100.21
+        },
+        {
+          "id": 1420604789,
+          "name": "TornadoC2",
+          "fullName": "kamalx06/TornadoC2",
+          "url": "https://github.com/kamalx06/TornadoC2",
+          "homepage": "",
+          "description": "Pull-based C2 framework with ten native transports, concurrent multi-profile handlers, and end-to-end ECDSA-signed tasking. Single Go binary agent with every property baked in at build time. Multi-operator team server with RBAC, audit chain, and a Qt/CLI console. Linux + Windows, amd64 + arm64.",
+          "stars": 9,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-15T11:28:53Z",
+          "updatedAt": "2026-10-17T05:23:05Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 90.94
         },
         {
           "id": 1421156512,
@@ -105,12 +131,12 @@
           "url": "https://github.com/HelpFreedom/nv",
           "homepage": "",
           "description": "Neovim 0.12, собранный с нуля: проверенный код, серверы языков без сети, цвета из обоев, всё по-русски · A security-minded Neovim config built from scratch",
-          "stars": 9,
+          "stars": 12,
           "forks": 1,
           "openIssues": 0,
           "language": "Lua",
           "createdAt": "2026-10-15T18:14:45Z",
-          "updatedAt": "2026-10-16T17:00:22Z",
+          "updatedAt": "2026-10-16T19:36:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -121,7 +147,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 83.89
+          "score": 85.78
+        },
+        {
+          "id": 1420757856,
+          "name": "wazuh-soc-homelab",
+          "fullName": "shahenwaz/wazuh-soc-homelab",
+          "url": "https://github.com/shahenwaz/wazuh-soc-homelab",
+          "homepage": "",
+          "description": "A hands-on SOC home lab using Wazuh SIEM to practise security monitoring, log analysis, threat detection, and incident investigation.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-15T13:16:53Z",
+          "updatedAt": "2026-10-16T20:13:36Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 79.62
         },
         {
           "id": 1420353277,
@@ -147,32 +198,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 82.16
-        },
-        {
-          "id": 1420757856,
-          "name": "wazuh-soc-homelab",
-          "fullName": "shahenwaz/wazuh-soc-homelab",
-          "url": "https://github.com/shahenwaz/wazuh-soc-homelab",
-          "homepage": "",
-          "description": "A hands-on SOC home lab using Wazuh SIEM to practise security monitoring, log analysis, threat detection, and incident investigation.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-15T13:16:53Z",
-          "updatedAt": "2026-10-16T12:39:00Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 78.72
+          "score": 77.43
         },
         {
           "id": 1420920398,
@@ -186,7 +212,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-15T15:07:57Z",
-          "updatedAt": "2026-10-16T15:22:44Z",
+          "updatedAt": "2026-10-16T20:00:01Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -198,7 +224,35 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 77.56
+          "score": 73.18
+        },
+        {
+          "id": 1422566013,
+          "name": "GBLOXK-ULTIMATE-AI",
+          "fullName": "gbloxkos-sudo/GBLOXK-ULTIMATE-AI",
+          "url": "https://github.com/gbloxkos-sudo/GBLOXK-ULTIMATE-AI",
+          "homepage": "",
+          "description": "GBLOXKOS is a 100% local, free AI assistant that unifies:  - 💬 Chat, completion, research, RAG ,Pentesting",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-16T19:02:20Z",
+          "updatedAt": "2026-10-17T00:46:35Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 68.67
         },
         {
           "id": 1421435552,
@@ -224,7 +278,57 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 66.12
+          "score": 61.74
+        },
+        {
+          "id": 1422084086,
+          "name": "cyber360",
+          "fullName": "rohasnagpal/cyber360",
+          "url": "https://github.com/rohasnagpal/cyber360",
+          "homepage": "",
+          "description": "Open-source agentic cybersecurity framework. Build → Hack → Investigate → Secure → Audit → Repeat.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-16T11:41:31Z",
+          "updatedAt": "2026-10-17T05:17:42Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 59.99
+        },
+        {
+          "id": 1420173743,
+          "name": "summit",
+          "fullName": "pennacle-security/summit",
+          "url": "https://github.com/pennacle-security/summit",
+          "homepage": "https://pennacle-security.github.io/summit/",
+          "description": "Open-source web security testing platform: proxy, scanner and fuzzer in one CLI. By Pennacle Security.",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-10-15T04:37:36Z",
+          "updatedAt": "2026-10-17T05:31:35Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 58.45
         },
         {
           "id": 1419077444,
@@ -250,135 +354,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 61.99
+          "score": 57.61
         },
         {
-          "id": 1420006746,
-          "name": "lushibo-skills",
-          "fullName": "lushun2014/lushibo-skills",
-          "url": "https://github.com/lushun2014/lushibo-skills",
-          "homepage": "",
-          "description": "路世博 codeX 版技能包：51 个可加载 skill，覆盖逆向工程、渗透红队、漏洞利用、恶意代码、蓝队防御、游戏安全、工程环境、商业变现、内容创作与生活成长。",
-          "stars": 2,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-15T00:54:15Z",
-          "updatedAt": "2026-10-16T04:40:58Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 60.61
-        },
-        {
-          "id": 1421398682,
-          "name": "phishguard-ai",
-          "fullName": "fatyagum-lgtm/phishguard-ai",
-          "url": "https://github.com/fatyagum-lgtm/phishguard-ai",
-          "homepage": "",
-          "description": "Explainable phishing detection and adversarial robustness research platform",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-15T22:44:18Z",
-          "updatedAt": "2026-10-16T02:05:39Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 59.67
-        },
-        {
-          "id": 1419763635,
-          "name": "straznica-soc",
-          "fullName": "podatnosci/straznica-soc",
-          "url": "https://github.com/podatnosci/straznica-soc",
-          "homepage": "https://www.linkedin.com/in/pesiek/",
-          "description": "Polski SIEM i system obsługi incydentów z gotowymi zgłoszeniami NIS2/KSC",
+          "id": 1421283884,
+          "name": "bodycam",
+          "fullName": "omlahore/bodycam",
+          "url": "https://github.com/omlahore/bodycam",
+          "homepage": "https://omlahore.github.io/bodycam/",
+          "description": "Records what AI coding agents like Claude Code and Codex do on your Mac: commands, files, secrets and network. CLI and menu bar app.",
           "stars": 3,
           "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-14T19:48:06Z",
-          "updatedAt": "2026-10-16T16:51:09Z",
+          "language": "Go",
+          "createdAt": "2026-10-15T20:21:17Z",
+          "updatedAt": "2026-10-16T20:53:41Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "防守 / 蓝队"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 55.42
-        },
-        {
-          "id": 1420120297,
-          "name": "soc-home-lab",
-          "fullName": "szzxli/soc-home-lab",
-          "url": "https://github.com/szzxli/soc-home-lab",
-          "homepage": "https://szzxli.github.io/soc-home-lab/web/",
-          "description": "Hands-on cybersecurity lab: mini-SOC on AWS, CloudTrail IOC analyzer, phishing analysis lab, ELF binary triage, SOC agent skills",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-15T03:28:15Z",
-          "updatedAt": "2026-10-16T17:08:35Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 52.15
-        },
-        {
-          "id": 1418702407,
-          "name": "CVE-2026-104748",
-          "fullName": "joshuavanderpoll/CVE-2026-104748",
-          "url": "https://github.com/joshuavanderpoll/CVE-2026-104748",
-          "homepage": "",
-          "description": "Unauthenticated privilege escalation in SimpleForm WordPress plugin <= 3.10.0. Registers an administrator account without authentication",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-14T09:59:22Z",
-          "updatedAt": "2026-10-14T11:00:29Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 49.53
+          "score": 55.8
         }
       ]
     },
@@ -390,102 +391,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-10-09",
-      "totalCandidates": 21,
+      "createdSince": "2026-10-10",
+      "totalCandidates": 20,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
-          "fetched": 12,
+          "fetched": 10,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 9,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1792171635"
+          "rateLimitReset": "1792215301"
         }
       ],
       "repositories": [
-        {
-          "id": 1412022658,
-          "name": "awesome-reverse-engineering",
-          "fullName": "morluto/awesome-reverse-engineering",
-          "url": "https://github.com/morluto/awesome-reverse-engineering",
-          "homepage": "",
-          "description": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-          "stars": 606,
-          "forks": 135,
-          "openIssues": 2,
-          "language": "Unknown",
-          "createdAt": "2026-10-09T14:58:20Z",
-          "updatedAt": "2026-10-16T16:56:36Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 210.4
-        },
-        {
-          "id": 1411744700,
-          "name": "artex-ko-plus",
-          "fullName": "bdg9412/artex-ko-plus",
-          "url": "https://github.com/bdg9412/artex-ko-plus",
-          "homepage": "",
-          "description": "ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
-          "stars": 191,
-          "forks": 163,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-10-09T11:36:03Z",
-          "updatedAt": "2026-10-16T13:36:34Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 179.38
-        },
         {
           "id": 1414470888,
           "name": "skills",
@@ -514,21 +459,21 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 148.63
+          "score": 146.41
         },
         {
-          "id": 1412357738,
-          "name": "bug-bounty-triage",
-          "fullName": "Sequester-AG/bug-bounty-triage",
-          "url": "https://github.com/Sequester-AG/bug-bounty-triage",
+          "id": 1415198283,
+          "name": "diarea",
+          "fullName": "kriszwart/diarea",
+          "url": "https://github.com/kriszwart/diarea",
           "homepage": "",
-          "description": "Agent skill for rigorous bug bounty report triage, validation, severity escalation, and submission-ready reporting.",
-          "stars": 136,
-          "forks": 20,
+          "description": "💩 Defensive agent that finds what your frontend leaks: exposed keys, source maps, API maps and debug globals. Chrome extension + CLI.",
+          "stars": 67,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-09T19:27:46Z",
-          "updatedAt": "2026-10-16T01:55:12Z",
+          "language": "JavaScript",
+          "createdAt": "2026-10-12T06:55:42Z",
+          "updatedAt": "2026-10-17T04:54:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -537,10 +482,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "AI 自动化 / Skill"
           ],
-          "score": 145.84
+          "score": 117.59
         },
         {
           "id": 1420052920,
@@ -549,12 +493,12 @@
           "url": "https://github.com/aalbata/machine-learning-for-cybersecurity",
           "homepage": "https://aalbata.github.io/machine-learning-for-cybersecurity/",
           "description": "A free course on machine learning for cybersecurity and the security of machine learning, with lessons, runnable labs, exercises and quizzes. By Dr. Ali Al Bataineh, Higher Colleges of Technology.",
-          "stars": 17,
-          "forks": 1,
+          "stars": 19,
+          "forks": 2,
           "openIssues": 0,
           "language": "Jupyter Notebook",
           "createdAt": "2026-10-15T02:01:22Z",
-          "updatedAt": "2026-10-16T07:41:00Z",
+          "updatedAt": "2026-10-17T04:45:35Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -565,7 +509,33 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 108.39
+          "score": 111.7
+        },
+        {
+          "id": 1420604789,
+          "name": "TornadoC2",
+          "fullName": "kamalx06/TornadoC2",
+          "url": "https://github.com/kamalx06/TornadoC2",
+          "homepage": "",
+          "description": "Pull-based C2 framework with ten native transports, concurrent multi-profile handlers, and end-to-end ECDSA-signed tasking. Single Go binary agent with every property baked in at build time. Multi-operator team server with RBAC, audit chain, and a Qt/CLI console. Linux + Windows, amd64 + arm64.",
+          "stars": 9,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-15T11:28:53Z",
+          "updatedAt": "2026-10-17T05:23:05Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 101.19
         },
         {
           "id": 1413903108,
@@ -579,7 +549,7 @@
           "openIssues": 17,
           "language": "Python",
           "createdAt": "2026-10-11T03:55:14Z",
-          "updatedAt": "2026-10-16T16:37:52Z",
+          "updatedAt": "2026-10-17T00:52:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -590,32 +560,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 102.07
-        },
-        {
-          "id": 1415198283,
-          "name": "diarea",
-          "fullName": "kriszwart/diarea",
-          "url": "https://github.com/kriszwart/diarea",
-          "homepage": "",
-          "description": "💩 Defensive agent that finds what your frontend leaks: exposed keys, source maps, API maps and debug globals. Chrome extension + CLI.",
-          "stars": 29,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-12T06:55:42Z",
-          "updatedAt": "2026-10-16T17:25:23Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 98.69
+          "score": 100.19
         },
         {
           "id": 1413519402,
@@ -643,7 +588,57 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 97.82
+          "score": 95.61
+        },
+        {
+          "id": 1421156512,
+          "name": "nv",
+          "fullName": "HelpFreedom/nv",
+          "url": "https://github.com/HelpFreedom/nv",
+          "homepage": "",
+          "description": "Neovim 0.12, собранный с нуля: проверенный код, серверы языков без сети, цвета из обоев, всё по-русски · A security-minded Neovim config built from scratch",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Lua",
+          "createdAt": "2026-10-15T18:14:45Z",
+          "updatedAt": "2026-10-16T19:36:13Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 93.07
+        },
+        {
+          "id": 1420757856,
+          "name": "wazuh-soc-homelab",
+          "fullName": "shahenwaz/wazuh-soc-homelab",
+          "url": "https://github.com/shahenwaz/wazuh-soc-homelab",
+          "homepage": "",
+          "description": "A hands-on SOC home lab using Wazuh SIEM to practise security monitoring, log analysis, threat detection, and incident investigation.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-15T13:16:53Z",
+          "updatedAt": "2026-10-16T20:13:36Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 88.6
         },
         {
           "id": 1420353277,
@@ -669,32 +664,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 89.69
-        },
-        {
-          "id": 1421156512,
-          "name": "nv",
-          "fullName": "HelpFreedom/nv",
-          "url": "https://github.com/HelpFreedom/nv",
-          "homepage": "",
-          "description": "Neovim 0.12, собранный с нуля: проверенный код, серверы языков без сети, цвета из обоев, всё по-русски · A security-minded Neovim config built from scratch",
-          "stars": 9,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Lua",
-          "createdAt": "2026-10-15T18:14:45Z",
-          "updatedAt": "2026-10-16T17:00:22Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 88.68
+          "score": 87.66
         },
         {
           "id": 1413082850,
@@ -708,7 +678,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-10T11:00:50Z",
-          "updatedAt": "2026-10-16T09:00:35Z",
+          "updatedAt": "2026-10-17T04:42:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -719,32 +689,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 88.32
-        },
-        {
-          "id": 1420757856,
-          "name": "wazuh-soc-homelab",
-          "fullName": "shahenwaz/wazuh-soc-homelab",
-          "url": "https://github.com/shahenwaz/wazuh-soc-homelab",
-          "homepage": "",
-          "description": "A hands-on SOC home lab using Wazuh SIEM to practise security monitoring, log analysis, threat detection, and incident investigation.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-15T13:16:53Z",
-          "updatedAt": "2026-10-16T12:39:00Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 85
+          "score": 86.3
         },
         {
           "id": 1420920398,
@@ -758,7 +703,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-15T15:07:57Z",
-          "updatedAt": "2026-10-16T15:22:44Z",
+          "updatedAt": "2026-10-16T20:00:01Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -770,7 +715,33 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 82.99
+          "score": 81.11
+        },
+        {
+          "id": 1419077444,
+          "name": "ai-service-indicators",
+          "fullName": "synapticcybersecurity/ai-service-indicators",
+          "url": "https://github.com/synapticcybersecurity/ai-service-indicators",
+          "homepage": "",
+          "description": "DNS hostnames of generative-AI services, classified by role (chat app, API, agent, web, auth, CDN, telemetry) for measuring observed AI usage.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-14T14:04:44Z",
+          "updatedAt": "2026-10-15T15:23:08Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 70.71
         },
         {
           "id": 1413585108,
@@ -797,21 +768,46 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 72.56
+          "score": 70.68
         },
         {
-          "id": 1411559899,
-          "name": "ship-ready",
-          "fullName": "notaaaronfr/ship-ready",
-          "url": "https://github.com/notaaaronfr/ship-ready",
-          "homepage": "",
-          "description": "Make AI-written code production-ready, with proof. Agent skill for Claude Code, Codex, GitHub Copilot & Gemini CLI: locks behavior, finds bugs and security holes, fixes Big-O, adds property and mutation tests, and won't say \"done\" without evidence.",
-          "stars": 14,
+          "id": 1417809913,
+          "name": "csp-forge",
+          "fullName": "MrLouisWright/csp-forge",
+          "url": "https://github.com/MrLouisWright/csp-forge",
+          "homepage": "https://mrlouiswright.github.io/csp-forge/",
+          "description": "Scan a built static site (dist/, build/, out/) or live URL and generate a tight Content-Security-Policy with sha256 hashes for inline code. Outputs header, meta, Nginx, Apache, Netlify, Vercel, Helmet, JSON; --check mode for CI.",
+          "stars": 5,
           "forks": 0,
           "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-10-09T08:54:58Z",
-          "updatedAt": "2026-10-13T13:19:01Z",
+          "language": "JavaScript",
+          "createdAt": "2026-10-13T19:16:58Z",
+          "updatedAt": "2026-10-16T18:39:02Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 63.8
+        },
+        {
+          "id": 1417712374,
+          "name": "header-sentinel",
+          "fullName": "MrLouisWright/header-sentinel",
+          "url": "https://github.com/MrLouisWright/header-sentinel",
+          "homepage": "https://mrlouiswright.github.io/header-sentinel/",
+          "description": "CI-friendly CLI and API that fails builds when deployed URLs are missing or misconfigure HTTP security headers (HSTS, CSP, COOP, cookies...) with specific fixes. JSON & SARIF output.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-10-13T18:25:40Z",
+          "updatedAt": "2026-10-16T18:39:02Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -823,7 +819,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 72
+          "score": 63.67
         },
         {
           "id": 1414090110,
@@ -837,7 +833,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-11T07:56:07Z",
-          "updatedAt": "2026-10-16T12:28:17Z",
+          "updatedAt": "2026-10-17T04:17:07Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -850,34 +846,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 65.33
-        },
-        {
-          "id": 1411630016,
-          "name": "web-posture-check",
-          "fullName": "MohammadThabetHassan/web-posture-check",
-          "url": "https://github.com/MohammadThabetHassan/web-posture-check",
-          "homepage": "",
-          "description": "Command-line security posture checker for websites: security headers, cookies, CORS, TLS certificate and protocols, CAA, security.txt, SPF/DMARC/DKIM and the HTTPS redirect, with a score, Markdown/JSON reports and a GitHub Action.",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-09T09:54:29Z",
-          "updatedAt": "2026-10-11T08:56:24Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 58.32
+          "score": 63.3
         }
       ]
     }
