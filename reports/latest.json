@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-17T16:26:46.811Z",
+  "generatedAt": "2026-10-18T05:51:43.461Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,46 +33,72 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-14",
-      "totalCandidates": 28,
+      "createdSince": "2026-10-15",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 4,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         }
       ],
       "repositories": [
+        {
+          "id": 1420604789,
+          "name": "TornadoC2",
+          "fullName": "kamalx06/TornadoC2",
+          "url": "https://github.com/kamalx06/TornadoC2",
+          "homepage": "",
+          "description": "Pull-based C2 framework with ten native transports, concurrent multi-profile handlers, and end-to-end ECDSA-signed tasking. Single Go binary agent with every property baked in at build time. Multi-operator team server with RBAC, audit chain, and a Qt/CLI console. Linux + Windows, amd64 + arm64.",
+          "stars": 24,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-15T11:28:53Z",
+          "updatedAt": "2026-10-18T05:45:56Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 113.19
+        },
         {
           "id": 1422959517,
           "name": "flowdit",
@@ -101,33 +127,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 112.59
-        },
-        {
-          "id": 1420604789,
-          "name": "TornadoC2",
-          "fullName": "kamalx06/TornadoC2",
-          "url": "https://github.com/kamalx06/TornadoC2",
-          "homepage": "",
-          "description": "Pull-based C2 framework with ten native transports, concurrent multi-profile handlers, and end-to-end ECDSA-signed tasking. Single Go binary agent with every property baked in at build time. Multi-operator team server with RBAC, audit chain, and a Qt/CLI console. Linux + Windows, amd64 + arm64.",
-          "stars": 19,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-15T11:28:53Z",
-          "updatedAt": "2026-10-17T15:26:22Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 110.84
+          "score": 106.87
         },
         {
           "id": 1420052920,
@@ -152,7 +152,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 95.97
+          "score": 92.23
         },
         {
           "id": 1421156512,
@@ -177,7 +177,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 87.66
+          "score": 82.81
         },
         {
           "id": 1420757856,
@@ -191,7 +191,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-15T13:16:53Z",
-          "updatedAt": "2026-10-17T13:51:38Z",
+          "updatedAt": "2026-10-17T20:56:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -202,7 +202,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 80.06
+          "score": 74.83
         },
         {
           "id": 1420920398,
@@ -211,12 +211,12 @@
           "url": "https://github.com/irraz/vulnerator-ai",
           "homepage": "",
           "description": "Autonomous OODA-loop pentesting agent. Hermes brain, Kali + Playwright tools over MCP, ATT&CK as the Orient language.",
-          "stars": 9,
+          "stars": 10,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-15T15:07:57Z",
-          "updatedAt": "2026-10-17T14:59:17Z",
+          "updatedAt": "2026-10-17T16:47:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -228,7 +228,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 76.8
+          "score": 74.22
         },
         {
           "id": 1420353277,
@@ -254,7 +254,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 73.19
+          "score": 67.95
         },
         {
           "id": 1422084086,
@@ -279,7 +279,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 67.12
+          "score": 61.89
         },
         {
           "id": 1423133365,
@@ -290,21 +290,50 @@
           "description": "⚔️ vn-ranger ⚔️ Scout and listen to the machine. Local-only, no telemetry, single Rust binary ~6–9 MB.",
           "stars": 2,
           "forks": 0,
-          "openIssues": 0,
+          "openIssues": 1,
           "language": "Rust",
           "createdAt": "2026-10-17T08:56:48Z",
-          "updatedAt": "2026-10-17T14:57:39Z",
+          "updatedAt": "2026-10-17T22:35:29Z",
           "matchedProfiles": [
+            "网络安全",
             "防守 / 蓝队"
           ],
           "profileWeights": [
+            1.08,
             1.12
           ],
           "tags": [
+            "网络安全",
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 66.41
+          "score": 60.98
+        },
+        {
+          "id": 1421435552,
+          "name": "heldkeys",
+          "fullName": "hugomn/heldkeys",
+          "url": "https://github.com/hugomn/heldkeys",
+          "homepage": "https://www.hugo.im/posts/heldkeys/",
+          "description": "Which keys is your agent holding? Lists the credentials an AI agent can reach on your laptop, in a sandbox, or in CI, and flags risky AI agent steps in GitHub workflows.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-10-15T23:40:52Z",
+          "updatedAt": "2026-10-17T19:14:13Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 60.44
         },
         {
           "id": 1422566013,
@@ -332,21 +361,21 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 64.04
+          "score": 58.32
         },
         {
-          "id": 1421435552,
-          "name": "heldkeys",
-          "fullName": "hugomn/heldkeys",
-          "url": "https://github.com/hugomn/heldkeys",
-          "homepage": "https://www.hugo.im/posts/heldkeys/",
-          "description": "Which keys is your agent holding? Lists the credentials an AI agent can reach on your laptop, in a sandbox, or in CI, and flags risky AI agent steps in GitHub workflows.",
+          "id": 1420968355,
+          "name": "ebpf-container-escape-framework",
+          "fullName": "0xmfbk/ebpf-container-escape-framework",
+          "url": "https://github.com/0xmfbk/ebpf-container-escape-framework",
+          "homepage": "https://github.com/0xmfbk/ebpf-container-escape-framework/tree/main/docs",
+          "description": "Audit only eBPF EDR for Linux 5.15+ LTS: 14 kernel hooks, 15 actions (13 MITRE techniques), process lineage, SIEM export, K8s/Docker ready.",
           "stars": 5,
-          "forks": 0,
+          "forks": 1,
           "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-10-15T23:40:52Z",
-          "updatedAt": "2026-10-17T13:08:02Z",
+          "language": "C",
+          "createdAt": "2026-10-15T15:46:38Z",
+          "updatedAt": "2026-10-18T04:36:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -356,34 +385,9 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
+            "防守 / 蓝队"
           ],
-          "score": 61.81
-        },
-        {
-          "id": 1421283884,
-          "name": "bodycam",
-          "fullName": "omlahore/bodycam",
-          "url": "https://github.com/omlahore/bodycam",
-          "homepage": "https://omlahore.github.io/bodycam/",
-          "description": "Records what AI coding agents like Claude Code and Codex do on your Mac: commands, files, secrets and network. CLI and menu bar app.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-10-15T20:21:17Z",
-          "updatedAt": "2026-10-17T10:36:06Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 56.61
+          "score": 58.11
         }
       ]
     },
@@ -395,46 +399,71 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-10-10",
-      "totalCandidates": 22,
+      "createdSince": "2026-10-11",
+      "totalCandidates": 19,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 10,
+          "fetched": 7,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1792254459"
+          "rateLimitReset": "1792302756"
         }
       ],
       "repositories": [
+        {
+          "id": 1415198283,
+          "name": "diarea",
+          "fullName": "kriszwart/diarea",
+          "url": "https://github.com/kriszwart/diarea",
+          "homepage": "",
+          "description": "💩 Defensive agent that finds what your frontend leaks: exposed keys, source maps, API maps and debug globals. Chrome extension + CLI.",
+          "stars": 81,
+          "forks": 61,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-10-12T06:55:42Z",
+          "updatedAt": "2026-10-17T19:08:26Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 142.45
+        },
         {
           "id": 1414470888,
           "name": "skills",
@@ -463,32 +492,7 @@
             "防守 / 蓝队",
             "网络安全"
           ],
-          "score": 144.43
-        },
-        {
-          "id": 1415198283,
-          "name": "diarea",
-          "fullName": "kriszwart/diarea",
-          "url": "https://github.com/kriszwart/diarea",
-          "homepage": "",
-          "description": "💩 Defensive agent that finds what your frontend leaks: exposed keys, source maps, API maps and debug globals. Chrome extension + CLI.",
-          "stars": 81,
-          "forks": 40,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-12T06:55:42Z",
-          "updatedAt": "2026-10-17T16:06:54Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 142.14
+          "score": 141.98
         },
         {
           "id": 1420604789,
@@ -497,12 +501,12 @@
           "url": "https://github.com/kamalx06/TornadoC2",
           "homepage": "",
           "description": "Pull-based C2 framework with ten native transports, concurrent multi-profile handlers, and end-to-end ECDSA-signed tasking. Single Go binary agent with every property baked in at build time. Multi-operator team server with RBAC, audit chain, and a Qt/CLI console. Linux + Windows, amd64 + arm64.",
-          "stars": 19,
-          "forks": 3,
+          "stars": 24,
+          "forks": 4,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-15T11:28:53Z",
-          "updatedAt": "2026-10-17T15:26:22Z",
+          "updatedAt": "2026-10-18T05:45:56Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -514,7 +518,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 123.74
+          "score": 129.35
         },
         {
           "id": 1422959517,
@@ -544,7 +548,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 115.39
+          "score": 112.94
         },
         {
           "id": 1420052920,
@@ -569,7 +573,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 109.88
+          "score": 107.64
         },
         {
           "id": 1413903108,
@@ -578,12 +582,12 @@
           "url": "https://github.com/scs0209/laya-guard",
           "homepage": "",
           "description": "Free local guardrail for AI coding agents: every tool_call judged on-device (regex + Laya), allow/review/block",
-          "stars": 28,
+          "stars": 29,
           "forks": 4,
-          "openIssues": 18,
+          "openIssues": 19,
           "language": "Python",
           "createdAt": "2026-10-11T03:55:14Z",
-          "updatedAt": "2026-10-17T09:24:46Z",
+          "updatedAt": "2026-10-17T22:17:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -594,7 +598,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 99.39
+          "score": 98.46
         },
         {
           "id": 1421156512,
@@ -619,35 +623,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 97.19
-        },
-        {
-          "id": 1413519402,
-          "name": "pentest-projects-discovery",
-          "fullName": "Sahil-Hossain-1429/pentest-projects-discovery",
-          "url": "https://github.com/Sahil-Hossain-1429/pentest-projects-discovery",
-          "homepage": "",
-          "description": "An automated way to discover practical, hands on penetration testing projects using Claude, with structured learning roadmaps, relevant security tools, and progressive challenges to build real world cybersecurity skills.",
-          "stars": 19,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-10T18:15:15Z",
-          "updatedAt": "2026-10-14T03:20:45Z",
-          "matchedProfiles": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.08,
-            1.18
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 93.62
+          "score": 95.11
         },
         {
           "id": 1420757856,
@@ -661,7 +637,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-15T13:16:53Z",
-          "updatedAt": "2026-10-17T13:51:38Z",
+          "updatedAt": "2026-10-17T20:56:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -672,32 +648,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 91.46
-        },
-        {
-          "id": 1413082850,
-          "name": "hack_cameraWeb",
-          "fullName": "cleonaia/hack_cameraWeb",
-          "url": "https://github.com/cleonaia/hack_cameraWeb",
-          "homepage": "",
-          "description": "This project is used analyzing my own webcam’s network traffic from Kali Linux. The workflow uses Ettercap for an ARP MiTM demonstration, Wireshark for traffic analysis and Metasploit as an external lab tool. This repository also includes camera discovery and authenticated RTSP playback.",
-          "stars": 22,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-10T11:00:50Z",
-          "updatedAt": "2026-10-17T14:02:57Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 89.13
+          "score": 89.22
         },
         {
           "id": 1420920398,
@@ -706,12 +657,12 @@
           "url": "https://github.com/irraz/vulnerator-ai",
           "homepage": "",
           "description": "Autonomous OODA-loop pentesting agent. Hermes brain, Kali + Playwright tools over MCP, ATT&CK as the Orient language.",
-          "stars": 9,
+          "stars": 10,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-15T15:07:57Z",
-          "updatedAt": "2026-10-17T14:59:17Z",
+          "updatedAt": "2026-10-17T16:47:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -723,7 +674,33 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 86.98
+          "score": 87.16
+        },
+        {
+          "id": 1419318464,
+          "name": "Malvex",
+          "fullName": "JoasASantos/Malvex",
+          "url": "https://github.com/JoasASantos/Malvex",
+          "homepage": "",
+          "description": "AI-driven malware analysis framework with 30+ integrated tools, web REPL, and MCP server",
+          "stars": 8,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-10-14T15:49:55Z",
+          "updatedAt": "2026-10-18T04:46:35Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 86.92
         },
         {
           "id": 1420353277,
@@ -749,7 +726,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 85.84
+          "score": 83.6
         },
         {
           "id": 1421435552,
@@ -758,12 +735,12 @@
           "url": "https://github.com/hugomn/heldkeys",
           "homepage": "https://www.hugo.im/posts/heldkeys/",
           "description": "Which keys is your agent holding? Lists the credentials an AI agent can reach on your laptop, in a sandbox, or in CI, and flags risky AI agent steps in GitHub workflows.",
-          "stars": 5,
+          "stars": 6,
           "forks": 0,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-10-15T23:40:52Z",
-          "updatedAt": "2026-10-17T13:08:02Z",
+          "updatedAt": "2026-10-17T19:14:13Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -775,7 +752,33 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 70.22
+          "score": 71.61
+        },
+        {
+          "id": 1420968355,
+          "name": "ebpf-container-escape-framework",
+          "fullName": "0xmfbk/ebpf-container-escape-framework",
+          "url": "https://github.com/0xmfbk/ebpf-container-escape-framework",
+          "homepage": "https://github.com/0xmfbk/ebpf-container-escape-framework/tree/main/docs",
+          "description": "Audit only eBPF EDR for Linux 5.15+ LTS: 14 kernel hooks, 15 actions (13 MITRE techniques), process lineage, SIEM export, K8s/Docker ready.",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "C",
+          "createdAt": "2026-10-15T15:46:38Z",
+          "updatedAt": "2026-10-18T04:36:28Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 70.92
         },
         {
           "id": 1419077444,
@@ -801,34 +804,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 69.02
-        },
-        {
-          "id": 1413585108,
-          "name": "sieve",
-          "fullName": "casareanderson/sieve",
-          "url": "https://github.com/casareanderson/sieve",
-          "homepage": "https://github.com/casareanderson/warden",
-          "description": "Find the CVEs that matter on a Linux box and its running containers. Reads the package lists already there, asks OSV.dev, ranks by CISA KEV and EPSS. No scanner binary, no database, no server.",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-10T19:26:54Z",
-          "updatedAt": "2026-10-15T20:02:17Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 69
+          "score": 66.95
         },
         {
           "id": 1414090110,
@@ -842,7 +818,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-11T07:56:07Z",
-          "updatedAt": "2026-10-17T16:25:20Z",
+          "updatedAt": "2026-10-18T01:05:17Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -855,7 +831,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 65.23
+          "score": 62.99
         },
         {
           "id": 1417809913,
@@ -880,33 +856,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 62.11
-        },
-        {
-          "id": 1417712374,
-          "name": "header-sentinel",
-          "fullName": "MrLouisWright/header-sentinel",
-          "url": "https://github.com/MrLouisWright/header-sentinel",
-          "homepage": "https://mrlouiswright.github.io/header-sentinel/",
-          "description": "CI-friendly CLI and API that fails builds when deployed URLs are missing or misconfigure HTTP security headers (HSTS, CSP, COOP, cookies...) with specific fixes. JSON & SARIF output.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-13T18:25:40Z",
-          "updatedAt": "2026-10-16T18:39:02Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 61.98
+          "score": 60.04
         }
       ]
     }
