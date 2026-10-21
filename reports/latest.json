@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-20T17:59:33.018Z",
+  "generatedAt": "2026-10-21T06:00:22.279Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,7 +33,7 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-17",
+      "createdSince": "2026-10-18",
       "totalCandidates": 27,
       "queryStats": [
         {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 7,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/opentrap/opentrap",
           "homepage": "https://opentrap.github.io/opentrap",
           "description": "A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.",
-          "stars": 144,
+          "stars": 197,
           "forks": 2,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "Java",
           "createdAt": "2026-10-19T03:29:08Z",
-          "updatedAt": "2026-10-20T17:58:13Z",
+          "updatedAt": "2026-10-21T05:58:30Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -99,7 +99,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 174.47
+          "score": 178.84
         },
         {
           "id": 1427117255,
@@ -123,7 +123,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 150.13
+          "score": 145.01
         },
         {
           "id": 1423982435,
@@ -131,13 +131,13 @@
           "fullName": "Fazmin/cve-intel",
           "url": "https://github.com/Fazmin/cve-intel",
           "homepage": "",
-          "description": "Local security intelligence for CVE triage - 31 data sources and 32 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
-          "stars": 79,
+          "description": "Local security intelligence for CVE triage - 38 data sources and 36 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
+          "stars": 82,
           "forks": 5,
           "openIssues": 1,
           "language": "Rust",
           "createdAt": "2026-10-18T04:20:37Z",
-          "updatedAt": "2026-10-20T16:49:56Z",
+          "updatedAt": "2026-10-21T02:27:22Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -149,7 +149,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 138.45
+          "score": 135.43
         },
         {
           "id": 1427116783,
@@ -175,33 +175,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 137.41
-        },
-        {
-          "id": 1425938162,
-          "name": "ai-jailbreaks",
-          "fullName": "AndreSzymanski15/ai-jailbreaks",
-          "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
-          "homepage": "",
-          "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, persona locks, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
-          "stars": 59,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-19T17:14:07Z",
-          "updatedAt": "2026-10-20T17:56:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 127.81
+          "score": 132.72
         },
         {
           "id": 1424628429,
@@ -227,7 +201,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 107.09
+          "score": 101.97
         },
         {
           "id": 1425379596,
@@ -236,12 +210,12 @@
           "url": "https://github.com/QERSSD/HowToAvoidScams",
           "homepage": "https://qerssd.github.io/HowToAvoidScams/",
           "description": "人间防骗指南：364 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
-          "stars": 17,
+          "stars": 25,
           "forks": 2,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-10-19T09:21:30Z",
-          "updatedAt": "2026-10-20T15:50:52Z",
+          "updatedAt": "2026-10-21T05:09:12Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -252,37 +226,31 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 97.02
+          "score": 101.81
         },
         {
-          "id": 1422959517,
-          "name": "flowdit",
-          "fullName": "pirrandi/flowdit",
-          "url": "https://github.com/pirrandi/flowdit",
-          "homepage": "",
-          "description": "Self-hosted pentest engagement management and report.",
-          "stars": 16,
+          "id": 1425816249,
+          "name": "DedSecLab",
+          "fullName": "QuacksOnWelfare/DedSecLab",
+          "url": "https://github.com/QuacksOnWelfare/DedSecLab",
+          "homepage": "https://dedsecvpn.cloud/",
+          "description": "DedSecLab — open-source cyber lab: a Windows PyQt6 client, OpenVPN-gated FastAPI backend, and ForceCommand SSH ops menus in one tree. Run it on your own VPS with your own profiles.",
+          "stars": 9,
           "forks": 0,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-17T04:55:10Z",
-          "updatedAt": "2026-10-20T13:21:48Z",
+          "language": "Python",
+          "createdAt": "2026-10-19T15:26:24Z",
+          "updatedAt": "2026-10-21T03:42:05Z",
           "matchedProfiles": [
-            "通用安全",
-            "网络安全",
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1,
-            1.08,
-            1.18
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "网络安全",
-            "渗透 / 红队"
+            "网络安全"
           ],
-          "score": 88.57
+          "score": 80.29
         },
         {
           "id": 1426886635,
@@ -307,7 +275,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.47
+          "score": 76.13
         },
         {
           "id": 1426886222,
@@ -332,7 +300,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.46
+          "score": 76.13
         },
         {
           "id": 1424302946,
@@ -346,7 +314,7 @@
           "openIssues": 8,
           "language": "Python",
           "createdAt": "2026-10-18T11:34:37Z",
-          "updatedAt": "2026-10-20T16:09:52Z",
+          "updatedAt": "2026-10-20T18:23:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -358,31 +326,61 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 79.3
+          "score": 74.96
         },
         {
-          "id": 1425816249,
-          "name": "DedSecLab",
-          "fullName": "QuacksOnWelfare/DedSecLab",
-          "url": "https://github.com/QuacksOnWelfare/DedSecLab",
-          "homepage": "https://dedsecvpn.cloud/",
-          "description": "DedSecLab — open-source cyber lab: a Windows PyQt6 client, OpenVPN-gated FastAPI backend, and ForceCommand SSH ops menus in one tree. Run it on your own VPS with your own profiles.",
-          "stars": 6,
+          "id": 1424984820,
+          "name": "ARTEX",
+          "fullName": "jaykwok/ARTEX",
+          "url": "https://github.com/jaykwok/ARTEX",
+          "homepage": "",
+          "description": "ARTEX ：AI 自主渗透测试系统（Go + Next.js），基于 Autumn-27/ARTEX v0.3.15（e6ec569，AGPL-3.0）。原版 v0.3.15 下载说明与恢复指引见 README。",
+          "stars": 4,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-10-19T01:35:50Z",
+          "updatedAt": "2026-10-21T04:03:04Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 74.21
+        },
+        {
+          "id": 1424412891,
+          "name": "gulpsuite",
+          "fullName": "Aryma-f4/gulpsuite",
+          "url": "https://github.com/Aryma-f4/gulpsuite",
+          "homepage": "",
+          "description": "Fast, lightweight, native Rust web security testing, DAST vulnerability scanner & HTTP/HTTPS/WebSocket interception proxy suite (~35 MB RAM, <0.2s startup) for macOS, Windows & Linux.",
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-19T15:26:24Z",
-          "updatedAt": "2026-10-20T14:23:03Z",
+          "language": "Rust",
+          "createdAt": "2026-10-18T13:36:22Z",
+          "updatedAt": "2026-10-21T05:59:50Z",
           "matchedProfiles": [
+            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
+            1,
             1.08
           ],
           "tags": [
-            "网络安全"
+            "通用安全",
+            "网络安全",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
           ],
-          "score": 76.04
+          "score": 64.59
         }
       ]
     },
@@ -394,7 +392,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-10-13",
+      "createdSince": "2026-10-14",
       "totalCandidates": 26,
       "queryStats": [
         {
@@ -402,35 +400,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1792519225"
+          "rateLimitReset": "1792562474"
         }
       ],
       "repositories": [
@@ -441,12 +439,12 @@
           "url": "https://github.com/opentrap/opentrap",
           "homepage": "https://opentrap.github.io/opentrap",
           "description": "A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.",
-          "stars": 144,
+          "stars": 197,
           "forks": 2,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "Java",
           "createdAt": "2026-10-19T03:29:08Z",
-          "updatedAt": "2026-10-20T17:58:13Z",
+          "updatedAt": "2026-10-21T05:58:30Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -460,7 +458,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 183.84
+          "score": 191.14
         },
         {
           "id": 1423982435,
@@ -468,13 +466,13 @@
           "fullName": "Fazmin/cve-intel",
           "url": "https://github.com/Fazmin/cve-intel",
           "homepage": "",
-          "description": "Local security intelligence for CVE triage - 31 data sources and 32 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
-          "stars": 79,
+          "description": "Local security intelligence for CVE triage - 38 data sources and 36 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
+          "stars": 82,
           "forks": 5,
           "openIssues": 1,
           "language": "Rust",
           "createdAt": "2026-10-18T04:20:37Z",
-          "updatedAt": "2026-10-20T16:49:56Z",
+          "updatedAt": "2026-10-21T02:27:22Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -486,7 +484,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 152.19
+          "score": 151.2
         },
         {
           "id": 1427117255,
@@ -510,7 +508,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 151.06
+          "score": 148.87
         },
         {
           "id": 1427116783,
@@ -536,33 +534,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 138.26
-        },
-        {
-          "id": 1425938162,
-          "name": "ai-jailbreaks",
-          "fullName": "AndreSzymanski15/ai-jailbreaks",
-          "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
-          "homepage": "",
-          "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, persona locks, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
-          "stars": 59,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-19T17:14:07Z",
-          "updatedAt": "2026-10-20T17:56:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 132.92
+          "score": 136.25
         },
         {
           "id": 1420604789,
@@ -571,12 +543,12 @@
           "url": "https://github.com/kamalx06/TornadoC2",
           "homepage": "",
           "description": "Pull-based C2 framework with ten native transports, concurrent multi-profile handlers, and end-to-end ECDSA-signed tasking. Single Go binary agent with every property baked in at build time. Multi-operator team server with RBAC, audit chain, and a Qt/CLI console. Linux + Windows, amd64 + arm64.",
-          "stars": 29,
+          "stars": 30,
           "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-15T11:28:53Z",
-          "updatedAt": "2026-10-20T02:19:13Z",
+          "updatedAt": "2026-10-20T21:05:28Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -588,7 +560,33 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 126.05
+          "score": 124.83
+        },
+        {
+          "id": 1419318464,
+          "name": "Malvex",
+          "fullName": "JoasASantos/Malvex",
+          "url": "https://github.com/JoasASantos/Malvex",
+          "homepage": "",
+          "description": "AI-driven malware analysis framework with 30+ integrated tools, web REPL, and MCP server",
+          "stars": 42,
+          "forks": 6,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-10-14T15:49:55Z",
+          "updatedAt": "2026-10-21T05:59:45Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 119.9
         },
         {
           "id": 1424628429,
@@ -614,33 +612,32 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 118.94
+          "score": 116.74
         },
         {
-          "id": 1419318464,
-          "name": "Malvex",
-          "fullName": "JoasASantos/Malvex",
-          "url": "https://github.com/JoasASantos/Malvex",
-          "homepage": "",
-          "description": "AI-driven malware analysis framework with 30+ integrated tools, web REPL, and MCP server",
-          "stars": 36,
-          "forks": 6,
+          "id": 1425379596,
+          "name": "HowToAvoidScams",
+          "fullName": "QERSSD/HowToAvoidScams",
+          "url": "https://github.com/QERSSD/HowToAvoidScams",
+          "homepage": "https://qerssd.github.io/HowToAvoidScams/",
+          "description": "人间防骗指南：364 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
+          "stars": 25,
+          "forks": 2,
           "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-10-14T15:49:55Z",
-          "updatedAt": "2026-10-20T13:53:26Z",
+          "language": "HTML",
+          "createdAt": "2026-10-19T09:21:30Z",
+          "updatedAt": "2026-10-21T05:09:12Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 117.8
+          "score": 111.02
         },
         {
           "id": 1420920398,
@@ -666,7 +663,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 111.07
+          "score": 109.21
         },
         {
           "id": 1418403042,
@@ -675,12 +672,12 @@
           "url": "https://github.com/chaenmasahiro0425/claude-security-scan",
           "homepage": "",
           "description": "「セキュリティチェックして」の一言で、Mac・リポジトリ・GitHub・Vercel・AWS・Gmailを読み取り専用で横断点検する Claude Code スキル",
-          "stars": 37,
+          "stars": 38,
           "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-14T05:18:22Z",
-          "updatedAt": "2026-10-20T14:02:31Z",
+          "updatedAt": "2026-10-20T21:29:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -692,32 +689,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 107.23
-        },
-        {
-          "id": 1425379596,
-          "name": "HowToAvoidScams",
-          "fullName": "QERSSD/HowToAvoidScams",
-          "url": "https://github.com/QERSSD/HowToAvoidScams",
-          "homepage": "https://qerssd.github.io/HowToAvoidScams/",
-          "description": "人间防骗指南：364 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
-          "stars": 17,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-19T09:21:30Z",
-          "updatedAt": "2026-10-20T15:50:52Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 103.75
+          "score": 106.13
         },
         {
           "id": 1422959517,
@@ -747,7 +719,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 103.71
+          "score": 101.52
         },
         {
           "id": 1420052920,
@@ -772,7 +744,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 100.68
+          "score": 98.68
         },
         {
           "id": 1421156512,
@@ -797,7 +769,31 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 98.18
+          "score": 96.32
+        },
+        {
+          "id": 1425816249,
+          "name": "DedSecLab",
+          "fullName": "QuacksOnWelfare/DedSecLab",
+          "url": "https://github.com/QuacksOnWelfare/DedSecLab",
+          "homepage": "https://dedsecvpn.cloud/",
+          "description": "DedSecLab — open-source cyber lab: a Windows PyQt6 client, OpenVPN-gated FastAPI backend, and ForceCommand SSH ops menus in one tree. Run it on your own VPS with your own profiles.",
+          "stars": 9,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-19T15:26:24Z",
+          "updatedAt": "2026-10-21T03:42:05Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 88.89
         },
         {
           "id": 1424302946,
@@ -811,7 +807,7 @@
           "openIssues": 8,
           "language": "Python",
           "createdAt": "2026-10-18T11:34:37Z",
-          "updatedAt": "2026-10-20T16:09:52Z",
+          "updatedAt": "2026-10-20T18:23:26Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -823,7 +819,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 90.53
+          "score": 88.67
         },
         {
           "id": 1420757856,
@@ -848,21 +844,21 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 88.3
+          "score": 86.29
         },
         {
-          "id": 1425816249,
-          "name": "DedSecLab",
-          "fullName": "QuacksOnWelfare/DedSecLab",
-          "url": "https://github.com/QuacksOnWelfare/DedSecLab",
-          "homepage": "https://dedsecvpn.cloud/",
-          "description": "DedSecLab — open-source cyber lab: a Windows PyQt6 client, OpenVPN-gated FastAPI backend, and ForceCommand SSH ops menus in one tree. Run it on your own VPS with your own profiles.",
-          "stars": 6,
+          "id": 1424412891,
+          "name": "gulpsuite",
+          "fullName": "Aryma-f4/gulpsuite",
+          "url": "https://github.com/Aryma-f4/gulpsuite",
+          "homepage": "",
+          "description": "Fast, lightweight, native Rust web security testing, DAST vulnerability scanner & HTTP/HTTPS/WebSocket interception proxy suite (~35 MB RAM, <0.2s startup) for macOS, Windows & Linux.",
+          "stars": 7,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-19T15:26:24Z",
-          "updatedAt": "2026-10-20T14:23:03Z",
+          "language": "Rust",
+          "createdAt": "2026-10-18T13:36:22Z",
+          "updatedAt": "2026-10-21T05:59:50Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -870,9 +866,11 @@
             1.08
           ],
           "tags": [
-            "网络安全"
+            "网络安全",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
           ],
-          "score": 81.96
+          "score": 78.94
         },
         {
           "id": 1422084086,
@@ -897,7 +895,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 75.56
+          "score": 73.55
         }
       ]
     }
