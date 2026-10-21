@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-21T06:00:22.279Z",
+  "generatedAt": "2026-10-21T18:04:39.552Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-10-18",
-      "totalCandidates": 27,
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 0,
+          "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/opentrap/opentrap",
           "homepage": "https://opentrap.github.io/opentrap",
           "description": "A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.",
-          "stars": 197,
-          "forks": 2,
+          "stars": 279,
+          "forks": 3,
           "openIssues": 0,
           "language": "Java",
           "createdAt": "2026-10-19T03:29:08Z",
-          "updatedAt": "2026-10-21T05:58:30Z",
+          "updatedAt": "2026-10-21T18:00:17Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -99,31 +99,58 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 178.84
+          "score": 186.22
         },
         {
-          "id": 1427117255,
-          "name": "meanp-rpocket-remap",
-          "fullName": "FlowPackerPulse/meanp-rpocket-remap",
-          "url": "https://github.com/FlowPackerPulse/meanp-rpocket-remap",
+          "id": 1428519987,
+          "name": "ai-jailbreaks",
+          "fullName": "Alejandros17487/ai-jailbreaks",
+          "url": "https://github.com/Alejandros17487/ai-jailbreaks",
           "homepage": "",
-          "description": "Modern C++23 Runtime Patching Framework for 2026 Windows Memory Analysis",
-          "stars": 50,
-          "forks": 0,
+          "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
+          "stars": 205,
+          "forks": 29,
           "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-20T14:10:41Z",
-          "updatedAt": "2026-10-20T15:20:57Z",
+          "language": "Unknown",
+          "createdAt": "2026-10-21T14:44:06Z",
+          "updatedAt": "2026-10-21T17:34:12Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队"
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
           ],
-          "score": 145.01
+          "score": 182.9
+        },
+        {
+          "id": 1427856225,
+          "name": "php2shell-protection",
+          "fullName": "syhunt/php2shell-protection",
+          "url": "https://github.com/syhunt/php2shell-protection",
+          "homepage": "",
+          "description": "Emergency Apache mitigation and testing toolkit for php2shell (CVE-2026-109618 / CVE-2026-109619), featuring multipart POST blocking, request-size limits, and additional hardening measures.",
+          "stars": 47,
+          "forks": 6,
+          "openIssues": 1,
+          "language": "PHP",
+          "createdAt": "2026-10-21T04:01:24Z",
+          "updatedAt": "2026-10-21T17:44:55Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 143.88
         },
         {
           "id": 1423982435,
@@ -132,12 +159,12 @@
           "url": "https://github.com/Fazmin/cve-intel",
           "homepage": "",
           "description": "Local security intelligence for CVE triage - 38 data sources and 36 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
-          "stars": 82,
+          "stars": 86,
           "forks": 5,
           "openIssues": 1,
           "language": "Rust",
           "createdAt": "2026-10-18T04:20:37Z",
-          "updatedAt": "2026-10-21T02:27:22Z",
+          "updatedAt": "2026-10-21T17:41:38Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -149,33 +176,89 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 135.43
+          "score": 136.74
         },
         {
-          "id": 1427116783,
-          "name": "Far-Cry-3-Value-Forge-resocket",
-          "fullName": "VirtualPurser/Far-Cry-3-Value-Forge-resocket",
-          "url": "https://github.com/VirtualPurser/Far-Cry-3-Value-Forge-resocket",
-          "homepage": "",
-          "description": "Far Cry 3 Ultimate Trainer & Memory Editor 2026 Toolkit",
-          "stars": 50,
-          "forks": 0,
+          "id": 1425379596,
+          "name": "HowToAvoidScams",
+          "fullName": "QERSSD/HowToAvoidScams",
+          "url": "https://github.com/QERSSD/HowToAvoidScams",
+          "homepage": "https://qerssd.github.io/HowToAvoidScams/",
+          "description": "人间防骗指南：364 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
+          "stars": 44,
+          "forks": 4,
           "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-20T14:10:16Z",
-          "updatedAt": "2026-10-20T15:20:27Z",
+          "language": "HTML",
+          "createdAt": "2026-10-19T09:21:30Z",
+          "updatedAt": "2026-10-21T16:22:36Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
+            "通用安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 132.72
+          "score": 114.23
+        },
+        {
+          "id": 1428583003,
+          "name": "php2shell-scanner",
+          "fullName": "JoasASantos/php2shell-scanner",
+          "url": "https://github.com/JoasASantos/php2shell-scanner",
+          "homepage": "",
+          "description": "Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing, version-based detection.",
+          "stars": 14,
+          "forks": 8,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-10-21T15:35:43Z",
+          "updatedAt": "2026-10-21T17:59:19Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 109.78
+        },
+        {
+          "id": 1427833144,
+          "name": "open-sesame",
+          "fullName": "hassan-algo/open-sesame",
+          "url": "https://github.com/hassan-algo/open-sesame",
+          "homepage": "",
+          "description": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
+          "stars": 8,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-10-21T03:31:18Z",
+          "updatedAt": "2026-10-21T18:03:57Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 99.76
         },
         {
           "id": 1424628429,
@@ -185,7 +268,7 @@
           "homepage": "",
           "description": "Config-driven Frida instrumentation engine for Android security researchers and reverse engineers. Zero scripting required, built for simplicity and ease of use.",
           "stars": 13,
-          "forks": 7,
+          "forks": 6,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-10-18T17:20:37Z",
@@ -201,120 +284,21 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 101.97
+          "score": 96.23
         },
         {
-          "id": 1425379596,
-          "name": "HowToAvoidScams",
-          "fullName": "QERSSD/HowToAvoidScams",
-          "url": "https://github.com/QERSSD/HowToAvoidScams",
-          "homepage": "https://qerssd.github.io/HowToAvoidScams/",
-          "description": "人间防骗指南：364 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
-          "stars": 25,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-19T09:21:30Z",
-          "updatedAt": "2026-10-21T05:09:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 101.81
-        },
-        {
-          "id": 1425816249,
-          "name": "DedSecLab",
-          "fullName": "QuacksOnWelfare/DedSecLab",
-          "url": "https://github.com/QuacksOnWelfare/DedSecLab",
-          "homepage": "https://dedsecvpn.cloud/",
-          "description": "DedSecLab — open-source cyber lab: a Windows PyQt6 client, OpenVPN-gated FastAPI backend, and ForceCommand SSH ops menus in one tree. Run it on your own VPS with your own profiles.",
-          "stars": 9,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-19T15:26:24Z",
-          "updatedAt": "2026-10-21T03:42:05Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 80.29
-        },
-        {
-          "id": 1426886635,
-          "name": "genpark-pii-redactor-and-data-masker-skill",
-          "fullName": "Alpha-Park/genpark-pii-redactor-and-data-masker-skill",
-          "url": "https://github.com/Alpha-Park/genpark-pii-redactor-and-data-masker-skill",
-          "homepage": "https://www.genpark.ai",
-          "description": "Regex and Luhn heuristic PII redaction and tokenization engine sanitizing sensitive emails, phones, IPs, and credit cards",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-20T10:48:50Z",
-          "updatedAt": "2026-10-20T10:49:13Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 76.13
-        },
-        {
-          "id": 1426886222,
-          "name": "genpark-pii-redactor-and-data-masker-skill",
-          "fullName": "alphaparkinc/genpark-pii-redactor-and-data-masker-skill",
-          "url": "https://github.com/alphaparkinc/genpark-pii-redactor-and-data-masker-skill",
-          "homepage": "https://www.genpark.ai",
-          "description": "Regex and Luhn heuristic PII redaction and tokenization engine sanitizing sensitive emails, phones, IPs, and credit cards",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-20T10:48:24Z",
-          "updatedAt": "2026-10-20T10:48:46Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 76.13
-        },
-        {
-          "id": 1424302946,
-          "name": "popia-compliance",
-          "fullName": "VenusOne-Lee/popia-compliance",
-          "url": "https://github.com/VenusOne-Lee/popia-compliance",
+          "id": 1427882263,
+          "name": "php2shell-CVE-2026-109618-109619",
+          "fullName": "xuehuolll/php2shell-CVE-2026-109618-109619",
+          "url": "https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619",
           "homepage": "",
-          "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-          "stars": 11,
-          "forks": 2,
-          "openIssues": 8,
+          "description": "CVE-2026-109618/109619 — PHP session.upload_progress pre-auth RCE. Exploit research: remote ASLR chain, PoC & patch analysis.",
+          "stars": 9,
+          "forks": 6,
+          "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-18T11:34:37Z",
-          "updatedAt": "2026-10-20T18:23:26Z",
+          "createdAt": "2026-10-21T04:38:46Z",
+          "updatedAt": "2026-10-21T17:57:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -324,34 +308,34 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "网络安全"
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
           ],
-          "score": 74.96
+          "score": 94.65
         },
         {
-          "id": 1424984820,
-          "name": "ARTEX",
-          "fullName": "jaykwok/ARTEX",
-          "url": "https://github.com/jaykwok/ARTEX",
-          "homepage": "",
-          "description": "ARTEX ：AI 自主渗透测试系统（Go + Next.js），基于 Autumn-27/ARTEX v0.3.15（e6ec569，AGPL-3.0）。原版 v0.3.15 下载说明与恢复指引见 README。",
-          "stars": 4,
-          "forks": 4,
+          "id": 1425816249,
+          "name": "DedSecLab",
+          "fullName": "QuacksOnWelfare/DedSecLab",
+          "url": "https://github.com/QuacksOnWelfare/DedSecLab",
+          "homepage": "https://dedsecvpn.cloud/",
+          "description": "DedSecLab — open-source cyber lab: a Windows PyQt6 client, OpenVPN-gated FastAPI backend, and ForceCommand SSH ops menus in one tree. Run it on your own VPS with your own profiles.",
+          "stars": 10,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-10-19T01:35:50Z",
-          "updatedAt": "2026-10-21T04:03:04Z",
+          "language": "Python",
+          "createdAt": "2026-10-19T15:26:24Z",
+          "updatedAt": "2026-10-21T09:08:43Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "网络安全"
           ],
           "profileWeights": [
-            1.18
+            1.08
           ],
           "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
+            "网络安全"
           ],
-          "score": 74.21
+          "score": 78.02
         },
         {
           "id": 1424412891,
@@ -359,13 +343,13 @@
           "fullName": "Aryma-f4/gulpsuite",
           "url": "https://github.com/Aryma-f4/gulpsuite",
           "homepage": "",
-          "description": "Fast, lightweight, native Rust web security testing, DAST vulnerability scanner & HTTP/HTTPS/WebSocket interception proxy suite (~35 MB RAM, <0.2s startup) for macOS, Windows & Linux.",
-          "stars": 7,
+          "description": "Gulp it before burp — Ultra-fast native Rust web security testing, DAST scanner, Nuclei engine & HTTP/HTTPS/WebSocket proxy suite",
+          "stars": 13,
           "forks": 0,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-10-18T13:36:22Z",
-          "updatedAt": "2026-10-21T05:59:50Z",
+          "updatedAt": "2026-10-21T17:50:53Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -377,10 +361,35 @@
           "tags": [
             "通用安全",
             "网络安全",
-            "防守 / 蓝队",
-            "漏洞研究 / 攻防"
+            "防守 / 蓝队"
           ],
-          "score": 64.59
+          "score": 75.95
+        },
+        {
+          "id": 1424302946,
+          "name": "popia-compliance",
+          "fullName": "VenusOne-Lee/popia-compliance",
+          "url": "https://github.com/VenusOne-Lee/popia-compliance",
+          "homepage": "",
+          "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+          "stars": 12,
+          "forks": 2,
+          "openIssues": 8,
+          "language": "Python",
+          "createdAt": "2026-10-18T11:34:37Z",
+          "updatedAt": "2026-10-21T11:09:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 74.87
         }
       ]
     },
@@ -400,35 +409,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1792562474"
+          "rateLimitReset": "1792605931"
         }
       ],
       "repositories": [
@@ -439,12 +448,12 @@
           "url": "https://github.com/opentrap/opentrap",
           "homepage": "https://opentrap.github.io/opentrap",
           "description": "A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.",
-          "stars": 197,
-          "forks": 2,
+          "stars": 279,
+          "forks": 3,
           "openIssues": 0,
           "language": "Java",
           "createdAt": "2026-10-19T03:29:08Z",
-          "updatedAt": "2026-10-21T05:58:30Z",
+          "updatedAt": "2026-10-21T18:00:17Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -458,7 +467,33 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 191.14
+          "score": 201.46
+        },
+        {
+          "id": 1428519987,
+          "name": "ai-jailbreaks",
+          "fullName": "Alejandros17487/ai-jailbreaks",
+          "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+          "homepage": "",
+          "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
+          "stars": 205,
+          "forks": 29,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-21T14:44:06Z",
+          "updatedAt": "2026-10-21T17:34:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 183.59
         },
         {
           "id": 1423982435,
@@ -467,12 +502,12 @@
           "url": "https://github.com/Fazmin/cve-intel",
           "homepage": "",
           "description": "Local security intelligence for CVE triage - 38 data sources and 36 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
-          "stars": 82,
+          "stars": 86,
           "forks": 5,
           "openIssues": 1,
           "language": "Rust",
           "createdAt": "2026-10-18T04:20:37Z",
-          "updatedAt": "2026-10-21T02:27:22Z",
+          "updatedAt": "2026-10-21T17:41:38Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -484,45 +519,21 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 151.2
+          "score": 150.49
         },
         {
-          "id": 1427117255,
-          "name": "meanp-rpocket-remap",
-          "fullName": "FlowPackerPulse/meanp-rpocket-remap",
-          "url": "https://github.com/FlowPackerPulse/meanp-rpocket-remap",
+          "id": 1427856225,
+          "name": "php2shell-protection",
+          "fullName": "syhunt/php2shell-protection",
+          "url": "https://github.com/syhunt/php2shell-protection",
           "homepage": "",
-          "description": "Modern C++23 Runtime Patching Framework for 2026 Windows Memory Analysis",
-          "stars": 50,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-20T14:10:41Z",
-          "updatedAt": "2026-10-20T15:20:57Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 148.87
-        },
-        {
-          "id": 1427116783,
-          "name": "Far-Cry-3-Value-Forge-resocket",
-          "fullName": "VirtualPurser/Far-Cry-3-Value-Forge-resocket",
-          "url": "https://github.com/VirtualPurser/Far-Cry-3-Value-Forge-resocket",
-          "homepage": "",
-          "description": "Far Cry 3 Ultimate Trainer & Memory Editor 2026 Toolkit",
-          "stars": 50,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-20T14:10:16Z",
-          "updatedAt": "2026-10-20T15:20:27Z",
+          "description": "Emergency Apache mitigation and testing toolkit for php2shell (CVE-2026-109618 / CVE-2026-109619), featuring multipart POST blocking, request-size limits, and additional hardening measures.",
+          "stars": 47,
+          "forks": 6,
+          "openIssues": 1,
+          "language": "PHP",
+          "createdAt": "2026-10-21T04:01:24Z",
+          "updatedAt": "2026-10-21T17:44:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -531,10 +542,34 @@
           ],
           "tags": [
             "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
+            "漏洞研究 / 攻防"
           ],
-          "score": 136.25
+          "score": 147.01
+        },
+        {
+          "id": 1425379596,
+          "name": "HowToAvoidScams",
+          "fullName": "QERSSD/HowToAvoidScams",
+          "url": "https://github.com/QERSSD/HowToAvoidScams",
+          "homepage": "https://qerssd.github.io/HowToAvoidScams/",
+          "description": "人间防骗指南：364 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
+          "stars": 44,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-10-19T09:21:30Z",
+          "updatedAt": "2026-10-21T16:22:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 125.93
         },
         {
           "id": 1420604789,
@@ -543,12 +578,12 @@
           "url": "https://github.com/kamalx06/TornadoC2",
           "homepage": "",
           "description": "Pull-based C2 framework with ten native transports, concurrent multi-profile handlers, and end-to-end ECDSA-signed tasking. Single Go binary agent with every property baked in at build time. Multi-operator team server with RBAC, audit chain, and a Qt/CLI console. Linux + Windows, amd64 + arm64.",
-          "stars": 30,
+          "stars": 29,
           "forks": 6,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-15T11:28:53Z",
-          "updatedAt": "2026-10-20T21:05:28Z",
+          "updatedAt": "2026-10-21T07:21:06Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -560,7 +595,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 124.83
+          "score": 121.66
         },
         {
           "id": 1419318464,
@@ -586,7 +621,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 119.9
+          "score": 118.26
         },
         {
           "id": 1424628429,
@@ -596,7 +631,7 @@
           "homepage": "",
           "description": "Config-driven Frida instrumentation engine for Android security researchers and reverse engineers. Zero scripting required, built for simplicity and ease of use.",
           "stars": 13,
-          "forks": 7,
+          "forks": 6,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-10-18T17:20:37Z",
@@ -612,32 +647,7 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 116.74
-        },
-        {
-          "id": 1425379596,
-          "name": "HowToAvoidScams",
-          "fullName": "QERSSD/HowToAvoidScams",
-          "url": "https://github.com/QERSSD/HowToAvoidScams",
-          "homepage": "https://qerssd.github.io/HowToAvoidScams/",
-          "description": "人间防骗指南：364 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
-          "stars": 25,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-19T09:21:30Z",
-          "updatedAt": "2026-10-21T05:09:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 111.02
+          "score": 113.63
         },
         {
           "id": 1420920398,
@@ -646,12 +656,12 @@
           "url": "https://github.com/irraz/vulnerator-ai",
           "homepage": "",
           "description": "Autonomous OODA-loop pentesting agent. Hermes brain, Kali + Playwright tools over MCP, ATT&CK as the Orient language.",
-          "stars": 31,
+          "stars": 32,
           "forks": 9,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-15T15:07:57Z",
-          "updatedAt": "2026-10-20T16:49:56Z",
+          "updatedAt": "2026-10-21T16:00:43Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -663,7 +673,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 109.21
+          "score": 108.12
         },
         {
           "id": 1418403042,
@@ -672,12 +682,12 @@
           "url": "https://github.com/chaenmasahiro0425/claude-security-scan",
           "homepage": "",
           "description": "「セキュリティチェックして」の一言で、Mac・リポジトリ・GitHub・Vercel・AWS・Gmailを読み取り専用で横断点検する Claude Code スキル",
-          "stars": 38,
+          "stars": 39,
           "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-14T05:18:22Z",
-          "updatedAt": "2026-10-20T21:29:50Z",
+          "updatedAt": "2026-10-21T14:39:25Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -689,7 +699,33 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 106.13
+          "score": 106.78
+        },
+        {
+          "id": 1427833144,
+          "name": "open-sesame",
+          "fullName": "hassan-algo/open-sesame",
+          "url": "https://github.com/hassan-algo/open-sesame",
+          "homepage": "",
+          "description": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
+          "stars": 8,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-10-21T03:31:18Z",
+          "updatedAt": "2026-10-21T18:03:57Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 103.3
         },
         {
           "id": 1422959517,
@@ -719,7 +755,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 101.52
+          "score": 99.31
         },
         {
           "id": 1420052920,
@@ -744,7 +780,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 98.68
+          "score": 96.66
         },
         {
           "id": 1421156512,
@@ -754,7 +790,7 @@
           "homepage": "",
           "description": "Neovim 0.12, собранный с нуля: проверенный код, серверы языков без сети, цвета из обоев, всё по-русски · A security-minded Neovim config built from scratch",
           "stars": 21,
-          "forks": 4,
+          "forks": 5,
           "openIssues": 0,
           "language": "Lua",
           "createdAt": "2026-10-15T18:14:45Z",
@@ -769,7 +805,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 96.32
+          "score": 95.5
+        },
+        {
+          "id": 1424412891,
+          "name": "gulpsuite",
+          "fullName": "Aryma-f4/gulpsuite",
+          "url": "https://github.com/Aryma-f4/gulpsuite",
+          "homepage": "",
+          "description": "Gulp it before burp — Ultra-fast native Rust web security testing, DAST scanner, Nuclei engine & HTTP/HTTPS/WebSocket proxy suite",
+          "stars": 13,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-10-18T13:36:22Z",
+          "updatedAt": "2026-10-21T17:50:53Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 91.25
         },
         {
           "id": 1425816249,
@@ -778,12 +839,12 @@
           "url": "https://github.com/QuacksOnWelfare/DedSecLab",
           "homepage": "https://dedsecvpn.cloud/",
           "description": "DedSecLab — open-source cyber lab: a Windows PyQt6 client, OpenVPN-gated FastAPI backend, and ForceCommand SSH ops menus in one tree. Run it on your own VPS with your own profiles.",
-          "stars": 9,
+          "stars": 10,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-19T15:26:24Z",
-          "updatedAt": "2026-10-21T03:42:05Z",
+          "updatedAt": "2026-10-21T09:08:43Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -793,33 +854,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 88.89
-        },
-        {
-          "id": 1424302946,
-          "name": "popia-compliance",
-          "fullName": "VenusOne-Lee/popia-compliance",
-          "url": "https://github.com/VenusOne-Lee/popia-compliance",
-          "homepage": "",
-          "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-          "stars": 11,
-          "forks": 2,
-          "openIssues": 8,
-          "language": "Python",
-          "createdAt": "2026-10-18T11:34:37Z",
-          "updatedAt": "2026-10-20T18:23:26Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 88.67
+          "score": 89.31
         },
         {
           "id": 1420757856,
@@ -844,33 +879,7 @@
             "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 86.29
-        },
-        {
-          "id": 1424412891,
-          "name": "gulpsuite",
-          "fullName": "Aryma-f4/gulpsuite",
-          "url": "https://github.com/Aryma-f4/gulpsuite",
-          "homepage": "",
-          "description": "Fast, lightweight, native Rust web security testing, DAST vulnerability scanner & HTTP/HTTPS/WebSocket interception proxy suite (~35 MB RAM, <0.2s startup) for macOS, Windows & Linux.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-10-18T13:36:22Z",
-          "updatedAt": "2026-10-21T05:59:50Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 78.94
+          "score": 84.27
         },
         {
           "id": 1422084086,
@@ -895,7 +904,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 73.55
+          "score": 71.53
         }
       ]
     }
