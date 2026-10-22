@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-21T18:04:39.552Z",
+  "generatedAt": "2026-10-22T06:05:58.727Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-18",
-      "totalCandidates": 26,
+      "createdSince": "2026-10-19",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/opentrap/opentrap",
           "homepage": "https://opentrap.github.io/opentrap",
           "description": "A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.",
-          "stars": 279,
-          "forks": 3,
+          "stars": 344,
+          "forks": 4,
           "openIssues": 0,
           "language": "Java",
           "createdAt": "2026-10-19T03:29:08Z",
-          "updatedAt": "2026-10-21T18:00:17Z",
+          "updatedAt": "2026-10-22T05:33:50Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -99,7 +99,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 186.22
+          "score": 190.11
         },
         {
           "id": 1428519987,
@@ -108,12 +108,12 @@
           "url": "https://github.com/Alejandros17487/ai-jailbreaks",
           "homepage": "",
           "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
-          "stars": 205,
+          "stars": 206,
           "forks": 29,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-21T14:44:06Z",
-          "updatedAt": "2026-10-21T17:34:12Z",
+          "updatedAt": "2026-10-21T22:01:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -125,83 +125,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 182.9
-        },
-        {
-          "id": 1427856225,
-          "name": "php2shell-protection",
-          "fullName": "syhunt/php2shell-protection",
-          "url": "https://github.com/syhunt/php2shell-protection",
-          "homepage": "",
-          "description": "Emergency Apache mitigation and testing toolkit for php2shell (CVE-2026-109618 / CVE-2026-109619), featuring multipart POST blocking, request-size limits, and additional hardening measures.",
-          "stars": 47,
-          "forks": 6,
-          "openIssues": 1,
-          "language": "PHP",
-          "createdAt": "2026-10-21T04:01:24Z",
-          "updatedAt": "2026-10-21T17:44:55Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 143.88
-        },
-        {
-          "id": 1423982435,
-          "name": "cve-intel",
-          "fullName": "Fazmin/cve-intel",
-          "url": "https://github.com/Fazmin/cve-intel",
-          "homepage": "",
-          "description": "Local security intelligence for CVE triage - 38 data sources and 36 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
-          "stars": 86,
-          "forks": 5,
-          "openIssues": 1,
-          "language": "Rust",
-          "createdAt": "2026-10-18T04:20:37Z",
-          "updatedAt": "2026-10-21T17:41:38Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 136.74
-        },
-        {
-          "id": 1425379596,
-          "name": "HowToAvoidScams",
-          "fullName": "QERSSD/HowToAvoidScams",
-          "url": "https://github.com/QERSSD/HowToAvoidScams",
-          "homepage": "https://qerssd.github.io/HowToAvoidScams/",
-          "description": "人间防骗指南：364 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
-          "stars": 44,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-19T09:21:30Z",
-          "updatedAt": "2026-10-21T16:22:36Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 114.23
+          "score": 178.69
         },
         {
           "id": 1428583003,
@@ -210,12 +134,12 @@
           "url": "https://github.com/JoasASantos/php2shell-scanner",
           "homepage": "",
           "description": "Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing, version-based detection.",
-          "stars": 14,
-          "forks": 8,
-          "openIssues": 1,
+          "stars": 68,
+          "forks": 23,
+          "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-21T15:35:43Z",
-          "updatedAt": "2026-10-21T17:59:19Z",
+          "updatedAt": "2026-10-22T04:53:58Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -229,7 +153,60 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 109.78
+          "score": 149.43
+        },
+        {
+          "id": 1427856225,
+          "name": "php2shell-protection",
+          "fullName": "syhunt/php2shell-protection",
+          "url": "https://github.com/syhunt/php2shell-protection",
+          "homepage": "",
+          "description": "Emergency Apache mitigation and testing toolkit for php2shell (CVE-2026-109618 / CVE-2026-109619), featuring multipart POST blocking, request-size limits, and additional hardening measures.",
+          "stars": 65,
+          "forks": 7,
+          "openIssues": 1,
+          "language": "PHP",
+          "createdAt": "2026-10-21T04:01:24Z",
+          "updatedAt": "2026-10-22T04:05:31Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 148.8
+        },
+        {
+          "id": 1428727577,
+          "name": "php-rce",
+          "fullName": "david-alvarez-rosa/php-rce",
+          "url": "https://github.com/david-alvarez-rosa/php-rce",
+          "homepage": "",
+          "description": "Exploits for CVE-2026-109618 / CVE-2026-109619 to achieve RCE on PHP targets",
+          "stars": 17,
+          "forks": 6,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-10-21T17:42:17Z",
+          "updatedAt": "2026-10-22T05:56:34Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 128.88
         },
         {
           "id": 1427833144,
@@ -238,12 +215,12 @@
           "url": "https://github.com/hassan-algo/open-sesame",
           "homepage": "",
           "description": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
-          "stars": 8,
-          "forks": 1,
+          "stars": 23,
+          "forks": 3,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-10-21T03:31:18Z",
-          "updatedAt": "2026-10-21T18:03:57Z",
+          "updatedAt": "2026-10-22T05:32:46Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -258,47 +235,99 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 99.76
+          "score": 127.43
         },
         {
-          "id": 1424628429,
-          "name": "frida-hook-engine",
-          "fullName": "muhammadrizwan87/frida-hook-engine",
-          "url": "https://github.com/muhammadrizwan87/frida-hook-engine",
-          "homepage": "",
-          "description": "Config-driven Frida instrumentation engine for Android security researchers and reverse engineers. Zero scripting required, built for simplicity and ease of use.",
-          "stars": 13,
-          "forks": 6,
+          "id": 1425379596,
+          "name": "HowToAvoidScams",
+          "fullName": "QERSSD/HowToAvoidScams",
+          "url": "https://github.com/QERSSD/HowToAvoidScams",
+          "homepage": "https://qerssd.github.io/HowToAvoidScams/",
+          "description": "人间防骗指南：373 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
+          "stars": 52,
+          "forks": 5,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-18T17:20:37Z",
-          "updatedAt": "2026-10-20T02:33:35Z",
+          "language": "HTML",
+          "createdAt": "2026-10-19T09:21:30Z",
+          "updatedAt": "2026-10-22T04:31:56Z",
           "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 115.1
+        },
+        {
+          "id": 1428775850,
+          "name": "Php2Shell-POC",
+          "fullName": "Whackermelon/Php2Shell-POC",
+          "url": "https://github.com/Whackermelon/Php2Shell-POC",
+          "homepage": "https://github.com/Whackermelon/Php2Shell-POC",
+          "description": "Pre-auth remote code execution & reverse shell PoC for CVE-2026-109618 / CVE-2026-109619 - PHP core session upload-progress. One URL in, a reverse shell out.",
+          "stars": 10,
+          "forks": 4,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-21T18:27:15Z",
+          "updatedAt": "2026-10-22T05:21:01Z",
+          "matchedProfiles": [
+            "通用安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
+            1,
             1.18
           ],
           "tags": [
+            "通用安全",
             "渗透 / 红队",
-            "逆向 / 恶意代码",
-            "网络安全"
+            "漏洞研究 / 攻防"
           ],
-          "score": 96.23
+          "score": 112.82
         },
         {
-          "id": 1427882263,
-          "name": "php2shell-CVE-2026-109618-109619",
-          "fullName": "xuehuolll/php2shell-CVE-2026-109618-109619",
-          "url": "https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619",
+          "id": 1428525040,
+          "name": "php2shell-patches",
+          "fullName": "Anton-Barinov/php2shell-patches",
+          "url": "https://github.com/Anton-Barinov/php2shell-patches",
           "homepage": "",
-          "description": "CVE-2026-109618/109619 — PHP session.upload_progress pre-auth RCE. Exploit research: remote ASLR chain, PoC & patch analysis.",
-          "stars": 9,
-          "forks": 6,
+          "description": "php2shell (CVE-2026-109618/CVE-2026-109619) emergency patches for old PHP 5.6/7.x/8.0/8.1 — official + community backports, enhanced universal patch keeping file uploads & progress bars. For OpenCart, WordPress, HestiaCP/VestaCP legacy servers. EOL PHP RCE fix.",
+          "stars": 21,
+          "forks": 2,
+          "openIssues": 2,
+          "language": "Shell",
+          "createdAt": "2026-10-21T14:48:05Z",
+          "updatedAt": "2026-10-22T05:36:23Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 108.24
+        },
+        {
+          "id": 1428688841,
+          "name": "php2shellbt",
+          "fullName": "pentestershell/php2shellbt",
+          "url": "https://github.com/pentestershell/php2shellbt",
+          "homepage": "",
+          "description": "Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
+          "stars": 17,
+          "forks": 5,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-21T04:38:46Z",
-          "updatedAt": "2026-10-21T17:57:45Z",
+          "createdAt": "2026-10-21T17:06:30Z",
+          "updatedAt": "2026-10-22T05:41:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -311,73 +340,21 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 94.65
+          "score": 108.11
         },
         {
-          "id": 1425816249,
-          "name": "DedSecLab",
-          "fullName": "QuacksOnWelfare/DedSecLab",
-          "url": "https://github.com/QuacksOnWelfare/DedSecLab",
-          "homepage": "https://dedsecvpn.cloud/",
-          "description": "DedSecLab — open-source cyber lab: a Windows PyQt6 client, OpenVPN-gated FastAPI backend, and ForceCommand SSH ops menus in one tree. Run it on your own VPS with your own profiles.",
-          "stars": 10,
-          "forks": 0,
+          "id": 1427882263,
+          "name": "php2shell-CVE-2026-109618-109619",
+          "fullName": "xuehuolll/php2shell-CVE-2026-109618-109619",
+          "url": "https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619",
+          "homepage": "",
+          "description": "CVE-2026-109618/109619 — PHP session.upload_progress pre-auth RCE. Exploit research: remote ASLR chain, PoC & patch analysis.",
+          "stars": 17,
+          "forks": 10,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-19T15:26:24Z",
-          "updatedAt": "2026-10-21T09:08:43Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 78.02
-        },
-        {
-          "id": 1424412891,
-          "name": "gulpsuite",
-          "fullName": "Aryma-f4/gulpsuite",
-          "url": "https://github.com/Aryma-f4/gulpsuite",
-          "homepage": "",
-          "description": "Gulp it before burp — Ultra-fast native Rust web security testing, DAST scanner, Nuclei engine & HTTP/HTTPS/WebSocket proxy suite",
-          "stars": 13,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-10-18T13:36:22Z",
-          "updatedAt": "2026-10-21T17:50:53Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 75.95
-        },
-        {
-          "id": 1424302946,
-          "name": "popia-compliance",
-          "fullName": "VenusOne-Lee/popia-compliance",
-          "url": "https://github.com/VenusOne-Lee/popia-compliance",
-          "homepage": "",
-          "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-          "stars": 12,
-          "forks": 2,
-          "openIssues": 8,
-          "language": "Python",
-          "createdAt": "2026-10-18T11:34:37Z",
-          "updatedAt": "2026-10-21T11:09:36Z",
+          "createdAt": "2026-10-21T04:38:46Z",
+          "updatedAt": "2026-10-22T06:04:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -387,9 +364,34 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 107.11
+        },
+        {
+          "id": 1428784561,
+          "name": "PhoneHackScan",
+          "fullName": "UCYBERS/PhoneHackScan",
+          "url": "https://github.com/UCYBERS/PhoneHackScan",
+          "homepage": "https://ucybers.com/",
+          "description": "Android & iPhone intrusion check",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-21T18:35:37Z",
+          "updatedAt": "2026-10-22T05:25:01Z",
+          "matchedProfiles": [
             "网络安全"
           ],
-          "score": 74.87
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 81.91
         }
       ]
     },
@@ -401,43 +403,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-10-14",
-      "totalCandidates": 26,
+      "createdSince": "2026-10-15",
+      "totalCandidates": 28,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 7,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1792605931"
+          "rateLimitReset": "1792649211"
         }
       ],
       "repositories": [
@@ -448,12 +450,12 @@
           "url": "https://github.com/opentrap/opentrap",
           "homepage": "https://opentrap.github.io/opentrap",
           "description": "A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.",
-          "stars": 279,
-          "forks": 3,
+          "stars": 344,
+          "forks": 4,
           "openIssues": 0,
           "language": "Java",
           "createdAt": "2026-10-19T03:29:08Z",
-          "updatedAt": "2026-10-21T18:00:17Z",
+          "updatedAt": "2026-10-22T05:33:50Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -467,7 +469,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 201.46
+          "score": 207.17
         },
         {
           "id": 1428519987,
@@ -476,12 +478,12 @@
           "url": "https://github.com/Alejandros17487/ai-jailbreaks",
           "homepage": "",
           "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
-          "stars": 205,
+          "stars": 206,
           "forks": 29,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-21T14:44:06Z",
-          "updatedAt": "2026-10-21T17:34:12Z",
+          "updatedAt": "2026-10-21T22:01:44Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -493,7 +495,60 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 183.59
+          "score": 181.86
+        },
+        {
+          "id": 1427856225,
+          "name": "php2shell-protection",
+          "fullName": "syhunt/php2shell-protection",
+          "url": "https://github.com/syhunt/php2shell-protection",
+          "homepage": "",
+          "description": "Emergency Apache mitigation and testing toolkit for php2shell (CVE-2026-109618 / CVE-2026-109619), featuring multipart POST blocking, request-size limits, and additional hardening measures.",
+          "stars": 65,
+          "forks": 7,
+          "openIssues": 1,
+          "language": "PHP",
+          "createdAt": "2026-10-21T04:01:24Z",
+          "updatedAt": "2026-10-22T04:05:31Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 154.61
+        },
+        {
+          "id": 1428583003,
+          "name": "php2shell-scanner",
+          "fullName": "JoasASantos/php2shell-scanner",
+          "url": "https://github.com/JoasASantos/php2shell-scanner",
+          "homepage": "",
+          "description": "Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing, version-based detection.",
+          "stars": 68,
+          "forks": 23,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-21T15:35:43Z",
+          "updatedAt": "2026-10-22T04:53:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 152.42
         },
         {
           "id": 1423982435,
@@ -502,12 +557,12 @@
           "url": "https://github.com/Fazmin/cve-intel",
           "homepage": "",
           "description": "Local security intelligence for CVE triage - 38 data sources and 36 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
-          "stars": 86,
+          "stars": 87,
           "forks": 5,
           "openIssues": 1,
           "language": "Rust",
           "createdAt": "2026-10-18T04:20:37Z",
-          "updatedAt": "2026-10-21T17:41:38Z",
+          "updatedAt": "2026-10-22T01:48:25Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -519,32 +574,61 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 150.49
+          "score": 148.8
         },
         {
-          "id": 1427856225,
-          "name": "php2shell-protection",
-          "fullName": "syhunt/php2shell-protection",
-          "url": "https://github.com/syhunt/php2shell-protection",
+          "id": 1427833144,
+          "name": "open-sesame",
+          "fullName": "hassan-algo/open-sesame",
+          "url": "https://github.com/hassan-algo/open-sesame",
           "homepage": "",
-          "description": "Emergency Apache mitigation and testing toolkit for php2shell (CVE-2026-109618 / CVE-2026-109619), featuring multipart POST blocking, request-size limits, and additional hardening measures.",
-          "stars": 47,
-          "forks": 6,
-          "openIssues": 1,
-          "language": "PHP",
-          "createdAt": "2026-10-21T04:01:24Z",
-          "updatedAt": "2026-10-21T17:44:55Z",
+          "description": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
+          "stars": 23,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-10-21T03:31:18Z",
+          "updatedAt": "2026-10-22T05:32:46Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全",
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
+            1,
+            1.18
           ],
           "tags": [
-            "网络安全",
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 133.9
+        },
+        {
+          "id": 1428727577,
+          "name": "php-rce",
+          "fullName": "david-alvarez-rosa/php-rce",
+          "url": "https://github.com/david-alvarez-rosa/php-rce",
+          "homepage": "",
+          "description": "Exploits for CVE-2026-109618 / CVE-2026-109619 to achieve RCE on PHP targets",
+          "stars": 17,
+          "forks": 6,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-10-21T17:42:17Z",
+          "updatedAt": "2026-10-22T05:56:34Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 147.01
+          "score": 131.89
         },
         {
           "id": 1425379596,
@@ -552,13 +636,13 @@
           "fullName": "QERSSD/HowToAvoidScams",
           "url": "https://github.com/QERSSD/HowToAvoidScams",
           "homepage": "https://qerssd.github.io/HowToAvoidScams/",
-          "description": "人间防骗指南：364 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
-          "stars": 44,
-          "forks": 4,
+          "description": "人间防骗指南：373 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
+          "stars": 52,
+          "forks": 5,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-10-19T09:21:30Z",
-          "updatedAt": "2026-10-21T16:22:36Z",
+          "updatedAt": "2026-10-22T04:31:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -569,7 +653,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 125.93
+          "score": 129.29
         },
         {
           "id": 1420604789,
@@ -595,33 +679,32 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 121.66
+          "score": 119.46
         },
         {
-          "id": 1419318464,
-          "name": "Malvex",
-          "fullName": "JoasASantos/Malvex",
-          "url": "https://github.com/JoasASantos/Malvex",
-          "homepage": "",
-          "description": "AI-driven malware analysis framework with 30+ integrated tools, web REPL, and MCP server",
-          "stars": 42,
-          "forks": 6,
+          "id": 1428775850,
+          "name": "Php2Shell-POC",
+          "fullName": "Whackermelon/Php2Shell-POC",
+          "url": "https://github.com/Whackermelon/Php2Shell-POC",
+          "homepage": "https://github.com/Whackermelon/Php2Shell-POC",
+          "description": "Pre-auth remote code execution & reverse shell PoC for CVE-2026-109618 / CVE-2026-109619 - PHP core session upload-progress. One URL in, a reverse shell out.",
+          "stars": 10,
+          "forks": 4,
           "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-10-14T15:49:55Z",
-          "updatedAt": "2026-10-21T05:59:45Z",
+          "language": "Python",
+          "createdAt": "2026-10-21T18:27:15Z",
+          "updatedAt": "2026-10-22T05:21:01Z",
           "matchedProfiles": [
-            "网络安全"
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1.08
+            1.18
           ],
           "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
           ],
-          "score": 118.26
+          "score": 115.66
         },
         {
           "id": 1424628429,
@@ -647,7 +730,59 @@
             "逆向 / 恶意代码",
             "网络安全"
           ],
-          "score": 113.63
+          "score": 111.44
+        },
+        {
+          "id": 1428525040,
+          "name": "php2shell-patches",
+          "fullName": "Anton-Barinov/php2shell-patches",
+          "url": "https://github.com/Anton-Barinov/php2shell-patches",
+          "homepage": "",
+          "description": "php2shell (CVE-2026-109618/CVE-2026-109619) emergency patches for old PHP 5.6/7.x/8.0/8.1 — official + community backports, enhanced universal patch keeping file uploads & progress bars. For OpenCart, WordPress, HestiaCP/VestaCP legacy servers. EOL PHP RCE fix.",
+          "stars": 21,
+          "forks": 2,
+          "openIssues": 2,
+          "language": "Shell",
+          "createdAt": "2026-10-21T14:48:05Z",
+          "updatedAt": "2026-10-22T05:36:23Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 111.4
+        },
+        {
+          "id": 1428688841,
+          "name": "php2shellbt",
+          "fullName": "pentestershell/php2shellbt",
+          "url": "https://github.com/pentestershell/php2shellbt",
+          "homepage": "",
+          "description": "Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
+          "stars": 17,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-21T17:06:30Z",
+          "updatedAt": "2026-10-22T05:41:50Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 110.79
         },
         {
           "id": 1420920398,
@@ -656,12 +791,12 @@
           "url": "https://github.com/irraz/vulnerator-ai",
           "homepage": "",
           "description": "Autonomous OODA-loop pentesting agent. Hermes brain, Kali + Playwright tools over MCP, ATT&CK as the Orient language.",
-          "stars": 32,
+          "stars": 34,
           "forks": 9,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-15T15:07:57Z",
-          "updatedAt": "2026-10-21T16:00:43Z",
+          "updatedAt": "2026-10-22T01:43:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -673,59 +808,32 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 108.12
+          "score": 107.74
         },
         {
-          "id": 1418403042,
-          "name": "claude-security-scan",
-          "fullName": "chaenmasahiro0425/claude-security-scan",
-          "url": "https://github.com/chaenmasahiro0425/claude-security-scan",
-          "homepage": "",
-          "description": "「セキュリティチェックして」の一言で、Mac・リポジトリ・GitHub・Vercel・AWS・Gmailを読み取り専用で横断点検する Claude Code スキル",
-          "stars": 39,
-          "forks": 5,
+          "id": 1420052920,
+          "name": "machine-learning-for-cybersecurity",
+          "fullName": "aalbata/machine-learning-for-cybersecurity",
+          "url": "https://github.com/aalbata/machine-learning-for-cybersecurity",
+          "homepage": "https://aalbata.github.io/machine-learning-for-cybersecurity/",
+          "description": "A free course on machine learning for cybersecurity and the security of machine learning, with lessons, runnable labs, exercises and quizzes. By Dr. Ali Al Bataineh, Higher Colleges of Technology.",
+          "stars": 21,
+          "forks": 4,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-14T05:18:22Z",
-          "updatedAt": "2026-10-21T14:39:25Z",
+          "language": "Jupyter Notebook",
+          "createdAt": "2026-10-15T02:01:22Z",
+          "updatedAt": "2026-10-22T05:29:54Z",
           "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 106.78
-        },
-        {
-          "id": 1427833144,
-          "name": "open-sesame",
-          "fullName": "hassan-algo/open-sesame",
-          "url": "https://github.com/hassan-algo/open-sesame",
-          "homepage": "",
-          "description": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
-          "stars": 8,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-10-21T03:31:18Z",
-          "updatedAt": "2026-10-21T18:03:57Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
           "profileWeights": [
-            1.18
+            1.08
           ],
           "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "网络安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 103.3
+          "score": 97.97
         },
         {
           "id": 1422959517,
@@ -741,46 +849,18 @@
           "createdAt": "2026-10-17T04:55:10Z",
           "updatedAt": "2026-10-20T13:21:48Z",
           "matchedProfiles": [
-            "通用安全",
             "网络安全",
             "渗透 / 红队"
           ],
           "profileWeights": [
-            1,
             1.08,
             1.18
           ],
           "tags": [
-            "通用安全",
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 99.31
-        },
-        {
-          "id": 1420052920,
-          "name": "machine-learning-for-cybersecurity",
-          "fullName": "aalbata/machine-learning-for-cybersecurity",
-          "url": "https://github.com/aalbata/machine-learning-for-cybersecurity",
-          "homepage": "https://aalbata.github.io/machine-learning-for-cybersecurity/",
-          "description": "A free course on machine learning for cybersecurity and the security of machine learning, with lessons, runnable labs, exercises and quizzes. By Dr. Ali Al Bataineh, Higher Colleges of Technology.",
-          "stars": 20,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "Jupyter Notebook",
-          "createdAt": "2026-10-15T02:01:22Z",
-          "updatedAt": "2026-10-18T08:32:34Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 96.66
+          "score": 97.12
         },
         {
           "id": 1421156512,
@@ -805,32 +885,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 95.5
-        },
-        {
-          "id": 1424412891,
-          "name": "gulpsuite",
-          "fullName": "Aryma-f4/gulpsuite",
-          "url": "https://github.com/Aryma-f4/gulpsuite",
-          "homepage": "",
-          "description": "Gulp it before burp — Ultra-fast native Rust web security testing, DAST scanner, Nuclei engine & HTTP/HTTPS/WebSocket proxy suite",
-          "stars": 13,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-10-18T13:36:22Z",
-          "updatedAt": "2026-10-21T17:50:53Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 91.25
+          "score": 93.64
         },
         {
           "id": 1425816249,
@@ -839,12 +894,12 @@
           "url": "https://github.com/QuacksOnWelfare/DedSecLab",
           "homepage": "https://dedsecvpn.cloud/",
           "description": "DedSecLab — open-source cyber lab: a Windows PyQt6 client, OpenVPN-gated FastAPI backend, and ForceCommand SSH ops menus in one tree. Run it on your own VPS with your own profiles.",
-          "stars": 10,
+          "stars": 13,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-19T15:26:24Z",
-          "updatedAt": "2026-10-21T09:08:43Z",
+          "updatedAt": "2026-10-21T22:53:44Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -854,57 +909,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 89.31
-        },
-        {
-          "id": 1420757856,
-          "name": "wazuh-soc-homelab",
-          "fullName": "shahenwaz/wazuh-soc-homelab",
-          "url": "https://github.com/shahenwaz/wazuh-soc-homelab",
-          "homepage": "",
-          "description": "A hands-on SOC home lab using Wazuh SIEM to practise security monitoring, log analysis, threat detection, and incident investigation.",
-          "stars": 16,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-15T13:16:53Z",
-          "updatedAt": "2026-10-20T11:06:35Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 84.27
-        },
-        {
-          "id": 1422084086,
-          "name": "cyber360",
-          "fullName": "rohasnagpal/cyber360",
-          "url": "https://github.com/rohasnagpal/cyber360",
-          "homepage": "",
-          "description": "Open-source agentic cybersecurity framework. Build → Hack → Investigate → Secure → Audit → Repeat.",
-          "stars": 8,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-16T11:41:31Z",
-          "updatedAt": "2026-10-19T17:11:14Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 71.53
+          "score": 93.56
         }
       ]
     }
