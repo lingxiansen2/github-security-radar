@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-24T05:48:33.132Z",
+  "generatedAt": "2026-10-24T16:36:34.686Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -41,35 +41,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 12,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 1,
+          "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Alejandros17487/ai-jailbreaks",
           "homepage": "",
           "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
-          "stars": 495,
-          "forks": 90,
+          "stars": 520,
+          "forks": 96,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-21T14:44:06Z",
-          "updatedAt": "2026-10-24T05:35:07Z",
+          "updatedAt": "2026-10-24T16:11:17Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,7 +97,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 190.48
+          "score": 188.9
         },
         {
           "id": 1429010697,
@@ -106,12 +106,12 @@
           "url": "https://github.com/devploit/php2shell",
           "homepage": "",
           "description": "PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Build profiles, labs, heap calibration and detection guidance for authorized security testing.",
-          "stars": 143,
-          "forks": 44,
-          "openIssues": 4,
+          "stars": 152,
+          "forks": 48,
+          "openIssues": 6,
           "language": "Python",
           "createdAt": "2026-10-21T22:53:01Z",
-          "updatedAt": "2026-10-24T03:04:02Z",
+          "updatedAt": "2026-10-24T16:23:52Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -125,7 +125,36 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 185.7
+          "score": 183.52
+        },
+        {
+          "id": 1431107565,
+          "name": "php2shell",
+          "fullName": "aarsaputra/php2shell",
+          "url": "https://github.com/aarsaputra/php2shell",
+          "homepage": "",
+          "description": "Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-access design",
+          "stars": 51,
+          "forks": 35,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-23T13:49:52Z",
+          "updatedAt": "2026-10-24T16:28:47Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 165.33
         },
         {
           "id": 1427833144,
@@ -134,12 +163,12 @@
           "url": "https://github.com/hassan-algo/open-sesame",
           "homepage": "",
           "description": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
-          "stars": 86,
-          "forks": 12,
+          "stars": 88,
+          "forks": 14,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-10-21T03:31:18Z",
-          "updatedAt": "2026-10-24T04:32:28Z",
+          "updatedAt": "2026-10-24T14:56:14Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -154,36 +183,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 154.66
-        },
-        {
-          "id": 1431107565,
-          "name": "php2shell",
-          "fullName": "aarsaputra/php2shell",
-          "url": "https://github.com/aarsaputra/php2shell",
-          "homepage": "",
-          "description": "Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-access design",
-          "stars": 30,
-          "forks": 24,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-23T13:49:52Z",
-          "updatedAt": "2026-10-24T05:17:02Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 151.99
+          "score": 156.33
         },
         {
           "id": 1427856225,
@@ -192,12 +192,12 @@
           "url": "https://github.com/syhunt/php2shell-protection",
           "homepage": "",
           "description": "Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apache protections and PHP hardening guidance",
-          "stars": 103,
-          "forks": 10,
+          "stars": 109,
+          "forks": 11,
           "openIssues": 0,
           "language": "PHP",
           "createdAt": "2026-10-21T04:01:24Z",
-          "updatedAt": "2026-10-23T21:40:35Z",
+          "updatedAt": "2026-10-24T13:31:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -209,7 +209,33 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 145.47
+          "score": 147.57
+        },
+        {
+          "id": 1428129890,
+          "name": "php_uploadprogress_guard",
+          "fullName": "HOSTED-POWER/php_uploadprogress_guard",
+          "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
+          "homepage": "https://www.hosted-power.com",
+          "description": "Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component by component and steps aside once the engine carries it. PHP 5.6-8.5; Sury, cPanel EA4, DirectAdmin, Docker, Windows.",
+          "stars": 143,
+          "forks": 9,
+          "openIssues": 4,
+          "language": "C",
+          "createdAt": "2026-10-21T09:00:12Z",
+          "updatedAt": "2026-10-24T15:43:18Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 142.53
         },
         {
           "id": 1428583003,
@@ -218,12 +244,12 @@
           "url": "https://github.com/JoasASantos/php2shell-scanner",
           "homepage": "",
           "description": "Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing, version-based detection.",
-          "stars": 106,
+          "stars": 107,
           "forks": 31,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-21T15:35:43Z",
-          "updatedAt": "2026-10-23T18:29:57Z",
+          "updatedAt": "2026-10-24T14:58:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -237,33 +263,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 145.12
-        },
-        {
-          "id": 1428129890,
-          "name": "php_uploadprogress_guard",
-          "fullName": "HOSTED-POWER/php_uploadprogress_guard",
-          "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-          "homepage": "https://www.hosted-power.com",
-          "description": "Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component by component and steps aside once the engine carries it. PHP 5.6-8.5; Sury, cPanel EA4, DirectAdmin, Docker, Windows.",
-          "stars": 142,
-          "forks": 9,
-          "openIssues": 3,
-          "language": "C",
-          "createdAt": "2026-10-21T09:00:12Z",
-          "updatedAt": "2026-10-24T00:53:08Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 143.5
+          "score": 141.83
         },
         {
           "id": 1428525040,
@@ -272,12 +272,12 @@
           "url": "https://github.com/Anton-Barinov/php2shell-patches",
           "homepage": "",
           "description": "php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Remi Collet trees. Restores safe file uploads & progress bars without RCE. Fleet-tested on OpenCart, WordPress, HestiaCP, aaPanel.",
-          "stars": 97,
-          "forks": 11,
-          "openIssues": 6,
+          "stars": 102,
+          "forks": 14,
+          "openIssues": 7,
           "language": "Shell",
           "createdAt": "2026-10-21T14:48:05Z",
-          "updatedAt": "2026-10-24T00:58:08Z",
+          "updatedAt": "2026-10-24T10:16:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -289,7 +289,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 136.92
+          "score": 136.24
         },
         {
           "id": 1428784561,
@@ -298,12 +298,12 @@
           "url": "https://github.com/UCYBERS/PhoneHackScan",
           "homepage": "https://ucybers.com/",
           "description": "Android & iPhone intrusion check",
-          "stars": 71,
+          "stars": 73,
           "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-21T18:35:37Z",
-          "updatedAt": "2026-10-24T00:33:53Z",
+          "updatedAt": "2026-10-24T10:42:12Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -313,7 +313,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 136.48
+          "score": 133.03
         },
         {
           "id": 1428727577,
@@ -322,12 +322,12 @@
           "url": "https://github.com/david-alvarez-rosa/php-rce",
           "homepage": "",
           "description": "Exploits for CVE-2026-109618 / CVE-2026-109619 to achieve RCE on PHP targets",
-          "stars": 34,
+          "stars": 35,
           "forks": 10,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-21T17:42:17Z",
-          "updatedAt": "2026-10-24T04:40:33Z",
+          "updatedAt": "2026-10-24T14:26:27Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -341,7 +341,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 131.21
+          "score": 127.44
         },
         {
           "id": 1428688841,
@@ -350,12 +350,12 @@
           "url": "https://github.com/pentestershell/php2shellbt",
           "homepage": "",
           "description": "Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
-          "stars": 66,
+          "stars": 69,
           "forks": 16,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-10-21T17:06:30Z",
-          "updatedAt": "2026-10-23T18:37:07Z",
+          "updatedAt": "2026-10-24T11:03:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -368,7 +368,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 130
+          "score": 127.23
         },
         {
           "id": 1428541109,
@@ -377,12 +377,12 @@
           "url": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
           "homepage": "https://ghcr.io/mpyw/php-eol-cve-2026-109618-109619",
           "description": "PHP 7.4 / 8.0 / 8.1 Docker images with the CVE-2026-109618 / CVE-2026-109619 fix backported",
-          "stars": 56,
-          "forks": 17,
+          "stars": 57,
+          "forks": 18,
           "openIssues": 0,
           "language": "Dockerfile",
           "createdAt": "2026-10-21T15:01:45Z",
-          "updatedAt": "2026-10-24T04:48:57Z",
+          "updatedAt": "2026-10-24T13:13:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -393,7 +393,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 125.45
+          "score": 122.88
         }
       ]
     },
@@ -406,42 +406,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-10-17",
-      "totalCandidates": 32,
+      "totalCandidates": 31,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 12,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1792820965"
+          "rateLimitReset": "1792859847"
         }
       ],
       "repositories": [
@@ -452,12 +452,12 @@
           "url": "https://github.com/opentrap/opentrap",
           "homepage": "https://opentrap.github.io/opentrap",
           "description": "A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.",
-          "stars": 450,
+          "stars": 413,
           "forks": 6,
           "openIssues": 0,
           "language": "Java",
           "createdAt": "2026-10-19T03:29:08Z",
-          "updatedAt": "2026-10-24T04:13:06Z",
+          "updatedAt": "2026-10-24T11:49:06Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -471,7 +471,7 @@
             "渗透 / 红队",
             "网络安全"
           ],
-          "score": 208.93
+          "score": 204.34
         },
         {
           "id": 1428519987,
@@ -480,12 +480,12 @@
           "url": "https://github.com/Alejandros17487/ai-jailbreaks",
           "homepage": "",
           "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
-          "stars": 495,
-          "forks": 90,
+          "stars": 520,
+          "forks": 96,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-21T14:44:06Z",
-          "updatedAt": "2026-10-24T05:35:07Z",
+          "updatedAt": "2026-10-24T16:11:17Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -497,7 +497,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 203.5
+          "score": 203.47
         },
         {
           "id": 1429010697,
@@ -506,12 +506,12 @@
           "url": "https://github.com/devploit/php2shell",
           "homepage": "",
           "description": "PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Build profiles, labs, heap calibration and detection guidance for authorized security testing.",
-          "stars": 143,
-          "forks": 44,
-          "openIssues": 4,
+          "stars": 152,
+          "forks": 48,
+          "openIssues": 6,
           "language": "Python",
           "createdAt": "2026-10-21T22:53:01Z",
-          "updatedAt": "2026-10-24T03:04:02Z",
+          "updatedAt": "2026-10-24T16:23:52Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -525,7 +525,36 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 199.07
+          "score": 199.53
+        },
+        {
+          "id": 1431107565,
+          "name": "php2shell",
+          "fullName": "aarsaputra/php2shell",
+          "url": "https://github.com/aarsaputra/php2shell",
+          "homepage": "",
+          "description": "Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-access design",
+          "stars": 51,
+          "forks": 35,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-23T13:49:52Z",
+          "updatedAt": "2026-10-24T16:28:47Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 171.85
         },
         {
           "id": 1427833144,
@@ -534,12 +563,12 @@
           "url": "https://github.com/hassan-algo/open-sesame",
           "homepage": "",
           "description": "🔓 An AI web-pentest skill for Claude Code. Point it at a site you're authorized to test — it maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder reports (PDF).",
-          "stars": 86,
-          "forks": 12,
+          "stars": 88,
+          "forks": 14,
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-10-21T03:31:18Z",
-          "updatedAt": "2026-10-24T04:32:28Z",
+          "updatedAt": "2026-10-24T14:56:14Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -554,7 +583,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 171.78
+          "score": 171.47
         },
         {
           "id": 1427856225,
@@ -563,12 +592,12 @@
           "url": "https://github.com/syhunt/php2shell-protection",
           "homepage": "",
           "description": "Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apache protections and PHP hardening guidance",
-          "stars": 103,
-          "forks": 10,
+          "stars": 109,
+          "forks": 11,
           "openIssues": 0,
           "language": "PHP",
           "createdAt": "2026-10-21T04:01:24Z",
-          "updatedAt": "2026-10-23T21:40:35Z",
+          "updatedAt": "2026-10-24T13:31:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -580,7 +609,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 161.22
+          "score": 161.51
         },
         {
           "id": 1428583003,
@@ -589,12 +618,12 @@
           "url": "https://github.com/JoasASantos/php2shell-scanner",
           "homepage": "",
           "description": "Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing, version-based detection.",
-          "stars": 106,
+          "stars": 107,
           "forks": 31,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-21T15:35:43Z",
-          "updatedAt": "2026-10-23T18:29:57Z",
+          "updatedAt": "2026-10-24T14:58:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -608,7 +637,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 157.96
+          "score": 156.53
         },
         {
           "id": 1428129890,
@@ -617,12 +646,12 @@
           "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
           "homepage": "https://www.hosted-power.com",
           "description": "Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component by component and steps aside once the engine carries it. PHP 5.6-8.5; Sury, cPanel EA4, DirectAdmin, Docker, Windows.",
-          "stars": 142,
+          "stars": 143,
           "forks": 9,
-          "openIssues": 3,
+          "openIssues": 4,
           "language": "C",
           "createdAt": "2026-10-21T09:00:12Z",
-          "updatedAt": "2026-10-24T00:53:08Z",
+          "updatedAt": "2026-10-24T15:43:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -634,33 +663,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 157.7
-        },
-        {
-          "id": 1431107565,
-          "name": "php2shell",
-          "fullName": "aarsaputra/php2shell",
-          "url": "https://github.com/aarsaputra/php2shell",
-          "homepage": "",
-          "description": "Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-access design",
-          "stars": 30,
-          "forks": 24,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-23T13:49:52Z",
-          "updatedAt": "2026-10-24T05:17:02Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 155.88
+          "score": 156.21
         },
         {
           "id": 1428525040,
@@ -669,12 +672,12 @@
           "url": "https://github.com/Anton-Barinov/php2shell-patches",
           "homepage": "",
           "description": "php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Remi Collet trees. Restores safe file uploads & progress bars without RCE. Fleet-tested on OpenCart, WordPress, HestiaCP, aaPanel.",
-          "stars": 97,
-          "forks": 11,
-          "openIssues": 6,
+          "stars": 102,
+          "forks": 14,
+          "openIssues": 7,
           "language": "Shell",
           "createdAt": "2026-10-21T14:48:05Z",
-          "updatedAt": "2026-10-24T00:58:08Z",
+          "updatedAt": "2026-10-24T10:16:32Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -686,7 +689,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 149.92
+          "score": 150.81
         },
         {
           "id": 1428784561,
@@ -695,12 +698,12 @@
           "url": "https://github.com/UCYBERS/PhoneHackScan",
           "homepage": "https://ucybers.com/",
           "description": "Android & iPhone intrusion check",
-          "stars": 71,
+          "stars": 73,
           "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-21T18:35:37Z",
-          "updatedAt": "2026-10-24T00:33:53Z",
+          "updatedAt": "2026-10-24T10:42:12Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -710,7 +713,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 149.68
+          "score": 148.63
         },
         {
           "id": 1428727577,
@@ -719,12 +722,12 @@
           "url": "https://github.com/david-alvarez-rosa/php-rce",
           "homepage": "",
           "description": "Exploits for CVE-2026-109618 / CVE-2026-109619 to achieve RCE on PHP targets",
-          "stars": 34,
+          "stars": 35,
           "forks": 10,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-21T17:42:17Z",
-          "updatedAt": "2026-10-24T04:40:33Z",
+          "updatedAt": "2026-10-24T14:26:27Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -735,7 +738,34 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 145.84
+          "score": 144.71
+        },
+        {
+          "id": 1428688841,
+          "name": "php2shellbt",
+          "fullName": "pentestershell/php2shellbt",
+          "url": "https://github.com/pentestershell/php2shellbt",
+          "homepage": "",
+          "description": "Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
+          "stars": 69,
+          "forks": 16,
+          "openIssues": 2,
+          "language": "Python",
+          "createdAt": "2026-10-21T17:06:30Z",
+          "updatedAt": "2026-10-24T11:03:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 141.98
         },
         {
           "id": 1423982435,
@@ -744,12 +774,12 @@
           "url": "https://github.com/Fazmin/cve-intel",
           "homepage": "",
           "description": "Local security intelligence for CVE triage - 39 data sources and 36 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
-          "stars": 94,
+          "stars": 93,
           "forks": 5,
           "openIssues": 1,
           "language": "Rust",
           "createdAt": "2026-10-18T04:20:37Z",
-          "updatedAt": "2026-10-24T02:37:12Z",
+          "updatedAt": "2026-10-24T09:24:55Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -761,34 +791,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 142.95
-        },
-        {
-          "id": 1428688841,
-          "name": "php2shellbt",
-          "fullName": "pentestershell/php2shellbt",
-          "url": "https://github.com/pentestershell/php2shellbt",
-          "homepage": "",
-          "description": "Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
-          "stars": 66,
-          "forks": 16,
-          "openIssues": 2,
-          "language": "Python",
-          "createdAt": "2026-10-21T17:06:30Z",
-          "updatedAt": "2026-10-23T18:37:07Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 142.53
+          "score": 140.85
         },
         {
           "id": 1428541109,
@@ -797,12 +800,12 @@
           "url": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
           "homepage": "https://ghcr.io/mpyw/php-eol-cve-2026-109618-109619",
           "description": "PHP 7.4 / 8.0 / 8.1 Docker images with the CVE-2026-109618 / CVE-2026-109619 fix backported",
-          "stars": 56,
-          "forks": 17,
+          "stars": 57,
+          "forks": 18,
           "openIssues": 0,
           "language": "Dockerfile",
           "createdAt": "2026-10-21T15:01:45Z",
-          "updatedAt": "2026-10-24T04:48:57Z",
+          "updatedAt": "2026-10-24T13:13:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -813,7 +816,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 138.41
+          "score": 137.49
         },
         {
           "id": 1425379596,
@@ -822,12 +825,12 @@
           "url": "https://github.com/QERSSD/HowToAvoidScams",
           "homepage": "https://qerssd.github.io/HowToAvoidScams/",
           "description": "人间防骗指南：373 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏",
-          "stars": 83,
+          "stars": 96,
           "forks": 7,
           "openIssues": 1,
           "language": "HTML",
           "createdAt": "2026-10-19T09:21:30Z",
-          "updatedAt": "2026-10-24T05:23:44Z",
+          "updatedAt": "2026-10-24T16:26:20Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -838,34 +841,31 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 135.35
+          "score": 137.37
         },
         {
-          "id": 1427882263,
-          "name": "php2shell-CVE-2026-109618-109619",
-          "fullName": "xuehuolll/php2shell-CVE-2026-109618-109619",
-          "url": "https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619",
+          "id": 1430535889,
+          "name": "php2shell-wordpress-rce",
+          "fullName": "Percivalll/php2shell-wordpress-rce",
+          "url": "https://github.com/Percivalll/php2shell-wordpress-rce",
           "homepage": "",
-          "description": "CVE-2026-109618/109619 — PHP session.upload_progress pre-auth RCE. Exploit research: remote ASLR chain, PoC & patch analysis.",
-          "stars": 43,
-          "forks": 23,
-          "openIssues": 1,
+          "description": "php2shell WordPress RCE proof of concept (PHP 8.3.35 / WordPress 7.1.2)",
+          "stars": 19,
+          "forks": 2,
+          "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-21T04:38:46Z",
-          "updatedAt": "2026-10-24T05:33:31Z",
+          "createdAt": "2026-10-23T03:33:27Z",
+          "updatedAt": "2026-10-24T15:28:53Z",
           "matchedProfiles": [
-            "通用安全"
+            "渗透 / 红队"
           ],
           "profileWeights": [
-            1
+            1.18
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
+            "渗透 / 红队"
           ],
-          "score": 131.87
+          "score": 124.69
         },
         {
           "id": 1428886487,
@@ -890,7 +890,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 125.54
+          "score": 123.87
         },
         {
           "id": 1429328757,
@@ -915,7 +915,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 124.54
+          "score": 122.87
         }
       ]
     }
