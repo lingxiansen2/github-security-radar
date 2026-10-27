@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-27T06:14:32.236Z",
+  "generatedAt": "2026-10-27T18:42:31.521Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-10-24",
-      "totalCandidates": 26,
+      "totalCandidates": 27,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/hevnsnt/CVEngine",
           "homepage": "",
           "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
-          "stars": 391,
-          "forks": 59,
-          "openIssues": 0,
+          "stars": 412,
+          "forks": 64,
+          "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-24T22:34:43Z",
-          "updatedAt": "2026-10-27T05:56:28Z",
+          "updatedAt": "2026-10-27T15:43:10Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -98,7 +98,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 199.43
+          "score": 196.53
         },
         {
           "id": 1432360122,
@@ -107,12 +107,12 @@
           "url": "https://github.com/thomasunise/argus",
           "homepage": "https://thomasunise.com/argus",
           "description": "Open-source agentic security operations platform:",
-          "stars": 100,
+          "stars": 104,
           "forks": 11,
-          "openIssues": 14,
+          "openIssues": 15,
           "language": "Python",
           "createdAt": "2026-10-24T16:12:28Z",
-          "updatedAt": "2026-10-27T05:29:34Z",
+          "updatedAt": "2026-10-27T17:32:52Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -126,7 +126,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 162.89
+          "score": 159.82
         },
         {
           "id": 1434037187,
@@ -152,7 +152,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 109.3
+          "score": 104.8
         },
         {
           "id": 1433604125,
@@ -177,7 +177,57 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 98.97
+          "score": 94.11
+        },
+        {
+          "id": 1436053685,
+          "name": "check-pre-lancamento",
+          "fullName": "dantaspaulo/check-pre-lancamento",
+          "url": "https://github.com/dantaspaulo/check-pre-lancamento",
+          "homepage": "",
+          "description": "Skill para Claude, Codex, Cursor e outros agentes: check pré-lançamento do seu app com 20 checagens de segurança + 10 de prontidão (Lovable, Bolt, Replit, React, Next, Laravel, Django, Spring, Go…). Por Paulo Sérgio Dantas.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-27T17:22:28Z",
+          "updatedAt": "2026-10-27T18:17:39Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 82.58
+        },
+        {
+          "id": 1434059359,
+          "name": "podori",
+          "fullName": "VerifiedIdiot/podori",
+          "url": "https://github.com/VerifiedIdiot/podori",
+          "homepage": "",
+          "description": "Security skills for AI coding agents: find vulnerabilities, verify dependencies, and set traps. | AI 코딩 에이전트 보안 · 의존성 검증 · 함정",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Java",
+          "createdAt": "2026-10-26T07:44:03Z",
+          "updatedAt": "2026-10-27T09:45:50Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 77.08
         },
         {
           "id": 1431997933,
@@ -188,10 +238,10 @@
           "description": "Autonomous Vulnerability Discovery & Self-Healing Engine for Deep and Ghosty Bugs",
           "stars": 8,
           "forks": 6,
-          "openIssues": 1,
+          "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-10-24T08:58:46Z",
-          "updatedAt": "2026-10-26T18:12:11Z",
+          "updatedAt": "2026-10-27T09:41:18Z",
           "matchedProfiles": [
             "通用安全",
             "网络安全"
@@ -205,7 +255,32 @@
             "网络安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 77.77
+          "score": 76.71
+        },
+        {
+          "id": 1432858852,
+          "name": "omerta",
+          "fullName": "shcherbak-ai/omerta",
+          "url": "https://github.com/shcherbak-ai/omerta",
+          "homepage": "https://pypi.org/project/omerta/",
+          "description": "Catch .env secrets leaking into git: a pre-commit hook and CLI that fails when an API key or any value of your env files is staged, tracked or anywhere in the history. Your real values, not patterns.",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-25T05:24:49Z",
+          "updatedAt": "2026-10-27T17:28:45Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 72.4
         },
         {
           "id": 1434787695,
@@ -230,32 +305,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 75.04
-        },
-        {
-          "id": 1432858852,
-          "name": "omerta",
-          "fullName": "shcherbak-ai/omerta",
-          "url": "https://github.com/shcherbak-ai/omerta",
-          "homepage": "https://pypi.org/project/omerta/",
-          "description": "Catch .env secrets leaking into git: a pre-commit hook and CLI that fails when an API key or any value of your env files is staged, tracked or anywhere in the history. Your real values, not patterns.",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-25T05:24:49Z",
-          "updatedAt": "2026-10-27T03:33:03Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 74.98
+          "score": 69.73
         },
         {
           "id": 1432381270,
@@ -281,83 +331,31 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 72.94
+          "score": 68.9
         },
         {
-          "id": 1434059359,
-          "name": "podori",
-          "fullName": "VerifiedIdiot/podori",
-          "url": "https://github.com/VerifiedIdiot/podori",
-          "homepage": "",
-          "description": "Security skills for AI coding agents: find vulnerabilities, verify dependencies, and set traps. | AI 코딩 에이전트 보안 · 의존성 검증 · 함정",
-          "stars": 3,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-26T07:44:03Z",
-          "updatedAt": "2026-10-27T03:42:04Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 68.76
-        },
-        {
-          "id": 1433490893,
-          "name": "PagerWatch",
-          "fullName": "Nester420/PagerWatch",
-          "url": "https://github.com/Nester420/PagerWatch",
-          "homepage": "",
-          "description": "Wifi-Bluetooth recon tool for the Wifi Pineapple Pager. device alerts, live radar, phone gps, USB adapter support, privacy mode,  session reports ",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-25T18:08:44Z",
-          "updatedAt": "2026-10-27T05:06:08Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 68.58
-        },
-        {
-          "id": 1434821370,
-          "name": "exhaust",
-          "fullName": "kzndotsh/exhaust",
-          "url": "https://github.com/kzndotsh/exhaust",
-          "homepage": "",
-          "description": "Exhaust is an agent-first toolkit for security research.",
+          "id": 1435588101,
+          "name": "threathunting-room",
+          "fullName": "retiacole/threathunting-room",
+          "url": "https://github.com/retiacole/threathunting-room",
+          "homepage": "https://retiacole.github.io/threathunting-room/",
+          "description": "ブラウザだけで学ぶ脅威ハンティング。合成ログで仮説・証拠・次の行動を練習。日本語・English対応。 / Browser-only threat-hunting practice with synthetic logs. Japanese and English.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-26T19:09:44Z",
-          "updatedAt": "2026-10-27T05:30:05Z",
+          "language": "HTML",
+          "createdAt": "2026-10-27T10:40:54Z",
+          "updatedAt": "2026-10-27T12:04:04Z",
           "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 68.44
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 63.83
         },
         {
           "id": 1431670589,
@@ -366,12 +364,12 @@
           "url": "https://github.com/elyosemite/epistulamail",
           "homepage": "",
           "description": "EpistulaMail is a local-first desktop e-mail client. Your mail stays on your machine, in an encrypted database, with no server in between. Built with Rust and Tauri.",
-          "stars": 7,
+          "stars": 8,
           "forks": 1,
           "openIssues": 0,
           "language": "Rust",
           "createdAt": "2026-10-24T00:17:12Z",
-          "updatedAt": "2026-10-27T00:04:39Z",
+          "updatedAt": "2026-10-27T18:21:37Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -382,7 +380,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 61.06
+          "score": 63.79
         }
       ]
     },
@@ -402,35 +400,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 7,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1793081724"
+          "rateLimitReset": "1793126602"
         }
       ],
       "repositories": [
@@ -441,12 +439,12 @@
           "url": "https://github.com/hevnsnt/CVEngine",
           "homepage": "",
           "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
-          "stars": 391,
-          "forks": 59,
-          "openIssues": 0,
+          "stars": 412,
+          "forks": 64,
+          "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-24T22:34:43Z",
-          "updatedAt": "2026-10-27T05:56:28Z",
+          "updatedAt": "2026-10-27T15:43:10Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -459,7 +457,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 211.84
+          "score": 211.71
         },
         {
           "id": 1429010697,
@@ -468,12 +466,12 @@
           "url": "https://github.com/devploit/php2shell",
           "homepage": "",
           "description": "PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Build profiles, labs, heap calibration and detection guidance for authorized security testing.",
-          "stars": 173,
-          "forks": 58,
+          "stars": 178,
+          "forks": 57,
           "openIssues": 7,
           "language": "Python",
           "createdAt": "2026-10-21T22:53:01Z",
-          "updatedAt": "2026-10-27T04:54:11Z",
+          "updatedAt": "2026-10-27T15:47:29Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -487,7 +485,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 193.45
+          "score": 191.92
         },
         {
           "id": 1428519987,
@@ -496,12 +494,12 @@
           "url": "https://github.com/Alejandros17487/ai-jailbreaks",
           "homepage": "",
           "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
-          "stars": 502,
-          "forks": 103,
+          "stars": 506,
+          "forks": 104,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-21T14:44:06Z",
-          "updatedAt": "2026-10-27T04:38:39Z",
+          "updatedAt": "2026-10-27T15:15:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -513,7 +511,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 193.42
+          "score": 191.75
         },
         {
           "id": 1431107565,
@@ -522,12 +520,12 @@
           "url": "https://github.com/aarsaputra/php2shell",
           "homepage": "",
           "description": "Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-access design",
-          "stars": 93,
+          "stars": 97,
           "forks": 53,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-23T13:49:52Z",
-          "updatedAt": "2026-10-27T05:05:43Z",
+          "updatedAt": "2026-10-27T17:14:35Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -542,7 +540,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 181.24
+          "score": 180.23
         },
         {
           "id": 1432360122,
@@ -551,12 +549,12 @@
           "url": "https://github.com/thomasunise/argus",
           "homepage": "https://thomasunise.com/argus",
           "description": "Open-source agentic security operations platform:",
-          "stars": 100,
+          "stars": 104,
           "forks": 11,
-          "openIssues": 14,
+          "openIssues": 15,
           "language": "Python",
           "createdAt": "2026-10-24T16:12:28Z",
-          "updatedAt": "2026-10-27T05:29:34Z",
+          "updatedAt": "2026-10-27T17:32:52Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -570,7 +568,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 177.99
+          "score": 176.9
         },
         {
           "id": 1427833144,
@@ -599,7 +597,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 165.11
+          "score": 162.84
         },
         {
           "id": 1427856225,
@@ -625,7 +623,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 153.4
+          "score": 151.31
         },
         {
           "id": 1428129890,
@@ -634,12 +632,12 @@
           "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
           "homepage": "https://www.hosted-power.com",
           "description": "Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component by component and steps aside once the engine carries it. PHP 5.6-8.5; Sury, cPanel EA4, DirectAdmin, Docker, Windows.",
-          "stars": 163,
+          "stars": 166,
           "forks": 11,
           "openIssues": 3,
           "language": "C",
           "createdAt": "2026-10-21T09:00:12Z",
-          "updatedAt": "2026-10-27T01:55:58Z",
+          "updatedAt": "2026-10-27T17:15:38Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -651,7 +649,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 151.08
+          "score": 149.61
         },
         {
           "id": 1428583003,
@@ -660,12 +658,12 @@
           "url": "https://github.com/JoasASantos/php2shell-scanner",
           "homepage": "",
           "description": "Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing, version-based detection.",
-          "stars": 108,
+          "stars": 109,
           "forks": 31,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-21T15:35:43Z",
-          "updatedAt": "2026-10-27T05:58:39Z",
+          "updatedAt": "2026-10-27T18:30:14Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -679,7 +677,7 @@
             "防守 / 蓝队",
             "漏洞研究 / 攻防"
           ],
-          "score": 147.23
+          "score": 145.53
         },
         {
           "id": 1428525040,
@@ -688,12 +686,12 @@
           "url": "https://github.com/Anton-Barinov/php2shell-patches",
           "homepage": "",
           "description": "php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Remi Collet trees. Restores safe file uploads & progress bars without RCE. Fleet-tested on OpenCart, WordPress, HestiaCP, aaPanel.",
-          "stars": 114,
+          "stars": 118,
           "forks": 21,
-          "openIssues": 3,
+          "openIssues": 2,
           "language": "Shell",
           "createdAt": "2026-10-21T14:48:05Z",
-          "updatedAt": "2026-10-26T20:49:16Z",
+          "updatedAt": "2026-10-27T11:32:50Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -705,7 +703,7 @@
             "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 146.32
+          "score": 145.27
         },
         {
           "id": 1428784561,
@@ -714,12 +712,12 @@
           "url": "https://github.com/UCYBERS/PhoneHackScan",
           "homepage": "https://ucybers.com/",
           "description": "Android & iPhone intrusion check",
-          "stars": 85,
+          "stars": 88,
           "forks": 7,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-21T18:35:37Z",
-          "updatedAt": "2026-10-27T03:17:15Z",
+          "updatedAt": "2026-10-27T17:27:27Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -729,7 +727,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 144.29
+          "score": 143.15
         },
         {
           "id": 1428727577,
@@ -754,7 +752,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 135.84
+          "score": 133.57
         },
         {
           "id": 1428688841,
@@ -763,12 +761,12 @@
           "url": "https://github.com/pentestershell/php2shellbt",
           "homepage": "",
           "description": "Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
-          "stars": 73,
+          "stars": 74,
           "forks": 16,
           "openIssues": 2,
           "language": "Python",
           "createdAt": "2026-10-21T17:06:30Z",
-          "updatedAt": "2026-10-26T13:55:17Z",
+          "updatedAt": "2026-10-27T15:05:48Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -781,7 +779,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 133.86
+          "score": 132.28
         },
         {
           "id": 1428541109,
@@ -790,12 +788,12 @@
           "url": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
           "homepage": "https://ghcr.io/mpyw/php-eol-cve-2026-109618-109619",
           "description": "PHP 7.4 / 8.0 / 8.1 Docker images with the CVE-2026-109618 / CVE-2026-109619 fix backported",
-          "stars": 64,
+          "stars": 69,
           "forks": 18,
           "openIssues": 0,
           "language": "Dockerfile",
           "createdAt": "2026-10-21T15:01:45Z",
-          "updatedAt": "2026-10-27T03:57:13Z",
+          "updatedAt": "2026-10-27T18:03:09Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -806,7 +804,7 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 130.86
+          "score": 130.83
         },
         {
           "id": 1430535889,
@@ -830,7 +828,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 130.79
+          "score": 128.51
         },
         {
           "id": 1427882263,
@@ -839,12 +837,12 @@
           "url": "https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619",
           "homepage": "",
           "description": "CVE-2026-109618/109619 — PHP session.upload_progress pre-auth RCE. Exploit research: remote ASLR chain, PoC & patch analysis.",
-          "stars": 48,
+          "stars": 50,
           "forks": 24,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-21T04:38:46Z",
-          "updatedAt": "2026-10-26T23:54:40Z",
+          "updatedAt": "2026-10-27T12:32:11Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -857,7 +855,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 123.63
+          "score": 122.72
         },
         {
           "id": 1431578234,
@@ -866,12 +864,12 @@
           "url": "https://github.com/jamesalmeida/agent-honeypot",
           "homepage": "",
           "description": "A honeypot and guestbook for AI agents that land on a machine they weren't invited to",
-          "stars": 39,
-          "forks": 4,
+          "stars": 42,
+          "forks": 5,
           "openIssues": 0,
           "language": "PowerShell",
           "createdAt": "2026-10-23T21:44:38Z",
-          "updatedAt": "2026-10-26T21:57:40Z",
+          "updatedAt": "2026-10-27T11:35:06Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -883,7 +881,7 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 119.27
+          "score": 120.22
         },
         {
           "id": 1428886487,
@@ -892,12 +890,12 @@
           "url": "https://github.com/agentshield-dev/agentshield",
           "homepage": "https://agent-shield.dev",
           "description": "Agentshield is open source defense for Kubernetes and AWS. It learns how your workloads really talk, flags lateral movement with evidence, and proposes fixes you approve.",
-          "stars": 54,
+          "stars": 56,
           "forks": 2,
           "openIssues": 4,
           "language": "Go",
           "createdAt": "2026-10-21T20:18:00Z",
-          "updatedAt": "2026-10-26T16:47:17Z",
+          "updatedAt": "2026-10-27T17:46:42Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -908,7 +906,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 116.76
+          "score": 115.74
         }
       ]
     }
