@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-29T07:01:22.617Z",
+  "generatedAt": "2026-10-29T18:58:09.863Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-10-26",
-      "totalCandidates": 25,
+      "totalCandidates": 31,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 7,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
           "homepage": "https://watsonfind.icu",
           "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
-          "stars": 358,
-          "forks": 12,
+          "stars": 311,
+          "forks": 15,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-10-28T00:09:33Z",
-          "updatedAt": "2026-10-29T05:32:37Z",
+          "updatedAt": "2026-10-29T18:20:25Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -97,7 +97,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 197.11
+          "score": 189.82
+        },
+        {
+          "id": 1437033043,
+          "name": "grim-prompter",
+          "fullName": "jmanico/grim-prompter",
+          "url": "https://github.com/jmanico/grim-prompter",
+          "homepage": "",
+          "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
+          "stars": 134,
+          "forks": 13,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-28T12:09:26Z",
+          "updatedAt": "2026-10-29T18:36:07Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 157.68
         },
         {
           "id": 1436644488,
@@ -111,7 +136,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-28T05:31:26Z",
-          "updatedAt": "2026-10-29T00:24:22Z",
+          "updatedAt": "2026-10-29T09:45:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,46 +147,21 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 150.69
+          "score": 146.37
         },
         {
-          "id": 1437033043,
-          "name": "grim-prompter",
-          "fullName": "jmanico/grim-prompter",
-          "url": "https://github.com/jmanico/grim-prompter",
+          "id": 1437336548,
+          "name": "UmbrellaSpoofer-resocket",
+          "fullName": "LyraBelowElysium/UmbrellaSpoofer-resocket",
+          "url": "https://github.com/LyraBelowElysium/UmbrellaSpoofer-resocket",
           "homepage": "",
-          "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
-          "stars": 89,
-          "forks": 9,
+          "description": "Umbrella Spoofer v2.0.4 scans hwid reset beside hwid checker. hwid ban tally, smbios board, volume label, nic oui, snapshot pair, disk serial, caller id, device fingerprint, webgl canvases. ",
+          "stars": 32,
+          "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-10-28T12:09:26Z",
-          "updatedAt": "2026-10-29T06:51:12Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 149.62
-        },
-        {
-          "id": 1435656381,
-          "name": "get-the-hacker",
-          "fullName": "buybitart/get-the-hacker",
-          "url": "https://github.com/buybitart/get-the-hacker",
-          "homepage": "https://www.bitart.pro/",
-          "description": "Hunt WiFi threats silently. Catch the hackers.",
-          "stars": 12,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-27T11:47:36Z",
-          "updatedAt": "2026-10-29T05:50:41Z",
+          "createdAt": "2026-10-28T16:21:38Z",
+          "updatedAt": "2026-10-29T15:45:22Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -169,23 +169,25 @@
             1.08
           ],
           "tags": [
-            "网络安全"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
           ],
-          "score": 92.08
+          "score": 116.6
         },
         {
-          "id": 1436924919,
-          "name": "Hakscan",
-          "fullName": "slayzbsss/Hakscan",
-          "url": "https://github.com/slayzbsss/Hakscan",
-          "homepage": "https://github.com/slayzbsss/hakscan-templates",
-          "description": "Fast, self-contained vulnerability scanner (single Go binary) for web apps, APKs and binaries - extensible with JSON and nuclei YAML templates.",
-          "stars": 12,
+          "id": 1437333342,
+          "name": "resocket-elden-ring-cheat-2026-trainer-mod-menu-tools",
+          "fullName": "RoUntoBlizzard/resocket-elden-ring-cheat-2026-trainer-mod-menu-tools",
+          "url": "https://github.com/RoUntoBlizzard/resocket-elden-ring-cheat-2026-trainer-mod-menu-tools",
+          "homepage": "",
+          "description": "Elden Ring Cheat 2026 — Single-player modding and gameplay toolkit concept featuring character build optimization, rune planning, weapon upgrades, boss strategies, save management and offline trainer research.",
+          "stars": 32,
           "forks": 0,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-10-28T10:24:08Z",
-          "updatedAt": "2026-10-29T06:26:32Z",
+          "language": "HTML",
+          "createdAt": "2026-10-28T16:18:49Z",
+          "updatedAt": "2026-10-29T15:37:48Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -195,135 +197,58 @@
           "tags": [
             "通用安全",
             "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 87.09
-        },
-        {
-          "id": 1436053685,
-          "name": "check-pre-lancamento",
-          "fullName": "dantaspaulo/check-pre-lancamento",
-          "url": "https://github.com/dantaspaulo/check-pre-lancamento",
-          "homepage": "",
-          "description": "Skill para Claude, Codex, Cursor e outros agentes: check pré-lançamento do seu app com 20 checagens de segurança + 10 de prontidão (Lovable, Bolt, Replit, React, Next, Laravel, Django, Spring, Go…). Por Paulo Sérgio Dantas.",
-          "stars": 15,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-27T17:22:28Z",
-          "updatedAt": "2026-10-28T21:26:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 85.98
-        },
-        {
-          "id": 1435270490,
-          "name": "defiguard",
-          "fullName": "turayevr12-spec/defiguard",
-          "url": "https://github.com/turayevr12-spec/defiguard",
-          "homepage": "",
-          "description": "Heuristic Solidity/DeFi security review toolkit — flags suspicious patterns to review, backed by Foundry scenarios. Educational / authorized use only.",
-          "stars": 17,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-27T05:03:26Z",
-          "updatedAt": "2026-10-28T08:31:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 84.42
-        },
-        {
-          "id": 1437162154,
-          "name": "openclaw-genpark-agent-forge",
-          "fullName": "Alpha-Park/openclaw-genpark-agent-forge",
-          "url": "https://github.com/Alpha-Park/openclaw-genpark-agent-forge",
-          "homepage": "",
-          "description": "test",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-28T13:59:18Z",
-          "updatedAt": "2026-10-28T14:14:24Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 83.06
-        },
-        {
-          "id": 1437156965,
-          "name": "openclaw-genpark-vocalist",
-          "fullName": "Alpha-Park/openclaw-genpark-vocalist",
-          "url": "https://github.com/Alpha-Park/openclaw-genpark-vocalist",
-          "homepage": "",
-          "description": "OpenClaw GenPark Vocalist - Pure standard library acoustic time-domain autocorrelation pitch tracker and vocal stability estimator.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-28T13:54:57Z",
-          "updatedAt": "2026-10-28T13:55:38Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 83.03
-        },
-        {
-          "id": 1437154517,
-          "name": "openclaw-genpark-sentinel",
-          "fullName": "Alpha-Park/openclaw-genpark-sentinel",
-          "url": "https://github.com/Alpha-Park/openclaw-genpark-sentinel",
-          "homepage": "",
-          "description": "OpenClaw GenPark Sentinel - Real-time sliding window token velocity anomaly detection and adaptive rate-limiting sentinel.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-28T13:52:48Z",
-          "updatedAt": "2026-10-28T13:53:50Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
             "防守 / 蓝队"
           ],
-          "score": 83.02
+          "score": 107.95
+        },
+        {
+          "id": 1437154386,
+          "name": "safeagents",
+          "fullName": "huggingface/safeagents",
+          "url": "https://github.com/huggingface/safeagents",
+          "homepage": "",
+          "description": "Safely run your agents using any coding harness",
+          "stars": 23,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-10-28T13:52:42Z",
+          "updatedAt": "2026-10-29T18:36:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 103.08
+        },
+        {
+          "id": 1435656381,
+          "name": "get-the-hacker",
+          "fullName": "buybitart/get-the-hacker",
+          "url": "https://github.com/buybitart/get-the-hacker",
+          "homepage": "https://www.bitart.pro/",
+          "description": "Hunt WiFi threats silently. Catch the hackers.",
+          "stars": 14,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-27T11:47:36Z",
+          "updatedAt": "2026-10-29T18:23:20Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 91.17
         },
         {
           "id": 1436214208,
@@ -332,12 +257,12 @@
           "url": "https://github.com/stanczykwyatt/copy-2fa",
           "homepage": "https://stanczykwyatt.github.io/copy-2fa/",
           "description": "Copy 2FA codes on your Mac with one shortcut: verification codes from Mail and Messages plus a built-in TOTP/HOTP authenticator. Free, open source, no internet access.",
-          "stars": 6,
-          "forks": 1,
+          "stars": 12,
+          "forks": 4,
           "openIssues": 8,
           "language": "C#",
           "createdAt": "2026-10-27T19:57:02Z",
-          "updatedAt": "2026-10-29T06:40:53Z",
+          "updatedAt": "2026-10-29T18:40:14Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -348,35 +273,108 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 71.34
+          "score": 86.84
         },
         {
-          "id": 1434059359,
-          "name": "podori",
-          "fullName": "VerifiedIdiot/podori",
-          "url": "https://github.com/VerifiedIdiot/podori",
+          "id": 1438143566,
+          "name": "genpark-agent-cryptographic-audit-trail-merkle-sealer-skill",
+          "fullName": "alphaparkinc/genpark-agent-cryptographic-audit-trail-merkle-sealer-skill",
+          "url": "https://github.com/alphaparkinc/genpark-agent-cryptographic-audit-trail-merkle-sealer-skill",
           "homepage": "",
-          "description": "Security skills for AI coding agents: find vulnerabilities, verify dependencies, and set traps. | AI 코딩 에이전트 보안 · 의존성 검증 · 함정",
-          "stars": 8,
-          "forks": 1,
+          "description": "Agent cryptographic audit trail Merkle sealer with tamper-evident SHA-256 tree generation, logarithmic inclusion proofs, and verifiable integrity checks.",
+          "stars": 7,
+          "forks": 0,
           "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-10-26T07:44:03Z",
-          "updatedAt": "2026-10-29T01:56:51Z",
+          "language": "Python",
+          "createdAt": "2026-10-29T08:28:45Z",
+          "updatedAt": "2026-10-29T08:29:27Z",
           "matchedProfiles": [
-            "通用安全",
             "网络安全"
           ],
           "profileWeights": [
-            1,
             1.08
           ],
           "tags": [
-            "通用安全",
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 69.18
+          "score": 85.61
+        },
+        {
+          "id": 1438142842,
+          "name": "genpark-agent-mcp-tool-permission-least-privilege-auditor-skill",
+          "fullName": "Alpha-Park/genpark-agent-mcp-tool-permission-least-privilege-auditor-skill",
+          "url": "https://github.com/Alpha-Park/genpark-agent-mcp-tool-permission-least-privilege-auditor-skill",
+          "homepage": "",
+          "description": "Agent MCP tool permission least-privilege auditor with blast radius scoring, privilege escalation chain detection, and capability matrix verification.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-29T08:28:01Z",
+          "updatedAt": "2026-10-29T08:28:42Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 85.61
+        },
+        {
+          "id": 1438141596,
+          "name": "genpark-agent-exfiltration-canary-leak-detector-skill",
+          "fullName": "Alpha-Park/genpark-agent-exfiltration-canary-leak-detector-skill",
+          "url": "https://github.com/Alpha-Park/genpark-agent-exfiltration-canary-leak-detector-skill",
+          "homepage": "",
+          "description": "Agent exfiltration canary leak detector with HMAC token generation, entropy analysis, and outgoing outbound channel interception.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-29T08:26:40Z",
+          "updatedAt": "2026-10-29T08:27:22Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 85.6
+        },
+        {
+          "id": 1438140874,
+          "name": "genpark-agent-exfiltration-canary-leak-detector-skill",
+          "fullName": "alphaparkinc/genpark-agent-exfiltration-canary-leak-detector-skill",
+          "url": "https://github.com/alphaparkinc/genpark-agent-exfiltration-canary-leak-detector-skill",
+          "homepage": "",
+          "description": "Agent exfiltration canary leak detector with HMAC token generation, entropy analysis, and outgoing outbound channel interception.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-29T08:25:56Z",
+          "updatedAt": "2026-10-29T08:26:36Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 85.59
         }
       ]
     },
@@ -396,35 +394,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1793257334"
+          "rateLimitReset": "1793300342"
         }
       ],
       "repositories": [
@@ -435,12 +433,12 @@
           "url": "https://github.com/hevnsnt/CVEngine",
           "homepage": "",
           "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
-          "stars": 448,
-          "forks": 67,
-          "openIssues": 1,
+          "stars": 465,
+          "forks": 68,
+          "openIssues": 12,
           "language": "Python",
           "createdAt": "2026-10-24T22:34:43Z",
-          "updatedAt": "2026-10-29T03:04:34Z",
+          "updatedAt": "2026-10-29T18:52:22Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -453,7 +451,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 208.26
+          "score": 207.39
         },
         {
           "id": 1436414244,
@@ -462,12 +460,12 @@
           "url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
           "homepage": "https://watsonfind.icu",
           "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
-          "stars": 358,
-          "forks": 12,
+          "stars": 311,
+          "forks": 15,
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-10-28T00:09:33Z",
-          "updatedAt": "2026-10-29T05:32:37Z",
+          "updatedAt": "2026-10-29T18:20:25Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -479,7 +477,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 203.99
+          "score": 199.36
         },
         {
           "id": 1431107565,
@@ -488,12 +486,12 @@
           "url": "https://github.com/aarsaputra/php2shell",
           "homepage": "",
           "description": "Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-access design",
-          "stars": 109,
+          "stars": 112,
           "forks": 55,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-23T13:49:52Z",
-          "updatedAt": "2026-10-28T23:17:14Z",
+          "updatedAt": "2026-10-29T16:31:02Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -508,7 +506,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 177.35
+          "score": 175.99
         },
         {
           "id": 1432360122,
@@ -517,12 +515,12 @@
           "url": "https://github.com/thomasunise/argus",
           "homepage": "https://thomasunise.com/argus",
           "description": "Open-source agentic security operations platform:",
-          "stars": 111,
+          "stars": 114,
           "forks": 11,
           "openIssues": 4,
           "language": "Python",
           "createdAt": "2026-10-24T16:12:28Z",
-          "updatedAt": "2026-10-28T20:15:33Z",
+          "updatedAt": "2026-10-29T17:11:36Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -536,7 +534,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 172.22
+          "score": 170.85
+        },
+        {
+          "id": 1437033043,
+          "name": "grim-prompter",
+          "fullName": "jmanico/grim-prompter",
+          "url": "https://github.com/jmanico/grim-prompter",
+          "homepage": "",
+          "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
+          "stars": 134,
+          "forks": 13,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-28T12:09:26Z",
+          "updatedAt": "2026-10-29T18:36:07Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 164.04
         },
         {
           "id": 1436644488,
@@ -550,7 +573,7 @@
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-28T05:31:26Z",
-          "updatedAt": "2026-10-29T00:24:22Z",
+          "updatedAt": "2026-10-29T09:45:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -561,32 +584,33 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 155.95
+          "score": 154.1
         },
         {
-          "id": 1437033043,
-          "name": "grim-prompter",
-          "fullName": "jmanico/grim-prompter",
-          "url": "https://github.com/jmanico/grim-prompter",
+          "id": 1437336548,
+          "name": "UmbrellaSpoofer-resocket",
+          "fullName": "LyraBelowElysium/UmbrellaSpoofer-resocket",
+          "url": "https://github.com/LyraBelowElysium/UmbrellaSpoofer-resocket",
           "homepage": "",
-          "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
-          "stars": 89,
-          "forks": 9,
+          "description": "Umbrella Spoofer v2.0.4 scans hwid reset beside hwid checker. hwid ban tally, smbios board, volume label, nic oui, snapshot pair, disk serial, caller id, device fingerprint, webgl canvases. ",
+          "stars": 32,
+          "forks": 0,
           "openIssues": 0,
           "language": "Unknown",
-          "createdAt": "2026-10-28T12:09:26Z",
-          "updatedAt": "2026-10-29T06:51:12Z",
+          "createdAt": "2026-10-28T16:21:38Z",
+          "updatedAt": "2026-10-29T15:45:22Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
           ],
-          "score": 153.51
+          "score": 122.53
         },
         {
           "id": 1430535889,
@@ -610,7 +634,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 121.88
+          "score": 119.7
         },
         {
           "id": 1431578234,
@@ -619,12 +643,12 @@
           "url": "https://github.com/jamesalmeida/agent-honeypot",
           "homepage": "",
           "description": "A honeypot and guestbook for AI agents that land on a machine they weren't invited to",
-          "stars": 50,
+          "stars": 53,
           "forks": 6,
           "openIssues": 1,
           "language": "PowerShell",
           "createdAt": "2026-10-23T21:44:38Z",
-          "updatedAt": "2026-10-28T17:40:53Z",
+          "updatedAt": "2026-10-29T09:00:41Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -636,7 +660,58 @@
             "AI 自动化 / Skill",
             "逆向 / 恶意代码"
           ],
-          "score": 119.83
+          "score": 119.44
+        },
+        {
+          "id": 1437333342,
+          "name": "resocket-elden-ring-cheat-2026-trainer-mod-menu-tools",
+          "fullName": "RoUntoBlizzard/resocket-elden-ring-cheat-2026-trainer-mod-menu-tools",
+          "url": "https://github.com/RoUntoBlizzard/resocket-elden-ring-cheat-2026-trainer-mod-menu-tools",
+          "homepage": "",
+          "description": "Elden Ring Cheat 2026 — Single-player modding and gameplay toolkit concept featuring character build optimization, rune planning, weapon upgrades, boss strategies, save management and offline trainer research.",
+          "stars": 32,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-10-28T16:18:49Z",
+          "updatedAt": "2026-10-29T15:37:48Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 113.45
+        },
+        {
+          "id": 1437154386,
+          "name": "safeagents",
+          "fullName": "huggingface/safeagents",
+          "url": "https://github.com/huggingface/safeagents",
+          "homepage": "",
+          "description": "Safely run your agents using any coding harness",
+          "stars": 23,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-10-28T13:52:42Z",
+          "updatedAt": "2026-10-29T18:36:36Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 109.09
         },
         {
           "id": 1429328757,
@@ -670,12 +745,12 @@
           "url": "https://github.com/buybitart/get-the-hacker",
           "homepage": "https://www.bitart.pro/",
           "description": "Hunt WiFi threats silently. Catch the hackers.",
-          "stars": 12,
+          "stars": 14,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-27T11:47:36Z",
-          "updatedAt": "2026-10-29T05:50:41Z",
+          "updatedAt": "2026-10-29T18:23:20Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -685,32 +760,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 101.72
-        },
-        {
-          "id": 1433604125,
-          "name": "Agenttrust",
-          "fullName": "SRN0129/Agenttrust",
-          "url": "https://github.com/SRN0129/Agenttrust",
-          "homepage": "",
-          "description": "Enterprise Zero-Trust Security, Cascading Delegation, Human Approvals & Verifiable Audit Infrastructure for Autonomous AI Agents",
-          "stars": 20,
-          "forks": 0,
-          "openIssues": 4,
-          "language": "TypeScript",
-          "createdAt": "2026-10-25T20:35:02Z",
-          "updatedAt": "2026-10-28T20:39:00Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 100.99
+          "score": 103.46
         },
         {
           "id": 1429908218,
@@ -720,7 +770,7 @@
           "homepage": "https://cve.now",
           "description": "A free, public vulnerability feed: CVE, GHSA, OSV, CISA KEV and EPSS merged into one entry per vulnerability. RSS, JSON API and MCP. Docs and issues only.",
           "stars": 34,
-          "forks": 1,
+          "forks": 2,
           "openIssues": 1,
           "language": "Unknown",
           "createdAt": "2026-10-22T15:09:53Z",
@@ -736,7 +786,83 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 98.32
+          "score": 99.4
+        },
+        {
+          "id": 1433604125,
+          "name": "Agenttrust",
+          "fullName": "SRN0129/Agenttrust",
+          "url": "https://github.com/SRN0129/Agenttrust",
+          "homepage": "",
+          "description": "Enterprise Zero-Trust Security, Cascading Delegation, Human Approvals & Verifiable Audit Infrastructure for Autonomous AI Agents",
+          "stars": 20,
+          "forks": 0,
+          "openIssues": 4,
+          "language": "TypeScript",
+          "createdAt": "2026-10-25T20:35:02Z",
+          "updatedAt": "2026-10-29T10:43:19Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 99
+        },
+        {
+          "id": 1432381270,
+          "name": "RedAgent",
+          "fullName": "Zwony/RedAgent",
+          "url": "https://github.com/Zwony/RedAgent",
+          "homepage": "https://github.com/Zwony/RedAgent",
+          "description": "Enterprise-grade automated AI Agent Red Teaming & Security Auditing platform targeting OWASP Top 10 for LLMs.",
+          "stars": 15,
+          "forks": 2,
+          "openIssues": 4,
+          "language": "Python",
+          "createdAt": "2026-10-24T16:36:29Z",
+          "updatedAt": "2026-10-29T14:17:26Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 93.94
+        },
+        {
+          "id": 1436053685,
+          "name": "check-pre-lancamento",
+          "fullName": "dantaspaulo/check-pre-lancamento",
+          "url": "https://github.com/dantaspaulo/check-pre-lancamento",
+          "homepage": "",
+          "description": "Skill para Claude, Codex, Cursor e outros agentes: check pré-lançamento do seu app com 20 checagens de segurança + 10 de prontidão (Lovable, Bolt, Replit, React, Next, Laravel, Django, Spring, Go…). Por Paulo Sérgio Dantas.",
+          "stars": 16,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-27T17:22:28Z",
+          "updatedAt": "2026-10-29T13:24:40Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 93.38
         },
         {
           "id": 1435270490,
@@ -761,135 +887,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 94.73
-        },
-        {
-          "id": 1436053685,
-          "name": "check-pre-lancamento",
-          "fullName": "dantaspaulo/check-pre-lancamento",
-          "url": "https://github.com/dantaspaulo/check-pre-lancamento",
-          "homepage": "",
-          "description": "Skill para Claude, Codex, Cursor e outros agentes: check pré-lançamento do seu app com 20 checagens de segurança + 10 de prontidão (Lovable, Bolt, Replit, React, Next, Laravel, Django, Spring, Go…). Por Paulo Sérgio Dantas.",
-          "stars": 15,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-27T17:22:28Z",
-          "updatedAt": "2026-10-28T21:26:27Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 93.75
-        },
-        {
-          "id": 1436924919,
-          "name": "Hakscan",
-          "fullName": "slayzbsss/Hakscan",
-          "url": "https://github.com/slayzbsss/Hakscan",
-          "homepage": "https://github.com/slayzbsss/hakscan-templates",
-          "description": "Fast, self-contained vulnerability scanner (single Go binary) for web apps, APKs and binaries - extensible with JSON and nuclei YAML templates.",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-10-28T10:24:08Z",
-          "updatedAt": "2026-10-29T06:26:32Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 91.34
-        },
-        {
-          "id": 1432381270,
-          "name": "RedAgent",
-          "fullName": "Zwony/RedAgent",
-          "url": "https://github.com/Zwony/RedAgent",
-          "homepage": "https://github.com/Zwony/RedAgent",
-          "description": "Enterprise-grade automated AI Agent Red Teaming & Security Auditing platform targeting OWASP Top 10 for LLMs.",
-          "stars": 13,
-          "forks": 1,
-          "openIssues": 4,
-          "language": "Python",
-          "createdAt": "2026-10-24T16:36:29Z",
-          "updatedAt": "2026-10-29T06:35:50Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 89.89
-        },
-        {
-          "id": 1437162154,
-          "name": "openclaw-genpark-agent-forge",
-          "fullName": "Alpha-Park/openclaw-genpark-agent-forge",
-          "url": "https://github.com/Alpha-Park/openclaw-genpark-agent-forge",
-          "homepage": "",
-          "description": "test",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-28T13:59:18Z",
-          "updatedAt": "2026-10-28T14:14:24Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 86.86
-        },
-        {
-          "id": 1430825540,
-          "name": "threat-actor-dataset",
-          "fullName": "BRANDEFENSE/threat-actor-dataset",
-          "url": "https://github.com/BRANDEFENSE/threat-actor-dataset",
-          "homepage": "https://brandefense.io/knowledge-hub/apt-groups/",
-          "description": "Open threat actor dataset: APT groups, ransomware groups, malware and MITRE ATT&CK techniques with aliases, TTPs and sources. JSON, CSV, STIX 2.1.",
-          "stars": 16,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-23T09:14:42Z",
-          "updatedAt": "2026-10-28T04:46:17Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 85.45
+          "score": 92.88
         }
       ]
     }
