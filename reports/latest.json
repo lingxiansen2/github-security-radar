@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-30T07:04:00.012Z",
+  "generatedAt": "2026-10-30T18:38:22.401Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-10-27",
-      "totalCandidates": 28,
+      "totalCandidates": 29,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 6,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
           "homepage": "https://watsonfind.icu",
           "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
-          "stars": 316,
-          "forks": 16,
-          "openIssues": 0,
+          "stars": 345,
+          "forks": 20,
+          "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-10-28T00:09:33Z",
-          "updatedAt": "2026-10-30T06:16:06Z",
+          "updatedAt": "2026-10-30T18:37:21Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -97,7 +97,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 185.93
+          "score": 185.18
         },
         {
           "id": 1437033043,
@@ -106,12 +106,12 @@
           "url": "https://github.com/jmanico/grim-prompter",
           "homepage": "",
           "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
-          "stars": 182,
-          "forks": 16,
+          "stars": 233,
+          "forks": 19,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-28T12:09:26Z",
-          "updatedAt": "2026-10-30T06:58:36Z",
+          "updatedAt": "2026-10-30T18:19:49Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,7 +122,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 162.28
+          "score": 165.39
         },
         {
           "id": 1436644488,
@@ -132,11 +132,11 @@
           "homepage": "",
           "description": "Published: 2026-10-28",
           "stars": 102,
-          "forks": 14,
+          "forks": 17,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-28T05:31:26Z",
-          "updatedAt": "2026-10-30T03:03:51Z",
+          "updatedAt": "2026-10-30T17:55:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -147,7 +147,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 144.35
+          "score": 141.22
         },
         {
           "id": 1438795433,
@@ -156,12 +156,12 @@
           "url": "https://github.com/pwnedlabs/cloud-security-labs",
           "homepage": "https://pwnedlabs.io",
           "description": "Hands-on cloud security labs, vulnerable-by-design environments and challenges for AWS, Azure, GCP and Kubernetes. Maintained by Pwned Labs.",
-          "stars": 16,
-          "forks": 4,
-          "openIssues": 2,
+          "stars": 26,
+          "forks": 7,
+          "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:05Z",
-          "updatedAt": "2026-10-30T01:15:18Z",
+          "updatedAt": "2026-10-30T18:37:20Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -173,7 +173,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 124.74
+          "score": 136.55
         },
         {
           "id": 1438795468,
@@ -183,11 +183,11 @@
           "homepage": "https://pwnedlabs.io",
           "description": "Kubernetes pentesting: hands-on labs, tools, a learning path and training for penetration testers. Maintained by Pwned Labs.",
           "stars": 13,
-          "forks": 3,
-          "openIssues": 1,
+          "forks": 4,
+          "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:08Z",
-          "updatedAt": "2026-10-30T01:15:23Z",
+          "updatedAt": "2026-10-30T12:18:11Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -198,7 +198,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 117.64
+          "score": 114.22
+        },
+        {
+          "id": 1437154386,
+          "name": "safeagents",
+          "fullName": "huggingface/safeagents",
+          "url": "https://github.com/huggingface/safeagents",
+          "homepage": "",
+          "description": "Safely run your agents using any coding harness",
+          "stars": 47,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-10-28T13:52:42Z",
+          "updatedAt": "2026-10-30T17:50:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 112.01
         },
         {
           "id": 1437336548,
@@ -224,32 +249,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 111.89
-        },
-        {
-          "id": 1437154386,
-          "name": "safeagents",
-          "fullName": "huggingface/safeagents",
-          "url": "https://github.com/huggingface/safeagents",
-          "homepage": "",
-          "description": "Safely run your agents using any coding harness",
-          "stars": 34,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-10-28T13:52:42Z",
-          "updatedAt": "2026-10-30T06:01:26Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 108.19
+          "score": 107.37
         },
         {
           "id": 1437333342,
@@ -275,7 +275,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 103.58
+          "score": 99.4
+        },
+        {
+          "id": 1435657543,
+          "name": "pandaward",
+          "fullName": "ratomirjovanovic/pandaward",
+          "url": "https://github.com/ratomirjovanovic/pandaward",
+          "homepage": "https://pandaward.dev",
+          "description": "Local, evidence-based application security assessment engine and Claude Code plugin",
+          "stars": 32,
+          "forks": 0,
+          "openIssues": 6,
+          "language": "Go",
+          "createdAt": "2026-10-27T11:48:43Z",
+          "updatedAt": "2026-10-30T12:36:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 91.57
         },
         {
           "id": 1435656381,
@@ -284,12 +309,12 @@
           "url": "https://github.com/buybitart/get-the-hacker",
           "homepage": "https://www.bitart.pro/",
           "description": "Hunt WiFi threats silently. Catch the hackers.",
-          "stars": 15,
+          "stars": 16,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-27T11:47:36Z",
-          "updatedAt": "2026-10-30T05:07:39Z",
+          "updatedAt": "2026-10-30T16:36:21Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -299,7 +324,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 88.15
+          "score": 87.91
         },
         {
           "id": 1436214208,
@@ -313,7 +338,7 @@
           "openIssues": 8,
           "language": "C#",
           "createdAt": "2026-10-27T19:57:02Z",
-          "updatedAt": "2026-10-30T03:01:54Z",
+          "updatedAt": "2026-10-30T07:20:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -324,58 +349,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 86.99
+          "score": 82.81
         },
         {
-          "id": 1438143566,
-          "name": "genpark-agent-cryptographic-audit-trail-merkle-sealer-skill",
-          "fullName": "alphaparkinc/genpark-agent-cryptographic-audit-trail-merkle-sealer-skill",
-          "url": "https://github.com/alphaparkinc/genpark-agent-cryptographic-audit-trail-merkle-sealer-skill",
-          "homepage": "",
-          "description": "Agent cryptographic audit trail Merkle sealer with tamper-evident SHA-256 tree generation, logarithmic inclusion proofs, and verifiable integrity checks.",
+          "id": 1439545842,
+          "name": "synology-nas-cli",
+          "fullName": "akari-sora/synology-nas-cli",
+          "url": "https://github.com/akari-sora/synology-nas-cli",
+          "homepage": "https://gitlab.com/aa22396584/synology-nas-cli",
+          "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
           "stars": 7,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-29T08:28:45Z",
-          "updatedAt": "2026-10-29T08:29:27Z",
+          "createdAt": "2026-10-30T09:52:47Z",
+          "updatedAt": "2026-10-30T16:50:22Z",
           "matchedProfiles": [
-            "网络安全"
+            "通用安全"
           ],
           "profileWeights": [
-            1.08
+            1
           ],
           "tags": [
-            "网络安全",
+            "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.89
-        },
-        {
-          "id": 1438142842,
-          "name": "genpark-agent-mcp-tool-permission-least-privilege-auditor-skill",
-          "fullName": "Alpha-Park/genpark-agent-mcp-tool-permission-least-privilege-auditor-skill",
-          "url": "https://github.com/Alpha-Park/genpark-agent-mcp-tool-permission-least-privilege-auditor-skill",
-          "homepage": "",
-          "description": "Agent MCP tool permission least-privilege auditor with blast radius scoring, privilege escalation chain detection, and capability matrix verification.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-29T08:28:01Z",
-          "updatedAt": "2026-10-29T08:28:42Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 80.89
+          "score": 79.9
         }
       ]
     },
@@ -388,42 +387,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-10-23",
-      "totalCandidates": 27,
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 5,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1793343892"
+          "rateLimitReset": "1793385552"
         }
       ],
       "repositories": [
@@ -434,12 +433,12 @@
           "url": "https://github.com/hevnsnt/CVEngine",
           "homepage": "",
           "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
-          "stars": 506,
-          "forks": 76,
-          "openIssues": 10,
+          "stars": 531,
+          "forks": 84,
+          "openIssues": 11,
           "language": "Python",
           "createdAt": "2026-10-24T22:34:43Z",
-          "updatedAt": "2026-10-30T07:01:21Z",
+          "updatedAt": "2026-10-30T15:41:26Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -452,7 +451,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 208.42
+          "score": 208.45
         },
         {
           "id": 1436414244,
@@ -461,12 +460,12 @@
           "url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
           "homepage": "https://watsonfind.icu",
           "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
-          "stars": 316,
-          "forks": 16,
-          "openIssues": 0,
+          "stars": 345,
+          "forks": 20,
+          "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-10-28T00:09:33Z",
-          "updatedAt": "2026-10-30T06:16:06Z",
+          "updatedAt": "2026-10-30T18:37:21Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -478,7 +477,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 198.16
+          "score": 199.99
+        },
+        {
+          "id": 1437033043,
+          "name": "grim-prompter",
+          "fullName": "jmanico/grim-prompter",
+          "url": "https://github.com/jmanico/grim-prompter",
+          "homepage": "",
+          "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
+          "stars": 233,
+          "forks": 19,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-28T12:09:26Z",
+          "updatedAt": "2026-10-30T18:19:49Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 176.63
         },
         {
           "id": 1431107565,
@@ -487,12 +511,12 @@
           "url": "https://github.com/aarsaputra/php2shell",
           "homepage": "",
           "description": "Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-access design",
-          "stars": 116,
-          "forks": 56,
+          "stars": 119,
+          "forks": 58,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-23T13:49:52Z",
-          "updatedAt": "2026-10-30T06:46:50Z",
+          "updatedAt": "2026-10-30T17:43:07Z",
           "matchedProfiles": [
             "通用安全",
             "渗透 / 红队"
@@ -507,32 +531,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 174.95
-        },
-        {
-          "id": 1437033043,
-          "name": "grim-prompter",
-          "fullName": "jmanico/grim-prompter",
-          "url": "https://github.com/jmanico/grim-prompter",
-          "homepage": "",
-          "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
-          "stars": 182,
-          "forks": 16,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-28T12:09:26Z",
-          "updatedAt": "2026-10-30T06:58:36Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 171.13
+          "score": 174.72
         },
         {
           "id": 1432360122,
@@ -560,7 +559,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 168.64
+          "score": 166.52
         },
         {
           "id": 1436644488,
@@ -570,11 +569,11 @@
           "homepage": "",
           "description": "Published: 2026-10-28",
           "stars": 102,
-          "forks": 14,
+          "forks": 17,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-28T05:31:26Z",
-          "updatedAt": "2026-10-30T03:03:51Z",
+          "updatedAt": "2026-10-30T17:55:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -585,7 +584,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 154.57
+          "score": 153.83
         },
         {
           "id": 1438795433,
@@ -594,12 +593,12 @@
           "url": "https://github.com/pwnedlabs/cloud-security-labs",
           "homepage": "https://pwnedlabs.io",
           "description": "Hands-on cloud security labs, vulnerable-by-design environments and challenges for AWS, Azure, GCP and Kubernetes. Maintained by Pwned Labs.",
-          "stars": 16,
-          "forks": 4,
-          "openIssues": 2,
+          "stars": 26,
+          "forks": 7,
+          "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:05Z",
-          "updatedAt": "2026-10-30T01:15:18Z",
+          "updatedAt": "2026-10-30T18:37:20Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -611,7 +610,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 127.87
+          "score": 142.49
+        },
+        {
+          "id": 1437154386,
+          "name": "safeagents",
+          "fullName": "huggingface/safeagents",
+          "url": "https://github.com/huggingface/safeagents",
+          "homepage": "",
+          "description": "Safely run your agents using any coding harness",
+          "stars": 47,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Python",
+          "createdAt": "2026-10-28T13:52:42Z",
+          "updatedAt": "2026-10-30T17:50:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 122.9
         },
         {
           "id": 1438795468,
@@ -621,11 +645,11 @@
           "homepage": "https://pwnedlabs.io",
           "description": "Kubernetes pentesting: hands-on labs, tools, a learning path and training for penetration testers. Maintained by Pwned Labs.",
           "stars": 13,
-          "forks": 3,
-          "openIssues": 1,
+          "forks": 4,
+          "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:08Z",
-          "updatedAt": "2026-10-30T01:15:23Z",
+          "updatedAt": "2026-10-30T12:18:11Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -636,7 +660,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 120.76
+          "score": 120.17
         },
         {
           "id": 1437336548,
@@ -662,33 +686,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 120.51
-        },
-        {
-          "id": 1431578234,
-          "name": "agent-honeypot",
-          "fullName": "jamesalmeida/agent-honeypot",
-          "url": "https://github.com/jamesalmeida/agent-honeypot",
-          "homepage": "",
-          "description": "A honeypot and guestbook for AI agents that land on a machine they weren't invited to",
-          "stars": 55,
-          "forks": 6,
-          "openIssues": 1,
-          "language": "PowerShell",
-          "createdAt": "2026-10-23T21:44:38Z",
-          "updatedAt": "2026-10-30T04:00:28Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
-          ],
-          "score": 118.49
+          "score": 118.58
         },
         {
           "id": 1430535889,
@@ -715,18 +713,18 @@
           "score": 118.13
         },
         {
-          "id": 1437154386,
-          "name": "safeagents",
-          "fullName": "huggingface/safeagents",
-          "url": "https://github.com/huggingface/safeagents",
+          "id": 1431578234,
+          "name": "agent-honeypot",
+          "fullName": "jamesalmeida/agent-honeypot",
+          "url": "https://github.com/jamesalmeida/agent-honeypot",
           "homepage": "",
-          "description": "Safely run your agents using any coding harness",
-          "stars": 34,
-          "forks": 1,
+          "description": "A honeypot and guestbook for AI agents that land on a machine they weren't invited to",
+          "stars": 56,
+          "forks": 6,
           "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-10-28T13:52:42Z",
-          "updatedAt": "2026-10-30T06:01:26Z",
+          "language": "PowerShell",
+          "createdAt": "2026-10-23T21:44:38Z",
+          "updatedAt": "2026-10-30T17:06:35Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -735,9 +733,10 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
           ],
-          "score": 116.68
+          "score": 117.15
         },
         {
           "id": 1437333342,
@@ -763,7 +762,32 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 111.58
+          "score": 109.79
+        },
+        {
+          "id": 1435657543,
+          "name": "pandaward",
+          "fullName": "ratomirjovanovic/pandaward",
+          "url": "https://github.com/ratomirjovanovic/pandaward",
+          "homepage": "https://pandaward.dev",
+          "description": "Local, evidence-based application security assessment engine and Claude Code plugin",
+          "stars": 32,
+          "forks": 0,
+          "openIssues": 6,
+          "language": "Go",
+          "createdAt": "2026-10-27T11:48:43Z",
+          "updatedAt": "2026-10-30T12:36:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "网络安全"
+          ],
+          "score": 105.37
         },
         {
           "id": 1435656381,
@@ -772,12 +796,12 @@
           "url": "https://github.com/buybitart/get-the-hacker",
           "homepage": "https://www.bitart.pro/",
           "description": "Hunt WiFi threats silently. Catch the hackers.",
-          "stars": 15,
+          "stars": 16,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-27T11:47:36Z",
-          "updatedAt": "2026-10-30T05:07:39Z",
+          "updatedAt": "2026-10-30T16:36:21Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -787,7 +811,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 103.14
+          "score": 102.81
         },
         {
           "id": 1436214208,
@@ -801,7 +825,7 @@
           "openIssues": 8,
           "language": "C#",
           "createdAt": "2026-10-27T19:57:02Z",
-          "updatedAt": "2026-10-30T03:01:54Z",
+          "updatedAt": "2026-10-30T07:20:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -812,7 +836,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 99.19
+          "score": 97.4
         },
         {
           "id": 1433604125,
@@ -826,7 +850,7 @@
           "openIssues": 4,
           "language": "TypeScript",
           "createdAt": "2026-10-25T20:35:02Z",
-          "updatedAt": "2026-10-30T03:17:22Z",
+          "updatedAt": "2026-10-30T10:43:50Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -837,7 +861,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 96.97
+          "score": 95.04
         },
         {
           "id": 1432381270,
@@ -863,32 +887,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 91.91
-        },
-        {
-          "id": 1436053685,
-          "name": "check-pre-lancamento",
-          "fullName": "dantaspaulo/check-pre-lancamento",
-          "url": "https://github.com/dantaspaulo/check-pre-lancamento",
-          "homepage": "",
-          "description": "Skill para Claude, Codex, Cursor e outros agentes: check pré-lançamento do seu app com 20 checagens de segurança + 10 de prontidão (Lovable, Bolt, Replit, React, Next, Laravel, Django, Spring, Go…). Por Paulo Sérgio Dantas.",
-          "stars": 16,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-27T17:22:28Z",
-          "updatedAt": "2026-10-29T13:24:40Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 91.51
+          "score": 89.98
         }
       ]
     }
