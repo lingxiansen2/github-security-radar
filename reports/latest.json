@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-10-30T18:38:22.401Z",
+  "generatedAt": "2026-10-31T06:58:07.029Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-10-27",
-      "totalCandidates": 29,
+      "createdSince": "2026-10-28",
+      "totalCandidates": 28,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 6,
+          "fetched": 5,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
           "homepage": "https://watsonfind.icu",
           "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
-          "stars": 345,
-          "forks": 20,
+          "stars": 353,
+          "forks": 22,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-10-28T00:09:33Z",
-          "updatedAt": "2026-10-30T18:37:21Z",
+          "updatedAt": "2026-10-31T05:44:53Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -97,7 +97,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 185.18
+          "score": 184.23
         },
         {
           "id": 1437033043,
@@ -106,12 +106,12 @@
           "url": "https://github.com/jmanico/grim-prompter",
           "homepage": "",
           "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
-          "stars": 233,
-          "forks": 19,
+          "stars": 268,
+          "forks": 25,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-28T12:09:26Z",
-          "updatedAt": "2026-10-30T18:19:49Z",
+          "updatedAt": "2026-10-31T06:15:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -122,32 +122,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 165.39
-        },
-        {
-          "id": 1436644488,
-          "name": "recon-v1.7.0",
-          "fullName": "UltraSultanHonor/recon-v1.7.0",
-          "url": "https://github.com/UltraSultanHonor/recon-v1.7.0",
-          "homepage": "",
-          "description": "Published: 2026-10-28",
-          "stars": 102,
-          "forks": 17,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-28T05:31:26Z",
-          "updatedAt": "2026-10-30T17:55:56Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 141.22
+          "score": 166.06
         },
         {
           "id": 1438795433,
@@ -156,12 +131,12 @@
           "url": "https://github.com/pwnedlabs/cloud-security-labs",
           "homepage": "https://pwnedlabs.io",
           "description": "Hands-on cloud security labs, vulnerable-by-design environments and challenges for AWS, Azure, GCP and Kubernetes. Maintained by Pwned Labs.",
-          "stars": 26,
-          "forks": 7,
+          "stars": 32,
+          "forks": 9,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:05Z",
-          "updatedAt": "2026-10-30T18:37:20Z",
+          "updatedAt": "2026-10-31T02:35:09Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -173,7 +148,32 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 136.55
+          "score": 138.76
+        },
+        {
+          "id": 1436644488,
+          "name": "recon-v1.7.0",
+          "fullName": "UltraSultanHonor/recon-v1.7.0",
+          "url": "https://github.com/UltraSultanHonor/recon-v1.7.0",
+          "homepage": "",
+          "description": "Published: 2026-10-28",
+          "stars": 102,
+          "forks": 21,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-28T05:31:26Z",
+          "updatedAt": "2026-10-31T03:15:53Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 138.45
         },
         {
           "id": 1438795468,
@@ -182,12 +182,12 @@
           "url": "https://github.com/pwnedlabs/kubernetes-pentesting",
           "homepage": "https://pwnedlabs.io",
           "description": "Kubernetes pentesting: hands-on labs, tools, a learning path and training for penetration testers. Maintained by Pwned Labs.",
-          "stars": 13,
+          "stars": 16,
           "forks": 4,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:08Z",
-          "updatedAt": "2026-10-30T12:18:11Z",
+          "updatedAt": "2026-10-31T02:10:56Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -198,7 +198,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 114.22
+          "score": 114.56
         },
         {
           "id": 1437154386,
@@ -207,12 +207,12 @@
           "url": "https://github.com/huggingface/safeagents",
           "homepage": "",
           "description": "Safely run your agents using any coding harness",
-          "stars": 47,
-          "forks": 1,
+          "stars": 53,
+          "forks": 2,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-28T13:52:42Z",
-          "updatedAt": "2026-10-30T17:50:58Z",
+          "updatedAt": "2026-10-31T05:04:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -223,7 +223,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 112.01
+          "score": 112.9
+        },
+        {
+          "id": 1439545842,
+          "name": "synology-nas-cli",
+          "fullName": "akari-sora/synology-nas-cli",
+          "url": "https://github.com/akari-sora/synology-nas-cli",
+          "homepage": "https://gitlab.com/aa22396584/synology-nas-cli",
+          "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
+          "stars": 22,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-30T09:52:47Z",
+          "updatedAt": "2026-10-31T06:12:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 107.25
         },
         {
           "id": 1437336548,
@@ -249,7 +274,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 107.37
+          "score": 102.56
         },
         {
           "id": 1437333342,
@@ -275,46 +300,21 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 99.4
+          "score": 94.95
         },
         {
-          "id": 1435657543,
-          "name": "pandaward",
-          "fullName": "ratomirjovanovic/pandaward",
-          "url": "https://github.com/ratomirjovanovic/pandaward",
-          "homepage": "https://pandaward.dev",
-          "description": "Local, evidence-based application security assessment engine and Claude Code plugin",
-          "stars": 32,
-          "forks": 0,
-          "openIssues": 6,
-          "language": "Go",
-          "createdAt": "2026-10-27T11:48:43Z",
-          "updatedAt": "2026-10-30T12:36:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 91.57
-        },
-        {
-          "id": 1435656381,
-          "name": "get-the-hacker",
-          "fullName": "buybitart/get-the-hacker",
-          "url": "https://github.com/buybitart/get-the-hacker",
-          "homepage": "https://www.bitart.pro/",
-          "description": "Hunt WiFi threats silently. Catch the hackers.",
-          "stars": 16,
-          "forks": 2,
+          "id": 1438049152,
+          "name": "RE-Workstation",
+          "fullName": "SUNYT772/RE-Workstation",
+          "url": "https://github.com/SUNYT772/RE-Workstation",
+          "homepage": "",
+          "description": "逆向工作站｜一个 Skill，串起 22 个核心领域与 40 个 CTF 专题。覆盖 APK/iOS、二进制、JS 签名、固件、补丁差分、Web/API、恶意代码、LLM/Agent 与供应链安全，附 30 份经验与索引材料、技术报告与图表参考。按任务定位、跨领域组合，让逆向与安全研究有方法可查、证据可循、经验可复用。",
+          "stars": 10,
+          "forks": 5,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-27T11:47:36Z",
-          "updatedAt": "2026-10-30T16:36:21Z",
+          "language": "Unknown",
+          "createdAt": "2026-10-29T06:44:23Z",
+          "updatedAt": "2026-10-31T05:48:49Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -322,48 +322,25 @@
             1.08
           ],
           "tags": [
-            "网络安全"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 87.91
+          "score": 90.13
         },
         {
-          "id": 1436214208,
-          "name": "copy-2fa",
-          "fullName": "stanczykwyatt/copy-2fa",
-          "url": "https://github.com/stanczykwyatt/copy-2fa",
-          "homepage": "https://stanczykwyatt.github.io/copy-2fa/",
-          "description": "Copy 2FA codes on your Mac with one shortcut: verification codes from Mail and Messages plus a built-in TOTP/HOTP authenticator. Free, open source, no internet access.",
-          "stars": 14,
-          "forks": 5,
-          "openIssues": 8,
-          "language": "C#",
-          "createdAt": "2026-10-27T19:57:02Z",
-          "updatedAt": "2026-10-30T07:20:28Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 82.81
-        },
-        {
-          "id": 1439545842,
-          "name": "synology-nas-cli",
-          "fullName": "akari-sora/synology-nas-cli",
-          "url": "https://github.com/akari-sora/synology-nas-cli",
-          "homepage": "https://gitlab.com/aa22396584/synology-nas-cli",
-          "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
-          "stars": 7,
-          "forks": 0,
+          "id": 1438962112,
+          "name": "ctfd-warden",
+          "fullName": "0xZyyz/ctfd-warden",
+          "url": "https://github.com/0xZyyz/ctfd-warden",
+          "homepage": "",
+          "description": "Anti-cheat plugin for CTFd: tracks the activity of players and teams and catches AI agents, scripts, shared accounts, shared flags, flag brute-forcing and suspiciously fast solves.",
+          "stars": 8,
+          "forks": 1,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-30T09:52:47Z",
-          "updatedAt": "2026-10-30T16:50:22Z",
+          "createdAt": "2026-10-29T21:10:10Z",
+          "updatedAt": "2026-10-31T05:21:09Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -372,9 +349,37 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill"
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
           ],
-          "score": 79.9
+          "score": 77.59
+        },
+        {
+          "id": 1436924919,
+          "name": "Hakscan",
+          "fullName": "slayzbsss/Hakscan",
+          "url": "https://github.com/slayzbsss/Hakscan",
+          "homepage": "https://github.com/slayzbsss/hakscan-templates",
+          "description": "Fast, self-contained vulnerability scanner (single Go binary) for web apps, APKs and binaries - extensible with JSON and nuclei YAML templates.",
+          "stars": 14,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-10-28T10:24:08Z",
+          "updatedAt": "2026-10-31T02:35:01Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 73.24
         }
       ]
     },
@@ -386,7 +391,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-10-23",
+      "createdSince": "2026-10-24",
       "totalCandidates": 26,
       "queryStats": [
         {
@@ -394,35 +399,35 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1793385552"
+          "rateLimitReset": "1793429940"
         }
       ],
       "repositories": [
@@ -433,12 +438,12 @@
           "url": "https://github.com/hevnsnt/CVEngine",
           "homepage": "",
           "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
-          "stars": 531,
-          "forks": 84,
-          "openIssues": 11,
+          "stars": 542,
+          "forks": 88,
+          "openIssues": 10,
           "language": "Python",
           "createdAt": "2026-10-24T22:34:43Z",
-          "updatedAt": "2026-10-30T15:41:26Z",
+          "updatedAt": "2026-10-31T04:56:15Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -451,7 +456,7 @@
             "逆向 / 恶意代码",
             "漏洞研究 / 攻防"
           ],
-          "score": 208.45
+          "score": 207.24
         },
         {
           "id": 1436414244,
@@ -460,12 +465,12 @@
           "url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
           "homepage": "https://watsonfind.icu",
           "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
-          "stars": 345,
-          "forks": 20,
+          "stars": 353,
+          "forks": 22,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-10-28T00:09:33Z",
-          "updatedAt": "2026-10-30T18:37:21Z",
+          "updatedAt": "2026-10-31T05:44:53Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -477,7 +482,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 199.99
+          "score": 199.14
         },
         {
           "id": 1437033043,
@@ -486,12 +491,12 @@
           "url": "https://github.com/jmanico/grim-prompter",
           "homepage": "",
           "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
-          "stars": 233,
-          "forks": 19,
+          "stars": 268,
+          "forks": 25,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-28T12:09:26Z",
-          "updatedAt": "2026-10-30T18:19:49Z",
+          "updatedAt": "2026-10-31T06:15:18Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -502,36 +507,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 176.63
-        },
-        {
-          "id": 1431107565,
-          "name": "php2shell",
-          "fullName": "aarsaputra/php2shell",
-          "url": "https://github.com/aarsaputra/php2shell",
-          "homepage": "",
-          "description": "Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-access design",
-          "stars": 119,
-          "forks": 58,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-23T13:49:52Z",
-          "updatedAt": "2026-10-30T17:43:07Z",
-          "matchedProfiles": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1,
-            1.18
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 174.72
+          "score": 179.84
         },
         {
           "id": 1432360122,
@@ -540,12 +516,12 @@
           "url": "https://github.com/thomasunise/argus",
           "homepage": "https://thomasunise.com/argus",
           "description": "Open-source agentic security operations platform:",
-          "stars": 114,
+          "stars": 116,
           "forks": 11,
-          "openIssues": 4,
+          "openIssues": 5,
           "language": "Python",
           "createdAt": "2026-10-24T16:12:28Z",
-          "updatedAt": "2026-10-29T17:11:36Z",
+          "updatedAt": "2026-10-31T03:38:25Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -559,7 +535,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 166.52
+          "score": 164.8
         },
         {
           "id": 1436644488,
@@ -569,11 +545,11 @@
           "homepage": "",
           "description": "Published: 2026-10-28",
           "stars": 102,
-          "forks": 17,
+          "forks": 21,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-28T05:31:26Z",
-          "updatedAt": "2026-10-30T17:55:56Z",
+          "updatedAt": "2026-10-31T03:15:53Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -584,7 +560,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 153.83
+          "score": 153.08
         },
         {
           "id": 1438795433,
@@ -593,12 +569,12 @@
           "url": "https://github.com/pwnedlabs/cloud-security-labs",
           "homepage": "https://pwnedlabs.io",
           "description": "Hands-on cloud security labs, vulnerable-by-design environments and challenges for AWS, Azure, GCP and Kubernetes. Maintained by Pwned Labs.",
-          "stars": 26,
-          "forks": 7,
+          "stars": 32,
+          "forks": 9,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:05Z",
-          "updatedAt": "2026-10-30T18:37:20Z",
+          "updatedAt": "2026-10-31T02:35:09Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -610,7 +586,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 142.49
+          "score": 147.71
         },
         {
           "id": 1437154386,
@@ -619,12 +595,12 @@
           "url": "https://github.com/huggingface/safeagents",
           "homepage": "",
           "description": "Safely run your agents using any coding harness",
-          "stars": 47,
-          "forks": 1,
+          "stars": 53,
+          "forks": 2,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-28T13:52:42Z",
-          "updatedAt": "2026-10-30T17:50:58Z",
+          "updatedAt": "2026-10-31T05:04:03Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -635,7 +611,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 122.9
+          "score": 126.33
         },
         {
           "id": 1438795468,
@@ -644,12 +620,12 @@
           "url": "https://github.com/pwnedlabs/kubernetes-pentesting",
           "homepage": "https://pwnedlabs.io",
           "description": "Kubernetes pentesting: hands-on labs, tools, a learning path and training for penetration testers. Maintained by Pwned Labs.",
-          "stars": 13,
+          "stars": 16,
           "forks": 4,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:08Z",
-          "updatedAt": "2026-10-30T12:18:11Z",
+          "updatedAt": "2026-10-31T02:10:56Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -660,7 +636,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 120.17
+          "score": 123.5
         },
         {
           "id": 1437336548,
@@ -686,45 +662,21 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 118.58
+          "score": 116.52
         },
         {
-          "id": 1430535889,
-          "name": "php2shell-wordpress-rce",
-          "fullName": "Percivalll/php2shell-wordpress-rce",
-          "url": "https://github.com/Percivalll/php2shell-wordpress-rce",
-          "homepage": "",
-          "description": "php2shell WordPress RCE proof of concept (PHP 8.3.35 / WordPress 7.1.2)",
-          "stars": 35,
+          "id": 1439545842,
+          "name": "synology-nas-cli",
+          "fullName": "akari-sora/synology-nas-cli",
+          "url": "https://github.com/akari-sora/synology-nas-cli",
+          "homepage": "https://gitlab.com/aa22396584/synology-nas-cli",
+          "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
+          "stars": 22,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-23T03:33:27Z",
-          "updatedAt": "2026-10-26T23:14:46Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 118.13
-        },
-        {
-          "id": 1431578234,
-          "name": "agent-honeypot",
-          "fullName": "jamesalmeida/agent-honeypot",
-          "url": "https://github.com/jamesalmeida/agent-honeypot",
-          "homepage": "",
-          "description": "A honeypot and guestbook for AI agents that land on a machine they weren't invited to",
-          "stars": 56,
-          "forks": 6,
-          "openIssues": 1,
-          "language": "PowerShell",
-          "createdAt": "2026-10-23T21:44:38Z",
-          "updatedAt": "2026-10-30T17:06:35Z",
+          "createdAt": "2026-10-30T09:52:47Z",
+          "updatedAt": "2026-10-31T06:12:58Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -733,10 +685,9 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "逆向 / 恶意代码"
+            "AI 自动化 / Skill"
           ],
-          "score": 117.15
+          "score": 111.61
         },
         {
           "id": 1437333342,
@@ -762,7 +713,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 109.79
+          "score": 107.88
         },
         {
           "id": 1435657543,
@@ -773,10 +724,10 @@
           "description": "Local, evidence-based application security assessment engine and Claude Code plugin",
           "stars": 32,
           "forks": 0,
-          "openIssues": 6,
+          "openIssues": 15,
           "language": "Go",
           "createdAt": "2026-10-27T11:48:43Z",
-          "updatedAt": "2026-10-30T12:36:47Z",
+          "updatedAt": "2026-10-30T21:16:16Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -787,7 +738,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 105.37
+          "score": 103.47
         },
         {
           "id": 1435656381,
@@ -796,12 +747,12 @@
           "url": "https://github.com/buybitart/get-the-hacker",
           "homepage": "https://www.bitart.pro/",
           "description": "Hunt WiFi threats silently. Catch the hackers.",
-          "stars": 16,
+          "stars": 17,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-27T11:47:36Z",
-          "updatedAt": "2026-10-30T16:36:21Z",
+          "updatedAt": "2026-10-31T00:34:09Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -811,7 +762,59 @@
           "tags": [
             "网络安全"
           ],
-          "score": 102.81
+          "score": 102.27
+        },
+        {
+          "id": 1438049152,
+          "name": "RE-Workstation",
+          "fullName": "SUNYT772/RE-Workstation",
+          "url": "https://github.com/SUNYT772/RE-Workstation",
+          "homepage": "",
+          "description": "逆向工作站｜一个 Skill，串起 22 个核心领域与 40 个 CTF 专题。覆盖 APK/iOS、二进制、JS 签名、固件、补丁差分、Web/API、恶意代码、LLM/Agent 与供应链安全，附 30 份经验与索引材料、技术报告与图表参考。按任务定位、跨领域组合，让逆向与安全研究有方法可查、证据可循、经验可复用。",
+          "stars": 10,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-10-29T06:44:23Z",
+          "updatedAt": "2026-10-31T05:48:49Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 100.88
+        },
+        {
+          "id": 1433269851,
+          "name": "kodeblue",
+          "fullName": "Problem99-io/kodeblue",
+          "url": "https://github.com/Problem99-io/kodeblue",
+          "homepage": "",
+          "description": "SOC, incident response and SecOps for Linux servers in one agent: learns each host, watches it with zero-token sensors, triages with a small model, and contains attacks under a root-owned policy. Optional hub for fleets.",
+          "stars": 25,
+          "forks": 3,
+          "openIssues": 6,
+          "language": "Go",
+          "createdAt": "2026-10-25T14:13:18Z",
+          "updatedAt": "2026-10-31T05:02:31Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 98.42
         },
         {
           "id": 1436214208,
@@ -836,7 +839,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 97.4
+          "score": 95.49
         },
         {
           "id": 1433604125,
@@ -850,7 +853,7 @@
           "openIssues": 4,
           "language": "TypeScript",
           "createdAt": "2026-10-25T20:35:02Z",
-          "updatedAt": "2026-10-30T10:43:50Z",
+          "updatedAt": "2026-10-30T20:00:17Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -861,7 +864,7 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 95.04
+          "score": 92.98
         },
         {
           "id": 1432381270,
@@ -887,7 +890,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 89.98
+          "score": 87.92
         }
       ]
     }
