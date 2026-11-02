@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-11-02T07:39:12.355Z",
+  "generatedAt": "2026-11-02T22:20:04.566Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-10-30",
-      "totalCandidates": 22,
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 0,
+          "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 1,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/akari-sora/synology-nas-cli",
           "homepage": "https://gitlab.com/aa22396584/synology-nas-cli",
           "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
-          "stars": 70,
+          "stars": 76,
           "forks": 9,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-30T09:52:47Z",
-          "updatedAt": "2026-11-02T06:12:01Z",
+          "updatedAt": "2026-11-02T12:41:54Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,21 +96,48 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 125.15
+          "score": 126.42
         },
         {
-          "id": 1441365531,
-          "name": "Awesome-Cybersecurity-Application-Development-Platform",
-          "fullName": "ishandutta2007/Awesome-Cybersecurity-Application-Development-Platform",
-          "url": "https://github.com/ishandutta2007/Awesome-Cybersecurity-Application-Development-Platform",
+          "id": 1442729194,
+          "name": "autorecon",
+          "fullName": "shencah/autorecon",
+          "url": "https://github.com/shencah/autorecon",
           "homepage": "",
-          "description": "Top Cybersecurity Application Development Platform (Opensource)  Star if you like it! ",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-11-01T00:32:03Z",
-          "updatedAt": "2026-11-01T23:11:32Z",
+          "description": "Universal frontend endpoint recon tool - crawls JS, extracts APIs, probes them, highlights login/crypto logic",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-02T08:58:01Z",
+          "updatedAt": "2026-11-02T21:29:07Z",
+          "matchedProfiles": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1,
+            1.18
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队"
+          ],
+          "score": 97.03
+        },
+        {
+          "id": 1442744699,
+          "name": "HI-Cyber-Con-2026-CTF",
+          "fullName": "ushoxa/HI-Cyber-Con-2026-CTF",
+          "url": "https://github.com/ushoxa/HI-Cyber-Con-2026-CTF",
+          "homepage": "",
+          "description": "HI Cyber Con 2026 / HI CyberCon CTF writeups, solutions and solver scripts by Fr4ctur3 (Only_AI), 2nd place. Hidden Investigations challenges: web, crypto, reverse engineering, pwn, forensics, steganography, OSINT, hardware, blockchain and AI/LLM.",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Assembly",
+          "createdAt": "2026-11-02T09:13:41Z",
+          "updatedAt": "2026-11-02T17:16:30Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -118,9 +145,90 @@
             1.08
           ],
           "tags": [
-            "网络安全"
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
           ],
-          "score": 74.26
+          "score": 88.91
+        },
+        {
+          "id": 1442324588,
+          "name": "awesome-reverse-engineering",
+          "fullName": "vvs1off/awesome-reverse-engineering",
+          "url": "https://github.com/vvs1off/awesome-reverse-engineering",
+          "homepage": "",
+          "description": "A curated list of reverse engineering and binary analysis resources: disassemblers, debuggers, malware analysis, CTFs, books and more.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-11-01T23:41:22Z",
+          "updatedAt": "2026-11-02T21:20:50Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 77.62
+        },
+        {
+          "id": 1442142531,
+          "name": "Kokino",
+          "fullName": "zeroscience/Kokino",
+          "url": "https://github.com/zeroscience/Kokino",
+          "homepage": "",
+          "description": "Kokino Forensic Toolkit (Kokino FTK): open-source disk forensics in your browser. E01, raw and VHD images; NTFS, FAT, exFAT and ext2/3/4, live and deleted. Windows and Linux artifacts, browser history, carving, picture forensics, hash sets, anti-forensics scoring and court-ready reports.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-11-01T19:02:27Z",
+          "updatedAt": "2026-11-02T19:56:41Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 74.14
+        },
+        {
+          "id": 1442526825,
+          "name": "Tego",
+          "fullName": "Attention-Span-AI/Tego",
+          "url": "https://github.com/Attention-Span-AI/Tego",
+          "homepage": "",
+          "description": "Run AI coding agents under rules you write. Linux enforces the files, programs and hosts an agent may use, and every run leaves a hash-chained record.",
+          "stars": 6,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Go",
+          "createdAt": "2026-11-02T04:59:42Z",
+          "updatedAt": "2026-11-02T21:06:49Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 73.74
         },
         {
           "id": 1439979446,
@@ -129,12 +237,12 @@
           "url": "https://github.com/Alucard0x1/cve-2026-98432",
           "homepage": "",
           "description": "Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
-          "stars": 10,
+          "stars": 11,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-30T16:36:43Z",
-          "updatedAt": "2026-11-01T17:07:04Z",
+          "updatedAt": "2026-11-02T20:36:28Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -145,7 +253,110 @@
             "通用安全",
             "漏洞研究 / 攻防"
           ],
-          "score": 74.1
+          "score": 72.95
+        },
+        {
+          "id": 1443362275,
+          "name": "VEDAD-Terminal",
+          "fullName": "tvedad/VEDAD-Terminal",
+          "url": "https://github.com/tvedad/VEDAD-Terminal",
+          "homepage": "",
+          "description": "Self-hosted OSINT dashboard: 438+ keyless recon tools, a live 3D threat globe, and batch/case investigation workflows. No API keys required.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-02T18:55:26Z",
+          "updatedAt": "2026-11-02T20:57:13Z",
+          "matchedProfiles": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.08,
+            1.18
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "AI 自动化 / Skill"
+          ],
+          "score": 71.71
+        },
+        {
+          "id": 1441785052,
+          "name": "WIDS-ML-Deauth-Detector",
+          "fullName": "MawiraVictor/WIDS-ML-Deauth-Detector",
+          "url": "https://github.com/MawiraVictor/WIDS-ML-Deauth-Detector",
+          "homepage": "",
+          "description": "A Machine Learning-based Wireless Intrusion Detection and Prevention System (WIDS/WIPS). Built in Python, it uses a Random Forest classifier trained on the AWID3 dataset to detect 802.11 Deauthentication Flood attacks in real-time and automatically blocks the offending MAC addresses.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-01T12:15:16Z",
+          "updatedAt": "2026-11-02T16:44:26Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 69.36
+        },
+        {
+          "id": 1441365531,
+          "name": "Awesome-Cybersecurity-Application-Development-Platform",
+          "fullName": "ishandutta2007/Awesome-Cybersecurity-Application-Development-Platform",
+          "url": "https://github.com/ishandutta2007/Awesome-Cybersecurity-Application-Development-Platform",
+          "homepage": "",
+          "description": "Top Cybersecurity Application Development Platform (Opensource)  Star if you like it! ",
+          "stars": 5,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Unknown",
+          "createdAt": "2026-11-01T00:32:03Z",
+          "updatedAt": "2026-11-02T10:21:44Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全"
+          ],
+          "score": 69.11
+        },
+        {
+          "id": 1442572655,
+          "name": "personal-siem-lab",
+          "fullName": "camilamorei/personal-siem-lab",
+          "url": "https://github.com/camilamorei/personal-siem-lab",
+          "homepage": "",
+          "description": "Splunk SIEM lab that detects brute force and password spraying attacks on a Flask login app.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "CSS",
+          "createdAt": "2026-11-02T06:03:45Z",
+          "updatedAt": "2026-11-02T10:57:09Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "防守 / 蓝队"
+          ],
+          "score": 66.87
         },
         {
           "id": 1440672729,
@@ -171,211 +382,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 71.35
-        },
-        {
-          "id": 1441785052,
-          "name": "WIDS-ML-Deauth-Detector",
-          "fullName": "MawiraVictor/WIDS-ML-Deauth-Detector",
-          "url": "https://github.com/MawiraVictor/WIDS-ML-Deauth-Detector",
-          "homepage": "",
-          "description": "A Machine Learning-based Wireless Intrusion Detection and Prevention System (WIDS/WIPS). Built in Python, it uses a Random Forest classifier trained on the AWID3 dataset to detect 802.11 Deauthentication Flood attacks in real-time and automatically blocks the offending MAC addresses.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-11-01T12:15:16Z",
-          "updatedAt": "2026-11-01T19:14:55Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 70.77
-        },
-        {
-          "id": 1442572655,
-          "name": "personal-siem-lab",
-          "fullName": "camilamorei/personal-siem-lab",
-          "url": "https://github.com/camilamorei/personal-siem-lab",
-          "homepage": "",
-          "description": "Splunk SIEM lab that detects brute force and password spraying attacks on a Flask login app.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "CSS",
-          "createdAt": "2026-11-02T06:03:45Z",
-          "updatedAt": "2026-11-02T06:52:53Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "防守 / 蓝队"
-          ],
-          "score": 66.34
-        },
-        {
-          "id": 1441594341,
-          "name": "ruodao-guard-desktop",
-          "fullName": "ruodaoai/ruodao-guard-desktop",
-          "url": "https://github.com/ruodaoai/ruodao-guard-desktop",
-          "homepage": "https://ruodao.com",
-          "description": "若道安全卫士 桌面版 — 本地优先的 Windows 安全与加速工具箱：电脑体检 / 木马查杀 / 垃圾清理 / 软件管家 / 驱动管理 / 加速中心 / 系统修复 / AI 安全助手（Electron + React + TypeScript）",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-11-01T07:44:02Z",
-          "updatedAt": "2026-11-02T03:23:03Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 59.16
-        },
-        {
-          "id": 1439198547,
-          "name": "dai-ip-viet-nam",
-          "fullName": "tnd-vn/dai-ip-viet-nam",
-          "url": "https://github.com/tnd-vn/dai-ip-viet-nam",
-          "homepage": "https://www.tnd.vn/vps/",
-          "description": "Dải IP Việt Nam (IPv4, IPv6) cập nhật hàng tuần - danh sách địa chỉ IP Việt Nam để chỉ cho phép (allow) IP Việt Nam truy cập, chặn IP nước ngoài: iptables/ipset, nftables, nginx, apache, CSF, MikroTik, Windows. Tổng hợp bởi TND.",
-          "stars": 5,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "RouterOS Script",
-          "createdAt": "2026-10-30T02:46:00Z",
-          "updatedAt": "2026-10-31T12:49:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 56.87
-        },
-        {
-          "id": 1441382137,
-          "name": "LUTCTF-Toolkit",
-          "fullName": "123wang388/LUTCTF-Toolkit",
-          "url": "https://github.com/123wang388/LUTCTF-Toolkit",
-          "homepage": "",
-          "description": "LUT 信息安全协会 · 奇点战队离线 CTF 工具合集：49 入口 + 原生合并 EBCTFCodeBox 878 函数 + 海丰杯 2025 实战",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-11-01T01:08:03Z",
-          "updatedAt": "2026-11-01T02:23:23Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 55.06
-        },
-        {
-          "id": 1440869922,
-          "name": "reashield",
-          "fullName": "HMAKT99/reashield",
-          "url": "https://github.com/HMAKT99/reashield",
-          "homepage": "",
-          "description": "A shield against reverse-engineering tactics — including REA — for your own shipped JavaScript. Moves secrets server-side, seals crown jewels, collapses the module graph. Raises cost and defeats most automated attempts; never claims the impossible.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-10-31T13:11:16Z",
-          "updatedAt": "2026-11-02T06:12:28Z",
-          "matchedProfiles": [
-            "防守 / 蓝队"
-          ],
-          "profileWeights": [
-            1.12
-          ],
-          "tags": [
-            "防守 / 蓝队",
-            "AI 自动化 / Skill"
-          ],
-          "score": 52.27
-        },
-        {
-          "id": 1440789764,
-          "name": "password-checker",
-          "fullName": "noreen16/password-checker",
-          "url": "https://github.com/noreen16/password-checker",
-          "homepage": "https://password-checker-3eerm8a4yjaxdxoqcsacxw.streamlit.app/",
-          "description": "A secure and interactive web application built with Python and Streamlit to evaluate password strength in real-time with multi-criteria validation.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-31T11:27:44Z",
-          "updatedAt": "2026-10-31T17:32:34Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "逆向 / 恶意代码"
-          ],
-          "score": 49.73
-        },
-        {
-          "id": 1440091775,
-          "name": "netsec-toolkit",
-          "fullName": "feelyounear/netsec-toolkit",
-          "url": "https://github.com/feelyounear/netsec-toolkit",
-          "homepage": "",
-          "description": "20-tool network security toolkit — recon, OSINT & exploitation",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-30T18:25:25Z",
-          "updatedAt": "2026-10-31T21:13:18Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 49.34
+          "score": 66.05
         }
       ]
     },
@@ -388,71 +395,45 @@
         "maxItems": 18
       },
       "createdSince": "2026-10-26",
-      "totalCandidates": 25,
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 3,
+          "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1793605205"
+          "rateLimitReset": "1793658056"
         }
       ],
       "repositories": [
-        {
-          "id": 1436414244,
-          "name": "watson-AI-osint-all-in-one",
-          "fullName": "vaishantsah/watson-AI-osint-all-in-one",
-          "url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
-          "homepage": "https://watsonfind.icu",
-          "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
-          "stars": 374,
-          "forks": 38,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-10-28T00:09:33Z",
-          "updatedAt": "2026-11-02T07:31:57Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 195.9
-        },
         {
           "id": 1437033043,
           "name": "grim-prompter",
@@ -460,12 +441,12 @@
           "url": "https://github.com/jmanico/grim-prompter",
           "homepage": "",
           "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
-          "stars": 338,
+          "stars": 348,
           "forks": 30,
           "openIssues": 1,
           "language": "Unknown",
           "createdAt": "2026-10-28T12:09:26Z",
-          "updatedAt": "2026-11-02T06:39:02Z",
+          "updatedAt": "2026-11-02T19:58:51Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -476,7 +457,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 179.31
+          "score": 177.79
         },
         {
           "id": 1438795433,
@@ -485,12 +466,12 @@
           "url": "https://github.com/pwnedlabs/cloud-security-labs",
           "homepage": "https://pwnedlabs.io",
           "description": "Hands-on cloud security labs, vulnerable-by-design environments and challenges for AWS, Azure, GCP and Kubernetes. Maintained by Pwned Labs.",
-          "stars": 41,
+          "stars": 45,
           "forks": 11,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:05Z",
-          "updatedAt": "2026-11-02T04:46:51Z",
+          "updatedAt": "2026-11-02T20:51:02Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -502,32 +483,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 147.26
-        },
-        {
-          "id": 1436644488,
-          "name": "recon-v1.7.0",
-          "fullName": "UltraSultanHonor/recon-v1.7.0",
-          "url": "https://github.com/UltraSultanHonor/recon-v1.7.0",
-          "homepage": "",
-          "description": "Published: 2026-10-28",
-          "stars": 102,
-          "forks": 22,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-10-28T05:31:26Z",
-          "updatedAt": "2026-11-01T00:37:07Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队"
-          ],
-          "score": 145.8
+          "score": 147.3
         },
         {
           "id": 1439545842,
@@ -536,12 +492,12 @@
           "url": "https://github.com/akari-sora/synology-nas-cli",
           "homepage": "https://gitlab.com/aa22396584/synology-nas-cli",
           "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
-          "stars": 70,
+          "stars": 76,
           "forks": 9,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-30T09:52:47Z",
-          "updatedAt": "2026-11-02T06:12:01Z",
+          "updatedAt": "2026-11-02T12:41:54Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -552,7 +508,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 139.55
+          "score": 139.35
         },
         {
           "id": 1437154386,
@@ -561,12 +517,12 @@
           "url": "https://github.com/huggingface/safeagents",
           "homepage": "",
           "description": "Safely run your agents using any coding harness",
-          "stars": 61,
+          "stars": 62,
           "forks": 2,
           "openIssues": 1,
           "language": "Python",
           "createdAt": "2026-10-28T13:52:42Z",
-          "updatedAt": "2026-11-02T06:05:02Z",
+          "updatedAt": "2026-11-02T16:21:24Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -577,7 +533,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 122.32
+          "score": 120.46
         },
         {
           "id": 1438795468,
@@ -586,12 +542,12 @@
           "url": "https://github.com/pwnedlabs/kubernetes-pentesting",
           "homepage": "https://pwnedlabs.io",
           "description": "Kubernetes pentesting: hands-on labs, tools, a learning path and training for penetration testers. Maintained by Pwned Labs.",
-          "stars": 19,
+          "stars": 20,
           "forks": 4,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T18:14:08Z",
-          "updatedAt": "2026-11-02T04:47:07Z",
+          "updatedAt": "2026-11-02T10:53:43Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -602,7 +558,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 119.33
+          "score": 118.08
         },
         {
           "id": 1435657543,
@@ -613,7 +569,7 @@
           "description": "Local, evidence-based application security assessment engine and Claude Code plugin",
           "stars": 66,
           "forks": 0,
-          "openIssues": 5,
+          "openIssues": 36,
           "language": "Go",
           "createdAt": "2026-10-27T11:48:43Z",
           "updatedAt": "2026-11-02T07:37:57Z",
@@ -627,7 +583,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 113.93
+          "score": 111.66
         },
         {
           "id": 1438049152,
@@ -637,7 +593,7 @@
           "homepage": "",
           "description": "逆向工作站｜一个 Skill，串起 22 个核心领域与 40 个 CTF 专题。覆盖 APK/iOS、二进制、JS 签名、固件、补丁差分、Web/API、恶意代码、LLM/Agent 与供应链安全，附 30 份经验与索引材料、技术报告与图表参考。按任务定位、跨领域组合，让逆向与安全研究有方法可查、证据可循、经验可复用。",
           "stars": 15,
-          "forks": 6,
+          "forks": 7,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-10-29T06:44:23Z",
@@ -653,7 +609,31 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 103.47
+          "score": 101.85
+        },
+        {
+          "id": 1442729194,
+          "name": "autorecon",
+          "fullName": "shencah/autorecon",
+          "url": "https://github.com/shencah/autorecon",
+          "homepage": "",
+          "description": "Universal frontend endpoint recon tool - crawls JS, extracts APIs, probes them, highlights login/crypto logic",
+          "stars": 7,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-02T08:58:01Z",
+          "updatedAt": "2026-11-02T21:29:07Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 100.29
         },
         {
           "id": 1437336548,
@@ -679,7 +659,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 100.85
+          "score": 98.4
         },
         {
           "id": 1438962112,
@@ -705,7 +685,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 99.84
+          "score": 97.57
         },
         {
           "id": 1437333342,
@@ -731,7 +711,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 94.36
+          "score": 92.08
         },
         {
           "id": 1435656381,
@@ -755,7 +735,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 94.13
+          "score": 91.68
         },
         {
           "id": 1438537413,
@@ -783,7 +763,34 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 92.6
+          "score": 89.92
+        },
+        {
+          "id": 1436924919,
+          "name": "Hakscan",
+          "fullName": "slayzbsss/Hakscan",
+          "url": "https://github.com/slayzbsss/Hakscan",
+          "homepage": "https://github.com/slayzbsss/hakscan-templates",
+          "description": "Fast, self-contained vulnerability scanner (single Go binary) for web apps, APKs and binaries - extensible with JSON and nuclei YAML templates.",
+          "stars": 16,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-10-28T10:24:08Z",
+          "updatedAt": "2026-11-02T10:07:53Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 80.64
         },
         {
           "id": 1436053685,
@@ -808,7 +815,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 80.28
+          "score": 78.01
         },
         {
           "id": 1435270490,
@@ -833,7 +840,32 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 79.78
+          "score": 77.5
+        },
+        {
+          "id": 1438141596,
+          "name": "genpark-agent-exfiltration-canary-leak-detector-skill",
+          "fullName": "Alpha-Park/genpark-agent-exfiltration-canary-leak-detector-skill",
+          "url": "https://github.com/Alpha-Park/genpark-agent-exfiltration-canary-leak-detector-skill",
+          "homepage": "",
+          "description": "Agent exfiltration canary leak detector with HMAC token generation, entropy analysis, and outgoing outbound channel interception.",
+          "stars": 7,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-29T08:26:40Z",
+          "updatedAt": "2026-10-31T00:17:45Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 71.34
         },
         {
           "id": 1438140079,
@@ -859,32 +891,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 73.79
-        },
-        {
-          "id": 1438140874,
-          "name": "genpark-agent-exfiltration-canary-leak-detector-skill",
-          "fullName": "alphaparkinc/genpark-agent-exfiltration-canary-leak-detector-skill",
-          "url": "https://github.com/alphaparkinc/genpark-agent-exfiltration-canary-leak-detector-skill",
-          "homepage": "",
-          "description": "Agent exfiltration canary leak detector with HMAC token generation, entropy analysis, and outgoing outbound channel interception.",
-          "stars": 7,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-10-29T08:25:56Z",
-          "updatedAt": "2026-10-31T00:17:41Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 73.79
+          "score": 71.33
         }
       ]
     }
