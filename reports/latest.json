@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-11-04T20:26:14.670Z",
+  "generatedAt": "2026-11-05T07:53:32.030Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-11-01",
-      "totalCandidates": 25,
+      "createdSince": "2026-11-02",
+      "totalCandidates": 21,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 9,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 4,
+          "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/Balanov/skein",
           "homepage": "",
           "description": "Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection.",
-          "stars": 263,
+          "stars": 264,
           "forks": 1,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-11-02T23:57:05Z",
-          "updatedAt": "2026-11-04T07:25:05Z",
+          "updatedAt": "2026-11-05T02:17:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -96,7 +96,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 158.83
+          "score": 154.79
         },
         {
           "id": 1443265912,
@@ -105,12 +105,12 @@
           "url": "https://github.com/yorkeccak/globalhackmap",
           "homepage": "https://globalhackmap.vercel.app",
           "description": "Every hack, exploit and breach, live: new vulnerabilities, active exploits and breaches on one globe, with sources and one-click fixes.",
-          "stars": 56,
-          "forks": 20,
+          "stars": 67,
+          "forks": 23,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-11-02T17:22:31Z",
-          "updatedAt": "2026-11-04T20:06:38Z",
+          "updatedAt": "2026-11-05T07:49:54Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -121,7 +121,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 141.02
+          "score": 142.26
         },
         {
           "id": 1442986388,
@@ -130,12 +130,12 @@
           "url": "https://github.com/0x45dd/pwner",
           "homepage": "https://www.pwner.si",
           "description": "Autonomous agentic network penetration-testing tool (authorized use only)",
-          "stars": 43,
-          "forks": 4,
+          "stars": 66,
+          "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-02T13:15:15Z",
-          "updatedAt": "2026-11-04T20:14:33Z",
+          "updatedAt": "2026-11-05T07:43:15Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -147,7 +147,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 114.21
+          "score": 121.85
         },
         {
           "id": 1442729194,
@@ -174,7 +174,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 90.93
+          "score": 86.05
         },
         {
           "id": 1442744699,
@@ -202,34 +202,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 81.25
-        },
-        {
-          "id": 1442324588,
-          "name": "awesome-reverse-engineering",
-          "fullName": "vvs1off/awesome-reverse-engineering",
-          "url": "https://github.com/vvs1off/awesome-reverse-engineering",
-          "homepage": "",
-          "description": "A curated list of reverse engineering and binary analysis resources: disassemblers, debuggers, malware analysis, CTFs, books and more.",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-11-01T23:41:22Z",
-          "updatedAt": "2026-11-04T18:31:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 69.71
+          "score": 76.78
         },
         {
           "id": 1442526825,
@@ -238,12 +211,12 @@
           "url": "https://github.com/Attention-Span-AI/Tego",
           "homepage": "",
           "description": "Run AI coding agents under rules you write. Linux enforces the files, programs and hosts an agent may use, and every run leaves a hash-chained record.",
-          "stars": 8,
+          "stars": 9,
           "forks": 1,
-          "openIssues": 1,
+          "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-11-02T04:59:42Z",
-          "updatedAt": "2026-11-04T20:21:35Z",
+          "updatedAt": "2026-11-05T02:00:17Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -254,7 +227,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 66.89
+          "score": 66.27
         },
         {
           "id": 1445351420,
@@ -268,7 +241,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-04T08:19:26Z",
-          "updatedAt": "2026-11-04T10:00:41Z",
+          "updatedAt": "2026-11-05T06:39:01Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -280,7 +253,58 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 66.56
+          "score": 62.09
+        },
+        {
+          "id": 1446065558,
+          "name": "agentaudit",
+          "fullName": "sultanbajamil/agentaudit",
+          "url": "https://github.com/sultanbajamil/agentaudit",
+          "homepage": "",
+          "description": "Automated robustness testing & guardrail verification engine for tool-calling AI agents (OWASP LLM Top 10 & MITRE ATLAS)",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-04T18:48:33Z",
+          "updatedAt": "2026-11-05T01:10:14Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 61.86
+        },
+        {
+          "id": 1445151327,
+          "name": "lock-every-bit",
+          "fullName": "roisantoso-id/lock-every-bit",
+          "url": "https://github.com/roisantoso-id/lock-every-bit",
+          "homepage": "https://skills.macloudai.com/",
+          "description": "Server & payment security skills for indie developers — by MaCloud",
+          "stars": 3,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Shell",
+          "createdAt": "2026-11-04T04:19:40Z",
+          "updatedAt": "2026-11-05T07:34:13Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "网络安全"
+          ],
+          "score": 61.84
         },
         {
           "id": 1444824693,
@@ -309,69 +333,21 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 64.06
+          "score": 59.59
         },
         {
-          "id": 1441733104,
-          "name": "ThreatLens-API",
-          "fullName": "kobaw23214/ThreatLens-API",
-          "url": "https://github.com/kobaw23214/ThreatLens-API",
+          "id": 1442686181,
+          "name": "kanareika",
+          "fullName": "mikekosulin/kanareika",
+          "url": "https://github.com/mikekosulin/kanareika",
           "homepage": "",
-          "description": "威胁情报实体提取平台:NER 实体提取 / MITRE ATT&CK 识别 / 联网情报扩线。Threat Intelligence Entity Extraction: NER, ATT&CK mapping, TI enrichment (FastAPI/Vue3/Docker)",
+          "description": "Agentless, read-only Linux server security audit over SSH: vulnerability scanning (CVE, Trivy, KEV, EPSS), patch prioritization, SSH access & exposure checks, host health. Single Go binary with dashboard and MCP server for AI agents.",
           "stars": 6,
-          "forks": 1,
+          "forks": 0,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-11-01T11:07:23Z",
-          "updatedAt": "2026-11-04T20:24:22Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 62.64
-        },
-        {
-          "id": 1441365531,
-          "name": "Awesome-Cybersecurity-Application-Development-Platform",
-          "fullName": "ishandutta2007/Awesome-Cybersecurity-Application-Development-Platform",
-          "url": "https://github.com/ishandutta2007/Awesome-Cybersecurity-Application-Development-Platform",
-          "homepage": "",
-          "description": "Top Cybersecurity Application Development Platform (Opensource)  Star if you like it! ",
-          "stars": 5,
-          "forks": 1,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-11-01T00:32:03Z",
-          "updatedAt": "2026-11-02T10:21:44Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全"
-          ],
-          "score": 58.89
-        },
-        {
-          "id": 1442142531,
-          "name": "Kokino",
-          "fullName": "zeroscience/Kokino",
-          "url": "https://github.com/zeroscience/Kokino",
-          "homepage": "",
-          "description": "Kokino Forensic Toolkit (Kokino FTK): open-source disk forensics in your browser. E01, raw and VHD images; NTFS, FAT, exFAT and ext2/3/4, live and deleted. Windows and Linux artifacts, browser history, carving, picture forensics, hash sets, anti-forensics scoring and court-ready reports.",
-          "stars": 6,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-11-01T19:02:27Z",
-          "updatedAt": "2026-11-04T20:05:17Z",
+          "language": "Go",
+          "createdAt": "2026-11-02T08:13:49Z",
+          "updatedAt": "2026-11-05T02:58:51Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -380,9 +356,37 @@
           ],
           "tags": [
             "通用安全",
-            "防守 / 蓝队"
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码",
+            "漏洞研究 / 攻防",
+            "网络安全"
           ],
-          "score": 58
+          "score": 54.12
+        },
+        {
+          "id": 1442639555,
+          "name": "launch-doctor",
+          "fullName": "namaysingh3925/launch-doctor",
+          "url": "https://github.com/namaysingh3925/launch-doctor",
+          "homepage": "",
+          "description": " A pre-launch checkup for vibe-coded apps. One command grades your app A–F on leaked keys, open databases, fake-able payments, spam-folder emails, surprise AI bills and more — with copy-paste fix prompts for Claude Code, Cursor, Lovable & Bolt.",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 2,
+          "language": "TypeScript",
+          "createdAt": "2026-11-02T07:22:18Z",
+          "updatedAt": "2026-11-05T05:46:00Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 50.53
         }
       ]
     },
@@ -394,71 +398,46 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-10-28",
-      "totalCandidates": 26,
+      "createdSince": "2026-10-29",
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 5,
+          "fetched": 4,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1793824026"
+          "rateLimitReset": "1793865264"
         }
       ],
       "repositories": [
-        {
-          "id": 1437033043,
-          "name": "grim-prompter",
-          "fullName": "jmanico/grim-prompter",
-          "url": "https://github.com/jmanico/grim-prompter",
-          "homepage": "",
-          "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
-          "stars": 361,
-          "forks": 30,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-10-28T12:09:26Z",
-          "updatedAt": "2026-11-04T18:06:36Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 172.89
-        },
         {
           "id": 1443615366,
           "name": "skein",
@@ -466,12 +445,12 @@
           "url": "https://github.com/Balanov/skein",
           "homepage": "",
           "description": "Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection.",
-          "stars": 263,
+          "stars": 264,
           "forks": 1,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-11-02T23:57:05Z",
-          "updatedAt": "2026-11-04T07:25:05Z",
+          "updatedAt": "2026-11-05T02:17:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -482,7 +461,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 168.01
+          "score": 166.34
         },
         {
           "id": 1443265912,
@@ -491,12 +470,12 @@
           "url": "https://github.com/yorkeccak/globalhackmap",
           "homepage": "https://globalhackmap.vercel.app",
           "description": "Every hack, exploit and breach, live: new vulnerabilities, active exploits and breaches on one globe, with sources and one-click fixes.",
-          "stars": 56,
-          "forks": 20,
+          "stars": 67,
+          "forks": 23,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-11-02T17:22:31Z",
-          "updatedAt": "2026-11-04T20:06:38Z",
+          "updatedAt": "2026-11-05T07:49:54Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -507,7 +486,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 152.4
+          "score": 156.19
         },
         {
           "id": 1438795433,
@@ -533,7 +512,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 141.32
+          "score": 139.23
         },
         {
           "id": 1439545842,
@@ -542,12 +521,12 @@
           "url": "https://github.com/akari-sora/synology-nas-cli",
           "homepage": "https://gitlab.com/aa22396584/synology-nas-cli",
           "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
-          "stars": 91,
+          "stars": 94,
           "forks": 10,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-10-30T09:52:47Z",
-          "updatedAt": "2026-11-04T09:18:44Z",
+          "updatedAt": "2026-11-05T06:37:08Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -558,7 +537,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 137.34
+          "score": 136.39
         },
         {
           "id": 1442986388,
@@ -567,12 +546,12 @@
           "url": "https://github.com/0x45dd/pwner",
           "homepage": "https://www.pwner.si",
           "description": "Autonomous agentic network penetration-testing tool (authorized use only)",
-          "stars": 43,
-          "forks": 4,
+          "stars": 66,
+          "forks": 5,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-02T13:15:15Z",
-          "updatedAt": "2026-11-04T20:14:33Z",
+          "updatedAt": "2026-11-05T07:43:15Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -584,32 +563,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 125.6
-        },
-        {
-          "id": 1437154386,
-          "name": "safeagents",
-          "fullName": "huggingface/safeagents",
-          "url": "https://github.com/huggingface/safeagents",
-          "homepage": "",
-          "description": "Safely run your agents using any coding harness",
-          "stars": 72,
-          "forks": 2,
-          "openIssues": 2,
-          "language": "Python",
-          "createdAt": "2026-10-28T13:52:42Z",
-          "updatedAt": "2026-11-04T19:58:37Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 118.11
+          "score": 135.6
         },
         {
           "id": 1438795468,
@@ -634,7 +588,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 112.26
+          "score": 110.17
         },
         {
           "id": 1442729194,
@@ -661,7 +615,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 105.41
+          "score": 103.32
         },
         {
           "id": 1438049152,
@@ -687,7 +641,32 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 97.73
+          "score": 96.01
+        },
+        {
+          "id": 1439979446,
+          "name": "cve-2026-98432",
+          "fullName": "Alucard0x1/cve-2026-98432",
+          "url": "https://github.com/Alucard0x1/cve-2026-98432",
+          "homepage": "",
+          "description": "Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
+          "stars": 18,
+          "forks": 5,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-10-30T16:36:43Z",
+          "updatedAt": "2026-11-04T06:33:07Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 93.2
         },
         {
           "id": 1442744699,
@@ -715,21 +694,21 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 94.44
+          "score": 92.53
         },
         {
-          "id": 1439979446,
-          "name": "cve-2026-98432",
-          "fullName": "Alucard0x1/cve-2026-98432",
-          "url": "https://github.com/Alucard0x1/cve-2026-98432",
+          "id": 1439486786,
+          "name": "security-audit-toolkit",
+          "fullName": "CybersRMUTL/security-audit-toolkit",
+          "url": "https://github.com/CybersRMUTL/security-audit-toolkit",
           "homepage": "",
-          "description": "Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
-          "stars": 18,
-          "forks": 4,
+          "description": "All-in-One authorized vulnerability scanner, RCE verifier, and report generator for CERT teams.",
+          "stars": 16,
+          "forks": 8,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-10-30T16:36:43Z",
-          "updatedAt": "2026-11-04T06:33:07Z",
+          "createdAt": "2026-10-30T08:51:50Z",
+          "updatedAt": "2026-11-05T07:45:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -738,9 +717,10 @@
           ],
           "tags": [
             "通用安全",
-            "漏洞研究 / 攻防"
+            "漏洞研究 / 攻防",
+            "网络安全"
           ],
-          "score": 93.92
+          "score": 91.6
         },
         {
           "id": 1438962112,
@@ -766,7 +746,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 91.59
+          "score": 89.82
         },
         {
           "id": 1438477174,
@@ -775,12 +755,12 @@
           "url": "https://github.com/10k11/Loki.js",
           "homepage": "",
           "description": "Modular Discord bot for CTF teams and tech communities: server setup, CTF workspaces, daily CTF radar, news digests and radio.",
-          "stars": 17,
+          "stars": 20,
           "forks": 0,
           "openIssues": 11,
           "language": "TypeScript",
           "createdAt": "2026-10-29T13:43:20Z",
-          "updatedAt": "2026-11-04T19:02:44Z",
+          "updatedAt": "2026-11-05T04:35:36Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -792,7 +772,34 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 85.47
+          "score": 87.67
+        },
+        {
+          "id": 1442324588,
+          "name": "awesome-reverse-engineering",
+          "fullName": "vvs1off/awesome-reverse-engineering",
+          "url": "https://github.com/vvs1off/awesome-reverse-engineering",
+          "homepage": "",
+          "description": "A curated list of reverse engineering and binary analysis resources: disassemblers, debuggers, malware analysis, CTFs, books and more.",
+          "stars": 12,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-11-01T23:41:22Z",
+          "updatedAt": "2026-11-04T18:31:47Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "渗透 / 红队",
+            "防守 / 蓝队",
+            "逆向 / 恶意代码"
+          ],
+          "score": 82.12
         },
         {
           "id": 1438537413,
@@ -820,34 +827,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 84.17
-        },
-        {
-          "id": 1442324588,
-          "name": "awesome-reverse-engineering",
-          "fullName": "vvs1off/awesome-reverse-engineering",
-          "url": "https://github.com/vvs1off/awesome-reverse-engineering",
-          "homepage": "",
-          "description": "A curated list of reverse engineering and binary analysis resources: disassemblers, debuggers, malware analysis, CTFs, books and more.",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-11-01T23:41:22Z",
-          "updatedAt": "2026-11-04T18:31:47Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
-          ],
-          "score": 83.89
+          "score": 82.08
         },
         {
           "id": 1441733104,
@@ -856,12 +836,12 @@
           "url": "https://github.com/kobaw23214/ThreatLens-API",
           "homepage": "",
           "description": "威胁情报实体提取平台:NER 实体提取 / MITRE ATT&CK 识别 / 联网情报扩线。Threat Intelligence Entity Extraction: NER, ATT&CK mapping, TI enrichment (FastAPI/Vue3/Docker)",
-          "stars": 6,
+          "stars": 7,
           "forks": 1,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-01T11:07:23Z",
-          "updatedAt": "2026-11-04T20:24:22Z",
+          "updatedAt": "2026-11-05T06:39:48Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -871,32 +851,58 @@
           "tags": [
             "网络安全"
           ],
-          "score": 77.13
+          "score": 78.52
         },
         {
-          "id": 1436686111,
-          "name": "forang",
-          "fullName": "F0ran9/forang",
-          "url": "https://github.com/F0ran9/forang",
+          "id": 1438739245,
+          "name": "cve-2026-98432-mitigation",
+          "fullName": "typhoon1217/cve-2026-98432-mitigation",
+          "url": "https://github.com/typhoon1217/cve-2026-98432-mitigation",
           "homepage": "",
-          "description": "AI 自动化渗透平台 — 多 Agent 协同驱动侦察/漏洞发现/Webshell 落地/C2 控制全链路，攻击动作全程入图可审计；字节级兼容蚁剑/冰蝎/哥斯拉，CS 式指挥台 + LLM 裁判审批监管",
-          "stars": 6,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-10-28T06:21:34Z",
-          "updatedAt": "2026-11-04T15:17:11Z",
+          "description": "Temporary mitigation for CVE-2026-98432 (Linux IPv4 TCP ireq_opt use-after-free): drop IPv4 TCP with IP options, disable MPTCP. Tested scripts + verification. EN/KO.",
+          "stars": 12,
+          "forks": 1,
+          "openIssues": 1,
+          "language": "Shell",
+          "createdAt": "2026-10-29T17:22:03Z",
+          "updatedAt": "2026-11-04T19:19:27Z",
           "matchedProfiles": [
-            "渗透 / 红队"
+            "通用安全"
           ],
           "profileWeights": [
-            1.18
+            1
           ],
           "tags": [
-            "渗透 / 红队",
-            "AI 自动化 / Skill"
+            "通用安全",
+            "漏洞研究 / 攻防"
           ],
-          "score": 73.16
+          "score": 74
+        },
+        {
+          "id": 1441785052,
+          "name": "WIDS-ML-Deauth-Detector",
+          "fullName": "MawiraVictor/WIDS-ML-Deauth-Detector",
+          "url": "https://github.com/MawiraVictor/WIDS-ML-Deauth-Detector",
+          "homepage": "",
+          "description": "A Machine Learning-based Wireless Intrusion Detection and Prevention System (WIDS/WIPS). Built in Python, it uses a Random Forest classifier trained on the AWID3 dataset to detect 802.11 Deauthentication Flood attacks in real-time and automatically blocks the offending MAC addresses.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-01T12:15:16Z",
+          "updatedAt": "2026-11-02T16:44:26Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 67.34
         }
       ]
     }
