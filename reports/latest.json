@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-11-08T18:22:11.989Z",
+  "generatedAt": "2026-11-09T07:55:32.454Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,43 +33,43 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-11-05",
-      "totalCandidates": 27,
+      "createdSince": "2026-11-06",
+      "totalCandidates": 26,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
           "fetched": 12,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
-          "fetched": 2,
+          "fetched": 1,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 2,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/arnold117/iOS-NOIR",
           "homepage": "",
           "description": "No-jailbreak iOS privacy, entitlement, sandbox & telemetry forensic auditor (inspired by Verlintas/NOIR)",
-          "stars": 299,
+          "stars": 307,
           "forks": 58,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-06T03:03:47Z",
-          "updatedAt": "2026-11-08T16:37:30Z",
+          "updatedAt": "2026-11-09T06:49:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -97,7 +97,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 174.88
+          "score": 172.42
         },
         {
           "id": 1448116698,
@@ -124,7 +124,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 120.09
+          "score": 115.2
         },
         {
           "id": 1449045462,
@@ -133,12 +133,12 @@
           "url": "https://github.com/pendakwahteknologi/security-threat-agent",
           "homepage": "",
           "description": "A guide for building an AI agent that alerts you to new vulnerabilities, active exploitation and malicious packages. Includes Malaysian sources.",
-          "stars": 26,
+          "stars": 27,
           "forks": 5,
           "openIssues": 1,
           "language": "Unknown",
           "createdAt": "2026-11-07T05:06:35Z",
-          "updatedAt": "2026-11-08T15:05:37Z",
+          "updatedAt": "2026-11-09T06:21:45Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -150,33 +150,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 118.17
-        },
-        {
-          "id": 1446944486,
-          "name": "UmbrellaSpoofer-resocket",
-          "fullName": "HardHunterweb/UmbrellaSpoofer-resocket",
-          "url": "https://github.com/HardHunterweb/UmbrellaSpoofer-resocket",
-          "homepage": "",
-          "description": "Umbrella Spoofer v2.0.4 scans hwid reset beside hwid checker. hwid ban tally, smbios board, volume label, nic oui, snapshot pair, disk serial, caller id, device fingerprint, webgl canvases. ",
-          "stars": 19,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-11-05T12:01:01Z",
-          "updatedAt": "2026-11-08T13:00:08Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 85.39
+          "score": 113.87
         },
         {
           "id": 1450296338,
@@ -185,12 +159,12 @@
           "url": "https://github.com/xdisform/Spider",
           "homepage": "https://disform.ru",
           "description": "Multi-agent AI system that turns Claude Code into an autonomous pentest red-team lead. Recon, exploitation, OSINT and submission-ready reporting with deterministic oracles and zero false positives",
-          "stars": 6,
+          "stars": 17,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-08T13:14:22Z",
-          "updatedAt": "2026-11-08T17:59:59Z",
+          "updatedAt": "2026-11-09T07:46:28Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -202,7 +176,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 84.4
+          "score": 103.37
         },
         {
           "id": 1450442912,
@@ -230,58 +204,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 79.09
-        },
-        {
-          "id": 1446942322,
-          "name": "resocket-elden-ring-cheat-2026-trainer-mod-menu-tools",
-          "fullName": "BowSinceEnt/resocket-elden-ring-cheat-2026-trainer-mod-menu-tools",
-          "url": "https://github.com/BowSinceEnt/resocket-elden-ring-cheat-2026-trainer-mod-menu-tools",
-          "homepage": "",
-          "description": "Elden Ring Cheat 2026 — Single-player modding and gameplay toolkit concept featuring character build optimization, rune planning, weapon upgrades, boss strategies, save management and offline trainer research.",
-          "stars": 19,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-11-05T11:58:49Z",
-          "updatedAt": "2026-11-08T13:00:00Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "防守 / 蓝队"
-          ],
-          "score": 79.06
-        },
-        {
-          "id": 1447229827,
-          "name": "netpwn",
-          "fullName": "letox4/netpwn",
-          "url": "https://github.com/letox4/netpwn",
-          "homepage": "",
-          "description": "Suite grafica de auditoria de redes (pentesting) con interfaz web: descubrimiento, escaneo, MITM, Wi-Fi y camaras IP. Como bettercap, con un clic.",
-          "stars": 11,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-11-05T16:18:03Z",
-          "updatedAt": "2026-11-08T14:39:23Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 78.78
+          "score": 73.31
         },
         {
           "id": 1448949639,
@@ -306,7 +229,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 76.07
+          "score": 71.18
         },
         {
           "id": 1449825953,
@@ -333,7 +256,60 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 73.78
+          "score": 68.89
+        },
+        {
+          "id": 1450538393,
+          "name": "viperclaw",
+          "fullName": "zahidoverflow/viperclaw",
+          "url": "https://github.com/zahidoverflow/viperclaw",
+          "homepage": "https://zahidoverflow.github.io/viperclaw/",
+          "description": "AI Pentesting Framework, Bug Bounty MCP Server, SAST/DAST Taint Engine & 12 Offensive Security Skills for Claude Code, Google Antigravity, Codex & Cursor.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-08T18:14:10Z",
+          "updatedAt": "2026-11-09T06:24:39Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 67.88
+        },
+        {
+          "id": 1449154239,
+          "name": "TrustGuard-AI",
+          "fullName": "SwagataGhosh7/TrustGuard-AI",
+          "url": "https://github.com/SwagataGhosh7/TrustGuard-AI",
+          "homepage": "https://trustguardai-tls.vercel.app/",
+          "description": "​This is an official submission for the HackMatrix Hackathon (organized by the Adamas University ACM Student Chapter and co-powered by MLH).  ​TrustGuard AI is an intelligent platform that detects phishing and malicious websites by combining threat analysis, web security assessment, certificate validation, and collaborative threat intelligence.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-11-07T08:05:05Z",
+          "updatedAt": "2026-11-09T06:41:53Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "逆向 / 恶意代码"
+          ],
+          "score": 59.67
         },
         {
           "id": 1448962077,
@@ -359,21 +335,45 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 62.86
+          "score": 57.57
         },
         {
-          "id": 1447204687,
-          "name": "watchtower",
-          "fullName": "helius-labs/watchtower",
-          "url": "https://github.com/helius-labs/watchtower",
-          "homepage": "",
-          "description": "Open-source security monitor for Solana programs, powered by Helius Parsed Events and Parsed Streams",
-          "stars": 6,
-          "forks": 2,
-          "openIssues": 1,
-          "language": "TypeScript",
-          "createdAt": "2026-11-05T15:55:55Z",
-          "updatedAt": "2026-11-08T06:59:48Z",
+          "id": 1449104128,
+          "name": "ghostmap-research",
+          "fullName": "akari-sora/ghostmap-research",
+          "url": "https://github.com/akari-sora/ghostmap-research",
+          "homepage": "https://gitlab.com/aa22396584/ghostmap-research",
+          "description": "Independent GhostMap (Android APK/ZIP parser crash loop) reproduction and defensive tools. Mirror; canonical repo and issues: gitlab.com/aa22396584/ghostmap-research",
+          "stars": 2,
+          "forks": 1,
+          "openIssues": 0,
+          "language": "Java",
+          "createdAt": "2026-11-07T06:45:20Z",
+          "updatedAt": "2026-11-07T09:26:34Z",
+          "matchedProfiles": [
+            "防守 / 蓝队"
+          ],
+          "profileWeights": [
+            1.12
+          ],
+          "tags": [
+            "防守 / 蓝队"
+          ],
+          "score": 54.03
+        },
+        {
+          "id": 1448543933,
+          "name": "winsploit",
+          "fullName": "tahabenissa/winsploit",
+          "url": "https://github.com/tahabenissa/winsploit",
+          "homepage": "https://tahabenissa.github.io/winsploit/",
+          "description": "A native-Windows security toolbox & command runner: a beautiful Rust/ratatui TUI that detects, installs (via Scoop) and runs the pentest tools that work natively on Windows. Authorized use only.",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 43,
+          "language": "Rust",
+          "createdAt": "2026-11-06T17:21:14Z",
+          "updatedAt": "2026-11-08T21:17:36Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -382,9 +382,10 @@
           ],
           "tags": [
             "通用安全",
+            "渗透 / 红队",
             "网络安全"
           ],
-          "score": 60.34
+          "score": 53.93
         }
       ]
     },
@@ -396,43 +397,43 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-11-01",
-      "totalCandidates": 24,
+      "createdSince": "2026-11-02",
+      "totalCandidates": 22,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 10,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 1,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1794162184"
+          "rateLimitReset": "1794210985"
         }
       ],
       "repositories": [
@@ -443,12 +444,12 @@
           "url": "https://github.com/arnold117/iOS-NOIR",
           "homepage": "",
           "description": "No-jailbreak iOS privacy, entitlement, sandbox & telemetry forensic auditor (inspired by Verlintas/NOIR)",
-          "stars": 299,
+          "stars": 307,
           "forks": 58,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-06T03:03:47Z",
-          "updatedAt": "2026-11-08T16:37:30Z",
+          "updatedAt": "2026-11-09T06:49:56Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -460,33 +461,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 187.94
-        },
-        {
-          "id": 1441468008,
-          "name": "agentic-hacking-skills",
-          "fullName": "mrhlaingbwardev/agentic-hacking-skills",
-          "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
-          "homepage": "",
-          "description": "AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' ebook (28 SKILL.md templates)",
-          "stars": 347,
-          "forks": 58,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-11-01T04:00:04Z",
-          "updatedAt": "2026-11-08T00:49:16Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "网络安全"
-          ],
-          "score": 175.58
+          "score": 186.52
         },
         {
           "id": 1443265912,
@@ -495,12 +470,12 @@
           "url": "https://github.com/yorkeccak/globalhackmap",
           "homepage": "https://globalhackmap.vercel.app",
           "description": "Every hack, exploit and breach, live: new vulnerabilities, active exploits and breaches on one globe, with sources and one-click fixes.",
-          "stars": 130,
+          "stars": 135,
           "forks": 32,
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-11-02T17:22:31Z",
-          "updatedAt": "2026-11-08T15:27:43Z",
+          "updatedAt": "2026-11-09T02:13:02Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -511,7 +486,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 162.58
+          "score": 161.36
         },
         {
           "id": 1448116698,
@@ -538,7 +513,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 131.66
+          "score": 129.56
         },
         {
           "id": 1442986388,
@@ -564,7 +539,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 129.98
+          "score": 127.89
         },
         {
           "id": 1449045462,
@@ -573,12 +548,12 @@
           "url": "https://github.com/pendakwahteknologi/security-threat-agent",
           "homepage": "",
           "description": "A guide for building an AI agent that alerts you to new vulnerabilities, active exploitation and malicious packages. Includes Malaysian sources.",
-          "stars": 26,
+          "stars": 27,
           "forks": 5,
           "openIssues": 1,
           "language": "Unknown",
           "createdAt": "2026-11-07T05:06:35Z",
-          "updatedAt": "2026-11-08T15:05:37Z",
+          "updatedAt": "2026-11-09T06:21:45Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -590,21 +565,21 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 126.47
+          "score": 125.19
         },
         {
           "id": 1443615366,
           "name": "skein",
           "fullName": "Balanov/skein",
           "url": "https://github.com/Balanov/skein",
-          "homepage": "",
+          "homepage": "https://balanov.pro/skein/",
           "description": "Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection.",
           "stars": 84,
           "forks": 1,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-11-02T23:57:05Z",
-          "updatedAt": "2026-11-08T06:03:23Z",
+          "updatedAt": "2026-11-09T01:40:46Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -615,7 +590,33 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 124.25
+          "score": 122.15
+        },
+        {
+          "id": 1450296338,
+          "name": "Spider",
+          "fullName": "xdisform/Spider",
+          "url": "https://github.com/xdisform/Spider",
+          "homepage": "https://disform.ru",
+          "description": "Multi-agent AI system that turns Claude Code into an autonomous pentest red-team lead. Recon, exploitation, OSINT and submission-ready reporting with deterministic oracles and zero false positives",
+          "stars": 17,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-08T13:14:22Z",
+          "updatedAt": "2026-11-09T07:46:28Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队"
+          ],
+          "score": 107.54
         },
         {
           "id": 1446944486,
@@ -641,7 +642,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 100.37
+          "score": 98.1
         },
         {
           "id": 1447229827,
@@ -650,12 +651,12 @@
           "url": "https://github.com/letox4/netpwn",
           "homepage": "",
           "description": "Suite grafica de auditoria de redes (pentesting) con interfaz web: descubrimiento, escaneo, MITM, Wi-Fi y camaras IP. Como bettercap, con un clic.",
-          "stars": 11,
+          "stars": 12,
           "forks": 2,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-05T16:18:03Z",
-          "updatedAt": "2026-11-08T14:39:23Z",
+          "updatedAt": "2026-11-09T03:46:41Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -666,7 +667,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 94.48
+          "score": 94.3
         },
         {
           "id": 1446942322,
@@ -692,7 +693,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 92.93
+          "score": 90.83
         },
         {
           "id": 1442729194,
@@ -719,58 +720,7 @@
             "通用安全",
             "渗透 / 红队"
           ],
-          "score": 88.25
-        },
-        {
-          "id": 1443477314,
-          "name": "Antirea",
-          "fullName": "diamondrubinny/Antirea",
-          "url": "https://github.com/diamondrubinny/Antirea",
-          "homepage": "https://norea.rubinny.net",
-          "description": "Drop-in anti reverse-engineering toolkit: detect, deceive (honeypot) and disrupt analysis tools (incl. CDP/REA), a multi-language control panel with an AI advisor, and server-side execution that keeps proprietary logic off the client.",
-          "stars": 21,
-          "forks": 0,
-          "openIssues": 4,
-          "language": "JavaScript",
-          "createdAt": "2026-11-02T20:56:27Z",
-          "updatedAt": "2026-11-08T08:24:43Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 85.54
-        },
-        {
-          "id": 1450296338,
-          "name": "Spider",
-          "fullName": "xdisform/Spider",
-          "url": "https://github.com/xdisform/Spider",
-          "homepage": "https://disform.ru",
-          "description": "Multi-agent AI system that turns Claude Code into an autonomous pentest red-team lead. Recon, exploitation, OSINT and submission-ready reporting with deterministic oracles and zero false positives",
-          "stars": 6,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-11-08T13:14:22Z",
-          "updatedAt": "2026-11-08T17:59:59Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 85.54
+          "score": 85.78
         },
         {
           "id": 1442744699,
@@ -798,7 +748,7 @@
             "防守 / 蓝队",
             "逆向 / 恶意代码"
           ],
-          "score": 84.56
+          "score": 82.3
         },
         {
           "id": 1448949639,
@@ -823,21 +773,21 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 84.33
+          "score": 82.23
         },
         {
-          "id": 1442324588,
-          "name": "awesome-reverse-engineering",
-          "fullName": "vvs1off/awesome-reverse-engineering",
-          "url": "https://github.com/vvs1off/awesome-reverse-engineering",
-          "homepage": "",
-          "description": "A curated list of reverse engineering and binary analysis resources: disassemblers, debuggers, malware analysis, CTFs, books and more.",
-          "stars": 15,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-11-01T23:41:22Z",
-          "updatedAt": "2026-11-06T10:38:26Z",
+          "id": 1442526825,
+          "name": "Tego",
+          "fullName": "Attention-Span-AI/Tego",
+          "url": "https://github.com/Attention-Span-AI/Tego",
+          "homepage": "https://attention-span.ai",
+          "description": "Tego limits what any AI agent can touch on Linux, and records every run. Rules for MCP servers, CI jobs, Python workers, 24/7 assistants and coding agents, enforced by the kernel.",
+          "stars": 13,
+          "forks": 1,
+          "openIssues": 2,
+          "language": "Go",
+          "createdAt": "2026-11-02T04:59:42Z",
+          "updatedAt": "2026-11-09T04:39:51Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -846,11 +796,9 @@
           ],
           "tags": [
             "通用安全",
-            "渗透 / 红队",
-            "防守 / 蓝队",
-            "逆向 / 恶意代码"
+            "AI 自动化 / Skill"
           ],
-          "score": 74.4
+          "score": 74.32
         },
         {
           "id": 1443888751,
@@ -875,21 +823,71 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 74.35
+          "score": 72.08
         },
         {
-          "id": 1442526825,
-          "name": "Tego",
-          "fullName": "Attention-Span-AI/Tego",
-          "url": "https://github.com/Attention-Span-AI/Tego",
-          "homepage": "https://attention-span.ai",
-          "description": "Tego limits what any AI agent can touch on Linux, and records every run. Rules for MCP servers, CI jobs, Python workers, 24/7 assistants and coding agents, enforced by the kernel.",
-          "stars": 11,
+          "id": 1446019365,
+          "name": "wifi-scanner",
+          "fullName": "ahsanbhutta/wifi-scanner",
+          "url": "https://github.com/ahsanbhutta/wifi-scanner",
+          "homepage": "https://github.com/ahsanbhutta/wifi-scanner/releases/latest",
+          "description": "Local web dashboard that scans your WiFi/LAN and identifies connected devices — vendor, hostname, exact model, open ports, and device type with confidence + evidence. Windows, single .exe, no Node.js needed. New-device alerts, SQLite history, notes. MIT.",
+          "stars": 8,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "JavaScript",
+          "createdAt": "2026-11-04T18:03:48Z",
+          "updatedAt": "2026-11-07T19:48:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 68.79
+        },
+        {
+          "id": 1445351420,
+          "name": "yong-nian-v1",
+          "fullName": "Iankulani/yong-nian-v1",
+          "url": "https://github.com/Iankulani/yong-nian-v1",
+          "homepage": "",
+          "description": "Yong Nian is a cutting-edge, advanced cybersecurity tool designed to streamline penetration testing and vulnerability assessment through a revolutionary multi-platform command interface. By bridging the gap between complex security operations and modern communication tools, Yong Nian empowers security professionals to \"fire\" commands and execute ex",
+          "stars": 5,
           "forks": 1,
           "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-11-02T04:59:42Z",
-          "updatedAt": "2026-11-07T23:00:29Z",
+          "language": "Python",
+          "createdAt": "2026-11-04T08:19:26Z",
+          "updatedAt": "2026-11-07T13:13:08Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 66.98
+        },
+        {
+          "id": 1443477314,
+          "name": "Antirea",
+          "fullName": "diamondrubinny/Antirea",
+          "url": "https://github.com/diamondrubinny/Antirea",
+          "homepage": "https://norea.rubinny.net",
+          "description": "Drop-in anti reverse-engineering toolkit: detect, deceive (honeypot) and disrupt analysis tools (incl. CDP/REA), a multi-language control panel with an AI advisor, and server-side execution that keeps proprietary logic off the client.",
+          "stars": 10,
+          "forks": 0,
+          "openIssues": 4,
+          "language": "JavaScript",
+          "createdAt": "2026-11-02T20:56:27Z",
+          "updatedAt": "2026-11-08T18:58:57Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -900,7 +898,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 72.25
+          "score": 66.54
         }
       ]
     }
