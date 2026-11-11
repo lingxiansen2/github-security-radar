@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-11-10T20:28:28.167Z",
+  "generatedAt": "2026-11-11T07:43:32.761Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -33,72 +33,46 @@
         "minStars": 2,
         "maxItems": 12
       },
-      "createdSince": "2026-11-07",
-      "totalCandidates": 27,
+      "createdSince": "2026-11-08",
+      "totalCandidates": 23,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 12,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
-          "fetched": 2,
+          "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         }
       ],
       "repositories": [
-        {
-          "id": 1449045462,
-          "name": "security-threat-agent",
-          "fullName": "pendakwahteknologi/security-threat-agent",
-          "url": "https://github.com/pendakwahteknologi/security-threat-agent",
-          "homepage": "",
-          "description": "A guide for building an AI agent that alerts you to new vulnerabilities, active exploitation and malicious packages. Includes Malaysian sources.",
-          "stars": 29,
-          "forks": 5,
-          "openIssues": 1,
-          "language": "Unknown",
-          "createdAt": "2026-11-07T05:06:35Z",
-          "updatedAt": "2026-11-10T05:14:05Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 107.48
-        },
         {
           "id": 1450296338,
           "name": "Spider",
@@ -111,7 +85,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-08T13:14:22Z",
-          "updatedAt": "2026-11-10T19:40:19Z",
+          "updatedAt": "2026-11-11T07:19:26Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -123,7 +97,57 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 98.8
+          "score": 94.41
+        },
+        {
+          "id": 1450695273,
+          "name": "airgap-check",
+          "fullName": "humanethq/airgap-check",
+          "url": "https://github.com/humanethq/airgap-check",
+          "homepage": "",
+          "description": "Audit AI repositories for offline (--network none) crashes, silent telemetry, and .env secret routing",
+          "stars": 16,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-11-08T21:55:28Z",
+          "updatedAt": "2026-11-11T05:27:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 80.19
+        },
+        {
+          "id": 1453569142,
+          "name": "ctfd-flagprint",
+          "fullName": "rj-karan/ctfd-flagprint",
+          "url": "https://github.com/rj-karan/ctfd-flagprint",
+          "homepage": "https://zororj.me/ctfd-flagprint/",
+          "description": "Stop flag sharing in CTFd: every team gets its own flag and its own files, and a shared flag tells you who leaked it.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-11T05:39:32Z",
+          "updatedAt": "2026-11-11T07:39:20Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 72.41
         },
         {
           "id": 1450538393,
@@ -150,84 +174,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 73.65
-        },
-        {
-          "id": 1449369527,
-          "name": "browser-verified-skill",
-          "fullName": "OMD-123/browser-verified-skill",
-          "url": "https://github.com/OMD-123/browser-verified-skill",
-          "homepage": "https://github.com/OMD-123/browser-verified-skill#readme",
-          "description": "Browser automation with evidence. An Agent Skill that lets an AI agent drive a real browser while every action passes a policy gate, every run leaves an auditable artifact, and the run compiles into a plain Playwright script that replays for free.",
-          "stars": 12,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-11-07T13:12:14Z",
-          "updatedAt": "2026-11-10T15:57:29Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 68.53
-        },
-        {
-          "id": 1448949639,
-          "name": "ha-security-monitor",
-          "fullName": "schadom/ha-security-monitor",
-          "url": "https://github.com/schadom/ha-security-monitor",
-          "homepage": "",
-          "description": "Home Assistant Security Monitor integration",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-11-07T02:19:42Z",
-          "updatedAt": "2026-11-09T09:14:02Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 66.61
-        },
-        {
-          "id": 1449825953,
-          "name": "php2shell-deep-dive",
-          "fullName": "djad04/php2shell-deep-dive",
-          "url": "https://github.com/djad04/php2shell-deep-dive",
-          "homepage": "https://djad04.github.io/php2shell-deep-dive/",
-          "description": " A deep technical walkthrough of PHP2Shell from memory visualization of a real exploit against PHP 8.4.26's Steal My Bitcoin challenge, to PHP's source code internals and engine, to the exploit code itself. How two CVEs in PHP's core (CVE-2026-109618 & CVE-2026-109619) chain an out-of-memory crash into remote code execution",
-          "stars": 7,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-11-07T23:40:49Z",
-          "updatedAt": "2026-11-10T17:49:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 66.22
+          "score": 69.27
         },
         {
           "id": 1452096156,
@@ -241,7 +188,7 @@
           "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-11-10T01:59:46Z",
-          "updatedAt": "2026-11-10T18:04:45Z",
+          "updatedAt": "2026-11-10T21:33:41Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -252,7 +199,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 65.29
+          "score": 60.49
         },
         {
           "id": 1450975832,
@@ -277,7 +224,32 @@
             "网络安全",
             "AI 自动化 / Skill"
           ],
-          "score": 63.16
+          "score": 58.78
+        },
+        {
+          "id": 1450742120,
+          "name": "cyberbot",
+          "fullName": "cyberbot-ai/cyberbot",
+          "url": "https://github.com/cyberbot-ai/cyberbot",
+          "homepage": "https://cyberbot-ai.github.io/cyberbot/",
+          "description": "An AI-powered DevSecOps/DevOps cockpit for your server fleet. Monitor services, spot critical vulnerabilities, and investigate incidents with your AI agents.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 1,
+          "language": "Rust",
+          "createdAt": "2026-11-08T23:15:32Z",
+          "updatedAt": "2026-11-11T00:42:14Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 56.31
         },
         {
           "id": 1451943571,
@@ -291,7 +263,7 @@
           "openIssues": 0,
           "language": "TypeScript",
           "createdAt": "2026-11-09T22:21:59Z",
-          "updatedAt": "2026-11-10T18:43:57Z",
+          "updatedAt": "2026-11-10T21:12:04Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -302,7 +274,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 59.81
+          "score": 55.75
+        },
+        {
+          "id": 1452385659,
+          "name": "vpn-scan",
+          "fullName": "horrrik/vpn-scan",
+          "url": "https://github.com/horrrik/vpn-scan",
+          "homepage": "",
+          "description": "VPN SCAN — terminal tool to check VPN detection risk, analyze subscription servers (Happ/v2rayN/Clash), ping test,   find best server. No API keys needed.",
+          "stars": 2,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-10T08:18:32Z",
+          "updatedAt": "2026-11-10T08:52:33Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "防守 / 蓝队"
+          ],
+          "score": 53.54
         },
         {
           "id": 1450442912,
@@ -330,32 +327,32 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 57.74
+          "score": 52.94
         },
         {
-          "id": 1452385659,
-          "name": "vpn-scan",
-          "fullName": "horrrik/vpn-scan",
-          "url": "https://github.com/horrrik/vpn-scan",
-          "homepage": "",
-          "description": "VPN SCAN — terminal tool to check VPN detection risk, analyze subscription servers (Happ/v2rayN/Clash), ping test,   find best server. No API keys needed.",
+          "id": 1451722272,
+          "name": "ReD-Pot",
+          "fullName": "RedSideSecurity/ReD-Pot",
+          "url": "https://github.com/RedSideSecurity/ReD-Pot",
+          "homepage": "https://redsidesecurity.com",
+          "description": "Internal-network deception by RedSide Security: realistic decoy servers (file server, domain controller, web, backup, DNS) with honeytokens that catch attackers after the foothold, during discovery and lateral movement.",
           "stars": 2,
           "forks": 0,
           "openIssues": 0,
           "language": "Python",
-          "createdAt": "2026-11-10T08:18:32Z",
-          "updatedAt": "2026-11-10T08:52:33Z",
+          "createdAt": "2026-11-09T18:18:26Z",
+          "updatedAt": "2026-11-11T04:23:44Z",
           "matchedProfiles": [
-            "通用安全"
+            "网络安全"
           ],
           "profileWeights": [
-            1
+            1.08
           ],
           "tags": [
-            "通用安全",
-            "防守 / 蓝队"
+            "网络安全",
+            "AI 自动化 / Skill"
           ],
-          "score": 57.61
+          "score": 52.37
         },
         {
           "id": 1451349375,
@@ -369,7 +366,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-09T12:37:46Z",
-          "updatedAt": "2026-11-10T15:57:38Z",
+          "updatedAt": "2026-11-10T21:08:20Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -381,7 +378,7 @@
             "AI 自动化 / Skill",
             "网络安全"
           ],
-          "score": 56.3
+          "score": 52.23
         }
       ]
     },
@@ -393,7 +390,7 @@
         "minStars": 5,
         "maxItems": 18
       },
-      "createdSince": "2026-11-03",
+      "createdSince": "2026-11-04",
       "totalCandidates": 21,
       "queryStats": [
         {
@@ -401,38 +398,62 @@
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 9,
+          "fetched": 8,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 2,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1794342560"
+          "rateLimitReset": "1794383065"
         }
       ],
       "repositories": [
+        {
+          "id": 1448424893,
+          "name": "nukerat",
+          "fullName": "nukeratframework/nukerat",
+          "url": "https://github.com/nukeratframework/nukerat",
+          "homepage": "nukerat.com",
+          "description": "A post exploitation framework for advanced Red Team operations",
+          "stars": 143,
+          "forks": 28,
+          "openIssues": 0,
+          "language": "TypeScript",
+          "createdAt": "2026-11-06T15:26:42Z",
+          "updatedAt": "2026-11-11T07:31:29Z",
+          "matchedProfiles": [
+            "渗透 / 红队"
+          ],
+          "profileWeights": [
+            1.18
+          ],
+          "tags": [
+            "渗透 / 红队"
+          ],
+          "score": 185.61
+        },
         {
           "id": 1447768703,
           "name": "iOS-NOIR",
@@ -440,12 +461,12 @@
           "url": "https://github.com/arnold117/iOS-NOIR",
           "homepage": "",
           "description": "No-jailbreak iOS privacy, entitlement, sandbox & telemetry forensic auditor (inspired by Verlintas/NOIR)",
-          "stars": 315,
+          "stars": 317,
           "forks": 59,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-06T03:03:47Z",
-          "updatedAt": "2026-11-10T18:48:35Z",
+          "updatedAt": "2026-11-11T05:16:59Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -457,31 +478,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 181.63
-        },
-        {
-          "id": 1448424893,
-          "name": "nukerat",
-          "fullName": "nukeratframework/nukerat",
-          "url": "https://github.com/nukeratframework/nukerat",
-          "homepage": "nukerat.com",
-          "description": "A post exploitation framework for advanced Red Team operations",
-          "stars": 91,
-          "forks": 18,
-          "openIssues": 0,
-          "language": "TypeScript",
-          "createdAt": "2026-11-06T15:26:42Z",
-          "updatedAt": "2026-11-10T20:22:48Z",
-          "matchedProfiles": [
-            "渗透 / 红队"
-          ],
-          "profileWeights": [
-            1.18
-          ],
-          "tags": [
-            "渗透 / 红队"
-          ],
-          "score": 171.17
+          "score": 180.05
         },
         {
           "id": 1448116698,
@@ -490,12 +487,12 @@
           "url": "https://github.com/BountyForge-xyz/pwn-skill",
           "homepage": "",
           "description": "Agent skill for binary exploitation and CTF pwn — stack, heap, format string, kernel, seccomp bypass.",
-          "stars": 52,
+          "stars": 53,
           "forks": 6,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-11-06T10:19:31Z",
-          "updatedAt": "2026-11-09T08:49:40Z",
+          "updatedAt": "2026-11-10T22:24:39Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -508,7 +505,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 124.39
+          "score": 123.12
         },
         {
           "id": 1449045462,
@@ -534,7 +531,32 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 120.95
+          "score": 119.07
+        },
+        {
+          "id": 1447229827,
+          "name": "netpwn",
+          "fullName": "letox4/netpwn",
+          "url": "https://github.com/letox4/netpwn",
+          "homepage": "",
+          "description": "Suite grafica de auditoria de redes (pentesting) con interfaz web: descubrimiento, escaneo, MITM, Wi-Fi y camaras IP. Como bettercap, con un clic.",
+          "stars": 32,
+          "forks": 8,
+          "openIssues": 0,
+          "language": "Python",
+          "createdAt": "2026-11-05T16:18:03Z",
+          "updatedAt": "2026-11-11T06:33:36Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 118.04
         },
         {
           "id": 1446942322,
@@ -560,7 +582,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 111.11
+          "score": 109.36
         },
         {
           "id": 1450296338,
@@ -574,7 +596,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-08T13:14:22Z",
-          "updatedAt": "2026-11-10T19:40:19Z",
+          "updatedAt": "2026-11-11T07:19:26Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -586,32 +608,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 111.11
-        },
-        {
-          "id": 1447229827,
-          "name": "netpwn",
-          "fullName": "letox4/netpwn",
-          "url": "https://github.com/letox4/netpwn",
-          "homepage": "",
-          "description": "Suite grafica de auditoria de redes (pentesting) con interfaz web: descubrimiento, escaneo, MITM, Wi-Fi y camaras IP. Como bettercap, con un clic.",
-          "stars": 18,
-          "forks": 7,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-11-05T16:18:03Z",
-          "updatedAt": "2026-11-10T18:24:27Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 104.3
+          "score": 109.23
         },
         {
           "id": 1447224012,
@@ -620,12 +617,12 @@
           "url": "https://github.com/AaronCaiii/AgenticPentest",
           "homepage": "https://hub.docker.com/r/johncoke/agenticpentest",
           "description": "Agent-powered red team testing workbench with asset mapping, threat modeling, multi-agent workflows, cloud assessment, reports and MCP.",
-          "stars": 8,
-          "forks": 3,
+          "stars": 17,
+          "forks": 5,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-11-05T16:14:12Z",
-          "updatedAt": "2026-11-10T12:46:59Z",
+          "updatedAt": "2026-11-11T07:37:47Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -639,7 +636,32 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 87.99
+          "score": 108.36
+        },
+        {
+          "id": 1450695273,
+          "name": "airgap-check",
+          "fullName": "humanethq/airgap-check",
+          "url": "https://github.com/humanethq/airgap-check",
+          "homepage": "",
+          "description": "Audit AI repositories for offline (--network none) crashes, silent telemetry, and .env secret routing",
+          "stars": 16,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-11-08T21:55:28Z",
+          "updatedAt": "2026-11-11T05:27:58Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 92.11
         },
         {
           "id": 1450538393,
@@ -666,7 +688,34 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 84.85
+          "score": 82.97
+        },
+        {
+          "id": 1449825953,
+          "name": "php2shell-deep-dive",
+          "fullName": "djad04/php2shell-deep-dive",
+          "url": "https://github.com/djad04/php2shell-deep-dive",
+          "homepage": "https://djad04.github.io/php2shell-deep-dive/",
+          "description": " A deep technical walkthrough of PHP2Shell from memory visualization of a real exploit against PHP 8.4.26's Steal My Bitcoin challenge, to PHP's source code internals and engine, to the exploit code itself. How two CVEs in PHP's core (CVE-2026-109618 & CVE-2026-109619) chain an out-of-memory crash into remote code execution",
+          "stars": 8,
+          "forks": 3,
+          "openIssues": 0,
+          "language": "HTML",
+          "createdAt": "2026-11-07T23:40:49Z",
+          "updatedAt": "2026-11-10T21:57:48Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 81.41
         },
         {
           "id": 1449369527,
@@ -691,34 +740,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 82.26
-        },
-        {
-          "id": 1449825953,
-          "name": "php2shell-deep-dive",
-          "fullName": "djad04/php2shell-deep-dive",
-          "url": "https://github.com/djad04/php2shell-deep-dive",
-          "homepage": "https://djad04.github.io/php2shell-deep-dive/",
-          "description": " A deep technical walkthrough of PHP2Shell from memory visualization of a real exploit against PHP 8.4.26's Steal My Bitcoin challenge, to PHP's source code internals and engine, to the exploit code itself. How two CVEs in PHP's core (CVE-2026-109618 & CVE-2026-109619) chain an out-of-memory crash into remote code execution",
-          "stars": 7,
-          "forks": 3,
-          "openIssues": 0,
-          "language": "HTML",
-          "createdAt": "2026-11-07T23:40:49Z",
-          "updatedAt": "2026-11-10T17:49:42Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 80.41
+          "score": 80.52
         },
         {
           "id": 1448949639,
@@ -743,7 +765,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 78.66
+          "score": 76.92
         },
         {
           "id": 1447088876,
@@ -767,35 +789,7 @@
           "tags": [
             "网络安全"
           ],
-          "score": 68.61
-        },
-        {
-          "id": 1443888751,
-          "name": "EncrypCore",
-          "fullName": "MatiSec6/EncrypCore",
-          "url": "https://github.com/MatiSec6/EncrypCore",
-          "homepage": "",
-          "description": "A terminal-based cryptography and security toolkit. Features AES file/text encryption, Argon2/bcrypt hashing, ECC signatures, JWT/TOTP, SSL cert generation, secure shredder, BIP39 wallets, and educational CTF tools.",
-          "stars": 6,
-          "forks": 4,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-11-03T06:15:35Z",
-          "updatedAt": "2026-11-06T15:00:08Z",
-          "matchedProfiles": [
-            "通用安全",
-            "网络安全"
-          ],
-          "profileWeights": [
-            1,
-            1.08
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全",
-            "渗透 / 红队"
-          ],
-          "score": 68.35
+          "score": 66.73
         },
         {
           "id": 1446019365,
@@ -804,12 +798,12 @@
           "url": "https://github.com/ahsanbhutta/wifi-scanner",
           "homepage": "https://github.com/ahsanbhutta/wifi-scanner/releases/latest",
           "description": "Local web dashboard that scans your WiFi/LAN and identifies connected devices — vendor, hostname, exact model, open ports, and device type with confidence + evidence. Windows, single .exe, no Node.js needed. New-device alerts, SQLite history, notes. MIT.",
-          "stars": 9,
+          "stars": 10,
           "forks": 0,
           "openIssues": 1,
           "language": "JavaScript",
           "createdAt": "2026-11-04T18:03:48Z",
-          "updatedAt": "2026-11-09T21:43:05Z",
+          "updatedAt": "2026-11-11T00:50:45Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -819,21 +813,21 @@
           "tags": [
             "通用安全"
           ],
-          "score": 65.61
+          "score": 66.13
         },
         {
-          "id": 1444054505,
-          "name": "LabLantern",
-          "fullName": "noah-ebrt/LabLantern",
-          "url": "https://github.com/noah-ebrt/LabLantern",
+          "id": 1447204687,
+          "name": "watchtower",
+          "fullName": "helius-labs/watchtower",
+          "url": "https://github.com/helius-labs/watchtower",
           "homepage": "",
-          "description": "Self-hosted vulnerability monitoring for homelabs and small networks. Scans every Linux host, container image and appliance daily (Grype + OSV), flags what is actively exploited or exposed to the internet, warns early from security news and gives the exact fix command. LAN-only, agents open no ports, dangerous actions need your passkey.",
-          "stars": 10,
-          "forks": 0,
+          "description": "Open-source security monitor for Solana programs, powered by Helius Parsed Events and Parsed Streams",
+          "stars": 6,
+          "forks": 2,
           "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-11-03T09:12:33Z",
-          "updatedAt": "2026-11-10T17:47:18Z",
+          "language": "TypeScript",
+          "createdAt": "2026-11-05T15:55:55Z",
+          "updatedAt": "2026-11-10T21:26:17Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -842,12 +836,33 @@
           ],
           "tags": [
             "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防",
             "网络安全"
           ],
-          "score": 64.53
+          "score": 65.32
+        },
+        {
+          "id": 1445921761,
+          "name": "private-cloud-proxy",
+          "fullName": "Lopes-V/private-cloud-proxy",
+          "url": "https://github.com/Lopes-V/private-cloud-proxy",
+          "homepage": "",
+          "description": "Proxy autenticado com TLS e proteção contra SSRF (estudo)",
+          "stars": 6,
+          "forks": 2,
+          "openIssues": 0,
+          "language": "JavaScript",
+          "createdAt": "2026-11-04T16:34:50Z",
+          "updatedAt": "2026-11-10T16:24:31Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全"
+          ],
+          "score": 61.71
         },
         {
           "id": 1445351420,
@@ -873,7 +888,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 60.88
+          "score": 58.99
         }
       ]
     }
