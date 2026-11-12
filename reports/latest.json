@@ -1,6 +1,6 @@
 {
   "title": "GitHub Security Radar",
-  "generatedAt": "2026-11-12T08:17:39.912Z",
+  "generatedAt": "2026-11-12T20:50:19.722Z",
   "tokenConfigured": true,
   "profiles": [
     {
@@ -34,42 +34,42 @@
         "maxItems": 12
       },
       "createdSince": "2026-11-09",
-      "totalCandidates": 21,
+      "totalCandidates": 24,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "29",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 7,
+          "fetched": 10,
           "rateLimitRemaining": "28",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "27",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "26",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "25",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         }
       ],
       "repositories": [
@@ -80,12 +80,12 @@
           "url": "https://github.com/routerhubSI/deepseek-uncensored",
           "homepage": "https://routerhub.si/?utm_source=github&utm_medium=repo&utm_campaign=deepseek-uncensored",
           "description": "Every uncensored and abliterated DeepSeek build — V4.1 Flash 1017 Abliterated (the pinned, reproducible build that ranks third on the AA Cyber benchmark), V4 Pro, the tuned variants, abliterated GGUF builds and a cyber red-team prompt library. Maintained by RouterHub.",
-          "stars": 67,
+          "stars": 68,
           "forks": 20,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-12T04:44:07Z",
-          "updatedAt": "2026-11-12T06:07:41Z",
+          "updatedAt": "2026-11-12T12:35:49Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -99,7 +99,33 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 179.64
+          "score": 174.74
+        },
+        {
+          "id": 1455589295,
+          "name": "UmbrellaSpoofer-resocket",
+          "fullName": "Igniaemage/UmbrellaSpoofer-resocket",
+          "url": "https://github.com/Igniaemage/UmbrellaSpoofer-resocket",
+          "homepage": "",
+          "description": "Umbrella Spoofer v2.0.4 scans hwid reset beside hwid checker. hwid ban tally, smbios board, volume label, nic oui, snapshot pair, disk serial, caller id, device fingerprint, webgl canvases. ",
+          "stars": 49,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-11-12T17:00:03Z",
+          "updatedAt": "2026-11-12T20:23:19Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 136.86
         },
         {
           "id": 1453094692,
@@ -124,7 +150,7 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 133.28
+          "score": 128.75
         },
         {
           "id": 1453114215,
@@ -149,7 +175,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 87.83
+          "score": 82.93
         },
         {
           "id": 1453569142,
@@ -158,12 +184,12 @@
           "url": "https://github.com/rj-karan/ctfd-flagprint",
           "homepage": "https://zororj.me/ctfd-flagprint/",
           "description": "Stop flag sharing in CTFd: every team gets its own flag and its own files, and a shared flag tells you who leaked it.",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 10,
           "language": "Python",
           "createdAt": "2026-11-11T05:39:32Z",
-          "updatedAt": "2026-11-11T10:21:27Z",
+          "updatedAt": "2026-11-12T20:38:00Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -174,7 +200,33 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 67.94
+          "score": 75.44
+        },
+        {
+          "id": 1454115710,
+          "name": "MaldocTrace",
+          "fullName": "debugactiveprocess/MaldocTrace",
+          "url": "https://github.com/debugactiveprocess/MaldocTrace",
+          "homepage": "",
+          "description": "Defensive Office macro analyzer in Go: extracts VBA, deobfuscates it and emulates it in a fully simulated sandbox to recover commands, PowerShell, shellcode and dropped payloads without executing the sample.",
+          "stars": 5,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Go",
+          "createdAt": "2026-11-11T14:54:21Z",
+          "updatedAt": "2026-11-12T14:55:25Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 70.98
         },
         {
           "id": 1454011362,
@@ -183,12 +235,12 @@
           "url": "https://github.com/DNA-Cybertech-Solutions/zuhan",
           "homepage": "",
           "description": "Multi-source IOC lookup tool with a local IOC list, dump extraction and a local web UI",
-          "stars": 2,
+          "stars": 4,
           "forks": 1,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-11-11T13:24:35Z",
-          "updatedAt": "2026-11-11T17:35:33Z",
+          "updatedAt": "2026-11-12T13:16:45Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -198,7 +250,84 @@
           "tags": [
             "网络安全"
           ],
-          "score": 63.92
+          "score": 70.39
+        },
+        {
+          "id": 1453847041,
+          "name": "bastion",
+          "fullName": "ozerozdas/bastion",
+          "url": "https://github.com/ozerozdas/bastion",
+          "homepage": "https://mehmetozer.dev/bastion",
+          "description": "Local-first security center: one binary scans your GitHub repos and images with Trivy and Gitleaks, nothing leaves your machine",
+          "stars": 4,
+          "forks": 1,
+          "openIssues": 56,
+          "language": "Go",
+          "createdAt": "2026-11-11T10:43:35Z",
+          "updatedAt": "2026-11-12T18:17:57Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "逆向 / 恶意代码",
+            "网络安全"
+          ],
+          "score": 64.21
+        },
+        {
+          "id": 1454519763,
+          "name": "Salamanka-TV-14-mecool-KM6-Delux-",
+          "fullName": "feshinkof-boop/Salamanka-TV-14-mecool-KM6-Delux-",
+          "url": "https://github.com/feshinkof-boop/Salamanka-TV-14-mecool-KM6-Delux-",
+          "homepage": "",
+          "description": "Salamanka TV 14 — Native ARM64 Android TV 14 firmware for MECOOL KM6 Deluxe Rev 1 (Amlogic S905X4), focused on hardware support, security, performance and customization.",
+          "stars": 4,
+          "forks": 0,
+          "openIssues": 11,
+          "language": "Python",
+          "createdAt": "2026-11-11T21:30:57Z",
+          "updatedAt": "2026-11-12T18:06:12Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "逆向 / 恶意代码",
+            "网络安全"
+          ],
+          "score": 64.11
+        },
+        {
+          "id": 1454766630,
+          "name": "apex-agent-gates",
+          "fullName": "JeffersonOliveira/apex-agent-gates",
+          "url": "https://github.com/JeffersonOliveira/apex-agent-gates",
+          "homepage": "https://www.linkedin.com/in/jeffersonnsoliveira/",
+          "description": "Three gates to keep an AI coding agent in check when it writes Salesforce Apex: project rules, Claude Code hooks and a PR pipeline with persona tests. Lab from the Brazil Dreamin' 2026 talk.",
+          "stars": 3,
+          "forks": 0,
+          "openIssues": 2,
+          "language": "Apex",
+          "createdAt": "2026-11-12T03:08:06Z",
+          "updatedAt": "2026-11-12T19:57:39Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "AI 自动化 / Skill"
+          ],
+          "score": 61.4
         },
         {
           "id": 1454436066,
@@ -224,7 +353,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 63.34
+          "score": 58.81
         },
         {
           "id": 1453715838,
@@ -238,7 +367,7 @@
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-11T08:29:34Z",
-          "updatedAt": "2026-11-12T04:30:25Z",
+          "updatedAt": "2026-11-12T19:06:49Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -249,136 +378,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 63.02
-        },
-        {
-          "id": 1454115710,
-          "name": "MaldocTrace",
-          "fullName": "debugactiveprocess/MaldocTrace",
-          "url": "https://github.com/debugactiveprocess/MaldocTrace",
-          "homepage": "",
-          "description": "Defensive Office macro analyzer in Go: extracts VBA, deobfuscates it and emulates it in a fully simulated sandbox to recover commands, PowerShell, shellcode and dropped payloads without executing the sample.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Go",
-          "createdAt": "2026-11-11T14:54:21Z",
-          "updatedAt": "2026-11-12T08:01:55Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 60.18
-        },
-        {
-          "id": 1453684684,
-          "name": "cve-delta",
-          "fullName": "onur-yuksekkaya/cve-delta",
-          "url": "https://github.com/onur-yuksekkaya/cve-delta",
-          "homepage": "",
-          "description": "A to-do list for your Ubuntu server instead of a CVE list. Claude Code plugin: KEV/EPSS, real exposure, containers, pending reboots.",
-          "stars": 3,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-11-11T07:55:40Z",
-          "updatedAt": "2026-11-11T21:05:05Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 59
-        },
-        {
-          "id": 1450975832,
-          "name": "dsh-purge",
-          "fullName": "qiuqianyi66/dsh-purge",
-          "url": "https://github.com/qiuqianyi66/dsh-purge",
-          "homepage": "https://github.com/qiuqianyi66/dsh-purge#readme",
-          "description": "dsh-purge — Apache-2.0 DeepSeek Harness 红队评测插件（red-team / prompt-eval），适配 DSH 0.2.2-rc.1，可按模型替换提示词，补丁可一键还原",
-          "stars": 4,
-          "forks": 1,
-          "openIssues": 0,
-          "language": "JavaScript",
-          "createdAt": "2026-11-09T05:34:52Z",
-          "updatedAt": "2026-11-12T05:42:16Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 54.57
-        },
-        {
-          "id": 1453744056,
-          "name": "claude-code-repo-audit",
-          "fullName": "albkhachikyan/claude-code-repo-audit",
-          "url": "https://github.com/albkhachikyan/claude-code-repo-audit",
-          "homepage": "https://github.com/albkhachikyan/claude-code-repo-audit#readme",
-          "description": "Claude Code skill: audit an untrusted repo before you run it (fake interview take-homes, recruiter repos, zips). Reads, never executes. Finds autorun hooks, remote-code loaders, hidden Unicode, blockchain payloads. CLEAN / SUSPICIOUS / MALICIOUS verdict with file:line evidence.",
-          "stars": 2,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Shell",
-          "createdAt": "2026-11-11T08:59:02Z",
-          "updatedAt": "2026-11-11T14:03:03Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "渗透 / 红队"
-          ],
-          "score": 53.58
-        },
-        {
-          "id": 1452153273,
-          "name": "SAVR",
-          "fullName": "sanjio3/SAVR",
-          "url": "https://github.com/sanjio3/SAVR",
-          "homepage": "https://github.com/sanjio3/SAVR/releases/latest",
-          "description": "Automated white-box vulnerability scanning and verification: SAVR confirms every SAST finding by deterministically replaying it against a live target. Scan · Analyze · Verify · Replay",
-          "stars": 4,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Python",
-          "createdAt": "2026-11-10T03:18:42Z",
-          "updatedAt": "2026-11-12T06:01:57Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "AI 自动化 / Skill",
-            "漏洞研究 / 攻防"
-          ],
-          "score": 53.4
+          "score": 57.67
         }
       ]
     },
@@ -391,42 +391,42 @@
         "maxItems": 18
       },
       "createdSince": "2026-11-05",
-      "totalCandidates": 24,
+      "totalCandidates": 25,
       "queryStats": [
         {
           "profile": "通用安全",
           "query": "topic:security",
           "fetched": 12,
           "rateLimitRemaining": "24",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         },
         {
           "profile": "网络安全",
           "query": "topic:cybersecurity",
-          "fetched": 11,
+          "fetched": 12,
           "rateLimitRemaining": "23",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         },
         {
           "profile": "渗透 / 红队",
           "query": "topic:penetration-testing",
           "fetched": 3,
           "rateLimitRemaining": "22",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         },
         {
           "profile": "防守 / 蓝队",
           "query": "topic:defensive-security",
           "fetched": 0,
           "rateLimitRemaining": "21",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         },
         {
           "profile": "AI 自动化 / Skill",
           "query": "\"security automation\" OR \"ai security\" OR \"agent security\" OR \"mcp security\" OR \"security skill\"",
           "fetched": 0,
           "rateLimitRemaining": "20",
-          "rateLimitReset": "1794471512"
+          "rateLimitReset": "1794516672"
         }
       ],
       "repositories": [
@@ -437,12 +437,12 @@
           "url": "https://github.com/nukeratframework/nukerat",
           "homepage": "nukerat.com",
           "description": "A post exploitation framework for advanced Red Team operations",
-          "stars": 212,
-          "forks": 49,
-          "openIssues": 0,
+          "stars": 230,
+          "forks": 56,
+          "openIssues": 1,
           "language": "TypeScript",
           "createdAt": "2026-11-06T15:26:42Z",
-          "updatedAt": "2026-11-12T08:11:11Z",
+          "updatedAt": "2026-11-12T20:20:35Z",
           "matchedProfiles": [
             "渗透 / 红队"
           ],
@@ -452,7 +452,7 @@
           "tags": [
             "渗透 / 红队"
           ],
-          "score": 196.76
+          "score": 197.83
         },
         {
           "id": 1454837220,
@@ -461,12 +461,12 @@
           "url": "https://github.com/routerhubSI/deepseek-uncensored",
           "homepage": "https://routerhub.si/?utm_source=github&utm_medium=repo&utm_campaign=deepseek-uncensored",
           "description": "Every uncensored and abliterated DeepSeek build — V4.1 Flash 1017 Abliterated (the pinned, reproducible build that ranks third on the AA Cyber benchmark), V4 Pro, the tuned variants, abliterated GGUF builds and a cyber red-team prompt library. Maintained by RouterHub.",
-          "stars": 67,
+          "stars": 68,
           "forks": 20,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-12T04:44:07Z",
-          "updatedAt": "2026-11-12T06:07:41Z",
+          "updatedAt": "2026-11-12T12:35:49Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -480,7 +480,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 180.51
+          "score": 178.66
         },
         {
           "id": 1447768703,
@@ -489,12 +489,12 @@
           "url": "https://github.com/arnold117/iOS-NOIR",
           "homepage": "",
           "description": "No-jailbreak iOS privacy, entitlement, sandbox & telemetry forensic auditor (inspired by Verlintas/NOIR)",
-          "stars": 320,
+          "stars": 321,
           "forks": 60,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-06T03:03:47Z",
-          "updatedAt": "2026-11-12T03:24:36Z",
+          "updatedAt": "2026-11-12T17:06:02Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -506,7 +506,7 @@
             "AI 自动化 / Skill",
             "漏洞研究 / 攻防"
           ],
-          "score": 176.58
+          "score": 174.72
         },
         {
           "id": 1453094692,
@@ -531,7 +531,33 @@
             "通用安全",
             "网络安全"
           ],
-          "score": 140.89
+          "score": 138.95
+        },
+        {
+          "id": 1455589295,
+          "name": "UmbrellaSpoofer-resocket",
+          "fullName": "Igniaemage/UmbrellaSpoofer-resocket",
+          "url": "https://github.com/Igniaemage/UmbrellaSpoofer-resocket",
+          "homepage": "",
+          "description": "Umbrella Spoofer v2.0.4 scans hwid reset beside hwid checker. hwid ban tally, smbios board, volume label, nic oui, snapshot pair, disk serial, caller id, device fingerprint, webgl canvases. ",
+          "stars": 49,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Unknown",
+          "createdAt": "2026-11-12T17:00:03Z",
+          "updatedAt": "2026-11-12T20:23:19Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "AI 自动化 / Skill",
+            "防守 / 蓝队"
+          ],
+          "score": 137.71
         },
         {
           "id": 1447229827,
@@ -540,12 +566,12 @@
           "url": "https://github.com/letox4/netpwn",
           "homepage": "",
           "description": "Suite grafica de auditoria de redes (pentesting) con interfaz web: descubrimiento, escaneo, MITM, Wi-Fi y camaras IP. Como bettercap, con un clic.",
-          "stars": 61,
-          "forks": 16,
+          "stars": 67,
+          "forks": 18,
           "openIssues": 0,
           "language": "Python",
           "createdAt": "2026-11-05T16:18:03Z",
-          "updatedAt": "2026-11-12T07:52:48Z",
+          "updatedAt": "2026-11-12T15:58:37Z",
           "matchedProfiles": [
             "网络安全"
           ],
@@ -556,7 +582,7 @@
             "网络安全",
             "渗透 / 红队"
           ],
-          "score": 135.19
+          "score": 137.1
         },
         {
           "id": 1447224012,
@@ -565,12 +591,12 @@
           "url": "https://github.com/AaronCaiii/AgenticPentest",
           "homepage": "https://hub.docker.com/r/johncoke/agenticpentest",
           "description": "Agent-powered red team testing workbench with asset mapping, threat modeling, multi-agent workflows, cloud assessment, reports and MCP.",
-          "stars": 40,
+          "stars": 43,
           "forks": 14,
           "openIssues": 0,
           "language": "JavaScript",
           "createdAt": "2026-11-05T16:14:12Z",
-          "updatedAt": "2026-11-12T06:49:18Z",
+          "updatedAt": "2026-11-12T17:20:05Z",
           "matchedProfiles": [
             "网络安全",
             "渗透 / 红队"
@@ -584,7 +610,7 @@
             "渗透 / 红队",
             "AI 自动化 / Skill"
           ],
-          "score": 134.42
+          "score": 135.09
         },
         {
           "id": 1448116698,
@@ -593,12 +619,12 @@
           "url": "https://github.com/BountyForge-xyz/pwn-skill",
           "homepage": "",
           "description": "Agent skill for binary exploitation and CTF pwn — stack, heap, format string, kernel, seccomp bypass.",
-          "stars": 53,
+          "stars": 54,
           "forks": 6,
           "openIssues": 0,
           "language": "Unknown",
           "createdAt": "2026-11-06T10:19:31Z",
-          "updatedAt": "2026-11-10T22:24:39Z",
+          "updatedAt": "2026-11-12T12:07:46Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -611,7 +637,7 @@
             "渗透 / 红队",
             "逆向 / 恶意代码"
           ],
-          "score": 119.32
+          "score": 117.85
         },
         {
           "id": 1449045462,
@@ -637,7 +663,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 114.97
+          "score": 112.87
         },
         {
           "id": 1446942322,
@@ -651,7 +677,7 @@
           "openIssues": 0,
           "language": "HTML",
           "createdAt": "2026-11-05T11:58:49Z",
-          "updatedAt": "2026-11-09T22:49:06Z",
+          "updatedAt": "2026-11-12T20:48:24Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -663,7 +689,7 @@
             "AI 自动化 / Skill",
             "防守 / 蓝队"
           ],
-          "score": 105.56
+          "score": 104.99
         },
         {
           "id": 1450296338,
@@ -689,7 +715,7 @@
             "AI 自动化 / Skill",
             "渗透 / 红队"
           ],
-          "score": 100.8
+          "score": 98.7
         },
         {
           "id": 1453114215,
@@ -714,7 +740,7 @@
             "网络安全",
             "逆向 / 恶意代码"
           ],
-          "score": 95.98
+          "score": 93.88
         },
         {
           "id": 1450695273,
@@ -723,12 +749,12 @@
           "url": "https://github.com/humanethq/airgap-check",
           "homepage": "",
           "description": "Audit AI repositories for offline (--network none) crashes, silent telemetry, and .env secret routing",
-          "stars": 19,
+          "stars": 20,
           "forks": 0,
           "openIssues": 0,
           "language": "Go",
           "createdAt": "2026-11-08T21:55:28Z",
-          "updatedAt": "2026-11-12T01:15:26Z",
+          "updatedAt": "2026-11-12T15:09:15Z",
           "matchedProfiles": [
             "通用安全"
           ],
@@ -739,7 +765,32 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 92.31
+          "score": 91.58
+        },
+        {
+          "id": 1453569142,
+          "name": "ctfd-flagprint",
+          "fullName": "rj-karan/ctfd-flagprint",
+          "url": "https://github.com/rj-karan/ctfd-flagprint",
+          "homepage": "https://zororj.me/ctfd-flagprint/",
+          "description": "Stop flag sharing in CTFd: every team gets its own flag and its own files, and a shared flag tells you who leaked it.",
+          "stars": 6,
+          "forks": 1,
+          "openIssues": 10,
+          "language": "Python",
+          "createdAt": "2026-11-11T05:39:32Z",
+          "updatedAt": "2026-11-12T20:38:00Z",
+          "matchedProfiles": [
+            "网络安全"
+          ],
+          "profileWeights": [
+            1.08
+          ],
+          "tags": [
+            "网络安全",
+            "渗透 / 红队"
+          ],
+          "score": 84.17
         },
         {
           "id": 1449825953,
@@ -766,7 +817,32 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 80.08
+          "score": 78.14
+        },
+        {
+          "id": 1450663336,
+          "name": "installctl",
+          "fullName": "yamixst/installctl",
+          "url": "https://github.com/yamixst/installctl",
+          "homepage": "",
+          "description": "Run untrusted third-party installers (curl | sh) in an unprivileged FUSE copy-on-write sandbox and review changes before applying them",
+          "stars": 11,
+          "forks": 0,
+          "openIssues": 0,
+          "language": "Rust",
+          "createdAt": "2026-11-08T21:06:36Z",
+          "updatedAt": "2026-11-12T18:30:53Z",
+          "matchedProfiles": [
+            "通用安全"
+          ],
+          "profileWeights": [
+            1
+          ],
+          "tags": [
+            "通用安全",
+            "漏洞研究 / 攻防"
+          ],
+          "score": 77.79
         },
         {
           "id": 1450538393,
@@ -793,7 +869,7 @@
             "渗透 / 红队",
             "漏洞研究 / 攻防"
           ],
-          "score": 78.86
+          "score": 76.77
         },
         {
           "id": 1449369527,
@@ -818,83 +894,7 @@
             "通用安全",
             "AI 自动化 / Skill"
           ],
-          "score": 78.51
-        },
-        {
-          "id": 1448949639,
-          "name": "ha-security-monitor",
-          "fullName": "schadom/ha-security-monitor",
-          "url": "https://github.com/schadom/ha-security-monitor",
-          "homepage": "",
-          "description": "Home Assistant Security Monitor integration",
-          "stars": 11,
-          "forks": 0,
-          "openIssues": 1,
-          "language": "Python",
-          "createdAt": "2026-11-07T02:19:42Z",
-          "updatedAt": "2026-11-09T09:14:02Z",
-          "matchedProfiles": [
-            "通用安全"
-          ],
-          "profileWeights": [
-            1
-          ],
-          "tags": [
-            "通用安全",
-            "网络安全"
-          ],
-          "score": 73.11
-        },
-        {
-          "id": 1450742120,
-          "name": "cyberbot",
-          "fullName": "cyberbot-ai/cyberbot",
-          "url": "https://github.com/cyberbot-ai/cyberbot",
-          "homepage": "https://cyberbot-ai.github.io/cyberbot/",
-          "description": "An AI-powered DevSecOps/DevOps cockpit for your server fleet. Monitor services, spot critical vulnerabilities, and investigate incidents with your AI agents.",
-          "stars": 5,
-          "forks": 0,
-          "openIssues": 0,
-          "language": "Rust",
-          "createdAt": "2026-11-08T23:15:32Z",
-          "updatedAt": "2026-11-11T19:53:12Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "AI 自动化 / Skill"
-          ],
-          "score": 69.11
-        },
-        {
-          "id": 1446616713,
-          "name": "ctfvault",
-          "fullName": "arif-offsec/ctfvault",
-          "url": "https://github.com/arif-offsec/ctfvault",
-          "homepage": "",
-          "description": "A categorized, difficulty-tagged directory of 100+ completely free CTF and cybersecurity practice platforms — web, crypto, pwn, forensics, AD, cloud, mobile, and more.",
-          "stars": 7,
-          "forks": 2,
-          "openIssues": 0,
-          "language": "Unknown",
-          "createdAt": "2026-11-05T06:19:16Z",
-          "updatedAt": "2026-11-12T08:13:59Z",
-          "matchedProfiles": [
-            "网络安全"
-          ],
-          "profileWeights": [
-            1.08
-          ],
-          "tags": [
-            "网络安全",
-            "渗透 / 红队",
-            "防守 / 蓝队"
-          ],
-          "score": 68.47
+          "score": 76.57
         }
       ]
     }
